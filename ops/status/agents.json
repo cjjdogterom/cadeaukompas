@@ -1,0 +1,109 @@
+{
+  "updatedAt": "2026-11-17T18:15:00+01:00",
+  "agents": {
+    "orchestrator": {
+      "status": "bezig",
+      "currentTask": "Dagrapport van 18 november voorbereiden en taken van morgen verdelen",
+      "lastRunAt": "2026-11-17T18:10:00+01:00",
+      "lastResult": "Dagrapport 17 nov geschreven; project verhuisd naar ~/Projects/cadeausite",
+      "nextRun": "Dagelijks 08:00 (automatisch zodra GitHub-repo en API-sleutel er zijn)",
+      "blockedBy": null
+    },
+    "product-scout": {
+      "status": "gepland",
+      "currentTask": "Collectie aanvullen: meer Amazon/Coolblue/Intertoys, en lezen & sport",
+      "lastRunAt": "2026-11-17T17:20:00+01:00",
+      "lastResult": "2 shortlists, 50 producten gevonden",
+      "nextRun": "18 nov",
+      "blockedBy": null
+    },
+    "leverancier": {
+      "status": "wacht",
+      "currentTask": "Aanmelding bij Andriez, SpeelgoedFamilie of Gelato voorbereid",
+      "lastRunAt": "2026-11-17T17:15:00+01:00",
+      "lastResult": "12 leveranciers vergeleken, top 3 + 3 akkoordverzoeken",
+      "nextRun": "Na jouw akkoord",
+      "blockedBy": "KvK/btw-nummer en jouw akkoord op een leverancier"
+    },
+    "catalogus": {
+      "status": "gepland",
+      "currentTask": "28 nog niet geverifieerde prijzen nalopen; feed-sync bouwen zodra Bol-API-sleutel er is",
+      "lastRunAt": "2026-11-17T17:50:00+01:00",
+      "lastResult": "48 producten in catalogus (concept), titels opgeschoond, 1 gepauzeerd",
+      "nextRun": "18 nov; daarna elk uur feed-sync",
+      "blockedBy": null
+    },
+    "developer": {
+      "status": "bezig",
+      "currentTask": "Eigenaar-dashboard (/admin); daarna cookiebanner + Consent Mode en Mollie-testcheckout",
+      "lastRunAt": "2026-11-17T18:15:00+01:00",
+      "lastResult": "Basis-site gebouwd; lint, tests en build groen",
+      "nextRun": "Doorlopend",
+      "blockedBy": null
+    },
+    "qa": {
+      "status": "geblokkeerd",
+      "currentTask": "Volledige QA-run (Lighthouse, toegankelijkheid, links) op de preview",
+      "lastRunAt": null,
+      "lastResult": null,
+      "nextRun": "Zodra er een Vercel-preview is",
+      "blockedBy": "Vercel-account (owner-todo #7)"
+    },
+    "seo-content": {
+      "status": "gepland",
+      "currentTask": "Zoekwoordonderzoek en 4 extra cadeaugidsen",
+      "lastRunAt": null,
+      "lastResult": "4 eerste gidsen en surprise/gedicht-content staan op de site (door Developer)",
+      "nextRun": "18 nov",
+      "blockedBy": null
+    },
+    "order-ops": {
+      "status": "inactief",
+      "currentTask": "Start bij de eerste dropship-leverancier",
+      "lastRunAt": null,
+      "lastResult": null,
+      "nextRun": "Elk kwartier (script), na dropship-start",
+      "blockedBy": "Nog geen dropship-leverancier"
+    },
+    "klantenservice": {
+      "status": "inactief",
+      "currentTask": "Start bij livegang",
+      "lastRunAt": null,
+      "lastResult": null,
+      "nextRun": "Na livegang",
+      "blockedBy": "Site nog niet live"
+    },
+    "advertentie-maker": {
+      "status": "inactief",
+      "currentTask": "Conceptadvertenties maken voor Google, Meta en Pinterest (kosten niets tot jouw akkoord)",
+      "lastRunAt": null,
+      "lastResult": null,
+      "nextRun": "Rond livegang (dag 4)",
+      "blockedBy": "Site nog niet live"
+    },
+    "advertentie-beoordelaar": {
+      "status": "inactief",
+      "currentTask": "Beoordeelt dagelijks lopende advertenties volgens het testkader",
+      "lastRunAt": null,
+      "lastResult": null,
+      "nextRun": "Dagelijks 07:30, zodra er advertenties lopen",
+      "blockedBy": "Nog geen advertenties"
+    },
+    "analytics-finance": {
+      "status": "inactief",
+      "currentTask": "Omzet, commissie, kosten en winst bijhouden in ops/finance/summary.json",
+      "lastRunAt": null,
+      "lastResult": null,
+      "nextRun": "Dagelijks, zodra er data is",
+      "blockedBy": "Supabase en affiliate-accounts (owner-todo #3, #4, #8)"
+    },
+    "compliance": {
+      "status": "gepland",
+      "currentTask": "Eerste toetsing van de site tegen de compliance-checklist",
+      "lastRunAt": null,
+      "lastResult": null,
+      "nextRun": "18 nov",
+      "blockedBy": null
+    }
+  }
+}

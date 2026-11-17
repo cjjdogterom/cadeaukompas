@@ -1,0 +1,17 @@
+{"ts":"2026-11-17T16:00:00+01:00","agent":"orchestrator","type":"klaar","summary":"Plan eerste 48 uur, beslissingslog, owner-todo en 10 vragen aan de eigenaar opgesteld","files":["ops/plan-48h.md","ops/owner-todo.md","ops/vragen-eigenaar.md"]}
+{"ts":"2026-11-17T16:10:00+01:00","agent":"orchestrator","type":"klaar","summary":"13 agents gedefinieerd met rol, tools en grenzen","files":[".claude/agents/"]}
+{"ts":"2026-11-17T16:15:00+01:00","agent":"orchestrator","type":"klaar","summary":"Advertentie-testkader en compliance-checklist vastgelegd","files":["ops/ads-framework.md","ops/compliance-checklist.md"]}
+{"ts":"2026-11-17T16:20:00+01:00","agent":"orchestrator","type":"gestart","summary":"Product-scout (2×) en Leverancier-agent gestart op de achtergrond"}
+{"ts":"2026-11-17T16:30:00+01:00","agent":"developer","type":"klaar","summary":"Datamodel (Supabase-migratie) en .env-sjabloon gemaakt","files":["supabase/migrations/0001_init.sql",".env.example"]}
+{"ts":"2026-11-17T16:45:00+01:00","agent":"product-scout","type":"klaar","summary":"Shortlist volwassenen: 25 producten (bol/Amazon), prijzen nog niet bevestigd","files":["data/research/shortlist-2026-11-17-a.json"]}
+{"ts":"2026-11-17T17:00:00+01:00","agent":"catalogus","type":"klaar","summary":"23 producten geïmporteerd uit shortlist A; 2 overgeslagen (score < 60)","files":["data/products.json"]}
+{"ts":"2026-11-17T17:05:00+01:00","agent":"catalogus","type":"probleem","summary":"Link-check: Echo Dot gaf 404 → gepauzeerd. bol blokkeert geautomatiseerde checks deels"}
+{"ts":"2026-11-17T17:15:00+01:00","agent":"leverancier","type":"wacht","summary":"12 dropshippers vergeleken; top 3 (Andriez, SpeelgoedFamilie, Gelato) wachten op jouw akkoord. Dropship vóór Sinterklaas niet haalbaar","files":["ops/research/leveranciers-2026-11-17.md","ops/approvals/"]}
+{"ts":"2026-11-17T17:20:00+01:00","agent":"product-scout","type":"klaar","summary":"Shortlist kinderen/tieners/vrienden: 25 producten, 20 prijzen gecontroleerd op 17-11","files":["data/research/shortlist-2026-11-17-b.json"]}
+{"ts":"2026-11-17T17:25:00+01:00","agent":"catalogus","type":"klaar","summary":"25 producten geïmporteerd uit shortlist B; catalogus nu 48 producten (concept)","files":["data/products.json"]}
+{"ts":"2026-11-17T17:45:00+01:00","agent":"developer","type":"klaar","summary":"Basis-site: home, cadeaugids met filters, productpagina's met besteldeadlines, cadeauzoeker, 4 gidsen, content en concept-juridische pagina's. Lint, 7 tests en build groen","files":["app/","lib/","components/"]}
+{"ts":"2026-11-17T17:50:00+01:00","agent":"catalogus","type":"klaar","summary":"Producttitels opgeschoond (winkel-SEO-titels ingekort)","files":["data/products.json"]}
+{"ts":"2026-11-17T17:55:00+01:00","agent":"developer","type":"klaar","summary":"Smoke-test: alle 14 routes 200, affiliate-redirect werkt, geen horizontale scroll op mobiel. Nog geen volledige QA-run"}
+{"ts":"2026-11-17T18:05:00+01:00","agent":"orchestrator","type":"beslissing","summary":"Project verhuisd van OneDrive naar ~/Projects/cadeausite (met akkoord eigenaar)","files":["ops/decisions.md"]}
+{"ts":"2026-11-17T18:10:00+01:00","agent":"orchestrator","type":"klaar","summary":"Dagrapport 17 november geschreven","files":["ops/daily/2026-11-17.md"]}
+{"ts":"2026-11-17T18:40:00+01:00","agent":"developer","type":"klaar","summary":"Eigenaar-dashboard /admin gebouwd: agents, logboek, cijfers, catalogus en wat jij nog moet doen","files":["app/admin/","lib/ops.ts","proxy.ts"]}

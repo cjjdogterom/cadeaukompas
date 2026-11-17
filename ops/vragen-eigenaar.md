@@ -1,0 +1,14 @@
+# Vragen aan de eigenaar (17 nov)
+
+Tot je antwoordt bouw ik door met de standaardkeuze tussen haakjes. Alles is omkeerbaar.
+
+1. **Naam en domein** — welke shopnaam en welk domein? *(werknaam "Cadeaukompas", geen domein)*
+2. **Rechtsvorm** — eenmanszaak of bestaande bv? Ben je al ingeschreven bij KvK? *(eenmanszaak, nog niet ingeschreven)*
+3. **Accounts die al bestaan** — heb je al een Bol-partner-, Amazon-, Awin/TradeTracker/Daisycon-, Mollie-, Vercel-, Supabase- of GitHub-account? *(nee, alles nieuw)*
+4. **Dropship ja/nee vóór Sinterklaas** — dropship vraagt KvK, Mollie-verificatie, leveranciercontract en retourafhandeling; realistisch op z'n vroegst ~25 nov. Wil je Sinterklaas puur affiliate doen en dropship voor kerst? *(ja: Sinterklaas = affiliate, dropship voor kerst)*
+5. **Doelgroep-focus** — breed (iedereen) of een niche (bv. collega's/zakelijk, tieners, thuiswerkers)? Een niche maakt SEO en advertenties goedkoper. *(breed, met 3 niches als SEO-landingspagina's)*
+6. **Prijsklasse** — vooral < €25, €25–50, of ook duurder? *(zwaartepunt €10–50, een paar tot €100)*
+7. **Tone of voice** — speels/Sinterklaasachtig of rustig/stijlvol? *(warm en behulpzaam, licht speels, geen schreeuwerige kortingstaal)*
+8. **Contact** — welk e-mailadres en telefoonnummer mag in de footer, en wie beantwoordt klantvragen na concept van de Klantenservice-agent? *(placeholder; jij keurt goed)*
+9. ~~**Projectlocatie**~~ — beantwoord 17-11: verhuisd naar `~/Projects/cadeausite`. Back-up via GitHub (owner-todo #17).
+10. **Budget agents/hosting** — naast €500 advertenties: akkoord met Vercel Pro (~$20/mnd) en Anthropic API-kosten voor geplande agent-runs (schatting €30–80 voor de hele periode)? *(nog niets uitgegeven)*

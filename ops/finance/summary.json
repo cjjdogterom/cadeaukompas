@@ -1,0 +1,22 @@
+{
+  "updatedAt": "2026-11-17T18:15:00+01:00",
+  "source": "Handmatig: er is nog geen databron gekoppeld (geen orders, geen affiliate-accounts, geen advertenties).",
+  "totals": {
+    "dropshipRevenueCents": 0,
+    "dropshipMarginCents": 0,
+    "commissionExpectedCents": 0,
+    "commissionConfirmedCents": 0,
+    "adSpendCents": 0,
+    "adBudgetCents": 50000,
+    "otherCostsCents": 0,
+    "outboundClicks": 0,
+    "orders": 0
+  },
+  "channels": [
+    { "channel": "Google Shopping/Search", "budgetCents": 20000, "spentCents": 0, "resultCents": 0 },
+    { "channel": "Meta (Instagram/Facebook)", "budgetCents": 17500, "spentCents": 0, "resultCents": 0 },
+    { "channel": "Pinterest", "budgetCents": 7500, "spentCents": 0, "resultCents": 0 },
+    { "channel": "Reserve", "budgetCents": 5000, "spentCents": 0, "resultCents": 0 }
+  ],
+  "daily": []
+}

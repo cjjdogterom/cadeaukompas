@@ -1,0 +1,95 @@
+# Geplande agent-taken. Staan pas aan als de repo op GitHub staat en de secrets gezet zijn (ops/owner-todo.md #17).
+# Tijden in UTC. NL = UTC+1 in de winter.
+name: scheduled-ops
+
+on:
+  schedule:
+    - cron: "5 * * * *"      # feed-sync elk uur (script, geen LLM)
+    - cron: "*/15 * * * *"   # order-ops elk kwartier (script, geen LLM; escaleert naar agent bij uitzonderingen)
+    - cron: "30 6 * * *"     # advertentie-beoordeling 07:30 NL (claude -p)
+    - cron: "0 7 * * *"      # dagrapport 08:00 NL (claude -p)
+  workflow_dispatch:
+    inputs:
+      job:
+        description: "feed-sync | order-ops | ads-review | daily-report"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scheduled-ops-${{ github.event.schedule || inputs.job }}
+  cancel-in-progress: false
+
+env:
+  NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+  SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+  BOL_API_CLIENT_ID: ${{ secrets.BOL_API_CLIENT_ID }}
+  BOL_API_CLIENT_SECRET: ${{ secrets.BOL_API_CLIENT_SECRET }}
+  RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+  MOLLIE_API_KEY: ${{ secrets.MOLLIE_API_KEY }}
+
+jobs:
+  feed-sync:
+    if: github.event.schedule == '5 * * * *' || inputs.job == 'feed-sync'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - run: npm run sync:feeds
+
+  order-ops:
+    if: github.event.schedule == '*/15 * * * *' || inputs.job == 'order-ops'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - run: npm run ops:orders
+
+  ads-review:
+    if: github.event.schedule == '30 6 * * *' || inputs.job == 'ads-review'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - name: Advertentie-beoordelaar
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          npx -y @anthropic-ai/claude-code -p "Gebruik de subagent advertentie-beoordelaar (.claude/agents/advertentie-beoordelaar.md) en voer de dagelijkse beoordeling uit voor $(date -u +%F)." \
+            --permission-mode acceptEdits \
+            --allowedTools "Read,Write,Edit,Glob,Grep,Agent,Bash(npm run ops:*)"
+      - name: Commit rapport
+        run: |
+          git config user.name "ops-bot" && git config user.email "ops-bot@users.noreply.github.com"
+          git add ops/ && git diff --cached --quiet || (git commit -m "ops: advertentie-beoordeling $(date -u +%F)" && git push)
+
+  daily-report:
+    if: github.event.schedule == '0 7 * * *' || inputs.job == 'daily-report'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - name: Orchestrator — dagrapport
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          npx -y @anthropic-ai/claude-code -p "Gebruik de subagent orchestrator (.claude/agents/orchestrator.md) en schrijf het dagrapport ops/daily/$(TZ=Europe/Amsterdam date +%F).md." \
+            --permission-mode acceptEdits \
+            --allowedTools "Read,Write,Edit,Glob,Grep,Agent,Bash(npm run ops:*)"
+      - name: Commit rapport
+        run: |
+          git config user.name "ops-bot" && git config user.email "ops-bot@users.noreply.github.com"
+          git add ops/ && git diff --cached --quiet || (git commit -m "ops: dagrapport $(TZ=Europe/Amsterdam date +%F)" && git push)

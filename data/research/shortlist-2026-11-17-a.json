@@ -1,0 +1,1024 @@
+[
+  {
+    "slug": "dobble-connect-kaartspel",
+    "title": "Dobble Connect - Kaartspel",
+    "brand": "Zygomatic",
+    "short": "Een snel kaartspel waarbij je als team vier kaarten in jullie kleur probeert te verbinden.",
+    "description": "Dobble Connect draait om scherp kijken: je zoekt steeds het plaatje dat twee kaarten gemeen hebben. Het speelt vlot weg, is zo uitgelegd en past in een jaszak. Handig om mee te nemen naar het familiediner of de kantoorborrel.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/dobble-connect-kaartspel/9300000148921207/",
+    "priceCents": 1399,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "opa-oma",
+      "collega",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "spellen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/dobble-connect-kaartspel/9300000148921207/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 66,
+      "commissionPct": 5,
+      "notes": "Prijs indicatief uit zoekresultaat (adviesprijs €13,99 in zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). URL uit zoekresultaat."
+    }
+  },
+  {
+    "slug": "bolsius-geurkaars-vanilla",
+    "title": "Bolsius Vanilla - Geurkaars",
+    "brand": "Bolsius",
+    "short": "Een zachte vanillegeur in een glaasje: simpel, betaalbaar en altijd welkom.",
+    "description": "Een geurkaars in glas die de kamer rustig laat ruiken naar vanille. Zet hem op de vensterbank of het bureau en de sfeer is meteen warmer. Een veilige keuze als kleine attentie.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/bolsius-vanilla-geurkaars/9200000007070796/",
+    "priceCents": 900,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "moeder",
+      "collega",
+      "opa-oma"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "thuis",
+      "wellness"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/bolsius-vanilla-geurkaars/9200000007070796/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 60,
+      "commissionPct": 4,
+      "notes": "Prijs indicatief uit zoekresultaat (bol.com-listing), niet op productpagina bevestigd; levertijd onbekend (default 1/3). URL uit be/nl-zoekresultaat omgezet naar nl/nl met hetzelfde product-ID; prijs ca. €9 (zoekresultaat, mogelijk andere variant)."
+    }
+  },
+  {
+    "slug": "neutrogena-noorse-formule-handcreme-2x50",
+    "title": "Neutrogena Handcrème Noorse Formule - Ongeparfumeerd - 2x50 ml",
+    "brand": "Neutrogena",
+    "short": "Twee tubes handcrème zonder parfum voor droge winterhanden.",
+    "description": "Deze rijke handcrème is ongeparfumeerd en trekt goed in, dus ook handig als je veel typt of de handen vaak wast. In de winter merk je meteen verschil. Een praktisch cadeautje dat je gerust kunt stapelen bij iets groters.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/neutrogena-handcreme-ongeparfumeerd-noorse-formule-voedende-en-beschermende-vochtinbrengende-creme-voor-droge-en-beschadigde-handen-2-x-50-ml/9300000075093693/",
+    "priceCents": 849,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "opa-oma",
+      "moeder",
+      "vader",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "wellness"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/neutrogena-handcreme-ongeparfumeerd-noorse-formule-voedende-en-beschermende-vochtinbrengende-creme-voor-droge-en-beschadigde-handen-2-x-50-ml/9300000075093693/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 62,
+      "commissionPct": 5,
+      "notes": "Prijs indicatief uit zoekresultaat (bol.com-listing), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "neutrogena-visibly-renew-handcreme-spf20",
+    "title": "Neutrogena Anti-aging handcrème SPF20 - Noorse Formule - 2 x 75 ml",
+    "brand": "Neutrogena",
+    "short": "Een verzorgende handcrème met SPF20, twee tubes in een set.",
+    "description": "Naast verzorging krijgen de handen ook wat bescherming tegen de zon, ook handig in de winter bij sneeuw of een zonnige dag. De tubes zijn klein genoeg voor in een tas of bureaulade. Een nuttig extraatje voor bij een pakje.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/neutrogena-noorse-formule-visibly-renew-anti-aging-handcreme-spf20-ontwikkeld-door-dermatologen-voor-optimale-bescherming-en-hydratatie-2-x-75-ml/9300000159373257/",
+    "priceCents": 949,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "moeder",
+      "collega",
+      "opa-oma"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "wellness"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/neutrogena-noorse-formule-visibly-renew-anti-aging-handcreme-spf20-ontwikkeld-door-dermatologen-voor-optimale-bescherming-en-hydratatie-2-x-75-ml/9300000159373257/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 58,
+      "commissionPct": 5,
+      "notes": "Prijs indicatief uit zoekresultaat (bol.com-listing), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "clipper-thee-giftbox-45-zakjes",
+    "title": "Clipper Thee Giftbox",
+    "brand": "Clipper",
+    "short": "Een doos met negen soorten biologische thee om uit te proberen.",
+    "description": "Negen smaken thee, vijf zakjes per smaak, mooi verpakt in één doos. Zo kan de ontvanger rustig ontdekken wat het lekkerst is. Prima voor wie op kantoor of thuis graag een theepauze neemt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/clipper-thee-giftbox/9300000153287292/",
+    "priceCents": 1499,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "collega",
+      "moeder",
+      "opa-oma",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken",
+      "wellness"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/clipper-thee-giftbox/9300000153287292/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 68,
+      "commissionPct": 4,
+      "notes": "Prijs indicatief uit zoekresultaat (€14,99 uit zoekresultaat (be-listing van vergelijkbare negen-smaken box)), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "tonys-chocolonely-melk-karamel-zeezout-180g",
+    "title": "Tony's Chocolonely Chocolade Reep Melk Karamel Zeezout - 180 gram",
+    "brand": "Tony's Chocolonely",
+    "short": "De favoriete Tony's-smaak: melkchocolade met stukjes karamel en een snufje zeezout.",
+    "description": "Een grote reep waar bijna iedereen blij van wordt. Past perfect bij pakjesavond, of als kleine bedankt voor een collega. De fairtrade-gedachte van het merk maakt het extra sympathiek.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/chocolade-tony-chocolonely-melk-karam-zeezt-180gr-stuk-a-180-gram/9300000114481875/",
+    "priceCents": 829,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "collega",
+      "partner",
+      "vader"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/chocolade-tony-chocolonely-melk-karam-zeezt-180gr-stuk-a-180-gram/9300000114481875/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 72,
+      "commissionPct": 4,
+      "notes": "Prijs indicatief uit zoekresultaat (€6,95 tot €8,29 bij meerdere verkopers in zoekresultaten; €8,29 aangehouden), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "tonys-chocolonely-proeverijtje-6-repen",
+    "title": "Tony's Chocolonely Proeverijtje Chocolade Cadeau - 6 x 47,5 gram",
+    "brand": "Tony's Chocolonely",
+    "short": "Zes kleine repen in verschillende smaken in een cadeaudoosje.",
+    "description": "Een proeverij met zes mini-repen waarmee je meteen een hele smaakreis cadeau geeft. Geen keuzestress en het doosje ziet er verzorgd uit. Ideaal voor een surprise of een bedankje.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/tony-s-chocolonely-proeverijtje-chocolade-cadeau-6-x-47-50-gram/9200000117297651/",
+    "priceCents": 1785,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "collega",
+      "partner",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/tony-s-chocolonely-proeverijtje-chocolade-cadeau-6-x-47-50-gram/9200000117297651/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 74,
+      "commissionPct": 4,
+      "notes": "Prijs indicatief uit zoekresultaat (€17,85 uit zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "lindt-lindor-assortiment-geschenkverpakking-287g",
+    "title": "Lindt Lindor - Chocolade Assortiment in Geschenkverpakking - A Gift for You (287g)",
+    "brand": "Lindt",
+    "short": "Een doos Lindor-bonbons in melk, puur en wit, kant-en-klaar als cadeau.",
+    "description": "Zachte bonbons met een smeltende vulling in een nette geschenkdoos. Je hoeft niets meer in te pakken en het smaakt iedereen. Een klassieker die op de feestdagen nooit verkeerd valt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lindt-lindor-chocolade-assortiment-in-geschenkverpakking-a-gift-for-you-kerstcadeau-kerst-chocolade/9300000019768314/",
+    "priceCents": 1895,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "moeder",
+      "opa-oma",
+      "collega"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lindt-lindor-chocolade-assortiment-in-geschenkverpakking-a-gift-for-you-kerstcadeau-kerst-chocolade/9300000019768314/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 66,
+      "commissionPct": 4,
+      "notes": "Prijs indicatief uit zoekresultaat (€18,95 (verkoper Koopjeskelder.nl) uit zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "hitster-original-nederlandstalig",
+    "title": "Jumbo Hitster Original - Nederlandstalig Partyspel - Muziekspel - Actiespel",
+    "brand": "Jumbo",
+    "short": "Raad bij welk jaar een nummer hoort en bouw zo je eigen tijdlijn van hits.",
+    "description": "Je scant een kaart, hoort een nummer en moet bepalen waar het in de tijdlijn past. Het levert lachen en discussie op, ook als je geen muziekfanaat bent. Een prima spel voor een avond met vrienden, familie of collega's.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/hitster-partyspel-kaartspel/9300000101253647/",
+    "priceCents": 2199,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "partner",
+      "vader",
+      "collega"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "spellen",
+      "muziek"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 1395,
+      "source": "bol.com productpagina (gezien tijdens scouting)"
+    },
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/hitster-partyspel-kaartspel/9300000101253647/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 84,
+      "commissionPct": 5,
+      "notes": "Prijs indicatief uit zoekresultaat (€18,99 tot €23,45 in zoekresultaten; €21,99 gemiddeld aangehouden; score en aantal reviews wel gezien op de pagina), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "leuchtturm1917-notitieboek-a5-gelinieerd",
+    "title": "LEUCHTTURM1917 Notitieboek medium (A5), hardcover, 251 genummerde pagina's, gelinieerd",
+    "brand": "Leuchtturm1917",
+    "short": "Een stevig A5-notitieboek met genummerde pagina's en inhoudsopgave.",
+    "description": "Een notitieboek dat er goed uitziet op het bureau en niet snel stuk gaat. Door de genummerde bladzijden en inhoudsopgave vind je alles terug. Een fijn cadeau voor wie graag met pen en papier plant.",
+    "type": "affiliate",
+    "merchant": "amazon",
+    "merchantUrl": "https://www.amazon.nl/LEUCHTTURM1917-Notitieboek-genummerde-donkerblauw-gelinieerd/dp/B0CDYNKXTY",
+    "priceCents": 2295,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "thuiswerker",
+      "collega",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "creatief",
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.amazon.nl/LEUCHTTURM1917-Notitieboek-genummerde-donkerblauw-gelinieerd/dp/B0CDYNKXTY"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 64,
+      "commissionPct": 4,
+      "notes": "Prijs indicatief uit zoekresultaat (€22,95 uit amazon.nl-zoekresultaat (donkerblauwe variant)), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "kadax-dubbelwandige-glazen-mok-280ml-set-2",
+    "title": "KADAX Dubbelwandige glazen mok, 280 ml, set van 2",
+    "brand": "KADAX",
+    "short": "Twee doorzichtige glazen met dubbele wand, waar je koffie of thee in lijkt te zweven.",
+    "description": "De dubbele wand houdt je drank langer warm en de buitenkant blijft prettig vast te houden. Het ziet er mooi uit op tafel of bureau. Leuk als setje voor twee.",
+    "type": "affiliate",
+    "merchant": "amazon",
+    "merchantUrl": "https://www.amazon.nl/KADAX-Dubbelwandige-koffieglas-thermoglas-zweefeffect/dp/B081NBV4HL",
+    "priceCents": 1898,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "moeder",
+      "thuiswerker",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "thuis",
+      "eten-drinken"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.amazon.nl/KADAX-Dubbelwandige-koffieglas-thermoglas-zweefeffect/dp/B081NBV4HL"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 56,
+      "commissionPct": 4,
+      "notes": "Prijs indicatief uit zoekresultaat (€18,98 voor twee stuks uit amazon.nl-zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "yankee-candle-large-jar-vanilla",
+    "title": "Yankee Candle Large Jar Geurkaars - Vanilla",
+    "brand": "Yankee Candle",
+    "short": "Een grote geurkaars met een warme vanillegeur die uren meegaat.",
+    "description": "De grote pot brandt ongeveer 150 uur, dus de ontvanger heeft er wekenlang plezier van. Vanille is een geur waar weinig mensen een hekel aan hebben. Zet hem op een veilige plek en de woonkamer ruikt gezellig.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/yankee-candle-large-jar-geurkaars-vanilla/9200000073831323/",
+    "priceCents": 2495,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "partner",
+      "moeder",
+      "opa-oma"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "thuis",
+      "wellness"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/yankee-candle-large-jar-geurkaars-vanilla/9200000073831323/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 70,
+      "commissionPct": 4,
+      "notes": "Prijs indicatief uit zoekresultaat (€24 tot €26 uit zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "rituals-sakura-giftset-small",
+    "title": "RITUALS The Ritual of Sakura Giftset Small",
+    "brand": "Rituals",
+    "short": "Een compact verwenpakket in Sakura-geur: douchen, scrubben en insmeren.",
+    "description": "Een set met schuim, scrub, bodycrème en handzeep in de bekende kersenbloesem-geur met rijstmelk. Het is een mooi verpakt cadeau voor een avondje thuis opfrissen. Geschikt als kleine verwennerij.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/rituals-the-ritual-of-sakura-giftset-small/9200000118170327/",
+    "priceCents": 2090,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "partner",
+      "moeder"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "wellness"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/rituals-the-ritual-of-sakura-giftset-small/9200000118170327/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 70,
+      "commissionPct": 5,
+      "notes": "Prijs indicatief uit zoekresultaat (bol.com-listing), niet op productpagina bevestigd; levertijd onbekend (default 1/3). URL uit be/nl-zoekresultaat omgezet naar nl/nl met hetzelfde product-ID; prijs €20,90 uit zoekresultaat."
+    }
+  },
+  {
+    "slug": "bialetti-moka-express-6-kops",
+    "title": "Bialetti Moka Express - Percolator 6 kops - Aluminium - 270ml inhoud",
+    "brand": "Bialetti",
+    "short": "Het Italiaanse percolatortje voor sterke koffie op het gas of de elektrische plaat.",
+    "description": "Deze klassieker zet in een paar minuten een volle, krachtige espresso-achtige koffie. Ziet er mooi uit op het fornuis en gaat bij goed onderhoud jaren mee. Let op: niet geschikt voor inductie, dus check even het fornuis van de ontvanger.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/bialetti-moka-express-percolator-6-kops-aluminium/9200000038446313/",
+    "priceCents": 3395,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "vader",
+      "partner",
+      "opa-oma",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "koken",
+      "eten-drinken"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/bialetti-moka-express-percolator-6-kops-aluminium/9200000038446313/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 76,
+      "commissionPct": 5,
+      "notes": "Prijs indicatief uit zoekresultaat (€26 tot €37 per kleur/verkoper; €33,95 voor zwarte variant uit zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "lego-icons-bonsaiboompje-10281",
+    "title": "LEGO Icons Bonsaiboompje - 10281 - Botanical Collection",
+    "brand": "LEGO",
+    "short": "Bouw een bonsai met groene bladeren of roze bloesem, om te laten staan op het bureau.",
+    "description": "Een rustige bouwklus van zo'n 878 stukjes die je daarna als decoratie kunt neerzetten. Je kiest zelf tussen zomers groen of lentebloesem. Een leuk idee voor wie wel wil ontspannen maar geen echte plant kan bijhouden.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-creator-expert-bonsaiboompje-10281/9300000015132313/",
+    "priceCents": 3999,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "partner",
+      "vader",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "creatief",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-creator-expert-bonsaiboompje-10281/9300000015132313/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 80,
+      "commissionPct": 5,
+      "notes": "Prijs indicatief uit zoekresultaat (€39,99 (soms €44,99) uit zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "beurer-hk-125-xxl-warmtekussen",
+    "title": "Beurer HK 125 XXL Cosy Grey Warmtekussen",
+    "brand": "Beurer",
+    "short": "Een groot elektrisch warmtekussen met fleecehoes voor koude dagen.",
+    "description": "Zes warmtestanden en een automatische uitschakeling na zo'n anderhalf uur maken dit een zorgeloos kussen voor op de bank of in de rug achter het bureau. De hoes kan eraf. Voor wie het snel koud heeft is dit meteen een favoriet.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/beurer-hk-125-xxl-elektrisch-kussen-100-w-grijs/9200000120404665/",
+    "priceCents": 4399,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "opa-oma",
+      "moeder",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "wellness",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/beurer-hk-125-xxl-elektrisch-kussen-100-w-grijs/9200000120404665/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 70,
+      "commissionPct": 4,
+      "notes": "Prijs indicatief uit zoekresultaat (€43,99 uit zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "philips-sonicare-3100-elektrische-tandenborstel",
+    "title": "Philips Sonicare 3100 daily clean elektrische tandenborstel",
+    "brand": "Philips",
+    "short": "Een degelijke sonische tandenborstel met timer, een stap omhoog van een gewone.",
+    "description": "Praktisch en toch een cadeau dat mensen niet voor zichzelf kopen. De timer helpt om twee minuten te poetsen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/philips-sonicare-3100-daily-clean-elektrische-tandenborstel-volwassene-sonische-tandenborstel-grijs-wit/9200000124638167/",
+    "priceCents": 4499,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "vader",
+      "moeder",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "wellness",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/philips-sonicare-3100-daily-clean-elektrische-tandenborstel-volwassene-sonische-tandenborstel-grijs-wit/9200000124638167/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 68,
+      "commissionPct": 4,
+      "notes": "Prijs indicatief uit zoekresultaat (ca. €39,95-49,99 voor 3100-serie; €44,99 aangehouden), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "rituals-ritual-of-jing-giftset-medium",
+    "title": "RITUALS The Ritual of Jing Giftset Medium",
+    "brand": "Rituals",
+    "short": "Een rustgevende verzorgingsset in Jing-geur voor een ontspannen avond.",
+    "description": "Een set met douche- en badproducten die de dag rustig afsluiten. Mooi verpakt in een cadeauverpakking. Ideaal voor wie zichzelf te weinig tijd gunt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/p/rituals-the-ritual-of-jing-giftset-medium/9300000001206969/",
+    "priceCents": 2990,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "partner",
+      "moeder"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "wellness"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/p/rituals-the-ritual-of-jing-giftset-medium/9300000001206969/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 68,
+      "commissionPct": 5,
+      "notes": "Prijs indicatief uit zoekresultaat (€29,90 uit zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "rituals-handverzorging-set-van-3",
+    "title": "RITUALS Handverzorging set van 3 in cadeaudoos",
+    "brand": "Rituals",
+    "short": "Handbalsem, handmasker en handlotion samen in een cadeaudoos.",
+    "description": "Drie producten voor de handen in één doosje, handig als het buiten koud en droog wordt. De ontvanger kan er zelf een klein verwenmoment van maken. Een nette set die er cadeau-waardig uitziet.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/rituals-handverzorging-set-van-3/9300000171212271/",
+    "priceCents": 3295,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "moeder",
+      "partner",
+      "collega"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "wellness"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/rituals-handverzorging-set-van-3/9300000171212271/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 66,
+      "commissionPct": 5,
+      "notes": "Prijs indicatief uit zoekresultaat (€32,95 (small giftset) uit zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "echo-dot-5e-generatie-nederlands",
+    "title": "Alexa Echo Dot 5e generatie luidspreker",
+    "brand": "Amazon",
+    "short": "Een slimme speaker met Alexa voor muziek, timers en het licht bedienen.",
+    "description": "Een compacte speaker die je met je stem bedient. Handig in de keuken voor een timer of op het bureau voor muziek. Let op: er bestaan varianten die geen Nederlands spreken. Deze listing is de Nederlandstalige.",
+    "type": "affiliate",
+    "merchant": "amazon",
+    "merchantUrl": "https://www.amazon.nl/Alexa-generatie-luidsprekers-verschillende-kleuren/dp/B0CT6CMLJ4",
+    "priceCents": 3999,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "thuiswerker",
+      "vader",
+      "opa-oma"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "muziek"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.amazon.nl/Alexa-generatie-luidsprekers-verschillende-kleuren/dp/B0CT6CMLJ4"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 64,
+      "commissionPct": 3,
+      "notes": "Prijs indicatief uit zoekresultaat (€29,99 tot €39,99 in zoekresultaat; verifieer of het de Nederlandstalige versie is), niet op productpagina bevestigd; levertijd onbekend (default 1/3). Controleer taalversie en prijs voor publicatie."
+    }
+  },
+  {
+    "slug": "logitech-mx-master-3s",
+    "title": "Logitech MX Master 3S - Draadloze muis - Pale Gray - Rechtshandig",
+    "brand": "Logitech",
+    "short": "Een comfortabele, bijna geluidloze draadloze muis voor wie veel achter de computer werkt.",
+    "description": "Ligt goed in de hand, scrolt vloeiend en werkt met meerdere apparaten. Een upgrade die je dagelijks merkt tijdens thuiswerken. Echt een cadeau voor iemand die veel uren achter het scherm zit.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/logitech-mx-master-3s-muis-licht-grijs/9300000096887785/",
+    "priceCents": 8500,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "thuiswerker",
+      "vader",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/logitech-mx-master-3s-muis-licht-grijs/9300000096887785/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 78,
+      "commissionPct": 4,
+      "notes": "Prijs indicatief uit zoekresultaat (€72 tot €100 in zoekresultaten; €85 aangehouden), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "philips-hue-go-draagbare-tafellamp",
+    "title": "Philips Hue Go draagbare tafellamp - Wit & gekleurd licht - Zwart",
+    "brand": "Philips Hue",
+    "short": "Een draagbare sfeerlamp op accu die je overal neerzet.",
+    "description": "Zet hem op het bureau, de vensterbank of op de bank. Je kunt het licht van wit naar kleur veranderen via de app of de knop op de lamp. Zonder snoer te verplaatsen, dus handig voor wie sfeer wil in meerdere ruimtes.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/philips-hue-go-draagbare-tafellamp-wit-en-gekleurd-licht-zwart/9300000138857157/",
+    "priceCents": 7100,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "partner",
+      "thuiswerker",
+      "moeder"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/philips-hue-go-draagbare-tafellamp-wit-en-gekleurd-licht-zwart/9300000138857157/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 72,
+      "commissionPct": 4,
+      "notes": "Prijs indicatief uit zoekresultaat (€66,99 tot €79 in zoekresultaten), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "beurer-hd-75-elektrische-deken",
+    "title": "Beurer HD 75 Elektrische deken - 180x130 cm - Cosy Ocean",
+    "brand": "Beurer",
+    "short": "Een elektrische fleece deken met zes standen voor op de bank.",
+    "description": "Machinewasbaar en met veiligheidssysteem, dus je kunt er ontspannen onder zitten. Zes standen zorgen dat de warmte past bij de avond. Voor wie in de winter het liefst onder een warme deken zit.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/beurer-hd-75-elektrische-deken-6-temperatuurniveaus-veiligheidssysteem-machinewasbaar-cosy-ocean/9300000141584485/",
+    "priceCents": 5900,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "opa-oma",
+      "partner",
+      "moeder"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "wellness",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/beurer-hd-75-elektrische-deken-6-temperatuurniveaus-veiligheidssysteem-machinewasbaar-cosy-ocean/9300000141584485/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 72,
+      "commissionPct": 4,
+      "notes": "Prijs indicatief uit zoekresultaat (€59,00 uit zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "nespresso-vertuo-pop-krups",
+    "title": "Krups Nespresso Vertuo Pop YY488FD Mint",
+    "brand": "Krups / Nespresso",
+    "short": "Een compacte Nespresso-machine met vier bekerformaten.",
+    "description": "Je plaatst een capsule en de machine regelt de rest. Klein genoeg voor een keukenhoek of kantoor. Voor koffieliefhebbers die weinig gedoe willen. Capsules zijn apart verkrijgbaar.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/krups-nespresso-vertuo-pop-yy488fd-mint/9300000172694347/",
+    "priceCents": 8200,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "partner",
+      "vader",
+      "thuiswerker",
+      "collega"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/krups-nespresso-vertuo-pop-yy488fd-mint/9300000172694347/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 74,
+      "commissionPct": 4,
+      "notes": "Prijs indicatief uit zoekresultaat (ca. €82 voor Krups-uitvoering in zoekresultaten; kleur/prijs per verkoper wisselt), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  },
+  {
+    "slug": "hitster-celebration-luxe-editie",
+    "title": "Jumbo Hitster Celebration - Actiespel met Muziek - Muziekspel",
+    "brand": "Jumbo",
+    "short": "De luxere Hitster-uitvoering voor wie het muziekspel al kent of iets mooiers wil geven.",
+    "description": "Zelfde spelidee als de standaarddoos: je raadt waar een nummer in de tijdlijn hoort. Deze editie is bedoeld als feestelijker cadeau. Leuk voor een familieavond met pakjes en muziek.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/hitster-celebration/9300000236076323/",
+    "priceCents": 3299,
+    "priceCheckedAt": null,
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "partner",
+      "vader",
+      "collega"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "spellen",
+      "muziek"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/hitster-celebration/9300000236076323/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 70,
+      "commissionPct": 5,
+      "notes": "Prijs indicatief uit zoekresultaat (€29,99 tot €34,99 in zoekresultaat; €32,99 aangehouden), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+    }
+  }
+]
