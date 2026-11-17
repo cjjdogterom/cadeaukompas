@@ -3,7 +3,9 @@ import { Suspense } from "react";
 import { connection } from "next/server";
 import { applyFilters, getProducts, type Filters } from "@/lib/catalog";
 import { AGE_GROUPS, BUDGETS, INTERESTS, RECIPIENTS } from "@/lib/types";
-import { todayInNL } from "@/lib/deadlines";
+import { formatDate, todayInNL } from "@/lib/deadlines";
+import { getDeliveries } from "@/lib/delivery";
+import { parseDeadline } from "@/lib/delivery-core";
 import { FilterBar } from "@/components/FilterBar";
 import { ProductGrid } from "@/components/ProductCard";
 
@@ -18,35 +20,44 @@ function pick<T extends string>(value: unknown, allowed: readonly T[]): T | unde
   return typeof value === "string" && (allowed as readonly string[]).includes(value) ? (value as T) : undefined;
 }
 
-export function parseFilters(sp: SP): Filters {
+export function parseFilters(sp: SP, today: string): Filters {
   return {
     voor: pick(sp.voor, Object.keys(RECIPIENTS) as (keyof typeof RECIPIENTS)[]),
     budget: pick(sp.budget, Object.keys(BUDGETS) as (keyof typeof BUDGETS)[]),
     leeftijd: pick(sp.leeftijd, Object.keys(AGE_GROUPS) as (keyof typeof AGE_GROUPS)[]),
     interesse: pick(sp.interesse, Object.keys(INTERESTS) as (keyof typeof INTERESTS)[]),
     optijd: pick(sp.optijd, ["sinterklaas", "kerst"] as const),
+    uiterlijk: parseDeadline(sp.uiterlijk, today),
   };
 }
 
 async function Results({ searchParams }: { searchParams: Promise<SP> }) {
-  const filters = parseFilters(await searchParams);
-  await connection(); // "op tijd voor" hangt af van de datum van vandaag
-  const all = await getProducts();
-  const results = applyFilters(all, filters, todayInNL());
+  const sp = await searchParams;
+  await connection(); // bezorgdatums hangen af van het moment van nu
+  const today = todayInNL();
+  const filters = parseFilters(sp, today);
+  const matching = applyFilters(await getProducts(), filters, today);
+  const deliveries = await getDeliveries(matching);
+  const results = filters.uiterlijk
+    ? matching.filter((p) => (deliveries.get(p.slug)?.latest ?? "9999") <= filters.uiterlijk!)
+    : matching;
   return (
     <>
       <div className="mt-6">
-        <FilterBar current={filters} />
+        <FilterBar current={filters} today={today} />
       </div>
       <p className="mt-6 text-sm text-muted" aria-live="polite">
         {results.length} {results.length === 1 ? "cadeau" : "cadeaus"} gevonden
+        {filters.uiterlijk && <> die uiterlijk {formatDate(filters.uiterlijk)} in huis zijn als je vandaag bestelt</>}
       </p>
       <div className="mt-4">
         {results.length ? (
-          <ProductGrid products={results} />
+          <ProductGrid products={results} deliveries={deliveries} />
         ) : (
           <p className="rounded-2xl border border-dashed border-line p-8 text-center text-muted">
-            Niets gevonden met deze combinatie. Probeer een filter minder.
+            {filters.uiterlijk
+              ? "Niets gevonden dat op tijd in huis is. Kies een latere datum of een filter minder."
+              : "Niets gevonden met deze combinatie. Probeer een filter minder."}
           </p>
         )}
       </div>

@@ -3,9 +3,10 @@ import type { Product } from "@/lib/types";
 import { MERCHANTS } from "@/lib/types";
 import { formatPrice } from "@/lib/format";
 import { formatDate, lastOrderDate } from "@/lib/deadlines";
+import type { Delivery } from "@/lib/delivery-core";
 import { ProductArt } from "./ProductArt";
 
-export function ProductCard({ product }: { product: Product }) {
+export function ProductCard({ product, delivery }: { product: Product; delivery?: Delivery }) {
   const merchant = MERCHANTS[product.merchant].name;
   const deadline = product.occasions.includes("sinterklaas")
     ? { label: "Sint", date: lastOrderDate(product.deliveryDaysMax, "sinterklaas") }
@@ -30,20 +31,28 @@ export function ProductCard({ product }: { product: Product }) {
           <p className="text-lg font-semibold text-ink">
             {formatPrice(product.priceCents)} <span className="text-sm font-normal text-muted">bij {merchant}</span>
           </p>
-          <p className="mt-1 text-[13px] text-pine">
-            Op tijd voor {deadline.label}: bestel t/m {formatDate(deadline.date, true)}
-          </p>
+          {delivery ? (
+            <p className="mt-1 text-[13px] text-pine">
+              {delivery.source === "bol" ? "Nu besteld, uiterlijk in huis" : "Nu besteld, verwacht uiterlijk"}{" "}
+              <span className="font-semibold">{formatDate(delivery.latest, true)}</span>
+              {delivery.source === "bol" && <span className="text-muted"> · volgens bol</span>}
+            </p>
+          ) : (
+            <p className="mt-1 text-[13px] text-pine">
+              Op tijd voor {deadline.label}: bestel t/m {formatDate(deadline.date, true)}
+            </p>
+          )}
         </div>
       </div>
     </article>
   );
 }
 
-export function ProductGrid({ products }: { products: Product[] }) {
+export function ProductGrid({ products, deliveries }: { products: Product[]; deliveries?: Map<string, Delivery> }) {
   return (
     <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
       {products.map((p) => (
-        <ProductCard key={p.slug} product={p} />
+        <ProductCard key={p.slug} product={p} delivery={deliveries?.get(p.slug)} />
       ))}
     </div>
   );

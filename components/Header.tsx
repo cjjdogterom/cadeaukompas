@@ -16,7 +16,7 @@ export function Header() {
     <header className="border-b border-line bg-paper/95">
       <p className="bg-pine px-4 py-2 text-center text-sm text-paper">
         Pakjesavond: snelste cadeaus uiterlijk <strong className="font-semibold">{formatDate(sintFast)}</strong> bestellen.{" "}
-        <Link href="/cadeaus?optijd=sinterklaas" className="underline underline-offset-2">
+        <Link href="/cadeaus?uiterlijk=2026-12-04" className="underline underline-offset-2">
           Toon wat nog op tijd komt
         </Link>
       </p>

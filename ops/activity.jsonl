@@ -50,3 +50,4 @@
 {"ts": "2026-11-17T22:15:00+01:00", "agent": "catalogus", "type": "gestart", "summary": "18 concepten uit shortlist D verifiëren (prijs + link, zonder bot-omzeiling) en alleen bij succes activeren"}
 {"ts": "2026-11-17T22:15:00+01:00", "agent": "seo-content", "type": "gestart", "summary": "Nieuwe gidsen: cadeau voor moeder en cadeaus 0–7 jaar; vaste datums uit oudere gidsen halen"}
 {"ts": "2026-11-17T22:15:00+01:00", "agent": "compliance", "type": "gestart", "summary": "Eerste toetsing van de site tegen ops/compliance-checklist.md (rapport, geen live wijzigingen)"}
+{"ts":"2026-11-18T00:20:00+01:00","agent":"developer","type":"klaar","summary":"Filter \"uiterlijk in huis op\" (homepage + /cadeaus): toont alleen cadeaus die op tijd bezorgd worden; bezorgdatum live via bol Marketing Catalog API zodra sleutels er zijn, anders schatting","files":["lib/bol.ts","lib/delivery.ts","components/FilterBar.tsx"]}

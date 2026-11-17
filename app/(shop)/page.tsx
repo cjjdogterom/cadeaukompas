@@ -23,11 +23,31 @@ export default async function Home() {
           Kies voor wie, je budget en wat ze leuk vinden. Bij elk cadeau zie je eerlijk hoe snel het geleverd wordt en tot
           wanneer je kunt bestellen voor Sinterklaas of kerst.
         </p>
-        <div className="mt-8 flex flex-wrap gap-3">
+        <form
+          action="/cadeaus"
+          method="get"
+          className="mt-8 flex max-w-xl flex-wrap items-end gap-3 rounded-2xl border border-line bg-white p-4"
+        >
+          <label className="flex flex-1 flex-col gap-1 text-sm">
+            <span className="font-medium text-ink">Wanneer moet het cadeau uiterlijk in huis zijn?</span>
+            <input
+              type="date"
+              name="uiterlijk"
+              required
+              defaultValue="2026-12-04"
+              className="h-12 rounded-lg border border-line bg-paper px-3 text-ink"
+            />
+          </label>
+          <button type="submit" className="h-12 rounded-full bg-pine px-6 font-medium text-paper hover:bg-pine/90">
+            Toon wat op tijd komt
+          </button>
+          <p className="basis-full text-xs text-muted">We kijken per cadeau naar de bezorgdatum die de winkel belooft.</p>
+        </form>
+        <div className="mt-4 flex flex-wrap gap-3">
           <Link href="/cadeauzoeker" className="rounded-full bg-sint px-6 py-3.5 font-medium text-white hover:bg-sint-dark">
             Start de cadeauzoeker
           </Link>
-          <Link href="/cadeaus?optijd=sinterklaas" className="rounded-full border border-ink/20 px-6 py-3.5 font-medium text-ink hover:bg-cream">
+          <Link href="/cadeaus?uiterlijk=2026-12-04" className="rounded-full border border-ink/20 px-6 py-3.5 font-medium text-ink hover:bg-cream">
             Alles wat op tijd is voor 5 dec
           </Link>
         </div>

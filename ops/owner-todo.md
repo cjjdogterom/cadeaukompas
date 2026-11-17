@@ -27,6 +27,10 @@ Gesorteerd op volgorde. Vink af met `[x]`. Sleutels zet je in Vercel (Settings �
 - [x] **2c. Domein gekoppeld** (17-11) — optijdcadeau.nl en www (stuurt door) wijzen naar Vercel, HTTPS werkt, `NEXT_PUBLIC_SITE_URL` staat. De site is bereikbaar maar nog **niet vindbaar** in Google (noindex). Bij livegang-akkoord: `NEXT_PUBLIC_INDEXABLE=true` in Vercel + Redeploy.
 - [x] **2d. Indexeren aan** (17-11) — `NEXT_PUBLIC_INDEXABLE=true`; robots.txt staat Google toe, sitemap op /sitemap.xml.
 
+## 2b. Bezorgdatums live van bol (aanbevolen)
+
+- [ ] **bol Open API-sleutels** — partner.bol.com → Account → scroll naar **Open API** → **Toevoegen** → naam bv. "optijdcadeau". Je krijgt een Client ID en Client Secret. Zet ze zelf in Vercel (Production) als `BOL_API_CLIENT_ID` en `BOL_API_CLIENT_SECRET` (Secret niet in de chat plakken) en Redeploy. Dan toont de site per cadeau de bezorgdatum die bol belooft en filtert "uiterlijk in huis op" daarop; zonder sleutels is het een schatting uit onze levertijden.
+
 ## 3. Meer winkels (meer producten, meer commissie)
 
 - [ ] **3a. Affiliate-netwerk(en)** — Awin (awin.com, publisher, borg ca. €5 die terugkomt), TradeTracker (tradetracker.com/nl) en/of Daisycon (daisycon.com). Daarna per winkel aanmelden (Coolblue, HEMA, Intertoys, Bijenkorf, fonQ). Sleutels: `AWIN_PUBLISHER_ID`, `AWIN_API_TOKEN`; `TRADETRACKER_CUSTOMER_ID`, `TRADETRACKER_PASSPHRASE`, `TRADETRACKER_SITE_ID`; `DAISYCON_PUBLISHER_ID`, `DAISYCON_MEDIA_ID`. Dan zet de catalogus-agent de concept-producten van die winkels live.

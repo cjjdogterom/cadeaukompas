@@ -56,6 +56,8 @@ export type Filters = {
   leeftijd?: AgeGroup;
   interesse?: Interest;
   optijd?: Occasion;
+  /** Uiterlijk in huis op (YYYY-MM-DD); wordt in de pagina gefilterd met de bezorgdatum van bol. */
+  uiterlijk?: string;
 };
 
 export function applyFilters(products: Product[], f: Filters, today: string): Product[] {
