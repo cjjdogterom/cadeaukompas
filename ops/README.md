@@ -49,3 +49,6 @@ Iets dat geld kost, juridisch bindt, prijzen/kortingen, terugbetalingen, aanmeld
 ## Eigenaar-dashboard
 
 `/admin` (wachtwoord via `ADMIN_PASSWORD`) toont per agent de status en het logboek, de cijfers uit `ops/finance/summary.json`, de catalogus en alles wat op de eigenaar wacht (approvals, vragen, owner-todo). Het dashboard leest deze bestanden, dus houd ze bij volgens het logboek-blok in elke agent.
+
+## Prompts
+`ops/prompts.md` bevat kant-en-klare prompts die de eigenaar vanuit `/admin` kopieert en in Claude Code plakt. Nieuwe prompt: `## Titel`, regels `Agent:`, `Wanneer:`, `Nodig van jou:` en een ```text-blok.

@@ -270,3 +270,50 @@ export async function getCatalogStats() {
     withImage: products.filter((p) => p.imageUrl && p.imageLicense).length,
   };
 }
+
+// ---------- Prompts om te kopiëren ----------
+
+export type PromptItem = { title: string; agent: string | null; when: string | null; needs: string | null; text: string };
+export type PromptGroup = { title: string; prompts: PromptItem[] };
+
+/** Leest ops/prompts.md: `# Groep`, `## Titel`, regels Agent:/Wanneer:/Nodig van jou:, prompt in een ```text-blok. */
+export async function getPrompts(): Promise<PromptGroup[]> {
+  const raw = (await read("ops/prompts.md")) ?? "";
+  const groups: PromptGroup[] = [];
+  let current: PromptItem | null = null;
+  let inCode = false;
+  let code: string[] = [];
+  for (const line of raw.split("\n")) {
+    if (line.startsWith("```")) {
+      if (inCode && current) current.text = code.join("\n").trim();
+      inCode = !inCode;
+      code = [];
+      continue;
+    }
+    if (inCode) {
+      code.push(line);
+      continue;
+    }
+    const group = line.match(/^#\s+(.+)/);
+    if (group) {
+      groups.push({ title: group[1].trim(), prompts: [] });
+      current = null;
+      continue;
+    }
+    const title = line.match(/^##\s+(.+)/);
+    if (title && groups.length) {
+      current = { title: title[1].trim(), agent: null, when: null, needs: null, text: "" };
+      groups[groups.length - 1].prompts.push(current);
+      continue;
+    }
+    if (!current) continue;
+    const field = line.match(/^(Agent|Wanneer|Nodig van jou):\s*(.+)$/);
+    if (field) {
+      const key = field[1] === "Agent" ? "agent" : field[1] === "Wanneer" ? "when" : "needs";
+      current[key] = field[2].trim();
+    }
+  }
+  return groups
+    .map((g) => ({ ...g, prompts: g.prompts.filter((p) => p.text) }))
+    .filter((g) => g.prompts.length);
+}

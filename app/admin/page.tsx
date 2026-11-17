@@ -10,6 +10,7 @@ import {
   getFinance,
   getLatestDaily,
   getOwnerTodos,
+  getPrompts,
   getQuestions,
   type Activity,
   type Agent,
@@ -18,6 +19,7 @@ import {
 import { formatPrice } from "@/lib/format";
 import { daysUntil, todayInNL } from "@/lib/deadlines";
 import { MERCHANTS } from "@/lib/types";
+import { CopyButton } from "./CopyButton";
 
 const dateTime = new Intl.DateTimeFormat("nl-NL", {
   weekday: "short",
@@ -59,7 +61,7 @@ async function Dashboard({ searchParams }: { searchParams: PageProps<"/admin">["
   const agentFilter = typeof sp.agent === "string" ? sp.agent : undefined;
   const today = todayInNL();
 
-  const [{ agents, updatedAt }, activity, finance, todos, questions, approvals, daily, catalog] = await Promise.all([
+  const [{ agents, updatedAt }, activity, finance, todos, questions, approvals, daily, catalog, prompts] = await Promise.all([
     getAgents(),
     getActivity(),
     getFinance(),
@@ -68,6 +70,7 @@ async function Dashboard({ searchParams }: { searchParams: PageProps<"/admin">["
     getApprovals(),
     getLatestDaily(),
     getCatalogStats(),
+    getPrompts(),
   ]);
 
   const t = finance.totals;
@@ -144,6 +147,11 @@ async function Dashboard({ searchParams }: { searchParams: PageProps<"/admin">["
                     </p>
                     {a.cost && <p className="mt-1 line-clamp-2 text-xs text-ink/75" title={a.cost}>Kosten: {a.cost}</p>}
                     <p className="mt-0.5 font-mono text-[11px] text-muted">ops/approvals/{a.file}</p>
+                    <CopyButton
+                      className="mt-2"
+                      label="Kopieer prompt: leg uit"
+                      text={`Leg ops/approvals/${a.file} in gewone taal uit: wat wordt er gevraagd, wat kost het en wat gebeurt er als ik nee zeg? Vraag me daarna per keuze wat ik wil. Zet zelf nog niets op AKKOORD.`}
+                    />
                   </li>
                 ))}
               </ul>
@@ -161,6 +169,11 @@ async function Dashboard({ searchParams }: { searchParams: PageProps<"/admin">["
                       {q.number}. {q.title}
                     </p>
                     <p className="mt-0.5 line-clamp-2 text-sm text-muted" title={q.detail}>{q.detail}</p>
+                    <CopyButton
+                      className="mt-2"
+                      label="Kopieer prompt: beantwoorden"
+                      text={`Over vraag ${q.number} in ops/vragen-eigenaar.md ("${q.title}"): mijn antwoord is [JE ANTWOORD]. Verwerk dit, streep de vraag door en zeg wat er nu verandert.`}
+                    />
                   </li>
                 ))}
               </ol>
@@ -192,10 +205,17 @@ async function Dashboard({ searchParams }: { searchParams: PageProps<"/admin">["
                           >
                             {item.done ? "✓" : ""}
                           </span>
-                          <span className={item.done ? "text-muted line-through" : "text-ink"}>
+                          <span className={`min-w-0 flex-1 ${item.done ? "text-muted line-through" : "text-ink"}`}>
                             <span className="sr-only">{item.done ? "Gedaan: " : "Open: "}</span>
                             {item.title}
                           </span>
+                          {!item.done && (
+                            <CopyButton
+                              className="!px-2 !py-0.5 !text-[11px]"
+                              label="Hulp"
+                              text={`Help me stap voor stap met deze taak uit ops/owner-todo.md: "${item.title}"${item.detail ? ` (${item.detail})` : ""}. Zeg precies waar ik moet klikken en wat ik moet invullen. Vul zelf geen wachtwoorden of betaalgegevens in. Als ik zeg dat het klaar is: vink de taak af en zet aan wat daarmee kan.`}
+                            />
+                          )}
                         </li>
                       ))}
                     </ul>
@@ -204,6 +224,39 @@ async function Dashboard({ searchParams }: { searchParams: PageProps<"/admin">["
               })}
             </div>
           </Panel>
+        </div>
+      </section>
+
+      {/* Prompts */}
+      <section aria-labelledby="prompts" className="mt-10">
+        <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 id="prompts" className="font-display text-2xl font-semibold text-ink">Prompts voor Claude</h2>
+          <p className="text-sm text-muted">Kopieer, plak in Claude Code in ~/Projects/cadeausite en vul [haken] in · ops/prompts.md</p>
+        </div>
+        <div className="mt-4 grid gap-4 lg:grid-cols-2">
+          {prompts.map((group) => (
+            <Panel key={group.title} title={group.title}>
+              <ul className="divide-y divide-line">
+                {group.prompts.map((p) => (
+                  <li key={p.title} className="py-3 first:pt-0 last:pb-0">
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="min-w-0">
+                        <p className="font-medium text-ink">{p.title}</p>
+                        {p.when && <p className="mt-0.5 text-xs text-muted">Wanneer: {p.when}</p>}
+                        {p.needs && <p className="text-xs text-muted">Nodig van jou: {p.needs}</p>}
+                        {p.agent && <p className="text-xs text-muted">Agent: {p.agent}</p>}
+                      </div>
+                      <CopyButton text={p.text} className="shrink-0" />
+                    </div>
+                    <details className="mt-2">
+                      <summary className="cursor-pointer text-xs text-muted">Toon prompt</summary>
+                      <pre className="mt-2 whitespace-pre-wrap rounded-xl bg-cream/60 p-3 font-mono text-xs leading-relaxed text-ink/85">{p.text}</pre>
+                    </details>
+                  </li>
+                ))}
+              </ul>
+            </Panel>
+          ))}
         </div>
       </section>
 

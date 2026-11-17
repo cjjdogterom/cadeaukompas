@@ -4,7 +4,7 @@ Gesorteerd op urgentie. Vink af met `[x]` en zet sleutels in `.env.local` (nooit
 
 ## Vandaag / morgen (blokkeert omzet)
 
-- [ ] **1. KvK-inschrijving** (eenmanszaak of bestaande bv?)
+- [x] **1. KvK-inschrijving** — KvK 90505611 (doorgegeven 17-11, staat in lib/site.ts). Nog nodig: btw-id (komt per post van de Belastingdienst) en bedrijfsnaam/adres/e-mail/telefoon (zie 11).
   - kvk.nl → "Inschrijven eenmanszaak" → afspraak of online met DigiD. Kosten ca. €80 eenmalig.
   - Je ontvangt KvK-nummer en (bij eenmanszaak) automatisch een btw-id van de Belastingdienst.
   - Nodig voor: footer, Mollie, affiliate-netwerken, leveranciers.
@@ -21,7 +21,7 @@ Gesorteerd op urgentie. Vink af met `[x]` en zet sleutels in `.env.local` (nooit
 ## Dag 3–4 (voor livegang)
 
 - [x] **7. Vercel-account** — project `cadeaukompas`: https://cadeaukompas-chris356.vercel.app (bouwt automatisch bij elke push naar `main`; staat achter Vercel Deployment Protection).
-- [ ] **7b. Dashboard-wachtwoord**: Vercel → project cadeaukompas → Settings → Environment Variables → `ADMIN_PASSWORD` (zelf verzonnen, sterk) voor Production en Preview → daarna Redeploy. Zonder dit geeft `/admin` op Vercel een 404.
+- [x] **7b. Dashboard-wachtwoord** — ingesteld voor Production (17-11). Optioneel ook Preview aanvinken. Was: Vercel → project cadeaukompas → Settings → Environment Variables → `ADMIN_PASSWORD` (zelf verzonnen, sterk) voor Production en Preview → daarna Redeploy. Zonder dit geeft `/admin` op Vercel een 404.
 - [ ] **7c. Vercel-plan**: Hobby mag niet commercieel gebruikt worden; vóór de livegang naar Pro (~$20/mnd, zie vraag 10).
 - [ ] **8. Supabase-project** (supabase.com → New project, regio Frankfurt `eu-central-1`, gratis tier volstaat).
   - Settings → API: `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY` (geheim!).

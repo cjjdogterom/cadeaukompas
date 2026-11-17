@@ -11,7 +11,7 @@ export const site = {
     address: "[IN TE VULLEN: adres]",
     email: "[IN TE VULLEN: e-mail]",
     phone: "[IN TE VULLEN: telefoon]",
-    kvk: "[IN TE VULLEN]",
+    kvk: "90505611",
     vat: "[IN TE VULLEN]",
   },
 };
