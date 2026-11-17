@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <>
       <h1 className="font-display text-4xl font-semibold text-ink">Gebruiksvoorwaarden</h1>
-      <p>Versie: concept 17 november 2026 · [IN TE VULLEN: definitieve datum bij livegang]</p>
+      <p>Versie: 17 november 2026</p>
 
       <h2>1. Wie wij zijn</h2>
       <p>

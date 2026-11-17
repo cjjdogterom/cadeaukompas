@@ -1,6 +1,6 @@
 # Akkoord gevraagd: teksten en cookiebanner voor de livegang
 
-Status: WACHT
+Status: AKKOORD (eigenaar, 17-11 in chat: "ik geef akkoord op teksten")
 Datum: 2026-11-17 · Agent: Developer · Code: `components/CookieConsent.tsx`, `lib/consent.ts`, `app/(shop)/(juridisch)/`
 
 ## Wat

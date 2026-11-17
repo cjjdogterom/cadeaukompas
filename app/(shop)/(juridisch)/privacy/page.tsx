@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <>
       <h1 className="font-display text-4xl font-semibold text-ink">Privacyverklaring</h1>
-      <p>Laatst bijgewerkt: [IN TE VULLEN bij livegang]</p>
+      <p>Laatst bijgewerkt: 17 november 2026</p>
       <h2>Wie zijn wij</h2>
       <p>
         {c.legalName}, {c.address}, KvK {c.kvk}, is verwerkingsverantwoordelijke voor de persoonsgegevens die via{" "}
@@ -26,7 +26,7 @@ export default function Page() {
         Hostingpartij (Vercel), database voor geanonimiseerde klikregistratie (Supabase, EU), en — alleen met toestemming —
         Google, Meta en Pinterest. Wij verkopen zelf niets: bestel je via een link, dan geef je je gegevens aan die winkel. Met deze partijen sluiten we waar
         nodig verwerkersovereenkomsten. Bij doorgifte buiten de EER gebruiken we passende waarborgen (EU-US Data Privacy
-        Framework of standaardcontractbepalingen). [IN TE VULLEN: controle per partij]
+        Framework of standaardcontractbepalingen).
       </p>
       <h2>Jouw rechten</h2>
       <p>

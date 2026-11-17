@@ -15,15 +15,15 @@ Gesorteerd op volgorde. Vink af met `[x]`. Sleutels zet je in Vercel (Settings �
 
 ## 1. Nu (blokkeert de livegang)
 
-- [ ] **1a. Adres voor de site** — je KvK-adres of een zakelijk postadres. Wettelijk verplicht in de footer (art. 3:15d BW). Stuur het in de chat.
+- [x] **1a. Adres** — Oude Delft 35, Delft (17-11). Postcode nog doorgeven, dan volledig.
 - [ ] **1b. Handelsnaam OpTijdCadeau bij KvK registreren** — kvk.nl → Wijziging doorgeven → Handelsnaam toevoegen (online, DigiD/eHerkenning). Elke naam waaronder je handelt moet in het Handelsregister staan.
-- [ ] **1c. Bol Partnerprogramma** — partner.bol.com → Aanmelden met je bol-account → website optijdcadeau.nl. Daarna: Account → Site-ID → in Vercel `NEXT_PUBLIC_BOL_SITE_ID`. Zonder dit verdienen de bol-links niets. Bol beoordeelt de site; doe dit op of vlak na de livegang (zie 2).
+- [x] **1c. Bol Partnerprogramma** — aangemeld (17-11). Nog: Site-ID in Vercel als `NEXT_PUBLIC_BOL_SITE_ID` (Production) en Redeploy, of geef de Site-ID in de chat (die is niet geheim; staat in elke link).
 - [ ] **1d. Zakelijke rekening of IBAN** voor de commissie-uitbetalingen van bol en de netwerken.
 
 ## 2. Livegang (jij geeft akkoord, ik bereid voor)
 
-- [ ] **2a. Akkoord op de teksten** — cookiebeleid, privacyverklaring, gebruiksvoorwaarden en "hoe wij verdienen" (dashboard → Akkoord gevraagd).
-- [ ] **2b. Vercel Pro** op de dag van livegang (~$20/mnd; Hobby is volgens Vercel alleen voor niet-commercieel gebruik). Vercel → Settings → Billing → Upgrade.
+- [x] **2a. Teksten** — akkoord eigenaar 17-11 (cookiebeleid, privacy, gebruiksvoorwaarden, hoe wij verdienen, cookiebanner).
+- [x] **2b. Vercel Pro** — geregeld door eigenaar (17-11).
 - [x] **2c. Domein gekoppeld** (17-11) — optijdcadeau.nl en www (stuurt door) wijzen naar Vercel, HTTPS werkt, `NEXT_PUBLIC_SITE_URL` staat. De site is bereikbaar maar nog **niet vindbaar** in Google (noindex). Bij livegang-akkoord: `NEXT_PUBLIC_INDEXABLE=true` in Vercel + Redeploy.
 
 ## 3. Meer winkels (meer producten, meer commissie)
