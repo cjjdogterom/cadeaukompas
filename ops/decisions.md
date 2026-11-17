@@ -30,3 +30,4 @@ Formaat: datum · beslissing · reden · eigenaar-akkoord (ja / nee / n.v.t. = v
 | 2026-11-17 | **Alleen affiliate**: winkelwagen, afrekenen, Mollie, Resend, retour- en herroepingspagina's verwijderd; algemene voorwaarden → gebruiksvoorwaarden; leverancier/order-ops inactief; dropship-akkoorden afgewezen | Keuze eigenaar: snel live met producten, geen leveranciers | ja (17-11, in chat) |
 | 2026-11-17 | Juridische teksten en cookiebanner definitief (concept-banner weg, datums ingevuld, adres Oude Delft 35, Delft) | Akkoord eigenaar | ja (17-11, in chat) |
 | 2026-11-17 | Site vindbaar in zoekmachines (NEXT_PUBLIC_INDEXABLE=true) | Livegang | ja (17-11, in chat) |
+| 2026-11-18 | Aangemeld bij 14 Awin-programma's incl. akkoord programmavoorwaarden | Meer winkels, meer commissie | ja (18-11, in chat: "Ja, alle 14") |
