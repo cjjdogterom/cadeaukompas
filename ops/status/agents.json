@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T21:35:00+01:00",
+  "updatedAt": "2026-11-17T22:20:00+01:00",
   "agents": {
     "orchestrator": {
       "status": "gepland",
@@ -10,10 +10,10 @@
       "blockedBy": null
     },
     "product-scout": {
-      "status": "bezig",
-      "currentTask": "Shortlist D: dunne segmenten aanvullen (onder €10, 0–3 en 4–7 jaar, €50+, ook niet-bol), prijzen vandaag gecontroleerd",
-      "lastRunAt": "2026-11-17T21:00:00+01:00",
-      "lastResult": "Shortlist C: 25 producten voor volwassenen (lezen, sport, koken, wellness); 23 geïmporteerd",
+      "status": "gepland",
+      "currentTask": "Volgende: HABA/babycadeaus onder €15, cadeaus voor moeder; andere winkels via netwerkfeeds",
+      "lastRunAt": "2026-11-17T22:05:00+01:00",
+      "lastResult": "Shortlist D: 19 producten (6 onder €10, 5× 0–3 jr, 5× 4–7 jr, 3× €50–100), alle prijzen vandaag op bol gecontroleerd",
       "nextRun": "18 nov",
       "blockedBy": null
     },
@@ -26,10 +26,10 @@
       "blockedBy": "Jij: leveranciersmails versturen (uiterlijk wo 18-11). KvK en btw-id zijn er nu."
     },
     "catalogus": {
-      "status": "bezig",
-      "currentTask": "Shortlist D importeren; alleen actief met vandaag gecontroleerde prijs en link 200",
-      "lastRunAt": "2026-11-17T21:00:00+01:00",
-      "lastResult": "11 producten uit shortlist C geactiveerd — nu 44 actief",
+      "status": "gepland",
+      "currentTask": "Vóór do 19-11: 18 concepten uit shortlist D activeren zodra link-check lukt; prijzen 44 actieve producten hercontroleren",
+      "lastRunAt": "2026-11-17T22:20:00+01:00",
+      "lastResult": "18 producten uit shortlist D als concept geïmporteerd (bol blokkeert eigen link-check met 403); nog 44 actief",
       "nextRun": "18 nov",
       "blockedBy": null
     },
@@ -50,10 +50,10 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "bezig",
-      "currentTask": "Zoekwoordonderzoek en 4 extra cadeaugidsen in lib/guides.ts",
-      "lastRunAt": null,
-      "lastResult": "4 eerste gidsen en surprise/gedicht-content staan op de site (door Developer)",
+      "status": "gepland",
+      "currentTask": "Volgende: gids moeder, gids 0–7 jaar zodra catalogus dikker is; vaste datums uit oude gidsen halen",
+      "lastRunAt": "2026-11-17T21:45:00+01:00",
+      "lastResult": "4 nieuwe gidsen (kinderen 8–12, partner, opa/oma, kerst vader) + zoekwoordonderzoek",
       "nextRun": "18 nov",
       "blockedBy": null
     },
