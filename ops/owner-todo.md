@@ -4,7 +4,8 @@ Gesorteerd op urgentie. Vink af met `[x]` en zet sleutels in `.env.local` (nooit
 
 ## Vandaag / morgen (blokkeert omzet)
 
-- [x] **1. KvK-inschrijving** — KvK 90505611 (doorgegeven 17-11, staat in lib/site.ts). Nog nodig: btw-id (komt per post van de Belastingdienst) en bedrijfsnaam/adres/e-mail/telefoon (zie 11).
+- [x] **1. KvK-inschrijving** — Omega Ksi, KvK 90505611, btw-id NL249643807B01 (doorgegeven 17-11, staat in lib/site.ts). Nog nodig: adres, e-mail en telefoon (zie 11).
+- [ ] **1b. Handelsnaam OpTijdCadeau bij KvK laten registreren** — elke handelsnaam die je gebruikt moet in het Handelsregister staan. kvk.nl → Wijziging doorgeven → Handelsnaam toevoegen (online, met eHerkenning/DigiD).
   - kvk.nl → "Inschrijven eenmanszaak" → afspraak of online met DigiD. Kosten ca. €80 eenmalig.
   - Je ontvangt KvK-nummer en (bij eenmanszaak) automatisch een btw-id van de Belastingdienst.
   - Nodig voor: footer, Mollie, affiliate-netwerken, leveranciers.
@@ -23,7 +24,7 @@ Gesorteerd op urgentie. Vink af met `[x]` en zet sleutels in `.env.local` (nooit
 
 - [x] **7. Vercel-account** — project `cadeaukompas`: https://cadeaukompas-chris356.vercel.app (bouwt automatisch bij elke push naar `main`; staat achter Vercel Deployment Protection).
 - [x] **7b. Dashboard-wachtwoord** — ingesteld voor Production (17-11). Optioneel ook Preview aanvinken. Was: Vercel → project cadeaukompas → Settings → Environment Variables → `ADMIN_PASSWORD` (zelf verzonnen, sterk) voor Production en Preview → daarna Redeploy. Zonder dit geeft `/admin` op Vercel een 404.
-- [ ] **7c. Vercel-plan**: Hobby mag niet commercieel gebruikt worden; vóór de livegang naar Pro (~$20/mnd, zie vraag 10).
+- [ ] **7c. Vercel-plan**: Vercel-voorwaarden art. 4: Hobby alleen voor "personal or non-commercial use", en Vercel mag Hobby-projecten zonder waarschuwing offline halen. Pas upgraden op de dag van de livegang (~$20/mnd per gebruiker; na kerst weer terug naar Hobby of opzeggen). Vercel → Settings → Billing → Upgrade to Pro.
 - [ ] **8. Supabase-project** (supabase.com → New project, regio Frankfurt `eu-central-1`, gratis tier volstaat).
   - Settings → API: `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY` (geheim!).
 - [ ] **9. Mollie** (mollie.com → account → KvK, bankrekening, ID-verificatie, UBO). Test-API-sleutel (`test_…`) mag direct: Developers → API keys → `MOLLIE_API_KEY`. Live-sleutel pas na verificatie en jouw livegang-akkoord. Klarna apart activeren in het dashboard.

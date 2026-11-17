@@ -7,11 +7,11 @@ export const site = {
   // Indexeren pas na livegang-akkoord van de eigenaar.
   indexable: process.env.NEXT_PUBLIC_INDEXABLE === "true",
   company: {
-    legalName: "[IN TE VULLEN: bedrijfsnaam]",
+    legalName: "Omega Ksi",
     address: "[IN TE VULLEN: adres]",
     email: "[IN TE VULLEN: e-mail]",
     phone: "[IN TE VULLEN: telefoon]",
     kvk: "90505611",
-    vat: "[IN TE VULLEN]",
+    vat: "NL249643807B01",
   },
 };
