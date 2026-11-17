@@ -47,3 +47,6 @@
 {"ts":"2026-11-17T23:10:00+01:00","agent":"orchestrator","type":"beslissing","summary":"Eigenaar: bol Partnerprogramma aangemeld, Vercel Pro geregeld, akkoord op teksten. Adres ingevuld; concept-label weg. Wacht: bol Site-ID, postcode, akkoord indexeren","files":["lib/site.ts","ops/owner-todo.md"]}
 {"ts":"2026-11-17T23:25:00+01:00","agent":"developer","type":"klaar","summary":"Indexeren aan op akkoord eigenaar: robots.txt staat zoekmachines toe, sitemap gepubliceerd","files":[]}
 {"ts":"2026-11-17T23:40:00+01:00","agent":"developer","type":"klaar","summary":"Bol Site-ID in Vercel gezet; /uit-links sturen nu door via partner.bol.com met s=1560792 (getest op productie)","files":[]}
+{"ts": "2026-11-17T22:15:00+01:00", "agent": "catalogus", "type": "gestart", "summary": "18 concepten uit shortlist D verifiëren (prijs + link, zonder bot-omzeiling) en alleen bij succes activeren"}
+{"ts": "2026-11-17T22:15:00+01:00", "agent": "seo-content", "type": "gestart", "summary": "Nieuwe gidsen: cadeau voor moeder en cadeaus 0–7 jaar; vaste datums uit oudere gidsen halen"}
+{"ts": "2026-11-17T22:15:00+01:00", "agent": "compliance", "type": "gestart", "summary": "Eerste toetsing van de site tegen ops/compliance-checklist.md (rapport, geen live wijzigingen)"}
