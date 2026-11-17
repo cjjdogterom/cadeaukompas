@@ -19,3 +19,5 @@ Formaat: datum · beslissing · reden · eigenaar-akkoord (ja / nee / n.v.t. = v
 | 2026-11-17 | Geplande workflow staat uit tot repository-variabelen `OPS_ENABLED` / `DROPSHIP_ENABLED` op `true` staan | Voorkomt dat jobs elk kwartier draaien of falen zonder sleutels (kosten, foutmeldingen) | n.v.t. (veiligste optie) |
 | 2026-11-17 | Repo `cjjdogterom/cadeaukompas` blijft openbaar | Keuze eigenaar | ja (17-11, in chat) |
 | 2026-11-17 | Omdat de repo openbaar is: `ops/support/` staat in .gitignore; geen persoonsgegevens (namen, e-mail, adressen, ordergegevens van klanten) in bestanden in git — die staan alleen in de database | AVG; een openbare repo is publicatie | n.v.t. (verplicht) |
+| 2026-11-17 | 20 producten op `actief` gezet (alle uit shortlist B: kind/tiener/vriend). Voorwaarde: prijs gecontroleerd op 17-11 én link gaf HTTP 200 | Productie toonde geen producten; regel: actief alleen met geverifieerde link + prijs ≤ 48 uur | ja (17-11, in chat) |
+| 2026-11-17 | Deze 20 prijzen vóór do 19-11 opnieuw controleren, anders terug naar `concept` | 48-uursregel; feed-sync bestaat nog niet (wacht op Bol-API-sleutel) | n.v.t. |

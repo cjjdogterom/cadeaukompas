@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T18:15:00+01:00",
+  "updatedAt": "2026-11-17T19:45:00+01:00",
   "agents": {
     "orchestrator": {
       "status": "bezig",
@@ -27,10 +27,10 @@
     },
     "catalogus": {
       "status": "gepland",
-      "currentTask": "28 nog niet geverifieerde prijzen nalopen; feed-sync bouwen zodra Bol-API-sleutel er is",
-      "lastRunAt": "2026-11-17T17:50:00+01:00",
-      "lastResult": "48 producten in catalogus (concept), titels opgeschoond, 1 gepauzeerd",
-      "nextRun": "18 nov; daarna elk uur feed-sync",
+      "currentTask": "Vóór do 19-11: prijzen van de 20 actieve producten opnieuw controleren; prijzen van de 22 volwassenen-producten verifiëren en activeren",
+      "lastRunAt": "2026-11-17T19:45:00+01:00",
+      "lastResult": "20 producten geactiveerd (prijs + link gecontroleerd)",
+      "nextRun": "18 nov",
       "blockedBy": null
     },
     "developer": {
