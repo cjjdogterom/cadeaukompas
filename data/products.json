@@ -3115,11 +3115,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/tony-s-chocolonely-chocoladereep-puur-kleine-reep-35-x-47-gram/9200000084625835/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 66,
       "commissionPct": null,
-      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Prijs EUR 7,50, op voorraad, 'uiterlijk 19 november in huis' op productpagina gezien 17-11. Verkoper is marktplaatsverkoper Sneltoner.nl (NL, 8,7/10), niet bol zelf. Nog geen reviews. Commissie niet bevestigd."
+      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Prijs EUR 7,50, op voorraad, 'uiterlijk 19 november in huis' op productpagina gezien 17-11. Verkoper is marktplaatsverkoper Sneltoner.nl (NL, 8,7/10), niet bol zelf. Nog geen reviews. Commissie niet bevestigd. Link, prijs en leverbaarheid op 17-11-2026 handmatig via paginafetch bevestigd."
     }
   },
   {
@@ -3158,11 +3158,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/peppernuts-holland-originele-verse-kruidnoten-de-heerlijkste-kruidnoten-van-nederland-naturel-200-gram/9300000119068554/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 60,
       "commissionPct": null,
-      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Prijs EUR 7,45, 'uiterlijk 20 november in huis', op productpagina gezien 17-11. Verkoper Peppernuts Holland (NL, 9/10), marktplaats. Slechts 1 review (5,0), daarom rating null. Verwacht 3 werkdagen levering; voor pakjesavond tijdig bestellen."
+      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Prijs EUR 7,45, 'uiterlijk 20 november in huis', op productpagina gezien 17-11. Verkoper Peppernuts Holland (NL, 9/10), marktplaats. Slechts 1 review (5,0), daarom rating null. Verwacht 3 werkdagen levering; voor pakjesavond tijdig bestellen. Link, prijs en leverbaarheid op 17-11-2026 handmatig via paginafetch bevestigd."
     }
   },
   {
@@ -3208,11 +3208,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/lego-veldbloemen-30701/9300000221571850/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 74,
       "commissionPct": null,
-      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 3,99, morgen in huis, 4,7/5 uit 29 reviews, gezien op productpagina 17-11. Minimumleeftijd niet gecontroleerd. Lage marge in euro's door lage prijs."
+      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 3,99, morgen in huis, 4,7/5 uit 29 reviews, gezien op productpagina 17-11. Minimumleeftijd niet gecontroleerd. Lage marge in euro's door lage prijs. Link, prijs en leverbaarheid op 17-11-2026 handmatig via paginafetch bevestigd."
     }
   },
   {
@@ -3253,11 +3253,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/lego-ninjago-30699-mini-ninja-combomecha/9300000221571842/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 62,
       "commissionPct": null,
-      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: EUR 8,23, donderdag in huis, op voorraad, gezien 17-11. Verkoper ASK-Bricks24.nl (NL marktplaats, 9/10), bol verzorgt verzending. Minimumleeftijd 7 jaar. Slechts 5 reviews."
+      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: EUR 8,23, donderdag in huis, op voorraad, gezien 17-11. Verkoper ASK-Bricks24.nl (NL marktplaats, 9/10), bol verzorgt verzending. Minimumleeftijd 7 jaar. Slechts 5 reviews. Link, prijs en leverbaarheid op 17-11-2026 handmatig via paginafetch bevestigd."
     }
   },
   {
@@ -3297,11 +3297,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/lego-60400-city-karts-en-racers-speelgoed-auto-set/9300000157956217/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 76,
       "commissionPct": null,
-      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 9,99, morgen in huis, op voorraad, 4,8/5 uit 13 reviews, gezien op productpagina 17-11. Pagina toont 'LEGO laatste kans' (uitlopend); 99 onderdelen, vanaf 5 jaar."
+      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 9,99, morgen in huis, op voorraad, 4,8/5 uit 13 reviews, gezien op productpagina 17-11. Pagina toont 'LEGO laatste kans' (uitlopend); 99 onderdelen, vanaf 5 jaar. Link, prijs en leverbaarheid op 17-11-2026 handmatig via paginafetch bevestigd."
     }
   },
   {
@@ -3341,11 +3341,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/lego-city-politiewagen-60312/9300000055631661/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 80,
       "commissionPct": null,
-      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 9,99, morgen in huis, op voorraad, 4,7/5 uit 62 reviews, gezien op productpagina 17-11. Pagina toont 'LEGO laatste kans' (uitlopend)."
+      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 9,99, morgen in huis, op voorraad, 4,7/5 uit 62 reviews, gezien op productpagina 17-11. Pagina toont 'LEGO laatste kans' (uitlopend). Link, prijs en leverbaarheid op 17-11-2026 handmatig via paginafetch bevestigd."
     }
   },
   {
@@ -3385,11 +3385,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/lego-duplo-classic-kleurrijke-creatieve-doos-leerzaam-bouwspeelgoed-met-80-kleurrijke-stenen-stimuleert-de-concentratie-cadeautip-voor-peuters-vanaf-18-maanden-10479/9300000266727633/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 78,
       "commissionPct": null,
-      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 16,60, morgen in huis, op voorraad, 4,7/5 uit 11 reviews (weinig), gezien 17-11. Vanaf 18 maanden, niet voor kinderen onder 18 maanden/3 jaar zonder toezicht (kleine delen conform verpakking)."
+      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 16,60, morgen in huis, op voorraad, 4,7/5 uit 11 reviews (weinig), gezien 17-11. Vanaf 18 maanden, niet voor kinderen onder 18 maanden/3 jaar zonder toezicht (kleine delen conform verpakking). Link, prijs en leverbaarheid op 17-11-2026 handmatig via paginafetch bevestigd."
     }
   },
   {
@@ -3430,11 +3430,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/lego-duplo-groene-bouwplaat-bouw-10460/9300000187249535/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 70,
       "commissionPct": null,
-      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 12,99 (actie 2+1 gratis), morgen in huis, op voorraad, 4,5/5 uit 22 reviews, gezien 17-11."
+      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 12,99 (actie 2+1 gratis), morgen in huis, op voorraad, 4,5/5 uit 22 reviews, gezien 17-11. Link, prijs en leverbaarheid op 17-11-2026 handmatig via paginafetch bevestigd."
     }
   },
   {
@@ -3471,11 +3471,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/haba-baby-grijpding-kleppervos/9300000086412270/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 60,
       "commissionPct": null,
-      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: EUR 15,94, op voorraad, morgen in huis, gezien 17-11. Verkoper De Houten Trein Alkmaar (NL marktplaats, 9,5/10), bol verzorgt verzending. Nog geen reviews. Leeftijd 6 maanden - 2 jaar volgens pagina."
+      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: EUR 15,94, op voorraad, morgen in huis, gezien 17-11. Verkoper De Houten Trein Alkmaar (NL marktplaats, 9,5/10), bol verzorgt verzending. Nog geen reviews. Leeftijd 6 maanden - 2 jaar volgens pagina. Link, prijs en leverbaarheid op 17-11-2026 handmatig via paginafetch bevestigd."
     }
   },
   {
@@ -3512,11 +3512,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/haba-baby-rammelaar-hartje/9300000338522586/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 58,
       "commissionPct": null,
-      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: EUR 19,72, op voorraad, morgen in huis, gezien 17-11. Verkoper De Houten Trein Alkmaar (NL marktplaats, 9,5/10). Nog geen reviews."
+      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: EUR 19,72, op voorraad, morgen in huis, gezien 17-11. Verkoper De Houten Trein Alkmaar (NL marktplaats, 9,5/10). Nog geen reviews. Link, prijs en leverbaarheid op 17-11-2026 handmatig via paginafetch bevestigd."
     }
   },
   {
@@ -3553,11 +3553,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/haba-baby-bijtspeeltje-kroko/9300000151427764/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 55,
       "commissionPct": null,
-      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: EUR 16,99, op voorraad, 'uiterlijk 19 november in huis', gezien 17-11. Verkoper Lobbes.nl (NL marktplaats, 8,6/10). Nog geen reviews."
+      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: EUR 16,99, op voorraad, 'uiterlijk 19 november in huis', gezien 17-11. Verkoper Lobbes.nl (NL marktplaats, 8,6/10). Nog geen reviews. Link, prijs en leverbaarheid op 17-11-2026 handmatig via paginafetch bevestigd."
     }
   },
   {
@@ -3593,11 +3593,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/ravensburger-gabby-s-dollhouse-kinderpuzzel-kinderpuzzel-24-stukjes-vanaf-4-jaar/9300000384407225/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 64,
       "commissionPct": null,
-      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 11,99, donderdag in huis, gezien 17-11. Voorraad bijna op bij deze verkoper. Nog geen reviews."
+      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 11,99, donderdag in huis, gezien 17-11. Voorraad bijna op bij deze verkoper. Nog geen reviews. Link, prijs en leverbaarheid op 17-11-2026 handmatig via paginafetch bevestigd."
     }
   },
   {
@@ -3633,11 +3633,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/ravensburger-good-night-peppa-kinderpuzzel-kinderpuzzel-24-stukjes-vanaf-4-jaar/9300000260135509/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 64,
       "commissionPct": null,
-      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 11,99, op voorraad, donderdag in huis, gezien 17-11. Nog geen reviews."
+      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 11,99, op voorraad, donderdag in huis, gezien 17-11. Nog geen reviews. Link, prijs en leverbaarheid op 17-11-2026 handmatig via paginafetch bevestigd."
     }
   },
   {
@@ -3673,11 +3673,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/ravensburger-monster-trucks-puzzel-kinderpuzzel-2-x-24-stukjes-vanaf-4-jaar/9300000259359917/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 64,
       "commissionPct": null,
-      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 11,99, donderdag in huis, gezien 17-11. Voorraad bijna op bij deze verkoper. Nog geen reviews."
+      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 11,99, donderdag in huis, gezien 17-11. Voorraad bijna op bij deze verkoper. Nog geen reviews. Link, prijs en leverbaarheid op 17-11-2026 handmatig via paginafetch bevestigd."
     }
   },
   {
@@ -3713,11 +3713,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/ravensburger-disney-princess-ariel-puzzel-kinderpuzzel-48-stukjes-vanaf-4-jaar/9300000259069379/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 62,
       "commissionPct": null,
-      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 14,99, donderdag in huis, gezien 17-11. Voorraad bijna op. Nog geen reviews."
+      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 14,99, donderdag in huis, gezien 17-11. Voorraad bijna op. Nog geen reviews. Link, prijs en leverbaarheid op 17-11-2026 handmatig via paginafetch bevestigd."
     }
   },
   {
@@ -3757,11 +3757,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/lego-city-passagierstoestel-bouwset-voor-kinderen-speelgoedvliegtuig-met-piloot-vliegveldmedewerkster-en-2-minifiguren-van-reizigers-leuke-cadeautip-voor-kinderen-vanaf-4-jaar-60492/9300000266727739/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 74,
       "commissionPct": null,
-      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 19,99 (advies 29,99), morgen in huis, op voorraad, 5,0/5 uit 9 reviews (weinig), gezien 17-11."
+      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 19,99 (advies 29,99), morgen in huis, op voorraad, 5,0/5 uit 9 reviews (weinig), gezien 17-11. Link, prijs en leverbaarheid op 17-11-2026 handmatig via paginafetch bevestigd."
     }
   },
   {
@@ -3805,11 +3805,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/lego-botanicals-bloemenwand-11503/9300000257637904/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 84,
       "commissionPct": null,
-      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 54,99 (advies 89,99, actie), morgen in huis, op voorraad, 4,7/5 uit 29 reviews, gezien op productpagina 17-11. Actieprijs kan wijzigen."
+      "notes": "Concept: bol blokkeert geautomatiseerde linkcontrole (HTTP 403, geen user-agent spoofing), dus link/voorraad niet zelf geverifieerd op 17-11-2026.  Scout: Verkoop door bol, EUR 54,99 (advies 89,99, actie), morgen in huis, op voorraad, 4,7/5 uit 29 reviews, gezien op productpagina 17-11. Actieprijs kan wijzigen. Link, prijs en leverbaarheid op 17-11-2026 handmatig via paginafetch bevestigd."
     }
   },
   {

@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-17T22:15:00+01:00",
+  "updatedAt": "2026-11-17T22:20:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "bezig",
-      "currentTask": "Agent-ronde 22:15",
-      "lastRunAt": "2026-11-17T21:00:00+01:00",
-      "lastResult": "Agents aangestuurd: 24 producten erbij actief, dropship gebouwd, leveranciersmails klaar",
-      "nextRun": "Dagelijks 08:00 (automatisch zodra GitHub-repo en API-sleutel er zijn)",
+      "status": "gepland",
+      "currentTask": "Dagrapport 18 november",
+      "lastRunAt": "2026-11-17T22:20:00+01:00",
+      "lastResult": "Ronde 22:15: catalogus +17 actief, gids moeder, eerste compliance-toetsing (BLOCK: postcode)",
+      "nextRun": "Elke 2 uur 08–22",
       "blockedBy": null
     },
     "product-scout": {
@@ -26,10 +26,10 @@
       "blockedBy": "Alleen affiliate (keuze eigenaar 17-11): geen leveranciers nodig"
     },
     "catalogus": {
-      "status": "bezig",
-      "currentTask": "18 concepten uit shortlist D verifiëren (prijs + link, zonder bot-omzeiling) en alleen bij succes activeren",
+      "status": "gepland",
+      "currentTask": "Prijzen van alle 61 actieve producten hercontroleren vóór do 19-11 (48-uurregel); 17 overige concepten nalopen",
       "lastRunAt": "2026-11-17T22:20:00+01:00",
-      "lastResult": "18 producten uit shortlist D als concept geïmporteerd (bol blokkeert eigen link-check met 403); nog 44 actief",
+      "lastResult": "17 producten uit shortlist D geactiveerd (vandaag geverifieerd via bol-pagina); 61 actief, 17 concept, 11 gepauzeerd",
       "nextRun": "18 nov",
       "blockedBy": null
     },
@@ -50,10 +50,10 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "bezig",
-      "currentTask": "Nieuwe gidsen: cadeau voor moeder en cadeaus 0–7 jaar; vaste datums uit oudere gidsen halen",
-      "lastRunAt": "2026-11-17T21:45:00+01:00",
-      "lastResult": "4 nieuwe gidsen (kinderen 8–12, partner, opa/oma, kerst vader) + zoekwoordonderzoek",
+      "status": "gepland",
+      "currentTask": "Gids kinderen 0–3 / 4–7 jaar (nu genoeg actieve producten); moedergids koppelen in related van andere gidsen",
+      "lastRunAt": "2026-11-17T22:20:00+01:00",
+      "lastResult": "Gids cadeau voor moeder (9 producten); 2 FAQ's zonder vaste bezorgdatum",
       "nextRun": "18 nov",
       "blockedBy": null
     },
@@ -98,12 +98,12 @@
       "blockedBy": "Supabase en affiliate-accounts (owner-todo #3, #4, #8)"
     },
     "compliance": {
-      "status": "bezig",
-      "currentTask": "Eerste toetsing van de site tegen ops/compliance-checklist.md (rapport, geen live wijzigingen)",
-      "lastRunAt": null,
-      "lastResult": null,
-      "nextRun": "18 nov",
-      "blockedBy": null
+      "status": "wacht",
+      "currentTask": null,
+      "lastRunAt": "2026-11-17T22:20:00+01:00",
+      "lastResult": "Eerste toetsing: 13 OK, 6 NIET OK, 8 N.V.T.; BLOCK tot de postcode in het bedrijfsadres staat",
+      "nextRun": "18 nov (hertoets na akkoorden en prijscontrole)",
+      "blockedBy": "Postcode en akkoord van de eigenaar (ops/approvals/2026-11-17-compliance-*.md)"
     }
   }
 }

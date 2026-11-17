@@ -13,3 +13,6 @@ Tot je antwoordt bouw ik door met de standaardkeuze tussen haakjes. Alles is omk
 9. ~~**Projectlocatie**~~ — beantwoord 17-11: verhuisd naar `~/Projects/cadeausite`. Back-up via GitHub (owner-todo #17).
 10. **Budget agents/hosting** — naast €500 advertenties: akkoord met Vercel Pro (~$20/mnd) en Anthropic API-kosten voor geplande agent-runs (schatting €30–80 voor de hele periode)? *(nog niets uitgegeven)*
 11. ~~**Repo openbaar of privé?**~~ — beantwoord 17-11: blijft openbaar. Gevolg: klantgegevens en support-concepten blijven buiten git (zie beslissingslog).
+12. **Postcode en handelsnaam** (Compliance) — wat is de postcode van het vestigingsadres, en staat "OpTijdCadeau" als handelsnaam bij je KvK-inschrijving? Zie `ops/approvals/2026-11-17-compliance-bedrijfsgegevens.md`. *(blokkeert compliance-GO)*
+13. **Verwerkersovereenkomsten** (Compliance) — heb je de verwerkersovereenkomst (DPA) van Vercel en Supabase geaccepteerd? Beide bieden die standaard aan in hun voorwaarden/dashboard. *(nog niet bevestigd)*
+14. **Verzendkosten bij prijzen** (Compliance) — ik adviseer bij de prijs te melden dat verzendkosten bij de winkel kunnen komen; of dat voor een affiliate-site verplicht is, is niet zeker. Wil je dat een jurist laten bevestigen? *(tekst toevoegen, zie `ops/approvals/2026-11-17-compliance-affiliate-teksten.md`)*
