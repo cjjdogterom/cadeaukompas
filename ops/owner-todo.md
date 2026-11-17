@@ -16,7 +16,8 @@ Gesorteerd op urgentie. Vink af met `[x]` en zet sleutels in `.env.local` (nooit
   - Let op: account vervalt als er binnen 180 dagen geen 3 kwalificerende verkopen zijn.
 - [ ] **5. Affiliate-netwerken** (één of meer): Awin (awin.com, publisher, eenmalige borg ca. €5 die terugkomt), TradeTracker (tradetracker.com/nl), Daisycon (daisycon.com). Na goedkeuring per adverteerder (Coolblue, HEMA, Intertoys, Bijenkorf, fonQ) apart aanmelden.
   - Sleutels: `AWIN_PUBLISHER_ID`, `AWIN_API_TOKEN`; `TRADETRACKER_CUSTOMER_ID`, `TRADETRACKER_PASSPHRASE`, `TRADETRACKER_SITE_ID`; `DAISYCON_PUBLISHER_ID`, `DAISYCON_MEDIA_ID`.
-- [ ] **6. Domeinnaam** kiezen en registreren (bv. via TransIP/Vercel, ca. €10/jaar). Zie vraag 1.
+- [x] **6. Domeinnaam** — optijdcadeau.nl geregistreerd via TransIP (17-11). Optioneel: optijdcadeau.com erbij (merkbescherming, €8,99 eerste jaar).
+- [ ] **6b. Domein koppelen aan Vercel** — pas bij de livegang: daarmee is de site openbaar (Deployment Protection geldt niet voor je eigen domein). Vercel → project → Settings → Domains → `optijdcadeau.nl` en `www.optijdcadeau.nl` toevoegen → de DNS-records die Vercel toont invullen in TransIP (Domeinen → optijdcadeau.nl → DNS). Daarna in Vercel `NEXT_PUBLIC_SITE_URL=https://optijdcadeau.nl`.
 
 ## Dag 3–4 (voor livegang)
 

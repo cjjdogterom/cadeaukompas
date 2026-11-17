@@ -1,5 +1,5 @@
 export const site = {
-  name: "Cadeaukompas", // werknaam — zie ops/vragen-eigenaar.md vraag 1
+  name: "OpTijdCadeau", // domein optijdcadeau.nl (gekozen door eigenaar 17-11)
   tagline: "Cadeaus die op tijd aankomen",
   description:
     "Cadeau-ideeën voor Sinterklaas en kerst, gefilterd op wie, budget en interesse — met eerlijke levertijden en een duidelijke uiterste besteldatum.",

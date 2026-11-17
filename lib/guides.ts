@@ -16,7 +16,7 @@ export const guides: Guide[] = [
   {
     slug: "cadeau-onder-25-euro-collega",
     title: "Cadeau onder €25 voor een collega",
-    metaTitle: "Cadeau onder €25 voor je collega | Cadeaukompas",
+    metaTitle: "Cadeau onder €25 voor je collega | OpTijdCadeau",
     metaDescription:
       "Leuke cadeaus tot €25 voor collega's: voor de lootjes, de secret santa of als bedankje. Met levertijd en uiterste besteldatum voor Sinterklaas en kerst.",
     intro: [
@@ -39,7 +39,7 @@ export const guides: Guide[] = [
   {
     slug: "sinterklaascadeau-tiener",
     title: "Sinterklaascadeau voor een tiener",
-    metaTitle: "Sinterklaascadeau voor tieners (13–17) | Cadeaukompas",
+    metaTitle: "Sinterklaascadeau voor tieners (13–17) | OpTijdCadeau",
     metaDescription:
       "Sinterklaascadeaus voor tieners van 13 tot 17 jaar: gadgets, spellen en creatieve cadeaus. Met eerlijke levertijd en uiterste besteldatum voor 5 december.",
     intro: [
@@ -61,7 +61,7 @@ export const guides: Guide[] = [
   {
     slug: "kerstpakket-thuiswerker",
     title: "Kerstcadeau of kerstpakket voor een thuiswerker",
-    metaTitle: "Kerstcadeau voor thuiswerkers | Cadeaukompas",
+    metaTitle: "Kerstcadeau voor thuiswerkers | OpTijdCadeau",
     metaDescription:
       "Kerstcadeaus voor wie (deels) thuiswerkt: voor een fijnere werkplek, betere koffie of even pauze. Stel zelf een kerstpakket samen, op tijd voor kerst.",
     intro: [
@@ -82,7 +82,7 @@ export const guides: Guide[] = [
   {
     slug: "cadeau-onder-15-euro",
     title: "Cadeaus onder €15",
-    metaTitle: "Leuke cadeaus onder €15 | Cadeaukompas",
+    metaTitle: "Leuke cadeaus onder €15 | OpTijdCadeau",
     metaDescription:
       "Kleine cadeaus tot €15 voor lootjes, in de schoen of als extraatje bij de surprise. Gesorteerd op wie, met levertijd en uiterste besteldatum.",
     intro: [

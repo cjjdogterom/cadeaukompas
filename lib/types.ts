@@ -55,7 +55,7 @@ export const MERCHANTS = {
   intertoys: { name: "Intertoys", domain: "intertoys.nl" },
   bijenkorf: { name: "de Bijenkorf", domain: "debijenkorf.nl" },
   fonq: { name: "fonQ", domain: "fonq.nl" },
-  eigen: { name: "Cadeaukompas", domain: "" },
+  eigen: { name: "OpTijdCadeau", domain: "optijdcadeau.nl" },
 } as const;
 export type Merchant = keyof typeof MERCHANTS;
 

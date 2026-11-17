@@ -2,8 +2,8 @@
 
 Tot je antwoordt bouw ik door met de standaardkeuze tussen haakjes. Alles is omkeerbaar.
 
-1. **Naam en domein** — welke shopnaam en welk domein? *(werknaam "Cadeaukompas", geen domein)*
-2. **Rechtsvorm** — eenmanszaak of bestaande bv? Ben je al ingeschreven bij KvK? *(eenmanszaak, nog niet ingeschreven)*
+1. ~~**Naam en domein**~~ — beantwoord 17-11: **OpTijdCadeau**, domein **optijdcadeau.nl** (geregistreerd via TransIP). optijdcadeau.com was op 17-11 nog vrij.
+2. **Rechtsvorm** — eenmanszaak of bv? KvK-nummer is bekend (90505611); welke rechtsvorm en welke bedrijfsnaam staan erbij? *(eenmanszaak)*
 3. **Accounts die al bestaan** — heb je al een Bol-partner-, Amazon-, Awin/TradeTracker/Daisycon-, Mollie-, Vercel-, Supabase- of GitHub-account? *(nee, alles nieuw)*
 4. **Dropship ja/nee vóór Sinterklaas** — dropship vraagt KvK, Mollie-verificatie, leveranciercontract en retourafhandeling; realistisch op z'n vroegst ~25 nov. Wil je Sinterklaas puur affiliate doen en dropship voor kerst? *(ja: Sinterklaas = affiliate, dropship voor kerst)*
 5. **Doelgroep-focus** — breed (iedereen) of een niche (bv. collega's/zakelijk, tieners, thuiswerkers)? Een niche maakt SEO en advertenties goedkoper. *(breed, met 3 niches als SEO-landingspagina's)*

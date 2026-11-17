@@ -1,4 +1,4 @@
--- Cadeaukompas — initieel datamodel (17 nov 2026)
+-- OpTijdCadeau — initieel datamodel (17 nov 2026)
 -- Uitvoeren in Supabase SQL editor of via `supabase db push`.
 -- RLS staat aan; de site leest publiek alleen actieve producten. Schrijven gebeurt met de service-role-key (server/agents).
 

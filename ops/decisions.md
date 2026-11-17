@@ -26,3 +26,4 @@ Formaat: datum · beslissing · reden · eigenaar-akkoord (ja / nee / n.v.t. = v
 | 2026-11-17 | Inkoopprijzen nooit in `data/products.json` (openbare repo), alleen in database | Marges zijn bedrijfsgevoelig | n.v.t. |
 | 2026-11-17 | 11 producten uit shortlist C geactiveerd (prijs op productpagina 17-11 + link 200). Nu 44 actief, allemaal bol | Zelfde regel als eerder | n.v.t. (binnen mandaat) |
 | 2026-11-17 | Cookiebanner + Consent Mode v2 gebouwd; tags laden pas na toestemming; cookiebeleid aangevuld (concept) | Verplicht vóór statistieken en advertenties | WACHT: ops/approvals/2026-11-17-cookiebanner.md |
+| 2026-11-17 | Shopnaam **OpTijdCadeau**, domein optijdcadeau.nl (vervangt werknaam Cadeaukompas; repo- en Vercel-projectnaam blijven `cadeaukompas`) | Keuze eigenaar; naam zegt wat we beloven | ja (17-11, in chat) |
