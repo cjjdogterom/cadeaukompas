@@ -20,7 +20,9 @@ Gesorteerd op urgentie. Vink af met `[x]` en zet sleutels in `.env.local` (nooit
 
 ## Dag 3–4 (voor livegang)
 
-- [ ] **7. Vercel-account** (vercel.com, Hobby is gratis maar **niet** toegestaan voor commercieel gebruik → Pro $20/maand). Project koppelen; ik deploy via CLI (`vercel login` doe jij). Zet in Vercel ook `ADMIN_PASSWORD` (zelf verzonnen, sterk) voor het dashboard `/admin`.
+- [x] **7. Vercel-account** — project `cadeaukompas`: https://cadeaukompas-chris356.vercel.app (bouwt automatisch bij elke push naar `main`; staat achter Vercel Deployment Protection).
+- [ ] **7b. Dashboard-wachtwoord**: Vercel → project cadeaukompas → Settings → Environment Variables → `ADMIN_PASSWORD` (zelf verzonnen, sterk) voor Production en Preview → daarna Redeploy. Zonder dit geeft `/admin` op Vercel een 404.
+- [ ] **7c. Vercel-plan**: Hobby mag niet commercieel gebruikt worden; vóór de livegang naar Pro (~$20/mnd, zie vraag 10).
 - [ ] **8. Supabase-project** (supabase.com → New project, regio Frankfurt `eu-central-1`, gratis tier volstaat).
   - Settings → API: `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY` (geheim!).
 - [ ] **9. Mollie** (mollie.com → account → KvK, bankrekening, ID-verificatie, UBO). Test-API-sleutel (`test_…`) mag direct: Developers → API keys → `MOLLIE_API_KEY`. Live-sleutel pas na verificatie en jouw livegang-akkoord. Klarna apart activeren in het dashboard.
