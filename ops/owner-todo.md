@@ -34,8 +34,12 @@ Gesorteerd op volgorde. Vink af met `[x]`. Sleutels zet je in Vercel (Settings �
 
 ## 3. Meer winkels (meer producten, meer commissie)
 
-- [ ] **3a. Affiliate-netwerk(en)** — Awin (awin.com, publisher, borg ca. €5 die terugkomt), TradeTracker (tradetracker.com/nl) en/of Daisycon (daisycon.com). Daarna per winkel aanmelden (Coolblue, HEMA, Intertoys, Bijenkorf, fonQ). Sleutels: `AWIN_PUBLISHER_ID`, `AWIN_API_TOKEN`; `TRADETRACKER_CUSTOMER_ID`, `TRADETRACKER_PASSPHRASE`, `TRADETRACKER_SITE_ID`; `DAISYCON_PUBLISHER_ID`, `DAISYCON_MEDIA_ID`. Dan zet de catalogus-agent de concept-producten van die winkels live.
-- [ ] **3b. Amazon.nl Associates** (optioneel) — partnernet.amazon.nl → tracking-ID (eindigt op `-21`) → `NEXT_PUBLIC_AMAZON_TAG`. Account vervalt zonder 3 verkopen in 180 dagen.
+Na elke goedkeuring: zet de sleutels in Vercel (Production) en kopieer op het dashboard de prompt "Producten van een andere winkel toevoegen".
+
+- [ ] **3a. Awin** — awin.com → "Publisher worden" → website optijdcadeau.nl, bedrijf Omega Ksi. Eenmalige borg ca. €5 (krijg je terug bij je eerste uitbetaling). Daarna in Awin per winkel aanmelden (zoek o.a. Coolblue, fonQ, de Bijenkorf). Sleutels: `AWIN_PUBLISHER_ID`, `AWIN_API_TOKEN`.
+- [ ] **3b. TradeTracker** — tradetracker.com/nl → "Aanmelden als publisher" → site toevoegen → per winkel campagnes aanvragen. Sleutels: `TRADETRACKER_CUSTOMER_ID`, `TRADETRACKER_PASSPHRASE`, `TRADETRACKER_SITE_ID`.
+- [ ] **3c. Daisycon** — daisycon.com → "Aanmelden als publisher" → mediaplatform optijdcadeau.nl → per winkel programma's aanvragen. Sleutels: `DAISYCON_PUBLISHER_ID`, `DAISYCON_MEDIA_ID`.
+- [ ] **3d. Amazon.nl Associates** — partnernet.amazon.nl → aanmelden → website optijdcadeau.nl → je krijgt een tracking-ID die eindigt op `-21` → `NEXT_PUBLIC_AMAZON_TAG`. Let op: account vervalt zonder 3 verkopen binnen 180 dagen. Er staan al 7 Amazon-producten klaar als concept.
 
 ## 4. Advertenties (na livegang, akkoord per campagne)
 
