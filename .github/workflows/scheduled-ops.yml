@@ -1,5 +1,6 @@
 # Geplande agent-taken. Staan UIT tot de eigenaar ze aanzet via repository-variabelen (Settings → Secrets and variables → Actions → Variables):
-#   OPS_ENABLED=true        → feed-sync, advertentie-beoordeling en dagrapport
+#   OPS_ENABLED=true        → agent-ronde elke 2 uur (08–22 NL, incl. dagrapport), feed-sync en advertentie-beoordeling
+#                             Zet dan de lokale geplande taak "optijdcadeau-agents" in de Claude-app UIT (niet allebei).
 #   DROPSHIP_ENABLED=true   → order-ops elk kwartier (pas na eerste dropship-leverancier)
 # De claude-jobs hebben daarnaast het secret ANTHROPIC_API_KEY nodig. Zie ops/owner-todo.md #17.
 # Tijden in UTC. NL = UTC+1 in de winter.
@@ -10,11 +11,11 @@ on:
     - cron: "5 * * * *"      # feed-sync elk uur (script, geen LLM)
     - cron: "*/15 * * * *"   # order-ops elk kwartier (script, geen LLM; escaleert naar agent bij uitzonderingen)
     - cron: "30 6 * * *"     # advertentie-beoordeling 07:30 NL (claude -p)
-    - cron: "0 7 * * *"      # dagrapport 08:00 NL (claude -p)
+    - cron: "0 7-21/2 * * *" # agent-ronde 08:00–22:00 NL, elke 2 uur (claude -p, ops/agents-round.md; schrijft ook het dagrapport)
   workflow_dispatch:
     inputs:
       job:
-        description: "feed-sync | order-ops | ads-review | daily-report"
+        description: "agents-round | feed-sync | order-ops | ads-review | daily-report"
         required: true
 
 permissions:
@@ -76,8 +77,35 @@ jobs:
           git config user.name "ops-bot" && git config user.email "ops-bot@users.noreply.github.com"
           git add ops/ && git diff --cached --quiet || (git commit -m "ops: advertentie-beoordeling $(date -u +%F)" && git push)
 
+  agents-round:
+    if: vars.OPS_ENABLED == 'true' && (github.event.schedule == '0 7-21/2 * * *' || inputs.job == 'agents-round')
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    concurrency:
+      group: agents-round
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - name: Git-identiteit
+        run: git config user.name "ops-bot" && git config user.email "ops-bot@users.noreply.github.com"
+      - name: Orchestrator — agent-ronde
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          npx -y @anthropic-ai/claude-code -p "Voer de instructies in ops/agents-round.md uit. Datum vandaag: $(TZ=Europe/Amsterdam date +%F), tijd $(TZ=Europe/Amsterdam date +%H:%M) (Europe/Amsterdam)." \
+            --permission-mode acceptEdits \
+            --allowedTools "Read,Write,Edit,Glob,Grep,Agent,WebFetch,WebSearch,Bash(git *),Bash(npm run *),Bash(npm ci),Bash(npx vitest *),Bash(node scripts/*)"
+      - name: Restwijzigingen committen
+        if: always()
+        run: |
+          git add ops/ data/ app/ lib/ components/ 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "ops: agent-ronde $(TZ=Europe/Amsterdam date '+%F %H:%M')" && git pull --rebase && git push)
+
   daily-report:
-    if: vars.OPS_ENABLED == 'true' && (github.event.schedule == '0 7 * * *' || inputs.job == 'daily-report')
+    if: vars.OPS_ENABLED == 'true' && inputs.job == 'daily-report'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:

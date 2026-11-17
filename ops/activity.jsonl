@@ -36,3 +36,4 @@
 {"ts":"2026-11-17T21:35:00+01:00","agent":"product-scout","type":"gestart","summary":"Shortlist D: dunne segmenten aanvullen (onder €10, 0–3 en 4–7 jaar, €50+, ook niet-bol), prijzen vandaag gecontroleerd"}
 {"ts":"2026-11-17T21:35:00+01:00","agent":"catalogus","type":"gestart","summary":"Shortlist D importeren; alleen actief met vandaag gecontroleerde prijs en link 200"}
 {"ts":"2026-11-17T21:35:00+01:00","agent":"seo-content","type":"gestart","summary":"Zoekwoordonderzoek en 4 extra cadeaugidsen in lib/guides.ts"}
+{"ts":"2026-11-17T21:00:00+01:00","agent":"developer","type":"klaar","summary":"Agent-ronde elke 2 uur: lokaal actief; cloud-job agents-round in GitHub Actions klaar (aan via OPS_ENABLED + ANTHROPIC_API_KEY)","files":["ops/agents-round.md",".github/workflows/scheduled-ops.yml"]}

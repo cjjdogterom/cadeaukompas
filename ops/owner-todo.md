@@ -45,8 +45,10 @@ Gesorteerd op urgentie. Vink af met `[x]` en zet sleutels in `.env.local` (nooit
 ## Automatisch draaien (agents)
 
 - [x] **17. GitHub-repo** — https://github.com/cjjdogterom/cadeaukompas (gekoppeld en gepusht op 17-11). De repo is bewust **openbaar** (jouw keuze, 17-11).
-- [ ] **18. Geplande agent-taken aanzetten** (pas als je dat wilt): GitHub → repo → Settings → Secrets and variables → Actions.
-  - Secret `ANTHROPIC_API_KEY` (console.anthropic.com → API keys) en de sleutels uit `.env.example` die de jobs nodig hebben.
-  - Variable `OPS_ENABLED=true` → feed-sync elk uur, advertentie-beoordeling 07:30, dagrapport 08:00.
-  - Variable `DROPSHIP_ENABLED=true` → order-ops elk kwartier (pas na eerste dropship-leverancier).
-  - Kosten: API-gebruik (schatting in dagrapport) en GitHub Actions-minuten (gratis bij een openbare repo; privé 2.000 min/maand gratis).
+- [x] **18a. Agents lokaal elke 2 uur** — geplande taak "optijdcadeau-agents" in de Claude-app (08–22 uur, sinds 17-11). Draait alleen als de app open is en de Mac aan staat. Instructies: `ops/agents-round.md`.
+- [ ] **18b. Volledig zelfstandig in de cloud** (los van je Mac): GitHub → repo → Settings → Secrets and variables → Actions.
+  - Tab Secrets → `ANTHROPIC_API_KEY` (console.anthropic.com → API keys; zet daar ook een maandlimiet onder Billing → Limits).
+  - Tab Variables → `OPS_ENABLED` = `true` → agent-ronde elke 2 uur (08–22), feed-sync elk uur, advertentie-beoordeling 07:30.
+  - Daarna in de Claude-app de geplande taak "optijdcadeau-agents" uitzetten (niet allebei laten draaien).
+  - Later: `DROPSHIP_ENABLED=true` → order-ops elk kwartier (na eerste dropship-leverancier). Supabase/Mollie/Resend-sleutels ook als Secrets.
+  - Kosten: API-gebruik per ronde (zie dagrapport); GitHub Actions is gratis voor een openbare repo.
