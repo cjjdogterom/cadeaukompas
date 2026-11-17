@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T19:46:00+01:00",
+  "updatedAt": "2026-11-17T21:35:00+01:00",
   "agents": {
     "orchestrator": {
       "status": "gepland",
@@ -10,8 +10,8 @@
       "blockedBy": null
     },
     "product-scout": {
-      "status": "gepland",
-      "currentTask": "Meer niet-bol-winkels (Amazon/Coolblue/HEMA blokkeren automatische controle — alternatief: feeds via netwerken)",
+      "status": "bezig",
+      "currentTask": "Shortlist D: dunne segmenten aanvullen (onder €10, 0–3 en 4–7 jaar, €50+, ook niet-bol), prijzen vandaag gecontroleerd",
       "lastRunAt": "2026-11-17T21:00:00+01:00",
       "lastResult": "Shortlist C: 25 producten voor volwassenen (lezen, sport, koken, wellness); 23 geïmporteerd",
       "nextRun": "18 nov",
@@ -26,8 +26,8 @@
       "blockedBy": "Jij: leveranciersmails versturen (uiterlijk wo 18-11). KvK en btw-id zijn er nu."
     },
     "catalogus": {
-      "status": "gepland",
-      "currentTask": "Vóór do 19-11: prijzen van de 44 actieve producten opnieuw controleren; 16 concept-producten nalopen (vooral Amazon/HEMA)",
+      "status": "bezig",
+      "currentTask": "Shortlist D importeren; alleen actief met vandaag gecontroleerde prijs en link 200",
       "lastRunAt": "2026-11-17T21:00:00+01:00",
       "lastResult": "11 producten uit shortlist C geactiveerd — nu 44 actief",
       "nextRun": "18 nov",
@@ -50,8 +50,8 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "gepland",
-      "currentTask": "Zoekwoordonderzoek en 4 extra cadeaugidsen",
+      "status": "bezig",
+      "currentTask": "Zoekwoordonderzoek en 4 extra cadeaugidsen in lib/guides.ts",
       "lastRunAt": null,
       "lastResult": "4 eerste gidsen en surprise/gedicht-content staan op de site (door Developer)",
       "nextRun": "18 nov",

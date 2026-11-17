@@ -33,3 +33,6 @@
 {"ts":"2026-11-17T19:46:00+01:00","agent":"orchestrator","type":"klaar","summary":"Domeinnamen onderzocht: cadeaukompas.nl/.com bezet; o.a. pakjesklok, optijdcadeau en pakjeskompas (.nl en .com) vrij. Eigenaar kiest.","files":[]}
 {"ts":"2026-11-17T20:00:00+01:00","agent":"orchestrator","type":"beslissing","summary":"Shopnaam wordt OpTijdCadeau (optijdcadeau.nl, geregistreerd via TransIP). Site, gidsen en ops bijgewerkt; domein koppelen pas bij livegang.","files":["lib/site.ts","ops/vragen-eigenaar.md","ops/owner-todo.md"]}
 {"ts":"2026-11-17T20:20:00+01:00","agent":"orchestrator","type":"klaar","summary":"Bedrijfsgegevens verwerkt: Omega Ksi, btw-id; handelsnaam OpTijdCadeau nog bij KvK registreren (todo 1b)","files":["lib/site.ts","ops/owner-todo.md"]}
+{"ts":"2026-11-17T21:35:00+01:00","agent":"product-scout","type":"gestart","summary":"Shortlist D: dunne segmenten aanvullen (onder €10, 0–3 en 4–7 jaar, €50+, ook niet-bol), prijzen vandaag gecontroleerd"}
+{"ts":"2026-11-17T21:35:00+01:00","agent":"catalogus","type":"gestart","summary":"Shortlist D importeren; alleen actief met vandaag gecontroleerde prijs en link 200"}
+{"ts":"2026-11-17T21:35:00+01:00","agent":"seo-content","type":"gestart","summary":"Zoekwoordonderzoek en 4 extra cadeaugidsen in lib/guides.ts"}
