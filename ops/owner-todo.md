@@ -39,8 +39,8 @@ Na elke goedkeuring: zet de sleutels in Vercel (Production) en kopieer op het da
 - [x] **3a. Awin-account** — publisher-ID 3159165 staat in Vercel (17-11).
 - [x] **3a-2. Awin: 14 winkels aangevraagd** (18-11) — Coolblue, ICI PARIS XL, Paagman, Top1toys, Spellenrijk, Little Dreamers, Action, Marie-Stella-Maris, Sony, Samsung, SharkNinja, Braadbaas, MyPoster, DenkSport. Lijst met ID's: ops/research/awin-aanmeldingen-2026-11-18.md.
 - [ ] **3a-3. Awin-goedkeuringen afwachten** — je krijgt per winkel een mail van Awin. Kopieer dan de prompt "Antwoord van bol of een affiliate-netwerk verwerken" en plak de mail; dan koppelen de agents de winkel en zetten producten live.
-- [ ] **3b. TradeTracker** — tradetracker.com/nl → "Aanmelden als publisher" → site toevoegen → per winkel campagnes aanvragen. Sleutels: `TRADETRACKER_CUSTOMER_ID`, `TRADETRACKER_PASSPHRASE`, `TRADETRACKER_SITE_ID`.
-- [ ] **3c. Daisycon** — daisycon.com → "Aanmelden als publisher" → mediaplatform optijdcadeau.nl → per winkel programma's aanvragen. Sleutels: `DAISYCON_PUBLISHER_ID`, `DAISYCON_MEDIA_ID`.
+- [x] **3b. TradeTracker-account** — aangemeld (18-11). Volgende: account-goedkeuring afwachten, dan campagnes aanvragen (de Bijenkorf, fonQ, HEMA, Intertoys e.a.); dat kan ik samen met je doen in het browservenster.
+- [x] **3c. Daisycon-account** — aangemeld (18-11). Volgende: account-goedkeuring afwachten, dan programma's aanvragen; dat kan ik samen met je doen in het browservenster.
 - [ ] **3d. Amazon.nl Associates** — partnernet.amazon.nl → aanmelden → website optijdcadeau.nl → je krijgt een tracking-ID die eindigt op `-21` → `NEXT_PUBLIC_AMAZON_TAG`. Let op: account vervalt zonder 3 verkopen binnen 180 dagen. Er staan al 7 Amazon-producten klaar als concept.
 
 ## 4. Advertenties (na livegang, akkoord per campagne)
