@@ -12,6 +12,8 @@ export const metadata: Metadata = {
   description: site.description,
   robots: site.indexable ? undefined : { index: false, follow: false },
   openGraph: { siteName: site.name, locale: "nl_NL", type: "website" },
+  // Google Search Console (URL-voorvoegsel, methode HTML-tag): code uit GOOGLE_SITE_VERIFICATION.
+  verification: process.env.GOOGLE_SITE_VERIFICATION ? { google: process.env.GOOGLE_SITE_VERIFICATION } : undefined,
 };
 
 export const viewport: Viewport = { themeColor: "#fbf7f0" };
