@@ -24,10 +24,10 @@ export default function Page() {
         niet of een product in de gids komt. We schrijven geen nepreviews en zeggen niet dat iets bijna uitverkocht is als we
         dat niet weten.
       </p>
-      <h2>Producten die wij zelf verkopen</h2>
+      <h2>Wij verkopen zelf niets</h2>
       <p>
-        Bij een klein deel van de cadeaus ben je bij ons klant en verstuurt een partner het pakket rechtstreeks. Dat staat
-        dan duidelijk op de productpagina, en daarvoor gelden onze algemene voorwaarden en 14 dagen bedenktijd.
+        {site.name} is een cadeaugids. Je koopt altijd bij de winkel waar je naartoe klikt; daar betaal je, en daar regel je
+        levering, garantie en retouren.
       </p>
     </>
   );

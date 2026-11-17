@@ -8,7 +8,6 @@ type Row = { name: string; who: string; purpose: string; duration: string };
 
 const NECESSARY: Row[] = [
   { name: "ck-consent-v1", who: "Wij (opslag in je browser)", purpose: "Onthoudt je cookiekeuze", duration: "12 maanden, daarna vragen we opnieuw" },
-  { name: "ck-cart-v1", who: "Wij (opslag in je browser)", purpose: "Je winkelwagen", duration: "Tot je de winkelwagen leegt of afrekent" },
 ];
 
 const ANALYTICS: Row[] = [
@@ -54,8 +53,7 @@ export default function Page() {
     <>
       <h1 className="font-display text-4xl font-semibold text-ink">Cookiebeleid</h1>
       <p>
-        Zonder jouw toestemming gebruiken we alleen opslag die nodig is om de site te laten werken: je winkelwagen en je
-        cookiekeuze. Statistiek- en advertentiecookies laden pas nadat je daar toestemming voor geeft. Weigeren is net zo
+        Zonder jouw toestemming gebruiken we alleen opslag die nodig is om de site te laten werken: je cookiekeuze. Statistiek- en advertentiecookies laden pas nadat je daar toestemming voor geeft. Weigeren is net zo
         makkelijk als accepteren, en je kunt je keuze altijd wijzigen of intrekken.
       </p>
       <p className="rounded-2xl border border-line bg-white p-4 text-sm">

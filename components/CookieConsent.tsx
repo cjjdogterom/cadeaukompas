@@ -162,7 +162,7 @@ function Banner({ current }: { current: Consent | null }) {
           )}
         </div>
         <p className="mt-2 text-sm leading-relaxed text-ink/85">
-          Noodzakelijke opslag (je winkelwagen en deze keuze) gebruiken we altijd. Met jouw toestemming meten we ook bezoek
+          Je cookiekeuze onthouden we altijd. Met jouw toestemming meten we ook bezoek
           (Google Analytics) en de werking van onze advertenties (Meta, Pinterest). Lees meer in het{" "}
           <Link href="/cookies" className="underline underline-offset-2">
             cookiebeleid
@@ -177,7 +177,7 @@ function Banner({ current }: { current: Consent | null }) {
               <input type="checkbox" checked disabled className="mt-0.5 h-4 w-4 accent-[var(--color-pine)]" />
               <span>
                 <span className="font-medium text-ink">Noodzakelijk</span>
-                <span className="block text-muted">Winkelwagen en cookiekeuze. Altijd aan.</span>
+                <span className="block text-muted">Onthoudt je cookiekeuze. Altijd aan.</span>
               </span>
             </label>
             <label className="flex cursor-pointer gap-3">

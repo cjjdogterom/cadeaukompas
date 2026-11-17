@@ -1,6 +1,6 @@
 # Akkoord gevraagd: dropship-checkout, verzendkosten en retourbeleid
 
-Status: WACHT
+Status: AFGEWEZEN (17-11: eigenaar kiest alleen affiliate; code verwijderd; laatste versie met dropship-code is commit ec645b0)
 Datum: 2026-11-17 · Agent: Developer · Code: `app/(shop)/afrekenen/`, `lib/shop.ts`, `app/(shop)/(juridisch)/voorwaarden|retourneren|herroepingsformulier`
 
 ## Wat

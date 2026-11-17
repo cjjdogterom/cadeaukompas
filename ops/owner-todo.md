@@ -1,54 +1,50 @@
 # Te doen door eigenaar
 
-Gesorteerd op urgentie. Vink af met `[x]` en zet sleutels in `.env.local` (nooit in chat plakken als dat niet hoeft; nooit committen). Sjabloon: `.env.example`.
+OpTijdCadeau is een **affiliate-cadeaugids** (keuze eigenaar 17-11): we verkopen zelf niets en verdienen commissie via links. Geen dropship, geen leveranciers, geen betalingen of retouren.
 
-## Vandaag / morgen (blokkeert omzet)
+Gesorteerd op volgorde. Vink af met `[x]`. Sleutels zet je in Vercel (Settings → Environment Variables) en in `.env.local`; nooit in de chat plakken, nooit committen. Sjabloon: `.env.example`.
 
-- [x] **1. KvK-inschrijving** — Omega Ksi, KvK 90505611, btw-id NL249643807B01 (doorgegeven 17-11, staat in lib/site.ts). Nog nodig: adres, e-mail en telefoon (zie 11).
-- [ ] **1b. Handelsnaam OpTijdCadeau bij KvK laten registreren** — elke handelsnaam die je gebruikt moet in het Handelsregister staan. kvk.nl → Wijziging doorgeven → Handelsnaam toevoegen (online, met eHerkenning/DigiD).
-  - kvk.nl → "Inschrijven eenmanszaak" → afspraak of online met DigiD. Kosten ca. €80 eenmalig.
-  - Je ontvangt KvK-nummer en (bij eenmanszaak) automatisch een btw-id van de Belastingdienst.
-  - Nodig voor: footer, Mollie, affiliate-netwerken, leveranciers.
-- [ ] **2. Zakelijke bankrekening** (bv. bunq, Knab, ING Zakelijk). Nodig voor Mollie-uitbetaling en affiliate-uitbetalingen.
-- [ ] **3. Bol Partnerprogramma** — partner.bol.com → "Aanmelden" → website-URL invullen (preview-URL of domein, zie 6).
-  - Daarna: Account → "Site-ID" kopiëren → `.env.local`: `NEXT_PUBLIC_BOL_SITE_ID=`
-  - Optioneel: Open API / Marketing Catalog API-sleutel (Account → API) → `BOL_API_CLIENT_ID`, `BOL_API_CLIENT_SECRET` (voor prijzen/afbeeldingen/voorraad-sync).
-- [ ] **4. Amazon.nl Associates** — partnernet.amazon.nl → aanmelden → tracking-ID (eindigt op `-21`) → `NEXT_PUBLIC_AMAZON_TAG=`
-  - Let op: account vervalt als er binnen 180 dagen geen 3 kwalificerende verkopen zijn.
-- [ ] **5. Affiliate-netwerken** (één of meer): Awin (awin.com, publisher, eenmalige borg ca. €5 die terugkomt), TradeTracker (tradetracker.com/nl), Daisycon (daisycon.com). Na goedkeuring per adverteerder (Coolblue, HEMA, Intertoys, Bijenkorf, fonQ) apart aanmelden.
-  - Sleutels: `AWIN_PUBLISHER_ID`, `AWIN_API_TOKEN`; `TRADETRACKER_CUSTOMER_ID`, `TRADETRACKER_PASSPHRASE`, `TRADETRACKER_SITE_ID`; `DAISYCON_PUBLISHER_ID`, `DAISYCON_MEDIA_ID`.
-- [x] **6. Domeinnaam** — optijdcadeau.nl geregistreerd via TransIP (17-11). Optioneel: optijdcadeau.com erbij (merkbescherming, €8,99 eerste jaar).
-- [ ] **6b. Domein koppelen aan Vercel** — pas bij de livegang: daarmee is de site openbaar (Deployment Protection geldt niet voor je eigen domein). Vercel → project → Settings → Domains → `optijdcadeau.nl` en `www.optijdcadeau.nl` toevoegen → de DNS-records die Vercel toont invullen in TransIP (Domeinen → optijdcadeau.nl → DNS). Daarna in Vercel `NEXT_PUBLIC_SITE_URL=https://optijdcadeau.nl`.
+## Gedaan
 
-## Dag 3–4 (voor livegang)
+- [x] **KvK** — Omega Ksi, KvK 90505611, btw-id NL249643807B01 (17-11).
+- [x] **Domein** — optijdcadeau.nl geregistreerd via TransIP (17-11).
+- [x] **Contact** — e-mail dogteromc03@gmail.com en telefoon 06 55 08 98 62 op de site (17-11).
+- [x] **Vercel** — project `cadeaukompas`, bouwt automatisch bij elke push; dashboard-wachtwoord ingesteld (17-11).
+- [x] **GitHub** — https://github.com/cjjdogterom/cadeaukompas (openbaar).
+- [x] **Agents lokaal** — geplande taak "optijdcadeau-agents" in de Claude-app, elke 2 uur 08–22 (17-11).
 
-- [x] **7. Vercel-account** — project `cadeaukompas`: https://cadeaukompas-chris356.vercel.app (bouwt automatisch bij elke push naar `main`; staat achter Vercel Deployment Protection).
-- [x] **7b. Dashboard-wachtwoord** — ingesteld voor Production (17-11). Optioneel ook Preview aanvinken. Was: Vercel → project cadeaukompas → Settings → Environment Variables → `ADMIN_PASSWORD` (zelf verzonnen, sterk) voor Production en Preview → daarna Redeploy. Zonder dit geeft `/admin` op Vercel een 404.
-- [ ] **7c. Vercel-plan**: Vercel-voorwaarden art. 4: Hobby alleen voor "personal or non-commercial use", en Vercel mag Hobby-projecten zonder waarschuwing offline halen. Pas upgraden op de dag van de livegang (~$20/mnd per gebruiker; na kerst weer terug naar Hobby of opzeggen). Vercel → Settings → Billing → Upgrade to Pro.
-- [ ] **8. Supabase-project** (supabase.com → New project, regio Frankfurt `eu-central-1`, gratis tier volstaat).
-  - Settings → API: `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY` (geheim!).
-- [ ] **9. Mollie** (mollie.com → account → KvK, bankrekening, ID-verificatie, UBO). Test-API-sleutel (`test_…`) mag direct: Developers → API keys → `MOLLIE_API_KEY`. Live-sleutel pas na verificatie en jouw livegang-akkoord. Klarna apart activeren in het dashboard.
-- [ ] **10. E-mail**: Resend (resend.com) → domein verifiëren (DNS-records) → `RESEND_API_KEY`. Afzenderadres bv. `bestellingen@<domein>`.
-- [ ] **11. Contactgegevens voor footer/voorwaarden**: bedrijfsnaam, vestigingsadres (of zakelijk postadres), e-mail, telefoon (verplicht bereikbaar), KvK, btw-id.
-- [ ] **12. Retouradres in Nederland** voor dropship-retouren (of afspraak dat leverancier retouren ontvangt).
+## 1. Nu (blokkeert de livegang)
 
-## Zodra dropship-leveranciers gekozen zijn
+- [ ] **1a. Adres voor de site** — je KvK-adres of een zakelijk postadres. Wettelijk verplicht in de footer (art. 3:15d BW). Stuur het in de chat.
+- [ ] **1b. Handelsnaam OpTijdCadeau bij KvK registreren** — kvk.nl → Wijziging doorgeven → Handelsnaam toevoegen (online, DigiD/eHerkenning). Elke naam waaronder je handelt moet in het Handelsregister staan.
+- [ ] **1c. Bol Partnerprogramma** — partner.bol.com → Aanmelden met je bol-account → website optijdcadeau.nl. Daarna: Account → Site-ID → in Vercel `NEXT_PUBLIC_BOL_SITE_ID`. Zonder dit verdienen de bol-links niets. Bol beoordeelt de site; doe dit op of vlak na de livegang (zie 2).
+- [ ] **1d. Zakelijke rekening of IBAN** voor de commissie-uitbetalingen van bol en de netwerken.
 
-- [ ] **13. Leveranciers aanmelden + contract/voorwaarden** (voorstel volgt van Leverancier-agent in `ops/research/`). Let op: als verkoper ben jij aansprakelijk voor levering, garantie en 14 dagen herroepingsrecht.
-- [ ] **14. Btw-administratie**: dropship-verkopen = jouw omzet (21% / 9%); affiliate-commissie = dienst (21% btw, of KOR als je onder €20.000 omzet blijft — overleg boekhouder).
+## 2. Livegang (jij geeft akkoord, ik bereid voor)
 
-## Advertenties (pas na livegang + akkoord per campagne)
+- [ ] **2a. Akkoord op de teksten** — cookiebeleid, privacyverklaring, gebruiksvoorwaarden en "hoe wij verdienen" (dashboard → Akkoord gevraagd).
+- [ ] **2b. Vercel Pro** op de dag van livegang (~$20/mnd; Hobby is volgens Vercel alleen voor niet-commercieel gebruik). Vercel → Settings → Billing → Upgrade.
+- [ ] **2c. Domein koppelen** — Vercel → project → Settings → Domains → `optijdcadeau.nl` en `www.optijdcadeau.nl` → de DNS-records die Vercel toont invullen bij TransIP (Domeinen → optijdcadeau.nl → DNS). Daarna in Vercel `NEXT_PUBLIC_SITE_URL=https://optijdcadeau.nl` en `NEXT_PUBLIC_INDEXABLE=true`, en Redeploy. Vanaf dat moment is de site openbaar.
 
-- [ ] **15. Google Ads + Merchant Center**, **Meta Business Manager** (pixel + Conversions API-token), **Pinterest Business**. Betaalmethode toevoegen doe jij. Sleutels: `NEXT_PUBLIC_GA4_ID`, `GA4_API_SECRET`, `NEXT_PUBLIC_META_PIXEL_ID`, `META_CAPI_TOKEN`, `NEXT_PUBLIC_PINTEREST_TAG_ID`.
-- [ ] **16. Social accounts** (TikTok, Instagram, Pinterest) op shopnaam.
+## 3. Meer winkels (meer producten, meer commissie)
 
-## Automatisch draaien (agents)
+- [ ] **3a. Affiliate-netwerk(en)** — Awin (awin.com, publisher, borg ca. €5 die terugkomt), TradeTracker (tradetracker.com/nl) en/of Daisycon (daisycon.com). Daarna per winkel aanmelden (Coolblue, HEMA, Intertoys, Bijenkorf, fonQ). Sleutels: `AWIN_PUBLISHER_ID`, `AWIN_API_TOKEN`; `TRADETRACKER_CUSTOMER_ID`, `TRADETRACKER_PASSPHRASE`, `TRADETRACKER_SITE_ID`; `DAISYCON_PUBLISHER_ID`, `DAISYCON_MEDIA_ID`. Dan zet de catalogus-agent de concept-producten van die winkels live.
+- [ ] **3b. Amazon.nl Associates** (optioneel) — partnernet.amazon.nl → tracking-ID (eindigt op `-21`) → `NEXT_PUBLIC_AMAZON_TAG`. Account vervalt zonder 3 verkopen in 180 dagen.
 
-- [x] **17. GitHub-repo** — https://github.com/cjjdogterom/cadeaukompas (gekoppeld en gepusht op 17-11). De repo is bewust **openbaar** (jouw keuze, 17-11).
-- [x] **18a. Agents lokaal elke 2 uur** — geplande taak "optijdcadeau-agents" in de Claude-app (08–22 uur, sinds 17-11). Draait alleen als de app open is en de Mac aan staat. Instructies: `ops/agents-round.md`.
-- [ ] **18b. Volledig zelfstandig in de cloud** (los van je Mac): GitHub → repo → Settings → Secrets and variables → Actions.
-  - Tab Secrets → `ANTHROPIC_API_KEY` (console.anthropic.com → API keys; zet daar ook een maandlimiet onder Billing → Limits).
-  - Tab Variables → `OPS_ENABLED` = `true` → agent-ronde elke 2 uur (08–22), feed-sync elk uur, advertentie-beoordeling 07:30.
-  - Daarna in de Claude-app de geplande taak "optijdcadeau-agents" uitzetten (niet allebei laten draaien).
-  - Later: `DROPSHIP_ENABLED=true` → order-ops elk kwartier (na eerste dropship-leverancier). Supabase/Mollie/Resend-sleutels ook als Secrets.
-  - Kosten: API-gebruik per ronde (zie dagrapport); GitHub Actions is gratis voor een openbare repo.
+## 4. Advertenties (na livegang, akkoord per campagne)
+
+- [ ] **4a. Accounts** — Google Ads + Google Analytics 4, Meta Business (pixel), Pinterest Business. Betaalmethode voeg je zelf toe. ID's in Vercel: `NEXT_PUBLIC_GA4_ID`, `NEXT_PUBLIC_META_PIXEL_ID`, `NEXT_PUBLIC_PINTEREST_TAG_ID`. Google Shopping kan niet met affiliate-producten; het wordt Google Search, Meta en Pinterest.
+- [ ] **4b. Akkoord per campagne** — de advertentie-maker zet voorstellen met budget in Akkoord gevraagd; maximaal €500 totaal.
+- [ ] **4c. Social accounts** (TikTok, Instagram, Pinterest) op de naam OpTijdCadeau, voor gratis posts.
+
+## 5. Volledig zelfstandig (los van je Mac)
+
+- [ ] **5a. Agents in de cloud** — GitHub → repo → Settings → Secrets and variables → Actions:
+  - Secret `ANTHROPIC_API_KEY` (console.anthropic.com → API keys; zet daar ook een maandlimiet onder Billing → Limits).
+  - Variable `OPS_ENABLED` = `true` → agent-ronde elke 2 uur (08–22), feed-sync elk uur, advertentie-beoordeling 07:30.
+  - Daarna de geplande taak "optijdcadeau-agents" in de Claude-app uitzetten (niet allebei).
+- [ ] **5b. Supabase** (optioneel) — supabase.com → project in regio Frankfurt → `NEXT_PUBLIC_SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` in Vercel en als GitHub-secret. Dan worden klikken naar winkels geteld (zonder persoonsgegevens) en ziet het dashboard klikken per product.
+
+## Administratie
+
+- [ ] **Btw**: affiliate-commissie is een dienst (21% btw), tenzij je de kleineondernemersregeling (KOR) gebruikt. Overleg met een boekhouder.

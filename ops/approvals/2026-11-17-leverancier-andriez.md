@@ -1,6 +1,6 @@
 # Akkoord gevraagd: aanmelden als dropship-reseller bij Andriez Groothandel
 
-Status: WACHT
+Status: AFGEWEZEN (17-11: eigenaar kiest alleen affiliate; code verwijderd; laatste versie met dropship-code is commit ec645b0)
 Datum: 2026-11-17 · Agent: Leverancier · Onderzoek: `ops/research/leveranciers-2026-11-17.md`
 
 ## Wat

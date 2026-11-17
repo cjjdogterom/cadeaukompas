@@ -55,7 +55,6 @@ export const MERCHANTS = {
   intertoys: { name: "Intertoys", domain: "intertoys.nl" },
   bijenkorf: { name: "de Bijenkorf", domain: "debijenkorf.nl" },
   fonq: { name: "fonQ", domain: "fonq.nl" },
-  eigen: { name: "OpTijdCadeau", domain: "optijdcadeau.nl" },
 } as const;
 export type Merchant = keyof typeof MERCHANTS;
 
@@ -69,7 +68,7 @@ export type Product = {
   ean?: string;
   short: string; // 1 zin, eigen woorden
   description: string; // 2–4 zinnen, eigen woorden
-  type: "affiliate" | "dropship";
+  type: "affiliate"; // alleen affiliate (keuze eigenaar 17-11)
   merchant: Merchant;
   merchantUrl: string; // productpagina zonder tracking-parameters
   priceCents: number; // incl. btw
@@ -86,8 +85,4 @@ export type Product = {
   sources: string[];
   status: ProductStatus;
   scout?: { score: number; commissionPct?: number | null; notes?: string };
-  supplierId?: string | null; // alleen dropship
-  vatRate?: 9 | 21; // alleen dropship; standaard 21
-  personalized?: boolean; // dropship: gepersonaliseerd = uitgezonderd van herroepingsrecht
-  // Inkoopprijzen staan NOOIT in dit bestand (openbare repo) — alleen in de database (products.cost_cents).
 };

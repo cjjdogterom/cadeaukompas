@@ -1,23 +1,26 @@
-# Akkoord gevraagd: cookiebanner en nieuw cookiebeleid
+# Akkoord gevraagd: teksten en cookiebanner voor de livegang
 
 Status: WACHT
-Datum: 2026-11-17 · Agent: Developer · Code: `components/CookieConsent.tsx`, `lib/consent.ts`, `app/(shop)/(juridisch)/cookies/page.tsx`
+Datum: 2026-11-17 · Agent: Developer · Code: `components/CookieConsent.tsx`, `lib/consent.ts`, `app/(shop)/(juridisch)/`
 
 ## Wat
-- Cookiebanner op alle shoppagina's (niet op /admin): "Alleen noodzakelijk" en "Alles accepteren" even groot, plus "Zelf kiezen" met lege vinkjes voor Statistieken en Advertenties.
-- Keuze 12 maanden geldig; wijzigen of intrekken via "Cookie-instellingen" in de footer. Bij intrekken ruimen we de cookies op en herladen we de pagina.
-- Google Analytics 4 (Consent Mode v2, standaard alles `denied`), Meta Pixel en Pinterest Tag laden pas na toestemming en alleen als hun ID in Vercel staat. Nu staat er nog geen ID, dus er laadt niets.
-- Cookiebeleid aangevuld met cookienamen, doel en bewaartermijn (GA-cookies maximaal 13 maanden).
+De site is een affiliate-cadeaugids (we verkopen zelf niets). Deze pagina's gaan live en hebben jouw akkoord nodig:
+- **Cookiebeleid** (/cookies): cookienamen, doel en bewaartermijn. Statistieken en advertenties alleen na toestemming.
+- **Privacyverklaring** (/privacy): geen bestellingen, alleen contact, geanonimiseerde klikregistratie en (met toestemming) Google, Meta en Pinterest.
+- **Gebruiksvoorwaarden** (/voorwaarden): wij verkopen niets, prijzen en levertijden zijn indicatief, aansprakelijkheid, Nederlands recht.
+- **Hoe wij verdienen** (/hoe-wij-verdienen): uitleg over commissie.
+- **Cookiebanner**: "Alleen noodzakelijk" en "Alles accepteren" even groot, "Zelf kiezen" met lege vinkjes; wijzigen via "Cookie-instellingen" in de footer.
+
+Nog in te vullen vóór livegang: adres (footer, voorwaarden, privacy) en de datum "laatst bijgewerkt".
 
 ## Waarom
-Verplicht vóór we statistieken of advertenties aanzetten (Telecommunicatiewet 11.7a, AVG). Zonder dit mogen de ads-tags niet draaien.
+Wettelijk verplicht (AVG, Telecommunicatiewet 11.7a, informatieplicht 3:15d BW, Reclamecode voor affiliate-uitleg). Zonder cookiebanner mogen statistieken en advertenties niet aan.
 
 ## Kosten
 Geen.
 
 ## Getest
-Lokaal met nep-ID's: vóór een keuze 0 verzoeken naar Google, Meta of Pinterest; alleen statistieken → alleen Google; alles → alle drie; intrekken → cookies weg en scripts weg. Telefoonweergave gecontroleerd.
+Cookiebanner lokaal met nep-ID's: vóór een keuze 0 verzoeken naar Google, Meta of Pinterest; alleen statistieken laadt alleen Google; alles laadt alle drie; intrekken verwijdert cookies en scripts. Telefoonweergave gecontroleerd.
 
-## Nog niet
-- Conversies meten (aankoop, klik naar winkel) volgt zodra je GA4/Meta-ID's hebt (prompt "Advertentieaccounts koppelen").
-- Privacyverklaring noemt Google, Meta en Pinterest al; doorgifte buiten de EER controleert de compliance-agent bij de livegang.
+## Akkoord geven
+Lees de pagina's op de Vercel-link en zeg in de chat "akkoord teksten" (of wat er anders moet).

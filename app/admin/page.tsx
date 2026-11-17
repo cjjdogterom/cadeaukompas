@@ -74,7 +74,7 @@ async function Dashboard({ searchParams }: { searchParams: PageProps<"/admin">["
   ]);
 
   const t = finance.totals;
-  const income = t.dropshipMarginCents + t.commissionConfirmedCents;
+  const income = t.commissionConfirmedCents;
   const profit = income - t.adSpendCents - t.otherCostsCents;
   const openApprovals = approvals.filter((a) => a.status === "WACHT");
   const openQuestions = questions.filter((q) => !q.answered);
@@ -107,7 +107,6 @@ async function Dashboard({ searchParams }: { searchParams: PageProps<"/admin">["
       <section aria-labelledby="cijfers" className="mt-8">
         <h2 id="cijfers" className="sr-only">Cijfers</h2>
         <dl className="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-6">
-          <Kpi label="Omzet dropship" value={formatPrice(t.dropshipRevenueCents)} sub={`marge ${formatPrice(t.dropshipMarginCents)}`} />
           <Kpi
             label="Commissie affiliate"
             value={formatPrice(t.commissionConfirmedCents)}
@@ -119,9 +118,13 @@ async function Dashboard({ searchParams }: { searchParams: PageProps<"/admin">["
             sub={`van ${formatPrice(t.adBudgetCents)} budget`}
             meter={t.adBudgetCents ? t.adSpendCents / t.adBudgetCents : 0}
           />
-          <Kpi label="Winst na kosten" value={formatPrice(profit)} sub="marge + bevestigde commissie − kosten" tone={profit < 0 ? "bad" : undefined} />
+          <Kpi label="Winst na kosten" value={formatPrice(profit)} sub="bevestigde commissie − kosten" tone={profit < 0 ? "bad" : undefined} />
           <Kpi label="Klikken naar winkels" value={t.outboundClicks.toLocaleString("nl-NL")} sub="via /uit-links" />
-          <Kpi label="Orders" value={t.orders.toLocaleString("nl-NL")} sub="dropship, betaald" />
+          <Kpi
+            label="Commissie per klik"
+            value={t.outboundClicks ? formatPrice(Math.round(t.commissionExpectedCents / t.outboundClicks)) : "—"}
+            sub="verwacht, gemiddeld"
+          />
         </dl>
         <p className="mt-2 text-xs text-muted">Bron: {finance.source}</p>
       </section>

@@ -100,7 +100,7 @@ Wanneer: nu al mogelijk; uitgeven pas na livegang en jouw akkoord
 Nodig van jou: niets om te maken; akkoord per campagne
 
 ```text
-Laat de advertentie-maker de eerste experimenten maken volgens ops/ads-framework.md: Google Search, Meta en Pinterest, plus organische posts voor TikTok, Instagram en Pinterest. Gebruik alleen actieve producten met een gecontroleerde prijs en noem echte uiterste besteldata. Let op: Google Shopping kan alleen voor producten die we zelf verkopen (dropship), niet voor affiliate-producten. Per experiment: hypothese, doelgroep, landingspagina, budget, start/eind en succescriterium. Laat de compliance-agent alles toetsen. Zet het geheel als akkoordverzoek in ops/approvals/ met het totale budget per kanaal. Geef niets uit.
+Laat de advertentie-maker de eerste experimenten maken volgens ops/ads-framework.md: Google Search, Meta en Pinterest, plus organische posts voor TikTok, Instagram en Pinterest. Gebruik alleen actieve producten met een gecontroleerde prijs en noem echte uiterste besteldata. Let op: Google Shopping kan niet met affiliate-producten; gebruik Google Search, Meta en Pinterest. Per experiment: hypothese, doelgroep, landingspagina, budget, start/eind en succescriterium. Laat de compliance-agent alles toetsen. Zet het geheel als akkoordverzoek in ops/approvals/ met het totale budget per kanaal. Geef niets uit.
 ```
 
 ## Advertentieaccounts koppelen
@@ -138,7 +138,7 @@ Wanneer: als je een API-sleutel of ID in Vercel of .env.local hebt gezet
 Nodig van jou: welke variabelen (niet de waarden)
 
 ```text
-Ik heb deze variabelen ingesteld in [Vercel / .env.local]: [namen, bijv. MOLLIE_API_KEY, NEXT_PUBLIC_SUPABASE_URL]. Plak geen waarden in de chat. Controleer of alles werkt wat ermee aan kan, test wat te testen is (bij Mollie alleen in testmodus), werk ops/owner-todo.md bij, commit en push.
+Ik heb deze variabelen ingesteld in [Vercel / .env.local]: [namen, bijv. NEXT_PUBLIC_BOL_SITE_ID, NEXT_PUBLIC_GA4_ID]. Plak geen waarden in de chat. Controleer of alles werkt wat ermee aan kan, test wat te testen is, werk ops/owner-todo.md bij, commit en push.
 ```
 
 ## Akkoord of keuze doorgeven
@@ -147,16 +147,16 @@ Wanneer: als je een akkoordverzoek in ops/approvals/ hebt gelezen
 Nodig van jou: je keuze
 
 ```text
-Over ops/approvals/[bestandsnaam]: [AKKOORD / AFGEWEZEN], met deze keuzes: [bijv. verzendkosten €4,95 gratis vanaf €50; retourkosten voor de klant; retouradres ...]. Zet de status, log het in ops/decisions.md, verwerk de keuzes in de code en teksten, en vertel me wat er nog ontbreekt voordat het live kan.
+Over ops/approvals/[bestandsnaam]: [AKKOORD / AFGEWEZEN], met deze keuzes: [bijv. teksten akkoord; budget €50 voor Meta]. Zet de status, log het in ops/decisions.md, verwerk de keuzes in de code en teksten, en vertel me wat er nog ontbreekt voordat het live kan.
 ```
 
-## Antwoord van een leverancier verwerken
-Agent: leverancier
-Wanneer: als een leverancier of netwerk terugmailt
+## Antwoord van bol of een affiliate-netwerk verwerken
+Agent: catalogus
+Wanneer: als bol, Awin, TradeTracker, Daisycon of een winkel je goedkeurt of afwijst
 Nodig van jou: de mail (zonder privégegevens van anderen)
 
 ```text
-[Leverancier] heeft geantwoord: [plak de mail]. Laat de leverancier-agent dit verwerken in ops/research/ en het akkoordverzoek in ops/approvals/, en zet een conceptantwoord klaar dat ik zelf kan versturen. Teken of accepteer niets.
+[Bol / Awin / TradeTracker / Daisycon / winkel] heeft gemaild: [plak de mail]. Vertel wat dit betekent, wat ik nu moet doen (precies waar klikken) en welke sleutel of ID ik in Vercel moet zetten. Werk ops/owner-todo.md bij. Accepteer of teken niets.
 ```
 
 ## Klantmail beantwoorden
@@ -165,5 +165,5 @@ Wanneer: als een klant mailt
 Nodig van jou: de mail
 
 ```text
-Een klant mailt: [plak de mail, ordernummer mag erbij]. Laat de klantenservice-agent een conceptantwoord schrijven in ops/support/ (staat niet in git). Gaat het om retour, terugbetaling of compensatie, leg het dan aan mij voor en beloof de klant nog niets.
+Een klant mailt: [plak de mail, ordernummer mag erbij]. Laat de klantenservice-agent een conceptantwoord schrijven in ops/support/ (staat niet in git). Gaat het om een bestelling, verwijs vriendelijk naar de winkel waar gekocht is (wij verkopen zelf niets). Beloof niets namens een winkel.
 ```

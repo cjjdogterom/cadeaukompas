@@ -24,7 +24,7 @@ function fromRow(r: Row): Product {
     priceCents: r.price_cents, priceCheckedAt: r.price_checked_at, deliveryDaysMin: r.delivery_days_min,
     deliveryDaysMax: r.delivery_days_max, recipients: r.recipients, ageGroups: r.age_groups,
     interests: r.interests, occasions: r.occasions, rating: r.rating, imageUrl: r.image_url,
-    imageLicense: r.image_license, sources: r.sources, status: r.status, scout: r.scout, supplierId: r.supplier_id,
+    imageLicense: r.image_license, sources: r.sources, status: r.status, scout: r.scout,
   };
 }
 

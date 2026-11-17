@@ -11,8 +11,7 @@
     "test": "vitest run",
     "catalog:import": "node scripts/import-shortlist.mjs",
     "check:links": "node scripts/check-links.mjs",
-    "sync:feeds": "node scripts/sync-feeds.mjs",
-    "ops:orders": "node scripts/order-ops.mjs"
+    "sync:feeds": "node scripts/sync-feeds.mjs"
   },
   "dependencies": {
     "next": "16.4.6",

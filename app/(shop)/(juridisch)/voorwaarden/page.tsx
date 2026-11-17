@@ -1,16 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { site } from "@/lib/site";
-import { SHIPPING } from "@/lib/shop";
-import { formatPrice } from "@/lib/format";
 
-export const metadata: Metadata = { title: "Algemene voorwaarden" };
+export const metadata: Metadata = { title: "Gebruiksvoorwaarden" };
 
 export default function Page() {
   const c = site.company;
   return (
     <>
-      <h1 className="font-display text-4xl font-semibold text-ink">Algemene voorwaarden</h1>
+      <h1 className="font-display text-4xl font-semibold text-ink">Gebruiksvoorwaarden</h1>
       <p>Versie: concept 17 november 2026 · [IN TE VULLEN: definitieve datum bij livegang]</p>
 
       <h2>1. Wie wij zijn</h2>
@@ -19,68 +17,47 @@ export default function Page() {
         btw-id {c.vat}.
       </p>
 
-      <h2>2. Wanneer gelden deze voorwaarden</h2>
+      <h2>2. Wat {site.name} is</h2>
       <p>
-        Deze voorwaarden gelden voor elke bestelling die je <strong>bij ons</strong> plaatst en afrekent op onze website
-        (producten met de knop &ldquo;In winkelwagen&rdquo;). Bestel je via een knop &ldquo;Bekijk bij &hellip;&rdquo; bij een andere winkel,
-        dan sluit je de koop met die winkel en gelden hun voorwaarden; wij zijn dan geen partij (zie{" "}
-        <Link href="/hoe-wij-verdienen">hoe wij verdienen</Link>).
+        {site.name} is een cadeaugids. We tonen cadeau-ideeën met levertijden en uiterste besteldatums, en linken door naar
+        Nederlandse webwinkels. <strong>Wij verkopen zelf niets.</strong> Bestel je via een knop &ldquo;Bekijk bij &hellip;&rdquo;, dan
+        sluit je de koop met die winkel. Hun prijzen, voorwaarden, levering, garantie, retourbeleid en klantenservice gelden;
+        wij zijn geen partij bij die koop.
       </p>
 
-      <h2>3. Aanbod en prijzen</h2>
-      <ul>
-        <li>Alle prijzen zijn in euro&rsquo;s en inclusief btw.</li>
-        <li>
-          Verzendkosten zijn {formatPrice(SHIPPING.costCents)} per bestelling en vervallen vanaf {formatPrice(SHIPPING.freeFromCents)}.
-          Je ziet ze vóór je bestelt.
-        </li>
-        <li>Kennelijke vergissingen of fouten in het aanbod binden ons niet.</li>
-        <li>We leveren alleen in Nederland.</li>
-      </ul>
-
-      <h2>4. De overeenkomst</h2>
+      <h2>3. Hoe wij verdienen</h2>
       <p>
-        De koop komt tot stand zodra je op &ldquo;Bestellen en betalen&rdquo; klikt en de betaling is gelukt. Je krijgt direct een
-        bevestiging per e-mail met daarin deze voorwaarden, de informatie over herroeping en het modelformulier.
+        Koop je iets via onze link, dan krijgen wij mogelijk een commissie van de winkel. Jij betaalt daardoor niet meer. Lees
+        meer op <Link href="/hoe-wij-verdienen">hoe wij verdienen</Link>.
       </p>
 
-      <h2>5. Betalen</h2>
-      <p>Je betaalt vooraf via Mollie (onder meer iDEAL, Bancontact en creditcard). Wij zien en bewaren geen betaalgegevens.</p>
-
-      <h2>6. Levering</h2>
+      <h2>4. Prijzen, levertijden en besteldatums</h2>
       <ul>
-        <li>
-          Een partner (leverancier) verstuurt je bestelling rechtstreeks naar het opgegeven adres. Bij elk product staat de
-          verwachte levertijd en de uiterste besteldatum voor Sinterklaas en kerst.
-        </li>
-        <li>We leveren uiterlijk binnen 30 dagen, tenzij we samen iets anders afspreken. Lukt dat niet, dan mag je de koop
-          kosteloos ontbinden en betalen we binnen 14 dagen terug.</li>
-        <li>Het risico van beschadiging of verlies ligt bij ons tot het pakket bij jou (of iemand die jij aanwijst) is bezorgd.</li>
+        <li>Prijzen zijn indicatief en inclusief btw. We controleren ze regelmatig en tonen de datum van de laatste controle. De prijs bij de winkel is leidend.</li>
+        <li>Levertijden en uiterste besteldatums zijn onze inschatting op basis van wat de winkel opgeeft, met een buffer voor de drukte. De winkel bepaalt de echte levering.</li>
+        <li>Klopt er iets niet? Laat het ons weten via {c.email}; we passen het zo snel mogelijk aan.</li>
       </ul>
 
-      <h2>7. Bedenktijd (herroepingsrecht)</h2>
+      <h2>5. Aansprakelijkheid</h2>
       <p>
-        Je mag de koop binnen 14 dagen na ontvangst zonder opgave van redenen ontbinden. Hoe dat werkt, wat het kost en welke
-        uitzonderingen er zijn, staat op <Link href="/retourneren">retourneren &amp; herroepen</Link>. Je kunt het{" "}
-        <Link href="/herroepingsformulier">modelformulier</Link> gebruiken, maar dat hoeft niet.
+        We doen ons best om de informatie juist en actueel te houden, maar kunnen niet garanderen dat alles altijd klopt. We
+        zijn niet aansprakelijk voor schade door het gebruik van deze site of van websites waar we naar linken, behalve bij
+        opzet of grove nalatigheid. Je wettelijke rechten als consument tegenover de winkel blijven altijd gelden.
       </p>
-      <p>Geen herroepingsrecht is er onder meer voor producten die volgens jouw wensen zijn gemaakt of gepersonaliseerd, en voor
-        verzegelde producten die om hygiënische redenen niet kunnen worden teruggestuurd als de verzegeling is verbroken. Dat
-        staat dan duidelijk bij het product.</p>
 
-      <h2>8. Garantie en klachten</h2>
-      <ul>
-        <li>Je hebt altijd de wettelijke garantie: een product moet doen wat je er redelijkerwijs van mag verwachten.</li>
-        <li>Is er iets mis? Meld het binnen bekwame tijd na ontdekking bij {c.email}. We reageren binnen 14 dagen met een oplossing
-          (herstel, vervanging of terugbetaling).</li>
-        <li>[IN TE VULLEN: aansluiting bij een geschillencommissie, indien van toepassing.]</li>
-      </ul>
+      <h2>6. Inhoud en merken</h2>
+      <p>
+        Teksten op deze site schrijven we zelf. Merknamen en productnamen zijn van hun eigenaars. Productfoto&rsquo;s tonen we
+        alleen als we die mogen gebruiken.
+      </p>
 
-      <h2>9. Privacy</h2>
-      <p>We gebruiken je gegevens alleen om je bestelling uit te voeren. Zie de <Link href="/privacy">privacyverklaring</Link>.</p>
+      <h2>7. Privacy en cookies</h2>
+      <p>
+        Zie de <Link href="/privacy">privacyverklaring</Link> en het <Link href="/cookies">cookiebeleid</Link>.
+      </p>
 
-      <h2>10. Toepasselijk recht</h2>
-      <p>Op deze voorwaarden en je bestelling is Nederlands recht van toepassing. Dwingende consumentenbescherming blijft altijd gelden.</p>
+      <h2>8. Toepasselijk recht</h2>
+      <p>Op deze voorwaarden is Nederlands recht van toepassing.</p>
     </>
   );
 }

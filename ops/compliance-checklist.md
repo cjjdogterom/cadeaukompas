@@ -1,5 +1,7 @@
 # Compliance-checklist (per release)
 
+> **17-11: alleen affiliate.** Punten over checkout, betaling, retouren, herroeping en leveranciers zijn niet van toepassing zolang we zelf niets verkopen.
+
 Compliance-agent loopt dit na op de preview-URL. Status per punt: OK / NIET OK / N.V.T. Eén NIET OK in **[blokkerend]** = geen release.
 
 ## Identiteit & contact

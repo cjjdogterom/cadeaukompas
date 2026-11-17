@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T22:20:00+01:00",
+  "updatedAt": "2026-11-17T22:10:00+01:00",
   "agents": {
     "orchestrator": {
       "status": "gepland",
@@ -18,12 +18,12 @@
       "blockedBy": null
     },
     "leverancier": {
-      "status": "wacht",
-      "currentTask": "Concept-mails aan Andriez, SpeelgoedFamilie en Gelato liggen klaar voor jou om te versturen",
+      "status": "inactief",
+      "currentTask": null,
       "lastRunAt": "2026-11-17T20:45:00+01:00",
       "lastResult": "3 concept-mails, 15 dropship-productideeën en stappenplan gemaakt",
-      "nextRun": "Na jouw mails/antwoorden leveranciers",
-      "blockedBy": "Jij: leveranciersmails versturen (uiterlijk wo 18-11). KvK en btw-id zijn er nu."
+      "nextRun": null,
+      "blockedBy": "Alleen affiliate (keuze eigenaar 17-11): geen leveranciers nodig"
     },
     "catalogus": {
       "status": "gepland",
@@ -59,11 +59,11 @@
     },
     "order-ops": {
       "status": "inactief",
-      "currentTask": "Start bij de eerste dropship-leverancier",
+      "currentTask": null,
       "lastRunAt": null,
       "lastResult": null,
-      "nextRun": "Elk kwartier (script), na dropship-start",
-      "blockedBy": "Nog geen dropship-leverancier"
+      "nextRun": null,
+      "blockedBy": "Alleen affiliate (keuze eigenaar 17-11): geen eigen orders"
     },
     "klantenservice": {
       "status": "inactief",
@@ -71,7 +71,7 @@
       "lastRunAt": null,
       "lastResult": null,
       "nextRun": "Na livegang",
-      "blockedBy": "Site nog niet live"
+      "blockedBy": "Site nog niet live; alleen contactmails (geen orders)"
     },
     "advertentie-maker": {
       "status": "inactief",
