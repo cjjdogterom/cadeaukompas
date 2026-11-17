@@ -25,6 +25,7 @@ Gesorteerd op volgorde. Vink af met `[x]`. Sleutels zet je in Vercel (Settings �
 - [x] **2a. Teksten** — akkoord eigenaar 17-11 (cookiebeleid, privacy, gebruiksvoorwaarden, hoe wij verdienen, cookiebanner).
 - [x] **2b. Vercel Pro** — geregeld door eigenaar (17-11).
 - [x] **2c. Domein gekoppeld** (17-11) — optijdcadeau.nl en www (stuurt door) wijzen naar Vercel, HTTPS werkt, `NEXT_PUBLIC_SITE_URL` staat. De site is bereikbaar maar nog **niet vindbaar** in Google (noindex). Bij livegang-akkoord: `NEXT_PUBLIC_INDEXABLE=true` in Vercel + Redeploy.
+- [x] **2d. Indexeren aan** (17-11) — `NEXT_PUBLIC_INDEXABLE=true`; robots.txt staat Google toe, sitemap op /sitemap.xml.
 
 ## 3. Meer winkels (meer producten, meer commissie)
 
