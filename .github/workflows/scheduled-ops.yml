@@ -1,4 +1,7 @@
-# Geplande agent-taken. Staan pas aan als de repo op GitHub staat en de secrets gezet zijn (ops/owner-todo.md #17).
+# Geplande agent-taken. Staan UIT tot de eigenaar ze aanzet via repository-variabelen (Settings → Secrets and variables → Actions → Variables):
+#   OPS_ENABLED=true        → feed-sync, advertentie-beoordeling en dagrapport
+#   DROPSHIP_ENABLED=true   → order-ops elk kwartier (pas na eerste dropship-leverancier)
+# De claude-jobs hebben daarnaast het secret ANTHROPIC_API_KEY nodig. Zie ops/owner-todo.md #17.
 # Tijden in UTC. NL = UTC+1 in de winter.
 name: scheduled-ops
 
@@ -31,7 +34,7 @@ env:
 
 jobs:
   feed-sync:
-    if: github.event.schedule == '5 * * * *' || inputs.job == 'feed-sync'
+    if: vars.OPS_ENABLED == 'true' && (github.event.schedule == '5 * * * *' || inputs.job == 'feed-sync')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -42,7 +45,7 @@ jobs:
       - run: npm run sync:feeds
 
   order-ops:
-    if: github.event.schedule == '*/15 * * * *' || inputs.job == 'order-ops'
+    if: vars.DROPSHIP_ENABLED == 'true' && (github.event.schedule == '*/15 * * * *' || inputs.job == 'order-ops')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -53,7 +56,7 @@ jobs:
       - run: npm run ops:orders
 
   ads-review:
-    if: github.event.schedule == '30 6 * * *' || inputs.job == 'ads-review'
+    if: vars.OPS_ENABLED == 'true' && (github.event.schedule == '30 6 * * *' || inputs.job == 'ads-review')
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -74,7 +77,7 @@ jobs:
           git add ops/ && git diff --cached --quiet || (git commit -m "ops: advertentie-beoordeling $(date -u +%F)" && git push)
 
   daily-report:
-    if: github.event.schedule == '0 7 * * *' || inputs.job == 'daily-report'
+    if: vars.OPS_ENABLED == 'true' && (github.event.schedule == '0 7 * * *' || inputs.job == 'daily-report')
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:

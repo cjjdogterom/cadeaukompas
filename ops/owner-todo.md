@@ -40,4 +40,9 @@ Gesorteerd op urgentie. Vink af met `[x]` en zet sleutels in `.env.local` (nooit
 
 ## Automatisch draaien (agents)
 
-- [ ] **17. GitHub-repo** (privé) aanmaken en mij toegang geven, of `gh auth login` lokaal. Nu extra belangrijk: het project staat niet meer in OneDrive, dus GitHub is de back-up. Plus `ANTHROPIC_API_KEY` als GitHub-secret (console.anthropic.com → API keys) voor de geplande `claude -p`-jobs. Kosten: API-gebruik, schatting volgt in dagrapport.
+- [x] **17. GitHub-repo** — https://github.com/cjjdogterom/cadeaukompas (gekoppeld en gepusht op 17-11). Let op: de repo is nu **openbaar**, zie vraag 11.
+- [ ] **18. Geplande agent-taken aanzetten** (pas als je dat wilt): GitHub → repo → Settings → Secrets and variables → Actions.
+  - Secret `ANTHROPIC_API_KEY` (console.anthropic.com → API keys) en de sleutels uit `.env.example` die de jobs nodig hebben.
+  - Variable `OPS_ENABLED=true` → feed-sync elk uur, advertentie-beoordeling 07:30, dagrapport 08:00.
+  - Variable `DROPSHIP_ENABLED=true` → order-ops elk kwartier (pas na eerste dropship-leverancier).
+  - Kosten: API-gebruik (schatting in dagrapport) en GitHub Actions-minuten (gratis bij een openbare repo; privé 2.000 min/maand gratis).

@@ -12,3 +12,4 @@ Tot je antwoordt bouw ik door met de standaardkeuze tussen haakjes. Alles is omk
 8. **Contact** — welk e-mailadres en telefoonnummer mag in de footer, en wie beantwoordt klantvragen na concept van de Klantenservice-agent? *(placeholder; jij keurt goed)*
 9. ~~**Projectlocatie**~~ — beantwoord 17-11: verhuisd naar `~/Projects/cadeausite`. Back-up via GitHub (owner-todo #17).
 10. **Budget agents/hosting** — naast €500 advertenties: akkoord met Vercel Pro (~$20/mnd) en Anthropic API-kosten voor geplande agent-runs (schatting €30–80 voor de hele periode)? *(nog niets uitgegeven)*
+11. **Repo openbaar of privé?** — https://github.com/cjjdogterom/cadeaukompas is nu openbaar: iedereen kan je plannen, beslissingen, leveranciersonderzoek en to-do-lijst lezen (geen sleutels — die staan nooit in git). Advies: zet hem op privé (Settings → General → Danger Zone → Change visibility). *(advies: privé)*

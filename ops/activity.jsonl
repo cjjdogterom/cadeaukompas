@@ -15,3 +15,4 @@
 {"ts":"2026-11-17T18:05:00+01:00","agent":"orchestrator","type":"beslissing","summary":"Project verhuisd van OneDrive naar ~/Projects/cadeausite (met akkoord eigenaar)","files":["ops/decisions.md"]}
 {"ts":"2026-11-17T18:10:00+01:00","agent":"orchestrator","type":"klaar","summary":"Dagrapport 17 november geschreven","files":["ops/daily/2026-11-17.md"]}
 {"ts":"2026-11-17T18:40:00+01:00","agent":"developer","type":"klaar","summary":"Eigenaar-dashboard /admin gebouwd: agents, logboek, cijfers, catalogus en wat jij nog moet doen","files":["app/admin/","lib/ops.ts","proxy.ts"]}
+{"ts":"2026-11-17T19:00:00+01:00","agent":"orchestrator","type":"beslissing","summary":"Code gepusht naar GitHub (cjjdogterom/cadeaukompas). Repo is openbaar → vraag 11. Geplande taken staan uit tot jij ze aanzet","files":[".github/workflows/scheduled-ops.yml","ops/owner-todo.md"]}
