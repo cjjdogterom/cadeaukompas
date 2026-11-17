@@ -10,7 +10,10 @@ import { ProductArt } from "@/components/ProductArt";
 import { ProductGrid } from "@/components/ProductCard";
 
 export async function generateStaticParams() {
-  return (await getProducts()).map((p) => ({ slug: p.slug }));
+  const slugs = (await getProducts()).map((p) => ({ slug: p.slug }));
+  // Cache Components eist minstens één resultaat. In productie zijn er nog geen actieve producten
+  // (alles staat op concept); de placeholder geeft gewoon een 404 via notFound().
+  return slugs.length ? slugs : [{ slug: "__placeholder__" }];
 }
 
 export async function generateMetadata({ params }: PageProps<"/cadeau/[slug]">): Promise<Metadata> {
