@@ -1,0 +1,663 @@
+/* Richting C — "Inpakpapier": platte vlakken rood, dennengroen, sneeuwwit; zware gecondenseerde koppen. */
+
+.c-page {
+  --rood: #d0262d;
+  --groen: #12513a;
+  --sneeuw: #fbf8f3;
+  --inkt: #141210;
+  --gutter: clamp(1rem, 4vw, 4rem);
+  --ruimte: clamp(4.5rem, 7vw, 6.5rem);
+
+  background: var(--sneeuw);
+  color: var(--inkt);
+  font-family: var(--font-c-tekst), system-ui, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+.c-page :focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 4px;
+  border-radius: 0;
+}
+
+.c-wrap {
+  max-width: 90rem;
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+/* Velden */
+.c-rood {
+  background: var(--rood);
+  color: var(--sneeuw);
+}
+.c-groen {
+  background: var(--groen);
+  color: var(--sneeuw);
+}
+.c-sneeuw {
+  background: var(--sneeuw);
+  color: var(--inkt);
+}
+.c-veld {
+  padding-block: var(--ruimte);
+}
+
+/* Typografie */
+.c-display,
+.c-h1,
+.c-h2,
+.c-dagen,
+.c-woord,
+.c-titel,
+.c-prijs,
+.c-datumGroot {
+  font-family: var(--font-c-display), system-ui, sans-serif;
+  font-stretch: 75%;
+  font-weight: 800;
+  letter-spacing: -0.012em;
+  line-height: 0.9;
+}
+
+.c-h1 {
+  font-size: clamp(4.5rem, 21vw, 7.5rem);
+  margin: 0;
+  text-wrap: balance;
+}
+.c-h2 {
+  font-size: clamp(2.75rem, 13.5vw, 4.25rem);
+  margin: 0;
+  text-wrap: balance;
+}
+@media (min-width: 768px) {
+  .c-h1 {
+    font-size: min(12.5vw, 13rem);
+  }
+  .c-h2 {
+    font-size: clamp(4rem, 6.5vw, 7rem);
+  }
+}
+
+.c-lead {
+  font-size: clamp(1.125rem, 1.5vw, 1.375rem);
+  line-height: 1.5;
+  max-width: 34rem;
+}
+
+/* Kopbalk */
+.c-kop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-block: 1.1rem;
+}
+.c-merk {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-c-display), system-ui, sans-serif;
+  font-weight: 800;
+  font-stretch: 75%;
+  font-size: 1.75rem;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  color: var(--inkt);
+  text-decoration: none;
+}
+.c-nav {
+  display: none;
+  gap: 1.75rem;
+  font-weight: 600;
+}
+.c-nav a {
+  color: var(--inkt);
+  text-decoration: none;
+}
+.c-nav a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+@media (min-width: 1024px) {
+  .c-nav {
+    display: flex;
+  }
+}
+
+/* Knoppen: plat, vierkant */
+.c-knop {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.25rem;
+  padding: 0.75rem 1.4rem;
+  font-weight: 700;
+  font-size: 1.0625rem;
+  line-height: 1.2;
+  text-decoration: none;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background-color 120ms ease, color 120ms ease;
+}
+.c-knopRood {
+  background: var(--rood);
+  color: var(--sneeuw);
+}
+.c-knopRood:hover {
+  background: #b01e25;
+}
+.c-knopGroen {
+  background: var(--groen);
+  color: var(--sneeuw);
+}
+.c-knopGroen:hover {
+  background: #0c3d2b;
+}
+.c-knopWit {
+  background: var(--sneeuw);
+  color: var(--rood);
+}
+.c-knopWit:hover {
+  background: #fff;
+  color: var(--inkt);
+}
+
+/* Hero */
+.c-hero {
+  padding-block: clamp(2.5rem, 5vw, 4.5rem) clamp(4rem, 7vw, 6.5rem);
+}
+.c-heroGrid {
+  display: grid;
+  gap: 3rem;
+}
+@media (min-width: 900px) {
+  .c-heroGrid {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: clamp(2.5rem, 5vw, 5rem);
+    align-items: center;
+  }
+}
+.c-heroTekst {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.c-form {
+  display: grid;
+  gap: 0.75rem;
+  max-width: 36rem;
+  margin-top: 0.5rem;
+}
+.c-formLabel {
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+.c-formRij {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.c-datum {
+  flex: 1 1 13rem;
+  min-height: 3.25rem;
+  padding: 0.5rem 1rem;
+  font: inherit;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: var(--inkt);
+  background: var(--sneeuw);
+  border: 0;
+  border-radius: 0;
+}
+.c-snel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.c-notitie {
+  font-size: 1rem;
+  max-width: 34rem;
+}
+
+.c-beeldKolom {
+  position: relative;
+  padding-bottom: 5.5rem;
+}
+.c-ansicht {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: calc(100svh - 9rem);
+  object-fit: cover;
+  object-position: center top;
+}
+.c-label {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: var(--sneeuw);
+  color: var(--inkt);
+  padding: 1.25rem 1.5rem 1.4rem;
+  width: min(100%, 19rem);
+}
+@media (min-width: 900px) {
+  .c-beeldKolom {
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+  .c-label {
+    left: -3.5rem;
+    bottom: 2.5rem;
+  }
+}
+.c-dagen {
+  display: block;
+  font-size: clamp(7rem, 30vw, 10rem);
+  line-height: 0.8;
+  color: var(--rood);
+}
+@media (min-width: 900px) {
+  .c-dagen {
+    font-size: clamp(8rem, 12vw, 13rem);
+  }
+}
+.c-labelTekst {
+  display: block;
+  margin-top: 0.75rem;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.3;
+}
+.c-labelKlein {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* Sectiekop met zin ernaast */
+.c-sectieKop {
+  display: grid;
+  gap: 1.25rem;
+  margin-bottom: clamp(2.5rem, 5vw, 4.5rem);
+}
+@media (min-width: 900px) {
+  .c-sectieKop {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    align-items: end;
+    gap: 4rem;
+  }
+}
+
+/* Vertrekbord */
+.c-bord {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+.c-bord th,
+.c-bord td {
+  padding: 1.1rem 0.75rem 1.1rem 0;
+  vertical-align: baseline;
+  border-bottom: 3px solid var(--inkt);
+}
+.c-bord thead th {
+  font-weight: 700;
+  font-size: 1rem;
+  border-bottom-width: 6px;
+}
+.c-bord tbody th {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.25;
+}
+.c-datumGroot {
+  display: block;
+  font-size: clamp(1.75rem, 7vw, 4.5rem);
+  line-height: 0.95;
+  white-space: nowrap;
+}
+.c-datumVoorbij {
+  text-decoration: line-through;
+  text-decoration-thickness: 4px;
+}
+.c-voorbijTekst {
+  display: block;
+  margin-top: 0.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.c-aantal {
+  font-weight: 600;
+  white-space: nowrap;
+}
+.c-bordKolomAantal {
+  display: none;
+}
+@media (min-width: 768px) {
+  .c-bordKolomAantal {
+    display: table-cell;
+  }
+}
+.c-bordNoot {
+  margin-top: 1.5rem;
+  max-width: 44rem;
+}
+
+/* Voor wie */
+.c-woorden {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15em 0.55em;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: clamp(2.75rem, 12vw, 4rem);
+}
+@media (min-width: 768px) {
+  .c-woorden {
+    font-size: clamp(4rem, 7.5vw, 8rem);
+  }
+}
+.c-woord {
+  color: var(--sneeuw);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.12em;
+}
+.c-woord:hover .c-woordTekst {
+  text-decoration: underline;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.08em;
+}
+.c-woordAantal {
+  font-family: var(--font-c-tekst), system-ui, sans-serif;
+  font-stretch: 100%;
+  font-weight: 700;
+  font-size: max(1rem, 0.24em);
+  letter-spacing: 0;
+  line-height: 1;
+  margin-top: 0.15em;
+}
+.c-budget {
+  margin-top: clamp(3rem, 6vw, 5rem);
+  display: grid;
+  gap: 1rem;
+}
+.c-budgetKop {
+  font-family: var(--font-c-display), system-ui, sans-serif;
+  font-stretch: 75%;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  margin: 0;
+}
+.c-budgetLijst {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.c-budgetAantal {
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+
+/* Uitgelicht: prijskaartjes */
+.c-kaartjes {
+  display: grid;
+  gap: clamp(2.5rem, 4vw, 3.5rem);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.c-kaartje {
+  position: relative;
+  display: grid;
+  grid-template-columns: 6rem minmax(0, 1fr);
+  gap: 1rem 1.25rem;
+  align-items: center;
+}
+@media (min-width: 900px) {
+  .c-kaartje {
+    grid-template-columns: 10rem minmax(0, 1fr) 11rem 16rem;
+    gap: 2.5rem;
+    align-items: center;
+  }
+}
+.c-kaartjeBeeld {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+.c-kaartjeTekst {
+  min-width: 0;
+}
+.c-titel {
+  font-size: clamp(1.625rem, 2.6vw, 2.5rem);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding-bottom: 0.08em;
+  line-height: 0.95;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+.c-titelLink {
+  color: var(--inkt);
+  text-decoration: none;
+}
+.c-titelLink::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+.c-kaartje:hover .c-titelLink {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+.c-titelLink:focus-visible {
+  outline: none;
+}
+.c-titelLink:focus-visible::after {
+  outline: 3px solid var(--inkt);
+  outline-offset: 8px;
+}
+.c-meta {
+  margin-top: 0.6rem;
+  font-size: 1rem;
+}
+.c-kaartjeTekst {
+  grid-column: 1 / -1;
+  grid-row: 2;
+}
+.c-prijsBlok {
+  grid-column: 2;
+  grid-row: 1;
+}
+.c-bezorgBlok {
+  grid-column: 1 / -1;
+  grid-row: 3;
+}
+@media (min-width: 900px) {
+  .c-kaartjeTekst,
+  .c-prijsBlok,
+  .c-bezorgBlok {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
+.c-prijs {
+  font-size: clamp(2.25rem, 3.6vw, 3.5rem);
+  color: var(--rood);
+  white-space: nowrap;
+}
+.c-bezorgBlok {
+  font-size: 1rem;
+  line-height: 1.35;
+}
+.c-bezorgDatum {
+  display: block;
+  font-family: var(--font-c-display), system-ui, sans-serif;
+  font-stretch: 75%;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-size: clamp(1.5rem, 2vw, 1.875rem);
+  line-height: 1.05;
+  margin-block: 0.2rem;
+}
+.c-meerRij {
+  margin-top: clamp(3rem, 5vw, 4.5rem);
+}
+
+/* Gidsen */
+.c-gidsGrid {
+  display: grid;
+  gap: 3rem;
+}
+@media (min-width: 900px) {
+  .c-gidsGrid {
+    grid-template-columns: minmax(0, 6fr) minmax(0, 6fr);
+    gap: clamp(3rem, 5vw, 5rem);
+    align-items: start;
+  }
+}
+.c-gidsBeeld {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.c-gidsKop {
+  margin-bottom: 2.5rem;
+}
+.c-gidsen {
+  display: grid;
+  gap: 1.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.c-gidsLink {
+  display: block;
+  color: var(--sneeuw);
+  text-decoration: none;
+}
+.c-gidsTitel {
+  display: block;
+  font-family: var(--font-c-display), system-ui, sans-serif;
+  font-stretch: 75%;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  font-size: clamp(1.5rem, 2.4vw, 2.25rem);
+}
+.c-gidsLink:hover .c-gidsTitel {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+}
+.c-gidsIntro {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-top: 0.4rem;
+  font-size: 1rem;
+}
+
+/* Hoe wij werken */
+.c-werkGrid {
+  display: grid;
+  gap: 3rem;
+}
+@media (min-width: 900px) {
+  .c-werkGrid {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    gap: clamp(3rem, 6vw, 6rem);
+    align-items: center;
+  }
+}
+.c-werkBeeld {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.c-punten {
+  display: grid;
+  gap: 1.75rem;
+  margin: 2.5rem 0 0;
+  padding: 0;
+  list-style: none;
+  max-width: 40rem;
+}
+.c-punt strong {
+  display: block;
+  font-family: var(--font-c-display), system-ui, sans-serif;
+  font-stretch: 75%;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-size: clamp(1.5rem, 2.2vw, 2rem);
+  line-height: 1.05;
+  margin-bottom: 0.35rem;
+}
+.c-inlineLink {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+/* Beeldcredits */
+.c-credits {
+  padding-block: 2.5rem 0;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+.c-credits ul {
+  margin: 0.4rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+.c-credits a {
+  color: inherit;
+}
+
+.c-wachten {
+  min-height: 60vh;
+}
+
+/* Telefoon: kopbalk compact */
+@media (max-width: 480px) {
+  .c-merk {
+    font-size: 1.4rem;
+    gap: 0.45rem;
+  }
+  .c-merk svg {
+    width: 2rem;
+    height: 2rem;
+  }
+  .c-kop .c-knop {
+    min-height: 2.75rem;
+    padding: 0.5rem 0.85rem;
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 900px) {
+  .c-gidsBeeld {
+    position: sticky;
+    top: 2rem;
+  }
+}
