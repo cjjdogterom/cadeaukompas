@@ -24,7 +24,7 @@ Gesorteerd op volgorde. Vink af met `[x]`. Sleutels zet je in Vercel (Settings �
 
 - [ ] **2a. Akkoord op de teksten** — cookiebeleid, privacyverklaring, gebruiksvoorwaarden en "hoe wij verdienen" (dashboard → Akkoord gevraagd).
 - [ ] **2b. Vercel Pro** op de dag van livegang (~$20/mnd; Hobby is volgens Vercel alleen voor niet-commercieel gebruik). Vercel → Settings → Billing → Upgrade.
-- [ ] **2c. Domein koppelen** — Vercel → project → Settings → Domains → `optijdcadeau.nl` en `www.optijdcadeau.nl` → de DNS-records die Vercel toont invullen bij TransIP (Domeinen → optijdcadeau.nl → DNS). Daarna in Vercel `NEXT_PUBLIC_SITE_URL=https://optijdcadeau.nl` en `NEXT_PUBLIC_INDEXABLE=true`, en Redeploy. Vanaf dat moment is de site openbaar.
+- [x] **2c. Domein gekoppeld** (17-11) — optijdcadeau.nl en www (stuurt door) wijzen naar Vercel, HTTPS werkt, `NEXT_PUBLIC_SITE_URL` staat. De site is bereikbaar maar nog **niet vindbaar** in Google (noindex). Bij livegang-akkoord: `NEXT_PUBLIC_INDEXABLE=true` in Vercel + Redeploy.
 
 ## 3. Meer winkels (meer producten, meer commissie)
 
