@@ -10,7 +10,7 @@ export const site = {
     legalName: "Omega Ksi",
     address: "[IN TE VULLEN: adres]",
     email: "dogteromc03@gmail.com",
-    phone: "[IN TE VULLEN: telefoon]",
+    phone: "06 55 08 98 62",
     kvk: "90505611",
     vat: "NL249643807B01",
   },
