@@ -15,7 +15,7 @@ Gesorteerd op volgorde. Vink af met `[x]`. Sleutels zet je in Vercel (Settings �
 
 ## 1. Nu (blokkeert de livegang)
 
-- [x] **1a. Adres** — Oude Delft 35, Delft (17-11). Postcode nog doorgeven, dan volledig.
+- [x] **1a. Adres** — Oude Delft 35, 2611 BB Delft (17-11).
 - [ ] **1b. Handelsnaam OpTijdCadeau bij KvK registreren** — kvk.nl → Wijziging doorgeven → Handelsnaam toevoegen (online, DigiD/eHerkenning). Elke naam waaronder je handelt moet in het Handelsregister staan.
 - [x] **1c. Bol Partnerprogramma** — aangemeld; Site-ID 1560792 staat in Vercel (17-11). Alle bol-links lopen nu via partner.bol.com met jouw ID.
 - [ ] **1d. Zakelijke rekening of IBAN** voor de commissie-uitbetalingen van bol en de netwerken.
@@ -29,7 +29,8 @@ Gesorteerd op volgorde. Vink af met `[x]`. Sleutels zet je in Vercel (Settings �
 
 ## 2b. Bezorgdatums live van bol (aanbevolen)
 
-- [ ] **bol Open API-sleutels** — partner.bol.com → Account → scroll naar **Open API** → **Toevoegen** → naam bv. "optijdcadeau". Je krijgt een Client ID en Client Secret. Zet ze zelf in Vercel (Production) als `BOL_API_CLIENT_ID` en `BOL_API_CLIENT_SECRET` (Secret niet in de chat plakken) en Redeploy. Dan toont de site per cadeau de bezorgdatum die bol belooft en filtert "uiterlijk in huis op" daarop; zonder sleutels is het een schatting uit onze levertijden.
+- [ ] **bol Open API-sleutels** — kan pas als bol je website goedkeurt (status op 17-11: "Nieuw"; dan verschijnt bij Account → API toegang een knop om credentials aan te maken). Daarna Client ID/Secret zelf in Vercel als `BOL_API_CLIENT_ID` / `BOL_API_CLIENT_SECRET` (Production) en Redeploy. Tot dan: geschatte bezorgdatums.
+- [ ] **bol: bankgegevens en bedrijfsgegevens** — partner.bol.com → Account: IBAN toevoegen (anders geen uitbetaling) en "Wil je verder als bedrijf?" → Omega Ksi met KvK en btw-id, zodat commissie op je bedrijf staat.
 
 ## 3. Meer winkels (meer producten, meer commissie)
 

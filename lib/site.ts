@@ -8,7 +8,7 @@ export const site = {
   indexable: process.env.NEXT_PUBLIC_INDEXABLE === "true",
   company: {
     legalName: "Omega Ksi",
-    address: "Oude Delft 35, Delft",
+    address: "Oude Delft 35, 2611 BB Delft",
     email: "dogteromc03@gmail.com",
     phone: "06 55 08 98 62",
     kvk: "90505611",
