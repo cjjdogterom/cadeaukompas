@@ -17,7 +17,7 @@ Gesorteerd op volgorde. Vink af met `[x]`. Sleutels zet je in Vercel (Settings �
 
 - [x] **1a. Adres** — Oude Delft 35, Delft (17-11). Postcode nog doorgeven, dan volledig.
 - [ ] **1b. Handelsnaam OpTijdCadeau bij KvK registreren** — kvk.nl → Wijziging doorgeven → Handelsnaam toevoegen (online, DigiD/eHerkenning). Elke naam waaronder je handelt moet in het Handelsregister staan.
-- [x] **1c. Bol Partnerprogramma** — aangemeld (17-11). Nog: Site-ID in Vercel als `NEXT_PUBLIC_BOL_SITE_ID` (Production) en Redeploy, of geef de Site-ID in de chat (die is niet geheim; staat in elke link).
+- [x] **1c. Bol Partnerprogramma** — aangemeld; Site-ID 1560792 staat in Vercel (17-11). Alle bol-links lopen nu via partner.bol.com met jouw ID.
 - [ ] **1d. Zakelijke rekening of IBAN** voor de commissie-uitbetalingen van bol en de netwerken.
 
 ## 2. Livegang (jij geeft akkoord, ik bereid voor)

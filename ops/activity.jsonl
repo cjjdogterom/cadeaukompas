@@ -46,3 +46,4 @@
 {"ts":"2026-11-17T22:55:00+01:00","agent":"developer","type":"klaar","summary":"optijdcadeau.nl gekoppeld aan Vercel (HTTPS ok, www → 308 naar optijdcadeau.nl), NEXT_PUBLIC_SITE_URL gezet. Nog noindex tot livegang-akkoord","files":["ops/owner-todo.md"]}
 {"ts":"2026-11-17T23:10:00+01:00","agent":"orchestrator","type":"beslissing","summary":"Eigenaar: bol Partnerprogramma aangemeld, Vercel Pro geregeld, akkoord op teksten. Adres ingevuld; concept-label weg. Wacht: bol Site-ID, postcode, akkoord indexeren","files":["lib/site.ts","ops/owner-todo.md"]}
 {"ts":"2026-11-17T23:25:00+01:00","agent":"developer","type":"klaar","summary":"Indexeren aan op akkoord eigenaar: robots.txt staat zoekmachines toe, sitemap gepubliceerd","files":[]}
+{"ts":"2026-11-17T23:40:00+01:00","agent":"developer","type":"klaar","summary":"Bol Site-ID in Vercel gezet; /uit-links sturen nu door via partner.bol.com met s=1560792 (getest op productie)","files":[]}
