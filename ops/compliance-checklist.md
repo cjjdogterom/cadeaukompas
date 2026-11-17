@@ -28,9 +28,9 @@ Compliance-agent loopt dit na op de preview-URL. Status per punt: OK / NIET OK /
 - [ ] Retouradres en wie retourkosten draagt
 
 ## Privacy & cookies
-- [ ] **[blokkerend]** Geen analytics/marketing-cookies of pixels vóór toestemming (netwerkcheck)
-- [ ] Cookiebanner: weigeren even makkelijk als accepteren, geen vooraf aangevinkte vakjes, instellingen later wijzigbaar
-- [ ] Google Consent Mode v2 default `denied`
+- [x] **[blokkerend]** Geen analytics/marketing-cookies of pixels vóór toestemming (netwerkcheck) — getest 17-11 lokaal met test-ID's: vóór keuze 0 verzoeken naar Google/Meta/Pinterest; na intrekken cookies weg. Herhalen met echte ID's vóór livegang.
+- [x] Cookiebanner: weigeren even makkelijk als accepteren, geen vooraf aangevinkte vakjes, instellingen later wijzigbaar (footer: Cookie-instellingen)
+- [x] Google Consent Mode v2 default `denied` (gtag laadt bovendien pas na toestemming)
 - [ ] Privacyverklaring: verwerkingsverantwoordelijke, doelen, grondslagen, bewaartermijnen, ontvangers (Mollie, Resend, Supabase, Vercel, leveranciers, Google/Meta na toestemming), doorgifte buiten EER, rechten, klacht bij AP
 - [ ] Verwerkersovereenkomsten met Supabase, Vercel, Resend, Mollie (eigenaar)
 - [ ] Formulieren vragen alleen noodzakelijke gegevens

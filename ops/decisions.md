@@ -25,3 +25,4 @@ Formaat: datum · beslissing · reden · eigenaar-akkoord (ja / nee / n.v.t. = v
 | 2026-11-17 | Dropship-checkout gebouwd maar uit (`NEXT_PUBLIC_CHECKOUT_ENABLED`); verzendkosten, retourkosten, retouradres en livegang wachten op eigenaar | Checkout en juridische pagina’s = akkoord-protocol | nee — zie ops/approvals/2026-11-17-dropship-checkout.md |
 | 2026-11-17 | Inkoopprijzen nooit in `data/products.json` (openbare repo), alleen in database | Marges zijn bedrijfsgevoelig | n.v.t. |
 | 2026-11-17 | 11 producten uit shortlist C geactiveerd (prijs op productpagina 17-11 + link 200). Nu 44 actief, allemaal bol | Zelfde regel als eerder | n.v.t. (binnen mandaat) |
+| 2026-11-17 | Cookiebanner + Consent Mode v2 gebouwd; tags laden pas na toestemming; cookiebeleid aangevuld (concept) | Verplicht vóór statistieken en advertenties | WACHT: ops/approvals/2026-11-17-cookiebanner.md |

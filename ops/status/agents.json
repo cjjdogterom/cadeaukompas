@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T21:00:00+01:00",
+  "updatedAt": "2026-11-17T19:46:00+01:00",
   "agents": {
     "orchestrator": {
       "status": "gepland",
@@ -35,11 +35,11 @@
     },
     "developer": {
       "status": "wacht",
-      "currentTask": "Dropship-checkout staat klaar (uit); wacht op jouw keuzes en sleutels (Mollie test, Supabase, Resend)",
-      "lastRunAt": "2026-11-17T20:45:00+01:00",
-      "lastResult": "Winkelwagen, checkout met Mollie, webhook, voorwaarden, retour en modelformulier gebouwd; 15 tests en build groen",
-      "nextRun": "Na akkoord; daarna cookiebanner + Consent Mode",
-      "blockedBy": "ops/approvals/2026-11-17-dropship-checkout.md"
+      "currentTask": null,
+      "lastRunAt": "2026-11-17T19:45:00+01:00",
+      "lastResult": "Cookiebanner + Consent Mode v2 gebouwd en getest; prompts in dashboard",
+      "nextRun": "Conversiemeting zodra ID's er zijn",
+      "blockedBy": "GA4/Meta/Pinterest-ID's en akkoord cookiebanner"
     },
     "qa": {
       "status": "geblokkeerd",

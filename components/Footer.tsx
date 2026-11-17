@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { site } from "@/lib/site";
 import { guides } from "@/lib/guides";
+import { CookieSettingsButton } from "./CookieSettingsButton";
 
 export function Footer() {
   const c = site.company;
@@ -38,6 +39,7 @@ export function Footer() {
             <li><Link href="/retourneren" className="hover:text-ink">Retourneren &amp; herroepen</Link></li>
             <li><Link href="/privacy" className="hover:text-ink">Privacyverklaring</Link></li>
             <li><Link href="/cookies" className="hover:text-ink">Cookiebeleid</Link></li>
+            <li><CookieSettingsButton /></li>
           </ul>
         </div>
         <address className="not-italic leading-relaxed">
