@@ -87,4 +87,7 @@ export type Product = {
   status: ProductStatus;
   scout?: { score: number; commissionPct?: number | null; notes?: string };
   supplierId?: string | null; // alleen dropship
+  vatRate?: 9 | 21; // alleen dropship; standaard 21
+  personalized?: boolean; // dropship: gepersonaliseerd = uitgezonderd van herroepingsrecht
+  // Inkoopprijzen staan NOOIT in dit bestand (openbare repo) — alleen in de database (products.cost_cents).
 };

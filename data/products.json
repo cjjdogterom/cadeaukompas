@@ -8,10 +8,10 @@
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/dobble-connect-kaartspel/9300000148921207/",
-    "priceCents": 1399,
-    "priceCheckedAt": null,
+    "priceCents": 2175,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
-    "deliveryDaysMax": 3,
+    "deliveryDaysMax": 2,
     "recipients": [
       "opa-oma",
       "collega",
@@ -32,11 +32,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/dobble-connect-kaartspel/9300000148921207/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 66,
       "commissionPct": 5,
-      "notes": "Prijs indicatief uit zoekresultaat (adviesprijs €13,99 in zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). URL uit zoekresultaat."
+      "notes": "Geverifieerd 17-11-2026. Externe verkoper Lobbes.nl, uiterlijk 19 nov in huis."
     },
     "merchantTitle": "Dobble Connect - Kaartspel"
   },
@@ -50,7 +50,7 @@
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/bolsius-vanilla-geurkaars/9200000007070796/",
     "priceCents": 900,
-    "priceCheckedAt": null,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
     "deliveryDaysMax": 3,
     "recipients": [
@@ -74,11 +74,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/bolsius-vanilla-geurkaars/9200000007070796/"
     ],
-    "status": "concept",
+    "status": "gepauzeerd",
     "scout": {
       "score": 60,
       "commissionPct": 4,
-      "notes": "Prijs indicatief uit zoekresultaat (bol.com-listing), niet op productpagina bevestigd; levertijd onbekend (default 1/3). URL uit be/nl-zoekresultaat omgezet naar nl/nl met hetzelfde product-ID; prijs ca. €9 (zoekresultaat, mogelijk andere variant)."
+      "notes": "Niet leverbaar bij bol (17-11-2026); pagina toont bovendien 6-pack Vanilla Cream."
     },
     "merchantTitle": "Bolsius Vanilla - Geurkaars"
   },
@@ -91,10 +91,10 @@
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/neutrogena-handcreme-ongeparfumeerd-noorse-formule-voedende-en-beschermende-vochtinbrengende-creme-voor-droge-en-beschadigde-handen-2-x-50-ml/9300000075093693/",
-    "priceCents": 849,
-    "priceCheckedAt": null,
+    "priceCents": 1689,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
-    "deliveryDaysMax": 3,
+    "deliveryDaysMax": 1,
     "recipients": [
       "opa-oma",
       "moeder",
@@ -116,11 +116,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/neutrogena-handcreme-ongeparfumeerd-noorse-formule-voedende-en-beschermende-vochtinbrengende-creme-voor-droge-en-beschadigde-handen-2-x-50-ml/9300000075093693/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 62,
       "commissionPct": 5,
-      "notes": "Prijs indicatief uit zoekresultaat (bol.com-listing), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "Geverifieerd 17-11-2026. Externe verkoper THAR Europe; paginatitel 2 x 50 ml, pagina heeft ook keuze 50/300 ml."
     },
     "merchantTitle": "Neutrogena Handcrème Noorse Formule - Ongeparfumeerd - 2x50 ml"
   },
@@ -134,7 +134,7 @@
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/clipper-thee-giftbox/9300000153287292/",
     "priceCents": 1499,
-    "priceCheckedAt": null,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
     "deliveryDaysMax": 3,
     "recipients": [
@@ -159,11 +159,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/clipper-thee-giftbox/9300000153287292/"
     ],
-    "status": "concept",
+    "status": "gepauzeerd",
     "scout": {
       "score": 68,
       "commissionPct": 4,
-      "notes": "Prijs indicatief uit zoekresultaat (€14,99 uit zoekresultaat (be-listing van vergelijkbare negen-smaken box)), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "Niet leverbaar bij bol (17-11-2026)."
     }
   },
   {
@@ -176,7 +176,7 @@
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/chocolade-tony-chocolonely-melk-karam-zeezt-180gr-stuk-a-180-gram/9300000114481875/",
     "priceCents": 829,
-    "priceCheckedAt": null,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
     "deliveryDaysMax": 3,
     "recipients": [
@@ -199,11 +199,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/chocolade-tony-chocolonely-melk-karam-zeezt-180gr-stuk-a-180-gram/9300000114481875/"
     ],
-    "status": "concept",
+    "status": "gepauzeerd",
     "scout": {
       "score": 72,
       "commissionPct": 4,
-      "notes": "Prijs indicatief uit zoekresultaat (€6,95 tot €8,29 bij meerdere verkopers in zoekresultaten; €8,29 aangehouden), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "Niet leverbaar bij bol (17-11-2026)."
     },
     "merchantTitle": "Tony's Chocolonely Chocolade Reep Melk Karamel Zeezout - 180 gram"
   },
@@ -216,8 +216,8 @@
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/tony-s-chocolonely-proeverijtje-chocolade-cadeau-6-x-47-50-gram/9200000117297651/",
-    "priceCents": 1785,
-    "priceCheckedAt": null,
+    "priceCents": 1039,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
     "deliveryDaysMax": 3,
     "recipients": [
@@ -240,11 +240,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/tony-s-chocolonely-proeverijtje-chocolade-cadeau-6-x-47-50-gram/9200000117297651/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 74,
       "commissionPct": 4,
-      "notes": "Prijs indicatief uit zoekresultaat (€17,85 uit zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "Geverifieerd 17-11-2026. Verkoop door bol; Black Friday-deal, prijs kan wijzigen. Uiterlijk vrijdag in huis."
     },
     "merchantTitle": "Tony's Chocolonely Proeverijtje Chocolade Cadeau - 6 x 47,5 gram"
   },
@@ -257,8 +257,8 @@
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/lindt-lindor-chocolade-assortiment-in-geschenkverpakking-a-gift-for-you-kerstcadeau-kerst-chocolade/9300000019768314/",
-    "priceCents": 1895,
-    "priceCheckedAt": null,
+    "priceCents": 1699,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
     "deliveryDaysMax": 3,
     "recipients": [
@@ -281,11 +281,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/lindt-lindor-chocolade-assortiment-in-geschenkverpakking-a-gift-for-you-kerstcadeau-kerst-chocolade/9300000019768314/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 66,
       "commissionPct": 4,
-      "notes": "Prijs indicatief uit zoekresultaat (€18,95 (verkoper Koopjeskelder.nl) uit zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "Geverifieerd 17-11-2026. Externe verkoper Lindt & Sprüngli (via bol), Black Friday-deal, uiterlijk 20 nov in huis; pagina toont 287 g."
     },
     "merchantTitle": "Lindt Lindor - Chocolade Assortiment in Geschenkverpakking - A Gift for You (287g)"
   },
@@ -298,10 +298,10 @@
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/hitster-partyspel-kaartspel/9300000101253647/",
-    "priceCents": 2199,
-    "priceCheckedAt": null,
+    "priceCents": 1804,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
-    "deliveryDaysMax": 3,
+    "deliveryDaysMax": 1,
     "recipients": [
       "partner",
       "vader",
@@ -327,11 +327,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/hitster-partyspel-kaartspel/9300000101253647/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 84,
       "commissionPct": 5,
-      "notes": "Prijs indicatief uit zoekresultaat (€18,99 tot €23,45 in zoekresultaten; €21,99 gemiddeld aangehouden; score en aantal reviews wel gezien op de pagina), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "Geverifieerd 17-11-2026. Verkoop door bol; pagina toont Hitster Original."
     },
     "merchantTitle": "Jumbo Hitster Original - Nederlandstalig Partyspel - Muziekspel - Actiespel"
   },
@@ -373,7 +373,7 @@
     "scout": {
       "score": 64,
       "commissionPct": 4,
-      "notes": "Prijs indicatief uit zoekresultaat (€22,95 uit amazon.nl-zoekresultaat (donkerblauwe variant)), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "17-11-2026: Amazon.nl gaf HTTP 503, prijs niet te verifiëren."
     },
     "merchantTitle": "LEUCHTTURM1917 Notitieboek medium (A5), hardcover, 251 genummerde pagina's, gelinieerd"
   },
@@ -387,7 +387,7 @@
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/yankee-candle-large-jar-geurkaars-vanilla/9200000073831323/",
     "priceCents": 2495,
-    "priceCheckedAt": null,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
     "deliveryDaysMax": 3,
     "recipients": [
@@ -411,11 +411,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/yankee-candle-large-jar-geurkaars-vanilla/9200000073831323/"
     ],
-    "status": "concept",
+    "status": "gepauzeerd",
     "scout": {
       "score": 70,
       "commissionPct": 4,
-      "notes": "Prijs indicatief uit zoekresultaat (€24 tot €26 uit zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "Niet leverbaar bij bol (17-11-2026)."
     },
     "merchantTitle": "Yankee Candle Large Jar Geurkaars - Vanilla"
   },
@@ -429,7 +429,7 @@
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/rituals-the-ritual-of-sakura-giftset-small/9200000118170327/",
     "priceCents": 2090,
-    "priceCheckedAt": null,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
     "deliveryDaysMax": 3,
     "recipients": [
@@ -451,11 +451,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/rituals-the-ritual-of-sakura-giftset-small/9200000118170327/"
     ],
-    "status": "concept",
+    "status": "gepauzeerd",
     "scout": {
       "score": 70,
       "commissionPct": 5,
-      "notes": "Prijs indicatief uit zoekresultaat (bol.com-listing), niet op productpagina bevestigd; levertijd onbekend (default 1/3). URL uit be/nl-zoekresultaat omgezet naar nl/nl met hetzelfde product-ID; prijs €20,90 uit zoekresultaat."
+      "notes": "Niet leverbaar bij bol (17-11-2026)."
     }
   },
   {
@@ -467,10 +467,10 @@
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/bialetti-moka-express-percolator-6-kops-aluminium/9200000038446313/",
-    "priceCents": 3395,
-    "priceCheckedAt": null,
+    "priceCents": 3095,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
-    "deliveryDaysMax": 3,
+    "deliveryDaysMax": 1,
     "recipients": [
       "vader",
       "partner",
@@ -493,11 +493,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/bialetti-moka-express-percolator-6-kops-aluminium/9200000038446313/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 76,
       "commissionPct": 5,
-      "notes": "Prijs indicatief uit zoekresultaat (€26 tot €37 per kleur/verkoper; €33,95 voor zwarte variant uit zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "Geverifieerd 17-11-2026. Verkoop door bol."
     },
     "merchantTitle": "Bialetti Moka Express - Percolator 6 kops - Aluminium - 270ml inhoud"
   },
@@ -511,9 +511,9 @@
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/lego-creator-expert-bonsaiboompje-10281/9300000015132313/",
     "priceCents": 3999,
-    "priceCheckedAt": null,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
-    "deliveryDaysMax": 3,
+    "deliveryDaysMax": 1,
     "recipients": [
       "partner",
       "vader",
@@ -536,11 +536,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/lego-creator-expert-bonsaiboompje-10281/9300000015132313/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 80,
       "commissionPct": 5,
-      "notes": "Prijs indicatief uit zoekresultaat (€39,99 (soms €44,99) uit zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "Geverifieerd 17-11-2026. Verkoop door bol."
     },
     "merchantTitle": "LEGO Icons Bonsaiboompje - 10281 - Botanical Collection"
   },
@@ -553,10 +553,10 @@
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/beurer-hk-125-xxl-elektrisch-kussen-100-w-grijs/9200000120404665/",
-    "priceCents": 4399,
-    "priceCheckedAt": null,
+    "priceCents": 4599,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
-    "deliveryDaysMax": 3,
+    "deliveryDaysMax": 2,
     "recipients": [
       "opa-oma",
       "moeder",
@@ -578,11 +578,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/beurer-hk-125-xxl-elektrisch-kussen-100-w-grijs/9200000120404665/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 70,
       "commissionPct": 4,
-      "notes": "Prijs indicatief uit zoekresultaat (€43,99 uit zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "Geverifieerd 17-11-2026. Verkoop door bol; donderdag in huis."
     }
   },
   {
@@ -595,7 +595,7 @@
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/philips-sonicare-3100-daily-clean-elektrische-tandenborstel-volwassene-sonische-tandenborstel-grijs-wit/9200000124638167/",
     "priceCents": 4499,
-    "priceCheckedAt": null,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
     "deliveryDaysMax": 3,
     "recipients": [
@@ -619,11 +619,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/philips-sonicare-3100-daily-clean-elektrische-tandenborstel-volwassene-sonische-tandenborstel-grijs-wit/9200000124638167/"
     ],
-    "status": "concept",
+    "status": "gepauzeerd",
     "scout": {
       "score": 68,
       "commissionPct": 4,
-      "notes": "Prijs indicatief uit zoekresultaat (ca. €39,95-49,99 voor 3100-serie; €44,99 aangehouden), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "Niet leverbaar bij bol (17-11-2026)."
     }
   },
   {
@@ -636,7 +636,7 @@
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/p/rituals-the-ritual-of-jing-giftset-medium/9300000001206969/",
     "priceCents": 2990,
-    "priceCheckedAt": null,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
     "deliveryDaysMax": 3,
     "recipients": [
@@ -658,11 +658,11 @@
     "sources": [
       "https://www.bol.com/nl/p/rituals-the-ritual-of-jing-giftset-medium/9300000001206969/"
     ],
-    "status": "concept",
+    "status": "gepauzeerd",
     "scout": {
       "score": 68,
       "commissionPct": 5,
-      "notes": "Prijs indicatief uit zoekresultaat (€29,90 uit zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "Niet leverbaar bij bol (17-11-2026)."
     }
   },
   {
@@ -675,7 +675,7 @@
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/rituals-handverzorging-set-van-3/9300000171212271/",
     "priceCents": 3295,
-    "priceCheckedAt": null,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
     "deliveryDaysMax": 3,
     "recipients": [
@@ -698,11 +698,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/rituals-handverzorging-set-van-3/9300000171212271/"
     ],
-    "status": "concept",
+    "status": "gepauzeerd",
     "scout": {
       "score": 66,
       "commissionPct": 5,
-      "notes": "Prijs indicatief uit zoekresultaat (€32,95 (small giftset) uit zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "Niet leverbaar bij bol (17-11-2026)."
     }
   },
   {
@@ -756,7 +756,7 @@
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/logitech-mx-master-3s-muis-licht-grijs/9300000096887785/",
     "priceCents": 8500,
-    "priceCheckedAt": null,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
     "deliveryDaysMax": 3,
     "recipients": [
@@ -779,11 +779,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/logitech-mx-master-3s-muis-licht-grijs/9300000096887785/"
     ],
-    "status": "concept",
+    "status": "gepauzeerd",
     "scout": {
       "score": 78,
       "commissionPct": 4,
-      "notes": "Prijs indicatief uit zoekresultaat (€72 tot €100 in zoekresultaten; €85 aangehouden), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "Kleur licht grijs niet leverbaar bij bol (17-11-2026)."
     },
     "merchantTitle": "Logitech MX Master 3S - Draadloze muis - Pale Gray - Rechtshandig"
   },
@@ -825,7 +825,7 @@
     "scout": {
       "score": 72,
       "commissionPct": 4,
-      "notes": "Prijs indicatief uit zoekresultaat (€66,99 tot €79 in zoekresultaten), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "17-11-2026: bol toont €129,99 bij externe verkoper ThuisSelect (twee aanbiedingen, levertijd wisselt) tegen eerder indicatief €71; prijs niet eenduidig, handmatig controleren."
     },
     "merchantTitle": "Philips Hue Go draagbare tafellamp - Wit & gekleurd licht - Zwart"
   },
@@ -839,7 +839,7 @@
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/beurer-hd-75-elektrische-deken-6-temperatuurniveaus-veiligheidssysteem-machinewasbaar-cosy-ocean/9300000141584485/",
     "priceCents": 5900,
-    "priceCheckedAt": null,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
     "deliveryDaysMax": 3,
     "recipients": [
@@ -863,11 +863,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/beurer-hd-75-elektrische-deken-6-temperatuurniveaus-veiligheidssysteem-machinewasbaar-cosy-ocean/9300000141584485/"
     ],
-    "status": "concept",
+    "status": "gepauzeerd",
     "scout": {
       "score": 72,
       "commissionPct": 4,
-      "notes": "Prijs indicatief uit zoekresultaat (€59,00 uit zoekresultaat), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "Variant Cosy Ocean niet leverbaar bij bol (17-11-2026)."
     },
     "merchantTitle": "Beurer HD 75 Elektrische deken - 180x130 cm - Cosy Ocean"
   },
@@ -880,10 +880,10 @@
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/krups-nespresso-vertuo-pop-yy488fd-mint/9300000172694347/",
-    "priceCents": 8200,
-    "priceCheckedAt": null,
+    "priceCents": 6900,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
-    "deliveryDaysMax": 3,
+    "deliveryDaysMax": 1,
     "recipients": [
       "partner",
       "vader",
@@ -906,11 +906,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/krups-nespresso-vertuo-pop-yy488fd-mint/9300000172694347/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 74,
       "commissionPct": 4,
-      "notes": "Prijs indicatief uit zoekresultaat (ca. €82 voor Krups-uitvoering in zoekresultaten; kleur/prijs per verkoper wisselt), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "Geverifieerd 17-11-2026. Verkoop door bol; pagina noemt modelcode XN9204 i.p.v. YY488FD (zelfde Vertuo Pop mint)."
     }
   },
   {
@@ -922,10 +922,10 @@
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/hitster-celebration/9300000236076323/",
-    "priceCents": 3299,
-    "priceCheckedAt": null,
+    "priceCents": 2799,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
-    "deliveryDaysMax": 3,
+    "deliveryDaysMax": 1,
     "recipients": [
       "partner",
       "vader",
@@ -947,11 +947,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/hitster-celebration/9300000236076323/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 70,
       "commissionPct": 5,
-      "notes": "Prijs indicatief uit zoekresultaat (€29,99 tot €34,99 in zoekresultaat; €32,99 aangehouden), niet op productpagina bevestigd; levertijd onbekend (default 1/3). "
+      "notes": "Geverifieerd 17-11-2026. Verkoop door bol."
     },
     "merchantTitle": "Jumbo Hitster Celebration - Actiespel met Muziek - Muziekspel"
   },
@@ -965,7 +965,7 @@
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/vtech-baby-baby-telefoontje-babytelefoon/1004004013408281/",
     "priceCents": 1299,
-    "priceCheckedAt": null,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
     "deliveryDaysMax": 1,
     "recipients": [
@@ -986,11 +986,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/vtech-baby-baby-telefoontje-babytelefoon/1004004013408281/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 66,
       "commissionPct": 4,
-      "notes": "Prijs 12,99 gezien in 'vaak samen gekocht'-lijst op bol-pagina van VTech (17-11), niet op de eigen productpagina bevestigd; levertijd 'morgen in huis' in die lijst. Review 4,7 (274) hoort mogelijk bij roze variant, daarom rating null."
+      "notes": "Geverifieerd 17-11-2026. Verkoop door bol."
     }
   },
   {
@@ -1046,7 +1046,7 @@
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/vtech-baby-dierenpret-ballenboom/9300000150167096/",
     "priceCents": 3299,
-    "priceCheckedAt": null,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
     "deliveryDaysMax": 1,
     "recipients": [
@@ -1071,11 +1071,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/vtech-baby-dierenpret-ballenboom/9300000150167096/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 64,
       "commissionPct": 4,
-      "notes": "Prijs 32,99 (adv. 45,00), 4,7/5 uit 36 reviews en 'morgen in huis' gezien in productlijst op een bol-pagina (17-11), niet op de eigen productpagina. Controleren bij publicatie."
+      "notes": "Geverifieerd 17-11-2026. Verkoop door bol."
     }
   },
   {
@@ -1262,7 +1262,7 @@
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/lego-speed-champions-ferrari-sf90-xx-stradale-sportauto-autobouwset-met-1-minifiguur-van-een-coureur-ferrari-merchandise-bouwset-voor-kinderen-vanaf-9-jaar-cadeautip-77254/9300000237345412/",
     "priceCents": 2139,
-    "priceCheckedAt": null,
+    "priceCheckedAt": "2026-11-17",
     "deliveryDaysMin": 1,
     "deliveryDaysMax": 1,
     "recipients": [
@@ -1287,11 +1287,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/lego-speed-champions-ferrari-sf90-xx-stradale-sportauto-autobouwset-met-1-minifiguur-van-een-coureur-ferrari-merchandise-bouwset-voor-kinderen-vanaf-9-jaar-cadeautip-77254/9300000237345412/"
     ],
-    "status": "concept",
+    "status": "actief",
     "scout": {
       "score": 74,
       "commissionPct": 4,
-      "notes": "Prijs 21,39, verkoop door bol, 4,8/5 uit 30 reviews, morgen in huis: gezien in 'vaak samen gekocht'-blok op een andere bol-pagina (17-11), niet op eigen pagina. Vanaf 9 jaar volgens titel."
+      "notes": "Geverifieerd 17-11-2026. Verkoop door bol; titel niet zichtbaar, gematcht op product-ID."
     },
     "merchantTitle": "LEGO Speed Champions Ferrari SF90 XX Stradale - 77254"
   },
@@ -1994,7 +1994,7 @@
     "scout": {
       "score": 66,
       "commissionPct": 2,
-      "notes": "Prijs 67,99 gezien in zoekresultaat (bol-snippet) maar pagina gaf 403 bij ophalen en snippet noemde ook adviesprijs 29,95 (mogelijk upgradepakket); Switch 2 vereist. Levertijd onbekend, 1/3 aangenomen."
+      "notes": "17-11-2026: bol-pagina gaf HTTP 403, prijs niet te verifiëren."
     },
     "merchantTitle": "Super Mario Party Jamboree + Jamboree TV - Nintendo Switch 2 Edition"
   },
@@ -2035,7 +2035,7 @@
     "scout": {
       "score": 68,
       "commissionPct": 2,
-      "notes": "Prijs 78 uit zoekresultaat (Coolblue NL) en niet bevestigd: pagina gaf 403. Levertijd niet gezien (1/3 aangenomen). Switch 2 vereist."
+      "notes": "17-11-2026: Coolblue-pagina gaf HTTP 403, prijs niet te verifiëren."
     },
     "merchantTitle": "Mario Kart World - Nintendo Switch 2"
   }

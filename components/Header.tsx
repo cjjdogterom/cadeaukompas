@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { site } from "@/lib/site";
 import { formatDate, lastOrderDate } from "@/lib/deadlines";
+import { CartLink } from "./CartLink";
 
 const nav = [
   { href: "/cadeaus", label: "Alle cadeaus" },
@@ -25,6 +26,9 @@ export function Header() {
           {site.name}
           <span className="text-sint">.</span>
         </Link>
+        <div className="order-last sm:order-none sm:ml-auto">
+          <CartLink />
+        </div>
         <nav aria-label="Hoofdmenu" className="-mx-2 flex max-w-full gap-1 overflow-x-auto text-[15px]">
           {nav.map((item) => (
             <Link

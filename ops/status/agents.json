@@ -1,53 +1,53 @@
 {
-  "updatedAt": "2026-11-17T19:45:00+01:00",
+  "updatedAt": "2026-11-17T20:45:00+01:00",
   "agents": {
     "orchestrator": {
       "status": "bezig",
-      "currentTask": "Dagrapport van 18 november voorbereiden en taken van morgen verdelen",
-      "lastRunAt": "2026-11-17T18:10:00+01:00",
+      "currentTask": "Agents aansturen: producten toevoegen en dropship voorbereiden",
+      "lastRunAt": "2026-11-17T20:05:00+01:00",
       "lastResult": "Dagrapport 17 nov geschreven; project verhuisd naar ~/Projects/cadeausite",
       "nextRun": "Dagelijks 08:00 (automatisch zodra GitHub-repo en API-sleutel er zijn)",
       "blockedBy": null
     },
     "product-scout": {
-      "status": "gepland",
-      "currentTask": "Collectie aanvullen: meer Amazon/Coolblue/Intertoys, en lezen & sport",
-      "lastRunAt": "2026-11-17T17:20:00+01:00",
+      "status": "bezig",
+      "currentTask": "25 nieuwe cadeaus: volwassenen, lezen/sport/koken/wellness, meer Amazon/Coolblue/HEMA",
+      "lastRunAt": "2026-11-17T20:05:00+01:00",
       "lastResult": "2 shortlists, 50 producten gevonden",
       "nextRun": "18 nov",
       "blockedBy": null
     },
     "leverancier": {
       "status": "wacht",
-      "currentTask": "Aanmelding bij Andriez, SpeelgoedFamilie of Gelato voorbereid",
-      "lastRunAt": "2026-11-17T17:15:00+01:00",
-      "lastResult": "12 leveranciers vergeleken, top 3 + 3 akkoordverzoeken",
-      "nextRun": "Na jouw akkoord",
-      "blockedBy": "KvK/btw-nummer en jouw akkoord op een leverancier"
+      "currentTask": "Concept-mails aan Andriez, SpeelgoedFamilie en Gelato liggen klaar voor jou om te versturen",
+      "lastRunAt": "2026-11-17T20:45:00+01:00",
+      "lastResult": "3 concept-mails, 15 dropship-productideeën en stappenplan gemaakt",
+      "nextRun": "Na jouw mails/antwoorden leveranciers",
+      "blockedBy": "Jij: mails versturen (uiterlijk wo 18-11) en KvK-inschrijving"
     },
     "catalogus": {
       "status": "gepland",
-      "currentTask": "Vóór do 19-11: prijzen van de 20 actieve producten opnieuw controleren; prijzen van de 22 volwassenen-producten verifiëren en activeren",
-      "lastRunAt": "2026-11-17T19:45:00+01:00",
-      "lastResult": "20 producten geactiveerd (prijs + link gecontroleerd)",
+      "currentTask": "Vóór do 19-11: prijzen van de 33 actieve producten opnieuw controleren; 4 concept-producten (403/onduidelijke prijs) nalopen",
+      "lastRunAt": "2026-11-17T20:45:00+01:00",
+      "lastResult": "13 geactiveerd, 10 gepauzeerd (niet leverbaar), 4 concept — nu 33 actief",
       "nextRun": "18 nov",
       "blockedBy": null
     },
     "developer": {
-      "status": "bezig",
-      "currentTask": "Eigenaar-dashboard (/admin); daarna cookiebanner + Consent Mode en Mollie-testcheckout",
-      "lastRunAt": "2026-11-17T18:15:00+01:00",
-      "lastResult": "Basis-site gebouwd; lint, tests en build groen",
-      "nextRun": "Doorlopend",
-      "blockedBy": null
+      "status": "wacht",
+      "currentTask": "Dropship-checkout staat klaar (uit); wacht op jouw keuzes en sleutels (Mollie test, Supabase, Resend)",
+      "lastRunAt": "2026-11-17T20:45:00+01:00",
+      "lastResult": "Winkelwagen, checkout met Mollie, webhook, voorwaarden, retour en modelformulier gebouwd; 15 tests en build groen",
+      "nextRun": "Na akkoord; daarna cookiebanner + Consent Mode",
+      "blockedBy": "ops/approvals/2026-11-17-dropship-checkout.md"
     },
     "qa": {
       "status": "geblokkeerd",
-      "currentTask": "Volledige QA-run (Lighthouse, toegankelijkheid, links) op de preview",
+      "currentTask": "End-to-end testbetaling (Mollie-testmodus) zodra testsleutel + Supabase er zijn",
       "lastRunAt": null,
       "lastResult": null,
       "nextRun": "Zodra er een Vercel-preview is",
-      "blockedBy": "Vercel-account (owner-todo #7)"
+      "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
       "status": "gepland",

@@ -34,6 +34,8 @@ export function Footer() {
           <ul className="mt-2 space-y-1.5">
             <li><Link href="/contact" className="hover:text-ink">Contact</Link></li>
             <li><Link href="/hoe-wij-verdienen" className="hover:text-ink">Hoe wij verdienen</Link></li>
+            <li><Link href="/voorwaarden" className="hover:text-ink">Algemene voorwaarden</Link></li>
+            <li><Link href="/retourneren" className="hover:text-ink">Retourneren &amp; herroepen</Link></li>
             <li><Link href="/privacy" className="hover:text-ink">Privacyverklaring</Link></li>
             <li><Link href="/cookies" className="hover:text-ink">Cookiebeleid</Link></li>
           </ul>

@@ -8,6 +8,8 @@ import { formatDate, lastOrderDate } from "@/lib/deadlines";
 import { site } from "@/lib/site";
 import { ProductArt } from "@/components/ProductArt";
 import { ProductGrid } from "@/components/ProductCard";
+import { AddToCart } from "@/components/AddToCart";
+import { SHIPPING } from "@/lib/shop";
 
 export async function generateStaticParams() {
   const slugs = (await getProducts()).map((p) => ({ slug: p.slug }));
@@ -27,7 +29,8 @@ export default async function ProductPage({ params }: PageProps<"/cadeau/[slug]"
   const product = await getProduct(slug);
   if (!product) notFound();
 
-  const merchant = MERCHANTS[product.merchant].name;
+  const isDropship = product.type === "dropship";
+  const merchant = isDropship ? site.name : MERCHANTS[product.merchant].name;
   const sint = lastOrderDate(product.deliveryDaysMax, "sinterklaas");
   const kerst = lastOrderDate(product.deliveryDaysMax, "kerst");
   const delivery =
@@ -74,11 +77,17 @@ export default async function ProductPage({ params }: PageProps<"/cadeau/[slug]"
 
           <div className="mt-6 rounded-2xl border border-line bg-white p-5">
             <p className="text-3xl font-semibold text-ink">{formatPrice(product.priceCents)}</p>
-            <p className="mt-1 text-sm text-muted">
-              Indicatieve prijs bij {merchant} incl. btw
-              {product.priceCheckedAt ? `, gecontroleerd op ${formatDate(product.priceCheckedAt.slice(0, 10), true)}` : ", nog niet gecontroleerd"}.
-              De prijs bij de winkel is leidend.
-            </p>
+            {isDropship ? (
+              <p className="mt-1 text-sm text-muted">
+                Incl. btw. Verzending {formatPrice(SHIPPING.costCents)}, gratis vanaf {formatPrice(SHIPPING.freeFromCents)}.
+              </p>
+            ) : (
+              <p className="mt-1 text-sm text-muted">
+                Indicatieve prijs bij {merchant} incl. btw
+                {product.priceCheckedAt ? `, gecontroleerd op ${formatDate(product.priceCheckedAt.slice(0, 10), true)}` : ", nog niet gecontroleerd"}.
+                De prijs bij de winkel is leidend.
+              </p>
+            )}
 
             <dl className="mt-5 grid gap-3 text-sm sm:grid-cols-3">
               <div className="rounded-xl bg-cream p-3">
@@ -97,18 +106,36 @@ export default async function ProductPage({ params }: PageProps<"/cadeau/[slug]"
               </div>
             </dl>
 
-            <a
-              href={`/uit/${product.slug}`}
-              target="_blank"
-              rel="sponsored nofollow noopener"
-              className="mt-5 flex min-h-12 items-center justify-center rounded-full bg-sint px-6 font-medium text-white hover:bg-sint-dark"
-            >
-              Bekijk bij {merchant}
-            </a>
-            <p className="mt-3 text-xs leading-relaxed text-muted">
-              Je bestelt en betaalt bij {merchant}; daar gelden hun levering, garantie en retourvoorwaarden. Wij ontvangen
-              mogelijk een commissie, jij betaalt hetzelfde. <Link href="/hoe-wij-verdienen" className="underline">Meer uitleg</Link>
-            </p>
+            {isDropship ? (
+              <>
+                <AddToCart slug={product.slug} />
+                <p className="mt-1 text-xs leading-relaxed text-muted">
+                  Je koopt dit cadeau bij {site.name}; een partner verstuurt het rechtstreeks naar het adres dat je opgeeft.{" "}
+                  {product.personalized ? (
+                    <>Dit product wordt voor jou gepersonaliseerd en kan daarom niet worden geretourneerd.</>
+                  ) : (
+                    <>Je hebt 14 dagen bedenktijd na ontvangst.</>
+                  )}{" "}
+                  <Link href="/retourneren" className="underline">Retourneren</Link> ·{" "}
+                  <Link href="/voorwaarden" className="underline">Voorwaarden</Link>
+                </p>
+              </>
+            ) : (
+              <>
+                <a
+                  href={`/uit/${product.slug}`}
+                  target="_blank"
+                  rel="sponsored nofollow noopener"
+                  className="mt-5 flex min-h-12 items-center justify-center rounded-full bg-sint px-6 font-medium text-white hover:bg-sint-dark"
+                >
+                  Bekijk bij {merchant}
+                </a>
+                <p className="mt-3 text-xs leading-relaxed text-muted">
+                  Je bestelt en betaalt bij {merchant}; daar gelden hun levering, garantie en retourvoorwaarden. Wij ontvangen
+                  mogelijk een commissie, jij betaalt hetzelfde. <Link href="/hoe-wij-verdienen" className="underline">Meer uitleg</Link>
+                </p>
+              </>
+            )}
           </div>
 
           <ul className="mt-6 flex flex-wrap gap-2 text-sm">
