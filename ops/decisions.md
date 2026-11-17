@@ -17,3 +17,5 @@ Formaat: datum · beslissing · reden · eigenaar-akkoord (ja / nee / n.v.t. = v
 | 2026-11-17 | Project verhuisd van OneDrive naar `~/Projects/cadeausite`; in OneDrive staat alleen nog een verwijzing (VERHUISD.md) | `npm install` in OneDrive duurde >20 min en liep vast, hier 6 s; `.env.local` hoort niet in cloudsync. Back-up wordt de (privé) GitHub-repo | ja (17-11, in chat) |
 | 2026-11-17 | Code staat op GitHub: `cjjdogterom/cadeaukompas` (branch `main`) | Back-up en basis voor geplande taken | ja (17-11, in chat) |
 | 2026-11-17 | Geplande workflow staat uit tot repository-variabelen `OPS_ENABLED` / `DROPSHIP_ENABLED` op `true` staan | Voorkomt dat jobs elk kwartier draaien of falen zonder sleutels (kosten, foutmeldingen) | n.v.t. (veiligste optie) |
+| 2026-11-17 | Repo `cjjdogterom/cadeaukompas` blijft openbaar | Keuze eigenaar | ja (17-11, in chat) |
+| 2026-11-17 | Omdat de repo openbaar is: `ops/support/` staat in .gitignore; geen persoonsgegevens (namen, e-mail, adressen, ordergegevens van klanten) in bestanden in git — die staan alleen in de database | AVG; een openbare repo is publicatie | n.v.t. (verplicht) |

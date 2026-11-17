@@ -29,6 +29,10 @@ Agents onthouden niets tussen runs. Alle overdracht loopt via **bestanden in dez
 
 `products`, `suppliers`, `orders`, `order_items`, `outbound_clicks`, `campaigns`, `experiments`, `experiment_metrics`, `decisions`, `support_tickets`.
 
+## Openbare repo — privacyregel
+
+De GitHub-repo is **openbaar**. Zet nooit persoonsgegevens van klanten (namen, e-mail, telefoon, adressen, ordergegevens) of sleutels in bestanden die in git komen. Klantgegevens staan alleen in de database; support-concepten in `ops/support/` (genegeerd door git). Approvals over retouren/terugbetalingen verwijzen naar een ticket- of ordernummer, niet naar de klant.
+
 ## Akkoord-protocol
 
 Iets dat geld kost, juridisch bindt, prijzen/kortingen, terugbetalingen, aanmeldingen, livegang, checkout- of juridische wijzigingen, of onomkeerbaar is:

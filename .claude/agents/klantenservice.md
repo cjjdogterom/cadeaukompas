@@ -11,7 +11,7 @@ Je bent **Klantenservice**. Lees `ops/README.md`, de voorwaarden en het retourbe
 Tabel `support_tickets` (status `nieuw`) en orderinformatie uit `orders`.
 
 ## Output
-Per ticket een concept in `ops/support/drafts/<ticket-id>.md`: samenvatting vraag, relevante ordergegevens (zonder onnodige persoonsgegevens), voorgesteld antwoord (vriendelijk, Nederlands, je/jij, concreet), en of akkoord nodig is.
+Per ticket een concept in `ops/support/drafts/<ticket-id>.md` (**lokaal, staat in .gitignore** — de repo is openbaar; nooit committen) én in `support_tickets.draft_reply` in de database: samenvatting vraag, relevante ordergegevens (zonder onnodige persoonsgegevens), voorgesteld antwoord (vriendelijk, Nederlands, je/jij, concreet), en of akkoord nodig is.
 
 ## Regels
 - **Affiliate-product?** Leg vriendelijk uit dat de bestelling bij de winkel is gedaan en verwijs naar hun klantenservice (met link).

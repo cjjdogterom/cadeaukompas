@@ -40,7 +40,7 @@ Gesorteerd op urgentie. Vink af met `[x]` en zet sleutels in `.env.local` (nooit
 
 ## Automatisch draaien (agents)
 
-- [x] **17. GitHub-repo** — https://github.com/cjjdogterom/cadeaukompas (gekoppeld en gepusht op 17-11). Let op: de repo is nu **openbaar**, zie vraag 11.
+- [x] **17. GitHub-repo** — https://github.com/cjjdogterom/cadeaukompas (gekoppeld en gepusht op 17-11). De repo is bewust **openbaar** (jouw keuze, 17-11).
 - [ ] **18. Geplande agent-taken aanzetten** (pas als je dat wilt): GitHub → repo → Settings → Secrets and variables → Actions.
   - Secret `ANTHROPIC_API_KEY` (console.anthropic.com → API keys) en de sleutels uit `.env.example` die de jobs nodig hebben.
   - Variable `OPS_ENABLED=true` → feed-sync elk uur, advertentie-beoordeling 07:30, dagrapport 08:00.
