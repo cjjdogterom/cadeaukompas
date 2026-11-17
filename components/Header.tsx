@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { site } from "@/lib/site";
+import { Logo } from "./Logo";
 import { formatDate, lastOrderDate } from "@/lib/deadlines";
 
 const nav = [
@@ -21,9 +22,8 @@ export function Header() {
         </Link>
       </p>
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-6 gap-y-2 px-4 py-4">
-        <Link href="/" className="font-display text-2xl font-semibold tracking-tight text-ink">
-          {site.name}
-          <span className="text-sint">.</span>
+        <Link href="/" aria-label={`${site.name} – naar de homepage`}>
+          <Logo />
         </Link>
         <nav aria-label="Hoofdmenu" className="-mx-2 flex max-w-full gap-1 overflow-x-auto text-[15px]">
           {nav.map((item) => (
