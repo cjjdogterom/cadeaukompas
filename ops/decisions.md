@@ -24,3 +24,4 @@ Formaat: datum · beslissing · reden · eigenaar-akkoord (ja / nee / n.v.t. = v
 | 2026-11-17 | Catalogus-agent: 13 extra producten geactiveerd (prijs + pagina gecontroleerd), 10 gepauzeerd (niet leverbaar), 4 concept (403/onduidelijke prijs). Nu 33 actief | Volgens regel: actief alleen met geverifieerde prijs ≤ 48 uur | n.v.t. (binnen mandaat, regel goedgekeurd 17-11) |
 | 2026-11-17 | Dropship-checkout gebouwd maar uit (`NEXT_PUBLIC_CHECKOUT_ENABLED`); verzendkosten, retourkosten, retouradres en livegang wachten op eigenaar | Checkout en juridische pagina’s = akkoord-protocol | nee — zie ops/approvals/2026-11-17-dropship-checkout.md |
 | 2026-11-17 | Inkoopprijzen nooit in `data/products.json` (openbare repo), alleen in database | Marges zijn bedrijfsgevoelig | n.v.t. |
+| 2026-11-17 | 11 producten uit shortlist C geactiveerd (prijs op productpagina 17-11 + link 200). Nu 44 actief, allemaal bol | Zelfde regel als eerder | n.v.t. (binnen mandaat) |

