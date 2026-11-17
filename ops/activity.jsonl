@@ -58,3 +58,4 @@
 {"ts":"2026-11-17T23:55:00+01:00","agent":"product-scout","type":"gestart","summary":"Grote uitbreiding gestart: 4 scouts parallel, doel ~160 nieuwe bol-cadeaus met prijs gecontroleerd op productpagina","files":["data/research/"]}
 {"ts":"2026-11-18T00:05:00+01:00","agent":"developer","type":"klaar","summary":"Awin publisher-ID in Vercel gezet; links naar Awin-winkels werken zodra de eigenaar per winkel is goedgekeurd (AWIN_MID_<winkel>)","files":["ops/owner-todo.md"]}
 {"ts":"2026-11-18T00:40:00+01:00","agent":"catalogus","type":"klaar","summary":"120 nieuwe bol-cadeaus geïmporteerd (kinderen 0–7, 8–17, vrouw/moeder/oma), 114 actief met prijs gecontroleerd op 17-11; 6 concept (verkoper buiten NL/EU onduidelijk). 175 actief","files":["data/products.json"]}
+{"ts":"2026-11-18T00:55:00+01:00","agent":"catalogus","type":"klaar","summary":"39 cadeaus voor vader/opa/collega/thuiswerker geïmporteerd, 36 actief. Totaal 211 actief (was 61)","files":["data/products.json"]}

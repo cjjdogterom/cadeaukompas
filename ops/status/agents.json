@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T23:55:00+01:00",
+  "updatedAt": "2026-11-18T00:55:00+01:00",
   "agents": {
     "orchestrator": {
       "status": "gepland",
@@ -10,11 +10,11 @@
       "blockedBy": null
     },
     "product-scout": {
-      "status": "bezig",
-      "currentTask": "4 scouts parallel: kinderen 0–7, kinderen 8–17, vrouw/moeder/oma, man/vader/collega — elk ~40 bol-cadeaus met geverifieerde prijs",
-      "lastRunAt": "2026-11-17T22:05:00+01:00",
-      "lastResult": "Shortlist D: 19 producten (6 onder €10, 5× 0–3 jr, 5× 4–7 jr, 3× €50–100), alle prijzen vandaag op bol gecontroleerd",
-      "nextRun": "18 nov",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-18T00:55:00+01:00",
+      "lastResult": "4 scouts: 161 nieuwe bol-cadeaus aangeleverd",
+      "nextRun": "Elke agent-ronde (2 uur)",
       "blockedBy": null
     },
     "leverancier": {
@@ -28,8 +28,8 @@
     "catalogus": {
       "status": "gepland",
       "currentTask": "Prijzen van alle 61 actieve producten hercontroleren vóór do 19-11 (48-uurregel); 17 overige concepten nalopen",
-      "lastRunAt": "2026-11-17T22:20:00+01:00",
-      "lastResult": "17 producten uit shortlist D geactiveerd (vandaag geverifieerd via bol-pagina); 61 actief, 17 concept, 11 gepauzeerd",
+      "lastRunAt": "2026-11-18T00:55:00+01:00",
+      "lastResult": "150 nieuwe cadeaus actief; 211 actief totaal",
       "nextRun": "18 nov",
       "blockedBy": null
     },
