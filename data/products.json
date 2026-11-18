@@ -4236,7 +4236,7 @@
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/lego-duplo-getallentrein-leren-tellen-10954/9300000031390213/",
-    "priceCents": 1499,
+    "priceCents": 1629,
     "priceCheckedAt": "2026-11-18",
     "deliveryDaysMin": 1,
     "deliveryDaysMax": 2,
@@ -4778,7 +4778,7 @@
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/lego-duplo-stad-families-van-wilde-dieren-pinguins-en-leeuwen-10442/9300000187249543/",
-    "priceCents": 1720,
+    "priceCents": 1718,
     "priceCheckedAt": "2026-11-18",
     "deliveryDaysMin": 2,
     "deliveryDaysMax": 2,
@@ -7915,7 +7915,7 @@
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/pukka-tea-discovery-box-30-theezakjes-biologische-kruidenthee-5-x-6-zakjes-theedoos-thee-geschenkdoos/9300000239566022/",
-    "priceCents": 1408,
+    "priceCents": 1370,
     "priceCheckedAt": "2026-11-18",
     "deliveryDaysMin": 2,
     "deliveryDaysMax": 2,
@@ -11432,5 +11432,3107 @@
       "verified": true
     },
     "ean": "1200130029837"
+  },
+  {
+    "slug": "fitbit-charge-6-activity-tracker-oranje",
+    "title": "Fitbit Charge 6 activity tracker (oranje)",
+    "merchantTitle": "Fitbit Charge 6 - Activity Tracker - Oranje",
+    "brand": "Fitbit",
+    "ean": "0840353901100",
+    "short": "Een slanke activity tracker met hartslagmeting en veel trainingsstanden.",
+    "description": "De Charge 6 houdt stappen, hartslag en slaap bij en kent meer dan veertig trainingsstanden. Hij is waterdicht en past dus ook bij zwemmen en hardlopen. Een nuttig cadeau voor wie meer wil weten over de eigen beweging.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/fitbit-charge-6-activity-tracker-horloge-met-stappenteller-oranje/9300000160699575/",
+    "priceCents": 8395,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vriend",
+      "vader",
+      "moeder"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "sport",
+      "tech",
+      "wellness"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 3.7,
+      "count": 209,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/fitbit-charge-6-activity-tracker-horloge-met-stappenteller-oranje/9300000160699575/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 83,95, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Score 3,7 is gemiddeld; sommige functies vragen een Fitbit Premium-abonnement.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "garmin-forerunner-55-hardloophorloge-zwart",
+    "title": "Garmin Forerunner 55 hardloophorloge (zwart)",
+    "merchantTitle": "Garmin Forerunner 55 - Sporthorloge met GPS Tracker - Geschikt voor Hardlopen - Zwart",
+    "brand": "Garmin",
+    "ean": null,
+    "short": "Een compact hardloophorloge met GPS en trainingsschema's.",
+    "description": "De Forerunner 55 meet tempo, afstand en hartslag en geeft trainingsadvies via Garmin Coach. Het horloge is licht en gaat dagen mee op een lading. Een stevig cadeau voor een hardloper of beginnende sporter.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/garmin-forerunner-55-hardloophorloge-sporthorloge-met-gps-tracker-geschikt-voor-hardlopen-train-met-garmin-coach-zwart/9300000033849261/",
+    "priceCents": 14300,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vriend",
+      "vader",
+      "moeder"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "sport",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 95,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/garmin-forerunner-55-hardloophorloge-sporthorloge-met-gps-tracker-geschikt-voor-hardlopen-train-met-garmin-coach-zwart/9300000033849261/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 78,
+      "commissionPct": null,
+      "notes": "Prijs € 143,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. EAN niet gevonden. Volledige titel niet letterlijk gezien; afgeleid uit zoekresultaat.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "philips-senseo-select-csa230-50-donkergrijs",
+    "title": "Philips Senseo Select koffiepadmachine (donkergrijs)",
+    "merchantTitle": "Philips Senseo Select Koffiepadmachine CSA230/50 - Keuze uit 1 of 2 Kopjes",
+    "brand": "Philips",
+    "ean": "8710103938118",
+    "short": "Een koffiepadmachine voor een of twee kopjes met instelbare sterkte.",
+    "description": "De Senseo Select zet een of twee kopjes tegelijk en heeft een schakelaar voor de sterkte van de koffie. Het apparaat is snel opgewarmd en schakelt zichzelf uit. Een praktisch cadeau voor iedereen die dagelijks koffie uit pads drinkt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/philips-senseo-select-csa230-50-koffiepadapparaat-donkergrijs/9300000022029919/",
+    "priceCents": 8499,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vader",
+      "moeder",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken",
+      "thuis",
+      "koken"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4,
+      "count": 457,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/philips-senseo-select-csa230-50-koffiepadapparaat-donkergrijs/9300000022029919/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 84,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Let op: de paginakop noemt CSA250/60, de specificaties CSA230/50; EAN en score gelden voor deze pagina.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "xbox-draadloze-controller-carbon-zwart",
+    "title": "Xbox draadloze controller (carbon zwart)",
+    "merchantTitle": "Xbox Draadloze Controller - Carbon Zwart - Xbox, PC, Cloud Gaming",
+    "brand": "Xbox",
+    "ean": "0889842611595",
+    "short": "De officiële Xbox-controller voor console en pc, in zwart.",
+    "description": "Deze controller werkt met Xbox Series X|S, Xbox One en Windows-pc's. De grip is aangenaam en hij verbindt draadloos. Handig als extra controller voor samen spelen of als vervanger voor een versleten exemplaar.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/xbox-draadloze-controller-carbon-zwart-series-x-s-xbox-one/9300000009936880/",
+    "priceCents": 6499,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vriend",
+      "tiener"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "gamen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.1,
+      "count": 342,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/xbox-draadloze-controller-carbon-zwart-series-x-s-xbox-one/9300000009936880/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 64,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "sony-ps5-dualsense-draadloze-controller-wit",
+    "title": "Sony PS5 DualSense controller (wit)",
+    "merchantTitle": "Sony PS5 DualSense Draadloze Controller - Wit",
+    "brand": "Sony PlayStation",
+    "ean": "0711719399506",
+    "short": "De originele PS5-controller met haptische feedback.",
+    "description": "De DualSense laat je acties in het spel voelen via trillingen en weerstand in de triggers. Hij is oplaadbaar en heeft een ingebouwde microfoon. Een logische tweede controller voor spelletjes met zijn tweeen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/sony-official-playstation-5-dualsense-controller/9300000007897748/",
+    "priceCents": 5999,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vriend",
+      "tiener"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "gamen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.1,
+      "count": 743,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/sony-official-playstation-5-dualsense-controller/9300000007897748/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 59,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. In de verpakkingsinhoud staat vermeld 'DualSense Edge'; titel/EAN staan op wit model, controleer variant.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "nintendo-switch-pro-controller-zwart",
+    "title": "Nintendo Switch Pro Controller (zwart)",
+    "merchantTitle": "Nintendo Switch Pro Controller - Zwart",
+    "brand": "Nintendo",
+    "ean": "0045496430528",
+    "short": "De officiele Pro Controller voor de Nintendo Switch, met lange batterijduur.",
+    "description": "Een comfortabele controller met bewegingssensoren en ondersteuning voor amiibo. De batterij gaat volgens de pagina gemiddeld zo'n 40 uur mee. Fijn voor wie de Switch veel aan de tv speelt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/nintendo-pro-controller-zwart-switch/9200000073684267/",
+    "priceCents": 6400,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vriend",
+      "tiener",
+      "kind"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17",
+      "8-12"
+    ],
+    "interests": [
+      "gamen",
+      "spellen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 545,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/nintendo-pro-controller-zwart-switch/9200000073684267/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 80,
+      "commissionPct": null,
+      "notes": "Prijs € 64,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "logitech-g335-gaming-headset-wit",
+    "title": "Logitech G335 gaming headset (wit)",
+    "merchantTitle": "Logitech G335 - Bedrade Gaming Headset - PC, Playstation, Xbox, Switch - Wit",
+    "brand": "Logitech G",
+    "ean": "5099206094796",
+    "short": "Een lichte bedrade gaming headset voor pc en consoles.",
+    "description": "De G335 is licht van gewicht en past op pc, PlayStation, Xbox en Switch via de 3,5 mm-aansluiting. De microfoon klapt omhoog om te dempen. Prettig voor lange spelsessies.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/logitech-g335-bedrade-gaming-headset-pc-playstation-xbox-switch-wit/9300000043078842/",
+    "priceCents": 5799,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "partner",
+      "vriend",
+      "tiener"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "gamen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4,
+      "count": 4,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/logitech-g335-bedrade-gaming-headset-pc-playstation-xbox-switch-wit/9300000043078842/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 57,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Slechts 4 reviews; pagina meldde 'Huidige voorraad bijna op bij deze verkoper'.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "apple-airpods-4-reguliere-oplaadcase",
+    "title": "Apple AirPods 4 met reguliere oplaadcase",
+    "merchantTitle": "Apple AirPods 4 - met reguliere oplaadcase (USB-C)",
+    "brand": "Apple",
+    "ean": "0195949688591",
+    "short": "De vierde generatie AirPods in een compacte oplaadcase met USB-C.",
+    "description": "Draadloze oordopjes die direct koppelen met een iPhone of iPad. De oplaadcase laadt via USB-C. Een geliefd cadeau voor wie veel muziek luistert of belt onderweg.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/apple-airpods-4-met-reguliere-oplaadcase/9300000192422191/",
+    "priceCents": 12100,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vriend",
+      "tiener",
+      "moeder",
+      "vader"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "muziek",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 404,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/apple-airpods-4-met-reguliere-oplaadcase/9300000192422191/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 84,
+      "commissionPct": null,
+      "notes": "Prijs € 121,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-icons-rozenboeket-10328",
+    "title": "LEGO Icons Rozenboeket 10328",
+    "merchantTitle": "LEGO Icons Rozenboeket - Botanical Collection - Prachtige Rozen - 10328",
+    "brand": "LEGO",
+    "ean": null,
+    "short": "Een LEGO-boeket van twaalf rode rozen dat nooit verwelkt.",
+    "description": "Bouw een dozijn rozen in verschillende stadia met een takje gipskruid erbij. Het boeket telt 822 onderdelen en is bedoeld voor volwassenen. Een romantisch cadeau dat jaren mooi blijft.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-icons-rozenboeket-10328/9300000157956429/",
+    "priceCents": 4454,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "creatief",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 161,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-icons-rozenboeket-10328/9300000157956429/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 86,
+      "commissionPct": null,
+      "notes": "Prijs € 44,54, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. EAN niet gevonden.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-icons-wilde-bloemen-boeket-10313",
+    "title": "LEGO Icons Wilde bloemen boeket 10313",
+    "merchantTitle": "LEGO Icons Wilde Bloemen Boeket - 10313",
+    "brand": "LEGO",
+    "ean": "5702017416663",
+    "short": "Een kleurrijk LEGO-boeket van wilde bloemen voor volwassen bouwers.",
+    "description": "Zo'n 900 onderdelen vormen een los boeket met papavers, madeliefjes en andere veldbloemen. Je kunt de bloemen zelf schikken en in een vaas zetten. Een rustgevend bouwproject en een mooie decoratie.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-icons-wilde-bloemen-boeket-10313/9300000131876375/",
+    "priceCents": 4408,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "creatief",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 318,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-icons-wilde-bloemen-boeket-10313/9300000131876375/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 86,
+      "commissionPct": null,
+      "notes": "Prijs € 44,08, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-icons-orchidee-10311",
+    "title": "LEGO Icons Orchidee 10311",
+    "merchantTitle": "LEGO Icons Orchidee - Botanical Collection - 10311",
+    "brand": "LEGO",
+    "ean": "5702017224336",
+    "short": "Een LEGO-orchidee van ruim 600 onderdelen als blijvende kamerplant.",
+    "description": "Het model heeft grote bloemen, knoppen, bladeren en luchtwortels en past in een bijgeleverde pot. Bouwen duurt een paar rustige uren. Een mooi cadeau voor wie van planten houdt maar geen groene vingers heeft.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-icons-orchidee-10311/9300000080312206/",
+    "priceCents": 3458,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "creatief",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 364,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-icons-orchidee-10311/9300000080312206/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 88,
+      "commissionPct": null,
+      "notes": "Prijs € 34,58, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Een andere listing van dezelfde set (ander ID) was niet leverbaar; deze listing wel.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "kobo-clara-bw-e-reader-16gb-zwart",
+    "title": "Kobo Clara BW e-reader (zwart)",
+    "merchantTitle": "Kobo Clara BW - E-reader 6 inch - 16GB - Luisterboeken - Zwart",
+    "brand": "Kobo",
+    "ean": "0681495009558",
+    "short": "Een e-reader met 6 inch scherm zonder weerspiegeling en 16 GB opslag.",
+    "description": "De Clara BW heeft een scherm dat prettig leest, ook in fel licht, en ondersteunt luisterboeken. Met 16 GB past er een grote bibliotheek op. Een cadeau voor een echte lezer die graag op reis of in bed leest.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/kobo-clara-bw-e-reader-6-inch-16gb-luisterboeken-zwart/9300000173830676/",
+    "priceCents": 16900,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "vader",
+      "vriend",
+      "opa-oma"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "lezen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 718,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/kobo-clara-bw-e-reader-6-inch-16gb-luisterboeken-zwart/9300000173830676/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 169,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Prijs ligt boven de gewenste € 150.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "kobo-clara-colour-e-reader-16gb-wit",
+    "title": "Kobo Clara Colour e-reader (wit)",
+    "merchantTitle": "Kobo Clara Colour - E-reader 6 inch kleurenscherm - 16GB - Wit",
+    "brand": "Kobo",
+    "ean": "0681495010042",
+    "short": "Een e-reader met kleurenscherm van 6 inch en 16 GB opslag.",
+    "description": "Het kleurenscherm toont boekomslagen en stripverhalen in kleur en leest tegelijk prettig als papier. Met 16 GB is er ruimte voor veel boeken. Een leuke upgrade voor wie al van lezen houdt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/kobo-clara-colour-e-book-reader-touchscreen-16-gb-wifi-wit/9300000236686816/",
+    "priceCents": 18900,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "vader",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "lezen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 22,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/kobo-clara-colour-e-book-reader-touchscreen-16-gb-wifi-wit/9300000236686816/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 189,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Prijs boven € 150; 22 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "tefal-easy-fry-grill-ey5018-airfryer",
+    "title": "Tefal Easy Fry & Grill EY5018 airfryer",
+    "merchantTitle": "Tefal Easy Fry & Grill EY5018 - Airfryer - 4.2L - 1550W - Grillfunctie",
+    "brand": "Tefal",
+    "ean": "3045380020764",
+    "short": "Een compacte airfryer van 4,2 liter met grillfunctie.",
+    "description": "Frituren met weinig olie, maar ook grillen kan met het meegeleverde rooster. De inhoud is genoeg voor twee tot vier personen. Handig voor wie snel iets warms wil maken zonder de oven aan te zetten.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/tefal-easy-fry-grill-ey5018-2-in-1-heteluchtfriteuse/9300000044891737/",
+    "priceCents": 8495,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "vader",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "koken",
+      "eten-drinken",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 69,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/tefal-easy-fry-grill-ey5018-2-in-1-heteluchtfriteuse/9300000044891737/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 70,
+      "commissionPct": null,
+      "notes": "Prijs € 84,95, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Pagina meldde 'Huidige voorraad bijna op bij deze verkoper'.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "samsung-galaxy-fit3-activity-tracker-dark-gray",
+    "title": "Samsung Galaxy Fit3 activity tracker (donkergrijs)",
+    "merchantTitle": "Samsung Galaxy Fit3 Activity Tracker - Dark Gray - 13 dagen batterijduur",
+    "brand": "Samsung",
+    "ean": null,
+    "short": "Een lichte, betaalbare activity tracker met groot scherm en lange batterijduur.",
+    "description": "De Fit3 telt stappen, meet hartslag en slaap en herkent veel trainingen. De batterij gaat volgens de pagina tot 13 dagen mee. Werkt met Android-telefoons via de Samsung Health-app, dus niet met een iPhone.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/samsung-galaxy-fit-3-sm-r390-zwart/9300000187587530/",
+    "priceCents": 4899,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vriend",
+      "moeder",
+      "vader"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "sport",
+      "tech",
+      "wellness"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.2,
+      "count": 347,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/samsung-galaxy-fit-3-sm-r390-zwart/9300000187587530/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 48,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. EAN niet op de pagina gevonden. Werkt alleen met Android (volgens zoekresultaat).",
+      "verified": true
+    }
+  },
+  {
+    "slug": "jbl-endurance-zone-open-ear-sportoordopjes-blauw",
+    "title": "JBL Endurance Zone open-ear sportoordopjes (blauw)",
+    "merchantTitle": "JBL Endurance Zone - Open ear Oordopjes - Sport Oordopjes - Blauw",
+    "brand": "JBL",
+    "ean": null,
+    "short": "Open-ear sportoordopjes met oorhaak, zodat je de omgeving blijft horen.",
+    "description": "De Endurance Zone zijn draadloze oordopjes met een haakje over het oor, bedoeld voor intensieve trainingen. Je blijft verkeer en omgeving horen terwijl je muziek luistert. Handig voor hardlopers en fietsers.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/jbl-endurance-zone-volledig-draadloze-open-ear-sport-oordopjes-blauw/9300000225664389/",
+    "priceCents": 11400,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vriend",
+      "vader",
+      "moeder"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "sport",
+      "muziek"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.1,
+      "count": 22,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/jbl-endurance-zone-volledig-draadloze-open-ear-sport-oordopjes-blauw/9300000225664389/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 64,
+      "commissionPct": null,
+      "notes": "Prijs € 114,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Paginatitel afgeleid uit zoekresultaat; EAN op de pagina leek geen geldig nummer, daarom leeg gelaten.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "knosti-disco-antistat-platenwasapparaat",
+    "title": "Knosti Disco Antistat platenwasapparaat",
+    "merchantTitle": "Knosti Disco Antistat Platenspeleraccessoire / Reinigingsproduct",
+    "brand": "Knosti",
+    "ean": "4001520130006",
+    "short": "Een handmatig apparaat om vinylplaten grondig te wassen, met reinigingsvloeistof.",
+    "description": "Je zet de plaat in het apparaat, draait hem door de vloeistof en laat hem drogen. Zo gaat stof en vuil uit de groeven. Een bruikbaar cadeau voor iemand met een platencollectie.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/knosti-disco-antistat-platenspeleraccessoire-reinigingsproduct/9200000049684246/",
+    "priceCents": 6900,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "partner",
+      "vriend",
+      "vader"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "muziek",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 51,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/knosti-disco-antistat-platenspeleraccessoire-reinigingsproduct/9200000049684246/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 69,00, verkoper Hi-Stands.eu (land niet op de pagina gecontroleerd), levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "hitster-bingo-nederlandstalig",
+    "title": "Hitster Bingo (Nederlandstalig)",
+    "merchantTitle": "Jumbo Hitster Bingo - Nederlandstalig Muziekspel - Muziek Bingo - Partyspel - Actiespel",
+    "brand": "Jumbo",
+    "ean": "4053901916020",
+    "short": "Muziekbingo waarbij je liedjes herkent en afstreept op je kaart.",
+    "description": "Met de Hitster-app speel je liedjes af en streep je ze af op wisbare kaarten. Het spel past bij een gezellige avond met vrienden of familie. Er zijn meerdere spelers tegelijk mogelijk.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/jumbo-hitster-bingo-partyspel-actiespel/9300000180035635/",
+    "priceCents": 2799,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vriend",
+      "vader",
+      "moeder",
+      "collega"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "spellen",
+      "muziek"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 1407,
+      "source": "bol.com productpagina (gezien 2026-11-18); beoordeling lijkt voor de hele Hitster-productgroep te gelden"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/jumbo-hitster-bingo-partyspel-actiespel/9300000180035635/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 80,
+      "commissionPct": null,
+      "notes": "Prijs € 27,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Reviewaantal 1407 staat identiek op meerdere Hitster-pagina's (gedeelde beoordeling).",
+      "verified": true
+    }
+  },
+  {
+    "slug": "hitster-100-procent-nl-nederlandstalig",
+    "title": "Hitster 100% NL",
+    "merchantTitle": "Hitster 100% NL - Nederlandstalig Partyspel met Hollandse Hits - Jumbo",
+    "brand": "Jumbo",
+    "ean": "8721017602323",
+    "short": "De Hitster-versie met Nederlandse hits, waarbij je liedjes op jaartal zet.",
+    "description": "Je luistert naar een nummer via de app en legt de kaart op de juiste plek in je tijdlijn. Deze editie bevat Nederlandstalige en Hollandse hits. Leuk voor een spelletjesavond rond de feestdagen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/jumbo-hitster-100-nl-nederlandstalig-partyspel-actiespel/9300000223792035/",
+    "priceCents": 1800,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vriend",
+      "vader",
+      "moeder",
+      "collega"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "spellen",
+      "muziek"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 1407,
+      "source": "bol.com productpagina (gezien 2026-11-18); beoordeling lijkt voor de hele Hitster-productgroep te gelden"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/jumbo-hitster-100-nl-nederlandstalig-partyspel-actiespel/9300000223792035/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 80,
+      "commissionPct": null,
+      "notes": "Prijs € 18,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Reviewaantal gedeeld met andere Hitster-pagina's.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "hitster-guilty-pleasures-nederlandstalig",
+    "title": "Hitster Guilty Pleasures",
+    "merchantTitle": "Jumbo Hitster Guilty Pleasures - Nederlandstalig Muziekspel - Foute Hits - Partyspel - Actiespel",
+    "brand": "Jumbo",
+    "ean": "8710126199534",
+    "short": "Hitster met foute hits uit de afgelopen decennia.",
+    "description": "Dezelfde spelregels als Hitster, maar met nummers waar je stiekem toch om moet lachen. Je raadt het jaartal en bouwt een tijdlijn. Een goede keuze voor een feestje of kerstborrel.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/jumbo-hitster-guilty-pleasures-partyspel-actiespel/9300000150893944/",
+    "priceCents": 1898,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vriend",
+      "collega",
+      "vader",
+      "moeder"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "spellen",
+      "muziek"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 1407,
+      "source": "bol.com productpagina (gezien 2026-11-18); beoordeling lijkt voor de hele Hitster-productgroep te gelden"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/jumbo-hitster-guilty-pleasures-partyspel-actiespel/9300000150893944/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 80,
+      "commissionPct": null,
+      "notes": "Prijs € 18,98, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Reviewaantal gedeeld met andere Hitster-pagina's.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "hitster-movies-tv-soundtracks-uitbreiding",
+    "title": "Hitster Movies & TV Soundtracks (uitbreiding)",
+    "merchantTitle": "Jumbo Hitster Movies & TV Soundtracks - Muziekspel Uitbreiding - Filmmuziek & TV-Soundtracks",
+    "brand": "Jumbo",
+    "ean": "8721017602309",
+    "short": "Een uitbreidingsset voor Hitster met filmmuziek en tv-soundtracks.",
+    "description": "Extra kaarten met bekende film- en tv-muziek voor wie Hitster al in de kast heeft. Je hebt het basisspel nodig om hem te kunnen spelen. Een klein cadeau voor een spelletjesliefhebber.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/jumbo-hitster-movies-tv-soundtracks-uitbreidingsset-partyspel-actiespel/9300000221600634/",
+    "priceCents": 1109,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vriend",
+      "collega",
+      "vader",
+      "moeder"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "spellen",
+      "muziek"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 1407,
+      "source": "bol.com productpagina (gezien 2026-11-18); beoordeling lijkt voor de hele Hitster-productgroep te gelden"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/jumbo-hitster-movies-tv-soundtracks-uitbreidingsset-partyspel-actiespel/9300000221600634/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 11,09, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Uitbreiding; basisspel nodig. Reviewaantal gedeeld met andere Hitster-pagina's.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-botanicals-mini-woestijntuin",
+    "title": "LEGO Botanicals Mini-woestijntuin",
+    "merchantTitle": "LEGO Botanicals: Mini-woestijntuin",
+    "brand": "LEGO",
+    "ean": null,
+    "short": "Een klein LEGO-model met cactussen en vetplanten voor op een bureau.",
+    "description": "Een compacte botanische bouwset voor volwassenen die niet veel ruimte inneemt. Je bouwt een mini-tuin met woestijnplanten. Een leuk klein cadeau voor een collega of vriend(in) met een bureau vol planten.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-botanicals-mini-woestijntuin/9300000225873781/",
+    "priceCents": 1250,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vriend",
+      "partner",
+      "collega",
+      "moeder"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "creatief",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 7,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-botanicals-mini-woestijntuin/9300000225873781/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 64,
+      "commissionPct": null,
+      "notes": "Prijs € 12,50, verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Het EAN op de pagina leek een boeknummer; leeg gelaten. 7 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "trust-bigfoot-gel-muismat-polssteun",
+    "title": "Trust BigFoot muismat met gel-polssteun",
+    "merchantTitle": "Trust BigFoot - Ergonomische Muismat - Polssteun met Gelvulling - Microvezel Oppervlak - Antislip Onderkant - Zwart",
+    "brand": "Trust",
+    "ean": "8713439169775",
+    "short": "Een muismat met zachte gelvulling onder de pols, voor wie de hele dag achter de muis zit.",
+    "description": "De mat meet ongeveer 20,5 bij 23,6 cm en heeft een microvezel oppervlak met een antislip onderkant. De gelvulling geeft de pols wat steun tijdens het werken. Een praktisch, goedkoop cadeautje voor een collega of iemand die thuiswerkt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/trust-bigfoot-gel-muismat-met-polssteun-zwart/1003004009719312/",
+    "priceCents": 949,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.3,
+      "count": 593,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/trust-bigfoot-gel-muismat-met-polssteun-zwart/1003004009719312/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 9,49, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in je brievenbus' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "logitech-studio-series-muismat-graphite",
+    "title": "Logitech Studio Series muismat Graphite",
+    "merchantTitle": "Logitech - Muismat - Studio Series - Graphite",
+    "brand": "Logitech",
+    "ean": "5099206099470",
+    "short": "Een nette, compacte muismat in donkergrijs van een bekend merk.",
+    "description": "Een muismat van 23 bij 20 cm met een bovenkant van gerecycled polyester en een rubberen onderkant die blijft liggen. Het ontwerp is rustig en past op elk bureau. Een handig kleincadeau voor lootjes of Secret Santa.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/mouse-pad-studio-series-graphite/9300000050660486/",
+    "priceCents": 1099,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 27,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/mouse-pad-studio-series-graphite/9300000050660486/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 10,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "voomy-office-laptopstandaard-aluminium-zwart",
+    "title": "Voomy opvouwbare laptopstandaard aluminium",
+    "merchantTitle": "Voomy Office Laptop Standaard Verstelbaar - Ergonomische Stand - Aluminium - Zwart",
+    "brand": "Voomy",
+    "ean": "8720153811057",
+    "short": "Een lichte, opvouwbare laptopstandaard van aluminium die in een tas past.",
+    "description": "De standaard is verstelbaar, weegt zo'n 250 gram en past voor laptops en tablets van ongeveer 9 tot 17 inch. Opgevouwen is hij 24 bij 4,3 cm. Handig voor thuiswerkers en collega's die graag hoger willen kijken.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/voomy-office-laptop-standaard-verstelbaar-ergonomische-stand-aluminium-zwart/9300000019765087/",
+    "priceCents": 1299,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 559,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/voomy-office-laptop-standaard-verstelbaar-ergonomische-stand-aluminium-zwart/9300000019765087/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 78,
+      "commissionPct": null,
+      "notes": "Prijs € 12,99, verkoper Voomy, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Een review uit jan 2026 meldt een lichtere nieuwe versie.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "ugreen-usb-hub-4-poorten-0-5m-kabel",
+    "title": "Ugreen USB-hub met 4 poorten",
+    "merchantTitle": "Ugreen - HUB - splitter 4x USB 3.2 Gen - 1 - (0,5 - m - kabel) - zwart - (20290)",
+    "brand": "Ugreen",
+    "ean": "6957303822904",
+    "short": "Een compacte USB-hub met vier poorten en een kabel van 50 cm.",
+    "description": "Met deze hub maak je van een USB-poort er vier. De behuizing meet ongeveer 77 bij 50 mm en de kabel is een halve meter lang. Praktisch voor een bureau waar poorten tekortkomen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/ugreen-usb-hub-3-0-met-4-usb-poorten-3-usb-voor-en-1-usb-poort-bovenop/9200000118772150/",
+    "priceCents": 1379,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/ugreen-usb-hub-3-0-met-4-usb-poorten-3-usb-voor-en-1-usb-poort-bovenop/9200000118772150/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 60,
+      "commissionPct": null,
+      "notes": "Prijs € 13,79, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Nog geen reviews; voorraad bijna op bij deze verkoper.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "anker-usb-hub-4-poorten-usb-c-aansluiting",
+    "title": "Anker ultraslanke USB-hub met 4 poorten",
+    "merchantTitle": "Anker Ultra Slim USB Type-C 5000 Mbit/s Zwart",
+    "brand": "Anker",
+    "ean": "0194644177737",
+    "short": "Een dunne USB-hub van Anker met vier USB-A-poorten voor laptops met USB-C.",
+    "description": "De hub is slechts ongeveer een centimeter dik en weegt 80 gram. Hij geeft een laptop met USB-C-poort er vier USB-A-aansluitingen bij. Past makkelijk in een laptoptas.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/hub-usb-anker-a8309g11/9300000175810570/",
+    "priceCents": 1496,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 2,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/hub-usb-anker-a8309g11/9300000175810570/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 61,
+      "commissionPct": null,
+      "notes": "Prijs € 14,96, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 2 reviews; afmetingen op de pagina spreken elkaar tegen, daarom niet vermeld.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "tonys-chocolonely-tiny-tonys-kerstpouch-126-gram",
+    "title": "Tony's Chocolonely Tiny Tony's kerstpouch",
+    "merchantTitle": "Tony's Chocolonely Kerst Cadeau - Kerstmis Chocolade - Chocolaatjes - Tiny Tony's Kerstpouch - 126 gram",
+    "brand": "Tony's Chocolonely",
+    "ean": "8720701142107",
+    "short": "Een klein zakje met kerstse Tiny Tony's, ideaal voor lootjes en kleine attenties.",
+    "description": "Het zakje bevat 126 gram mini-chocolaatjes in acht smaken in een kerstverpakking. Het is licht en plat genoeg om bij een collega op het bureau te leggen. Een betaalbaar gebaar voor het kantoor of het team.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/tony-s-chocolonely-tiny-tony-s-chocolade-kerst-special-mix-kerst-chocolaatjes-cadeau-mini-chocolade-in-geschenkverpakking-8-smaken-8-x-135-gram/9300000161783188/",
+    "priceCents": 649,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "vriend",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 8,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/tony-s-chocolonely-tiny-tony-s-chocolade-kerst-special-mix-kerst-chocolaatjes-cadeau-mini-chocolade-in-geschenkverpakking-8-smaken-8-x-135-gram/9300000161783188/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 80,
+      "commissionPct": null,
+      "notes": "Prijs € 6,49, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "tonys-chocolonely-kerst-proeverijtje-6-repen",
+    "title": "Tony's Chocolonely kerst-proeverijtje met 6 reepjes",
+    "merchantTitle": "Tony's Chocolonely Kerst Cadeau Chocolade Proeverijtje - 6 x Chocola Repen Kerstmis kadootjes 288 Gram Fairtrade Belgische Chocola",
+    "brand": "Tony's Chocolonely",
+    "ean": "8720701149106",
+    "short": "Zes reepjes Tony's Chocolonely in verschillende smaken, handig als kerstcadeau voor collega's.",
+    "description": "Een setje van zes kleine repen, samen ongeveer 288 gram, in een kerstverpakking. Er zit genoeg in om te delen met het team. Past in een brievenbus, dus ook makkelijk te bezorgen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/tony-s-chocolonely-kerst-cadeau-chocolade-proeverijtje-kerst-6-x-chocola-repen-kadootjes-288-gram-geschenkset-voor-man-en-vrouw/9300000190248826/",
+    "priceCents": 1399,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "vriend",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken"
+    ],
+    "occasions": [
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 1,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/tony-s-chocolonely-kerst-cadeau-chocolade-proeverijtje-kerst-6-x-chocola-repen-kadootjes-288-gram-geschenkset-voor-man-en-vrouw/9300000190248826/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 70,
+      "commissionPct": null,
+      "notes": "Prijs € 13,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 1 review.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lindt-lindor-roze-hart-bonbons-160-gram",
+    "title": "Lindt Lindor Roze Hart bonbons 160 gram",
+    "merchantTitle": "Lindt LINDOR Roze Hart gemengde Chocolade Bonbons 160 gram - Chocolade Cadeau - Premium cadeauverpakking - Kerstcadeau",
+    "brand": "Lindt",
+    "ean": "8003340801933",
+    "short": "Een hartvormige geschenkverpakking met 13 gemengde Lindor-bonbons.",
+    "description": "Een doosje van 160 gram met gemengde Lindor-bonbons in een cadeauverpakking. Een bekende chocolade die bijna iedereen wel lust. Geschikt als netjes ingepakt presentje voor een collega.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lindt-lindor-roze-hart-gemengde-chocolade-bonbons-160-gram-chocolade-cadeau-premium-cadeauverpakking-vaderdag-cadeau/9300000283754140/",
+    "priceCents": 934,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "collega",
+      "vriend",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 9,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lindt-lindor-roze-hart-gemengde-chocolade-bonbons-160-gram-chocolade-cadeau-premium-cadeauverpakking-vaderdag-cadeau/9300000283754140/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 9,34, verkoper Lindt & Sprüngli, levertekst 'Uiterlijk 21 november in huis' gezien op productpagina 2026-11-18. Variant Melk was niet leverbaar; pagina toont meerdere smaakopties.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "smartgames-plug-and-play-ball-voetbalpuzzel",
+    "title": "SmartGames Plug & Play Ball puzzel",
+    "merchantTitle": "SmartGames Plug & Play Ball - 3D Voetbal Puzzel & Fidget Toy - Compact Logisch Denkspel",
+    "brand": "SmartGames",
+    "ean": "5414301524939",
+    "short": "Een 3D-puzzel van een bal die je op een bureau kunt laten liggen om mee te friemelen.",
+    "description": "Je zet zeven puzzelstukken samen tot een bal. Het is een compact denkspel dat in een jaszak past. Leuk voor een pauze tussen het werk door.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/smartgames-plug-play-ball-voetbal-puzzel-fidget-toy/9300000142563153/",
+    "priceCents": 999,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "vriend",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "spellen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 42,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/smartgames-plug-play-ball-voetbal-puzzel-fidget-toy/9300000142563153/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 70,
+      "commissionPct": null,
+      "notes": "Prijs € 9,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Titel vermeldt 'vanaf 6 jaar', dus ook geschikt voor kinderen.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "999-games-flex-puzzler-original",
+    "title": "999 Games Flex Puzzler Original",
+    "merchantTitle": "999 Games - Flex Puzzler Original - Breinbreker - Schoencadeautje - Uitdagende puzzel als fidget toy",
+    "brand": "999 Games",
+    "ean": "8720289478162",
+    "short": "Een breinbreker van 12 blokjes aan een elastiek, met 80 opdrachten.",
+    "description": "De blokjes zitten aan een elastiek vast en moeten steeds in een andere vorm worden gevouwen. Er zijn 80 uitdagingen in 2D en 3D. Een leuk friemelspel om op kantoor of thuis te hebben.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/flex-puzzler-s/9300000174399419/",
+    "priceCents": 1299,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "vriend",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "spellen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 32,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/flex-puzzler-s/9300000174399419/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 12,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "clipper-thee-cadeaupakket-floral-giftbox-9-smaken",
+    "title": "Clipper thee Floral Giftbox met 9 smaken",
+    "merchantTitle": "Clipper Thee Cadeaupakket - Biologische Kruidenthee - Floral Giftbox met 9 heerlijke smaken",
+    "brand": "Clipper",
+    "ean": "8711812411831",
+    "short": "Een geschenkdoos met 45 theezakjes biologische kruidenthee in negen smaken.",
+    "description": "De doos bevat negen smaken kruidenthee, vijf zakjes per smaak. Dat maakt hem handig om te delen met collega's of als eigen voorraad voor het thuiskantoor. Een betaalbare en vriendelijke attentie.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/clipper-thee-cadeaupakket-biologische-kruidenthee-floral-giftbox-met-9-heerlijke-smaken/9300000257840777/",
+    "priceCents": 1499,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 15,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/clipper-thee-cadeaupakket-biologische-kruidenthee-floral-giftbox-met-9-heerlijke-smaken/9300000257840777/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 71,
+      "commissionPct": null,
+      "notes": "Prijs € 14,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Een van de twee varianten staat als niet leverbaar; de variant in de URL is leverbaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lamy-safari-balpen-rood",
+    "title": "Lamy Safari balpen rood",
+    "merchantTitle": "LAMY Safari Balpen - Red",
+    "brand": "Lamy",
+    "ean": "4014519052708",
+    "short": "Een bekende balpen met robuuste kunststof body, geleverd met een zwarte vulling.",
+    "description": "De Safari is een Duitse klassieker met een herkenbare vorm en een klikmechanisme. De pen gaat met een M-vulling in zwart. Een nette pen voor een collega die graag goed schrijfgerei gebruikt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lamy-safari-balpen-red/9200000107758552/",
+    "priceCents": 1429,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 1,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lamy-safari-balpen-red/9200000107758552/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 14,29, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Slechts 1 review; voorraad bijna op.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lamy-safari-balpen-blauw",
+    "title": "Lamy Safari balpen blauw",
+    "merchantTitle": "LAMY Safari Balpen - Blue",
+    "brand": "Lamy",
+    "ean": "4014519103950",
+    "short": "De Lamy Safari in blauw, een herkenbare balpen met klikmechanisme.",
+    "description": "Een stevige kunststof balpen met de vorm die Lamy bekend maakte, geleverd inclusief M16M-vulling. Het is een pen die er verzorgd uitziet en lang meegaat. Een mooi persoonlijk cadeau voor een collega.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lamy-safari-balpen-blue/9300000026162878/",
+    "priceCents": 1459,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lamy-safari-balpen-blue/9300000026162878/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 14,59, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Nog geen reviews; inktkleur op pagina tegenstrijdig (zwart of blauw), voorraad bijna op.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "imoshion-ergonomische-polssteun-toetsenbord-en-muis",
+    "title": "imoshion polssteunset voor toetsenbord en muis",
+    "merchantTitle": "imoshion Ergonomische Polssteun voor Toetsenbord en Muis - Geschikt voor Computer en Laptop - Anti Slip - Zwart",
+    "brand": "imoshion",
+    "ean": "8721064053796",
+    "short": "Een tweedelige polssteun voor toetsenbord en muis, met antislip onderkant.",
+    "description": "De set heeft een brede steun van ongeveer 44 cm voor het toetsenbord en een kleine van 13,5 cm voor de muis. Beide zijn 2,5 cm hoog en blijven liggen. Handig voor wie veel typt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/imoshion-ergonomische-polssteun-voor-toetsenbord-en-muis-geschikt-voor-computer-en-laptop-anti-slip-zwart/9300000230591920/",
+    "priceCents": 1499,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 11,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/imoshion-ergonomische-polssteun-voor-toetsenbord-en-muis-geschikt-voor-computer-en-laptop-anti-slip-zwart/9300000230591920/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 14,99, verkoper Smartphonehoesjes.nl, levertekst 'Voor 21:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "stabilo-boss-original-pastel-markeerstiften-4-kleuren",
+    "title": "Stabilo Boss Original Pastel markeerstiften, set van 4",
+    "merchantTitle": "STABILO BOSS ORIGINAL Pastel - Markeerstift - Markeren Met Pastelkleuren - Etui Met 4 Kleuren",
+    "brand": "Stabilo",
+    "ean": "4006381558174",
+    "short": "Vier markeerstiften in zachte pastelkleuren in een handig etui.",
+    "description": "In het etui zitten vier pastelkleuren: babyblauw, limoen, koraalrood en kersenbloesem roze. De Boss Original is een bekende markeerstift. Een leuk en goedkoop cadeautje voor wie veel leest of studeert.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/stabilo-boss-original-pastel-markeerstift-markeren-met-pastelkleuren-etui-met-4-kleuren/9200000128590145/",
+    "priceCents": 749,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 692,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/stabilo-boss-original-pastel-markeerstift-markeren-met-pastelkleuren-etui-met-4-kleuren/9200000128590145/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 7,49, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "dopper-original-drinkfles-450-ml-pure-white",
+    "title": "Dopper Original drinkfles 450 ml wit",
+    "merchantTitle": "Dopper Original drinkfles - 450 ml - pure wit - BPA-vrij kunststof",
+    "brand": "Dopper",
+    "ean": "8717953047281",
+    "short": "De bekende Nederlandse drinkfles van 450 ml in wit, BPA-vrij.",
+    "description": "Een herbruikbare fles van 450 ml die ook als beker te gebruiken is. De fles is BPA-vrij en past in de meeste tassen. Een bruikbaar kleincadeau voor een collega die op het werk water drinkt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/dopper-original-drinkfles-450-ml-pure-white/9200000021784177/",
+    "priceCents": 1250,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "sport",
+      "wellness"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 711,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/dopper-original-drinkfles-450-ml-pure-white/9200000021784177/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 76,
+      "commissionPct": null,
+      "notes": "Prijs € 12,50, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Materiaalomschrijving op pagina niet eenduidig.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "haribo-adventskalender-300-gram",
+    "title": "Haribo adventskalender 300 gram",
+    "merchantTitle": "Haribo Adventskalender - snoep cadeau - 300g",
+    "brand": "Haribo",
+    "ean": "4001686849439",
+    "short": "Een adventskalender vol Haribo-snoep, handig voor op het bureau in december.",
+    "description": "De kalender bevat 300 gram snoep en loopt af tot kerst. Zo heeft een collega in december elke dag iets kleins om open te maken. Een leuk en vrolijk cadeau voor het kantoor.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/haribo-adventskalender-300g/9300000044733596/",
+    "priceCents": 959,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "vriend",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken"
+    ],
+    "occasions": [
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 22,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/haribo-adventskalender-300g/9300000044733596/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 9,59, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Tijdgevoelig: adventskalender, vanaf 1 december bruikbaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "leuchtturm1917-notitieboek-a5-zwart-puntjes",
+    "title": "Leuchtturm1917 notitieboek A5 zwart, stippen",
+    "merchantTitle": "Leuchtturm 1917 Notitieboek Zwart - Medium (A5) - Puntjes",
+    "brand": "Leuchtturm1917",
+    "ean": "4004117327964",
+    "short": "Een A5-notitieboek met harde kaft, 249 pagina's en stippenraster.",
+    "description": "Het boek meet 14,5 bij 21 cm en heeft genummerde pagina's van 80 gram papier. Een elastiek houdt het dicht. Een stevig notitieboek voor wie graag plant of schetst, handig als cadeau voor een collega.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/leuchtturm-1917-notitieboek-zwart-medium-puntjes/9200000058822282/",
+    "priceCents": 2299,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 215,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/leuchtturm-1917-notitieboek-zwart-medium-puntjes/9200000058822282/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 78,
+      "commissionPct": null,
+      "notes": "Prijs € 22,99, verkoper Collectura, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "leuchtturm1917-notitieboek-a5-hardcover-powder-dotted",
+    "title": "Leuchtturm1917 notitieboek A5 poederroze, stippen",
+    "merchantTitle": "Leuchtturm1917 A5 Medium Notitieboek Hardcover dotted Powder",
+    "brand": "Leuchtturm1917",
+    "ean": "4004117569920",
+    "short": "Een A5-notitieboek in zachte poederroze kleur met stippenraster.",
+    "description": "Het notitieboek heeft een harde kaft, 251 genummerde pagina's en een stippenraster. Het formaat is 14,5 bij 21 cm. Een mooi boek voor notities op kantoor of thuis.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/leuchtturm1917-a5-medium-notitieboek-hardcover-dotted-powder/9200000126606297/",
+    "priceCents": 2199,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4,
+      "count": 5,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/leuchtturm1917-a5-medium-notitieboek-hardcover-dotted-powder/9200000126606297/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 21,99, verkoper Collectura, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 5 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "moleskine-classic-notitieboek-large-hardcover-gelinieerd-mirte-groen",
+    "title": "Moleskine Classic notitieboek large, mirtegroen",
+    "merchantTitle": "Moleskine Classic Notitieboek - Large - Hardcover - Gelinieerd - Mirte Groen",
+    "brand": "Moleskine",
+    "ean": "8058647629063",
+    "short": "Een Moleskine met harde kaft in mirtegroen, gelinieerd en 240 pagina's.",
+    "description": "Het boek meet 13 bij 21 cm en heeft 240 gelinieerde pagina's met elastiek, leeslint en een opbergvak achterin. Een vertrouwd merk dat veel mensen herkennen. Past goed bij collega's die veel aantekeningen maken.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/moleskine-classic-notitieboek-large-hardcover-gelinieerd-mirte-groen/9200000101024632/",
+    "priceCents": 1635,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 137,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/moleskine-classic-notitieboek-large-hardcover-gelinieerd-mirte-groen/9200000101024632/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 80,
+      "commissionPct": null,
+      "notes": "Prijs € 16,35, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "moleskine-classic-notitieboek-large-softcover-gelinieerd-saffier-blauw",
+    "title": "Moleskine Classic notitieboek large softcover, saffierblauw",
+    "merchantTitle": "Moleskine Classic Notitieboek - Large - Softcover - Gelinieerd - Saffier Blauw",
+    "brand": "Moleskine",
+    "ean": "8055002854740",
+    "short": "Een Moleskine large met zachte kaft in saffierblauw, gelinieerd, 192 pagina's.",
+    "description": "Een notitieboek van 13 bij 21 cm met een buigzame kaft en 192 gelinieerde pagina's. Het ligt prettig in de hand en past in een tas. Een eenvoudig, nuttig cadeau voor collega's.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/moleskine-classic-notitieboek-large-softcover-gelinieerd-saffier-blauw/9200000064213719/",
+    "priceCents": 1567,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 45,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/moleskine-classic-notitieboek-large-softcover-gelinieerd-saffier-blauw/9200000064213719/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 15,67, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Reviews op pagina deels voor andere maten of kleuren.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "moleskine-classic-notitieboek-extra-large-softcover-saffier-blauw",
+    "title": "Moleskine Classic notitieboek extra large softcover, saffierblauw",
+    "merchantTitle": "Moleskine Classic Notitieboek - Extra Large - Softcover - Gelinieerd - Saffier Blauw",
+    "brand": "Moleskine",
+    "ean": "8055002854771",
+    "short": "Een groot Moleskine-notitieboek van 19 bij 25 cm met 192 gelinieerde pagina's.",
+    "description": "Dit notitieboek is groter dan de gewone variant en daardoor prettig voor vergaderingen of lijstjes. De kaft is zacht en het papier is gelinieerd. Een praktisch cadeau voor wie veel noteert.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/moleskine-classic-notitieboek-extra-large-softcover-saffier-blauw/9200000064213725/",
+    "priceCents": 2189,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "collega",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 45,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/moleskine-classic-notitieboek-extra-large-softcover-saffier-blauw/9200000064213725/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 21,89, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Reviews op pagina deels voor andere kleuren of maten.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "briloner-rick-led-bureaulamp-touch-usb-c-wit",
+    "title": "Briloner Rick LED-bureaulamp met touchbediening",
+    "merchantTitle": "BRILONER Rick - Bureaulamp led - CCT tafellamp - dimbaar tafellampje met touchbediening - USB-C - h.: 38cm - wit",
+    "brand": "Briloner",
+    "ean": "4002707503446",
+    "short": "Een witte LED-bureaulamp van 38 cm met drie dimstanden en een USB-poort.",
+    "description": "De lamp is met aanraking te bedienen en onthoudt de laatste stand. Er zit een USB-poort in de voet en het snoer is 1,5 meter. Er geldt 5 jaar fabrieksgarantie. Een bruikbare lamp voor een thuiswerkplek.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/briloner-rick-led-bureaulamp-cct-tafellamp-dimbaar-touchbediening-usb-c-wit-31-5-x-38cm/9300000261968418/",
+    "priceCents": 1799,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "thuis",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/briloner-rick-led-bureaulamp-cct-tafellamp-dimbaar-touchbediening-usb-c-wit-31-5-x-38cm/9300000261968418/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 17,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Pagina toont 4,6 uit 103 reviews, maar reviews gaan deels over andere Briloner-modellen, daarom rating leeg gelaten. Pagina is tegenstrijdig over verstelbaarheid en kleurtemperatuur.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lamy-safari-rollerball-zwart",
+    "title": "Lamy Safari rollerball zwart",
+    "merchantTitle": "LAMY Safari Rollerball - Black",
+    "brand": "Lamy",
+    "ean": "4014519204015",
+    "short": "Een zwarte rollerballpen uit de Lamy Safari-serie, navulbaar.",
+    "description": "De pen heeft een klikmechanisme, een clip en is te vullen met Lamy M63-vullingen. Hij weegt zo'n 17 gram en is voor links- en rechtshandigen. Een nette pen voor kantoor.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lamy-safari-rollerball-black/9300000026075124/",
+    "priceCents": 1939,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lamy-safari-rollerball-black/9300000026075124/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 60,
+      "commissionPct": null,
+      "notes": "Prijs € 19,39, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Nog geen reviews; voorraad bijna op.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lamy-safari-vista-rollerball-transparant",
+    "title": "Lamy Safari Vista rollerball transparant",
+    "merchantTitle": "Lamy LAMY Safari Vista Rollerbal Pen Transparant",
+    "brand": "Lamy",
+    "ean": "4014519791201",
+    "short": "Een Lamy Safari met doorzichtige behuizing zodat je de binnenkant ziet.",
+    "description": "De Vista heeft een transparante behuizing van kunststof met een metalen clip. De pen is navulbaar met Lamy M63-vullingen. Een opvallende pen voor wie van mooi schrijfgerei houdt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lamy-safari-vista-rollerbal-pen-transparant/9300000262411122/",
+    "priceCents": 1915,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lamy-safari-vista-rollerbal-pen-transparant/9300000262411122/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 60,
+      "commissionPct": null,
+      "notes": "Prijs € 19,15, verkoper iHobby (NL), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Nog geen reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "tonys-chocolonely-sinterklaas-bundel-3-chocoladeletters",
+    "title": "Tony's Chocolonely Sint-bundel met 3 chocoladeletters",
+    "merchantTitle": "Tony's Chocolonely - Sinterklaas - Bundel Sint Chocoladeletters - Melk S, Melk Hazelnoot S, Puur S - 3 x 180 gram",
+    "brand": "Tony's Chocolonely",
+    "ean": "8721593171350",
+    "short": "Drie Sint-chocoladeletters van 180 gram, in melk, melk-hazelnoot en puur.",
+    "description": "De bundel bevat drie letters van elk 180 gram, in drie smaken. Zo kun je een collega of het team een letter geven. Een traditioneel Sinterklaas-cadeau met een bekend merk.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/tony-s-chocolonely-sinterklaas-bundel-sint-chocoladeletters-melk-s-melk-hazelnoot-s-puur-s-3-x-180-gram-belgische-fairtrade-chocolade/9300000402714971/",
+    "priceCents": 1699,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "vriend",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken"
+    ],
+    "occasions": [
+      "sinterklaas"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 2,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/tony-s-chocolonely-sinterklaas-bundel-sint-chocoladeletters-melk-s-melk-hazelnoot-s-puur-s-3-x-180-gram-belgische-fairtrade-chocolade/9300000402714971/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 16,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 2 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "toblerone-mixbox-horeca-904-gram",
+    "title": "Toblerone Mixbox 904 gram",
+    "merchantTitle": "Toblerone Mixbox Horeca Chocolade - Chocolaatjes Puur Wit Melk Emmer 904g",
+    "brand": "Toblerone",
+    "ean": "7622210418654",
+    "short": "Een emmer van 904 gram met zo'n 113 mini-Toblerones in melk, wit en puur.",
+    "description": "Een grote bak met kleine Toblerone-repen in drie soorten chocolade. Handig voor op de kantoortafel, bij de koffiemachine of voor het hele team. Een gulle attentie voor een afdeling.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/toblerone-mixbox-horeca-904-gram/9300000000032608/",
+    "priceCents": 2199,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "vriend",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 61,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/toblerone-mixbox-horeca-904-gram/9300000000032608/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 82,
+      "commissionPct": null,
+      "notes": "Prijs € 21,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "tonys-chocolonely-tinys-chocolade-mix-900-gram",
+    "title": "Tony's Chocolonely Tiny's mix 900 gram",
+    "merchantTitle": "Tony's Chocolonely Tiny's Chocolade Mix - Chocoladecadeau - 900 gram",
+    "brand": "Tony's Chocolonely",
+    "ean": "8719956490057",
+    "short": "Een grote doos met zo'n honderd mini-chocolaatjes van Tony's Chocolonely in tien smaken.",
+    "description": "De doos bevat ongeveer 900 gram aan kleine Tiny's in verschillende smaken. Het aantal stuks kan per doos iets verschillen. Een leuke traktatie voor een team of een afdeling.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/tony-s-chocolonely-tiny-tony-s-chocolade-mix-mix-van-10-chocoladesmaken-900-gram-100-mini-chocolaatjes-belgische-fairtrade-chocolade/9300000047849774/",
+    "priceCents": 2319,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "vriend",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.1,
+      "count": 93,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/tony-s-chocolonely-tiny-tony-s-chocolade-mix-mix-van-10-chocoladesmaken-900-gram-100-mini-chocolaatjes-belgische-fairtrade-chocolade/9300000047849774/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 23,19, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Sommige reviews melden minder stuks dan 100.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lindt-mini-pralines-36-stuks-180-gram",
+    "title": "Lindt Mini Pralines 36 stuks",
+    "merchantTitle": "Lindt MINI PRALINES chocolade pralines 180gr - 36 chocolade bonbons - Chocolade Cadeau - Kerstcadeau",
+    "brand": "Lindt",
+    "ean": "4000539103780",
+    "short": "Een doosje met 36 kleine Lindt-pralines van samen 180 gram.",
+    "description": "Een assortiment kleine pralines in een cadeauverpakking. Het formaat maakt het makkelijk om te delen met collega's. Geschikt als kerstcadeau.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lindt-mini-pralines-36-stuks/9300000017155100/",
+    "priceCents": 1529,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "collega",
+      "vriend",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken"
+    ],
+    "occasions": [
+      "kerst"
+    ],
+    "rating": {
+      "score": 4,
+      "count": 5,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lindt-mini-pralines-36-stuks/9300000017155100/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 15,29, verkoper Lindt & Sprüngli, levertekst 'Uiterlijk 21 november in huis' gezien op productpagina 2026-11-18. Slechts 5 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "dopper-steel-drinkfles-490-ml-rvs",
+    "title": "Dopper Steel drinkfles 490 ml",
+    "merchantTitle": "Dopper Steel drinkfles - 490 ml - roestvrij staal - vaatwasserbestendig",
+    "brand": "Dopper",
+    "ean": "8718469120772",
+    "short": "Een RVS-drinkfles van 490 ml van het Nederlandse merk Dopper.",
+    "description": "De fles is van roestvrij staal en vaatwasserbestendig. Hij is herbruikbaar en past in de meeste tassen. Een duurzaam cadeau voor een collega die op kantoor veel water drinkt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/dopper-steel-drinkfles-490-ml-roestvrij-staal/9200000078547896/",
+    "priceCents": 2195,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "sport",
+      "wellness"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 544,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/dopper-steel-drinkfles-490-ml-roestvrij-staal/9200000078547896/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 78,
+      "commissionPct": null,
+      "notes": "Prijs € 21,95, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lindt-lindor-adventskalender-2026-299-gram",
+    "title": "Lindt Lindor adventskalender 2026",
+    "merchantTitle": "Lindt LINDOR Chocolade Adventskalender 2026 - Bonbons gemengd 299gr - 24 premium chocolade bonbons",
+    "brand": "Lindt",
+    "ean": "8003340801445",
+    "short": "Een adventskalender met 24 gemengde Lindor-bonbons, 299 gram.",
+    "description": "Elke dag tot kerst een Lindor-bonbon in een andere smaak. De kalender weegt 299 gram. Een mooi cadeau voor een collega die van chocolade houdt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lindt-lindor-adventskalender-chocolade-bonbons-gemengd-299gr-24-premium-chocolade-bonbons-tel-samen-met-lindt-af-tot-kerst/9300000237031498/",
+    "priceCents": 2339,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "collega",
+      "vriend",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken"
+    ],
+    "occasions": [
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 6,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lindt-lindor-adventskalender-chocolade-bonbons-gemengd-299gr-24-premium-chocolade-bonbons-tel-samen-met-lindt-af-tot-kerst/9300000237031498/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 60,
+      "commissionPct": null,
+      "notes": "Prijs € 23,39, verkoper Lindt & Sprüngli, levertekst 'Uiterlijk 21 november in huis' gezien op productpagina 2026-11-18. Tijdgevoelig: adventskalender, vanaf 1 december in gebruik. Slechts 6 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "briloner-daylight-led-bureaulamp-zwart",
+    "title": "Briloner Daylight LED-bureaulamp zwart",
+    "merchantTitle": "BRILONER Daylight - Bureaulamp led - daglichtlamp - koudwit licht tafellamp - draaibaar & zwenkbaar - h.: 44cm - zwart",
+    "brand": "Briloner",
+    "ean": "4002707363828",
+    "short": "Een zwarte LED-bureaulamp van 44 cm met koudwit daglicht en USB-poort.",
+    "description": "De lamp geeft koudwit licht van 6500 K en heeft een USB-poort. Hij wordt op netstroom gebruikt en wordt met 5 jaar fabrieksgarantie geleverd. Een nuttige verlichting voor het thuiskantoor.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/briloner-leuchten-daylight-bureaulamp-tafellamp-led-75w-draaibaar-en-kantelbaar-zwart/9200000128104430/",
+    "priceCents": 2699,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "thuis",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/briloner-leuchten-daylight-bureaulamp-tafellamp-led-75w-draaibaar-en-kantelbaar-zwart/9200000128104430/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 26,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Pagina toont 4,6 uit 103 reviews, maar die lijken gedeeld met andere Briloner-modellen, daarom rating leeg. Pagina is tegenstrijdig over verstelbaarheid en lichtkleur.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "stane-led-bureaulamp-dimbaar-5-lichtkleuren-usb-c",
+    "title": "Stane LED-bureaulamp dimbaar met 5 lichtkleuren",
+    "merchantTitle": "Stane Bureaulamp LED Dimbaar - 5 Lichtkleuren (2700K-6000K) - Touchbediening - Tafellamp - Leeslamp - Bedlamp - incl USB-C Kabel Zwart",
+    "brand": "Stane",
+    "ean": "8720938925443",
+    "short": "Een opvouwbare LED-bureaulamp met vijf lichtkleuren en zes helderheidsniveaus.",
+    "description": "De lamp heeft touchbediening, een verstelbare arm en een USB-uitgang in de voet. Er zijn vijf lichtkleuren van warm tot koud wit. Een bruikbare lamp voor een bureau of nachtkastje.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/bureaulamp-enkel-led-bureaulampje-dimbaar/9300000306126783/",
+    "priceCents": 2749,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "thuis",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 50,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/bureaulamp-enkel-led-bureaulampje-dimbaar/9300000306126783/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 27,49, verkoper Stane.nl, levertekst 'Voor 14:30 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Productpagina is tegenstrijdig over draadloos opladen, dat daarom niet vermeld is.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "stanley-cafe-to-go-travel-mug-rose-quartz-230-ml",
+    "title": "Stanley Café-To-Go Travel Mug 230 ml Rose Quartz",
+    "merchantTitle": "Stanley The Café-To-Go Travel Mug - 8oz drinkbeker Rose Quartz 230ML",
+    "brand": "Stanley",
+    "ean": "1210001965065",
+    "short": "Een kleine geïsoleerde RVS-koffiebeker van 230 ml in roze.",
+    "description": "De beker is dubbelwandig, lekvrij en vaatwasserbestendig. Hij houdt drinken ongeveer drie uur warm. Voor Stanley geldt een levenslange fabrieksgarantie. Een leuk cadeau voor een koffiedrinker onderweg naar het werk.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/stanley-the-cafe-to-go-travel-mug-23l-8oz-drinkbeker-rose-quartz-230ml/9300000233593372/",
+    "priceCents": 2799,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 1,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/stanley-the-cafe-to-go-travel-mug-23l-8oz-drinkbeker-rose-quartz-230ml/9300000233593372/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 27,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Slechts 1 review.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "dopper-travel-mug-thermosbeker-300-ml-blazing-black",
+    "title": "Dopper Travel Mug thermosbeker 300 ml zwart",
+    "merchantTitle": "Dopper Travel Mug Thermosbeker - 300 ml - Blazing Black",
+    "brand": "Dopper",
+    "ean": "8718469128860",
+    "short": "Een geïsoleerde thermosbeker van gerecycled RVS met flipdop, 300 ml.",
+    "description": "De beker is dubbelwandig geïsoleerd en volgens de fabrikant lekdicht. Houdt drank tot zo'n 6 uur warm of 20 uur koud. Er zit 5 jaar fabrieksgarantie op.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/dopper-travel-mug-thermosbeker-300-ml-blazing-black/9300000248618566/",
+    "priceCents": 2695,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4,
+      "count": 26,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/dopper-travel-mug-thermosbeker-300-ml-blazing-black/9300000248618566/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 26,95, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "villux-laptopstandaard-ergonomisch-verstelbaar-met-muismat",
+    "title": "Villux laptopstandaard verstelbaar met muismat",
+    "merchantTitle": "Villux Laptop Standaard Ergonomisch - Laptop Standaard Verstelbaar - Laptophouder - Laptop Verhoger - Opvouwbaar - Inclusief Ebook - Inclusief Muismat",
+    "brand": "Villux",
+    "ean": "8720589036550",
+    "short": "Een verstelbare laptopstandaard met documenthouder, geleverd met een muismat.",
+    "description": "De standaard past voor schermen van 6 tot 17 inch en is in hoogte en diepte verstelbaar. Er zit een documenthouder op en een muismat bij. Handig voor thuiswerkers.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/villux-laptop-standaard-ergonomisch-laptop-standaard-verstelbaar-laptophouder-laptopstandaard-laptop-verhoger-laptop-standaard-opvouwbaar-inclusief-ebook-inclusief-muismat/9300000231441268/",
+    "priceCents": 2995,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 102,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/villux-laptop-standaard-ergonomisch-laptop-standaard-verstelbaar-laptophouder-laptopstandaard-laptop-verhoger-laptop-standaard-opvouwbaar-inclusief-ebook-inclusief-muismat/9300000231441268/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 29,95, verkoper ISCE (NL), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Kleur donkergrijs; zwart niet leverbaar. Geen fabrieksgarantie vermeld.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "rolio-laptopstandaard-360-draaibaar-aluminium",
+    "title": "Rolio laptopstandaard 360 graden draaibaar",
+    "merchantTitle": "Rolio Laptop Standaard - 360 Draaibaar - Inklapbaar - Verstelbaar - Universeel - Ergonomische Laptop Houder",
+    "brand": "Rolio",
+    "ean": "8720938929663",
+    "short": "Een aluminium laptopstandaard met draaibare voet, verstelbaar in hoogte en diepte.",
+    "description": "De standaard is van aluminium, past voor schermen van 10 tot 17 inch en is inklapbaar. De voet draait 360 graden en de kanteling gaat tot 60 graden. Een stevig cadeau voor een thuiswerker. Er geldt 2 jaar garantie.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/rolio-laptop-standaard-360-draaibaar-inklapbaar-verstelbaar-universeel-ergonomische-laptop-houder/9300000226692593/",
+    "priceCents": 3795,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 116,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/rolio-laptop-standaard-360-draaibaar-inklapbaar-verstelbaar-universeel-ergonomische-laptop-houder/9300000226692593/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 37,95, verkoper Rolio.nl (NL), levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "cozysense-voetensteun-bureau-zwart",
+    "title": "CozySense voetensteun voor onder het bureau",
+    "merchantTitle": "CozySense Voetensteun Bureau - Ergonomische Voetenbankje - Geschikt voor Thuis of Kantoor - Voetenkussen - 2 Verstelbare Hoogtes - Anti-Slip - Hoes met Massage-functie - Wasbaar - Zwart",
+    "brand": "CozySense",
+    "ean": "8719326659237",
+    "short": "Een gestoffeerde voetensteun met twee hoogtes en een wasbare hoes.",
+    "description": "De steun is 44 bij 26 cm, 15 cm hoog en heeft een antislip onderkant en een gestoffeerde hoes met noppen. Hij weegt 850 gram. Een comfortabel cadeau voor wie lang aan een bureau zit.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/cozysense-voetensteun-voetensteun-bureau-geschikt-voor-thuis-of-kantoor-voetenkussen-voetenbankje-bureau-2-verstelbare-hoogtes-ergonomisch-anti-slip-hoes-met-massage-functie-wasbaar-zwart/9300000013481684/",
+    "priceCents": 3499,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "thuis",
+      "wellness"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 131,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/cozysense-voetensteun-voetensteun-bureau-geschikt-voor-thuis-of-kantoor-voetenkussen-voetenbankje-bureau-2-verstelbare-hoogtes-ergonomisch-anti-slip-hoes-met-massage-functie-wasbaar-zwart/9300000013481684/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 34,99, verkoper LifeGoods Group (NL), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Gezondheidsclaims van de verkoper niet overgenomen.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "auronic-bureaulamp-verstelbaar-led-dimbaar-zwart",
+    "title": "Auronic LED-bureaulamp verstelbaar, dimbaar",
+    "merchantTitle": "Auronic Bureaulamp - Verstelbaar - Puzzellamp - LED - Dimbare Klemlamp - USB Oplader - Wit en Warm Licht - Zwart",
+    "brand": "Auronic",
+    "ean": "8720195254386",
+    "short": "Een zwarte bureaulamp met buigbare hals, vijf lichtkleuren en een USB-poort.",
+    "description": "De lamp heeft een flexibele nek van ongeveer 66 cm hoog, zeven helderheidsstanden via touch en een USB-poort. Hij werkt op netstroom en heeft 2 jaar fabrieksgarantie. Een bruikbare lamp voor een bureau of studeerhoek.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lifegoods-bureaulamp-verstelbaar-led-dimbaar-usb-aansluiting-wit-en-warm-licht-zwart/9200000128258233/",
+    "priceCents": 3399,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "thuis",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lifegoods-bureaulamp-verstelbaar-led-dimbaar-usb-aansluiting-wit-en-warm-licht-zwart/9200000128258233/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 60,
+      "commissionPct": null,
+      "notes": "Prijs € 33,99, verkoper LifeGoods Group (NL), levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Pagina toont 4,7 uit 344 reviews, maar die horen mogelijk bij de hele serie, daarom rating leeg. Pagina is tegenstrijdig over klem en draadloos laden.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "grandlux-theedoos-12-vaks-bamboe",
+    "title": "GrandLux theedoos 12 vaks, bamboe",
+    "merchantTitle": "GrandLux Theedoos 12 Vaks - Thee Organizer met 3 Lagen - 100% Bamboe - Theeblik - Capsulehouder - Theezakjeshouder - Theebox - Geschikt voor Clipper, Pukka & Twinings",
+    "brand": "GrandLux",
+    "ean": "8720648321597",
+    "short": "Een bamboe theedoos met 12 vakken verdeeld over drie lagen.",
+    "description": "In de doos passen theezakjes van meerdere merken, verdeeld over twaalf vakken. Het hout is FSC-gecertificeerd. Een nette cadeaukeuze voor een collega die graag thee drinkt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/grandlux-theedoos-12-vaks-ruime-vakken-100-bamboe-capsulehouder-theekist-theebox-theeblik-thee-doos-thee-organizer/9300000272813123/",
+    "priceCents": 2995,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/grandlux-theedoos-12-vaks-ruime-vakken-100-bamboe-capsulehouder-theekist-theebox-theeblik-thee-doos-thee-organizer/9300000272813123/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 29,95, verkoper Qualiz Brands (NL), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Reviewscore 4,5 (189) op de pagina hoort volgens de pagina bij een andere GrandLux-aanbieding, daarom rating leeg.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "logitech-mx-master-3se-draadloze-muis-bluetooth",
+    "title": "Logitech MX Master 3SE draadloze muis (Bluetooth)",
+    "merchantTitle": "Logitech MX Master 3SE - Draadloze Muis - Bluetooth - Zonder Logi Bolt USB-ontvanger - Grijs",
+    "brand": "Logitech",
+    "ean": "5099206129382",
+    "short": "Een ergonomische Bluetooth-muis met duimsteun en stille klikken.",
+    "description": "De muis heeft zeven knoppen, een instelbare sensor tot 8000 dpi en een oplaadbare batterij. Er zit geen Logi Bolt-ontvanger bij, dus hij werkt alleen via Bluetooth. Een premium cadeau voor een collega of thuiswerker die veel met een muis werkt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/logitech-mx-master-3se-draadloze-muis-graphite-windows-linux-chrome/9300000239090168/",
+    "priceCents": 7290,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.3,
+      "count": 22,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/logitech-mx-master-3se-draadloze-muis-graphite-windows-linux-chrome/9300000239090168/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 72,90 (adviesprijs € 129,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Alleen Bluetooth, geen USB-ontvanger.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "philips-senseo-vibe-csa225-50-lichtgrijs",
+    "title": "Philips Senseo Vibe koffiepadmachine lichtgrijs",
+    "merchantTitle": "Philips Senseo Vibe Koffiepadmachine CSA225/50 - Compact - Keuze uit 1 of 2 Kopjes - Instelbare Intensiteit - Automatische Uitschakeling - Lichtgrijs",
+    "brand": "Philips",
+    "ean": "8720389078330",
+    "short": "Een compacte Senseo-padmachine met instelbare sterkte en uitschakelfunctie.",
+    "description": "De machine zet één of twee kopjes tegelijk en heeft een afneembaar reservoir van 0,9 liter. Je kunt de hoeveelheid en sterkte instellen en hij schakelt zichzelf uit. Een gebruiksvriendelijk cadeau voor een thuiswerker.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/philips-senseo-vibe-koffiepadmachine-csa225-50-compact-keuze-uit-1-of-2-kopjes-instelbare-intensiteit-automatische-uitschakeling-lichtgrijs/9300000331612305/",
+    "priceCents": 7900,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "thuiswerker",
+      "partner",
+      "collega"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "koken",
+      "eten-drinken",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 117,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/philips-senseo-vibe-koffiepadmachine-csa225-50-compact-keuze-uit-1-of-2-kopjes-instelbare-intensiteit-automatische-uitschakeling-lichtgrijs/9300000331612305/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 79,00 (adviesprijs € 89,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Cashbackactie op de pagina niet meegerekend.",
+      "verified": true
+    }
   }
 ]

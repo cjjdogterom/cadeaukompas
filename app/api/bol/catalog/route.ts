@@ -12,7 +12,10 @@ export const maxDuration = 60;
 export async function GET(request: NextRequest) {
   const offset = Math.max(0, Number(request.nextUrl.searchParams.get("offset") ?? 0));
   const limit = Math.min(50, Math.max(1, Number(request.nextUrl.searchParams.get("limit") ?? 40)));
-  const all = (await getProducts()).filter((p) => p.merchant === "bol").sort((a, b) => a.slug.localeCompare(b.slug));
+  const missing = request.nextUrl.searchParams.get("missing") === "1"; // alleen producten zonder foto
+  const all = (await getProducts())
+    .filter((p) => p.merchant === "bol" && (!missing || !p.imageUrl))
+    .sort((a, b) => a.slug.localeCompare(b.slug));
   const items = [];
   for (const p of all.slice(offset, offset + limit)) {
     const id = bolProductIdFromUrl(p.merchantUrl);
