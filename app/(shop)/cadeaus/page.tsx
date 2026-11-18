@@ -44,6 +44,12 @@ async function Results({ searchParams }: { searchParams: Promise<SP> }) {
     : matching;
   return (
     <>
+      {filters.voor && (
+        <p className="mt-6 font-display text-2xl font-bold text-ink">
+          Cadeaus voor: {RECIPIENTS[filters.voor]}
+          {filters.leeftijd ? `, ${AGE_GROUPS[filters.leeftijd]}` : ""}
+        </p>
+      )}
       <div className="mt-6">
         <FilterBar current={filters} today={today} />
       </div>

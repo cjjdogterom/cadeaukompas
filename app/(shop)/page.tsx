@@ -95,27 +95,47 @@ function Kaart({ item, tomorrow, sizes, className = "" }: { item: Item; tomorrow
 
 /* ---------- Secties ---------- */
 
+const WIE_ICOON: Record<string, { kleur: string; pad: React.ReactNode }> = {
+  partner: { kleur: "#f6dcd7", pad: <path d="M12 20s-7-4.4-7-9.5A3.9 3.9 0 0 1 12 8a3.9 3.9 0 0 1 7 2.5C19 15.6 12 20 12 20Z" /> },
+  moeder: { kleur: "#f3e2ee", pad: <><circle cx="12" cy="9" r="2.2" /><path d="M12 4.5v2.3M12 11.2v2.3M7.6 9h2.2M14.2 9h2.2M8.9 5.9l1.5 1.5M13.6 10.6l1.5 1.5M15.1 5.9l-1.5 1.5M10.4 10.6l-1.5 1.5M12 13.5V20M12 17c-1.5-1.6-3-1.8-4-1.4M12 18.5c1.5-1.6 3-1.8 4-1.4" /></> },
+  vader: { kleur: "#dfe9f2", pad: <path d="M10 4h4l-1 3 2.5 9L12 20l-3.5-4L11 7l-1-3Z" /> },
+  collega: { kleur: "#f4ead2", pad: <><path d="M6 8h10v6a4 4 0 0 1-4 4h-2a4 4 0 0 1-4-4V8Z" /><path d="M16 10h1.5a2 2 0 0 1 0 4H16M8 4.5v1.5M11 4v2M14 4.5v1.5" /></> },
+  tiener: { kleur: "#e3e0f3", pad: <><path d="M5 14v-2a7 7 0 0 1 14 0v2" /><rect x="4" y="13" width="4" height="6" rx="1.5" /><rect x="16" y="13" width="4" height="6" rx="1.5" /></> },
+  kind: { kleur: "#fbe6c8", pad: <><circle cx="12" cy="13" r="5.5" /><circle cx="7.5" cy="7.5" r="2" /><circle cx="16.5" cy="7.5" r="2" /><path d="M10 12.5h.01M14 12.5h.01M10.5 15.5c1 .8 2 .8 3 0" /></> },
+  vriend: { kleur: "#dcefe6", pad: <><circle cx="9" cy="9" r="3" /><circle cx="16.5" cy="10" r="2.4" /><path d="M3.5 19c.5-3 2.700-4.5 5.5-4.5s5 1.5 5.5 4.5M15 15c2.5-.3 4.800 1 5.5 3.800" /></> },
+  "opa-oma": { kleur: "#eee6da", pad: <><circle cx="8" cy="13" r="3" /><circle cx="16" cy="13" r="3" /><path d="M11 13h2M5 13 3.5 9M19 13l1.5-4" /></> },
+  thuiswerker: { kleur: "#dceaf0", pad: <><rect x="5" y="6" width="14" height="9" rx="1.5" /><path d="M3 18.5h18M10 18.5l.5-3.5M14 18.5l-.5-3.5" /></> },
+};
+
+/** Grote, duidelijke keuze: voor wie zoek je een cadeau? */
 function VoorWie({ data }: { data: LandingData }) {
   return (
-    <section aria-labelledby="s3-voorwie" className="border-b border-[#efe9df] bg-white">
-      <div className={`${WRAP} flex items-center gap-4 py-3 max-lg:pr-0`}>
-        <h2 id="s3-voorwie" className={`${KOP} shrink-0 text-lg font-bold`}>
-          Voor wie?
-        </h2>
-        <ul className="flex min-w-0 gap-2 overflow-x-auto py-1 max-lg:pr-4 lg:flex-wrap">
-          {data.recipients.map((r) => (
-            <li key={r.key} className="shrink-0">
+    <section aria-labelledby="s3-voorwie" className={`${WRAP} pt-10 sm:pt-14`}>
+      <h2 id="s3-voorwie" className={H2}>
+        Voor wie zoek je een cadeau?
+      </h2>
+      <p className="mt-2 text-[17px] text-[#443d35]">Kies een persoon en je ziet alleen cadeaus die daarbij passen.</p>
+      <ul className="mt-5 grid grid-cols-3 gap-3 sm:grid-cols-5 lg:grid-cols-9">
+        {data.recipients.map((r) => {
+          const icoon = WIE_ICOON[r.key];
+          return (
+            <li key={r.key}>
               <Link
                 href={r.href}
-                className="flex min-h-11 items-center gap-2 rounded-2xl border border-[#ddd5c7] bg-[#faf7f2] px-3.5 text-[15px] font-semibold whitespace-nowrap transition-colors hover:border-[#2b2622] hover:bg-white"
+                className="group flex h-full flex-col items-center gap-2 rounded-2xl border border-[#ebe4d8] bg-white px-2 py-4 text-center transition-colors hover:border-[#2f6f55] hover:bg-[#eef4ef]"
               >
-                {r.label}
-                <span className="text-[15px] font-medium text-[#5f574d]">{r.count}</span>
+                <span className="grid h-16 w-16 place-items-center rounded-full" style={{ background: icoon?.kleur ?? "#f3eee5" }}>
+                  <svg viewBox="0 0 24 24" className="h-9 w-9" fill="none" stroke="#2b2622" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    {icoon?.pad}
+                  </svg>
+                </span>
+                <span className="text-base leading-tight font-bold">{r.label}</span>
+                <span className="text-[15px] text-[#5f574d]">{r.count} cadeaus</span>
               </Link>
             </li>
-          ))}
-        </ul>
-      </div>
+          );
+        })}
+      </ul>
     </section>
   );
 }
@@ -471,8 +491,8 @@ async function Inhoud() {
   const data = await getLandingData();
   return (
     <>
-      <VoorWie data={data} />
       <Hero data={data} />
+      <VoorWie data={data} />
       <Populair data={data} />
       <Usps />
       <Rijen data={data} />
