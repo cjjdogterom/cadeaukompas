@@ -32,13 +32,13 @@ export function ProductCard({ product, delivery }: { product: Product; delivery?
             {formatPrice(product.priceCents)} <span className="text-sm font-normal text-muted">bij {merchant}</span>
           </p>
           {delivery ? (
-            <p className="mt-1 text-[13px] text-pine">
+            <p className="mt-1 text-[15px] text-pine">
               {delivery.source === "bol" ? "Nu besteld, uiterlijk in huis" : "Nu besteld, verwacht uiterlijk"}{" "}
               <span className="font-semibold">{formatDate(delivery.latest, true)}</span>
               {delivery.source === "bol" && <span className="text-muted"> · volgens bol</span>}
             </p>
           ) : (
-            <p className="mt-1 text-[13px] text-pine">
+            <p className="mt-1 text-[15px] text-pine">
               Op tijd voor {deadline.label}: bestel t/m {formatDate(deadline.date, true)}
             </p>
           )}

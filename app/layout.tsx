@@ -1,10 +1,11 @@
 import type { Metadata, Viewport } from "next";
-import { Archivo, Hanken_Grotesk } from "next/font/google";
+import { Atkinson_Hyperlegible, Nunito } from "next/font/google";
 import { site } from "@/lib/site";
 import "./globals.css";
 
-const archivo = Archivo({ variable: "--font-kop", subsets: ["latin"], axes: ["wdth"], display: "swap" });
-const hanken = Hanken_Grotesk({ variable: "--font-tekst", subsets: ["latin"], display: "swap" });
+const nunito = Nunito({ variable: "--font-kop", subsets: ["latin"], display: "swap" });
+// Atkinson Hyperlegible is ontworpen voor leesbaarheid, ook voor slechtzienden.
+const atkinson = Atkinson_Hyperlegible({ variable: "--font-tekst", subsets: ["latin"], weight: ["400", "700"], display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -16,11 +17,11 @@ export const metadata: Metadata = {
   verification: process.env.GOOGLE_SITE_VERIFICATION ? { google: process.env.GOOGLE_SITE_VERIFICATION } : undefined,
 };
 
-export const viewport: Viewport = { themeColor: "#d0262d" };
+export const viewport: Viewport = { themeColor: "#ffffff" };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="nl" className={`${archivo.variable} ${hanken.variable} antialiased`}>
+    <html lang="nl" className={`${nunito.variable} ${atkinson.variable} antialiased`}>
       <body className="flex min-h-dvh flex-col">
         <a href="#inhoud" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:bg-ink focus:px-4 focus:py-2 focus:text-paper">
           Naar inhoud

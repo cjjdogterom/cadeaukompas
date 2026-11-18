@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-paper: #f5f5f2;
-  --color-cream: #ebeae4;
-  --color-ink: #15130f;
-  --color-muted: #5c5a54;
-  --color-line: #dddcd5;
-  --color-sint: #d0262d;
-  --color-sint-dark: #a81d23;
-  --color-pine: #12704a;
+  --color-paper: #faf7f2;
+  --color-cream: #f3eee5;
+  --color-ink: #2b2622;
+  --color-muted: #5f574d;
+  --color-line: #ebe4d8;
+  --color-sint: #b8433f;
+  --color-sint-dark: #9c3531;
+  --color-pine: #2f6f55;
   --color-gold: #b9862a;
 
   --font-display: var(--font-kop), system-ui, sans-serif;
@@ -23,15 +23,22 @@ html {
 
 body {
   font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.6;
 }
 
-/* Koppen in Archivo, iets smaller gezet en vet. */
-.font-display {
-  font-stretch: 86%;
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 :focus-visible {
-  outline: 3px solid var(--color-gold);
+  outline: 3px solid var(--color-pine);
   outline-offset: 2px;
   border-radius: 4px;
 }
