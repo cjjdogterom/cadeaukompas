@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-18T19:15:00+01:00",
+  "updatedAt": "2026-11-18T19:45:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "bezig",
-      "currentTask": "Agent-ronde 19:15: 3 product-scouts en seo-content",
-      "lastRunAt": "2026-11-18T18:24:00+01:00",
-      "lastResult": "Ronde 17:15: +54 cadeaus actief (686), 3 nieuwe gidsen (sport, koken, thuiswerker €50–100), rest compliance-fixes productpagina live",
+      "status": "gepland",
+      "currentTask": "Volgende agent-ronde",
+      "lastRunAt": "2026-11-18T19:45:00+01:00",
+      "lastResult": "Ronde 19:15: +82 cadeaus actief (768), 3 nieuwe gidsen (muziek, fijnproevers, jongens 8–12); 44 cadeaus voor vrouwen/moeder/oma op concept omdat de verkoper niet vaststaat",
       "nextRun": "Elk uur 08–22",
       "blockedBy": null
     },
     "product-scout": {
-      "status": "bezig",
-      "currentTask": "3 scouts: vrouwen/moeder/oma (creatief, muziek, sport, lezen, tech); jongens en vaders (gereedschap, gamen, sport, koken); tieners en thuiswerker/collega",
-      "lastRunAt": "2026-11-18T18:24:00+01:00",
-      "lastResult": "3 scouts: 64 nieuwe bol-cadeaus aangeleverd (35 vrouwen/moeder/oma koken, eten-drinken, sport; 21 vaders, collega, thuiswerker; 8 jongens 4–12). Jongens, kinderboeken en voetbal blijven dun: veel bol-pagina’s zonder zichtbare prijs",
+      "status": "gepland",
+      "currentTask": "Volgende ronde: vrouwen/moeder/oma opnieuw mét verkoper op de productpagina (44 concepten van 19:15 nalopen)",
+      "lastRunAt": "2026-11-18T19:45:00+01:00",
+      "lastResult": "3 scouts: 134 bol-cadeaus aangeleverd (45 jongens/vaders, 45 tieners/thuiswerker/collega, 44 vrouwen/moeder/oma). De 44 voor vrouwen komen van zoekpagina’s zonder vastgestelde verkoper en blijven op concept",
       "nextRun": "Elke agent-ronde (elk uur)",
       "blockedBy": null
     },
@@ -28,8 +28,8 @@
     "catalogus": {
       "status": "gepland",
       "currentTask": "Alle prijzen dagelijks verversen via bol-API (48-uurregel); eerste ronde van 19-11 volledige verversing",
-      "lastRunAt": "2026-11-18T18:24:00+01:00",
-      "lastResult": "54 nieuwe cadeaus actief met foto, EAN en actuele prijs uit de bol-API (3 prijzen bijgewerkt, 0 gepauzeerd); 10 niet geïmporteerd (score onder 60, waarvan 1 door onduidelijke verkoper). 686 actief",
+      "lastRunAt": "2026-11-18T19:45:00+01:00",
+      "lastResult": "82 nieuwe cadeaus actief met foto, EAN en actuele prijs uit de bol-API (0 gepauzeerd); 6 niet geïmporteerd (score onder 60), 45 op concept (44 zonder vastgestelde verkoper, 2 met twijfel over inhoud of variant, 1 dubbel). 768 actief",
       "nextRun": "Elke agent-ronde",
       "blockedBy": null
     },
@@ -50,10 +50,10 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "bezig",
-      "currentTask": "Gidsen muziek, eten en drinken en jongens 8–12 schrijven",
-      "lastRunAt": "2026-11-18T18:24:00+01:00",
-      "lastResult": "Gidsen ‘sportcadeau voor volwassenen’, ‘cadeau voor wie graag kookt’ en ‘thuiswerker €50–100’ toegevoegd en gekoppeld in 6 bestaande gidsen",
+      "status": "gepland",
+      "currentTask": "Gidsen voor dunne zoekwoorden (creatief, lezen, tieners sport)",
+      "lastRunAt": "2026-11-18T19:45:00+01:00",
+      "lastResult": "Gidsen ‘muziekcadeau’, ‘cadeau voor fijnproevers’ en ‘Sinterklaascadeau jongens 8–12’ toegevoegd en gekoppeld in 7 bestaande gidsen",
       "nextRun": "Volgende ronde",
       "blockedBy": null
     },
