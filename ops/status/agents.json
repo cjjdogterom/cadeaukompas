@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-18T17:15:00+01:00",
+  "updatedAt": "2026-11-18T18:24:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "bezig",
-      "currentTask": "Agent-ronde 17:15: 2 product-scouts, seo-content en developer",
-      "lastRunAt": "2026-11-18T16:50:00+01:00",
-      "lastResult": "Ronde 16:05: +52 cadeaus actief (632), 3 nieuwe gidsen, compliance-fixes live (prijslabel met datum, Uitgelicht, Morgen in huis, seizoensbalk)",
+      "status": "gepland",
+      "currentTask": "Volgende agent-ronde",
+      "lastRunAt": "2026-11-18T18:24:00+01:00",
+      "lastResult": "Ronde 17:15: +54 cadeaus actief (686), 3 nieuwe gidsen (sport, koken, thuiswerker €50–100), rest compliance-fixes productpagina live",
       "nextRun": "Elk uur 08–22",
       "blockedBy": null
     },
     "product-scout": {
-      "status": "bezig",
-      "currentTask": "2 scouts: vrouwen/moeder/oma (koken, eten-drinken, sport, wellness, ook €50–100); jongens 4–12 en vaders (sport, koken/bbq, gamen, muziek) plus collega/thuiswerker",
-      "lastRunAt": "2026-11-18T16:50:00+01:00",
-      "lastResult": "2 scouts: 68 nieuwe bol-cadeaus aangeleverd (tieners/gamen/tech/thuiswerk; vader-gereedschap en moeder/oma, 29 stuks €50–100)",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-18T18:24:00+01:00",
+      "lastResult": "3 scouts: 64 nieuwe bol-cadeaus aangeleverd (35 vrouwen/moeder/oma koken, eten-drinken, sport; 21 vaders, collega, thuiswerker; 8 jongens 4–12). Jongens, kinderboeken en voetbal blijven dun: veel bol-pagina’s zonder zichtbare prijs",
       "nextRun": "Elke agent-ronde (elk uur)",
       "blockedBy": null
     },
@@ -28,16 +28,16 @@
     "catalogus": {
       "status": "gepland",
       "currentTask": "Alle prijzen dagelijks verversen via bol-API (48-uurregel); eerste ronde van 19-11 volledige verversing",
-      "lastRunAt": "2026-11-18T16:50:00+01:00",
-      "lastResult": "52 nieuwe cadeaus actief met foto, EAN en actuele prijs uit de bol-API; 16 niet geïmporteerd (score onder 60, waarvan 3 door onduidelijke verkoper). 632 actief",
+      "lastRunAt": "2026-11-18T18:24:00+01:00",
+      "lastResult": "54 nieuwe cadeaus actief met foto, EAN en actuele prijs uit de bol-API (3 prijzen bijgewerkt, 0 gepauzeerd); 10 niet geïmporteerd (score onder 60, waarvan 1 door onduidelijke verkoper). 686 actief",
       "nextRun": "Elke agent-ronde",
       "blockedBy": null
     },
     "developer": {
-      "status": "bezig",
-      "currentTask": "Rest compliance-fixes: bol-bezorgdatum en 48-uurregel op productpagina (ook JSON-LD), budgetfilters bij verlopen prijs, dag-salt en opschoning bezoekteller",
-      "lastRunAt": "2026-11-18T16:50:00+01:00",
-      "lastResult": "Compliance-fixes live: prijslabel \"indicatief, gecontroleerd <datum>\" en 48-uurregel op kaarten, \"Uitgelicht\", \"Morgen in huis\" alleen als het klopt, seizoensbalk zonder verstreken Sint-datum; 32 tests groen",
+      "status": "gepland",
+      "currentTask": "Optioneel: bol-bezorgdata op gidskaarten; dagelijkse prijsverversing zodra Vercel Pro er is",
+      "lastRunAt": "2026-11-18T18:24:00+01:00",
+      "lastResult": "Productpagina toont bol-bezorgdatum of duidelijke indicatie; 48-uurregel ook op productpagina en in JSON-LD; uitleg bij budgetfilters; bezoekteller met dag-salt en 12 maanden bewaartermijn (migratie 0003). 46 tests groen",
       "nextRun": "Volgende ronde",
       "blockedBy": null
     },
@@ -50,10 +50,10 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "bezig",
-      "currentTask": "Gidsen voor sport, koken en thuiswerker €50–100",
-      "lastRunAt": "2026-11-18T16:50:00+01:00",
-      "lastResult": "Gidsen klussende vader/gereedschap, gamende tiener 13–17 en puzzel/spel voor oma en opa toegevoegd en gekoppeld in related",
+      "status": "gepland",
+      "currentTask": "Gidsen voor dunne zoekwoorden (muziek, eten en drinken, jongens 8–12)",
+      "lastRunAt": "2026-11-18T18:24:00+01:00",
+      "lastResult": "Gidsen ‘sportcadeau voor volwassenen’, ‘cadeau voor wie graag kookt’ en ‘thuiswerker €50–100’ toegevoegd en gekoppeld in 6 bestaande gidsen",
       "nextRun": "Volgende ronde",
       "blockedBy": null
     },
