@@ -3,5 +3,5 @@ import { site } from "@/lib/site";
 
 export default function robots(): MetadataRoute.Robots {
   if (!site.indexable) return { rules: { userAgent: "*", disallow: "/" } };
-  return { rules: { userAgent: "*", allow: "/", disallow: ["/uit/", "/admin", "/ontwerp"] }, sitemap: `${site.url}/sitemap.xml` };
+  return { rules: { userAgent: "*", allow: "/", disallow: ["/uit/", "/admin"] }, sitemap: `${site.url}/sitemap.xml` };
 }

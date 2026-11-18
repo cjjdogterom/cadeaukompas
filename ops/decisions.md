@@ -31,3 +31,4 @@ Formaat: datum · beslissing · reden · eigenaar-akkoord (ja / nee / n.v.t. = v
 | 2026-11-17 | Juridische teksten en cookiebanner definitief (concept-banner weg, datums ingevuld, adres Oude Delft 35, Delft) | Akkoord eigenaar | ja (17-11, in chat) |
 | 2026-11-17 | Site vindbaar in zoekmachines (NEXT_PUBLIC_INDEXABLE=true) | Livegang | ja (17-11, in chat) |
 | 2026-11-18 | Aangemeld bij 14 Awin-programma's incl. akkoord programmavoorwaarden | Meer winkels, meer commissie | ja (18-11, in chat: "Ja, alle 14") |
+| 2026-11-18 | Homepage = webshop-ontwerp 3 "Snel en duidelijk"; kleuren en letters site-breed aangepast | Keuze eigenaar uit 3 ontwerpen | ja (18-11, in chat) |
