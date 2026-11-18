@@ -317,3 +317,59 @@ export async function getPrompts(): Promise<PromptGroup[]> {
     .map((g) => ({ ...g, prompts: g.prompts.filter((p) => p.text) }))
     .filter((g) => g.prompts.length);
 }
+
+// ---------- Bezoekers ----------
+
+export type Visits =
+  | { connected: false }
+  | {
+      connected: true;
+      today: { views: number; visitors: number };
+      days: { day: string; views: number; visitors: number }[];
+      topPages: { path: string; views: number }[];
+      topRefs: { host: string; views: number }[];
+      mobileShare: number;
+      lastVisit: string | null;
+    };
+
+/** Bezoeken van de laatste 14 dagen uit Supabase (zonder eigen bezoeken van de eigenaar en zonder bots). */
+export async function getVisits(): Promise<Visits> {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (!url || !key) return { connected: false };
+  const { createClient } = await import("@supabase/supabase-js");
+  const since = new Date(Date.now() - 14 * 86_400_000).toISOString().slice(0, 10);
+  const { data, error } = await createClient(url, key, { auth: { persistSession: false } })
+    .from("page_views")
+    .select("ts, day, path, ref_host, visitor, device")
+    .gte("day", since)
+    .order("ts", { ascending: false })
+    .limit(20000);
+  if (error || !data) return { connected: false };
+  const rows = data as { ts: string; day: string; path: string; ref_host: string | null; visitor: string; device: string | null }[];
+  const byDay = new Map<string, { views: number; visitors: Set<string> }>();
+  const pages = new Map<string, number>();
+  const refs = new Map<string, number>();
+  let mobile = 0;
+  for (const r of rows) {
+    const d = byDay.get(r.day) ?? { views: 0, visitors: new Set<string>() };
+    d.views++;
+    d.visitors.add(r.visitor);
+    byDay.set(r.day, d);
+    pages.set(r.path, (pages.get(r.path) ?? 0) + 1);
+    refs.set(r.ref_host ?? "direct of onbekend", (refs.get(r.ref_host ?? "direct of onbekend") ?? 0) + 1);
+    if (r.device === "mobiel") mobile++;
+  }
+  const todayKey = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Amsterdam" }).format(new Date());
+  const top = (m: Map<string, number>, n: number) => [...m.entries()].sort((a, b) => b[1] - a[1]).slice(0, n);
+  const t = byDay.get(todayKey);
+  return {
+    connected: true,
+    today: { views: t?.views ?? 0, visitors: t?.visitors.size ?? 0 },
+    days: [...byDay.entries()].sort((a, b) => b[0].localeCompare(a[0])).map(([day, v]) => ({ day, views: v.views, visitors: v.visitors.size })),
+    topPages: top(pages, 8).map(([path, views]) => ({ path, views })),
+    topRefs: top(refs, 6).map(([host, views]) => ({ host, views })),
+    mobileShare: rows.length ? mobile / rows.length : 0,
+    lastVisit: rows[0]?.ts ?? null,
+  };
+}

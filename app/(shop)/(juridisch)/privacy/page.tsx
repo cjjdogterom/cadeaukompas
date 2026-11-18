@@ -18,6 +18,7 @@ export default function Page() {
       <ul>
         <li><strong>Bezoek zonder toestemming voor cookies:</strong> geen analytics- of marketingcookies. Wel technisch noodzakelijke gegevens (zoals IP-adres in serverlogs van onze hostingpartij) voor beveiliging en werking. Grondslag: gerechtvaardigd belang. Bewaartermijn: maximaal 30 dagen.</li>
         <li><strong>Klik op een winkel-link:</strong> we registreren welk product en welke winkel, zonder naam, e-mail of IP-adres, om commissie te kunnen controleren. De winkel/het affiliatenetwerk kan zelf cookies plaatsen; zie hun privacyverklaring.</li>
+        <li><strong>Bezoekstatistiek zonder cookies:</strong> we tellen welke pagina&rsquo;s bekeken worden en vanaf welke website je komt. We slaan daarbij geen IP-adres en geen cookie op; om unieke bezoekers per dag te tellen gebruiken we een code die elke dag wisselt en niet naar jou te herleiden is. Grondslag: gerechtvaardigd belang. Bewaartermijn: 12 maanden.</li>
         <li><strong>Contact:</strong> wat je ons stuurt, om je vraag te beantwoorden. Bewaartermijn: 1 jaar na afhandeling.</li>
         <li><strong>Analytics en advertenties (alleen met toestemming):</strong> Google Analytics 4, Meta Pixel, Pinterest Tag. Doel: meten en verbeteren van de site en advertenties. Grondslag: toestemming, die je altijd kunt intrekken via de cookie-instellingen.</li>
       </ul>

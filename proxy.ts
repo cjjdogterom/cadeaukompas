@@ -18,6 +18,8 @@ export function proxy(request: NextRequest) {
     if (given === password) {
       const res = NextResponse.next();
       res.headers.set("X-Robots-Tag", "noindex, nofollow");
+      // Markeer deze browser als die van de eigenaar, zodat eigen bezoeken niet meetellen in de statistieken.
+      res.cookies.set("ck-eigenaar", "1", { maxAge: 60 * 60 * 24 * 365, httpOnly: true, sameSite: "lax", secure: true, path: "/" });
       return res;
     }
   }

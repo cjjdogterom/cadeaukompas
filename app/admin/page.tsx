@@ -12,6 +12,7 @@ import {
   getOwnerTodos,
   getPrompts,
   getQuestions,
+  getVisits,
   type Activity,
   type Agent,
   type AgentStatus,
@@ -61,7 +62,7 @@ async function Dashboard({ searchParams }: { searchParams: PageProps<"/admin">["
   const agentFilter = typeof sp.agent === "string" ? sp.agent : undefined;
   const today = todayInNL();
 
-  const [{ agents, updatedAt }, activity, finance, todos, questions, approvals, daily, catalog, prompts] = await Promise.all([
+  const [{ agents, updatedAt }, activity, finance, todos, questions, approvals, daily, catalog, prompts, visits] = await Promise.all([
     getAgents(),
     getActivity(),
     getFinance(),
@@ -71,6 +72,7 @@ async function Dashboard({ searchParams }: { searchParams: PageProps<"/admin">["
     getLatestDaily(),
     getCatalogStats(),
     getPrompts(),
+    getVisits(),
   ]);
 
   const t = finance.totals;
@@ -127,6 +129,71 @@ async function Dashboard({ searchParams }: { searchParams: PageProps<"/admin">["
           />
         </dl>
         <p className="mt-2 text-xs text-muted">Bron: {finance.source}</p>
+      </section>
+
+      {/* Bezoekers */}
+      <section aria-labelledby="bezoekers" className="mt-10">
+        <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 id="bezoekers" className="font-display text-2xl font-semibold text-ink">Bezoekers</h2>
+          <p className="text-sm text-muted">Zonder je eigen bezoeken (deze browser is gemarkeerd zodra je hier inlogt) en zonder bots</p>
+        </div>
+        {visits.connected ? (
+          <div className="mt-4 grid gap-4 lg:grid-cols-3">
+            <Panel title="Vandaag" hint={`laatste bezoek: ${when(visits.lastVisit)}`}>
+              <p className="text-4xl font-semibold tabular-nums text-ink">{visits.today.visitors}</p>
+              <p className="text-sm text-muted">
+                bezoekers · {visits.today.views} pagina&rsquo;s bekeken · {Math.round(visits.mobileShare * 100)}% mobiel (14 dagen)
+              </p>
+              <table className="mt-4 w-full text-sm">
+                <thead>
+                  <tr className="text-left text-xs text-muted">
+                    <th className="pb-1 font-medium">Dag</th>
+                    <th className="pb-1 text-right font-medium">Bezoekers</th>
+                    <th className="pb-1 text-right font-medium">Pagina&rsquo;s</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-line">
+                  {visits.days.slice(0, 14).map((d) => (
+                    <tr key={d.day}>
+                      <td className="py-1.5">{d.day}</td>
+                      <td className="py-1.5 text-right tabular-nums">{d.visitors}</td>
+                      <td className="py-1.5 text-right tabular-nums">{d.views}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+              {!visits.days.length && <Empty>Nog geen bezoeken van anderen geteld.</Empty>}
+            </Panel>
+            <Panel title="Meest bekeken (14 dagen)">
+              <ul className="divide-y divide-line text-sm">
+                {visits.topPages.map((p) => (
+                  <li key={p.path} className="flex justify-between gap-3 py-1.5">
+                    <span className="truncate">{p.path}</span>
+                    <span className="tabular-nums text-muted">{p.views}</span>
+                  </li>
+                ))}
+              </ul>
+            </Panel>
+            <Panel title="Waar ze vandaan komen (14 dagen)">
+              <ul className="divide-y divide-line text-sm">
+                {visits.topRefs.map((r) => (
+                  <li key={r.host} className="flex justify-between gap-3 py-1.5">
+                    <span className="truncate">{r.host}</span>
+                    <span className="tabular-nums text-muted">{r.views}</span>
+                  </li>
+                ))}
+              </ul>
+            </Panel>
+          </div>
+        ) : (
+          <div className="mt-4">
+            <Empty>
+              Bezoekers tellen staat klaar, maar heeft een database nodig. Maak een gratis Supabase-project aan (taak 5b), voer
+              supabase/migrations/0001_init.sql en 0002_page_views.sql uit in de SQL-editor en zet NEXT_PUBLIC_SUPABASE_URL en
+              SUPABASE_SERVICE_ROLE_KEY in Vercel. Daarna verschijnen hier de bezoekers, zonder jouw eigen bezoeken.
+            </Empty>
+          </div>
+        )}
       </section>
 
       {/* Wacht op jou */}

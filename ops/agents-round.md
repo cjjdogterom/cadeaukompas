@@ -1,6 +1,6 @@
 # Agent-ronde (orchestrator)
 
-Deze instructie wordt elke 2 uur uitgevoerd: lokaal via de geplande taak in de Claude-app, of in de cloud via `.github/workflows/scheduled-ops.yml` (job `agents-round`). Wijzig hier, niet in de taak of de workflow. Draai nooit beide tegelijk.
+Deze instructie wordt elk uur (08–22 uur) uitgevoerd: lokaal via de geplande taak in de Claude-app, of in de cloud via `.github/workflows/scheduled-ops.yml` (job `agents-round`). Wijzig hier, niet in de taak of de workflow. Draai nooit beide tegelijk.
 
 Je bent de orchestrator van het agent-team van de webshop OpTijdCadeau (optijdcadeau.nl; Sinterklaas 5 dec 2026 en kerst). Werkmap: de root van deze repo (Next.js; lees AGENTS.md en ops/README.md eerst). Agents staan in .claude/agents/*.md.
 
@@ -8,8 +8,12 @@ Doel van deze ronde: de agents die zonder de eigenaar verder kunnen, laten werke
 
 Stappen:
 1. `git pull --rebase` op main. Lees ops/status/agents.json, de laatste 30 regels van ops/activity.jsonl, ops/owner-todo.md, ops/vragen-eigenaar.md, ops/approvals/ en ops/plan-48h.md. Kijk naar de datum van vandaag (Europe/Amsterdam).
-2. **Groeidoel catalogus (eigenaar, 17-11): zoveel mogelijk goede cadeaus — minimaal 300 actieve producten vóór 1 december.** Zet daarom elke ronde minstens één product-scout in die 20–30 nieuwe bol-producten levert voor de dunste doelgroep/prijsklasse (tel in data/products.json), met prijs en levertekst vandaag op de productpagina gezien (scout.verified true, priceCheckedAt vandaag); importeer met `node scripts/import-shortlist.mjs <bestand>` en zet geverifieerde producten van vandaag op actief.
-   Na het activeren van nieuwe bol-producten: haal EAN, foto en actuele prijs op via `https://optijdcadeau.nl/api/bol/catalog?offset=<n>&limit=20` (na de deploy; loop tot `total`) en schrijf `ean`, `imageUrl`, `imageLicense: "bol Marketing Catalog API (affiliate)"`, `priceCents` en `priceCheckedAt` in data/products.json. Warm daarna de bezorgdatum-cache met `curl https://optijdcadeau.nl/api/bol/warm?offset=0` (en 100, 200, …).
+2. **Producten toevoegen: elke ronde minstens 50 nieuwe actieve cadeaus (opdracht eigenaar 18-11; geen akkoord nodig, gewoon doorzetten).** Start 2 product-scouts parallel, elk voor ~35 nieuwe bol-producten, voor de dunste doelgroepen/prijsklassen/interesses (tel in data/products.json; wissel af, de eigenaar wil extra veel voor vrouwen/moeder/oma, jongens en vaders incl. gereedschap). Geef ze de regels uit `ops/scout-brief.md` en elk een eigen uitvoerbestand `data/research/shortlist-<datum>-<segment>-<uur>.json`. Daarna:
+   - `node scripts/import-shortlist.mjs <bestanden>` en `node scripts/activate-shortlist.mjs <datum> <bestanden>`;
+   - commit en push, wacht tot Vercel klaar is (`curl -s "https://optijdcadeau.nl/api/bol/catalog?offset=0&limit=1&missing=1"` toont bij `total` het aantal nieuwe);
+   - `node scripts/bol-enrich.mjs --only-missing` (haalt EAN, foto en actuele prijs bij bol; wat bol niet aanbiedt gaat op gepauzeerd), commit en push;
+   - warm de bezorgdatums: `curl -s "https://optijdcadeau.nl/api/bol/warm?offset=0"` en verder met 100, 200, … tot voorbij `total`.
+   Eén keer per dag (eerste ronde na 08:00) ook `node scripts/bol-enrich.mjs` zonder vlag: actualiseert alle prijzen.
 3. Kies daarnaast maximaal 2 andere agents met het meest waardevolle werk dat nu kan zonder de eigenaar. Prioriteit: (a) catalogus: prijzen/links van actieve producten ouder dan 48 uur hercontroleren; (b) product-scout + catalogus: catalogus uitbreiden waar doelgroepen/budgetten dun zijn, alleen actief met vandaag gecontroleerde prijs; (c) seo-content: gidsen en landingspagina's; (d) compliance: toetsing aan ops/compliance-checklist.md; (e) advertentie-maker: conceptexperimenten volgens ops/ads-framework.md, als akkoordverzoek, nooit uitgeven. Sla agents over die geblokkeerd zijn op iets van de eigenaar.
 4. Zet voor elke gekozen agent in ops/status/agents.json status "bezig" met currentTask, voeg een regel {ts, agent, type:"gestart", summary} toe aan ops/activity.jsonl, commit ("ops: <agents> gestart") en push, zodat het dashboard het direct toont.
 5. Start de gekozen agents (Agent-tool met hun subagent_type), waar mogelijk parallel. Geef elke agent een concrete, afgebakende opdracht.

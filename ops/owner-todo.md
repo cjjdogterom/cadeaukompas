@@ -55,7 +55,7 @@ Na elke goedkeuring: zet de sleutels in Vercel (Production) en kopieer op het da
   - Secret `ANTHROPIC_API_KEY` (console.anthropic.com → API keys; zet daar ook een maandlimiet onder Billing → Limits).
   - Variable `OPS_ENABLED` = `true` → agent-ronde elke 2 uur (08–22), feed-sync elk uur, advertentie-beoordeling 07:30.
   - Daarna de geplande taak "optijdcadeau-agents" in de Claude-app uitzetten (niet allebei).
-- [ ] **5b. Supabase** (optioneel) — supabase.com → project in regio Frankfurt → `NEXT_PUBLIC_SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` in Vercel en als GitHub-secret. Dan worden klikken naar winkels geteld (zonder persoonsgegevens) en ziet het dashboard klikken per product.
+- [ ] **5b. Supabase (nodig voor bezoekers in het dashboard)** — supabase.com → New project, regio Frankfurt, gratis. Daarna: SQL Editor → plak en run `supabase/migrations/0001_init.sql` en `0002_page_views.sql`. Dan Settings → API: zet in Vercel (Production) `NEXT_PUBLIC_SUPABASE_URL` en `SUPABASE_SERVICE_ROLE_KEY` (geheim, niet in de chat) en Redeploy. Het dashboard toont dan bezoekers per dag, populairste pagina's en herkomst, zonder je eigen bezoeken, plus klikken naar winkels.
 
 ## Administratie
 
