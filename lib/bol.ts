@@ -30,18 +30,33 @@ async function getToken(force = false): Promise<string | null> {
   }
 }
 
-async function bolGet<T>(path: string): Promise<T | null> {
+/** bol staat 10 verzoeken per seconde toe; wij starten er hooguit 8 per seconde. */
+let nextSlot = 0;
+async function throttle() {
+  const now = Date.now();
+  const at = Math.max(now, nextSlot);
+  nextSlot = at + 125;
+  if (at > now) await new Promise((r) => setTimeout(r, at - now));
+}
+
+/** Fout die niet gecachet mag worden (limiet of storing). */
+class BolTemporaryError extends Error {}
+
+async function bolGet<T>(path: string, strict = false): Promise<T | null> {
   for (const force of [false, true]) {
     const t = await getToken(force);
     if (!t) return null;
+    await throttle();
     try {
       const res = await fetch(`${API}${path}`, {
         headers: { Authorization: `Bearer ${t}`, Accept: "application/json", "Accept-Language": "nl" },
       });
       if (res.status === 401) continue; // token verlopen: één keer opnieuw
+      if (strict && (res.status === 429 || res.status >= 500)) throw new BolTemporaryError(String(res.status));
       if (!res.ok) return null;
       return (await res.json()) as T;
-    } catch {
+    } catch (e) {
+      if (strict) throw e instanceof BolTemporaryError ? e : new BolTemporaryError("netwerk");
       return null;
     }
   }
@@ -68,7 +83,7 @@ export async function getBolOffer(ean: string): Promise<BolOffer | null> {
     minDeliveryDate?: string;
     maxDeliveryDate?: string;
     deliveryDescription?: string;
-  }>(`/products/${ean}/offers/best?country-code=NL`);
+  }>(`/products/${ean}/offers/best?country-code=NL`, true); // gooit bij limiet/storing: dan wordt er niets gecachet
   if (!o) return null;
   return {
     minDeliveryDate: o.minDeliveryDate ?? null,
@@ -93,4 +108,28 @@ export async function bolIdToEan(bolProductId: string): Promise<string | null> {
 /** Haalt het bol-product-ID uit een link als https://www.bol.com/nl/nl/p/naam/9300000148921207/ */
 export function bolProductIdFromUrl(url: string): string | null {
   return url.match(/\/p\/[^/]+\/(\d{6,})/)?.[1] ?? null;
+}
+
+export type BolProduct = { ean: string; imageUrl: string | null; imageWidth: number | null; imageHeight: number | null; priceCents: number | null; title: string | null };
+
+/** Productgegevens met hoofdafbeelding (voor het eenmalig verrijken van de catalogus). Niet gecachet. */
+export async function fetchBolProduct(ean: string): Promise<BolProduct | null> {
+  const p = await bolGet<{ title?: string; image?: { url?: string; width?: number; height?: number }; offer?: { price?: number } }>(
+    `/products/${ean}?country-code=NL&include-image=true&include-offer=true`,
+  );
+  if (!p) return null;
+  return {
+    ean,
+    imageUrl: p.image?.url ?? null,
+    imageWidth: p.image?.width ?? null,
+    imageHeight: p.image?.height ?? null,
+    priceCents: typeof p.offer?.price === "number" ? Math.round(p.offer.price * 100) : null,
+    title: p.title ?? null,
+  };
+}
+
+/** bol-product-ID → EAN zonder cache (voor het verrijken). */
+export async function fetchEan(bolProductId: string): Promise<string | null> {
+  const r = await bolGet<{ ean?: string }>(`/products/${bolProductId}/to-ean`);
+  return r?.ean && /^\d{13}$/.test(r.ean) ? r.ean : null;
 }
