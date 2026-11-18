@@ -26,7 +26,7 @@ export function ProductArt({ product, sizes, priority = false }: { product: Prod
         fill
         sizes={sizes}
         priority={priority}
-        className="object-contain p-4"
+        className="bg-white object-contain p-4"
       />
     );
   }

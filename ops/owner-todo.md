@@ -23,13 +23,13 @@ Gesorteerd op volgorde. Vink af met `[x]`. Sleutels zet je in Vercel (Settings �
 ## 2. Livegang (jij geeft akkoord, ik bereid voor)
 
 - [x] **2a. Teksten** — akkoord eigenaar 17-11 (cookiebeleid, privacy, gebruiksvoorwaarden, hoe wij verdienen, cookiebanner).
-- [x] **2b. Vercel Pro** — geregeld door eigenaar (17-11).
+- [ ] **2b. Vercel Pro** — het project staat nog op **Hobby** (gezien 18-11: Vercel weigerde een cron met de melding "Hobby accounts"). Vercel → team "chris' projects" → Settings → Billing → Upgrade to Pro. Hobby mag niet commercieel; met Pro kan ook de bezorgdatum-cache elk half uur automatisch worden ververst.
 - [x] **2c. Domein gekoppeld** (17-11) — optijdcadeau.nl en www (stuurt door) wijzen naar Vercel, HTTPS werkt, `NEXT_PUBLIC_SITE_URL` staat. De site is bereikbaar maar nog **niet vindbaar** in Google (noindex). Bij livegang-akkoord: `NEXT_PUBLIC_INDEXABLE=true` in Vercel + Redeploy.
 - [x] **2d. Indexeren aan** (17-11) — `NEXT_PUBLIC_INDEXABLE=true`; robots.txt staat Google toe, sitemap op /sitemap.xml.
 
 ## 2b. Bezorgdatums live van bol (aanbevolen)
 
-- [ ] **bol Open API-sleutels** — kan pas als bol je website goedkeurt (status op 17-11: "Nieuw"; dan verschijnt bij Account → API toegang een knop om credentials aan te maken). Daarna Client ID/Secret zelf in Vercel als `BOL_API_CLIENT_ID` / `BOL_API_CLIENT_SECRET` (Production) en Redeploy. Tot dan: geschatte bezorgdatums.
+- [x] **bol Open API-sleutels** — aangemaakt en in Vercel gezet (18-11). Productfoto's, EAN en actuele prijzen komen nu uit de bol-API; bezorgdatums live.
 - [ ] **bol: bankgegevens en bedrijfsgegevens** — partner.bol.com → Account: IBAN toevoegen (anders geen uitbetaling) en "Wil je verder als bedrijf?" → Omega Ksi met KvK en btw-id, zodat commissie op je bedrijf staat.
 
 ## 3. Meer winkels (meer producten, meer commissie)
