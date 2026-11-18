@@ -34,7 +34,7 @@ export const guides: Guide[] = [
       { q: "Wat geef je een collega die je niet goed kent?", a: "Iets praktisch of lekkers: een mok, een spel voor in de pauze of luxe thee. Vermijd persoonlijke verzorging of kleding." },
       { q: "Komt mijn cadeau op tijd voor de borrel?", a: "Bij elk product staat de uiterste besteldatum. Die rekent met werkdagen en een dag extra marge voor de drukte rond de feestdagen." },
     ],
-    related: ["sinterklaascadeau-tiener", "kerstpakket-thuiswerker", "cadeau-onder-15-euro", "cadeau-voor-partner", "cadeau-thuiswerker-50-100-euro"],
+    related: ["sinterklaascadeau-tiener", "kerstpakket-thuiswerker", "cadeau-onder-15-euro", "cadeau-voor-partner", "cadeau-thuiswerker-50-100-euro", "kerstcadeau-onder-50-euro", "cadeau-voor-een-vriend"],
   },
   {
     slug: "sinterklaascadeau-tiener",
@@ -77,7 +77,7 @@ export const guides: Guide[] = [
       { q: "Wat stop je in een kerstpakket voor thuiswerkers?", a: "Denk aan goede koffie of thee, een mok die warm blijft, een bureaulamp of iets voor ontspanning na het werk." },
       { q: "Wanneer moet ik bestellen voor kerst?", a: "Dat verschilt per product. De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, zodat het voor de kerstdagen in huis is." },
     ],
-    related: ["cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "sinterklaascadeau-tiener", "kerstcadeau-voor-vader", "cadeau-thuiswerker-50-100-euro", "sportcadeau-voor-volwassenen"],
+    related: ["cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "sinterklaascadeau-tiener", "kerstcadeau-voor-vader", "cadeau-thuiswerker-50-100-euro", "sportcadeau-voor-volwassenen", "kerstcadeau-onder-50-euro"],
   },
   {
     slug: "cadeau-onder-15-euro",
@@ -143,7 +143,7 @@ export const guides: Guide[] = [
       { q: "Hoeveel mag een cadeau voor een partner kosten?", a: "Dat bepaal je zelf. Een persoonlijk gekozen cadeau voor een beperkt bedrag werkt vaak beter dan een duur cadeau waar weinig over is nagedacht." },
       { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "Bij elk product staat de uiterste besteldatum voor beide momenten. Die is gebaseerd op de verwachte levertijd van de winkel plus een dag marge." },
     ],
-    related: ["cadeau-onder-25-euro-collega", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "cadeau-thuiswerker-50-100-euro", "cadeau-voor-fijnproevers", "muziekcadeau", "verwencadeau-voor-haar", "cadeau-voor-lezers"],
+    related: ["cadeau-onder-25-euro-collega", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "cadeau-thuiswerker-50-100-euro", "cadeau-voor-fijnproevers", "muziekcadeau", "verwencadeau-voor-haar", "cadeau-voor-lezers", "cadeau-voor-een-vriend", "cadeau-voor-wie-alles-heeft"],
   },
   {
     slug: "cadeau-voor-opa-en-oma",
@@ -166,7 +166,7 @@ export const guides: Guide[] = [
       { q: "Kan ik een cadeau rechtstreeks naar opa en oma laten bezorgen?", a: "Vaak kan dat met een ander bezorgadres, maar dat verschilt per winkel. Je bestelt wel bij de winkel zelf; we sturen je door via onze links. Controleer bij het bestellen het afleveradres en de levertijd." },
       { q: "Wanneer moet ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau. We rekenen met werkdagen en een dag extra marge voor de drukte." },
     ],
-    related: ["puzzel-en-spelcadeau-oma-opa", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "sinterklaascadeau-baby-peuter", "cadeau-voor-wie-graag-kookt"],
+    related: ["puzzel-en-spelcadeau-oma-opa", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "sinterklaascadeau-baby-peuter", "cadeau-voor-wie-graag-kookt", "cadeau-voor-wie-alles-heeft"],
   },
   {
     slug: "kerstcadeau-voor-vader",
@@ -304,7 +304,7 @@ export const guides: Guide[] = [
       { q: "Hoe weet ik of een game geschikt is voor mijn kind?", a: "Kijk naar de PEGI-leeftijdsaanduiding op de verpakking of de productpagina. Die geeft aan vanaf welke leeftijd een spel is bedoeld." },
       { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, inclusief een dag marge voor de drukte. Pakjesavond is zaterdag 5 december, dus het cadeau moet uiterlijk vrijdag 4 december in huis zijn." },
     ],
-    related: ["sinterklaascadeau-tiener", "sinterklaascadeau-kinderen-8-12", "cadeau-onder-25-euro-collega", "kerstpakket-thuiswerker", "sinterklaascadeau-jongens-8-12", "muziekcadeau", "creatief-cadeau"],
+    related: ["sinterklaascadeau-tiener", "sinterklaascadeau-kinderen-8-12", "cadeau-onder-25-euro-collega", "kerstpakket-thuiswerker", "sinterklaascadeau-jongens-8-12", "muziekcadeau", "creatief-cadeau", "cadeau-voor-een-vriend"],
   },
   {
     slug: "puzzel-en-spelcadeau-oma-opa",
@@ -447,7 +447,7 @@ export const guides: Guide[] = [
       { q: "Kan ik ook thee of koffie geven als cadeau?", a: "Ja, vooral als je weet wat iemand drinkt. Een doos met verschillende smaken thee of een zak koffiebonen past bij bijna iedereen die thuis een kopje drinkt." },
       { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge voor de drukte." },
     ],
-    related: ["cadeau-voor-wie-graag-kookt", "cadeau-voor-moeder", "cadeau-voor-opa-en-oma", "cadeau-onder-25-euro-collega", "verwencadeau-voor-haar"],
+    related: ["cadeau-voor-wie-graag-kookt", "cadeau-voor-moeder", "cadeau-voor-opa-en-oma", "cadeau-onder-25-euro-collega", "verwencadeau-voor-haar", "cadeau-voor-wie-alles-heeft"],
   },
   {
     slug: "sinterklaascadeau-jongens-8-12",
@@ -548,6 +548,79 @@ export const guides: Guide[] = [
       { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge voor de drukte." },
     ],
     related: ["cadeau-voor-moeder", "cadeau-voor-partner", "cadeau-voor-fijnproevers", "cadeau-onder-25-euro-collega"],
+  },
+  {
+    slug: "kerstcadeau-onder-50-euro",
+    title: "Kerstcadeau onder €50",
+    metaTitle: "Kerstcadeau onder €50 | OpTijdCadeau",
+    metaDescription:
+      "Kerstcadeaus tussen €25 en €50 voor familie, vrienden en partner. Met levertijd en uiterste besteldatum, zodat het pakje voor kerst in huis is.",
+    intro: [
+      "Met een budget tot €50 kun je met kerst al een cadeau kiezen dat je niet bij de kassa hoeft te verontschuldigen. Het is genoeg voor een goed boek met iets lekkers erbij, een mooi spel voor de feestdagen of een warm kussen voor op de bank. Een groter bedrag maakt een cadeau niet vanzelf persoonlijker.",
+      "In deze gids staan cadeaus die kerst als gelegenheid hebben en tussen €25 en €50 kosten. Zoek je iets goedkopers, kijk dan bij de gidsen voor cadeaus onder €25 of onder €15. Bij elk product zie je de levertijd en de uiterste besteldatum voor kerst, berekend per product. Je bestelt bij de winkel zelf; wij sturen je door en verkopen niets. Prijzen kunnen wijzigen, dus bekijk de actuele prijs bij de winkel.",
+    ],
+    filters: { budget: "25-50", optijd: "kerst" },
+    tips: [
+      "Spreek bij een familiekerst een maximumbedrag af. Dan voelt niemand zich over- of ondergewaardeerd.",
+      "Verdeel je budget liever over één goed cadeau en een kleine attentie dan over drie dingen die snel in de kast verdwijnen.",
+      "Tel verzendkosten mee. Sommige winkels rekenen ze onder een minimumbedrag, en dan kan een cadeau net boven je budget uitkomen.",
+      "Combineer twee cadeaus bij dezelfde winkel als je ze samen wilt laten bezorgen. Let op de langste levertijd.",
+    ],
+    faq: [
+      { q: "Wat geef je voor kerst als het budget €50 is?", a: "Iets dat past bij wat de ontvanger doet in de wintermaanden: een spel voor met het gezin, iets lekkers, een boek of iets voor een gezellige avond thuis. Gebruik de filters om op ontvanger of interesse te zoeken." },
+      { q: "Waarom staan er geen cadeaus onder €25 in deze gids?", a: "Deze gids toont het bereik van €25 tot €50. Voor kleinere bedragen heb je de gidsen voor cadeaus onder €25 voor een collega en cadeaus onder €15." },
+      { q: "Tot wanneer kan ik bestellen voor kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge. Zo hoef je niet te gokken of het pakje voor 24 december binnen is." },
+    ],
+    related: ["kerstpakket-thuiswerker", "kerstcadeau-voor-vader", "cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "cadeau-voor-wie-alles-heeft"],
+  },
+  {
+    slug: "cadeau-voor-een-vriend",
+    title: "Cadeau voor een vriend of vriendin",
+    metaTitle: "Cadeau voor een vriend of vriendin | OpTijdCadeau",
+    metaDescription:
+      "Cadeau-ideeën voor een vriend of vriendin voor Sinterklaas of kerst: spellen, lekkers, iets voor thuis en meer. Met levertijd en uiterste besteldatum.",
+    intro: [
+      "Een goede vriend of vriendin ken je vaak beter dan je denkt. Je weet wat iemand na een lange dag doet, welke serie op repeat staat en welk koekje er altijd bij de koffie hoort. Gebruik dat: een cadeau dat past bij een gewoonte of een grap die jullie delen, voelt persoonlijker dan iets duurs.",
+      "In deze selectie staan cadeaus voor uiteenlopende smaken, zoals spellen voor een avond met meer mensen, iets lekkers, verzorging, boeken en spullen voor thuis. Houd het bedrag in lijn met wat jullie normaal aan elkaar geven, zodat niemand zich ongemakkelijk voelt. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst. Je bestelt bij de winkel zelf; wij sturen je door en verkopen niets. Prijzen kunnen wijzigen, dus bekijk de actuele prijs bij de winkel.",
+    ],
+    filters: { voor: "vriend" },
+    tips: [
+      "Kies iets dat bij een gedeelde herinnering of binnenpretje past. Een klein cadeau met een verhaal blijft langer hangen dan een duur cadeau zonder.",
+      "Een spel of iets om samen te doen is meteen een afspraak: speel het bij de volgende keer dat jullie afspreken.",
+      "Twijfel je over smaak? Kies iets lekkers of iets zonder geur of maat, zoals thee, chocolade of een boek.",
+      "Doe je mee aan lootjes in de vriendengroep? Houd je dan aan het afgesproken bedrag.",
+    ],
+    faq: [
+      { q: "Wat geef je een vriend of vriendin voor Sinterklaas of kerst?", a: "Iets dat past bij wat diegene graag doet: een spel voor met vrienden, iets lekkers, een boek of een verzorgingsproduct. Gebruik de filters om op interesse of budget te zoeken." },
+      { q: "Hoeveel geef je uit aan een cadeau voor een vriend?", a: "Dat verschilt per vriendschap. Veel vriendengroepen spreken een bedrag af bij lootjes. Zonder afspraak werkt een bedrag dat jullie ook aan elkaar zouden geven vaak het best." },
+      { q: "Wat geef je een vriend die moeilijk te verrassen is?", a: "Kies iets dat verbruikt wordt, zoals thee, chocolade of een kaars, of iets om samen te doen, zoals een spel. Dan hoeft het niet precies bij de smaak te passen." },
+      { q: "Komt het cadeau op tijd?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge voor de drukte." },
+    ],
+    related: ["cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "cadeau-voor-partner", "sinterklaascadeau-tiener", "cadeau-voor-fijnproevers"],
+  },
+  {
+    slug: "cadeau-voor-wie-alles-heeft",
+    title: "Cadeau voor wie alles al heeft",
+    metaTitle: "Cadeau voor wie alles al heeft | OpTijdCadeau",
+    metaDescription:
+      "Cadeau-ideeën voor mensen die al alles hebben: sfeer, warmte en spullen voor in huis die ze elke dag gebruiken. Met levertijd en besteldatum.",
+    intro: [
+      "Sommige mensen hebben alles al, of zeggen in ieder geval dat ze niets nodig hebben. Dan is het verleidelijk om een bon of een envelop te geven. Dat kan prima, maar je kunt ook zoeken naar iets dat niet in de categorie nog meer spullen valt: iets voor de sfeer, iets dat warm houdt of iets dat opraakt en dan met plezier wordt vervangen.",
+      "In deze selectie staan cadeaus voor in en om het huis, zoals geurkaarsen, lampen, warmte voor de bank en andere dingen die je dagelijks ziet of gebruikt. Kijk bij sfeerartikelen naar wat iemand al heeft, bijvoorbeeld in welke kleuren het huis is ingericht. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst. Je bestelt bij de winkel zelf; wij sturen je door en verkopen niets. Prijzen kunnen wijzigen, dus bekijk de actuele prijs bij de winkel.",
+    ],
+    filters: { leeftijd: "volwassen", interesse: "thuis" },
+    tips: [
+      "Kies iets dat opraakt of op een natuurlijke manier vervangen wordt, zoals een kaars of iets lekkers. Dan hoeft er geen ruimte voor te worden gevonden.",
+      "Let op wat iemand al in huis heeft. Een stekkerlamp of deken die past bij de inrichting wordt eerder gebruikt dan iets dat opvalt.",
+      "Voeg iets persoonlijks toe, zoals een kaartje of een gedichtje. Dan krijgt een eenvoudig cadeau meteen een betekenis.",
+      "Twijfel je? Vraag een huisgenoot wat er de laatste tijd stuk is gegaan of bijna op is.",
+    ],
+    faq: [
+      { q: "Wat geef je iemand die alles al heeft?", a: "Iets dat verbruikt wordt of de sfeer in huis verbetert, zoals een geurkaars, iets voor extra warmte of een lamp. Dat past bij bijna iedereen en hoeft niet te worden opgeborgen." },
+      { q: "Is een cadeaubon een goed alternatief?", a: "Soms wel, zeker als je de smaak echt niet kent. Een klein cadeau dat je zelf hebt uitgekozen laat meestal beter zien dat je hebt nagedacht." },
+      { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge." },
+    ],
+    related: ["cadeau-voor-opa-en-oma", "cadeau-voor-fijnproevers", "verwencadeau-voor-haar", "kerstcadeau-voor-vader", "cadeau-voor-partner"],
   },
 ];
 
