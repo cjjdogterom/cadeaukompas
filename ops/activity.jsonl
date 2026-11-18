@@ -78,3 +78,7 @@
 {"ts":"2026-11-18T16:10:00+01:00","agent":"compliance","type":"probleem","summary":"Open voor developer: prijs op kaarten zonder controledatum en geen 48-uurregel; ‘Populair nu’ is geen populariteitsdata; ‘Morgen in huis’ klopt niet op vr/za; Sint-datum moet vóór 3 dec uit de topbalk","files":["ops/compliance/2026-11-18-hertoets.md"]}
 {"ts":"2026-11-18T16:10:00+01:00","agent":"catalogus","type":"klaar","summary":"3 ongefundeerde superlatieven in productteksten neutraal gemaakt (bevinding compliance punt 9)","files":["data/products.json"]}
 {"ts":"2026-11-18T16:10:00+01:00","agent":"orchestrator","type":"klaar","summary":"Agent-ronde 15:15 klaar: 580 actief, 2 nieuwe gidsen, compliance GO met voorwaarden, dagrapport 18-11 geschreven","files":["ops/daily/2026-11-18.md"]}
+{"ts": "2026-11-18T16:05:00+01:00", "agent": "orchestrator", "type": "gestart", "summary": "Agent-ronde 16:05 gestart: 2 product-scouts, seo-content en developer"}
+{"ts": "2026-11-18T16:05:00+01:00", "agent": "product-scout", "type": "gestart", "summary": "2 scouts gestart: tieners/gamen/tech/thuiswerker; vader-gereedschap en moeder/oma (ook €50–100)"}
+{"ts": "2026-11-18T16:05:00+01:00", "agent": "seo-content", "type": "gestart", "summary": "Gidsen vader/gereedschap, oma en tiener gamen schrijven"}
+{"ts": "2026-11-18T16:05:00+01:00", "agent": "developer", "type": "gestart", "summary": "Compliance-fixes uit hertoets 18-11 bouwen (labels en datums, geen checkout of juridische pagina’s)"}

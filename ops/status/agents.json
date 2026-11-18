@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-18T16:10:00+01:00",
+  "updatedAt": "2026-11-18T16:05:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "gepland",
-      "currentTask": "Volgende agent-ronde",
+      "status": "bezig",
+      "currentTask": "Agent-ronde 16:05: 2 product-scouts, seo-content en developer",
       "lastRunAt": "2026-11-18T16:10:00+01:00",
       "lastResult": "Ronde 15:15: +59 cadeaus actief (580), gidsen 0–3 en 4–7 jaar, compliance-hertoets GO met voorwaarden",
       "nextRun": "Elk uur 08–22",
       "blockedBy": null
     },
     "product-scout": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "2 scouts: tieners/gamen/tech/thuiswerker en vader-gereedschap + moeder/oma (ook €50–100)",
       "lastRunAt": "2026-11-18T16:10:00+01:00",
       "lastResult": "2 scouts: 67 nieuwe bol-cadeaus aangeleverd (0–3 jaar, jongens, sport/koken/muziek/gamen)",
       "nextRun": "Elke agent-ronde (elk uur)",
@@ -34,8 +34,8 @@
       "blockedBy": null
     },
     "developer": {
-      "status": "wacht",
-      "currentTask": "Compliance-fixes (geen akkoord nodig): prijslabel met controledatum op kaarten, \"Populair nu\" hernoemen, \"Morgen in huis\" op vr/za, bol-bezorgdatum op productpagina, dag-salt en opschoning bezoekteller, Sint-datum na 2 dec",
+      "status": "bezig",
+      "currentTask": "Compliance-fixes zonder akkoord: prijslabel met controledatum, \"Populair nu\" hernoemen, \"Morgen in huis\" op vr/za, Sint-datum na 2 dec",
       "lastRunAt": "2026-11-17T19:45:00+01:00",
       "lastResult": "Cookiebanner + Consent Mode v2 gebouwd en getest; prompts in dashboard",
       "nextRun": "Conversiemeting zodra ID's er zijn",
@@ -50,8 +50,8 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "gepland",
-      "currentTask": "Gidsen voor dunne zoekwoorden (vader/gereedschap, oma, tiener gamen)",
+      "status": "bezig",
+      "currentTask": "Gidsen vader/gereedschap, oma en tiener gamen",
       "lastRunAt": "2026-11-18T16:10:00+01:00",
       "lastResult": "Gidsen baby en peuter (0–3) en kinderen 4–7 jaar toegevoegd; moedergids en nieuwe gidsen gekoppeld in related",
       "nextRun": "Volgende ronde",
