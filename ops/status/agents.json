@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T21:15:00+01:00",
+  "updatedAt": "2026-11-18T21:30:00+01:00",
   "agents": {
     "orchestrator": {
       "status": "bezig",
@@ -50,10 +50,10 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "bezig",
-      "currentTask": "Gidsen creatief, lezers en verwencadeau voor haar (uit ronde 20:25) controleren en publiceren",
-      "lastRunAt": "2026-11-18T19:45:00+01:00",
-      "lastResult": "Gidsen ‘muziekcadeau’, ‘cadeau voor fijnproevers’ en ‘Sinterklaascadeau jongens 8–12’ toegevoegd en gekoppeld in 7 bestaande gidsen",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-18T21:30:00+01:00",
+      "lastResult": "Gidsen ‘creatief cadeau’, ‘cadeau voor lezers’ en ‘verwencadeau voor haar’ gepubliceerd en gekoppeld in 6 gidsen",
       "nextRun": "Volgende ronde",
       "blockedBy": null
     },
