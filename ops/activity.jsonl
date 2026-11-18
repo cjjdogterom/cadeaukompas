@@ -66,3 +66,7 @@
 {"ts":"2026-11-18T14:30:00+01:00","agent":"developer","type":"klaar","summary":"Site zachter en toegankelijker gemaakt: warme tinten, ronde vormen, witte kopbalk, Nunito + Atkinson Hyperlegible, grotere tekst, alle contrasten WCAG AA, minder beweging op verzoek","files":["app/globals.css","app/(shop)/page.tsx","components/Header.tsx"]}
 {"ts":"2026-11-18T17:30:00+01:00","agent":"catalogus","type":"klaar","summary":"9 scouts: 310 nieuwe bol-cadeaus actief (collega, tiener, ouders, partner, vrouwen 2x, oma, jongens, vaders/gereedschap), met foto en actuele prijs uit de bol API; 14 gepauzeerd (geen aanbod). 521 actief","files":["data/products.json"]}
 {"ts":"2026-11-18T17:31:00+01:00","agent":"developer","type":"klaar","summary":"Bezoekersteller gebouwd (anoniem, zonder eigenaar en bots; wacht op Supabase); agent-ronde nu elk uur met 50 nieuwe producten","files":["app/api/bezoek/route.ts","ops/agents-round.md"]}
+{"ts":"2026-11-18T15:15:00+01:00","agent":"orchestrator","type":"gestart","summary":"Agent-ronde 15:15 gestart: 2 product-scouts, seo-content en compliance"}
+{"ts":"2026-11-18T15:15:00+01:00","agent":"product-scout","type":"gestart","summary":"2 scouts gestart voor dunne segmenten: 0–3 jaar en jongens sport/muziek; volwassenen sport, koken, muziek, gamen"}
+{"ts":"2026-11-18T15:15:00+01:00","agent":"seo-content","type":"gestart","summary":"Gidsen voor kinderen 0–3 en 4–7 jaar schrijven"}
+{"ts":"2026-11-18T15:15:00+01:00","agent":"compliance","type":"gestart","summary":"Hertoets site tegen compliance-checklist (rapport, geen live wijzigingen)"}
