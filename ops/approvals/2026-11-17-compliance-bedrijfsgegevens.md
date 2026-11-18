@@ -1,6 +1,6 @@
 # Akkoord gevraagd: postcode toevoegen aan het bedrijfsadres
 
-Status: WACHT
+Status: AFGEHANDELD (adres met postcode door eigenaar opgegeven 17-11, staat in lib/site.ts; handelsnaam bij KvK staat nog open in owner-todo 1b)
 Datum: 2026-11-17 · Agent: Compliance · Code: `lib/site.ts` (regel 11, `company.address`) · Rapport: `ops/compliance/2026-11-17-eerste-toetsing.md` punt 1
 
 ## Wat

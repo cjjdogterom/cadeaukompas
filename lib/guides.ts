@@ -56,7 +56,7 @@ export const guides: Guide[] = [
       { q: "Wat is een goed sinterklaascadeau voor een tiener van 15?", a: "Iets dat aansluit bij een hobby: een koptelefoon voor muziek, een bordspel voor met vrienden of een creatieve set. Gebruik de filters om op interesse te zoeken." },
       { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "Dat verschilt per product; de uiterste besteldatum staat bij elk cadeau en wordt per product berekend. Pakjesavond is op zaterdag 5 december, dus het cadeau moet uiterlijk vrijdag 4 december in huis zijn." },
     ],
-    related: ["cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "kerstpakket-thuiswerker", "sinterklaascadeau-kinderen-8-12"],
+    related: ["sinterklaascadeau-kinderen-8-12", "cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "kerstpakket-thuiswerker"],
   },
   {
     slug: "kerstpakket-thuiswerker",
@@ -97,7 +97,7 @@ export const guides: Guide[] = [
     faq: [
       { q: "Wat is een leuk cadeau onder €15?", a: "Kleine spellen, iets lekkers, een goed boek of een handig gadget. Filter op voor wie om sneller iets te vinden." },
     ],
-    related: ["cadeau-onder-25-euro-collega", "sinterklaascadeau-tiener", "kerstpakket-thuiswerker", "cadeau-voor-opa-en-oma"],
+    related: ["cadeau-onder-25-euro-collega", "sinterklaascadeau-tiener", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-baby-peuter"],
   },
   {
     slug: "sinterklaascadeau-kinderen-8-12",
@@ -120,7 +120,7 @@ export const guides: Guide[] = [
       { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "Dat verschilt per product. De uiterste besteldatum staat bij elk cadeau en wordt door de site per product berekend, inclusief een dag marge voor de drukte." },
       { q: "Hoeveel geef je uit aan een sinterklaascadeau voor een kind?", a: "Daar bestaat geen vaste regel. Veel gezinnen spreken een bedrag af met familie, zodat de cadeaus ongeveer even groot zijn. In deze selectie vind je zowel kleinere als grotere cadeaus." },
     ],
-    related: ["sinterklaascadeau-tiener", "cadeau-onder-15-euro", "cadeau-onder-25-euro-collega"],
+    related: ["sinterklaascadeau-tiener", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-baby-peuter", "cadeau-onder-15-euro"],
   },
   {
     slug: "cadeau-voor-partner",
@@ -143,7 +143,7 @@ export const guides: Guide[] = [
       { q: "Hoeveel mag een cadeau voor een partner kosten?", a: "Dat bepaal je zelf. Een persoonlijk gekozen cadeau voor een beperkt bedrag werkt vaak beter dan een duur cadeau waar weinig over is nagedacht." },
       { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "Bij elk product staat de uiterste besteldatum voor beide momenten. Die is gebaseerd op de verwachte levertijd van de winkel plus een dag marge." },
     ],
-    related: ["cadeau-onder-25-euro-collega", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma"],
+    related: ["cadeau-onder-25-euro-collega", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma"],
   },
   {
     slug: "cadeau-voor-opa-en-oma",
@@ -166,7 +166,7 @@ export const guides: Guide[] = [
       { q: "Kan ik een cadeau rechtstreeks naar opa en oma laten bezorgen?", a: "Vaak kan dat met een ander bezorgadres, maar dat verschilt per winkel. Je bestelt wel bij de winkel zelf; we sturen je door via onze links. Controleer bij het bestellen het afleveradres en de levertijd." },
       { q: "Wanneer moet ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau. We rekenen met werkdagen en een dag extra marge voor de drukte." },
     ],
-    related: ["kerstcadeau-voor-vader", "cadeau-voor-partner", "cadeau-onder-15-euro"],
+    related: ["cadeau-voor-moeder", "kerstcadeau-voor-vader", "sinterklaascadeau-baby-peuter", "cadeau-kinderen-4-7-jaar"],
   },
   {
     slug: "kerstcadeau-voor-vader",
@@ -189,7 +189,7 @@ export const guides: Guide[] = [
       { q: "Wanneer moet ik bestellen voor kerst?", a: "Dat verschilt per product. De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, inclusief een dag extra marge." },
       { q: "Is dit ook een goed cadeau voor Sinterklaas?", a: "Veel cadeaus passen ook bij Sinterklaas, maar de besteldeadline ligt dan eerder. Kijk bij het product naar de uiterste besteldatum per gelegenheid." },
     ],
-    related: ["cadeau-voor-partner", "cadeau-voor-opa-en-oma", "kerstpakket-thuiswerker"],
+    related: ["cadeau-voor-partner", "cadeau-voor-moeder", "cadeau-voor-opa-en-oma", "kerstpakket-thuiswerker"],
   },
   {
     slug: "cadeau-voor-moeder",
@@ -213,6 +213,52 @@ export const guides: Guide[] = [
       { q: "Komt het cadeau op tijd voor pakjesavond of kerst?", a: "Bij elk product staat de uiterste besteldatum voor beide momenten. Die wordt per product berekend op basis van de verwachte levertijd van de winkel, met een dag extra marge." },
     ],
     related: ["cadeau-voor-partner", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma", "cadeau-onder-25-euro-collega"],
+  },
+  {
+    slug: "sinterklaascadeau-baby-peuter",
+    title: "Sinterklaascadeaus voor baby en peuter (0–3 jaar)",
+    metaTitle: "Sinterklaascadeau baby en peuter (0–3) | OpTijdCadeau",
+    metaDescription:
+      "Sinterklaascadeaus voor baby's en peuters van 0 tot 3 jaar: DUPLO, grijp- en bijtspeelgoed en eerste puzzels. Met levertijd en uiterste besteldatum.",
+    intro: [
+      "Een baby of peuter weet nog niet dat het pakjesavond is, maar de ouders en grootouders hebben er wel zin in. Voor deze leeftijd zoek je speelgoed dat veilig is, makkelijk vast te pakken en niet na een dag in de kast verdwijnt. Bij baby's draait het om voelen, kijken en bijten, bij peuters om stapelen, puzzelen en nadoen.",
+      "In deze selectie staan grijp- en bijtspeelgoed, rammelaars, grote DUPLO-stenen, eerste puzzels en een prentenboek. Let altijd op de leeftijdsaanduiding op de verpakking: kleine onderdelen zijn niet geschikt voor jonge kinderen die dingen nog in hun mond stoppen. Bij elk product zie je de levertijd en de uiterste besteldatum voor pakjesavond, berekend per product. Prijzen kunnen wijzigen; we tonen de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { voor: "kind", leeftijd: "0-3", optijd: "sinterklaas" },
+    tips: [
+      "Lees de leeftijdsaanduiding op de verpakking. Bij kinderen onder 3 jaar telt veiligheid zwaarder dan wat er leuk uitziet.",
+      "Vraag de ouders wat er al in huis is. Veel gezinnen hebben al een berg knuffels, maar nog geen eerste bouwset of puzzel.",
+      "Een prentenboek of kleine bouwset past ook in de schoen en is een rustig cadeau voor tussendoor.",
+    ],
+    faq: [
+      { q: "Wat geef je een baby voor Sinterklaas?", a: "Kies iets kleins dat veilig vast te pakken is, zoals een rammelaar, een grijpspeeltje of een bijtspeeltje. Check de leeftijd op de verpakking; een baby heeft vooral aan eenvoudig speelgoed genoeg." },
+      { q: "Vanaf welke leeftijd kan een kind spelen met DUPLO?", a: "De DUPLO-sets in deze selectie zijn bedoeld voor kinderen vanaf ongeveer 18 maanden. De stenen zijn groot, maar kijk altijd op de verpakking naar de aanbevolen leeftijd." },
+      { q: "Wanneer moet ik bestellen voor pakjesavond?", a: "Dat verschilt per product. De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, inclusief een dag marge voor de drukte." },
+    ],
+    related: ["cadeau-kinderen-4-7-jaar", "sinterklaascadeau-kinderen-8-12", "cadeau-voor-opa-en-oma", "cadeau-onder-15-euro"],
+  },
+  {
+    slug: "cadeau-kinderen-4-7-jaar",
+    title: "Cadeaus voor kinderen van 4–7 jaar",
+    metaTitle: "Cadeau voor kinderen van 4–7 jaar | OpTijdCadeau",
+    metaDescription:
+      "Cadeaus voor kinderen van 4 tot 7 jaar voor Sinterklaas of kerst: LEGO, kaartspellen en puzzels. Met levertijd en uiterste besteldatum per cadeau.",
+    intro: [
+      "Kleuters en kinderen in de onderbouw staan midden in hun fantasiespel. Ze bouwen, puzzelen, spelen samen en nemen hun favoriete tekenfilmfiguren overal mee naartoe. Een goed cadeau sluit aan bij waar het kind nu mee bezig is, en niet bij wat jij vroeger leuk vond.",
+      "In deze selectie staan bouwsets, kaartspellen, puzzels en andere cadeaus die bij deze leeftijd passen. Spellen kunnen vaak al met een ouder of een broer of zus gespeeld worden, ook als het kind nog niet goed leest. Check bij elk product de leeftijdsaanduiding op de verpakking, want die verschilt per set. Bij elk cadeau zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst. Prijzen kunnen wijzigen; we tonen de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { voor: "kind", leeftijd: "4-7" },
+    tips: [
+      "Kies bij een bouwset een kleine set als je twijfelt. Die is sneller klaar en het kind heeft meteen een succeservaring.",
+      "Een spel dat je samen speelt, is vaak leuker dan speelgoed dat alleen gebruikt wordt. Let op of het zonder lezen te spelen is.",
+      "Bekende figuren uit een serie zijn populair, maar smaak verandert snel. Vraag de ouders wat het kind nu kijkt of speelt.",
+    ],
+    faq: [
+      { q: "Wat is een goed cadeau voor een kind van 5 of 6 jaar?", a: "Een bouwset, een puzzel of een eenvoudig kaartspel dat past bij wat het kind nu leuk vindt. Kijk vooral naar de leeftijdsaanduiding en of het kind het zelf kan spelen of samen met een ouder." },
+      { q: "Zijn deze cadeaus ook geschikt voor Sinterklaas en kerst?", a: "Veel cadeaus passen bij beide momenten. De uiterste besteldatum verschilt per gelegenheid en staat bij elk product." },
+      { q: "Hoe voorkom ik dat ik hetzelfde cadeau koop als iemand anders?", a: "Vraag de ouders of spreek met de familie af wie wat koopt. Een spel of bouwset dat al in huis is, kan wel een uitbreiding krijgen, maar vraag dat even na." },
+    ],
+    related: ["sinterklaascadeau-baby-peuter", "sinterklaascadeau-kinderen-8-12", "cadeau-onder-15-euro", "cadeau-voor-opa-en-oma"],
   },
 ];
 
