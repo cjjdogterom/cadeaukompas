@@ -1,12 +1,21 @@
-import { createHash } from "node:crypto";
 import { NextResponse, type NextRequest } from "next/server";
-import { createClient } from "@supabase/supabase-js";
+import { createClient, type SupabaseClient } from "@supabase/supabase-js";
+import { createSaltCache, visitorHash } from "@/lib/visit";
 
 const BOT = /bot|crawl|spider|slurp|preview|monitor|headless|lighthouse|pingdom|curl|wget|python|vercel/i;
 
+let db: SupabaseClient | null = null;
+function client(url: string, key: string): SupabaseClient {
+  db ??= createClient(url, key, { auth: { persistSession: false } });
+  return db;
+}
+
+let saltFor: ReturnType<typeof createSaltCache> | null = null;
+
 /**
- * Telt een paginabezoek, zonder persoonsgegevens: geen IP en geen cookie worden opgeslagen.
- * `visitor` is een hash die elke dag wisselt, alleen om unieke bezoekers per dag te tellen.
+ * Telt een paginabezoek: geen IP en geen cookie worden opgeslagen.
+ * `visitor` is een hash met een willekeurige salt die elke dag wisselt en daarna wordt verwijderd
+ * (`page_view_salt()`, migratie 0003; die ruimt ook bezoeken ouder dan 12 maanden op).
  * Bezoeken van de eigenaar (cookie ck-eigenaar, gezet bij inloggen op /admin) en bots tellen niet mee.
  */
 export async function POST(request: NextRequest) {
@@ -33,14 +42,25 @@ export async function POST(request: NextRequest) {
       refHost = null;
     }
   }
-  const day = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Amsterdam" }).format(new Date());
+  const today = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Amsterdam" }).format(new Date());
+  saltFor ??= createSaltCache(async () => {
+    const { data, error } = await client(url, key).rpc("page_view_salt");
+    if (error) {
+      console.error("page_view_salt", error.message);
+      return null;
+    }
+    const row = (Array.isArray(data) ? data[0] : data) as { salt_day?: string; salt_value?: string } | undefined;
+    return row?.salt_day && row.salt_value ? { day: row.salt_day, salt: row.salt_value } : null;
+  });
+  const daily = await saltFor(today);
+  if (!daily) return new NextResponse(null, { status: 204 }); // geen salt (migratie 0003 ontbreekt?): niet tellen
   const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "";
-  const visitor = createHash("sha256").update(`${day}|${ip}|${ua}|${key}`).digest("hex").slice(0, 16);
+  const visitor = visitorHash(daily.day, ip, ua, daily.salt);
   const device = /mobile|iphone|android/i.test(ua) ? "mobiel" : "desktop";
 
-  const { error } = await createClient(url, key, { auth: { persistSession: false } })
+  const { error } = await client(url, key)
     .from("page_views")
-    .insert({ day, path, ref_host: refHost, visitor, device });
+    .insert({ day: daily.day, path, ref_host: refHost, visitor, device });
   if (error) console.error("page_views", error.message);
   return new NextResponse(null, { status: 204 });
 }

@@ -8,6 +8,7 @@ import { getDeliveries } from "@/lib/delivery";
 import { parseDeadline } from "@/lib/delivery-core";
 import { FilterBar } from "@/components/FilterBar";
 import { ProductGrid } from "@/components/ProductCard";
+import { BudgetNote } from "@/components/BudgetNote";
 
 export const metadata: Metadata = {
   title: "Alle cadeaus",
@@ -57,6 +58,7 @@ async function Results({ searchParams }: { searchParams: Promise<SP> }) {
         {results.length} {results.length === 1 ? "cadeau" : "cadeaus"} gevonden
         {filters.uiterlijk && <> die uiterlijk {formatDate(filters.uiterlijk)} in huis zijn als je vandaag bestelt</>}
       </p>
+      {filters.budget && <BudgetNote className="mt-1" />}
       <div className="mt-4">
         {results.length ? (
           <ProductGrid products={results} deliveries={deliveries} now={new Date().toISOString()} />

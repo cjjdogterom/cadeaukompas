@@ -6,6 +6,7 @@ import { ARRIVE_BY, formatDate } from "@/lib/deadlines";
 import { AGE_GROUPS } from "@/lib/types";
 import { arrivalHeadline, isTomorrow } from "@/lib/season";
 import { ProductArt } from "@/components/ProductArt";
+import { BUDGET_NOTE } from "@/components/BudgetNote";
 
 
 
@@ -456,6 +457,7 @@ function ShopOp({ data }: { data: LandingData }) {
         <Lijst titel="Budget" items={data.budgets} kolommen="grid-cols-2 lg:grid-cols-1" />
         <Lijst titel="Interesse" items={data.interests} kolommen="grid-cols-2" />
       </div>
+      <p className="mt-3 text-[15px] leading-snug text-[#5f574d]">{BUDGET_NOTE}</p>
     </section>
   );
 }

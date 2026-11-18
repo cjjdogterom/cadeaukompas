@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Suspense } from "react";
+import { connection } from "next/server";
 import { notFound } from "next/navigation";
 import { getProduct, getProducts } from "@/lib/catalog";
-import { AGE_GROUPS, INTERESTS, MERCHANTS, RECIPIENTS } from "@/lib/types";
-import { formatPrice } from "@/lib/format";
-import { formatDate, lastOrderDate } from "@/lib/deadlines";
+import { AGE_GROUPS, INTERESTS, MERCHANTS, RECIPIENTS, type Product } from "@/lib/types";
+import { formatDate, lastOrderDate, todayInNL } from "@/lib/deadlines";
+import { getDeliveries } from "@/lib/delivery";
+import { deliveryText } from "@/lib/delivery-text";
+import { priceDisplay } from "@/lib/price";
+import { jsonLdString, productJsonLd } from "@/lib/product-ld";
+import { openOccasions } from "@/lib/season";
 import { site } from "@/lib/site";
 import { ProductArt } from "@/components/ProductArt";
 import { ProductGrid } from "@/components/ProductCard";
@@ -28,33 +34,9 @@ export default async function ProductPage({ params }: PageProps<"/cadeau/[slug]"
   if (!product) notFound();
 
   const merchant = MERCHANTS[product.merchant].name;
-  const sint = lastOrderDate(product.deliveryDaysMax, "sinterklaas");
-  const kerst = lastOrderDate(product.deliveryDaysMax, "kerst");
-  const delivery =
-    product.deliveryDaysMin === product.deliveryDaysMax
-      ? `${product.deliveryDaysMax} ${product.deliveryDaysMax === 1 ? "werkdag" : "werkdagen"}`
-      : `${product.deliveryDaysMin}–${product.deliveryDaysMax} werkdagen`;
   const related = (await getProducts())
     .filter((p) => p.slug !== product.slug && p.recipients.some((r) => product.recipients.includes(r)))
     .slice(0, 4);
-
-  const jsonLd = product.priceCheckedAt
-    ? {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        name: product.title,
-        description: product.description,
-        brand: product.brand ? { "@type": "Brand", name: product.brand } : undefined,
-        gtin13: product.ean,
-        offers: {
-          "@type": "Offer",
-          price: (product.priceCents / 100).toFixed(2),
-          priceCurrency: "EUR",
-          url: `${site.url}/cadeau/${product.slug}`,
-          seller: { "@type": "Organization", name: merchant },
-        },
-      }
-    : null;
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8">
@@ -73,29 +55,9 @@ export default async function ProductPage({ params }: PageProps<"/cadeau/[slug]"
           <p className="mt-4 text-lg leading-relaxed text-ink/85">{product.description}</p>
 
           <div className="mt-6 rounded-2xl border border-line bg-white p-5">
-            <p className="text-3xl font-semibold text-ink">{formatPrice(product.priceCents)}</p>
-            <p className="mt-1 text-sm text-muted">
-              Indicatieve prijs bij {merchant} incl. btw
-              {product.priceCheckedAt ? `, gecontroleerd op ${formatDate(product.priceCheckedAt.slice(0, 10), true)}` : ", nog niet gecontroleerd"}.
-              De prijs bij de winkel is leidend.
-            </p>
-
-            <dl className="mt-5 grid gap-3 text-sm sm:grid-cols-3">
-              <div className="rounded-xl bg-cream p-3">
-                <dt className="text-muted">Levertijd</dt>
-                <dd className="font-semibold text-ink">{delivery}</dd>
-              </div>
-              {product.occasions.includes("sinterklaas") && (
-                <div className="rounded-xl bg-cream p-3">
-                  <dt className="text-muted">Voor 5 december</dt>
-                  <dd className="font-semibold text-pine">Bestel t/m {formatDate(sint)}</dd>
-                </div>
-              )}
-              <div className="rounded-xl bg-cream p-3">
-                <dt className="text-muted">Voor kerst</dt>
-                <dd className="font-semibold text-pine">Bestel t/m {formatDate(kerst)}</dd>
-              </div>
-            </dl>
+            <Suspense fallback={<OfferFallback />}>
+              <Offer product={product} merchant={merchant} />
+            </Suspense>
 
             <a
               href={`/uit/${product.slug}`}
@@ -138,7 +100,82 @@ export default async function ProductPage({ params }: PageProps<"/cadeau/[slug]"
         </section>
       )}
 
-      {jsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />}
     </div>
+  );
+}
+
+const OCCASION_LABEL = { sinterklaas: "Voor 5 december", kerst: "Voor kerst" } as const;
+
+function OfferFallback() {
+  return (
+    <div className="min-h-[9.5rem]" aria-busy="true">
+      <p className="text-sm text-muted">Prijs en bezorgdatum laden…</p>
+    </div>
+  );
+}
+
+/**
+ * Prijs, bezorgdatum en structured data: hangen af van het moment van nu, dus per verzoek (na `connection()`).
+ * - Prijs alleen als hij hooguit 48 uur oud is, anders "Bekijk prijs bij {winkel}" en geen Offer in de JSON-LD.
+ * - Bezorgdatum: de belofte van bol als die er is, anders onze schatting, duidelijk als indicatie.
+ */
+async function Offer({ product, merchant }: { product: Product; merchant: string }) {
+  await connection();
+  const now = new Date();
+  const today = todayInNL(now);
+  const price = priceDisplay(product.priceCents, product.priceCheckedAt, now);
+  const delivery = (await getDeliveries([product])).get(product.slug)!;
+  const text = deliveryText(delivery, today, merchant);
+  const deadlines = openOccasions(today)
+    .filter((o) => product.occasions.includes(o))
+    .map((o) => ({ occasion: o, date: lastOrderDate(product.deliveryDaysMax, o) }))
+    .filter((d) => d.date >= today);
+  const usual =
+    product.deliveryDaysMin === product.deliveryDaysMax
+      ? `${product.deliveryDaysMax} ${product.deliveryDaysMax === 1 ? "werkdag" : "werkdagen"}`
+      : `${product.deliveryDaysMin}–${product.deliveryDaysMax} werkdagen`;
+
+  return (
+    <>
+      {price.kind === "prijs" ? (
+        <>
+          <p className="text-3xl font-semibold text-ink">{price.price}</p>
+          <p className="mt-1 text-sm text-muted">
+            Indicatieve prijs bij {merchant} incl. btw, gecontroleerd op {price.checked}. De prijs bij de winkel is leidend.
+          </p>
+        </>
+      ) : (
+        <>
+          <p className="text-2xl font-semibold text-ink">Bekijk prijs bij {merchant}</p>
+          <p className="mt-1 text-sm text-muted">De actuele prijs zie je bij {merchant}.</p>
+        </>
+      )}
+
+      <div className="mt-5 rounded-xl bg-cream p-3 text-sm">
+        <p className="font-semibold text-pine">{text.headline}</p>
+        <p className="mt-0.5 text-muted">{text.note}</p>
+      </div>
+
+      {deadlines.length > 0 && (
+        <>
+          <dl className="mt-3 grid gap-3 text-sm sm:grid-cols-2">
+            {deadlines.map((d) => (
+              <div key={d.occasion} className="rounded-xl bg-cream p-3">
+                <dt className="text-muted">{OCCASION_LABEL[d.occasion]}</dt>
+                <dd className="font-semibold text-pine">Bestel t/m {formatDate(d.date)}</dd>
+              </div>
+            ))}
+          </dl>
+          <p className="mt-2 text-xs text-muted">
+            Uiterste besteldata zijn onze indicatie: gebruikelijke levertijd van {usual} plus een dag buffer.
+          </p>
+        </>
+      )}
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLdString(productJsonLd(product, { merchant, siteUrl: site.url, now })) }}
+      />
+    </>
   );
 }

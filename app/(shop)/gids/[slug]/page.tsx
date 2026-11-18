@@ -5,6 +5,7 @@ import { getGuide, guides } from "@/lib/guides";
 import { getProducts } from "@/lib/catalog";
 import { BUDGETS } from "@/lib/types";
 import { ProductGrid } from "@/components/ProductCard";
+import { BudgetNote } from "@/components/BudgetNote";
 import { site } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -67,6 +68,7 @@ export default async function GuidePage({ params }: PageProps<"/gids/[slug]">) {
         <h2 className="font-display text-2xl font-semibold text-ink">{products.length} cadeaus in deze gids</h2>
         <Link href={`/cadeaus?${filterQuery}`} className="text-sm text-muted underline underline-offset-2">Verder filteren</Link>
       </div>
+      {guide.filters.budget && <BudgetNote className="mt-2" />}
       <div className="mt-5">
         {products.length ? <ProductGrid products={products} /> : <p className="text-muted">Deze gids wordt aangevuld.</p>}
       </div>

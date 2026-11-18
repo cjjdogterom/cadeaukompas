@@ -34,7 +34,7 @@ export const guides: Guide[] = [
       { q: "Wat geef je een collega die je niet goed kent?", a: "Iets praktisch of lekkers: een mok, een spel voor in de pauze of luxe thee. Vermijd persoonlijke verzorging of kleding." },
       { q: "Komt mijn cadeau op tijd voor de borrel?", a: "Bij elk product staat de uiterste besteldatum. Die rekent met werkdagen en een dag extra marge voor de drukte rond de feestdagen." },
     ],
-    related: ["sinterklaascadeau-tiener", "kerstpakket-thuiswerker", "cadeau-onder-15-euro", "cadeau-voor-partner"],
+    related: ["sinterklaascadeau-tiener", "kerstpakket-thuiswerker", "cadeau-onder-15-euro", "cadeau-voor-partner", "cadeau-thuiswerker-50-100-euro"],
   },
   {
     slug: "sinterklaascadeau-tiener",
@@ -77,7 +77,7 @@ export const guides: Guide[] = [
       { q: "Wat stop je in een kerstpakket voor thuiswerkers?", a: "Denk aan goede koffie of thee, een mok die warm blijft, een bureaulamp of iets voor ontspanning na het werk." },
       { q: "Wanneer moet ik bestellen voor kerst?", a: "Dat verschilt per product. De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, zodat het voor de kerstdagen in huis is." },
     ],
-    related: ["cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "sinterklaascadeau-tiener", "kerstcadeau-voor-vader"],
+    related: ["cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "sinterklaascadeau-tiener", "kerstcadeau-voor-vader", "cadeau-thuiswerker-50-100-euro", "sportcadeau-voor-volwassenen"],
   },
   {
     slug: "cadeau-onder-15-euro",
@@ -143,7 +143,7 @@ export const guides: Guide[] = [
       { q: "Hoeveel mag een cadeau voor een partner kosten?", a: "Dat bepaal je zelf. Een persoonlijk gekozen cadeau voor een beperkt bedrag werkt vaak beter dan een duur cadeau waar weinig over is nagedacht." },
       { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "Bij elk product staat de uiterste besteldatum voor beide momenten. Die is gebaseerd op de verwachte levertijd van de winkel plus een dag marge." },
     ],
-    related: ["cadeau-onder-25-euro-collega", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma"],
+    related: ["cadeau-onder-25-euro-collega", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "cadeau-thuiswerker-50-100-euro"],
   },
   {
     slug: "cadeau-voor-opa-en-oma",
@@ -166,7 +166,7 @@ export const guides: Guide[] = [
       { q: "Kan ik een cadeau rechtstreeks naar opa en oma laten bezorgen?", a: "Vaak kan dat met een ander bezorgadres, maar dat verschilt per winkel. Je bestelt wel bij de winkel zelf; we sturen je door via onze links. Controleer bij het bestellen het afleveradres en de levertijd." },
       { q: "Wanneer moet ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau. We rekenen met werkdagen en een dag extra marge voor de drukte." },
     ],
-    related: ["puzzel-en-spelcadeau-oma-opa", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "sinterklaascadeau-baby-peuter"],
+    related: ["puzzel-en-spelcadeau-oma-opa", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "sinterklaascadeau-baby-peuter", "cadeau-voor-wie-graag-kookt"],
   },
   {
     slug: "kerstcadeau-voor-vader",
@@ -189,7 +189,7 @@ export const guides: Guide[] = [
       { q: "Wanneer moet ik bestellen voor kerst?", a: "Dat verschilt per product. De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, inclusief een dag extra marge." },
       { q: "Is dit ook een goed cadeau voor Sinterklaas?", a: "Veel cadeaus passen ook bij Sinterklaas, maar de besteldeadline ligt dan eerder. Kijk bij het product naar de uiterste besteldatum per gelegenheid." },
     ],
-    related: ["cadeau-vader-klussen-gereedschap", "cadeau-voor-partner", "cadeau-voor-moeder", "cadeau-voor-opa-en-oma"],
+    related: ["cadeau-vader-klussen-gereedschap", "cadeau-voor-partner", "cadeau-voor-moeder", "cadeau-voor-opa-en-oma", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt"],
   },
   {
     slug: "cadeau-voor-moeder",
@@ -212,7 +212,7 @@ export const guides: Guide[] = [
       { q: "Wat geef je een moeder die zegt dat ze niets nodig heeft?", a: "Kies iets dat op raakt of een gezellig moment oplevert, zoals chocolade, handcrème of een boek. Dat voelt niet als extra spullen en toch weet ze dat je aan haar gedacht hebt." },
       { q: "Komt het cadeau op tijd voor pakjesavond of kerst?", a: "Bij elk product staat de uiterste besteldatum voor beide momenten. Die wordt per product berekend op basis van de verwachte levertijd van de winkel, met een dag extra marge." },
     ],
-    related: ["cadeau-voor-partner", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma", "cadeau-onder-25-euro-collega"],
+    related: ["cadeau-voor-partner", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma", "cadeau-onder-25-euro-collega", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt"],
   },
   {
     slug: "sinterklaascadeau-baby-peuter",
@@ -328,6 +328,76 @@ export const guides: Guide[] = [
       { q: "Wanneer moet ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau. We rekenen met werkdagen en een dag extra marge voor de drukte." },
     ],
     related: ["cadeau-voor-opa-en-oma", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "cadeau-onder-15-euro"],
+  },
+  {
+    slug: "sportcadeau-voor-volwassenen",
+    title: "Sportcadeau voor een sportieve volwassene",
+    metaTitle: "Sportcadeau voor volwassenen | OpTijdCadeau",
+    metaDescription:
+      "Sportcadeaus voor wie hardloopt, fit blijft of yogaat: yogamatten, foam rollers, drinkflessen en meer. Met levertijd en uiterste besteldatum per cadeau.",
+    intro: [
+      "Wie veel sport, heeft meestal al de basis in huis. Een goed sportcadeau sluit daarom aan bij wat iemand écht doet: elke week een rondje hardlopen, thuis trainen, een yogales volgen of na het werk even naar de sportschool. Kijk eerst welke sport het is en wat er al in de tas zit, dan wordt kiezen een stuk makkelijker.",
+      "In deze selectie staan onder meer yogamatten, foam rollers, weerstandsbanden, een kettlebell, een hardloophorloge en activity tracker, sportoordopjes, drinkflessen en massageapparaten voor het herstel na een training. Let bij elektronica op de aansluiting en op de telefoon of het horloge dat iemand al heeft. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. Je bestelt bij de winkel zelf; wij sturen je door en verkopen niets. Prijzen kunnen wijzigen, daarom tonen we de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { leeftijd: "volwassen", interesse: "sport" },
+    tips: [
+      "Kies iets voor het herstel of voor onderweg, zoals een foam roller of een goede drinkfles. Die gebruikt iedere sporter, ook als hij of zij al van alles heeft.",
+      "Vraag stiekem aan een sportmaatje welke apparaten er al zijn, zodat je geen tweede horloge of tracker koopt.",
+      "Bij een yogamat telt de dikte en de maat: een dikkere mat is zachter voor de knieën, een dunnere ligt stabieler bij staande houdingen.",
+    ],
+    faq: [
+      { q: "Wat geef je iemand die veel sport?", a: "Iets dat past bij de sport die diegene doet en dat het sporten prettiger maakt: een foam roller of massageapparaat voor het herstel, een goede fles of oordopjes voor onderweg." },
+      { q: "Is een hardloophorloge of activity tracker een goed cadeau?", a: "Dat kan, als de ontvanger de gegevens wil bijhouden. Check of iemand al een horloge draagt en welke telefoon er in gebruik is, want niet elke app werkt met elk apparaat." },
+      { q: "Wat geef je als ik niet weet welke sport iemand doet?", a: "Kies iets dat bij bijna elke sport van pas komt, zoals een drinkfles of een foam roller. Die zijn nuttig voor wie hardloopt, fit blijft of yogaat." },
+      { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge." },
+    ],
+    related: ["cadeau-voor-partner", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "kerstpakket-thuiswerker"],
+  },
+  {
+    slug: "cadeau-voor-wie-graag-kookt",
+    title: "Cadeau voor iemand die graag kookt en bakt",
+    metaTitle: "Cadeau voor wie graag kookt en bakt | OpTijdCadeau",
+    metaDescription:
+      "Cadeaus voor wie graag kookt of bakt: kookboeken, bakvormen, pannen en keukengerei. Met levertijd en uiterste besteldatum voor Sinterklaas en kerst.",
+    intro: [
+      "Wie graag kookt of bakt, kijkt bij een cadeau vooral naar wat er in de keuken echt gebruikt wordt. Een kookboek met recepten die je ook echt wilt maken, een bakvorm in de goede maat of een spatel die niet smelt: het zijn kleine dingen die elke week terugkomen.",
+      "In deze selectie staan kookboeken en bakboeken, bakvormen en ovenschalen, pannen, keukengerei, een handmixer en spullen voor de barbecue. Kijk voor je kiest wat er al in de keukenkast ligt, bijvoorbeeld welke maat bakvorm iemand gebruikt en of er een inductieplaat is. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. Je bestelt bij de winkel zelf; wij sturen je door en verkopen niets. Prijzen kunnen veranderen, daarom tonen we de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { leeftijd: "volwassen", interesse: "koken" },
+    tips: [
+      "Check bij pannen of ze geschikt zijn voor het fornuis van de ontvanger, bijvoorbeeld inductie, en bij een bakvorm welke maat er al is.",
+      "Een kookboek is een veilige keuze als je weet wat voor keuken iemand leuk vindt: vegetarisch, Italiaans, bakken of barbecueën.",
+      "Combineer een boek met een klein stuk keukengerei. Dan heeft iemand meteen iets om mee aan de slag te gaan.",
+    ],
+    faq: [
+      { q: "Wat geef je iemand die graag kookt?", a: "Iets dat vaak gebruikt wordt: een kookboek in de smaak van de ontvanger, een goede pan of handig keukengerei. Kies liever één degelijk ding dan een hele set die in de kast verdwijnt." },
+      { q: "Wat is een goed cadeau voor iemand die graag bakt?", a: "Een bakvorm of ovenschaal in een maat die vaak nodig is, een bakboek of een handmixer. Kijk eerst welke vormen iemand al heeft." },
+      { q: "Zijn kookcadeaus ook geschikt voor Sinterklaas en kerst?", a: "Ja, veel keukencadeaus passen bij beide momenten. De uiterste besteldatum verschilt per gelegenheid en staat bij elk product." },
+    ],
+    related: ["cadeau-voor-partner", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma"],
+  },
+  {
+    slug: "cadeau-thuiswerker-50-100-euro",
+    title: "Cadeau voor een thuiswerker van €50 tot €100",
+    metaTitle: "Cadeau thuiswerker €50 tot €100 | OpTijdCadeau",
+    metaDescription:
+      "Cadeaus voor thuiswerkers tussen €50 en €100: muis, toetsenbord, bureaulamp, koptelefoon en meer. Met levertijd en uiterste besteldatum per cadeau.",
+    intro: [
+      "Een thuiswerker zit al snel acht uur per dag op dezelfde plek. Dan merk je kleine verbeteringen direct: een muis die prettig in de hand ligt, een laptop op ooghoogte of licht dat niet in je ogen schijnt. Met een budget tussen €50 en €100 kun je daar goed in kiezen.",
+      "In deze selectie staan draadloze muizen en toetsenborden, een laptopstandaard, een monitorlamp, sfeerverlichting, koptelefoons met ruisonderdrukking, koffiemachines en een voetenwarmer voor koude dagen. Kijk eerst wat er al op het bureau staat, bijvoorbeeld welk merk en welke aansluiting iemand gebruikt, zodat het cadeau past. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. Je bestelt bij de winkel zelf; wij sturen je door en verkopen niets. Prijzen kunnen wijzigen, daarom tonen we de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { voor: "thuiswerker", budget: "50-100" },
+    tips: [
+      "Kijk wat er al op het bureau staat. Een muis of toetsenbord moet passen bij de aansluiting en het besturingssysteem van de ontvanger.",
+      "Iets voor een betere houding, zoals een laptopstandaard of ergonomische muis, wordt dagelijks gebruikt en valt minder snel in de categorie nog meer spullen.",
+      "Wil je een kleiner cadeau erbij? Combineer iets praktisch met iets om van te genieten, bijvoorbeeld goede koffie of thee.",
+    ],
+    faq: [
+      { q: "Wat geef je een thuiswerker voor €50 tot €100?", a: "Iets voor de werkplek dat dagelijks gebruikt wordt: een muis of toetsenbord, een laptopstandaard, een monitorlamp of een koptelefoon die omgevingsgeluid dempt." },
+      { q: "Is een koptelefoon met noise cancelling een goed cadeau voor thuiswerkers?", a: "Vaak wel, vooral als iemand veel belt of in een huis met meer mensen werkt. Kijk of iemand de voorkeur heeft voor over-ear of oordopjes." },
+      { q: "Wat is het verschil met de kerstgids voor thuiswerkers?", a: "Deze gids is gericht op een budget van €50 tot €100 en geldt voor elk moment van het jaar. De kerstgids toont cadeaus in alle prijsklassen die voor kerst nog op tijd komen." },
+    ],
+    related: ["kerstpakket-thuiswerker", "cadeau-onder-25-euro-collega", "cadeau-voor-partner"],
   },
 ];
 
