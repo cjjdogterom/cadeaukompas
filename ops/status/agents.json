@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-18T18:24:00+01:00",
+  "updatedAt": "2026-11-18T19:15:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "gepland",
-      "currentTask": "Volgende agent-ronde",
+      "status": "bezig",
+      "currentTask": "Agent-ronde 19:15: 3 product-scouts en seo-content",
       "lastRunAt": "2026-11-18T18:24:00+01:00",
       "lastResult": "Ronde 17:15: +54 cadeaus actief (686), 3 nieuwe gidsen (sport, koken, thuiswerker €50–100), rest compliance-fixes productpagina live",
       "nextRun": "Elk uur 08–22",
       "blockedBy": null
     },
     "product-scout": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "3 scouts: vrouwen/moeder/oma (creatief, muziek, sport, lezen, tech); jongens en vaders (gereedschap, gamen, sport, koken); tieners en thuiswerker/collega",
       "lastRunAt": "2026-11-18T18:24:00+01:00",
       "lastResult": "3 scouts: 64 nieuwe bol-cadeaus aangeleverd (35 vrouwen/moeder/oma koken, eten-drinken, sport; 21 vaders, collega, thuiswerker; 8 jongens 4–12). Jongens, kinderboeken en voetbal blijven dun: veel bol-pagina’s zonder zichtbare prijs",
       "nextRun": "Elke agent-ronde (elk uur)",
@@ -50,8 +50,8 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "gepland",
-      "currentTask": "Gidsen voor dunne zoekwoorden (muziek, eten en drinken, jongens 8–12)",
+      "status": "bezig",
+      "currentTask": "Gidsen muziek, eten en drinken en jongens 8–12 schrijven",
       "lastRunAt": "2026-11-18T18:24:00+01:00",
       "lastResult": "Gidsen ‘sportcadeau voor volwassenen’, ‘cadeau voor wie graag kookt’ en ‘thuiswerker €50–100’ toegevoegd en gekoppeld in 6 bestaande gidsen",
       "nextRun": "Volgende ronde",
