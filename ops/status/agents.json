@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-18T16:05:00+01:00",
+  "updatedAt": "2026-11-18T16:50:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "bezig",
-      "currentTask": "Agent-ronde 16:05: 2 product-scouts, seo-content en developer",
-      "lastRunAt": "2026-11-18T16:10:00+01:00",
-      "lastResult": "Ronde 15:15: +59 cadeaus actief (580), gidsen 0–3 en 4–7 jaar, compliance-hertoets GO met voorwaarden",
+      "status": "gepland",
+      "currentTask": "Volgende agent-ronde",
+      "lastRunAt": "2026-11-18T16:50:00+01:00",
+      "lastResult": "Ronde 16:05: +52 cadeaus actief (632), 3 nieuwe gidsen, compliance-fixes live (prijslabel met datum, Uitgelicht, Morgen in huis, seizoensbalk)",
       "nextRun": "Elk uur 08–22",
       "blockedBy": null
     },
     "product-scout": {
-      "status": "bezig",
-      "currentTask": "2 scouts: tieners/gamen/tech/thuiswerker en vader-gereedschap + moeder/oma (ook €50–100)",
-      "lastRunAt": "2026-11-18T16:10:00+01:00",
-      "lastResult": "2 scouts: 67 nieuwe bol-cadeaus aangeleverd (0–3 jaar, jongens, sport/koken/muziek/gamen)",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-18T16:50:00+01:00",
+      "lastResult": "2 scouts: 68 nieuwe bol-cadeaus aangeleverd (tieners/gamen/tech/thuiswerk; vader-gereedschap en moeder/oma, 29 stuks €50–100)",
       "nextRun": "Elke agent-ronde (elk uur)",
       "blockedBy": null
     },
@@ -27,19 +27,19 @@
     },
     "catalogus": {
       "status": "gepland",
-      "currentTask": "Alle prijzen dagelijks verversen via bol-API (48-uurregel)",
-      "lastRunAt": "2026-11-18T16:10:00+01:00",
-      "lastResult": "59 nieuwe cadeaus actief met foto en actuele prijs uit de bol-API; 8 overgeslagen (score onder 60); 3 superlatieven neutraal gemaakt. 580 actief",
+      "currentTask": "Alle prijzen dagelijks verversen via bol-API (48-uurregel); eerste ronde van 19-11 volledige verversing",
+      "lastRunAt": "2026-11-18T16:50:00+01:00",
+      "lastResult": "52 nieuwe cadeaus actief met foto, EAN en actuele prijs uit de bol-API; 16 niet geïmporteerd (score onder 60, waarvan 3 door onduidelijke verkoper). 632 actief",
       "nextRun": "Elke agent-ronde",
       "blockedBy": null
     },
     "developer": {
-      "status": "bezig",
-      "currentTask": "Compliance-fixes zonder akkoord: prijslabel met controledatum, \"Populair nu\" hernoemen, \"Morgen in huis\" op vr/za, Sint-datum na 2 dec",
-      "lastRunAt": "2026-11-17T19:45:00+01:00",
-      "lastResult": "Cookiebanner + Consent Mode v2 gebouwd en getest; prompts in dashboard",
-      "nextRun": "Conversiemeting zodra ID's er zijn",
-      "blockedBy": "GA4/Meta/Pinterest-ID's en akkoord cookiebanner"
+      "status": "gepland",
+      "currentTask": "Rest compliance-fixes: bol-bezorgdatum en 48-uurregel op productpagina (ook JSON-LD), budgetfilters bij verlopen prijs, dag-salt en opschoning bezoekteller",
+      "lastRunAt": "2026-11-18T16:50:00+01:00",
+      "lastResult": "Compliance-fixes live: prijslabel \"indicatief, gecontroleerd <datum>\" en 48-uurregel op kaarten, \"Uitgelicht\", \"Morgen in huis\" alleen als het klopt, seizoensbalk zonder verstreken Sint-datum; 32 tests groen",
+      "nextRun": "Volgende ronde",
+      "blockedBy": null
     },
     "qa": {
       "status": "geblokkeerd",
@@ -50,10 +50,10 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "bezig",
-      "currentTask": "Gidsen vader/gereedschap, oma en tiener gamen",
-      "lastRunAt": "2026-11-18T16:10:00+01:00",
-      "lastResult": "Gidsen baby en peuter (0–3) en kinderen 4–7 jaar toegevoegd; moedergids en nieuwe gidsen gekoppeld in related",
+      "status": "gepland",
+      "currentTask": "Gidsen voor dunne zoekwoorden (sport, koken, thuiswerker €50–100)",
+      "lastRunAt": "2026-11-18T16:50:00+01:00",
+      "lastResult": "Gidsen klussende vader/gereedschap, gamende tiener 13–17 en puzzel/spel voor oma en opa toegevoegd en gekoppeld in related",
       "nextRun": "Volgende ronde",
       "blockedBy": null
     },
