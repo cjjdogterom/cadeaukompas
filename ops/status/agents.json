@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-18T20:25:00+01:00",
+  "updatedAt": "2026-11-18T21:15:00+01:00",
   "agents": {
     "orchestrator": {
       "status": "bezig",
-      "currentTask": "Agent-ronde 20:25",
+      "currentTask": "Agent-ronde 21:15 (rondt ook ronde 20:25 af)",
       "lastRunAt": "2026-11-18T19:45:00+01:00",
       "lastResult": "Ronde 19:15: +82 cadeaus actief (768), 3 nieuwe gidsen (muziek, fijnproevers, jongens 8–12); 44 cadeaus voor vrouwen/moeder/oma op concept omdat de verkoper niet vaststaat",
       "nextRun": "Elk uur 08–22",
@@ -11,7 +11,7 @@
     },
     "product-scout": {
       "status": "bezig",
-      "currentTask": "2 scouts: vrouwen/moeder/oma (incl. 44 concepten van 19:15 via productpagina nalopen); jongens 4–12 en vaders (gereedschap, tech, sport)",
+      "currentTask": "2 scouts: vrouwen/moeder/oma (wellness, sport, tech, €50–100); jongens 0–7 en vaders (gamen, sport, gereedschap)",
       "lastRunAt": "2026-11-18T19:45:00+01:00",
       "lastResult": "3 scouts: 134 bol-cadeaus aangeleverd (45 jongens/vaders, 45 tieners/thuiswerker/collega, 44 vrouwen/moeder/oma). De 44 voor vrouwen komen van zoekpagina’s zonder vastgestelde verkoper en blijven op concept",
       "nextRun": "Elke agent-ronde (elk uur)",
@@ -26,8 +26,8 @@
       "blockedBy": "Alleen affiliate (keuze eigenaar 17-11): geen leveranciers nodig"
     },
     "catalogus": {
-      "status": "gepland",
-      "currentTask": "Alle prijzen dagelijks verversen via bol-API (48-uurregel); eerste ronde van 19-11 volledige verversing",
+      "status": "bezig",
+      "currentTask": "65 cadeaus uit ronde 20:25 importeren, activeren en verrijken via bol-API",
       "lastRunAt": "2026-11-18T19:45:00+01:00",
       "lastResult": "82 nieuwe cadeaus actief met foto, EAN en actuele prijs uit de bol-API (0 gepauzeerd); 6 niet geïmporteerd (score onder 60), 45 op concept (44 zonder vastgestelde verkoper, 2 met twijfel over inhoud of variant, 1 dubbel). 768 actief",
       "nextRun": "Elke agent-ronde",
@@ -51,7 +51,7 @@
     },
     "seo-content": {
       "status": "bezig",
-      "currentTask": "Gidsen creatief cadeau, cadeau voor lezers en verwencadeau voor haar",
+      "currentTask": "Gidsen creatief, lezers en verwencadeau voor haar (uit ronde 20:25) controleren en publiceren",
       "lastRunAt": "2026-11-18T19:45:00+01:00",
       "lastResult": "Gidsen ‘muziekcadeau’, ‘cadeau voor fijnproevers’ en ‘Sinterklaascadeau jongens 8–12’ toegevoegd en gekoppeld in 7 bestaande gidsen",
       "nextRun": "Volgende ronde",

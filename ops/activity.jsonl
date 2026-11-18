@@ -109,3 +109,6 @@
 {"ts":"2026-11-18T20:25:00+01:00","agent":"orchestrator","type":"gestart","summary":"Agent-ronde 20:25 gestart: 2 product-scouts en seo-content"}
 {"ts":"2026-11-18T20:25:00+01:00","agent":"product-scout","type":"gestart","summary":"2 scouts gestart: vrouwen/moeder/oma (ook de 44 concepten van 19:15 opnieuw via productpagina); jongens 4–12 en vaders (gereedschap, tech, sport)"}
 {"ts":"2026-11-18T20:25:00+01:00","agent":"seo-content","type":"gestart","summary":"Gidsen creatief cadeau, cadeau voor lezers en verwencadeau voor haar schrijven"}
+{"ts": "2026-11-18T21:15:00+01:00", "agent": "orchestrator", "type": "gestart", "summary": "Agent-ronde 21:15 gestart: 2 product-scouts; ronde 20:25 was onderbroken, catalogus en seo-content ronden die af"}
+{"ts": "2026-11-18T21:15:00+01:00", "agent": "product-scout", "type": "gestart", "summary": "2 scouts gestart: vrouwen/moeder/oma (wellness, sport, tech, €50–100); jongens 0–7 en vaders (gamen, sport, gereedschap)"}
+{"ts": "2026-11-18T21:15:00+01:00", "agent": "catalogus", "type": "gestart", "summary": "65 cadeaus uit ronde 20:25 (32 jongens/vaders, 33 vrouwen/moeder/oma) importeren en activeren"}
