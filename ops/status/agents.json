@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-18T22:15:00+01:00",
+  "updatedAt": "2026-11-18T22:50:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "bezig",
-      "currentTask": "Agent-ronde 22:15",
-      "lastRunAt": "2026-11-18T21:55:00+01:00",
-      "lastResult": "Ronde 21:15: +87 cadeaus actief (855), waarvan 37 uit de onderbroken ronde 20:25; 3 gidsen (creatief, lezers, verwencadeau voor haar)",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-18T22:50:00+01:00",
+      "lastResult": "Ronde 22:15: +48 cadeaus actief (903), 3 gidsen; 2 onder de norm van 50",
       "nextRun": "Elk uur 08–22",
       "blockedBy": null
     },
     "product-scout": {
-      "status": "bezig",
-      "currentTask": "2 scouts: moeder/oma (koken, muziek, eten-drinken, opa-oma) en jongens 8–17 + vaders (gamen, sport, gereedschap)",
-      "lastRunAt": "2026-11-18T21:55:00+01:00",
-      "lastResult": "2 scouts: 58 bol-cadeaus (32 vrouwen/moeder/oma wellness/sport/tech/audio; 26 jongens 0–7 en vaders), allemaal via productpagina gecontroleerd",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-18T22:50:00+01:00",
+      "lastResult": "2 scouts: 50 bol-cadeaus (34 moeder/oma koken, muziek, thuis; 16 jongens/vaders gamen, spellen, Stanley). Gamen/gereedschap/bbq al grotendeels uitgekamd",
       "nextRun": "Elke agent-ronde (elk uur)",
       "blockedBy": null
     },
@@ -28,8 +28,8 @@
     "catalogus": {
       "status": "gepland",
       "currentTask": "Eerste ronde van 19-11: alle prijzen verversen via bol-API (48-uurregel)",
-      "lastRunAt": "2026-11-18T21:55:00+01:00",
-      "lastResult": "50 + 37 nieuwe cadeaus actief met foto, EAN en prijs uit de bol-API (0 gepauzeerd); 9 niet geïmporteerd (score <60), 29 op concept. 855 actief",
+      "lastRunAt": "2026-11-18T22:50:00+01:00",
+      "lastResult": "48 nieuwe cadeaus actief met foto, EAN en prijs uit de bol-API (0 gepauzeerd); Weber-hoes niet geïmporteerd (score 58), KitchenAid Artisan op concept (modelnummer wijkt af). 903 actief; bezorgdatums ververst",
       "nextRun": "Elke agent-ronde",
       "blockedBy": null
     },
@@ -50,10 +50,10 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "bezig",
-      "currentTask": "Gidsen gamecadeau, cadeau voor oma en klusser/gereedschap schrijven",
-      "lastRunAt": "2026-11-18T21:30:00+01:00",
-      "lastResult": "Gidsen ‘creatief cadeau’, ‘cadeau voor lezers’ en ‘verwencadeau voor haar’ gepubliceerd en gekoppeld in 6 gidsen",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-18T22:50:00+01:00",
+      "lastResult": "Gidsen ‘kerstcadeau onder €50’ (toont €25–50), ‘cadeau voor een vriend’ en ‘cadeau voor wie alles al heeft’ gepubliceerd en gekoppeld in 7 gidsen",
       "nextRun": "Volgende ronde",
       "blockedBy": null
     },
