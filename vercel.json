@@ -1,3 +1,0 @@
-{
-  "crons": [{ "path": "/api/bol/warm", "schedule": "*/30 * * * *" }]
-}

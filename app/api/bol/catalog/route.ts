@@ -2,7 +2,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import { getProducts } from "@/lib/catalog";
 import { bolProductIdFromUrl, fetchBolProduct, fetchEan } from "@/lib/bol";
 
-export const maxDuration = 120;
+export const maxDuration = 60;
 
 /**
  * Verrijking van de catalogus uit de bol Marketing Catalog API: EAN en hoofdafbeelding per product.
