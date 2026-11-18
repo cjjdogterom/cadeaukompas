@@ -10987,7 +10987,7 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/jbl-go-5-draadloze-bluetooth-mini-speaker-voor-onderweg-en-thuis-sfeerverlichting-draadloos-muziek-box-boxje-10-uur-ip68-waterdicht-zwart/9300000252617209/"
     ],
-    "status": "actief",
+    "status": "concept",
     "scout": {
       "score": 78,
       "commissionPct": null,
@@ -42997,6 +42997,2481 @@
       "score": 68,
       "commissionPct": null,
       "notes": "Prijs € 48,37, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-botanicals-mini-orchidee-10343",
+    "title": "LEGO Botanicals Mini orchidee (10343)",
+    "merchantTitle": "LEGO Botanicals Mini orchidee - 10343",
+    "brand": "LEGO",
+    "ean": "5702017814643",
+    "short": "Een compacte bouwset van een bloeiende orchidee die je na het bouwen als decoratie neerzet.",
+    "description": "Je bouwt een kleine orchidee met bloemen en bladeren, 274 onderdelen in totaal. Het resultaat blijft mooi zonder water of verzorging. Een rustig bouwmoment en een bloemetje dat niet verwelkt, voor wie van planten en knutselen houdt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-botanicals-miniorchidee-10343/9300000187249569/",
+    "priceCents": 2256,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "moeder",
+      "partner",
+      "opa-oma",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "creatief",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 121,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-botanicals-miniorchidee-10343/9300000187249569/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 84,
+      "commissionPct": null,
+      "notes": "Prijs € 22,56, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-icons-japanse-abrikoos-10369",
+    "title": "LEGO Icons Japanse abrikoos (10369)",
+    "merchantTitle": "LEGO Icons Japanse abrikoos - Botanical Collection - 10369",
+    "brand": "LEGO",
+    "ean": null,
+    "short": "Een bouwset van een bloeiende abrikozentak als sfeervolle decoratie voor in huis.",
+    "description": "Een kleine bloesemtak om zelf in elkaar te zetten, met veel bloemetjes in zachte kleuren. Het is een rustig bouwproject van een avond en het resultaat past op een vensterbank of plank. Een mooie keuze voor iemand die van bloemen houdt maar geen verse wil bijhouden.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-icons-japanse-abrikoos-botanical-collection-10369/9300000175725315/",
+    "priceCents": 2289,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "moeder",
+      "partner",
+      "opa-oma",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "creatief",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 152,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-icons-japanse-abrikoos-botanical-collection-10369/9300000175725315/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 84,
+      "commissionPct": null,
+      "notes": "Prijs € 22,89, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. EAN niet op pagina.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-botanicals-petite-sunny-bouquet-10347",
+    "title": "LEGO Botanicals Petite Sunny Bouquet (10347)",
+    "merchantTitle": "LEGO Botanicals Petite Sunny Bouquet - 10347",
+    "brand": "LEGO",
+    "ean": null,
+    "short": "Een klein, vrolijk boeket om zelf te bouwen en neer te zetten.",
+    "description": "Een compact boeket van 373 onderdelen met zonnige kleuren. Je bouwt het zelf en het bloeit het hele jaar door. Handig als kleiner cadeau voor iemand die graag bouwt of haar huis met bloemen versiert.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-botanicals-petite-sunny-bouquet-10347/9300000198889969/",
+    "priceCents": 2247,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "moeder",
+      "partner",
+      "opa-oma",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "creatief",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-botanicals-petite-sunny-bouquet-10347/9300000198889969/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 76,
+      "commissionPct": null,
+      "notes": "Prijs € 22,47, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Totaalscore reviews niet zichtbaar, daarom rating null. Productnaam afgeleid uit paginalink.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-botanicals-boeket-zonnebloemen-11502",
+    "title": "LEGO Botanicals Boeket met zonnebloemen (11502)",
+    "merchantTitle": "LEGO Botanicals Boeket met Zonnebloemen - 11502",
+    "brand": "LEGO",
+    "ean": null,
+    "short": "Een zonnebloemboeket van LEGO-steentjes dat nooit verwelkt.",
+    "description": "Een bouwset voor volwassenen waarmee je een boeket zonnebloemen bouwt. Het is een rustig project en het eindresultaat staat mooi in huis, ook in de donkere maanden. Past bij iemand die van bloemen houdt en graag iets met haar handen doet.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-botanicals-boeket-met-zonnebloemen-11502/9300000243481707/",
+    "priceCents": 3899,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "moeder",
+      "partner",
+      "opa-oma",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "creatief",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 28,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-botanicals-boeket-met-zonnebloemen-11502/9300000243481707/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 80,
+      "commissionPct": null,
+      "notes": "Prijs € 38,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-botanicals-hibiscus-10372",
+    "title": "LEGO Botanicals Hibiscus (10372)",
+    "merchantTitle": "LEGO Botanicals Hibiscus - 10372",
+    "brand": "LEGO",
+    "ean": null,
+    "short": "Een grotere bloemenbouwset met hibiscus, bedoeld als blijvend stuk decoratie.",
+    "description": "Een uitgebreide bouwset voor volwassenen waarmee je een hibiscusplant maakt. Het bouwen duurt een tijdje en het resultaat is een opvallend stuk voor in de woonkamer. Een cadeau voor wie van een creatief project en planten in huis houdt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-botanicals-hibiscus-10372/9300000227400233/",
+    "priceCents": 5999,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "moeder",
+      "partner",
+      "opa-oma",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "creatief",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-botanicals-hibiscus-10372/9300000227400233/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 59,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Totaalscore reviews niet zichtbaar, rating null.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "jbl-flip-7-bluetooth-speaker-blauw",
+    "title": "JBL Flip 7 bluetooth speaker (blauw)",
+    "merchantTitle": "JBL Flip 7 - Portable Bluetooth Speaker - Draadloze Muziek Box - 16 uur - Waterdicht - IP68 - Blauw",
+    "brand": "JBL",
+    "ean": "1200130019289",
+    "short": "Een draagbare, waterdichte speaker met tot 16 uur speeltijd voor thuis of onderweg.",
+    "description": "Compacte bluetooth speaker met een stevig geluid, bestand tegen water en stof. Je neemt hem mee naar de tuin, het strand of de badkamer. Een praktisch muziekcadeau voor iemand die graag haar eigen muziek om zich heen heeft.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/jbl-flip-7-portable-bluetooth-speaker-blauw/9300000193746662/",
+    "priceCents": 11900,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "vriend",
+      "tiener"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "muziek",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 43,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/jbl-flip-7-portable-bluetooth-speaker-blauw/9300000193746662/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 78,
+      "commissionPct": null,
+      "notes": "Prijs € 119,00 (adviesprijs € 149,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Titel noemt IP68, specificatietabel IP67.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "jbl-charge-6-bluetooth-speaker-wit",
+    "title": "JBL Charge 6 bluetooth speaker (wit)",
+    "merchantTitle": "JBL Charge 6 - Draadloze Bluetooth Speaker met Afneembare Draagriem - Portable Muziek Box - 28 uur - Waterdicht - IP68 - Wit",
+    "brand": "JBL",
+    "ean": "1200130019586",
+    "short": "Een grotere draagbare speaker met veel batterij en een afneembare draagriem.",
+    "description": "Krachtige bluetooth speaker met tot 28 uur speeltijd en waterdichte behuizing. De draagriem maakt meenemen makkelijk. Een goed cadeau voor wie thuis of buiten graag muziek luistert.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/jbl-charge-6-draagbare-bluetooth-speaker-wit/9300000193746651/",
+    "priceCents": 12100,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "vriend",
+      "tiener"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "muziek",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 54,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/jbl-charge-6-draagbare-bluetooth-speaker-wit/9300000193746651/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 80,
+      "commissionPct": null,
+      "notes": "Prijs € 121,00 (adviesprijs € 129,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "jbl-clip-5-mini-speaker-camo",
+    "title": "JBL Clip 5 mini speaker (camo)",
+    "merchantTitle": "JBL Clip 5 - Draagbare Bluetooth Mini Speaker - Met Haak om te hangen - Draadloos Muziek Box - 12 uur - Waterbestendig - IP67 - Camo",
+    "brand": "JBL",
+    "ean": "1200130010224",
+    "short": "Een kleine speaker met karabijnhaak die je overal aan kunt hangen.",
+    "description": "Compacte bluetooth speaker met tot 12 uur speeltijd en een waterbestendige behuizing. De haak maakt hem handig voor tas, fiets of wandeltocht. Een handzaam muziekcadeau in een mooie prijsklasse.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/jbl-clip-5-draagbare-bluetooth-mini-speaker-camo/9300000167137770/",
+    "priceCents": 6000,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "vriend",
+      "tiener"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "muziek",
+      "tech",
+      "sport"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 44,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/jbl-clip-5-draagbare-bluetooth-mini-speaker-camo/9300000167137770/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 82,
+      "commissionPct": null,
+      "notes": "Prijs € 60,00 (adviesprijs € 69,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "jbl-live-770nc-koptelefoon-zwart",
+    "title": "JBL Live 770NC draadloze koptelefoon (zwart)",
+    "merchantTitle": "JBL Live 770NC - Draadloze Noise Cancelling Koptelefoon - Bluetooth - Over-ear - 65 uur batterij - Adaptive ANC - Zwart",
+    "brand": "JBL",
+    "ean": "1200130004582",
+    "short": "Een over-ear koptelefoon met noise cancelling en een zeer lange batterijduur.",
+    "description": "Draadloze koptelefoon met adaptieve ruisonderdrukking en een batterij die dagen meegaat. Handig in de trein, op kantoor of bij het sporten. Een prima keuze voor iemand die veel muziek of podcasts luistert.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/jbl-live-770nc-draadloze-over-ear-koptelefoon-met-noise-cancelling-zwart/9300000151669587/",
+    "priceCents": 7499,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "vriend",
+      "thuiswerker",
+      "collega"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "muziek",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 136,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/jbl-live-770nc-draadloze-over-ear-koptelefoon-met-noise-cancelling-zwart/9300000151669587/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 86,
+      "commissionPct": null,
+      "notes": "Prijs € 74,99 (Black Friday-deal, adviesprijs € 179,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Aanbieding kan tijdelijk zijn.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "sony-wh-1000xm5-koptelefoon-smoky-pink",
+    "title": "Sony WH-1000XM5 draadloze koptelefoon (roze)",
+    "merchantTitle": "Sony WH-1000XM5 - Draadloze koptelefoon met Noise Cancelling - Smoky Pink / Roze",
+    "brand": "Sony",
+    "ean": "4548736163591",
+    "short": "Een premium over-ear koptelefoon met sterke noise cancelling in een zachtroze kleur.",
+    "description": "Draadloze koptelefoon met ruisonderdrukking en een batterij die tot ongeveer 40 uur meegaat. Hij zit licht en comfortabel en past bij wie veel reist of thuis wil focussen. Een luxe muziekcadeau voor een hoger budget.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/sony-wh-1000xm5-draadloze-koptelefoon-met-noise-cancelling-roze/9300000187649792/",
+    "priceCents": 24500,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "vriend",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "muziek",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4,
+      "count": 141,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/sony-wh-1000xm5-draadloze-koptelefoon-met-noise-cancelling-roze/9300000187649792/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 245,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Reviewscore 4,0 is gemiddeld voor deze prijsklasse.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "soundcore-liberty-4-nc-oordopjes",
+    "title": "soundcore Liberty 4 NC draadloze oordopjes",
+    "merchantTitle": "Soundcore Liberty 4 NC - Draadloze Oordopjes - Zwart - Anker",
+    "brand": "soundcore (Anker)",
+    "ean": null,
+    "short": "Draadloze oordopjes met noise cancelling en een lange batterijduur.",
+    "description": "In-ear oordopjes met adaptieve ruisonderdrukking en tot 50 uur batterij inclusief oplaadcase. Ze zijn klein genoeg voor een jaszak en geschikt voor sport, werk en reizen. Een betaalbaar muziekcadeau met veel functies.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/soundcore-liberty-4-nc-wireless-noise-cancelling-earbuds-98-5-noise-reduction-adaptive-noise-cancelling-to-ears-and-environment-hi-res-sound-50h-battery/9300000156937368/",
+    "priceCents": 6619,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "vriend",
+      "tiener",
+      "collega"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "muziek",
+      "tech",
+      "sport"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.3,
+      "count": 125,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/soundcore-liberty-4-nc-wireless-noise-cancelling-earbuds-98-5-noise-reduction-adaptive-noise-cancelling-to-ears-and-environment-hi-res-sound-50h-battery/9300000156937368/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 78,
+      "commissionPct": null,
+      "notes": "Prijs € 66,19 (adviesprijs € 89,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Op de pagina verwijzen reviews en koopknop naar twee productnummers (kleurvarianten), dus kleur van de prijs niet 100% zeker.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "samsung-galaxy-buds3-fe-oordopjes",
+    "title": "Samsung Galaxy Buds3 FE draadloze oordopjes",
+    "merchantTitle": "Samsung Galaxy Buds3 FE",
+    "brand": "Samsung",
+    "ean": null,
+    "short": "Draadloze oordopjes met noise cancelling van Samsung, ook bruikbaar met andere telefoons.",
+    "description": "In-ear oordopjes met actieve ruisonderdrukking, bluetooth 5.4 en tot 24 uur batterij met case. Ze werken het best met een Samsung-telefoon maar koppelen ook met andere toestellen. Een compact tech- en muziekcadeau.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/samsung-galaxy-buds3-fe-grijs/9300000237365115/",
+    "priceCents": 7900,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "vriend",
+      "tiener"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "muziek",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 35,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/samsung-galaxy-buds3-fe-grijs/9300000237365115/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 79,00 (Black Friday-deal, adviesprijs € 149,00), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Pagina toont zwart terwijl URL de grijze variant is; kleur van de prijs niet zeker.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "philips-sonicare-3100-hx3671-13-wit",
+    "title": "Philips Sonicare 3100 elektrische tandenborstel (wit)",
+    "merchantTitle": "Philips Sonicare Series 3100 HX3671/13 - Elektrische tandenborstel - Wit",
+    "brand": "Philips Sonicare",
+    "ean": null,
+    "short": "Een elektrische sonische tandenborstel van een bekend merk, voor de dagelijkse verzorging.",
+    "description": "Sonische tandenborstel met drukwaarschuwing en timer. Een praktisch verzorgingscadeau voor wie nog met een handtandenborstel poetst of een nieuwe nodig heeft. Eenvoudig in gebruik en makkelijk in te pakken.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/philips-sonicare-series-3100-hx3671-13-elektrische-tandenborstel-wit/9300000043847505/",
+    "priceCents": 4999,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "opa-oma",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "wellness"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 3.9,
+      "count": 203,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/philips-sonicare-series-3100-hx3671-13-elektrische-tandenborstel-wit/9300000043847505/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 49,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Reviewscore 3,9 is mager. Beschrijving gebaseerd op algemene productkenmerken, niet gekopieerd.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "beurer-mg-149-shiatsu-massagekussen",
+    "title": "Beurer MG 149 shiatsu massagekussen met warmte",
+    "merchantTitle": "Beurer MG 149 - Shiatsu Massagekussen - Licht & Infrarood verwarming - 4 Shiatsu massagekoppen",
+    "brand": "Beurer",
+    "ean": null,
+    "short": "Een shiatsu massagekussen met warmte voor nek, rug en benen.",
+    "description": "Massagekussen met vier massagekoppen en warmtefunctie, bruikbaar op bank, stoel of in bed. Past bij wie last heeft van een stijve nek na een lange dag. Een ontspanningscadeau van een bekend merk voor gezondheidsproducten.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/beurer-mg149-infrarood-shiatsu-massagekussen/9200000081834602/",
+    "priceCents": 5900,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "moeder",
+      "partner",
+      "opa-oma",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "wellness",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/beurer-mg149-infrarood-shiatsu-massagekussen/9200000081834602/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 59,00 (adviesprijs € 69,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Totaalscore reviews niet zichtbaar, rating null; een zichtbare review meldt dat het kussen niet echt warm wordt.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "beurer-mg-315-shiatsu-stoelkussen",
+    "title": "Beurer MG 315 shiatsu massagekussen 3-in-1",
+    "merchantTitle": "Beurer MG315 - Shiatsu massagekussen - 3-in-1 massage",
+    "brand": "Beurer",
+    "ean": null,
+    "short": "Een luxer massagekussen voor op de stoel met rollende en zwaaiende massage en warmte.",
+    "description": "Massagekussen met bodyscan, drie programma's, timer en warmte, bedoeld voor op een stoel of bank. Het is een duurder ontspanningscadeau voor wie thuis wil bijkomen van een drukke dag. Past bij een fijne, rustige avond.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/beurer-mg315-shiatsu-massagekussen-3-in-1-massage/9300000023578510/",
+    "priceCents": 21900,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "moeder",
+      "partner",
+      "opa-oma"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "wellness",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/beurer-mg315-shiatsu-massagekussen-3-in-1-massage/9300000023578510/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 60,
+      "commissionPct": null,
+      "notes": "Prijs € 219,00 (adviesprijs € 279,00), verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Pagina meldt 'Huidige voorraad bijna op bij deze verkoper'. Geen totaalscore reviews zichtbaar. Prijs wisselt sterk tussen bol-pagina's.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "withings-body-smart-weegschaal-zwart",
+    "title": "Withings Body Smart slimme weegschaal (zwart)",
+    "merchantTitle": "Withings Body Smart - Slimme Weegschaal - Zwart - Lichaamssamenstelling",
+    "brand": "Withings",
+    "ean": null,
+    "short": "Een slimme weegschaal die gewicht en lichaamssamenstelling bijhoudt in een app.",
+    "description": "Weegschaal die via wifi en bluetooth met een app verbindt, zodat je je gewicht en lichaamssamenstelling in de loop van de tijd ziet. Handig voor wie bewuster met sport en voeding bezig is. Een nuttig wellnesscadeau zonder gedoe.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/withings-body-smart-zwart/9300000150949204/",
+    "priceCents": 7499,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "wellness",
+      "sport",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/withings-body-smart-zwart/9300000150949204/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 64,
+      "commissionPct": null,
+      "notes": "Prijs € 74,99 (Black Friday-deal, adviesprijs € 99,95), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Totaalscore reviews niet zichtbaar, rating null.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "fitbit-charge-6-activity-tracker",
+    "title": "Fitbit Charge 6 activity tracker",
+    "merchantTitle": "Fitbit Charge 6 - Activity Tracker - Porselein",
+    "brand": "Fitbit",
+    "ean": "0840353901186",
+    "short": "Een slanke activity tracker voor stappen, hartslag en slaap.",
+    "description": "Sporttracker voor om de pols met hartslagmeting, stappenteller en sportstanden. Je ziet je activiteit en slaap terug in de app. Een goede start voor wie meer wil bewegen, al zijn de reviews gemengd.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/fitbit-charge-6-activity-tracker-horloge-met-stappenteller-beige/9300000160699576/",
+    "priceCents": 8395,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "vriend",
+      "tiener"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "sport",
+      "wellness",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 3.7,
+      "count": 209,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/fitbit-charge-6-activity-tracker-horloge-met-stappenteller-beige/9300000160699576/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 83,95 (Black Friday-deal, adviesprijs € 138,07), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Reviewscore 3,7 is laag; kleur beige/porselein.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "garmin-forerunner-55-aqua",
+    "title": "Garmin Forerunner 55 sporthorloge (aqua)",
+    "merchantTitle": "Garmin Forerunner 55 - Sporthorloge met GPS Tracker - Geschikt voor Hardlopen - 42mm - Aqua",
+    "brand": "Garmin",
+    "ean": "0753759279653",
+    "short": "Een instap-hardloophorloge met GPS en hartslagmeting in een compacte maat.",
+    "description": "Sporthorloge van 42 mm met GPS en trainingsschema's voor hardlopers. Handig om tempo en afstand bij te houden. Een geschikt cadeau voor wie net begint met hardlopen of er meer uit wil halen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/garmin-forerunner-55-hardloophorloge-sporthorloge-met-gps-tracker-geschikt-voor-hardlopen-aqua/9300000033849260/",
+    "priceCents": 19999,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vriend",
+      "moeder"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "sport",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 95,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/garmin-forerunner-55-hardloophorloge-sporthorloge-met-gps-tracker-geschikt-voor-hardlopen-aqua/9300000033849260/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 199,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Pagina meldt 'Huidige voorraad bijna op' en 'Niet leverbaar' bij een niet-aangewezen kleur; Aqua lijkt bestelbaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "garmin-forerunner-165-mist-grey",
+    "title": "Garmin Forerunner 165 hardloophorloge (grijs)",
+    "merchantTitle": "Garmin Forerunner 165 - Hardloophorloge - Mist Grey-Whitestone",
+    "brand": "Garmin",
+    "ean": null,
+    "short": "Een licht hardloophorloge met AMOLED-scherm, GPS en trainingsplannen.",
+    "description": "Hardloophorloge met helder scherm, GPS, hartslag en tot 11 dagen batterij in smartwatchmodus. Het geeft tempo, afstand en trainingsadvies. Een stevig cadeau voor wie serieus loopt of daarmee wil beginnen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/garmin-forerunner-165-lichtgewicht-gps-hardloophorloge-amoled-beeldscherm-nauwkeurig-tempo-afstand-en-hartslag-aanpasbare-trainingsschema-s-tot-11-dagen-batterij-mist-grey-whitestone/9300000167888720/",
+    "priceCents": 17900,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vriend",
+      "moeder"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "sport",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 39,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/garmin-forerunner-165-lichtgewicht-gps-hardloophorloge-amoled-beeldscherm-nauwkeurig-tempo-afstand-en-hartslag-aanpasbare-trainingsschema-s-tot-11-dagen-batterij-mist-grey-whitestone/9300000167888720/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 179,00 (Black Friday-deal, adviesprijs € 229,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Welke kleurvariant de prijs betreft is op de pagina niet eenduidig; EAN daarom leeg gelaten.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "garmin-vivoactive-5-orchid",
+    "title": "Garmin Vivoactive 5 smartwatch (orchid)",
+    "merchantTitle": "Garmin Vivoactive 5 - Sporthorloge - AMOLED-scherm - Orchid/Orchid Metallic",
+    "brand": "Garmin",
+    "ean": "0753759324933",
+    "short": "Een stijlvolle sport-smartwatch met AMOLED-scherm, sportapps en slaapcoaching.",
+    "description": "Smartwatch met sportmodi, hartslag, slaapcoaching en tot 11 dagen batterij in smartwatchmodus. De orchidkleur is wat opvallender dan de gebruikelijke zwart-grijs. Een uitgebreid cadeau voor wie sport en gezondheid wil volgen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/garmin-vivoactive-5-music-smartwatch-sporthorloge-amoled-scherm-11-dagen-batterij-sportapps-30-meditatie-garmin-pay-slaapcoaching-orchid-orchid-metallic/9300000160618627/",
+    "priceCents": 20100,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "sport",
+      "wellness",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 143,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/garmin-vivoactive-5-music-smartwatch-sporthorloge-amoled-scherm-11-dagen-batterij-sportapps-30-meditatie-garmin-pay-slaapcoaching-orchid-orchid-metallic/9300000160618627/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 201,00 (adviesprijs € 239,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "philips-hue-iris-tafellamp-zilver",
+    "title": "Philips Hue Iris tafellamp (zilver, limited edition)",
+    "merchantTitle": "Philips Hue Iris Tafellamp - White and Color Ambiance - Geintegreerd LED - Zilver - 8,1W - Bluetooth - Limited Edition",
+    "brand": "Philips Hue",
+    "ean": null,
+    "short": "Een slimme sfeerlamp die gekleurd licht tegen de muur werpt, in zilveren afwerking.",
+    "description": "Tafellamp met wit en gekleurd licht die je via een app of bluetooth bedient. Hij werpt een zachte gloed op de muur erachter en geeft elke kamer sfeer. Een stijlvol cadeau voor wie haar huis gezellig wil aankleden.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/philips-hue-iris-tafellamp-white-and-color-ambiance-geintegreerd-led-zilver-8-1w-bluetooth-limited-edition/9300000048864707/",
+    "priceCents": 11940,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "vriend",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "thuis",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/philips-hue-iris-tafellamp-white-and-color-ambiance-geintegreerd-led-zilver-8-1w-bluetooth-limited-edition/9300000048864707/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 119,40, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Pagina meldt 'Huidige voorraad bijna op'. Reviewscore van de zilveren variant niet zichtbaar, rating null.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "philips-senseo-select-csa230-90",
+    "title": "Philips Senseo Select koffiepadmachine (rood/grijs)",
+    "merchantTitle": "Philips Senseo Select CSA230/90 Koffiepadapparaat Diep rood en Kasjmiergrijs",
+    "brand": "Philips Senseo",
+    "ean": null,
+    "short": "Een koffiepadmachine voor een of twee kopjes met instelbare sterkte.",
+    "description": "Padmachine met een waterreservoir van 0,9 liter en een regelaar voor de sterkte van je koffie. Compact en eenvoudig te bedienen, in een warme rode kleur. Een gezellig huiscadeau voor een koffieliefhebber.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/philips-senseo-select-csa230-90-koffiepadapparaat-dieprood-en-kasjmiergrijs/9300000022030119/",
+    "priceCents": 8018,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "moeder",
+      "partner",
+      "opa-oma",
+      "collega"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "thuis",
+      "koken",
+      "eten-drinken"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/philips-senseo-select-csa230-90-koffiepadapparaat-dieprood-en-kasjmiergrijs/9300000022030119/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 80,18 (adviesprijs € 99,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Totaalscore reviews niet duidelijk zichtbaar, rating null.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "philips-3000-series-dual-airfryer-9l-na352",
+    "title": "Philips 3000 Series dubbele airfryer 9 liter",
+    "merchantTitle": "Philips Airfryer 3000 serie - 9L - Dubbele mand - Rapid Air Plus - NA352/04",
+    "brand": "Philips",
+    "ean": null,
+    "short": "Een airfryer met twee manden, geschikt voor een heel gezin.",
+    "description": "Heteluchtfriteuse met twee manden samen goed voor 9 liter. Je bereidt twee gerechten tegelijk. Een praktisch keukencadeau voor wie veel kookt of vaak voor meer mensen zorgt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/philips-airfryer-9l-met-dubbele-mand-rapidair-digitaal-zwart/9300000177050737/",
+    "priceCents": 13662,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "moeder",
+      "partner",
+      "opa-oma",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "koken",
+      "thuis",
+      "eten-drinken"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 33,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/philips-airfryer-9l-met-dubbele-mand-rapidair-digitaal-zwart/9300000177050737/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 136,62 (adviesprijs € 219,99), verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Titel afgeleid uit productlink en zoekresultaat.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "philips-5000-series-dual-basket-airfryer",
+    "title": "Philips 5000 Series dubbele airfryer",
+    "merchantTitle": "Philips 5000 series 5000-serie",
+    "brand": "Philips",
+    "ean": "8720389047558",
+    "short": "Een dubbele airfryer met twee manden naast elkaar voor grotere maaltijden.",
+    "description": "Heteluchtfriteuse uit de 5000-serie met twee manden die je tegelijk of apart gebruikt. Handig voor gezinnen of voor wie graag meerdere gerechten tegelijk klaarmaakt. Een uitgebreid keukencadeau in de hogere prijsklasse.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/philips-5000-series-5000-serie/9300000193442139/",
+    "priceCents": 19600,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "moeder",
+      "partner",
+      "opa-oma"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "koken",
+      "thuis",
+      "eten-drinken"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 28,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/philips-5000-series-5000-serie/9300000193442139/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 196,00 (adviesprijs € 266,95), verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Exacte productnaam/modelnummer niet volledig zichtbaar; merchantTitle uit de paginalink.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "super-mario-bros-wonder-nintendo-switch",
+    "title": "Super Mario Bros. Wonder (Nintendo Switch)",
+    "merchantTitle": "Super Mario Bros. Wonder - Nintendo Switch",
+    "brand": "Nintendo",
+    "ean": "0045496479800",
+    "short": "Een vrolijk Mario-platformspel voor een of meer spelers.",
+    "description": "Een kleurrijk platformspel waarin je samen of alleen door levels springt, met veel verrassingen. Geschikt voor een brede leeftijd en leuk voor de hele familie. Een vaste gamekeuze voor wie een Switch heeft.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/super-mario-bros-wonder-nintendo-switch/9300000153235492/",
+    "priceCents": 4699,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vriend",
+      "tiener",
+      "kind"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17",
+      "8-12"
+    ],
+    "interests": [
+      "gamen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 215,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/super-mario-bros-wonder-nintendo-switch/9300000153235492/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 80,
+      "commissionPct": null,
+      "notes": "Prijs € 46,99 (adviesprijs € 50,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "super-mario-party-jamboree-nintendo-switch",
+    "title": "Super Mario Party Jamboree (Nintendo Switch)",
+    "merchantTitle": "Super Mario Party: Jamboree - Nintendo Switch",
+    "brand": "Nintendo",
+    "ean": null,
+    "short": "Een partyspel met ruim honderd minigames voor samen op de bank.",
+    "description": "Partyspel met veel minigames en bordspelachtige velden voor meerdere spelers. Goed voor een gezellige avond met familie of vrienden. Een aanrader als gezamenlijk spelcadeau.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/super-mario-party-jamboree-nintendo-switch/9300000182274279/",
+    "priceCents": 4699,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vriend",
+      "tiener",
+      "kind"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17",
+      "8-12"
+    ],
+    "interests": [
+      "gamen",
+      "spellen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/super-mario-party-jamboree-nintendo-switch/9300000182274279/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 46,99 (adviesprijs € 50,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Reviewscore van deze listing niet zichtbaar, rating null.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "kirby-air-riders-nintendo-switch-2",
+    "title": "Kirby Air Riders (Nintendo Switch 2)",
+    "merchantTitle": "Nintendo Kirby Air Riders - Nintendo Switch 2 - Racegame - Multiplayer",
+    "brand": "Nintendo",
+    "ean": "0045496313166",
+    "short": "Een snel racespel voor Switch 2 met Kirby, voor een of meer spelers.",
+    "description": "Racegame met Kirby voor de Nintendo Switch 2, ook geschikt voor lokaal meerspelen. Voor wie een Switch 2 heeft en iets lichts voor tussendoor zoekt. Een goedkoper gamecadeau.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/kirby-air-riders/9300000232052865/",
+    "priceCents": 2999,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "partner",
+      "vriend",
+      "tiener",
+      "kind"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17",
+      "8-12"
+    ],
+    "interests": [
+      "gamen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 15,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/kirby-air-riders/9300000232052865/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 29,99 (deal, adviesprijs € 53,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Werkt alleen op Switch 2.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-technic-ford-gt-42154",
+    "title": "LEGO Technic Ford GT (42154)",
+    "merchantTitle": "LEGO Technic 2022 Ford GT Auto Supercar Modelbouwpakket voor Volwassenen - 42154",
+    "brand": "LEGO",
+    "ean": "5702017424965",
+    "short": "Een Technic-supercar op schaal 1:12 om rustig in elkaar te zetten.",
+    "description": "Dit model van de Ford GT heeft ruim 1400 onderdelen en opent met deuren en motorkap. Het bouwen is een geduldig klusje voor een avond of twee. Daarna is het een mooi stuk om neer te zetten.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-technic-2022-ford-gt-auto-modelbouwset-42154/9300000132639056/",
+    "priceCents": 7900,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader",
+      "partner",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 103,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-technic-2022-ford-gt-auto-modelbouwset-42154/9300000132639056/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 82,
+      "commissionPct": null,
+      "notes": "Prijs € 79,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-technic-lamborghini-revuelto-42214",
+    "title": "LEGO Technic Lamborghini Revuelto (42214)",
+    "merchantTitle": "LEGO Technic Lamborghini Revuelto Supersportwagen - 42214",
+    "brand": "LEGO",
+    "ean": null,
+    "short": "Een Technic-supersportwagen met meer dan 1100 onderdelen voor wie graag bouwt.",
+    "description": "De Revuelto is een flink bouwproject met een detailrijk chassis en een opvallende lak. Geschikt voor tieners en volwassenen die van auto's en techniek houden. Het eindresultaat past goed op een plank.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-technic-lamborghini-revuelto-supersportwagen-42214/9300000227400277/",
+    "priceCents": 12399,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader",
+      "tiener",
+      "vriend"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 11,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-technic-lamborghini-revuelto-supersportwagen-42214/9300000227400277/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 123,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Geen EAN op pagina; minimumleeftijd 10 jaar volgens pagina.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-technic-koenigsegg-sadairs-spear-42232",
+    "title": "LEGO Technic Koenigsegg Sadair's Spear (42232)",
+    "merchantTitle": "LEGO Technic Koenigsegg Sadair's Spear Megacar - Technische Bouwset voor Volwassenen - 42232",
+    "brand": "LEGO",
+    "ean": "5702018067086",
+    "short": "Een groot Technic-megacar-project met ruim 4000 onderdelen.",
+    "description": "Een flink bouwproject voor de echte liefhebber van auto's en techniek, met zo'n 4100 onderdelen. Het kost dagen om te bouwen en het resultaat is een indrukwekkend displaymodel. Een cadeau voor een bijzondere gelegenheid.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-technic-koenigsegg-sadair-s-spear-megacar-technische-bouwset-voor-volwassenen-42232/9300000265640017/",
+    "priceCents": 32959,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader",
+      "partner",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 12,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-technic-koenigsegg-sadair-s-spear-megacar-technische-bouwset-voor-volwassenen-42232/9300000265640017/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 70,
+      "commissionPct": null,
+      "notes": "Prijs € 329,59, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Hoge prijs, kleine doelgroep.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-technic-mclaren-formule-1-42141",
+    "title": "LEGO Technic McLaren Formule 1 racewagen (42141)",
+    "merchantTitle": "LEGO 42141 Technic McLaren Formule 1 2022 Racewagen Set voor Volwassenen",
+    "brand": "LEGO",
+    "ean": "5702017160795",
+    "short": "Een F1-racewagen met bijna 1450 onderdelen, voor de race- en bouwfan.",
+    "description": "Dit model heeft een werkende motor met bewegende zuigers en een gedetailleerde achterwielophanging. Ook stickers van de sponsors zitten in de doos. Een geduldig bouwproject voor wie van Formule 1 houdt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-technic-mclaren-formule-1-racewagen-42141/9300000070995040/",
+    "priceCents": 15999,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader",
+      "partner",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "sport"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 117,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-technic-mclaren-formule-1-racewagen-42141/9300000070995040/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 78,
+      "commissionPct": null,
+      "notes": "Prijs € 159,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-technic-ferrari-sf-24-f1-42207",
+    "title": "LEGO Technic Ferrari SF-24 F1-auto (42207)",
+    "merchantTitle": "LEGO Technic - Ferrari SF-24 F1 auto - 42207",
+    "brand": "LEGO",
+    "ean": null,
+    "short": "Een Ferrari-F1-model op schaal 1:8 om zelf te bouwen en uit te stallen.",
+    "description": "De SF-24 telt ruim 1300 onderdelen en heeft veel details van de echte wagen. Het is een flinke klus die een paar avonden kost. Een mooi cadeau voor een Ferrari- of F1-fan.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-technic-ferrari-sf-24-f1-auto-formule-1-racewagen-42207/9300000192425967/",
+    "priceCents": 15993,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader",
+      "partner",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "sport"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 43,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-technic-ferrari-sf-24-f1-auto-formule-1-racewagen-42207/9300000192425967/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 80,
+      "commissionPct": null,
+      "notes": "Prijs € 159,93, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Geen EAN op pagina.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-star-wars-millennium-falcon-75375",
+    "title": "LEGO Star Wars Millennium Falcon (75375)",
+    "merchantTitle": "LEGO Star Wars Millennium Falcon - 75375",
+    "brand": "LEGO",
+    "ean": "5702017584348",
+    "short": "De bekende Falcon als bouwset met standaard, in een handzaam formaat.",
+    "description": "Een set van ruim 900 onderdelen met een displaystandaard. Goed te bouwen in een avond of twee. Een leuk cadeau voor een Star Wars-liefhebber die van bouwen houdt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-star-wars-millennium-falcon-75375/9300000157956368/",
+    "priceCents": 5899,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader",
+      "vriend",
+      "tiener"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 39,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-star-wars-millennium-falcon-75375/9300000157956368/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 83,
+      "commissionPct": null,
+      "notes": "Prijs € 58,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Pagina meldt 'LEGO laatste kans'-banner.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-icons-racefiets-11380",
+    "title": "LEGO Icons Racefiets (11380)",
+    "merchantTitle": "LEGO Icons Racefiets Voertuig Bouwpakket voor Volwassenen - 11380",
+    "brand": "LEGO",
+    "ean": "5702018063613",
+    "short": "Een racefiets als bouwmodel met trappers en kettingaandrijving.",
+    "description": "Dit model van een racefiets heeft een werkende trapas met ketting. Het is een rustig bouwproject voor wie graag fietst of er een fietsfanaat een plezier mee wil doen. Mooi om neer te zetten als het klaar is.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-icons-racefiets-voertuig-bouwpakket-voor-volwassenen-11380/9300000266727630/",
+    "priceCents": 8036,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader",
+      "partner",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "sport"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 35,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-icons-racefiets-voertuig-bouwpakket-voor-volwassenen-11380/9300000266727630/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 79,
+      "commissionPct": null,
+      "notes": "Prijs € 80,36, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "black-decker-accuboormachine-bdcdc18b-18v",
+    "title": "BLACK+DECKER accuboormachine 18V met 2 accu's",
+    "merchantTitle": "BLACK+DECKER 18V Lithium Ion accu schroef-/boormachine met 2x 1,5Ah accu's, 1 variabele snelheid, 11 koppelinstellingen (BDCDC18B-QW)",
+    "brand": "BLACK+DECKER",
+    "ean": "5035048645574",
+    "short": "Een handige accuboormachine voor klusjes in en om het huis, met twee accu's.",
+    "description": "De machine heeft elf koppelinstellingen en wordt geleverd met twee accu's en een lader. Zo kun je doorwerken terwijl de ene accu laadt. Een praktisch cadeau voor wie zelf klust.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/black-decker-bdcdc18b-qw-accuboormachine-18v-incl-lader-en-2-accu-s/9200000057567173/",
+    "priceCents": 6720,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "vader",
+      "partner",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 40,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/black-decker-bdcdc18b-qw-accuboormachine-18v-incl-lader-en-2-accu-s/9200000057567173/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 67,20, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "bosch-easydrill-18v-40-2-accus",
+    "title": "Bosch EasyDrill 18V-40 accuboormachine met 2 accu's",
+    "merchantTitle": "Bosch EasyDrill 18V-40 Accuboormachine - Met 2x 18V accu en een lader",
+    "brand": "Bosch",
+    "ean": "4053423232561",
+    "short": "Een degelijke Bosch-boormachine voor hout, metaal en kunststof, met twee accu's.",
+    "description": "Een compacte 18 volt-boormachine uit het groene Bosch-assortiment voor de thuisklusser. Twee accu's en een lader zitten bij de set. Goed voor ophangen, monteren en kleine verbouwingen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/bosch-easydrill-18v-40-accuboormachine-met-2x-18v-accu-en-een-lader/9300000074273872/",
+    "priceCents": 8500,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "vader",
+      "partner",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 40,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/bosch-easydrill-18v-40-accuboormachine-met-2x-18v-accu-en-een-lader/9300000074273872/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 85,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Paginatitel noemt 2x accu; een tekstregel op de pagina verwijst naar 2,0 Ah accu en lader.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "stanley-essential-gereedschapskoffer-12-5",
+    "title": "Stanley Essential gereedschapskist 12,5 inch",
+    "merchantTitle": "Stanley Essential Toolbox 12.5\"",
+    "brand": "Stanley",
+    "ean": "3253561755156",
+    "short": "Een compacte gereedschapskist voor schroeven, bits en klein gereedschap.",
+    "description": "Een klein kunststof koffertje met een inzetbakje voor kleine onderdelen. Handig om op te ruimen in de kast of mee te nemen naar een klus. Een betaalbaar extraatje voor wie zelf klust.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/stanley-essential-toolbox-12-5/9200000114745624/",
+    "priceCents": 1100,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "vader",
+      "vriend",
+      "collega"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 25,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/stanley-essential-toolbox-12-5/9200000114745624/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 64,
+      "commissionPct": null,
+      "notes": "Prijs € 11,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Leeg koffertje, zonder gereedschap.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-technic-zware-bulldozer-42163",
+    "title": "LEGO Technic Zware bulldozer (42163)",
+    "merchantTitle": "LEGO 42163 Technic Zware bulldozer Speelgoed Voertuig Rollenspellen Set",
+    "brand": "LEGO",
+    "ean": "5702017560717",
+    "short": "Een kleine Technic-bulldozer met rupsbanden en een hefbare schuifblad.",
+    "description": "Een compacte set van zo'n 195 onderdelen met bewegende rupsbanden. Het blad gaat omhoog en omlaag via een element bovenop. Een goede eerste Technic-set voor kinderen die van bouwvoertuigen houden.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-42163-technic-zware-bulldozer-speelgoed-voertuig-set/9300000157956129/",
+    "priceCents": 1124,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7",
+      "8-12"
+    ],
+    "interests": [
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 31,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-42163-technic-zware-bulldozer-speelgoed-voertuig-set/9300000157956129/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 76,
+      "commissionPct": null,
+      "notes": "Prijs € 11,24, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Minimumleeftijd 7 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-marvel-spidey-motor-vs-rhino-11206",
+    "title": "LEGO Spidey op zijn motor vs. Rhino (11206)",
+    "merchantTitle": "LEGO Marvel Spidey on his Motorcycle vs. Rhino - 11206",
+    "brand": "LEGO",
+    "ean": "5702018062456",
+    "short": "Een klein Spidey-setje met motor en twee figuurtjes voor kleuters.",
+    "description": "Een compacte set met 61 onderdelen en twee minifiguren, bedoeld voor kinderen vanaf 4 jaar. De bouwstappen zijn eenvoudig en het speelt meteen goed. Handig als klein cadeau of schoencadeau.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-marvel-spidey-en-zijn-geweldige-vriendjes-spidey-op-zijn-motor-vs-rhino-superheldenbouwset-cadeau-voor-kinderen-vanaf-4-jaar-spider-man-bouwset-met-2-minifiguren-11206/9300000237345431/",
+    "priceCents": 999,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 2,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-marvel-spidey-en-zijn-geweldige-vriendjes-spidey-op-zijn-motor-vs-rhino-superheldenbouwset-cadeau-voor-kinderen-vanaf-4-jaar-spider-man-bouwset-met-2-minifiguren-11206/9300000237345431/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 9,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 2 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-marvel-spidey-electro-dinovoertuigen-11198",
+    "title": "LEGO Spidey Spin en Electro achtervolging met dino-voertuigen (11198)",
+    "merchantTitle": "LEGO Marvel Spin en Electro achtervolging met dinosaurusvoertuigen Spidey en zijn geweldige vriendjes Speelgoed 11198",
+    "brand": "LEGO",
+    "ean": "5702017814797",
+    "short": "Een Spidey-set met bouwbare dino-voertuigen voor kinderen vanaf 4 jaar.",
+    "description": "Met 124 onderdelen bouw je twee voertuigen met een dino-thema. Er zitten geen minifiguren bij, wel genoeg onderdelen om zelf verder te fantaseren. Een betaalbaar cadeau voor kleine superheldenfans.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-marvel-spidey-en-zijn-geweldige-vriendjes-spin-en-electro-achtervolging-met-dinosaurusvoertuigen-11198/9300000187249560/",
+    "priceCents": 1599,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 6,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-marvel-spidey-en-zijn-geweldige-vriendjes-spin-en-electro-achtervolging-met-dinosaurusvoertuigen-11198/9300000187249560/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 73,
+      "commissionPct": null,
+      "notes": "Prijs € 15,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-marvel-spidey-gobbys-raptorstrijd-boomhut-11200",
+    "title": "LEGO Spidey en Gobby's raptorstrijd bij de boomhut (11200)",
+    "merchantTitle": "LEGO Marvel Spidey en zijn geweldige vriendjes Spidey en Gobby's raptorstrijd bij de boomhut - 11200",
+    "brand": "LEGO",
+    "ean": "5702017814810",
+    "short": "Een boomhut vol dino-actie met Spidey-figuren voor kinderen vanaf 4 jaar.",
+    "description": "De set heeft een boomhut met drie platforms, een vliegtuig en bouwbare dinosaurussen. Veel accessoires zorgen voor genoeg speelplezier. Een groter Spidey-cadeau voor een kleuter.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-marvel-spidey-en-zijn-geweldige-vriendjes-spidey-en-gobby-s-raptorstrijd-bij-de-boomhut-11200/9300000187249566/",
+    "priceCents": 3999,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 8,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-marvel-spidey-en-zijn-geweldige-vriendjes-spidey-en-gobby-s-raptorstrijd-bij-de-boomhut-11200/9300000187249566/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 76,
+      "commissionPct": null,
+      "notes": "Prijs € 39,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-city-sneeuwschuiver-60490",
+    "title": "LEGO City Sneeuwschuiver (60490)",
+    "merchantTitle": "LEGO City - Sneeuwschuiver bouwset - winter speelgoed voor kinderen - 60490",
+    "brand": "LEGO",
+    "ean": "5702018056592",
+    "short": "Een sneeuwploeg-truck met schuifblad en zoutstrooifunctie.",
+    "description": "De set heeft 263 onderdelen en een chauffeur als minifiguur. Het blad kan kantelen en omhoog, en je kunt zout laden en laten strooien. Een passend winters cadeau voor een kind van 6 jaar of ouder.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-city-sneeuwploeg-speelgoedtruck-modelbouwset-voor-jongens-en-meisjes-vanaf-6-jaar-minifiguur-van-chauffeur-speelgoedsneeuwploeg-met-zoutstrooifunctie-cadeautip-voor-kinderverjaardagen-60490/9300000237345479/",
+    "priceCents": 1899,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7",
+      "8-12"
+    ],
+    "interests": [
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 13,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-city-sneeuwploeg-speelgoedtruck-modelbouwset-voor-jongens-en-meisjes-vanaf-6-jaar-minifiguur-van-chauffeur-speelgoedsneeuwploeg-met-zoutstrooifunctie-cadeautip-voor-kinderverjaardagen-60490/9300000237345479/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 18,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Minimumleeftijd 6 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-city-cementwagen-60478",
+    "title": "LEGO City Cementwagen (60478)",
+    "merchantTitle": "LEGO City Great Vehicles - Cementwagen - 6+ Jaar - Inclusief Figuren",
+    "brand": "LEGO",
+    "ean": "5702018056790",
+    "short": "Een grote cementwagen met draaiende trommel en kantelbare cabine.",
+    "description": "Een bouwvoertuig met een trommel die echt draait en een cabine die omhoog kantelt. Handig voor kinderen die van bouwplaatsen en vrachtwagens houden. Op de pagina staat 6+ in de titel en 7 jaar in de specificaties.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-city-cementwagen-groot-bouwvoertuig-voor-jongens-meisjes-en-kinderen-vanaf-7-jaar-betonmixer-met-draaiende-trommel-en-kantelbare-cabine-cadeautip-voor-verjaardagen-60478/9300000237345464/",
+    "priceCents": 2799,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7",
+      "8-12"
+    ],
+    "interests": [
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 5,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-city-cementwagen-groot-bouwvoertuig-voor-jongens-meisjes-en-kinderen-vanaf-7-jaar-betonmixer-met-draaiende-trommel-en-kantelbare-cabine-cadeautip-voor-verjaardagen-60478/9300000237345464/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 70,
+      "commissionPct": null,
+      "notes": "Prijs € 27,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Leeftijd op pagina tegenstrijdig (titel 6+, specificatie 7 jaar).",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-city-avontuurlijke-camper-60454",
+    "title": "LEGO City Avontuurlijke camper (60454)",
+    "merchantTitle": "LEGO City Avontuurlijke camper Voertuig Speelgoed voor Kinderen vanaf 6 jaar 60454",
+    "brand": "LEGO",
+    "ean": "5702017812441",
+    "short": "Een camper met bijpassende figuurtjes voor kinderen vanaf 6 jaar.",
+    "description": "Een vakantieset die je kunt uitbouwen tot een kampeerplek. Goed voor fantasiespel met campingverhalen. De set wordt al door veel kopers beoordeeld en scoort hoog.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-city-avontuurlijke-camper-voertuigset-60454/9300000187249645/",
+    "priceCents": 2099,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 78,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-city-avontuurlijke-camper-voertuigset-60454/9300000187249645/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 79,
+      "commissionPct": null,
+      "notes": "Prijs € 20,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Minimumleeftijd 6 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "vtech-toet-toet-autos-brandweerkazerne",
+    "title": "VTech Toet Toet Auto's Brandweerkazerne",
+    "merchantTitle": "VTech Toet Toet Auto's Brandweerkazerne - Educatief Babyspeelgoed - 1 tot 5 Jaar",
+    "brand": "VTech",
+    "ean": "3417765039232",
+    "short": "Een brandweerkazerne met geluid en licht voor peuters die van autootjes houden.",
+    "description": "De kazerne past bij de Toet Toet-autootjes van VTech en reageert met geluiden en liedjes. Peuters leren spelenderwijs en kunnen zelf met de brandweerauto's rijden. Geschikt vanaf 1 jaar.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/vtech-toet-toet-auto-s-brandweerkazerne-educatief-babyspeelgoed-1-tot-5-jaar/9200000095090702/",
+    "priceCents": 2999,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "0-3",
+      "4-7"
+    ],
+    "interests": [
+      "spellen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 164,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/vtech-toet-toet-auto-s-brandweerkazerne-educatief-babyspeelgoed-1-tot-5-jaar/9200000095090702/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 84,
+      "commissionPct": null,
+      "notes": "Prijs € 29,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
+      "verified": true
+    }
+  },
+  {
+    "slug": "siku-1949-claas-axion-tractor-voorlader",
+    "title": "SIKU Claas Axion tractor met voorlader (1949)",
+    "merchantTitle": "SIKU 1949, Claas Axion-tractor met voorlader, dolly en kiepwagen, 1:50",
+    "brand": "SIKU",
+    "ean": "4006874019496",
+    "short": "Een metalen tractor met voorlader en kiepwagen op schaal 1:50.",
+    "description": "De tractor heeft een voorlader die echt beweegt en een kiepwagen eraan. Het model is stevig en bedoeld voor kinderen vanaf 4 jaar. Leuk voor wie graag met boerderijvoertuigen speelt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/siku-1949-tractor-met-voorlader/1004004012034427/",
+    "priceCents": 2769,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "spellen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 1,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/siku-1949-tractor-met-voorlader/1004004012034427/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 27,69, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 1 review; pagina meldt 'Huidige voorraad bijna op'.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "brio-centraal-stationset-33989",
+    "title": "BRIO Centraal Stationset (33989)",
+    "merchantTitle": "BRIO Centraal Stationset - 33989 - Treinbaan",
+    "brand": "BRIO",
+    "ean": "7312350339895",
+    "short": "Een grote houten treinbaan met station voor treinliefhebbers vanaf 3 jaar.",
+    "description": "Een uitgebreide BRIO-set om een station met sporen op te bouwen. Het houten spoor past bij andere BRIO-onderdelen die je later kunt toevoegen. Een duurzaam cadeau dat jaren meegaat.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/brio-centraal-stationset-33989-treinbaan/9300000037038896/",
+    "priceCents": 9428,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "0-3",
+      "4-7"
+    ],
+    "interests": [
+      "spellen",
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 4,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/brio-centraal-stationset-33989-treinbaan/9300000037038896/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 94,28, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 4 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "brio-treinbaan-starterset-22-delig",
+    "title": "BRIO treinbaan starterset 22-delig",
+    "merchantTitle": "Brio treinbaan starter set - 22-delig",
+    "brand": "BRIO",
+    "ean": "7312350360790",
+    "short": "Een handige beginset houten trein met rails, brug en perron.",
+    "description": "De set bevat een locomotief, een personenwagon, houten rails, delen van een viaduct, figuurtjes en een perron. Een goede eerste BRIO-set voor kinderen vanaf 3 jaar. Later breid je hem uit met losse onderdelen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/brio-world-starter-travel-train-set/9300000162805826/",
+    "priceCents": 4574,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "0-3",
+      "4-7"
+    ],
+    "interests": [
+      "spellen",
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/brio-world-starter-travel-train-set/9300000162805826/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 67,
+      "commissionPct": null,
+      "notes": "Prijs € 45,74, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Nog geen reviews; pagina meldt 'Huidige voorraad bijna op'.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "bluey-speelhuis-4-kamers",
+    "title": "Bluey speelhuis met 4 kamers en accessoires",
+    "merchantTitle": "BLUEY - Speelhuis met 4 kamers en accessoires - Speelset",
+    "brand": "Moose Toys",
+    "ean": "0630996130247",
+    "short": "Het huis van Bluey en haar familie, met vier kamers om in te spelen.",
+    "description": "Een speelhuis met vier kamers, meubeltjes en een figuurtje van Bluey. Kinderen spelen er scènes uit de serie mee na. Voor fans van de tekenfilm vanaf 3 jaar.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/bluey-speelhuis-met-4-kamers-en-accessoires-speelset/9300000071103001/",
+    "priceCents": 4900,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "0-3",
+      "4-7"
+    ],
+    "interests": [
+      "spellen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 29,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/bluey-speelhuis-met-4-kamers-en-accessoires-speelset/9300000071103001/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 76,
+      "commissionPct": null,
+      "notes": "Prijs € 49,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Minimumleeftijd 3 jaar. Niet jongens-specifiek.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "bluey-supermarkt-speelset",
+    "title": "Bluey supermarkt speelset",
+    "merchantTitle": "BLUEY - Supermarkt Speelset - incl. Bluey & Bingo speelfiguren",
+    "brand": "Moose Toys",
+    "ean": "0630996189184",
+    "short": "Een speelset met winkel, Bluey en Bingo voor kinderen vanaf 3 jaar.",
+    "description": "Kinderen spelen boodschappen doen met de bekende figuurtjes uit de serie. Een kleinere set dan het speelhuis, maar met genoeg accessoires voor rollenspel. Past bij fans van Bluey.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/bluey-supermarkt-speelset-incl-bluey-bingo-figuurtjes/9300000228659089/",
+    "priceCents": 3895,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "0-3",
+      "4-7"
+    ],
+    "interests": [
+      "spellen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.2,
+      "count": 10,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/bluey-supermarkt-speelset-incl-bluey-bingo-figuurtjes/9300000228659089/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 38,95, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Minimumleeftijd 3 jaar. Niet jongens-specifiek.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "dobble-kids-kaartspel",
+    "title": "Dobble Kids kaartspel",
+    "merchantTitle": "Dobble Kids | Het vrolijke kaartspel voor kinderen vanaf 4 jaar",
+    "brand": "Asmodee",
+    "ean": "3558380013716",
+    "short": "Een snel kaartspel waarbij je steeds hetzelfde plaatje zoekt, voor vanaf 4 jaar.",
+    "description": "Op elke twee kaarten staat precies één gelijk plaatje, en wie het eerst ziet, wint. De kaarten tonen vrolijke dieren en passen in een klein doosje. Handig als schoencadeau of om mee te nemen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/dobble-kids-kaartspel/9200000075533265/",
+    "priceCents": 1186,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "spellen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 780,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/dobble-kids-kaartspel/9200000075533265/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 80,
+      "commissionPct": null,
+      "notes": "Prijs € 11,86, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18",
       "verified": true
     }
   }
