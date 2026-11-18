@@ -28,6 +28,7 @@ export function parseFilters(sp: SP, today: string): Filters {
     interesse: pick(sp.interesse, Object.keys(INTERESTS) as (keyof typeof INTERESTS)[]),
     optijd: pick(sp.optijd, ["sinterklaas", "kerst"] as const),
     uiterlijk: parseDeadline(sp.uiterlijk, today),
+    q: typeof sp.q === "string" && sp.q.trim() ? sp.q.trim().slice(0, 60) : undefined,
   };
 }
 

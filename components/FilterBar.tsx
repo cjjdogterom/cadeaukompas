@@ -57,6 +57,16 @@ export function FilterBar({ current, today, action = "/cadeaus" }: { current: Fi
             className="h-11 rounded-lg border border-line bg-paper px-3 text-ink"
           />
         </label>
+        <label className="flex min-w-48 flex-1 flex-col gap-1 text-sm">
+          <span className="font-medium text-ink">Zoeken</span>
+          <input
+            type="search"
+            name="q"
+            defaultValue={current.q ?? ""}
+            placeholder="bv. LEGO, spel, boek"
+            className="h-11 rounded-lg border border-line bg-paper px-3 text-ink"
+          />
+        </label>
         <div className="flex flex-wrap gap-2 pb-0.5">
           {QUICK.filter((q) => q.value > today).map((q) => (
             <button

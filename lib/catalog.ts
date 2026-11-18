@@ -58,10 +58,17 @@ export type Filters = {
   optijd?: Occasion;
   /** Uiterlijk in huis op (YYYY-MM-DD); wordt in de pagina gefilterd met de bezorgdatum van bol. */
   uiterlijk?: string;
+  /** Vrije zoekterm op titel, merk en korte tekst. */
+  q?: string;
 };
 
 export function applyFilters(products: Product[], f: Filters, today: string): Product[] {
+  const words = (f.q ?? "").toLowerCase().split(/\s+/).filter(Boolean);
   return products.filter((p) => {
+    if (words.length) {
+      const hay = `${p.title} ${p.brand ?? ""} ${p.short}`.toLowerCase();
+      if (!words.every((w) => hay.includes(w))) return false;
+    }
     if (f.voor && !p.recipients.includes(f.voor)) return false;
     if (f.leeftijd && !p.ageGroups.includes(f.leeftijd)) return false;
     if (f.interesse && !p.interests.includes(f.interesse)) return false;

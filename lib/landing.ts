@@ -3,7 +3,7 @@ import { getProducts } from "./catalog";
 import { getDeliveries, type Delivery } from "./delivery";
 import { guides } from "./guides";
 import { ARRIVE_BY, addBusinessDays, daysUntil, lastOrderDate, todayInNL } from "./deadlines";
-import { BUDGETS, MERCHANTS, RECIPIENTS, type Product } from "./types";
+import { BUDGETS, INTERESTS, MERCHANTS, RECIPIENTS, type Product } from "./types";
 
 /**
  * Alle echte inhoud voor de homepage, in één keer. Aanroepen na `await connection()`
@@ -13,7 +13,33 @@ export async function getLandingData() {
   const today = todayInNL();
   const products = await getProducts();
   const featured = products.slice(0, 12);
-  const deliveries = await getDeliveries(featured);
+  const pick = (f: (p: Product) => boolean, n = 8) => products.filter(f).slice(0, n);
+  const rowDefs = [
+    { title: "Schoencadeautjes onder €15", href: "/cadeaus?budget=tot-15", items: pick((p) => p.priceCents < 1500) },
+    { title: "Voor kinderen", href: "/cadeaus?voor=kind", items: pick((p) => p.recipients.includes("kind")) },
+    { title: "Voor tieners", href: "/cadeaus?voor=tiener", items: pick((p) => p.recipients.includes("tiener")) },
+    { title: "Voor je partner", href: "/cadeaus?voor=partner", items: pick((p) => p.recipients.includes("partner")) },
+    { title: "Voor opa en oma", href: "/cadeaus?voor=opa-oma", items: pick((p) => p.recipients.includes("opa-oma")) },
+    { title: "Voor een collega", href: "/cadeaus?voor=collega", items: pick((p) => p.recipients.includes("collega")) },
+  ];
+  const deliveries = await getDeliveries([...new Set([...featured, ...rowDefs.flatMap((r) => r.items)])]);
+  const toItem = (p: Product) => ({
+    slug: p.slug,
+    title: p.title,
+    brand: p.brand ?? null,
+    short: p.short,
+    priceCents: p.priceCents,
+    merchant: MERCHANTS[p.merchant].name,
+    href: `/cadeau/${p.slug}`,
+    delivery: deliveries.get(p.slug) as Delivery,
+    product: p,
+  });
+  const interests = Object.entries(INTERESTS).map(([key, label]) => ({
+    key,
+    label,
+    count: products.filter((p) => p.interests.includes(key as Product["interests"][number])).length,
+    href: `/cadeaus?interesse=${key}`,
+  }));
 
   const recipients = Object.entries(RECIPIENTS).map(([key, label]) => ({
     key,
@@ -40,17 +66,10 @@ export async function getLandingData() {
   return {
     today,
     totalProducts: products.length,
-    featured: featured.map((p) => ({
-      slug: p.slug,
-      title: p.title,
-      brand: p.brand ?? null,
-      short: p.short,
-      priceCents: p.priceCents,
-      merchant: MERCHANTS[p.merchant].name,
-      href: `/cadeau/${p.slug}`,
-      delivery: deliveries.get(p.slug) as Delivery,
-      product: p,
-    })),
+    featured: featured.map(toItem),
+    /** Productrijen per thema, zoals een webshop-homepage. */
+    rows: rowDefs.map((r) => ({ title: r.title, href: r.href, items: r.items.map(toItem) })),
+    interests,
     recipients,
     budgets,
     deadlines,
