@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-18T16:50:00+01:00",
+  "updatedAt": "2026-11-18T17:15:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "gepland",
-      "currentTask": "Volgende agent-ronde",
+      "status": "bezig",
+      "currentTask": "Agent-ronde 17:15: 2 product-scouts, seo-content en developer",
       "lastRunAt": "2026-11-18T16:50:00+01:00",
       "lastResult": "Ronde 16:05: +52 cadeaus actief (632), 3 nieuwe gidsen, compliance-fixes live (prijslabel met datum, Uitgelicht, Morgen in huis, seizoensbalk)",
       "nextRun": "Elk uur 08–22",
       "blockedBy": null
     },
     "product-scout": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "2 scouts: vrouwen/moeder/oma (koken, eten-drinken, sport, wellness, ook €50–100); jongens 4–12 en vaders (sport, koken/bbq, gamen, muziek) plus collega/thuiswerker",
       "lastRunAt": "2026-11-18T16:50:00+01:00",
       "lastResult": "2 scouts: 68 nieuwe bol-cadeaus aangeleverd (tieners/gamen/tech/thuiswerk; vader-gereedschap en moeder/oma, 29 stuks €50–100)",
       "nextRun": "Elke agent-ronde (elk uur)",
@@ -34,7 +34,7 @@
       "blockedBy": null
     },
     "developer": {
-      "status": "gepland",
+      "status": "bezig",
       "currentTask": "Rest compliance-fixes: bol-bezorgdatum en 48-uurregel op productpagina (ook JSON-LD), budgetfilters bij verlopen prijs, dag-salt en opschoning bezoekteller",
       "lastRunAt": "2026-11-18T16:50:00+01:00",
       "lastResult": "Compliance-fixes live: prijslabel \"indicatief, gecontroleerd <datum>\" en 48-uurregel op kaarten, \"Uitgelicht\", \"Morgen in huis\" alleen als het klopt, seizoensbalk zonder verstreken Sint-datum; 32 tests groen",
@@ -50,8 +50,8 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "gepland",
-      "currentTask": "Gidsen voor dunne zoekwoorden (sport, koken, thuiswerker €50–100)",
+      "status": "bezig",
+      "currentTask": "Gidsen voor sport, koken en thuiswerker €50–100",
       "lastRunAt": "2026-11-18T16:50:00+01:00",
       "lastResult": "Gidsen klussende vader/gereedschap, gamende tiener 13–17 en puzzel/spel voor oma en opa toegevoegd en gekoppeld in related",
       "nextRun": "Volgende ronde",
