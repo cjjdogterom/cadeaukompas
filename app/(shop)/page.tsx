@@ -4,7 +4,7 @@ import { connection } from "next/server";
 import { getLandingData, type LandingData } from "@/lib/landing";
 import { ARRIVE_BY, formatDate } from "@/lib/deadlines";
 import { AGE_GROUPS } from "@/lib/types";
-import { formatPrice } from "@/lib/format";
+import { arrivalHeadline, isTomorrow } from "@/lib/season";
 import { ProductArt } from "@/components/ProductArt";
 
 
@@ -52,8 +52,9 @@ function Strik({ className }: { className?: string }) {
 
 /* ---------- Productkaart ---------- */
 
-function Levering({ item, tomorrow }: { item: Item; tomorrow: string }) {
-  const morgen = item.delivery.latest === tomorrow;
+function Levering({ item, today }: { item: Item; today: string }) {
+  // "Morgen" alleen als het echt de volgende kalenderdag is (vrijdag/zaterdag: de werkdag is maandag).
+  const morgen = isTomorrow(item.delivery.latest, today);
   return (
     <p className="mt-2 mb-3 text-[15px] leading-snug">
       <span className="font-bold text-[#2f6f55]">
@@ -64,7 +65,22 @@ function Levering({ item, tomorrow }: { item: Item; tomorrow: string }) {
   );
 }
 
-function Kaart({ item, tomorrow, sizes, className = "" }: { item: Item; tomorrow: string; sizes: string; className?: string }) {
+function Prijs({ item }: { item: Item }) {
+  if (item.price.kind === "bekijk") {
+    return <p className="mt-2.5 text-[17px] leading-snug font-bold">Bekijk prijs bij {item.merchant}</p>;
+  }
+  return (
+    <>
+      <p className="mt-2.5 flex flex-wrap items-baseline gap-x-2">
+        <span className={`${KOP} text-[26px] leading-none font-bold tracking-[-0.01em] sm:text-[30px]`}>{item.price.price}</span>
+        <span className="text-[15px] text-[#5f574d]">bij {item.merchant}</span>
+      </p>
+      <p className="mt-1 text-[13px] leading-snug text-[#5f574d]">indicatief, gecontroleerd {item.price.checked}</p>
+    </>
+  );
+}
+
+function Kaart({ item, today, sizes, className = "" }: { item: Item; today: string; sizes: string; className?: string }) {
   return (
     <li
       className={`group relative flex flex-col overflow-hidden rounded-2xl border border-[#ebe4d8] bg-white transition-colors focus-within:border-[#2b2622] hover:border-[#2b2622] ${className}`}
@@ -80,11 +96,8 @@ function Kaart({ item, tomorrow, sizes, className = "" }: { item: Item; tomorrow
             {item.title}
           </Link>
         </h3>
-        <p className="mt-2.5 flex flex-wrap items-baseline gap-x-2">
-          <span className={`${KOP} text-[26px] leading-none font-bold tracking-[-0.01em] sm:text-[30px]`}>{formatPrice(item.priceCents)}</span>
-          <span className="text-[15px] text-[#5f574d]">bij {item.merchant}</span>
-        </p>
-        <Levering item={item} tomorrow={tomorrow} />
+        <Prijs item={item} />
+        <Levering item={item} today={today} />
         <span aria-hidden="true" className={`${KNOP} mt-auto !min-h-11 w-full !px-3 text-[15px] group-hover:bg-[#255a45] sm:text-base`}>
           Bekijk cadeau
         </span>
@@ -141,14 +154,17 @@ function VoorWie({ data }: { data: LandingData }) {
 }
 
 function Hero({ data }: { data: LandingData }) {
+  const open = data.openOccasions;
   const keuzes = [
-    { titel: "Morgen in huis", sub: formatDate(data.tomorrowDelivery), datum: data.tomorrowDelivery },
-    { titel: "Vóór pakjesavond", sub: `In huis uiterlijk ${formatDate(ARRIVE_BY.sinterklaas, true)}`, datum: ARRIVE_BY.sinterklaas },
-    { titel: "Vóór kerst", sub: `In huis uiterlijk ${formatDate(ARRIVE_BY.kerst, true)}`, datum: ARRIVE_BY.kerst },
+    { titel: arrivalHeadline(data.tomorrowDelivery, data.today), sub: formatDate(data.tomorrowDelivery), datum: data.tomorrowDelivery },
+    ...(open.includes("sinterklaas")
+      ? [{ titel: "Vóór pakjesavond", sub: `In huis uiterlijk ${formatDate(ARRIVE_BY.sinterklaas, true)}`, datum: ARRIVE_BY.sinterklaas }]
+      : []),
+    ...(open.includes("kerst") ? [{ titel: "Vóór kerst", sub: `In huis uiterlijk ${formatDate(ARRIVE_BY.kerst, true)}`, datum: ARRIVE_BY.kerst }] : []),
   ];
   return (
     <section aria-labelledby="s3-h1" className={`${WRAP} pt-6 sm:pt-9`}>
-      <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_340px] lg:gap-6">
+      <div className={`grid gap-5 lg:gap-6 ${data.season ? "lg:grid-cols-[minmax(0,1fr)_340px]" : ""}`}>
         <div>
           <h1 id="s3-h1" className={`${KOP} text-[34px] leading-[1.02] font-bold tracking-[-0.02em] sm:text-[44px] xl:text-[48px]`}>
             Wanneer moet je cadeau in huis zijn?
@@ -157,7 +173,7 @@ function Hero({ data }: { data: LandingData }) {
             Kies een dag en je ziet alleen cadeaus die er dan zijn. Bij elk van de {data.totalProducts} cadeaus staat de
             bezorgdatum erbij.
           </p>
-          <ul className="mt-5 grid gap-2.5 sm:grid-cols-3 sm:gap-3">
+          <ul className={`mt-5 grid gap-2.5 sm:gap-3 ${keuzes.length === 3 ? "sm:grid-cols-3" : keuzes.length === 2 ? "sm:grid-cols-2" : ""}`}>
             {keuzes.map((k) => (
               <li key={k.titel}>
                 <Link
@@ -206,7 +222,7 @@ function Hero({ data }: { data: LandingData }) {
                 <input
                   type="date"
                   name="uiterlijk"
-                  defaultValue={ARRIVE_BY.sinterklaas}
+                  defaultValue={data.season?.arriveBy}
                   min={data.today}
                   className="h-12 min-w-0 rounded-2xl border border-[#8f8577] bg-white px-3 text-base font-semibold"
                 />
@@ -218,39 +234,50 @@ function Hero({ data }: { data: LandingData }) {
           </form>
         </div>
 
-        <aside aria-label="Aftelling" className="relative flex flex-col overflow-hidden rounded-2xl bg-[#24493c] p-5 text-white sm:p-6">
-          <Strik className="absolute -top-3 -right-5 w-28 rotate-12" />
-          <p className="flex items-end gap-3">
-            <span className={`${KOP} text-[84px] leading-[0.8] font-bold tracking-[-0.03em] sm:text-[104px]`}>{data.sint.daysLeft}</span>
-            <span className={`${KOP} pb-1 text-[22px] leading-[1.05] font-bold`}>
-              {data.sint.daysLeft === 1 ? "dag" : "dagen"} tot
-              <br />
-              pakjesavond
-            </span>
-          </p>
-          <p className="mt-5 text-base leading-snug text-[#e6efe9]">
-            Snelste cadeaus: bestel uiterlijk <strong className="font-bold text-white">{formatDate(data.sint.fastestOrderBy)}</strong>.
-          </p>
-          <p className="mt-4 border-t border-[#3d6656] pt-4 text-base leading-snug text-[#e6efe9]">
-            <strong className={`${KOP} mr-1 text-[22px] font-bold text-white`}>{data.kerst.daysLeft}</strong>
-            dagen tot kerst. Bestel uiterlijk <strong className="font-bold text-white">{formatDate(data.kerst.fastestOrderBy)}</strong>.
-          </p>
-          <a href="#s3-deadlines" className="mt-auto inline-flex min-h-11 items-center gap-1.5 self-start pt-3 text-base font-bold underline underline-offset-4 focus-visible:!outline-white">
-            Alle besteldeadlines <Pijl className="h-4 w-4" />
-          </a>
-        </aside>
+        {data.season && <Aftelling data={data} season={data.season} />}
       </div>
     </section>
   );
 }
 
-function Populair({ data }: { data: LandingData }) {
+/** Aftelling naar het lopende seizoen. Na de laatste Sint-besteldag kerst; na de kerstdeadline niet getoond. */
+function Aftelling({ data, season }: { data: LandingData; season: NonNullable<LandingData["season"]> }) {
+  const feest = season.occasion === "sinterklaas" ? "pakjesavond" : "kerst";
+  const kerstNaSint = season.occasion === "sinterklaas" && data.openOccasions.includes("kerst");
   return (
-    <section aria-labelledby="s3-populair" className={`${WRAP} pt-9 sm:pt-12`}>
-      <SectieKop id="s3-populair" titel="Populair nu" href="/cadeaus" link="Alle cadeaus" />
+    <aside aria-label="Aftelling" className="relative flex flex-col overflow-hidden rounded-2xl bg-[#24493c] p-5 text-white sm:p-6">
+      <Strik className="absolute -top-3 -right-5 w-28 rotate-12" />
+      <p className="flex items-end gap-3">
+        <span className={`${KOP} text-[84px] leading-[0.8] font-bold tracking-[-0.03em] sm:text-[104px]`}>{season.daysLeft}</span>
+        <span className={`${KOP} pb-1 text-[22px] leading-[1.05] font-bold`}>
+          {season.daysLeft === 1 ? "dag" : "dagen"} tot
+          <br />
+          {feest}
+        </span>
+      </p>
+      <p className="mt-5 text-base leading-snug text-[#e6efe9]">
+        Snelste cadeaus: bestel uiterlijk <strong className="font-bold text-white">{formatDate(season.fastestOrderBy)}</strong>.
+      </p>
+      {kerstNaSint && (
+        <p className="mt-4 border-t border-[#3d6656] pt-4 text-base leading-snug text-[#e6efe9]">
+          <strong className={`${KOP} mr-1 text-[22px] font-bold text-white`}>{data.kerst.daysLeft}</strong>
+          dagen tot kerst. Bestel uiterlijk <strong className="font-bold text-white">{formatDate(data.kerst.fastestOrderBy)}</strong>.
+        </p>
+      )}
+      <a href="#s3-deadlines" className="mt-auto inline-flex min-h-11 items-center gap-1.5 self-start pt-3 text-base font-bold underline underline-offset-4 focus-visible:!outline-white">
+        Alle besteldeadlines <Pijl className="h-4 w-4" />
+      </a>
+    </aside>
+  );
+}
+
+function Uitgelicht({ data }: { data: LandingData }) {
+  return (
+    <section aria-labelledby="s3-uitgelicht" className={`${WRAP} pt-9 sm:pt-12`}>
+      <SectieKop id="s3-uitgelicht" titel="Uitgelicht" href="/cadeaus" link="Alle cadeaus" />
       <ul className="mt-4 grid grid-cols-2 gap-2.5 sm:gap-4 lg:grid-cols-4">
         {data.featured.slice(0, 8).map((item) => (
-          <Kaart key={item.slug} item={item} tomorrow={data.tomorrowDelivery} sizes="(min-width: 1024px) 300px, 50vw" />
+          <Kaart key={item.slug} item={item} today={data.today} sizes="(min-width: 1024px) 300px, 50vw" />
         ))}
       </ul>
     </section>
@@ -310,7 +337,7 @@ function Rijen({ data }: { data: LandingData }) {
                 <Kaart
                   key={item.slug}
                   item={item}
-                  tomorrow={data.tomorrowDelivery}
+                  today={data.today}
                   sizes="(min-width: 1024px) 240px, (min-width: 640px) 30vw, 60vw"
                   className={`w-[58%] shrink-0 snap-start sm:w-[30%] lg:w-auto ${n >= 5 ? "lg:hidden" : ""}`}
                 />
@@ -323,10 +350,11 @@ function Rijen({ data }: { data: LandingData }) {
 }
 
 function Deadlines({ data }: { data: LandingData }) {
+  // Alleen feestdagen waarvoor je nog op tijd kunt bestellen; verstreken besteldagen tonen we als "te laat".
   const seizoenen = [
-    { naam: "Sinterklaas", feest: "pakjesavond", s: data.sint, kleur: ROOD, href: `/cadeaus?uiterlijk=${data.sint.arriveBy}` },
-    { naam: "Kerst", feest: "kerst", s: data.kerst, kleur: "#2f6f55", href: `/cadeaus?uiterlijk=${data.kerst.arriveBy}` },
-  ];
+    { key: "sinterklaas" as const, naam: "Sinterklaas", feest: "pakjesavond", s: data.sint, kleur: ROOD, href: `/cadeaus?uiterlijk=${data.sint.arriveBy}` },
+    { key: "kerst" as const, naam: "Kerst", feest: "kerst", s: data.kerst, kleur: "#2f6f55", href: `/cadeaus?uiterlijk=${data.kerst.arriveBy}` },
+  ].filter((z) => data.openOccasions.includes(z.key));
   return (
     <section id="s3-deadlines" aria-labelledby="s3-deadlines-kop" className={`${WRAP} scroll-mt-36 pt-12 sm:pt-16`}>
       <h2 id="s3-deadlines-kop" className={H2}>
@@ -353,37 +381,42 @@ function Deadlines({ data }: { data: LandingData }) {
         </ul>
         <div className="overflow-hidden rounded-2xl border border-[#ebe4d8] bg-white">
           <table className="w-full border-collapse text-left text-base">
-            <caption className="sr-only">Uiterste besteldag per levertijd, voor pakjesavond en kerst</caption>
+            <caption className="sr-only">Uiterste besteldag per levertijd, voor {seizoenen.map((z) => z.feest).join(" en ")}</caption>
             <thead>
               <tr className="bg-[#24493c] text-white">
                 <th scope="col" className="px-3 py-3 text-[15px] font-bold sm:px-5">
                   Levertijd
                 </th>
-                <th scope="col" className="px-3 py-3 text-[15px] font-bold sm:px-5">
-                  <span className="sm:hidden">Pakjesavond</span>
-                  <span className="max-sm:hidden">Bestel voor pakjesavond uiterlijk</span>
-                </th>
-                <th scope="col" className="px-3 py-3 text-[15px] font-bold sm:px-5">
-                  <span className="sm:hidden">Kerst</span>
-                  <span className="max-sm:hidden">Bestel voor kerst uiterlijk</span>
-                </th>
+                {seizoenen.map((z) => (
+                  <th key={z.key} scope="col" className="px-3 py-3 text-[15px] font-bold sm:px-5">
+                    <span className="sm:hidden">{z.naam === "Kerst" ? "Kerst" : "Pakjesavond"}</span>
+                    <span className="max-sm:hidden">Bestel voor {z.feest} uiterlijk</span>
+                  </th>
+                ))}
               </tr>
             </thead>
             <tbody>
               {data.deadlines.map((d) => (
                 <tr key={d.deliveryDays} className="border-t border-[#efe9df] align-top">
                   <th scope="row" className="px-3 py-4 font-semibold sm:px-5">
-                    {d.deliveryDays === 1 ? d.label : `${d.deliveryDays} werkdagen`}
+                    {d.deliveryDays === 1 ? "1 werkdag" : `${d.deliveryDays} werkdagen`}
                     <span className="block text-[15px] font-normal text-[#5f574d]">
                       {d.count} {d.count === 1 ? "cadeau" : "cadeaus"}
                     </span>
                   </th>
-                  {[d.sinterklaas, d.kerst].map((iso, n) => (
-                    <td key={n} className={`${KOP} px-3 py-4 text-lg leading-tight font-bold sm:px-5 sm:text-[22px]`}>
-                      <span className="sm:hidden">{formatDate(iso, true)}</span>
-                      <span className="max-sm:hidden">{formatDate(iso)}</span>
-                    </td>
-                  ))}
+                  {seizoenen.map((z) => {
+                    const iso = d[z.key];
+                    return iso < data.today ? (
+                      <td key={z.key} className="px-3 py-4 text-base text-[#5f574d] sm:px-5">
+                        Te laat
+                      </td>
+                    ) : (
+                      <td key={z.key} className={`${KOP} px-3 py-4 text-lg leading-tight font-bold sm:px-5 sm:text-[22px]`}>
+                        <span className="sm:hidden">{formatDate(iso, true)}</span>
+                        <span className="max-sm:hidden">{formatDate(iso)}</span>
+                      </td>
+                    );
+                  })}
                 </tr>
               ))}
             </tbody>
@@ -493,10 +526,10 @@ async function Inhoud() {
     <>
       <Hero data={data} />
       <VoorWie data={data} />
-      <Populair data={data} />
+      <Uitgelicht data={data} />
       <Usps />
       <Rijen data={data} />
-      <Deadlines data={data} />
+      {data.openOccasions.length > 0 && <Deadlines data={data} />}
       <ShopOp data={data} />
       <Gidsen data={data} />
       <HoeHetWerkt />

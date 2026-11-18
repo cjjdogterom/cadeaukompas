@@ -56,7 +56,7 @@ export const guides: Guide[] = [
       { q: "Wat is een goed sinterklaascadeau voor een tiener van 15?", a: "Iets dat aansluit bij een hobby: een koptelefoon voor muziek, een bordspel voor met vrienden of een creatieve set. Gebruik de filters om op interesse te zoeken." },
       { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "Dat verschilt per product; de uiterste besteldatum staat bij elk cadeau en wordt per product berekend. Pakjesavond is op zaterdag 5 december, dus het cadeau moet uiterlijk vrijdag 4 december in huis zijn." },
     ],
-    related: ["sinterklaascadeau-kinderen-8-12", "cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "kerstpakket-thuiswerker"],
+    related: ["gamecadeau-tiener-13-17", "sinterklaascadeau-kinderen-8-12", "cadeau-onder-25-euro-collega", "cadeau-onder-15-euro"],
   },
   {
     slug: "kerstpakket-thuiswerker",
@@ -120,7 +120,7 @@ export const guides: Guide[] = [
       { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "Dat verschilt per product. De uiterste besteldatum staat bij elk cadeau en wordt door de site per product berekend, inclusief een dag marge voor de drukte." },
       { q: "Hoeveel geef je uit aan een sinterklaascadeau voor een kind?", a: "Daar bestaat geen vaste regel. Veel gezinnen spreken een bedrag af met familie, zodat de cadeaus ongeveer even groot zijn. In deze selectie vind je zowel kleinere als grotere cadeaus." },
     ],
-    related: ["sinterklaascadeau-tiener", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-baby-peuter", "cadeau-onder-15-euro"],
+    related: ["sinterklaascadeau-tiener", "gamecadeau-tiener-13-17", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-baby-peuter"],
   },
   {
     slug: "cadeau-voor-partner",
@@ -166,7 +166,7 @@ export const guides: Guide[] = [
       { q: "Kan ik een cadeau rechtstreeks naar opa en oma laten bezorgen?", a: "Vaak kan dat met een ander bezorgadres, maar dat verschilt per winkel. Je bestelt wel bij de winkel zelf; we sturen je door via onze links. Controleer bij het bestellen het afleveradres en de levertijd." },
       { q: "Wanneer moet ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau. We rekenen met werkdagen en een dag extra marge voor de drukte." },
     ],
-    related: ["cadeau-voor-moeder", "kerstcadeau-voor-vader", "sinterklaascadeau-baby-peuter", "cadeau-kinderen-4-7-jaar"],
+    related: ["puzzel-en-spelcadeau-oma-opa", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "sinterklaascadeau-baby-peuter"],
   },
   {
     slug: "kerstcadeau-voor-vader",
@@ -189,7 +189,7 @@ export const guides: Guide[] = [
       { q: "Wanneer moet ik bestellen voor kerst?", a: "Dat verschilt per product. De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, inclusief een dag extra marge." },
       { q: "Is dit ook een goed cadeau voor Sinterklaas?", a: "Veel cadeaus passen ook bij Sinterklaas, maar de besteldeadline ligt dan eerder. Kijk bij het product naar de uiterste besteldatum per gelegenheid." },
     ],
-    related: ["cadeau-voor-partner", "cadeau-voor-moeder", "cadeau-voor-opa-en-oma", "kerstpakket-thuiswerker"],
+    related: ["cadeau-vader-klussen-gereedschap", "cadeau-voor-partner", "cadeau-voor-moeder", "cadeau-voor-opa-en-oma"],
   },
   {
     slug: "cadeau-voor-moeder",
@@ -259,6 +259,75 @@ export const guides: Guide[] = [
       { q: "Hoe voorkom ik dat ik hetzelfde cadeau koop als iemand anders?", a: "Vraag de ouders of spreek met de familie af wie wat koopt. Een spel of bouwset dat al in huis is, kan wel een uitbreiding krijgen, maar vraag dat even na." },
     ],
     related: ["sinterklaascadeau-baby-peuter", "sinterklaascadeau-kinderen-8-12", "cadeau-onder-15-euro", "cadeau-voor-opa-en-oma"],
+  },
+  {
+    slug: "cadeau-vader-klussen-gereedschap",
+    title: "Cadeau voor een vader die van klussen houdt",
+    metaTitle: "Cadeau voor vader die klust: gereedschap | OpTijdCadeau",
+    metaDescription:
+      "Gereedschap en klusspullen als cadeau voor een vader die graag klust: boormachine, schroevendraaiers, waterpas en meer. Met levertijd en besteldatum.",
+    intro: [
+      "Een vader die graag klust heeft meestal al een schuur vol gereedschap, en toch ligt er altijd iets niet op de goede plek of is er iets stuk of zoek. Een goed klusgeschenk lost dat soort kleine ergernissen op: een koffer waarin alles bij elkaar zit, een waterpas die wel recht blijft meten of een set bits die compleet is.",
+      "In deze selectie staan accuboormachines, schroevendraaiersets, tangen, een rolbandmaat, een laserafstandsmeter en opbergers voor gereedschap. Kijk eerst wat hij al gebruikt: heeft hij een bepaald merk accu's, dan is een machine van hetzelfde systeem handiger. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. De winkel is bol; wij sturen je door en verkopen zelf niets.",
+    ],
+    filters: { voor: "vader", interesse: "bouwen" },
+    tips: [
+      "Vraag stiekem aan een broer, zus of partner welk merk accugereedschap hij al heeft. Een accu die op bestaande machines past is meer waard dan een losse machine.",
+      "Kies bij twijfel iets dat altijd van pas komt, zoals een goede schroevendraaierset of een rolbandmaat. Dat ligt minder snel dubbel dan een groot apparaat.",
+      "Een opbergkoffer of gereedschapstas is een cadeau dat je als aanvulling kunt geven bij een kleiner stuk gereedschap.",
+    ],
+    faq: [
+      { q: "Wat geef je een vader die graag klust?", a: "Iets dat hij tijdens elke klus gebruikt: een set schroevendraaiers of tangen, een rolbandmaat, een waterpas of een koffer om alles in te bewaren. Zo weet je dat het cadeau gebruikt wordt." },
+      { q: "Is een boormachine een goed cadeau?", a: "Dat kan, maar kijk eerst of hij al een accusysteem heeft. Past de accu bij zijn andere gereedschap, dan is het een handige aanvulling. Heeft hij er nog geen, dan is een eenvoudige accuboormachine een prima begin." },
+      { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge." },
+    ],
+    related: ["kerstcadeau-voor-vader", "cadeau-voor-partner", "cadeau-voor-opa-en-oma", "cadeau-onder-25-euro-collega"],
+  },
+  {
+    slug: "gamecadeau-tiener-13-17",
+    title: "Cadeau voor een tiener die gamet (13–17 jaar)",
+    metaTitle: "Gamecadeau voor tieners (13–17) | OpTijdCadeau",
+    metaDescription:
+      "Cadeaus voor tieners die gamen: headsets, controllers, muizen, muismatten en games voor Switch en PS5. Met levertijd en uiterste besteldatum.",
+    intro: [
+      "Een tiener die veel gamet weet vaak precies wat hij of zij mist: een betere muis, een headset die niet knijpt of een tweede controller zodat vrienden mee kunnen doen. Het lastige is dat je niet kunt zien welk systeem er in huis staat en welke spellen al in de kast liggen.",
+      "In deze selectie staan gaming headsets, controllers, muizen, muismatten, ledstrips voor op de kamer en games voor de Nintendo Switch en PS5. Controleer vooraf op welk systeem er gespeeld wordt, want een game voor de Switch werkt niet op een PS5. Kijk ook naar de leeftijdsaanduiding van een spel op de verpakking of de winkelpagina. Bij elk product zie je de levertijd en de uiterste besteldatum voor pakjesavond of kerst. Je bestelt bij bol; wij verkopen zelf niets.",
+    ],
+    filters: { voor: "tiener", leeftijd: "13-17", interesse: "gamen" },
+    tips: [
+      "Vraag een vriend of broer of zus op welk systeem er gespeeld wordt en welke games al in huis zijn, voordat je een spel koopt.",
+      "Accessoires zoals een muismat of controller zijn veiliger dan een game: ze passen bij bijna elke opstelling en liggen minder snel dubbel.",
+      "Let bij een headset op de aansluiting. Sommige werken via USB, andere via een gewone audioplug, en niet elke aansluiting past op elke console.",
+    ],
+    faq: [
+      { q: "Wat geef je een tiener die gamet?", a: "Een accessoire dat bij het systeem past, zoals een headset, een extra controller of een muismat, of een game waarvan je zeker weet dat hij of zij hem nog niet heeft." },
+      { q: "Hoe weet ik of een game geschikt is voor mijn kind?", a: "Kijk naar de PEGI-leeftijdsaanduiding op de verpakking of de productpagina. Die geeft aan vanaf welke leeftijd een spel is bedoeld." },
+      { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, inclusief een dag marge voor de drukte. Pakjesavond is zaterdag 5 december, dus het cadeau moet uiterlijk vrijdag 4 december in huis zijn." },
+    ],
+    related: ["sinterklaascadeau-tiener", "sinterklaascadeau-kinderen-8-12", "cadeau-onder-25-euro-collega", "kerstpakket-thuiswerker"],
+  },
+  {
+    slug: "puzzel-en-spelcadeau-oma-opa",
+    title: "Puzzel- en spelcadeau voor oma en opa",
+    metaTitle: "Puzzel- en spelcadeau voor oma en opa | OpTijdCadeau",
+    metaDescription:
+      "Puzzels, kaartspellen en denkspellen als cadeau voor oma en opa: rustig samen te doen. Met levertijd en uiterste besteldatum per cadeau.",
+    intro: [
+      "Een cadeau voor oma of opa mag best iets zijn waar ze de hele winter plezier van hebben. Een puzzel van 1000 stukjes ligt dagenlang op tafel, een kaartspel gaat mee naar de volgende familiemiddag en een puzzelboek vult een rustige ochtend. Dat past bij mensen die graag bezig zijn zonder dat er een stekker of handleiding aan te pas komt.",
+      "In deze selectie staan legpuzzels met uiteenlopende plaatjes, kaartspellen die je in een paar minuten uitlegt, denkspellen en puzzelboeken. Let bij een puzzel op de afmeting van het eindresultaat en op de grootte van de stukjes: niet iedereen vindt kleine stukjes prettig. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst. Je bestelt bij bol; wij sturen je door en verkopen zelf niets. Zoek je iets anders voor opa en oma, kijk dan ook in de algemene gids.",
+    ],
+    filters: { voor: "opa-oma", interesse: "spellen", leeftijd: "volwassen" },
+    tips: [
+      "Kies een plaatje dat past bij wat ze mooi vinden: een stad, bloemen of een kerstthema. Een puzzel die ze niet mooi vinden, wordt niet gelegd.",
+      "Een spel dat je samen kunt spelen maakt het cadeau ook een afspraak: speel het meteen bij het volgende bezoek.",
+      "Heeft oma of opa moeite met kleine stukjes of kleine letters? Kies dan een spel met grote kaarten of een puzzel met minder stukjes.",
+    ],
+    faq: [
+      { q: "Wat geef je oma die graag puzzelt?", a: "Een legpuzzel met een plaatje dat ze mooi vindt, bij voorkeur van een merk waarvan ze er al eens een heeft gelegd. Heb je geen idee, kies dan een rustig plaatje zonder te veel details." },
+      { q: "Welk spel is geschikt voor opa en oma?", a: "Een spel dat je in een paar minuten uitlegt en dat met twee of meer mensen werkt, zoals een kaartspel. Kijk op de verpakking naar het aantal spelers en de speelduur." },
+      { q: "Wanneer moet ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau. We rekenen met werkdagen en een dag extra marge voor de drukte." },
+    ],
+    related: ["cadeau-voor-opa-en-oma", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "cadeau-onder-15-euro"],
   },
 ];
 

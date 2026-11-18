@@ -1,0 +1,1759 @@
+[
+  {
+    "slug": "anker-powercore-iii-sense-10000",
+    "title": "Anker PowerCore III Sense powerbank 10.000 mAh (USB-C PD)",
+    "merchantTitle": "Anker PowerCore III Sense (22.5W) USB-C PD Powerbank 10.000 mAh Zwart",
+    "brand": "Anker",
+    "ean": "0194644077983",
+    "short": "Een compacte powerbank die een telefoon een paar keer volledig oplaadt.",
+    "description": "Met 10.000 mAh en snelladen via USB-C kan een telefoon onderweg of op school weer vooruit. De powerbank past in een jaszak of schooltas. Handig voor wie veel op pad is en niet steeds naar een stopcontact wil zoeken.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/anker-powercore-iii-sense-powerbank-10-000-mah-20w-usb-c-pd-zwart/9300000050269095/",
+    "priceCents": 3599,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "collega",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 70,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/anker-powercore-iii-sense-powerbank-10-000-mah-20w-usb-c-pd-zwart/9300000050269095/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 55,
+      "commissionPct": null,
+      "notes": "Prijs € 35,99, verkoper Startbuy.eu, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Titel zegt 22.5W, beschrijving noemt max. 20W. Orchestrator: score verlaagd, herkomst verkoper niet gecontroleerd; blijft buiten de catalogus.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "logitech-mx-vertical-ergonomische-muis",
+    "title": "Logitech MX Vertical ergonomische muis (draadloos)",
+    "merchantTitle": "Logitech MX Vertical - Draadloze Ergonomische Muis - Grijs",
+    "brand": "Logitech",
+    "ean": "5099206081901",
+    "short": "Een verticale muis waarbij je hand en pols in een natuurlijke houding blijven.",
+    "description": "De muis staat rechtop, zodat je onderarm niet hoeft te draaien. Dat is prettig voor wie dagelijks uren achter een computer zit. De muis is alleen geschikt voor rechtshandig gebruik en werkt draadloos.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/logitech-mx-vertical-draadloze-ergonomische-muis/9200000097502616/",
+    "priceCents": 5590,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "thuiswerker",
+      "collega",
+      "partner",
+      "vader"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 145,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/logitech-mx-vertical-draadloze-ergonomische-muis/9200000097502616/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 55,90, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Kleur in titel grijs, specificaties noemen zwart.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "govee-gaming-light-bars-rgbic-24-32-inch",
+    "title": "Govee gaming light bars RGBIC voor 24-32 inch monitor",
+    "merchantTitle": "Govee slimme gaming light bars RGBIC - voor 24-32 inch",
+    "brand": "Govee",
+    "ean": "6974316992721",
+    "short": "Twee lichtbalken achter je monitor die meekleuren met je bureau of scherm.",
+    "description": "De balken geven gekleurd licht achter het scherm en worden met een app bediend. Ze maken een gamehoek of werkplek sfeervoller en zijn handig als je 's avonds langer achter de computer zit. Geschikt voor monitoren van 24 tot 32 inch.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/govee-rgbic-gaming-light-bars/9300000157900674/",
+    "priceCents": 6900,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "gamen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/govee-rgbic-gaming-light-bars/9300000157900674/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 70,
+      "commissionPct": null,
+      "notes": "Prijs € 69,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Nog geen reviews; voorraad bijna op.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "sony-wh-ch720n-wit",
+    "title": "Sony WH-CH720N draadloze koptelefoon met noise cancelling (wit)",
+    "merchantTitle": "Sony WH-CH720N - Draadloze over-ear koptelefoon met Noise Cancelling - Wit",
+    "brand": "Sony",
+    "ean": "4548736147843",
+    "short": "Een lichte draadloze koptelefoon die omgevingsgeluid dempt, voor school, werk of onderweg.",
+    "description": "De koptelefoon verbindt via Bluetooth en dempt omgevingsgeluid. Hij is licht van gewicht en heeft een lange batterijduur, dus prima voor een dag school of thuiswerken. Het is een betaalbare stap richting noise cancelling.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/sony-wh-ch720n-draadloze-over-ear-koptelefoon-met-noise-cancelling-wit/9300000139579326/",
+    "priceCents": 6900,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "partner",
+      "thuiswerker",
+      "collega"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "muziek",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.3,
+      "count": 173,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/sony-wh-ch720n-draadloze-over-ear-koptelefoon-met-noise-cancelling-wit/9300000139579326/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 82,
+      "commissionPct": null,
+      "notes": "Prijs € 69,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "steelseries-arctis-nova-1-gaming-headset",
+    "title": "SteelSeries Arctis Nova 1 bedrade gaming headset",
+    "merchantTitle": "SteelSeries Arctis Nova 1 - Bedrade Gaming Headset - 3.5mm - PC, PlayStation, Xbox, Switch & Mobiel - Zwart",
+    "brand": "SteelSeries",
+    "ean": "5707119043571",
+    "short": "Een bedrade gaming headset met 3,5 mm-aansluiting voor pc, console en telefoon.",
+    "description": "Deze headset werkt via de gewone koptelefoonaansluiting en past dus bij vrijwel elke controller, console of pc. Met een vaste microfoon kan je met vrienden praten tijdens het gamen. Een simpele, degelijke keuze voor wie een eerste goede headset zoekt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/steelseries-arctis-nova-1-gaming-headset-zwart-ps4-ps5-pc-xbox-nintendo-switch/9300000118801435/",
+    "priceCents": 3900,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "partner"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "gamen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 3.7,
+      "count": 93,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/steelseries-arctis-nova-1-gaming-headset-zwart-ps4-ps5-pc-xbox-nintendo-switch/9300000118801435/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 39,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Reviewscore 3,7 is gemiddeld.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "benq-screenbar-monitorlamp",
+    "title": "BenQ ScreenBar monitorlamp met touchbediening",
+    "merchantTitle": "BenQ Screenbar Monitor Lamp - Dimbare LED bureaulamp - USB - touchbediening - instelbare kleurtemperatuur - lichtsensor - 45 cm - zwart",
+    "brand": "BenQ",
+    "ean": "4718755068331",
+    "short": "Een lamp die op je monitor klemt en je bureau verlicht zonder schermverblinding.",
+    "description": "De lamp hangt boven je scherm en schijnt op je bureau, niet op je beeld. Helderheid en kleurtemperatuur stel je in met een aanraakknop en een sensor past het licht aan. Fijn voor lange dagen thuiswerken of studeren.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/benq-screenbar-monitor-led-lamp-dimbaar-usb-klemlamp-met-touch-bediening-instelbare-kleurtemperatuur/9300000037708622/",
+    "priceCents": 9900,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "thuiswerker",
+      "collega",
+      "partner",
+      "vader",
+      "tiener"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 66,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/benq-screenbar-monitor-led-lamp-dimbaar-usb-klemlamp-met-touch-bediening-instelbare-kleurtemperatuur/9300000037708622/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 80,
+      "commissionPct": null,
+      "notes": "Prijs € 99,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Titel op de pagina is langer; hier ingekort.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lenco-ls-60bk-houten-platenspeler",
+    "title": "Lenco LS-60BK houten platenspeler met Bluetooth en speakers",
+    "merchantTitle": "Lenco Platenspeler - Houten Platenspeler met Bluetooth en ingebouwde speakers - LS-60BK - Zwart",
+    "brand": "Lenco",
+    "ean": "8711902090397",
+    "short": "Een platenspeler in een houten kast met ingebouwde speakers en Bluetooth.",
+    "description": "Je kunt er vinyl mee draaien zonder aparte versterker, want de speakers zitten ingebouwd. Via Bluetooth speel je ook muziek van je telefoon af. Een mooi cadeau voor iemand die zijn eerste platen wil gaan draaien.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lenco-platenspeler-houten-platenspeler-met-bluetooth-en-ingebouwde-speakers-ls-60bk-zwart/9300000237361543/",
+    "priceCents": 12749,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "partner",
+      "vader",
+      "moeder"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "muziek",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5.0,
+      "count": 4,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lenco-platenspeler-houten-platenspeler-met-bluetooth-en-ingebouwde-speakers-ls-60bk-zwart/9300000237361543/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 64,
+      "commissionPct": null,
+      "notes": "Prijs € 127,49, verkoper Commaxx Group (Nederlandse Lenco-importeur), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 4 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lenco-ls-15wd-platenspeler-bluetooth",
+    "title": "Lenco LS-15WD platenspeler met Bluetooth en speakers (hout)",
+    "merchantTitle": "Lenco Platenspeler met Bluetooth - Twee ingebouwde Speakers en AT3600L Cartridge - LS-15WD - Hout",
+    "brand": "Lenco",
+    "ean": "8711902086673",
+    "short": "Een platenspeler met houtlook, ingebouwde speakers en Bluetooth voor een instapprijs.",
+    "description": "De speler heeft twee ingebouwde speakers en een Audio-Technica-element, dus je hebt geen extra apparatuur nodig. Bluetooth maakt het mogelijk om ook streaming af te spelen. Geschikt voor een eerste platenspeler op een studentenkamer of in de woonkamer.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lenco-platenspeler-met-bluetooth-twee-ingebouwde-speakers-en-at3600l-cartridge-ls-15wd-hout/9300000224313176/",
+    "priceCents": 8000,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "partner",
+      "vader",
+      "moeder"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "muziek",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.3,
+      "count": 26,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lenco-platenspeler-met-bluetooth-twee-ingebouwde-speakers-en-at3600l-cartridge-ls-15wd-hout/9300000224313176/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 80,00, verkoper DGMOutlet.nl Nieuw & Goedkoper (Nederlandse verkoper, niet bol zelf), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "philips-hue-bloom-tafellamp-zwart",
+    "title": "Philips Hue Bloom tafellamp (zwart)",
+    "merchantTitle": "Philips Hue Bloom tafellamp - wit en gekleurd licht - zwart",
+    "brand": "Philips Hue",
+    "ean": "8718699771126",
+    "short": "Een kleine slimme lamp die gekleurd licht tegen de muur of op het bureau werpt.",
+    "description": "Je zet de lamp op een bureau of kast en kiest via de Hue-app uit allerlei kleuren en witte tinten. Hij geeft een zacht, indirect licht en past in een gamehoek of op een werkplek. Een Hue Bridge is optioneel, voor extra functies zoals timers.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/philips-hue-bloom-tafellamp-white-and-color-ambiance-geintegreerd-led-zwart-7-1w-bluetooth/9300000002864884/",
+    "priceCents": 8000,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "partner",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 82,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/philips-hue-bloom-tafellamp-white-and-color-ambiance-geintegreerd-led-zwart-7-1w-bluetooth/9300000002864884/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 80,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "philips-hue-iris-tafellamp-zwart",
+    "title": "Philips Hue Iris tafellamp (zwart)",
+    "merchantTitle": "Philips Hue Iris tafellamp - wit en gekleurd licht - zwart",
+    "brand": "Philips Hue",
+    "ean": "8719514264489",
+    "short": "Een sfeerlamp in kleur die licht naar de muur straalt, bedienbaar met de Hue-app.",
+    "description": "De Iris geeft gekleurd licht langs de muur en is er ook voor een nachtkastje of bureau. Je regelt kleur en helderheid met de Hue-app. Een gedeelte van de functies werkt pas met een Hue Bridge.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/philips-hue-iris-tafellamp-wit-en-gekleurd-licht-zwart/9300000009588251/",
+    "priceCents": 9500,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "partner",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 59,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/philips-hue-iris-tafellamp-wit-en-gekleurd-licht-zwart/9300000009588251/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 70,
+      "commissionPct": null,
+      "notes": "Prijs € 95,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "8bitdo-ultimate-3-mode-xbox-rare-edition",
+    "title": "8BitDo Ultimate 3-Mode controller Xbox RARE Edition",
+    "merchantTitle": "8BitDo Ultimate 3-Mode Xbox RARE Ed.",
+    "brand": "8BitDo",
+    "ean": "6922621507680",
+    "short": "Een draadloze controller voor Xbox en pc, geleverd met oplaaddock.",
+    "description": "Deze controller werkt voor Xbox en Windows en heeft extra knoppen aan de achterkant. De oplaaddock houdt hem klaar voor gebruik. Een leuke upgrade voor wie nu nog de standaard controller gebruikt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/8bitdo-ultimate-3-mode-rare-edition-xbox-controller-blauw/9300000240427407/",
+    "priceCents": 7899,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "partner"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "gamen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5.0,
+      "count": 2,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/8bitdo-ultimate-3-mode-rare-edition-xbox-controller-blauw/9300000240427407/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 60,
+      "commissionPct": null,
+      "notes": "Prijs € 78,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 2 reviews; dock-vermelding komt uit de bol-zoekresultaten, controleer voor publicatie.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "gamesir-g7-he-bedrade-controller-wit",
+    "title": "GameSir G7 HE bedrade controller met Hall Effect sticks (wit)",
+    "merchantTitle": "Gamesir G7 HE - Bedrade controller - Hall Effect Sticks - Xbox Series X/S, Xbox One & Windows - Wit",
+    "brand": "GameSir",
+    "ean": "6936685221512",
+    "short": "Een bedrade controller voor Xbox en pc met sticks die minder snel gaan slijten.",
+    "description": "De Hall Effect-sticks zijn bedoeld om stick drift tegen te gaan. De controller werkt met Xbox Series X|S, Xbox One en Windows en heeft een kabel, dus je hoeft niet aan batterijen te denken. Een goede keuze voor pc-gamers.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/gamesir-gamesir-g7-he-white-draadloze-gamecontroller/9300000195564912/",
+    "priceCents": 5400,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "partner"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "gamen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 5,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/gamesir-gamesir-g7-he-white-draadloze-gamecontroller/9300000195564912/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 55,
+      "commissionPct": null,
+      "notes": "Prijs € 54,00, verkoper breqq (Nederlandse verkoper), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 5 reviews; de URL noemt de controller 'draadloos', de titel zegt bedraad. Orchestrator: score verlaagd, herkomst verkoper niet gecontroleerd; blijft buiten de catalogus.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "gamesir-nova-lite-draadloze-controller",
+    "title": "GameSir Nova Lite draadloze controller (zwart)",
+    "merchantTitle": "GameSir Nova Lite - Draadloze Controller - Hall Effect - Voor Switch/Switch 2/PC/Android/iOS - Zwart",
+    "brand": "GameSir",
+    "ean": "6936685221703",
+    "short": "Een betaalbare draadloze controller voor Switch, pc en telefoon.",
+    "description": "De controller verbindt via Bluetooth of ontvanger en werkt met onder meer Nintendo Switch, pc, Android en iOS. De sticks zijn van het Hall Effect-type. Een prima extra controller voor een tweede speler of voor onderweg.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/gamesir-draadloze-controller-voor-pc-android-ps4-xbox-met-eenvoudig/9300000230729183/",
+    "priceCents": 2499,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "kind"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "gamen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 3.7,
+      "count": 7,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/gamesir-draadloze-controller-voor-pc-android-ps4-xbox-met-eenvoudig/9300000230729183/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 55,
+      "commissionPct": null,
+      "notes": "Prijs € 24,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Slechts 7 reviews, score 3,7.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "elgato-stream-deck-mk2",
+    "title": "Elgato Stream Deck MK.2 (zwart)",
+    "merchantTitle": "Elgato - Stream Deck - MK.2 - Zwart",
+    "brand": "Elgato",
+    "ean": "0840006640554",
+    "short": "Een toetsenpaneel met 15 programmeerbare knoppen voor streamen, gamen of werken.",
+    "description": "Elke toets krijgt een eigen actie, zoals een programma starten, een scène wisselen of een vaste tekst plakken. Het is gemaakt voor streamers, maar ook handig voor wie thuis veel taken herhaalt. Werkt met pc en Mac.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/elgato-stream-deck-mk-2/9300000045218044/",
+    "priceCents": 11490,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "thuiswerker",
+      "partner"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "gamen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 27,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/elgato-stream-deck-mk-2/9300000045218044/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 114,90, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Titel afgeleid uit bol-productlijst, koptekst niet zichtbaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "tp-link-tapo-p300-slimme-stekker",
+    "title": "TP-Link Tapo P300 slimme stekkerdoos met energiemeting",
+    "merchantTitle": "TP-Link Tapo P300 - Mini Slimme stekker met energiebewaking",
+    "brand": "TP-Link",
+    "ean": "4897098683958",
+    "short": "Een slimme stekkerdoos waarmee je apparaten via de app aan- en uitzet.",
+    "description": "Met de app of een schema schakel je aangesloten apparaten, zoals een lamp of een bureaulader. De stekkerdoos laat ook zien hoeveel stroom iets verbruikt. Een eerste stap naar een slim huis.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/tp-link-tapo-p300-mini-slimme-stekker-met-energiebewaking/9300000136657837/",
+    "priceCents": 3399,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "tiener",
+      "vader",
+      "thuiswerker",
+      "vriend"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 162,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/tp-link-tapo-p300-mini-slimme-stekker-met-energiebewaking/9300000136657837/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 33,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Voorraad bijna op.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "keychron-b1-pro-slim-toetsenbord-wit",
+    "title": "Keychron B1 Pro ultra-slim draadloos toetsenbord (wit)",
+    "merchantTitle": "Keychron B1 Pro Ultra-Slim toetsenbord wit - B1P-K8 - Bedraad, Bluetooth, Radio(RF)",
+    "brand": "Keychron",
+    "ean": "4895248876427",
+    "short": "Een plat toetsenbord dat via Bluetooth, ontvanger of kabel verbindt, voor pc, Mac en tablet.",
+    "description": "Het toetsenbord is dun en licht en past dus makkelijk in een tas. Je kunt het koppelen met meerdere apparaten tegelijk en daartussen schakelen. Handig op een thuiswerkplek of voor een telefoon en laptop samen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/keychron-b1-pro-ultra-slim-draadloze-toetsenbord-wit/9300000184565230/",
+    "priceCents": 5599,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "thuiswerker",
+      "tiener",
+      "collega"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/keychron-b1-pro-ultra-slim-draadloze-toetsenbord-wit/9300000184565230/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 58,
+      "commissionPct": null,
+      "notes": "Prijs € 55,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Nog geen reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "apple-airtag-1-stuk",
+    "title": "Apple AirTag (1 stuk)",
+    "merchantTitle": "Apple AirTag - 1 stuk",
+    "brand": "Apple",
+    "ean": "0190199535039",
+    "short": "Een zoekertje voor je sleutels, rugzak of fiets, te volgen via de Zoek mijn-app van Apple.",
+    "description": "Je hangt de AirTag aan sleutels of een tas en ziet via een iPhone waar die ligt. Het werkt alleen met Apple-apparaten. Een praktisch klein cadeau voor wie snel iets kwijt is.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/apple-airtag-1-stuk/9300000118528725/",
+    "priceCents": 3700,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "partner",
+      "collega",
+      "vader",
+      "moeder"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 689,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/apple-airtag-1-stuk/9300000118528725/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 76,
+      "commissionPct": null,
+      "notes": "Prijs € 37,00, verkoper Telesun.nl (Nederlandse verkoper, niet bol zelf), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Werkt alleen met iPhone en iPad.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "rain-design-mstand-laptopstandaard-zwart",
+    "title": "Rain Design mStand laptopstandaard (zwart)",
+    "merchantTitle": "Rain Design 10075 mStand Laptop Stand Black - stand for all laptops",
+    "brand": "Rain Design",
+    "ean": "0891607000957",
+    "short": "Een aluminium standaard die je laptop op ooghoogte zet voor een betere houding.",
+    "description": "De laptop komt hoger te staan, zodat je minder naar beneden kijkt. Onder de standaard is ruimte voor een toetsenbord of notitieboek. Een aanrader voor wie thuis veel op een laptop werkt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/rain-design-10075-mstand-laptop-stand-black-stand-for-all-laptops/9300000044574411/",
+    "priceCents": 5499,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "thuiswerker",
+      "collega",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 61,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/rain-design-10075-mstand-laptop-stand-black-stand-for-all-laptops/9300000044574411/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 54,99, verkoper Smartphonehoesjes.nl (Nederlandse verkoper, niet bol zelf), levertekst 'Voor 21:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-18.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "corsair-hs80-rgb-wireless-gaming-headset",
+    "title": "Corsair HS80 RGB Wireless gaming headset (carbon)",
+    "merchantTitle": "Corsair HS80 Wireless RGB Headset - Gaming Headset - PS4, PS5 & PC",
+    "brand": "Corsair",
+    "ean": "0840006625940",
+    "short": "Een draadloze gaming headset voor pc en PlayStation met RGB-verlichting.",
+    "description": "De headset werkt draadloos met pc, PS5 en PS4 en kan ook met een usb-kabel worden gebruikt. De batterij gaat ongeveer 20 uur mee en het bereik is circa 18 meter. Geschikt voor lange gamesessies.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/corsair-hs80-draadloze-rgb-gaming-headset-carbon-ps5-ps4-pc/9300000047059888/",
+    "priceCents": 9999,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "partner"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "gamen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.0,
+      "count": 48,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/corsair-hs80-draadloze-rgb-gaming-headset-carbon-ps5-ps4-pc/9300000047059888/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 99,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "nothing-ear-a-oordopjes-zwart",
+    "title": "Nothing Ear (a) draadloze oordopjes met noise cancelling (zwart)",
+    "merchantTitle": "Nothing Ear (a) True Wireless Draadloze Oordopjes - Noise Cancelling - Zwart",
+    "brand": "Nothing",
+    "ean": "6974434222205",
+    "short": "Draadloze oordopjes met een opvallend ontwerp en noise cancelling.",
+    "description": "De oordopjes dempen omgevingsgeluid en verbinden via Bluetooth met telefoon of laptop. Ze hebben een herkenbaar doorzichtig ontwerp. Een stijlvol alternatief voor de bekendere merken.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/nothing-ear-true-wireless-draadloze-oordopjes-noice-cancelling-zwart/9300000175300727/",
+    "priceCents": 6108,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "partner"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "muziek",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.3,
+      "count": 62,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/nothing-ear-true-wireless-draadloze-oordopjes-noice-cancelling-zwart/9300000175300727/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 61,08, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "sony-wf-1000xm5-oordopjes-roze",
+    "title": "Sony WF-1000XM5 draadloze oordopjes met noise cancelling (roze)",
+    "merchantTitle": "Sony WF-1000XM5 - Volledig draadloze oordopjes met Noise Cancelling - Smoky Pink / Roze",
+    "brand": "Sony",
+    "ean": "4548736163645",
+    "short": "Kleine draadloze oordopjes met sterke ruisonderdrukking, nu met bol-korting.",
+    "description": "Deze oordopjes zitten in de topklasse van Sony en dempen omgevingsgeluid goed. Ze zijn klein en verbinden via Bluetooth. Een cadeau voor wie veel reist of in een rumoerige omgeving luistert.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/sony-wf-1000xm5-volledig-draadloze-oordopjes-met-noise-cancelling-roze/9300000187649794/",
+    "priceCents": 16900,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vriend",
+      "tiener",
+      "moeder",
+      "vader"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "muziek",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 3.7,
+      "count": 81,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/sony-wf-1000xm5-volledig-draadloze-oordopjes-met-noise-cancelling-roze/9300000187649794/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 63,
+      "commissionPct": null,
+      "notes": "Prijs € 169,00 (Black Friday-aanbieding, adviesprijs € 320), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Reviewscore 3,7.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "nintendo-switch-2-official-case-deluxe-zwart",
+    "title": "Nintendo Switch 2 Official Case Deluxe (zwart)",
+    "merchantTitle": "Nintendo Switch 2 - Official Nintendo Case Deluxe (Black)",
+    "brand": "Nintendo",
+    "ean": "0663293113460",
+    "short": "De officiële beschermhoes voor de Switch 2, met een vak voor het scherm.",
+    "description": "De gewatteerde hoes beschermt de console tijdens het reizen. Er zit een scheiding tegen het scherm in. Een praktisch cadeau voor wie net een Switch 2 heeft gekregen of gaat krijgen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/switch-2-official-case-deluxe-zwart/9300000232717491/",
+    "priceCents": 2292,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "kind",
+      "vriend"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "gamen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 18,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/switch-2-official-case-deluxe-zwart/9300000232717491/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 70,
+      "commissionPct": null,
+      "notes": "Prijs € 22,92, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "philips-hue-slimme-stekker-3-pack",
+    "title": "Philips Hue slimme stekker 3-pack (Nederland)",
+    "merchantTitle": "Philips Hue slimme stekker - Voor Nederland - 3-pack",
+    "brand": "Philips Hue",
+    "ean": "8720169258341",
+    "short": "Drie slimme stekkers waarmee je lampen en apparaten via de Hue-app schakelt.",
+    "description": "Je zet de stekkers tussen het stopcontact en een lamp of apparaat en bedient die met de app, een tijdschema of je stem. Een set van drie is genoeg voor een hele kamer. Dit is een andere uitvoering dan de enkele stekker die al in de catalogus staat.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/philips-hue-slimme-stekker-nederland-3-pack/9300000156780779/",
+    "priceCents": 10400,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader",
+      "thuiswerker",
+      "vriend",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 57,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/philips-hue-slimme-stekker-nederland-3-pack/9300000156780779/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 58,
+      "commissionPct": null,
+      "notes": "Prijs € 104,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Let op: andere EAN/ID dan Philips Hue slimme stekker (enkel) in products.json.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "razer-blackshark-v2-hyperspeed-draadloos",
+    "title": "Razer BlackShark V2 HyperSpeed draadloze gaming headset",
+    "merchantTitle": "Razer BlackShark V2 HyperSpeed - Draadloze Gaming Headset - Lichtgewicht - 280g",
+    "brand": "Razer",
+    "ean": "8886419378235",
+    "short": "Een lichte draadloze gaming headset voor pc, met een microfoon voor het spel.",
+    "description": "De headset weegt ongeveer 280 gram en werkt draadloos met een usb-ontvanger. Je hoort goed waar geluiden in een game vandaan komen. Geschikt voor wie lange sessies speelt en een draadloos alternatief zoekt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/razer-blackshark-v2-hyperspeed-draadloze-gaming-headset-zwart/9300000160625580/",
+    "priceCents": 9799,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "partner"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "gamen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/razer-blackshark-v2-hyperspeed-draadloze-gaming-headset-zwart/9300000160625580/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 64,
+      "commissionPct": null,
+      "notes": "Prijs € 97,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Rating bewust leeg: de pagina toonde 4,1 uit 111 reviews, identiek aan het V2 X-model, waardoor de toewijzing onzeker is.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "razer-blackshark-v2-x-gaming-headset",
+    "title": "Razer BlackShark V2 X bedrade gaming headset",
+    "merchantTitle": "Razer Blackshark V2 X Gaming Headset - 7.1 Surround - PC/PS4/Xbox One/Switch",
+    "brand": "Razer",
+    "ean": "8886419378396",
+    "short": "Een bedrade gaming headset met surround-geluid en microfoon, voor pc en consoles.",
+    "description": "De headset gaat via de koptelefoonaansluiting en past bij pc en consoles. Hij heeft een microfoon voor overleg met teamgenoten. Een solide instapkeuze van een bekend gamingmerk.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/razer-blackshark-v2-x-gaming-headset-geschikt-voor-pc-consoles-zwart/9300000003894968/",
+    "priceCents": 4199,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "partner"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "gamen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.1,
+      "count": 111,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/razer-blackshark-v2-x-gaming-headset-geschikt-voor-pc-consoles-zwart/9300000003894968/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 41,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "logitech-mx-keys-mini-toetsenbord",
+    "title": "Logitech MX Keys Mini draadloos toetsenbord (qwerty, pale grey)",
+    "merchantTitle": "Logitech MX Keys Mini - Draadloos Bluetooth Toetsenbord - Qwerty ISO - Pale Grey",
+    "brand": "Logitech",
+    "ean": "5099206099036",
+    "short": "Een compact toetsenbord met verlichting en Bluetooth voor een nette werkplek.",
+    "description": "Het toetsenbord is kleiner dan een standaardmodel en heeft toetsen die zijn gevormd naar je vingertoppen. Het verbindt via Bluetooth met meerdere apparaten en heeft verlichting. Prettig typen voor wie thuis veel werkt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/logitech-mx-keys-mini-draadloos-bluetooth-toetsenbord-qwerty-iso-pale-grey/9300000045777046/",
+    "priceCents": 8290,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "thuiswerker",
+      "collega",
+      "partner",
+      "vader"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 139,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/logitech-mx-keys-mini-draadloos-bluetooth-toetsenbord-qwerty-iso-pale-grey/9300000045777046/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 82,90, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Qwerty ISO-indeling; voorraad bijna op.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "jbl-charge-6-bluetooth-speaker-zwart",
+    "title": "JBL Charge 6 draagbare Bluetooth-speaker (zwart)",
+    "merchantTitle": "JBL Charge 6 - Draagbare Bluetooth Speaker - Krachtig Geluid - Zwart",
+    "brand": "JBL",
+    "ean": "1200130019555",
+    "short": "Een stevige, waterdichte Bluetooth-speaker die ook een telefoon kan opladen.",
+    "description": "De speaker is bedoeld voor mee naar buiten en tegen water en stof bestand. Er zit een powerbank-functie in om een telefoon bij te laden. Een flinke speaker voor een tuin, kamer of weekendje weg.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/jbl-charge-6-draagbare-bluetooth-speaker-zwart/9300000193746670/",
+    "priceCents": 14500,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "partner",
+      "vader"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "muziek",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 54,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/jbl-charge-6-draagbare-bluetooth-speaker-zwart/9300000193746670/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 145,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "logitech-mx-anywhere-3s-graphite",
+    "title": "Logitech MX Anywhere 3S compacte draadloze muis (graphite)",
+    "merchantTitle": "Logitech MX Anywhere 3S - Draadloze Muis - Bluetooth - Rechtshandig - Graphite",
+    "brand": "Logitech",
+    "ean": "5099206111721",
+    "short": "Een kleine, stille muis voor onderweg die op bijna elk oppervlak werkt.",
+    "description": "De muis is compact genoeg voor een laptoptas en werkt via Bluetooth met meerdere apparaten. De kliks zijn stil en hij laadt op via USB-C. Handig voor wie op wisselende plekken werkt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/logitech-mx-anywhere-3s-draadloze-muis-bluetooth-rechtshandig-graphite/9300000151539769/",
+    "priceCents": 7899,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "thuiswerker",
+      "collega",
+      "tiener",
+      "partner"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 20,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/logitech-mx-anywhere-3s-draadloze-muis-bluetooth-rechtshandig-graphite/9300000151539769/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 78,99 (adviesprijs € 89,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. 20 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "govee-table-lamp-2",
+    "title": "Govee Table Lamp 2 slimme RGBIC-tafellamp",
+    "merchantTitle": "Govee Table Lamp 2 - RGBIC lamp met app- en spraakbediening - 16 miljoen kleuren",
+    "brand": "Govee",
+    "ean": "6974316990314",
+    "short": "Een slimme tafellamp met kleurverlichting die je met de app of je stem bedient.",
+    "description": "De lamp heeft meerdere kleurzones en je stelt licht en kleur in via de app. Hij werkt ook met spraakassistenten. Past op een bureau of nachtkastje en geeft sfeer in een kamer of gamehoek.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/govee-table-lamp-2/9300000190353542/",
+    "priceCents": 5255,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "thuiswerker",
+      "partner"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 6,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/govee-table-lamp-2/9300000190353542/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 52,55, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Slechts 6 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "govee-uplighter-vloerlamp-170-cm",
+    "title": "Govee slimme vloerlamp 170 cm (Matter, RGBICWW)",
+    "merchantTitle": "Govee slimme vloerlamp 170 cm Matter RGBICWW - ripple wall wash verlichting - drie lichtzones",
+    "brand": "Govee",
+    "ean": "6974316995968",
+    "short": "Een hoge slimme vloerlamp die kleurrijk licht naar de muur en het plafond werpt.",
+    "description": "De lamp heeft drie lichtzones en wordt via app of spraak bediend. Hij ondersteunt Matter, waardoor hij met meerdere slimme-huissystemen werkt. Een opvallende sfeerlamp voor een gamekamer of woonkamer.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/govee-uplighter-floor-lamp/9300000237377048/",
+    "priceCents": 15100,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "partner"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5.0,
+      "count": 3,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/govee-uplighter-floor-lamp/9300000237377048/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 56,
+      "commissionPct": null,
+      "notes": "Prijs € 151,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 3 reviews; Matter-vermelding komt uit de pagina-titel.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "nacon-switch-2-charging-station-xl",
+    "title": "Nacon oplaadstation XL voor Nintendo Switch 2 (RGB)",
+    "merchantTitle": "NACON Charging Station XL Switch 2 - Dock'n Store RGB laadstation voor Switch 2 Pro Controller en 2 Joy-Con",
+    "brand": "Nacon",
+    "ean": "3665962029093",
+    "short": "Een RGB-laadstation voor een Pro Controller en twee Joy-Con van de Switch 2.",
+    "description": "Je zet de controllers op het station en ze laden tegelijk op. Het station heeft verlichting en houdt de controllers bij elkaar. Handig voor wie vaak met meerdere spelers speelt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/switch-2-dock-n-store-rgb-laadstation-voor-nintendo-switch-2-pro-controller-en-2-joy-con-controllers/9300000224304118/",
+    "priceCents": 3678,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "kind",
+      "vriend"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "gamen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/switch-2-dock-n-store-rgb-laadstation-voor-nintendo-switch-2-pro-controller-en-2-joy-con-controllers/9300000224304118/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 54,
+      "commissionPct": null,
+      "notes": "Prijs € 36,78, verkoper JVS Trading NL (Nederlandse verkoper, niet bol zelf), levertekst 'Voor 18:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Nog geen reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "hario-v60-keramiek-set-02",
+    "title": "Hario V60 pour-over set keramiek (maat 02)",
+    "merchantTitle": "Hario V60 Set (Keramiek, Wit) - dripper 02, glazen server 600 ml, filters en maatschepje",
+    "brand": "Hario",
+    "ean": "4977642020290",
+    "short": "Een set om koffie met de hand te zetten: dripper, glazen kan en filters.",
+    "description": "Bij deze methode giet je zelf heet water over de koffie, waardoor je smaak en tempo bepaalt. In de set zit een keramische dripper, een glazen kan en filters. Een rustig koffieritueel voor een thuiswerkplek.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/hario-v60-set/9200000126719015/",
+    "priceCents": 3667,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "thuiswerker",
+      "collega",
+      "partner",
+      "vader",
+      "moeder"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "koken",
+      "eten-drinken",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5.0,
+      "count": 1,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/hario-v60-set/9200000126719015/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 36,67, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 1 review; setinhoud uit bol-zoekresultaat, controleer voor publicatie.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "hyperx-pulsefire-mat-xl-muismat",
+    "title": "HyperX Pulsefire Mat XL gaming muismat",
+    "merchantTitle": "HyperX Pulsefire Mat Gaming Muismat XL - Zwart",
+    "brand": "HyperX",
+    "ean": "0196188567333",
+    "short": "Een grote muismat waar je muis en toetsenbord allebei op passen.",
+    "description": "De mat is groot genoeg voor een toetsenbord en een muis en geeft een gelijkmatig glijoppervlak. De onderkant gaat niet snel schuiven. Een eenvoudige verbetering voor een bureau, ook voor kantoorgebruik.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/hyperx-pulsefire-gaming-muismat-zwart/9300000093208276/",
+    "priceCents": 3599,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "gamen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.0,
+      "count": 4,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/hyperx-pulsefire-gaming-muismat-zwart/9300000093208276/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 56,
+      "commissionPct": null,
+      "notes": "Prijs € 35,99, verkoper breqq (Nederlandse verkoper), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 4 reviews; afmeting 90 x 42 cm komt uit bol-zoekresultaat.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "jbl-quantum-100-m2-gaming-headset",
+    "title": "JBL Quantum 100 M2 bedrade gaming headset (zwart)",
+    "merchantTitle": "JBL Quantum 100M2 Gaming Headset - Over Ear - Zwart - Multi-platform",
+    "brand": "JBL",
+    "ean": "1200130015519",
+    "short": "Een lichte bedrade gaming headset met afneembare microfoon voor pc en consoles.",
+    "description": "De headset gaat via een 3,5 mm-stekker en werkt met pc, PlayStation, Xbox en Switch. De microfoon is af te nemen als je alleen wilt luisteren. Een betaalbare headset voor beginnende gamers.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/jbl-quantum-100m2-gaming-headset-over-ear-zwart/9300000176218106/",
+    "priceCents": 4099,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "kind"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "gamen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 23,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/jbl-quantum-100m2-gaming-headset-over-ear-zwart/9300000176218106/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 70,
+      "commissionPct": null,
+      "notes": "Prijs € 40,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "jbl-quantum-200-gaming-headset",
+    "title": "JBL Quantum 200 bedrade gaming headset (zwart)",
+    "merchantTitle": "JBL Quantum 200 - Gaming Headset met microfoon - Over Ear - Zwart",
+    "brand": "JBL",
+    "ean": "6019946974959",
+    "short": "Een bedrade over-ear gaming headset met opklapbare microfoon.",
+    "description": "De headset is bedoeld voor pc en consoles en heeft een microfoon die omhoog kan. De oorkussens zijn gevoerd voor langer zitcomfort. Een degelijke headset onder de 50 euro.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/jbl-quantum-200-gaming-headset-draadloos-over-ear-zwart-ps4-ps5-xbox-pc-nintendo-switch/9200000129157185/",
+    "priceCents": 4839,
+    "priceCheckedAt": "2026-11-18",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "tiener",
+      "vriend",
+      "kind"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17",
+      "volwassen"
+    ],
+    "interests": [
+      "gamen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.0,
+      "count": 219,
+      "source": "bol.com productpagina (gezien 2026-11-18)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/jbl-quantum-200-gaming-headset-draadloos-over-ear-zwart-ps4-ps5-xbox-pc-nintendo-switch/9200000129157185/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 48,39 (adviesprijs € 59,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. De URL noemt de headset 'draadloos', de titel zegt bedraad; de zoekresultaten noemen hem bedraad.",
+      "verified": true
+    }
+  }
+]

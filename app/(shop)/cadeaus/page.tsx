@@ -59,7 +59,7 @@ async function Results({ searchParams }: { searchParams: Promise<SP> }) {
       </p>
       <div className="mt-4">
         {results.length ? (
-          <ProductGrid products={results} deliveries={deliveries} />
+          <ProductGrid products={results} deliveries={deliveries} now={new Date().toISOString()} />
         ) : (
           <p className="rounded-2xl border border-dashed border-line p-8 text-center text-muted">
             {filters.uiterlijk

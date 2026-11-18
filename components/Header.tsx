@@ -1,7 +1,6 @@
 import Link from "next/link";
-import { formatDate, lastOrderDate } from "@/lib/deadlines";
 import { LogoMark } from "./Logo";
-import { DaysLeft } from "./DaysLeft";
+import { SeasonBar } from "./SeasonBar";
 
 /* Kopbalk van de hele site: promobalk met aftelling, rode balk met logo en zoeken, navigatie. */
 const KOP = "font-display";
@@ -17,19 +16,9 @@ const NAV = [
 ] as const;
 
 export function Header() {
-  const snelsteIso = lastOrderDate(1, "sinterklaas");
   return (
     <>
-      <p className="bg-[#f6e6df] px-4 py-2.5 text-center text-[15px] leading-snug text-[#2b2622] sm:text-base">
-        <DaysLeft occasion="sinterklaas" />
-        <span className="max-sm:block sm:before:content-['_·_']">
-          De snelste cadeaus bestel je uiterlijk{" "}
-          <strong className="font-bold whitespace-nowrap">
-            <span className="sm:hidden">{formatDate(snelsteIso, true)}</span>
-            <span className="max-sm:hidden">{formatDate(snelsteIso)}</span>
-          </strong>
-        </span>
-      </p>
+      <SeasonBar />
       <header className="sticky top-0 z-40 border-b border-[#ebe4d8] bg-white text-[#2b2622]">
         <div className={`${WRAP} flex flex-wrap items-center gap-x-6 gap-y-2.5 py-3 lg:flex-nowrap lg:py-4`}>
           <Link href="/" className="flex shrink-0 items-center gap-2.5" aria-label="OpTijdCadeau, naar de homepage">

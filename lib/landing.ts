@@ -4,13 +4,16 @@ import { getDeliveries, type Delivery } from "./delivery";
 import { guides } from "./guides";
 import { ARRIVE_BY, addBusinessDays, daysUntil, lastOrderDate, todayInNL } from "./deadlines";
 import { BUDGETS, INTERESTS, MERCHANTS, RECIPIENTS, type Product } from "./types";
+import { priceDisplay } from "./price";
+import { currentSeason, openOccasions } from "./season";
 
 /**
  * Alle echte inhoud voor de homepage, in één keer. Aanroepen na `await connection()`
  * (hangt af van vandaag). Gebruikt door de homepage en de ontwerpvarianten in app/(ontwerp).
  */
 export async function getLandingData() {
-  const today = todayInNL();
+  const now = new Date();
+  const today = todayInNL(now);
   const products = await getProducts();
   const featured = products.slice(0, 12);
   const pick = (f: (p: Product) => boolean, n = 8) => products.filter(f).slice(0, n);
@@ -29,6 +32,8 @@ export async function getLandingData() {
     brand: p.brand ?? null,
     short: p.short,
     priceCents: p.priceCents,
+    /** Prijs alleen als hij hooguit 48 uur oud is, met controledatum (compliance punt 5). */
+    price: priceDisplay(p.priceCents, p.priceCheckedAt, now),
     merchant: MERCHANTS[p.merchant].name,
     href: `/cadeau/${p.slug}`,
     delivery: deliveries.get(p.slug) as Delivery,
@@ -57,7 +62,7 @@ export async function getLandingData() {
   /** Besteldeadlines per levertijd: het "vertrekbord" van pakjesavond en kerst. */
   const deadlines = [1, 2, 3].map((days) => ({
     deliveryDays: days,
-    label: days === 1 ? "Morgen in huis" : `${days} werkdagen levertijd`,
+    label: days === 1 ? "1 werkdag levertijd" : `${days} werkdagen levertijd`,
     sinterklaas: lastOrderDate(days, "sinterklaas"),
     kerst: lastOrderDate(days, "kerst"),
     count: products.filter((p) => p.deliveryDaysMax === days).length,
@@ -77,6 +82,10 @@ export async function getLandingData() {
     kerst: { arriveBy: ARRIVE_BY.kerst, daysLeft: daysUntil("2026-12-25", today), fastestOrderBy: lastOrderDate(1, "kerst") },
     guides: guides.map((g) => ({ slug: g.slug, title: g.title, intro: g.intro[0] ?? "", href: `/gids/${g.slug}` })),
     tomorrowDelivery: addBusinessDays(today, 1),
+    /** Lopend seizoen voor de aftelling; null als alle besteldeadlines voorbij zijn (compliance punt 8). */
+    season: currentSeason(today),
+    /** Feestdagen waarvoor je vandaag nog op tijd kunt bestellen. */
+    openOccasions: openOccasions(today),
   };
 }
 

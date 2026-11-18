@@ -1,16 +1,15 @@
 import Link from "next/link";
 import type { Product } from "@/lib/types";
 import { MERCHANTS } from "@/lib/types";
-import { formatPrice } from "@/lib/format";
-import { formatDate, lastOrderDate } from "@/lib/deadlines";
+import { formatDate } from "@/lib/deadlines";
 import type { Delivery } from "@/lib/delivery-core";
 import { ProductArt } from "./ProductArt";
+import { PriceTag } from "./PriceTag";
+import { CardDeadline } from "./CardDeadline";
 
-export function ProductCard({ product, delivery }: { product: Product; delivery?: Delivery }) {
+/** `now` (ISO) alleen meegeven op dynamische pagina's; zonder `now` rekent de browser de 48-uurregel. */
+export function ProductCard({ product, delivery, now }: { product: Product; delivery?: Delivery; now?: string }) {
   const merchant = MERCHANTS[product.merchant].name;
-  const deadline = product.occasions.includes("sinterklaas")
-    ? { label: "Sint", date: lastOrderDate(product.deliveryDaysMax, "sinterklaas") }
-    : { label: "kerst", date: lastOrderDate(product.deliveryDaysMax, "kerst") };
 
   return (
     <article className="group relative flex flex-col overflow-hidden rounded-2xl border border-line bg-white transition-shadow hover:shadow-[0_8px_30px_-12px_rgba(30,26,22,0.25)]">
@@ -28,9 +27,7 @@ export function ProductCard({ product, delivery }: { product: Product; delivery?
         </h3>
         <p className="mt-1 line-clamp-2 text-sm text-muted">{product.short}</p>
         <div className="mt-auto pt-4">
-          <p className="text-lg font-semibold text-ink">
-            {formatPrice(product.priceCents)} <span className="text-sm font-normal text-muted">bij {merchant}</span>
-          </p>
+          <PriceTag priceCents={product.priceCents} checkedAt={product.priceCheckedAt} merchant={merchant} serverNow={now} />
           {delivery ? (
             <p className="mt-1 text-[15px] text-pine">
               {delivery.source === "bol" ? "Nu besteld, uiterlijk in huis" : "Nu besteld, verwacht uiterlijk"}{" "}
@@ -38,9 +35,7 @@ export function ProductCard({ product, delivery }: { product: Product; delivery?
               {delivery.source === "bol" && <span className="text-muted"> · volgens bol</span>}
             </p>
           ) : (
-            <p className="mt-1 text-[15px] text-pine">
-              Op tijd voor {deadline.label}: bestel t/m {formatDate(deadline.date, true)}
-            </p>
+            <CardDeadline occasions={product.occasions} deliveryDaysMax={product.deliveryDaysMax} />
           )}
         </div>
       </div>
@@ -48,11 +43,11 @@ export function ProductCard({ product, delivery }: { product: Product; delivery?
   );
 }
 
-export function ProductGrid({ products, deliveries }: { products: Product[]; deliveries?: Map<string, Delivery> }) {
+export function ProductGrid({ products, deliveries, now }: { products: Product[]; deliveries?: Map<string, Delivery>; now?: string }) {
   return (
     <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
       {products.map((p) => (
-        <ProductCard key={p.slug} product={p} delivery={deliveries?.get(p.slug)} />
+        <ProductCard key={p.slug} product={p} delivery={deliveries?.get(p.slug)} now={now} />
       ))}
     </div>
   );
