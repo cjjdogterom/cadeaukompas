@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-18T19:45:00+01:00",
+  "updatedAt": "2026-11-18T20:25:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "gepland",
-      "currentTask": "Volgende agent-ronde",
+      "status": "bezig",
+      "currentTask": "Agent-ronde 20:25",
       "lastRunAt": "2026-11-18T19:45:00+01:00",
       "lastResult": "Ronde 19:15: +82 cadeaus actief (768), 3 nieuwe gidsen (muziek, fijnproevers, jongens 8–12); 44 cadeaus voor vrouwen/moeder/oma op concept omdat de verkoper niet vaststaat",
       "nextRun": "Elk uur 08–22",
       "blockedBy": null
     },
     "product-scout": {
-      "status": "gepland",
-      "currentTask": "Volgende ronde: vrouwen/moeder/oma opnieuw mét verkoper op de productpagina (44 concepten van 19:15 nalopen)",
+      "status": "bezig",
+      "currentTask": "2 scouts: vrouwen/moeder/oma (incl. 44 concepten van 19:15 via productpagina nalopen); jongens 4–12 en vaders (gereedschap, tech, sport)",
       "lastRunAt": "2026-11-18T19:45:00+01:00",
       "lastResult": "3 scouts: 134 bol-cadeaus aangeleverd (45 jongens/vaders, 45 tieners/thuiswerker/collega, 44 vrouwen/moeder/oma). De 44 voor vrouwen komen van zoekpagina’s zonder vastgestelde verkoper en blijven op concept",
       "nextRun": "Elke agent-ronde (elk uur)",
@@ -50,8 +50,8 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "gepland",
-      "currentTask": "Gidsen voor dunne zoekwoorden (creatief, lezen, tieners sport)",
+      "status": "bezig",
+      "currentTask": "Gidsen creatief cadeau, cadeau voor lezers en verwencadeau voor haar",
       "lastRunAt": "2026-11-18T19:45:00+01:00",
       "lastResult": "Gidsen ‘muziekcadeau’, ‘cadeau voor fijnproevers’ en ‘Sinterklaascadeau jongens 8–12’ toegevoegd en gekoppeld in 7 bestaande gidsen",
       "nextRun": "Volgende ronde",

@@ -106,3 +106,6 @@
 {"ts":"2026-11-18T19:45:00+01:00","agent":"catalogus","type":"klaar","summary":"82 nieuwe cadeaus actief met foto, EAN en actuele prijs uit de bol-API (0 gepauzeerd); 6 niet geïmporteerd (score onder 60); Scheppach-gereedschapskoffer (mogelijk mes) en VTech Duo FX (variant onduidelijk) op concept. 768 actief","files":["data/products.json"]}
 {"ts":"2026-11-18T19:45:00+01:00","agent":"seo-content","type":"klaar","summary":"Gidsen ‘muziekcadeau’, ‘cadeau voor fijnproevers’ en ‘Sinterklaascadeau jongens 8–12’ toegevoegd en gekoppeld in 7 bestaande gidsen","files":["lib/guides.ts"]}
 {"ts":"2026-11-18T19:45:00+01:00","agent":"orchestrator","type":"klaar","summary":"Agent-ronde 19:15 klaar: 768 actief (+82), 3 nieuwe gidsen; 44 cadeaus voor vrouwen wachten op verkoperscontrole"}
+{"ts":"2026-11-18T20:25:00+01:00","agent":"orchestrator","type":"gestart","summary":"Agent-ronde 20:25 gestart: 2 product-scouts en seo-content"}
+{"ts":"2026-11-18T20:25:00+01:00","agent":"product-scout","type":"gestart","summary":"2 scouts gestart: vrouwen/moeder/oma (ook de 44 concepten van 19:15 opnieuw via productpagina); jongens 4–12 en vaders (gereedschap, tech, sport)"}
+{"ts":"2026-11-18T20:25:00+01:00","agent":"seo-content","type":"gestart","summary":"Gidsen creatief cadeau, cadeau voor lezers en verwencadeau voor haar schrijven"}
