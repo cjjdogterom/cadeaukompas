@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-11-18T15:15:00+01:00",
+  "updatedAt": "2026-11-18T16:10:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "bezig",
-      "currentTask": "Agent-ronde 15:15: 2 scouts, seo-content, compliance",
-      "lastRunAt": "2026-11-17T22:20:00+01:00",
-      "lastResult": "Ronde 22:15: catalogus +17 actief, gids moeder, eerste compliance-toetsing (BLOCK: postcode)",
-      "nextRun": "Elke 2 uur 08–22",
+      "status": "gepland",
+      "currentTask": "Volgende agent-ronde",
+      "lastRunAt": "2026-11-18T16:10:00+01:00",
+      "lastResult": "Ronde 15:15: +59 cadeaus actief (580), gidsen 0–3 en 4–7 jaar, compliance-hertoets GO met voorwaarden",
+      "nextRun": "Elk uur 08–22",
       "blockedBy": null
     },
     "product-scout": {
-      "status": "bezig",
-      "currentTask": "2 scouts: ~70 nieuwe bol-cadeaus (baby/peuter + jongens sport/muziek; volwassenen sport, koken, muziek, gamen)",
-      "lastRunAt": "2026-11-18T00:55:00+01:00",
-      "lastResult": "4 scouts: 161 nieuwe bol-cadeaus aangeleverd",
-      "nextRun": "Elke agent-ronde (2 uur)",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-18T16:10:00+01:00",
+      "lastResult": "2 scouts: 67 nieuwe bol-cadeaus aangeleverd (0–3 jaar, jongens, sport/koken/muziek/gamen)",
+      "nextRun": "Elke agent-ronde (elk uur)",
       "blockedBy": null
     },
     "leverancier": {
@@ -27,15 +27,15 @@
     },
     "catalogus": {
       "status": "gepland",
-      "currentTask": "Prijzen van alle 61 actieve producten hercontroleren vóór do 19-11 (48-uurregel); 17 overige concepten nalopen",
-      "lastRunAt": "2026-11-18T00:55:00+01:00",
-      "lastResult": "150 nieuwe cadeaus actief; 211 actief totaal",
-      "nextRun": "18 nov",
+      "currentTask": "Alle prijzen dagelijks verversen via bol-API (48-uurregel)",
+      "lastRunAt": "2026-11-18T16:10:00+01:00",
+      "lastResult": "59 nieuwe cadeaus actief met foto en actuele prijs uit de bol-API; 8 overgeslagen (score onder 60); 3 superlatieven neutraal gemaakt. 580 actief",
+      "nextRun": "Elke agent-ronde",
       "blockedBy": null
     },
     "developer": {
       "status": "wacht",
-      "currentTask": null,
+      "currentTask": "Compliance-fixes (geen akkoord nodig): prijslabel met controledatum op kaarten, \"Populair nu\" hernoemen, \"Morgen in huis\" op vr/za, bol-bezorgdatum op productpagina, dag-salt en opschoning bezoekteller, Sint-datum na 2 dec",
       "lastRunAt": "2026-11-17T19:45:00+01:00",
       "lastResult": "Cookiebanner + Consent Mode v2 gebouwd en getest; prompts in dashboard",
       "nextRun": "Conversiemeting zodra ID's er zijn",
@@ -50,11 +50,11 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "bezig",
-      "currentTask": "Gidsen kinderen 0–3 en 4–7 jaar; moedergids koppelen in related",
-      "lastRunAt": "2026-11-17T22:20:00+01:00",
-      "lastResult": "Gids cadeau voor moeder (9 producten); 2 FAQ's zonder vaste bezorgdatum",
-      "nextRun": "18 nov",
+      "status": "gepland",
+      "currentTask": "Gidsen voor dunne zoekwoorden (vader/gereedschap, oma, tiener gamen)",
+      "lastRunAt": "2026-11-18T16:10:00+01:00",
+      "lastResult": "Gidsen baby en peuter (0–3) en kinderen 4–7 jaar toegevoegd; moedergids en nieuwe gidsen gekoppeld in related",
+      "nextRun": "Volgende ronde",
       "blockedBy": null
     },
     "order-ops": {
@@ -98,12 +98,12 @@
       "blockedBy": "Supabase en affiliate-accounts (owner-todo #3, #4, #8)"
     },
     "compliance": {
-      "status": "bezig",
-      "currentTask": "Hertoets van de site (affiliate-only, nieuw ontwerp) tegen ops/compliance-checklist.md; alleen rapport",
-      "lastRunAt": "2026-11-17T22:20:00+01:00",
-      "lastResult": "Eerste toetsing: 13 OK, 6 NIET OK, 8 N.V.T.; BLOCK tot de postcode in het bedrijfsadres staat",
-      "nextRun": "18 nov (hertoets na akkoorden en prijscontrole)",
-      "blockedBy": null
+      "status": "wacht",
+      "currentTask": null,
+      "lastRunAt": "2026-11-18T16:10:00+01:00",
+      "lastResult": "Hertoets: GO met voorwaarden; 13 OK, 6 NIET OK (niet blokkerend), 8 N.V.T.",
+      "nextRun": "Hertoets vóór eerste advertentie",
+      "blockedBy": "Akkoord eigenaar op tekstwijzigingen (ops/approvals/2026-11-18-compliance-teksten-hertoets.md)"
     }
   }
 }
