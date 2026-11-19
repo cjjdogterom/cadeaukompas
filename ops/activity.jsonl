@@ -125,3 +125,7 @@
 {"ts":"2026-11-18T22:50:00+01:00","agent":"seo-content","type":"klaar","summary":"Gidsen ‘kerstcadeau onder €50’, ‘cadeau voor een vriend’ en ‘cadeau voor wie alles al heeft’ toegevoegd en gekoppeld in 7 bestaande gidsen (gepland waren gamen/oma/klusser, maar die bestonden al)","files":["lib/guides.ts"]}
 {"ts":"2026-11-18T22:50:00+01:00","agent":"product-scout","type":"probleem","summary":"Ronde haalde 48 i.p.v. 50: jongens/vaders-scout vond maar 16 verifieerbare producten; gamen, gereedschap en bbq bij bol zijn grotendeels al in de catalogus. Volgende ronde andere zoekrichtingen (sportartikelen, buitenspeelgoed, hobby voor vaders)"}
 {"ts":"2026-11-18T22:50:00+01:00","agent":"orchestrator","type":"klaar","summary":"Agent-ronde 22:15 klaar: 903 actief (+48), 3 nieuwe gidsen"}
+{"ts":"2026-11-19T08:45:00+01:00","agent":"orchestrator","type":"gestart","summary":"Agent-ronde 08:45 gestart: dagelijkse prijsverversing, 2 product-scouts en seo-content"}
+{"ts":"2026-11-19T08:45:00+01:00","agent":"catalogus","type":"gestart","summary":"Alle prijzen verversen via de bol-API (48-uurregel)"}
+{"ts":"2026-11-19T08:45:00+01:00","agent":"product-scout","type":"gestart","summary":"2 scouts gestart: vrouwen/moeder/oma (sport, tech, creatief, muziek, €50+); jongens 0–7 en vaders (sport, buiten, verzorging, hobby)"}
+{"ts":"2026-11-19T08:45:00+01:00","agent":"seo-content","type":"gestart","summary":"Drie nieuwe gidsen schrijven voor dunne zoekintenties"}
