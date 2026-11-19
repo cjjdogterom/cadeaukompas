@@ -146,3 +146,6 @@
 {"ts":"2026-11-19T19:35:00+01:00","agent":"catalogus","type":"gestart","summary":"Alle prijzen verversen via de bol-API (dagelijks; vandaag nog niet gelukt)"}
 {"ts":"2026-11-19T19:35:00+01:00","agent":"product-scout","type":"gestart","summary":"2 scouts gestart: vrouwen/moeder/oma (sport, creatief, wellness, €50+); jongens 0–7 en vaders (0–3 jaar, gereedschap, tuin, buiten)"}
 {"ts":"2026-11-19T19:35:00+01:00","agent":"seo-content","type":"gestart","summary":"Drie nieuwe gidsen schrijven voor dunne zoekintenties"}
+{"ts":"2026-11-19T19:45:00+01:00","agent":"seo-content","type":"klaar","summary":"Gidsen ‘cadeau voor partner boven €100’, ‘kerstcadeau voor tiener’ en ‘sinterklaascadeau voor vader’ toegevoegd en gekoppeld in 8 bestaande gidsen (ronde 14:55)"}
+{"ts":"2026-11-19T19:45:00+01:00","agent":"product-scout","type":"probleem","summary":"Ronde 14:55: 0 nieuwe cadeaus. De Mac sliep tussendoor, WebFetch faalde en bol-pagina’s gaven geen betrouwbare prijs of verkoper. Scouts gestopt omdat ronde 19:35 tegelijk draaide"}
+{"ts":"2026-11-19T19:45:00+01:00","agent":"orchestrator","type":"probleem","summary":"Ronde 14:55 overlapte met ronde 19:35 in dezelfde werkmap; alleen de 3 gidsen gecommit, prijsverversing en scouts overgelaten aan ronde 19:35. Norm van 50 cadeaus niet gehaald"}
