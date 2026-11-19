@@ -143,7 +143,7 @@ export const guides: Guide[] = [
       { q: "Hoeveel mag een cadeau voor een partner kosten?", a: "Dat bepaal je zelf. Een persoonlijk gekozen cadeau voor een beperkt bedrag werkt vaak beter dan een duur cadeau waar weinig over is nagedacht." },
       { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "Bij elk product staat de uiterste besteldatum voor beide momenten. Die is gebaseerd op de verwachte levertijd van de winkel plus een dag marge." },
     ],
-    related: ["cadeau-onder-25-euro-collega", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "cadeau-thuiswerker-50-100-euro", "cadeau-voor-fijnproevers", "muziekcadeau", "verwencadeau-voor-haar", "cadeau-voor-lezers", "cadeau-voor-een-vriend", "cadeau-voor-wie-alles-heeft"],
+    related: ["cadeau-onder-25-euro-collega", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "cadeau-thuiswerker-50-100-euro", "cadeau-voor-fijnproevers", "muziekcadeau", "verwencadeau-voor-haar", "cadeau-voor-lezers", "cadeau-voor-een-vriend", "cadeau-voor-wie-alles-heeft", "cadeau-partner-50-100-euro"],
   },
   {
     slug: "cadeau-voor-opa-en-oma",
@@ -258,7 +258,7 @@ export const guides: Guide[] = [
       { q: "Zijn deze cadeaus ook geschikt voor Sinterklaas en kerst?", a: "Veel cadeaus passen bij beide momenten. De uiterste besteldatum verschilt per gelegenheid en staat bij elk product." },
       { q: "Hoe voorkom ik dat ik hetzelfde cadeau koop als iemand anders?", a: "Vraag de ouders of spreek met de familie af wie wat koopt. Een spel of bouwset dat al in huis is, kan wel een uitbreiding krijgen, maar vraag dat even na." },
     ],
-    related: ["sinterklaascadeau-baby-peuter", "sinterklaascadeau-kinderen-8-12", "cadeau-onder-15-euro", "cadeau-voor-opa-en-oma", "creatief-cadeau"],
+    related: ["sinterklaascadeau-baby-peuter", "sinterklaascadeau-kinderen-8-12", "cadeau-onder-15-euro", "cadeau-voor-opa-en-oma", "creatief-cadeau", "spelcadeau-bord-en-kaartspellen"],
   },
   {
     slug: "cadeau-vader-klussen-gereedschap",
@@ -327,7 +327,7 @@ export const guides: Guide[] = [
       { q: "Welk spel is geschikt voor opa en oma?", a: "Een spel dat je in een paar minuten uitlegt en dat met twee of meer mensen werkt, zoals een kaartspel. Kijk op de verpakking naar het aantal spelers en de speelduur." },
       { q: "Wanneer moet ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau. We rekenen met werkdagen en een dag extra marge voor de drukte." },
     ],
-    related: ["cadeau-voor-opa-en-oma", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "cadeau-onder-15-euro", "cadeau-voor-lezers"],
+    related: ["cadeau-voor-opa-en-oma", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "cadeau-onder-15-euro", "cadeau-voor-lezers", "spelcadeau-bord-en-kaartspellen"],
   },
   {
     slug: "sportcadeau-voor-volwassenen",
@@ -571,7 +571,7 @@ export const guides: Guide[] = [
       { q: "Waarom staan er geen cadeaus onder €25 in deze gids?", a: "Deze gids toont het bereik van €25 tot €50. Voor kleinere bedragen heb je de gidsen voor cadeaus onder €25 voor een collega en cadeaus onder €15." },
       { q: "Tot wanneer kan ik bestellen voor kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge. Zo hoef je niet te gokken of het pakje voor 24 december binnen is." },
     ],
-    related: ["kerstpakket-thuiswerker", "kerstcadeau-voor-vader", "cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "cadeau-voor-wie-alles-heeft", "kerstcadeau-voor-moeder-onder-50"],
+    related: ["kerstpakket-thuiswerker", "kerstcadeau-voor-vader", "cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "cadeau-voor-wie-alles-heeft", "kerstcadeau-voor-moeder-onder-50", "kerstcadeau-vanaf-100-euro"],
   },
   {
     slug: "cadeau-voor-een-vriend",
@@ -596,7 +596,7 @@ export const guides: Guide[] = [
       { q: "Wat geef je een vriend die moeilijk te verrassen is?", a: "Kies iets dat verbruikt wordt, zoals thee, chocolade of een kaars, of iets om samen te doen, zoals een spel. Dan hoeft het niet precies bij de smaak te passen." },
       { q: "Komt het cadeau op tijd?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge voor de drukte." },
     ],
-    related: ["cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "cadeau-voor-partner", "sinterklaascadeau-tiener", "cadeau-voor-fijnproevers"],
+    related: ["cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "cadeau-voor-partner", "sinterklaascadeau-tiener", "cadeau-voor-fijnproevers", "spelcadeau-bord-en-kaartspellen"],
   },
   {
     slug: "cadeau-voor-wie-alles-heeft",
@@ -620,7 +620,7 @@ export const guides: Guide[] = [
       { q: "Is een cadeaubon een goed alternatief?", a: "Soms wel, zeker als je de smaak echt niet kent. Een klein cadeau dat je zelf hebt uitgekozen laat meestal beter zien dat je hebt nagedacht." },
       { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge." },
     ],
-    related: ["cadeau-voor-opa-en-oma", "cadeau-voor-fijnproevers", "verwencadeau-voor-haar", "kerstcadeau-voor-vader", "cadeau-voor-partner"],
+    related: ["cadeau-voor-opa-en-oma", "cadeau-voor-fijnproevers", "verwencadeau-voor-haar", "kerstcadeau-voor-vader", "cadeau-voor-partner", "kerstcadeau-vanaf-100-euro"],
   },
   {
     slug: "sinterklaascadeau-meisjes-8-12",
@@ -669,7 +669,7 @@ export const guides: Guide[] = [
       { q: "Zijn techcadeaus ook geschikt voor kinderen?", a: "Een aantal wel, maar kijk altijd naar de leeftijdsaanduiding op de verpakking. Een kinderkoptelefoon of een eenvoudige speaker is geschikter dan een apparaat voor volwassenen." },
       { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend. Voor pakjesavond (zaterdag 5 december) moet het cadeau uiterlijk vrijdag 4 december in huis zijn." },
     ],
-    related: ["gamecadeau-tiener-13-17", "cadeau-thuiswerker-50-100-euro", "muziekcadeau", "kerstcadeau-voor-vader", "sinterklaascadeau-tiener"],
+    related: ["gamecadeau-tiener-13-17", "cadeau-thuiswerker-50-100-euro", "muziekcadeau", "kerstcadeau-voor-vader", "sinterklaascadeau-tiener", "kerstcadeau-vanaf-100-euro"],
   },
   {
     slug: "kerstcadeau-voor-moeder-onder-50",
@@ -694,6 +694,81 @@ export const guides: Guide[] = [
       { q: "Tot wanneer kan ik bestellen voor kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge. Zo hoef je niet te gokken of het pakje voor 24 december binnen is." },
     ],
     related: ["cadeau-voor-moeder", "verwencadeau-voor-haar", "kerstcadeau-onder-50-euro", "cadeau-voor-fijnproevers", "cadeau-voor-wie-graag-kookt"],
+  },
+  {
+    slug: "kerstcadeau-vanaf-100-euro",
+    title: "Kerstcadeau vanaf €100",
+    metaTitle: "Kerstcadeau vanaf €100 | OpTijdCadeau",
+    metaDescription:
+      "Kerstcadeaus vanaf €100: audio, e-readers, keukenapparaten, sporthorloges en meer. Met levertijd en uiterste besteldatum voor 24 december.",
+    intro: [
+      "Een kerstcadeau van €100 of meer koop je meestal niet zomaar. Het is vaak een cadeau van een paar mensen samen, een mijlpaal of iets waar iemand al langer naar kijkt. Daarom loont het om eerst te bedenken wat de ontvanger dagelijks gebruikt en wat daar een flinke stap beter in is, in plaats van te kiezen op prijs.",
+      "In deze selectie staan onder meer draadloze koptelefoons en speakers, platenspelers, e-readers, sporthorloges, keukenapparaten, gereedschap en grotere LEGO Technic-sets. Controleer bij elektronica de aansluiting en de telefoon of het systeem dat iemand gebruikt, en lees de garantie- en retourvoorwaarden van de winkel. Bij elk product zie je de levertijd en de uiterste besteldatum voor kerst; de site rekent met bezorging uiterlijk 24 december. Je bestelt bij de winkel zelf; wij sturen je door en verkopen niets. Prijzen kunnen wijzigen, dus bekijk de actuele prijs bij de winkel.",
+    ],
+    filters: { budget: "100-plus", optijd: "kerst" },
+    tips: [
+      "Leg met familie of collega's samen voor één groter cadeau. Dat is vaak beter dan drie kleine cadeaus die in de kast verdwijnen.",
+      "Kies iets dat de ontvanger elke dag gebruikt, zoals koptelefoon, e-reader of keukenapparaat. Dan is de prijs per keer gebruiken laag.",
+      "Check de retourvoorwaarden voor je bestelt. Bij een duurder cadeau wil je kunnen ruilen als de maat, kleur of aansluiting niet past.",
+      "Let op het totaalbedrag inclusief verzendkosten en kijk of er een fabrieksgarantie bij zit.",
+    ],
+    faq: [
+      { q: "Wat is een goed kerstcadeau boven €100?", a: "Iets dat dagelijks of wekelijks gebruikt wordt en waar de ontvanger zelf niet snel zoveel geld aan uitgeeft, zoals goede koptelefoon, een e-reader of een keukenapparaat." },
+      { q: "Is een duur cadeau beter dan een goedkoop cadeau?", a: "Nee. Het gaat erom dat het past bij de ontvanger. Een goed gekozen cadeau van €30 is meer waard dan een duur cadeau waar weinig over is nagedacht." },
+      { q: "Kan ik een cadeau van meer dan €100 retourneren?", a: "Dat bepaalt de winkel waar je bestelt. Bij webwinkels geldt in Nederland meestal een bedenktermijn bij online kopen; lees de voorwaarden op de winkelpagina en bewaar de verpakking." },
+      { q: "Tot wanneer kan ik bestellen voor kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Zo hoef je niet te gokken of het pakje voor 24 december binnen is." },
+    ],
+    related: ["kerstcadeau-onder-50-euro", "cadeau-voor-wie-alles-heeft", "techcadeau", "cadeau-partner-50-100-euro", "kerstcadeau-voor-vader"],
+  },
+  {
+    slug: "cadeau-partner-50-100-euro",
+    title: "Cadeau voor je partner van €50 tot €100",
+    metaTitle: "Cadeau voor je partner van €50 tot €100 | OpTijdCadeau",
+    metaDescription:
+      "Cadeau-ideeën voor je partner tussen €50 en €100: iets voor thuis, verwennen, koken of tech. Met levertijd en uiterste besteldatum per cadeau.",
+    intro: [
+      "Met een budget tussen €50 en €100 kun je je partner iets geven dat meer is dan een kleine attentie. Het blijft lastig om te kiezen, want het gaat niet om het bedrag maar om of het past. Kijk daarom eerst naar wat jouw partner de afgelopen weken zelf heeft genoemd, of waar hij of zij elke dag mee bezig is.",
+      "In deze selectie staan cadeaus voor verwennen, wonen, koken en luisteren, en een paar voor wie graag sport of techniek heeft. Denk aan verzorgingssets, een lamp of kussen voor op de bank, keukengerei of een speaker. Let bij verzorging op geur en gevoelige huid, en bij elektronica op de aansluiting. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. Je bestelt bij de winkel zelf; wij sturen je door en verkopen niets. Prijzen kunnen wijzigen, dus bekijk de actuele prijs bij de winkel.",
+    ],
+    filters: { voor: "partner", budget: "50-100" },
+    tips: [
+      "Kies iets bij een gewoonte die jullie delen, zoals samen koken, een avondje spelen of een serie kijken. Dan is het cadeau meteen een moment om samen te gebruiken.",
+      "Geur en maat zijn persoonlijk. Twijfel je, kies dan iets zonder maat of geur, zoals een lamp, een boek of keukengerei.",
+      "Een klein extraatje erbij, zoals een kaartje of iets lekkers, maakt van één cadeau meteen een pakketje om uit te pakken.",
+      "Spreek bij een gedeeld budget af wie wat betaalt, zodat een cadeau van €80 niet ongemerkt bij een gezamenlijke rekening belandt.",
+    ],
+    faq: [
+      { q: "Wat geef je je partner voor €50 tot €100?", a: "Iets dat past bij wat jouw partner dagelijks doet: een verzorgingsset, iets voor de bank, een speaker, een boek met iets lekkers of keukengerei dat hij of zij zelf niet snel zou kopen." },
+      { q: "Moet een cadeau voor je partner duurder zijn dan een cadeau voor een vriend?", a: "Nee, daar bestaat geen regel voor. Bepaal samen of in je eigen hoofd een bedrag dat bij jullie situatie past. Een persoonlijk gekozen cadeau werkt beter dan een duur cadeau zonder gedachte erachter." },
+      { q: "Wat als mijn partner moeilijk te verrassen is?", a: "Kies iets dat verbruikt wordt of een gezellig moment oplevert, zoals lekkers, een spel voor samen of iets voor de bank. Dan hoef je niet precies de smaak te raden." },
+      { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau voor beide momenten. Die wordt per product berekend, met een dag extra marge voor de drukte." },
+    ],
+    related: ["cadeau-voor-partner", "cadeau-thuiswerker-50-100-euro", "verwencadeau-voor-haar", "kerstcadeau-vanaf-100-euro", "kerstcadeau-onder-50-euro"],
+  },
+  {
+    slug: "spelcadeau-bord-en-kaartspellen",
+    title: "Spelcadeau: bordspellen, kaartspellen en puzzels",
+    metaTitle: "Spelcadeau: bordspel, kaartspel of puzzel | OpTijdCadeau",
+    metaDescription:
+      "Spelcadeaus voor het hele gezin: bordspellen, kaartspellen en puzzels voor kinderen en volwassenen. Met levertijd en uiterste besteldatum per cadeau.",
+    intro: [
+      "Een spel is een cadeau dat je meteen kunt gebruiken: pak het uit, leg de regels uit en je zit binnen tien minuten midden in een potje. Daarom past het goed bij Sinterklaas en kerst, wanneer er toch al familie of vrienden aan tafel zitten. Het werkt voor kinderen, voor volwassenen en voor een gemengd gezelschap.",
+      "In deze selectie staan kaartspellen die je snel uitlegt, bordspellen voor een avond, woordspellen, kinderpuzzels en legpuzzels van 1000 stukjes. Kijk op de verpakking naar de leeftijdsaanduiding, het aantal spelers en de speelduur. Een spel voor twee werkt anders dan een spel voor zes, en een puzzel van 1000 stukjes vraagt een vrije tafel. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. Je bestelt bij de winkel zelf; wij sturen je door en verkopen niets. Prijzen kunnen wijzigen, dus bekijk de actuele prijs bij de winkel.",
+    ],
+    filters: { interesse: "spellen" },
+    tips: [
+      "Kijk naar het aantal spelers. Een spel dat pas leuk is vanaf vier spelers, werkt niet als jullie met twee zijn.",
+      "Kies voor een groep met jong en oud een spel dat zonder veel regels te begrijpen is, zoals een kaartspel of een snel dobbelspel.",
+      "Check de taal. Sommige spellen zijn Engelstalig of hebben veel tekst, en dat is niet voor elke leeftijd geschikt.",
+      "Bij een puzzel telt ook de ruimte: een puzzel van 1000 stukjes is ongeveer 70 bij 50 centimeter, dus er moet een tafel voor vrij zijn.",
+    ],
+    faq: [
+      { q: "Wat is een goed spel als cadeau?", a: "Een spel dat past bij de groep: een snel kaartspel voor een gezin met kinderen, een bordspel voor een spelletjesavond of een puzzel voor wie rustig bezig wil zijn. Kijk naar aantal spelers en leeftijd." },
+      { q: "Welk spel is geschikt voor jong en oud?", a: "Kies een spel met korte uitleg en simpele regels, zoals een kaartspel of dobbelspel. Op de verpakking staat de leeftijd en de speelduur." },
+      { q: "Is een puzzel een goed cadeau voor een volwassene?", a: "Ja, zeker voor wie graag rustig bezig is. Kies een plaatje dat iemand mooi vindt en let op het aantal stukjes, want 1000 stukjes kost meerdere avonden." },
+      { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Voor pakjesavond (zaterdag 5 december) moet het cadeau uiterlijk vrijdag 4 december in huis zijn." },
+    ],
+    related: ["puzzel-en-spelcadeau-oma-opa", "cadeau-voor-een-vriend", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-kinderen-8-12", "cadeau-onder-15-euro"],
   },
 ];
 
