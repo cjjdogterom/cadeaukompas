@@ -129,3 +129,7 @@
 {"ts":"2026-11-19T08:45:00+01:00","agent":"catalogus","type":"gestart","summary":"Alle prijzen verversen via de bol-API (48-uurregel)"}
 {"ts":"2026-11-19T08:45:00+01:00","agent":"product-scout","type":"gestart","summary":"2 scouts gestart: vrouwen/moeder/oma (sport, tech, creatief, muziek, €50+); jongens 0–7 en vaders (sport, buiten, verzorging, hobby)"}
 {"ts":"2026-11-19T08:45:00+01:00","agent":"seo-content","type":"gestart","summary":"Drie nieuwe gidsen schrijven voor dunne zoekintenties"}
+{"ts":"2026-11-19T10:55:00+01:00","agent":"orchestrator","type":"gestart","summary":"Agent-ronde 10:55 gestart (ronde 08:45 was onderbroken zonder resultaat): prijsverversing, 2 product-scouts, seo-content"}
+{"ts":"2026-11-19T10:55:00+01:00","agent":"catalogus","type":"gestart","summary":"Alle prijzen verversen via de bol-API (dagelijks)"}
+{"ts":"2026-11-19T10:55:00+01:00","agent":"product-scout","type":"gestart","summary":"2 scouts gestart: vrouwen/moeder/oma (sport, creatief, muziek, wellness, €50+); jongens 0–7 en vaders (sport, buiten, 0–3 jaar, verzorging, hobby)"}
+{"ts":"2026-11-19T10:55:00+01:00","agent":"seo-content","type":"gestart","summary":"Drie nieuwe gidsen schrijven voor dunne zoekintenties"}

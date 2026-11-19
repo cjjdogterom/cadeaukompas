@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-19T08:45:00+01:00",
+  "updatedAt": "2026-11-19T10:55:00+01:00",
   "agents": {
     "orchestrator": {
       "status": "bezig",
-      "currentTask": "Agent-ronde 08:45: prijsverversing, 2 scouts, seo-content, dagrapport",
+      "currentTask": "Agent-ronde 10:55: prijsverversing, 2 scouts, seo-content, dagrapport (ronde 08:45 was onderbroken)",
       "lastRunAt": "2026-11-18T22:50:00+01:00",
       "lastResult": "Ronde 22:15: +48 cadeaus actief (903), 3 gidsen; 2 onder de norm van 50",
       "nextRun": "Elk uur 08–22",
@@ -11,7 +11,7 @@
     },
     "product-scout": {
       "status": "bezig",
-      "currentTask": "2 scouts: vrouwen/moeder/oma (sport, tech, creatief, muziek, €50+); jongens 0–7 en vaders (sport, buiten, verzorging, hobby)",
+      "currentTask": "2 scouts: vrouwen/moeder/oma (sport, creatief, muziek, wellness, €50+); jongens 0–7 en vaders (sport, buiten, 0–3 jaar, verzorging, hobby)",
       "lastRunAt": "2026-11-18T22:50:00+01:00",
       "lastResult": "2 scouts: 50 bol-cadeaus (34 moeder/oma koken, muziek, thuis; 16 jongens/vaders gamen, spellen, Stanley). Gamen/gereedschap/bbq al grotendeels uitgekamd",
       "nextRun": "Elke agent-ronde (elk uur)",
@@ -27,7 +27,7 @@
     },
     "catalogus": {
       "status": "bezig",
-      "currentTask": "Alle prijzen verversen via bol-API (eerste ronde 19-11)",
+      "currentTask": "Alle prijzen verversen via bol-API (dagelijks) en nieuwe scouts-producten activeren",
       "lastRunAt": "2026-11-18T22:50:00+01:00",
       "lastResult": "48 nieuwe cadeaus actief met foto, EAN en prijs uit de bol-API (0 gepauzeerd); Weber-hoes niet geïmporteerd (score 58), KitchenAid Artisan op concept (modelnummer wijkt af). 903 actief; bezorgdatums ververst",
       "nextRun": "Elke agent-ronde",
@@ -51,7 +51,7 @@
     },
     "seo-content": {
       "status": "bezig",
-      "currentTask": "Gidsen sinterklaascadeau meisjes 8–12, cadeau voor sporters/vader-buiten en cadeau voor tech-liefhebber schrijven",
+      "currentTask": "Drie nieuwe gidsen voor dunne zoekintenties (sport, baby/peuter, cadeau boven €100)",
       "lastRunAt": "2026-11-18T22:50:00+01:00",
       "lastResult": "Gidsen ‘kerstcadeau onder €50’ (toont €25–50), ‘cadeau voor een vriend’ en ‘cadeau voor wie alles al heeft’ gepubliceerd en gekoppeld in 7 gidsen",
       "nextRun": "Volgende ronde",
