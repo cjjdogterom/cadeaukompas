@@ -120,7 +120,7 @@ export const guides: Guide[] = [
       { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "Dat verschilt per product. De uiterste besteldatum staat bij elk cadeau en wordt door de site per product berekend, inclusief een dag marge voor de drukte." },
       { q: "Hoeveel geef je uit aan een sinterklaascadeau voor een kind?", a: "Daar bestaat geen vaste regel. Veel gezinnen spreken een bedrag af met familie, zodat de cadeaus ongeveer even groot zijn. In deze selectie vind je zowel kleinere als grotere cadeaus." },
     ],
-    related: ["sinterklaascadeau-tiener", "gamecadeau-tiener-13-17", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-baby-peuter", "sinterklaascadeau-jongens-8-12", "muziekcadeau", "creatief-cadeau", "sinterklaascadeau-meisjes-8-12"],
+    related: ["sinterklaascadeau-tiener", "gamecadeau-tiener-13-17", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-baby-peuter", "sinterklaascadeau-jongens-8-12", "muziekcadeau", "creatief-cadeau", "sinterklaascadeau-meisjes-8-12", "kerstcadeau-kinderen-8-12"],
   },
   {
     slug: "cadeau-voor-partner",
@@ -212,7 +212,7 @@ export const guides: Guide[] = [
       { q: "Wat geef je een moeder die zegt dat ze niets nodig heeft?", a: "Kies iets dat op raakt of een gezellig moment oplevert, zoals chocolade, handcrème of een boek. Dat voelt niet als extra spullen en toch weet ze dat je aan haar gedacht hebt." },
       { q: "Komt het cadeau op tijd voor pakjesavond of kerst?", a: "Bij elk product staat de uiterste besteldatum voor beide momenten. Die wordt per product berekend op basis van de verwachte levertijd van de winkel, met een dag extra marge." },
     ],
-    related: ["cadeau-voor-partner", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma", "cadeau-onder-25-euro-collega", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "cadeau-voor-fijnproevers", "verwencadeau-voor-haar", "cadeau-voor-lezers", "kerstcadeau-voor-moeder-onder-50"],
+    related: ["cadeau-voor-partner", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma", "cadeau-onder-25-euro-collega", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "cadeau-voor-fijnproevers", "verwencadeau-voor-haar", "cadeau-voor-lezers", "kerstcadeau-voor-moeder-onder-50", "sinterklaascadeau-voor-moeder"],
   },
   {
     slug: "sinterklaascadeau-baby-peuter",
@@ -818,7 +818,7 @@ export const guides: Guide[] = [
       { q: "Is een cadeaubon een goed alternatief?", a: "Voor veel tieners wel, zeker als je smaak niet kent. Een klein cadeau uit deze selectie erbij laat zien dat je hebt nagedacht." },
       { q: "Tot wanneer kan ik bestellen voor kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge voor de drukte." },
     ],
-    related: ["sinterklaascadeau-tiener", "gamecadeau-tiener-13-17", "techcadeau", "muziekcadeau"],
+    related: ["sinterklaascadeau-tiener", "gamecadeau-tiener-13-17", "techcadeau", "muziekcadeau", "kerstcadeau-kinderen-8-12"],
   },
   {
     slug: "sinterklaascadeau-voor-vader",
@@ -843,7 +843,55 @@ export const guides: Guide[] = [
       { q: "Wat is het verschil met de kerstgids voor je vader?", a: "Deze gids rekent met pakjesavond op 5 december en toont alleen cadeaus die daarvoor nog op tijd komen. De kerstgids rekent met 24 december." },
       { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag marge. Het cadeau moet uiterlijk vrijdag 4 december in huis zijn." },
     ],
-    related: ["kerstcadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "techcadeau", "sportcadeau-voor-volwassenen"],
+    related: ["kerstcadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "techcadeau", "sportcadeau-voor-volwassenen", "sinterklaascadeau-voor-moeder"],
+  },
+  {
+    slug: "sinterklaascadeau-voor-moeder",
+    title: "Sinterklaascadeau voor je moeder",
+    metaTitle: "Sinterklaascadeau voor je moeder | OpTijdCadeau",
+    metaDescription:
+      "Sinterklaascadeaus voor je moeder: warmte, lekkers, boeken en verwennen. Met levertijd en uiterste besteldatum voor pakjesavond op 5 december.",
+    intro: [
+      "Een moeder die altijd voor een ander zorgt, koopt zelden iets voor zichzelf. Pakjesavond is een mooi moment om dat om te draaien. Kijk naar wat ze doet als ze eindelijk even zit: lezen, thee drinken, een puzzel leggen of met een kopje koffie naar buiten kijken. Een cadeau dat dat moment prettiger maakt, wordt echt gebruikt.",
+      "In deze selectie staan cadeaus om te verwennen, voor op de bank, uit de keuken of om te lezen, en een paar kleine attenties voor in de schoen. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas. Pakjesavond is zaterdag 5 december, dus het cadeau moet uiterlijk vrijdag 4 december in huis zijn. Je bestelt bij de winkel zelf; wij sturen je door en verkopen niets. Prijzen kunnen wijzigen, daarom tonen we de datum waarop we de prijs hebben gecontroleerd. Zoek je iets voor kerst, kijk dan bij de algemene gids voor je moeder.",
+    ],
+    filters: { voor: "moeder", optijd: "sinterklaas" },
+    tips: [
+      "Een klein cadeau voor de schoen en één groter cadeau voor pakjesavond werkt vaak beter dan veel middelgrote pakjes.",
+      "Twijfel je over geur of maat? Kies dan iets zonder: een boek, iets lekkers of iets voor op de bank.",
+      "Heeft het cadeau een stekker, bijvoorbeeld een voetenwarmer, check dan of de bediening voor haar duidelijk is.",
+      "Een gedicht of kaartje erbij is gratis en maakt het cadeau persoonlijker.",
+    ],
+    faq: [
+      { q: "Wat geef je je moeder voor Sinterklaas?", a: "Iets waar ze zelf zelden tijd of geld aan besteedt: een verwenmoment, iets lekkers, een boek of iets voor warmte op de bank. Kijk naar wat ze zelf het liefst doet in haar vrije tijd." },
+      { q: "Wat is het verschil met de gids voor kerst?", a: "Deze gids toont alleen cadeaus die nog voor pakjesavond op 5 december binnen kunnen zijn. De algemene gids voor je moeder toont de selectie voor Sinterklaas en kerst samen." },
+      { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge. Het cadeau moet uiterlijk vrijdag 4 december in huis zijn." },
+    ],
+    related: ["cadeau-voor-moeder", "kerstcadeau-voor-moeder-onder-50", "verwencadeau-voor-haar", "cadeau-voor-lezers", "sinterklaascadeau-voor-vader"],
+  },
+  {
+    slug: "kerstcadeau-kinderen-8-12",
+    title: "Kerstcadeau voor kinderen van 8 tot 12 jaar",
+    metaTitle: "Kerstcadeau voor kinderen van 8–12 jaar | OpTijdCadeau",
+    metaDescription:
+      "Kerstcadeaus voor kinderen van 8 tot 12 jaar: bouwsets, spellen en creatieve cadeaus. Met levertijd en uiterste besteldatum voor 24 december.",
+    intro: [
+      "Met kerst is er meestal meer rust dan met pakjesavond: geen surprise, geen gedicht en vaak twee vrije dagen om een cadeau meteen uit te proberen. Dat past bij kinderen van 8 tot 12, die graag urenlang met iets bezig zijn. Kijk wat ze nu doen: bouwen, tekenen, spelletjes spelen met vrienden of muziek luisteren. Wat vorig jaar favoriet was, is dat misschien al niet meer.",
+      "In deze selectie staan bouwsets, spellen en creatieve cadeaus die voor kerst nog op tijd kunnen komen. Een bouwset of spel is een cadeau waar je op eerste kerstdag meteen mee aan de slag kunt. Check de leeftijdsaanduiding op de verpakking. Bij elk product zie je de levertijd en de uiterste besteldatum; de site rekent met bezorging uiterlijk 24 december. Je bestelt bij de winkel zelf; wij sturen je door en verkopen niets. Zoek je iets voor pakjesavond, kijk dan bij de gids voor Sinterklaas.",
+    ],
+    filters: { voor: "kind", leeftijd: "8-12", optijd: "kerst" },
+    tips: [
+      "Spreek met familie af wie wat koopt. Met kerst komen er vaak cadeaus van opa, oma, ooms en tantes samen, en dubbele cadeaus liggen op de loer.",
+      "Kies bij een bouwset een formaat dat past bij de tijd die het kind heeft. Een grote set is leuk in de kerstvakantie, een kleine set is sneller klaar.",
+      "Een spel dat je samen speelt, maakt van het cadeau meteen iets voor de kerstdagen zelf.",
+      "Vraag de ouders om de smaak van het kind; die verandert op deze leeftijd snel.",
+    ],
+    faq: [
+      { q: "Wat geef je een kind van 10 voor kerst?", a: "Iets waar het kind in de vakantie mee aan de slag kan: een bouwset, een spel voor het hele gezin of een creatieve set. Kijk naar wat het kind de laatste tijd zelf doet." },
+      { q: "Wat is het verschil met het sinterklaascadeau voor kinderen van 8 tot 12?", a: "De selectie en de besteldeadline verschillen. Voor kerst is de uiterste bezorgdatum 24 december, dus je hebt meer tijd dan voor pakjesavond op 5 december." },
+      { q: "Tot wanneer kan ik bestellen voor kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge voor de drukte." },
+    ],
+    related: ["sinterklaascadeau-kinderen-8-12", "sinterklaascadeau-jongens-8-12", "sinterklaascadeau-meisjes-8-12", "kerstcadeau-voor-tiener", "spelcadeau-bord-en-kaartspellen"],
   },
 ];
 

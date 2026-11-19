@@ -164,3 +164,4 @@
 {"ts":"2026-11-20T00:20:00+01:00","agent":"catalogus","type":"gestart","summary":"Nieuwe cadeaus van de scouts importeren, activeren en verrijken via bol"}
 {"ts":"2026-11-20T00:20:00+01:00","agent":"seo-content","type":"gestart","summary":"2 nieuwe cadeaugidsen voor dunne zoekthema’s"}
 {"ts":"2026-11-20T00:20:00+01:00","agent":"compliance","type":"gestart","summary":"Gidsen en nieuwe productteksten van 19-11 toetsen aan de checklist"}
+{"ts":"2026-11-20T01:30:00+01:00","agent":"compliance","type":"klaar","summary":"26 gidsen en 70 producten (plus trefwoordscan van 999) getoetst: 3 blokkerende punten in productteksten (kortingen, voorraadclaims, 3+-speelgoed bij 0–3), 15 adviezen; gidsen zelf zonder blokkade","files":["ops/reports/compliance-2026-11-20.md"]}
