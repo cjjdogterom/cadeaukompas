@@ -137,3 +137,7 @@
 {"ts":"2026-11-19T14:55:00+01:00","agent":"catalogus","type":"gestart","summary":"Alle prijzen verversen via de bol-API (dagelijks)"}
 {"ts":"2026-11-19T14:55:00+01:00","agent":"product-scout","type":"gestart","summary":"2 scouts gestart: vrouwen/moeder/oma (sport, creatief, wellness, €50+); jongens 0–7 en vaders (baby/peuter, buiten, sport, hobby, tuin)"}
 {"ts":"2026-11-19T14:55:00+01:00","agent":"seo-content","type":"gestart","summary":"Drie nieuwe gidsen schrijven voor dunne zoekintenties"}
+{"ts":"2026-11-19T16:30:00+01:00","agent":"seo-content","type":"klaar","summary":"Gidsen ‘Sinterklaascadeau meisjes 8–12’, ‘Techcadeau’ en ‘Kerstcadeau voor moeder’ (€25–50) gepubliceerd en gekoppeld in 9 bestaande gidsen","files":["lib/guides.ts"]}
+{"ts":"2026-11-19T16:30:00+01:00","agent":"product-scout","type":"probleem","summary":"Ronde 08:45: beide scouts zonder resultaat gestopt (Mac in slaap; tweede scout gestopt om overlap met ronde 14:55 te voorkomen)"}
+{"ts":"2026-11-19T16:30:00+01:00","agent":"catalogus","type":"probleem","summary":"Ronde 08:45: volledige prijsverversing crashte; opgepakt door ronde 10:55"}
+{"ts":"2026-11-19T16:30:00+01:00","agent":"orchestrator","type":"klaar","summary":"Ronde 08:45 afgesloten: 3 gidsen live, 0 nieuwe producten; dagrapport 19-11 geschreven. Rondes overlapten door slaapstand"}
