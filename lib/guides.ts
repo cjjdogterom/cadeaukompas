@@ -120,7 +120,7 @@ export const guides: Guide[] = [
       { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "Dat verschilt per product. De uiterste besteldatum staat bij elk cadeau en wordt door de site per product berekend, inclusief een dag marge voor de drukte." },
       { q: "Hoeveel geef je uit aan een sinterklaascadeau voor een kind?", a: "Daar bestaat geen vaste regel. Veel gezinnen spreken een bedrag af met familie, zodat de cadeaus ongeveer even groot zijn. In deze selectie vind je zowel kleinere als grotere cadeaus." },
     ],
-    related: ["sinterklaascadeau-tiener", "gamecadeau-tiener-13-17", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-baby-peuter", "sinterklaascadeau-jongens-8-12", "muziekcadeau", "creatief-cadeau"],
+    related: ["sinterklaascadeau-tiener", "gamecadeau-tiener-13-17", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-baby-peuter", "sinterklaascadeau-jongens-8-12", "muziekcadeau", "creatief-cadeau", "sinterklaascadeau-meisjes-8-12"],
   },
   {
     slug: "cadeau-voor-partner",
@@ -212,7 +212,7 @@ export const guides: Guide[] = [
       { q: "Wat geef je een moeder die zegt dat ze niets nodig heeft?", a: "Kies iets dat op raakt of een gezellig moment oplevert, zoals chocolade, handcrème of een boek. Dat voelt niet als extra spullen en toch weet ze dat je aan haar gedacht hebt." },
       { q: "Komt het cadeau op tijd voor pakjesavond of kerst?", a: "Bij elk product staat de uiterste besteldatum voor beide momenten. Die wordt per product berekend op basis van de verwachte levertijd van de winkel, met een dag extra marge." },
     ],
-    related: ["cadeau-voor-partner", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma", "cadeau-onder-25-euro-collega", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "cadeau-voor-fijnproevers", "verwencadeau-voor-haar", "cadeau-voor-lezers"],
+    related: ["cadeau-voor-partner", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma", "cadeau-onder-25-euro-collega", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "cadeau-voor-fijnproevers", "verwencadeau-voor-haar", "cadeau-voor-lezers", "kerstcadeau-voor-moeder-onder-50"],
   },
   {
     slug: "sinterklaascadeau-baby-peuter",
@@ -304,7 +304,7 @@ export const guides: Guide[] = [
       { q: "Hoe weet ik of een game geschikt is voor mijn kind?", a: "Kijk naar de PEGI-leeftijdsaanduiding op de verpakking of de productpagina. Die geeft aan vanaf welke leeftijd een spel is bedoeld." },
       { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, inclusief een dag marge voor de drukte. Pakjesavond is zaterdag 5 december, dus het cadeau moet uiterlijk vrijdag 4 december in huis zijn." },
     ],
-    related: ["sinterklaascadeau-tiener", "sinterklaascadeau-kinderen-8-12", "cadeau-onder-25-euro-collega", "kerstpakket-thuiswerker", "sinterklaascadeau-jongens-8-12", "muziekcadeau", "creatief-cadeau", "cadeau-voor-een-vriend"],
+    related: ["sinterklaascadeau-tiener", "sinterklaascadeau-kinderen-8-12", "cadeau-onder-25-euro-collega", "kerstpakket-thuiswerker", "sinterklaascadeau-jongens-8-12", "muziekcadeau", "creatief-cadeau", "cadeau-voor-een-vriend", "techcadeau"],
   },
   {
     slug: "puzzel-en-spelcadeau-oma-opa",
@@ -397,7 +397,7 @@ export const guides: Guide[] = [
       { q: "Is een koptelefoon met noise cancelling een goed cadeau voor thuiswerkers?", a: "Vaak wel, vooral als iemand veel belt of in een huis met meer mensen werkt. Kijk of iemand de voorkeur heeft voor over-ear of oordopjes." },
       { q: "Wat is het verschil met de kerstgids voor thuiswerkers?", a: "Deze gids is gericht op een budget van €50 tot €100 en geldt voor elk moment van het jaar. De kerstgids toont cadeaus in alle prijsklassen die voor kerst nog op tijd komen." },
     ],
-    related: ["kerstpakket-thuiswerker", "cadeau-onder-25-euro-collega", "cadeau-voor-partner", "muziekcadeau", "cadeau-voor-lezers"],
+    related: ["kerstpakket-thuiswerker", "cadeau-onder-25-euro-collega", "cadeau-voor-partner", "muziekcadeau", "cadeau-voor-lezers", "techcadeau"],
   },
   {
     slug: "muziekcadeau",
@@ -422,7 +422,7 @@ export const guides: Guide[] = [
       { q: "Hoe kies ik tussen een speaker en een koptelefoon?", a: "Een speaker is voor luisteren met anderen of in een kamer, een koptelefoon voor luisteren voor jezelf. Weet je niet wat iemand al heeft, vraag het dan stiekem aan een huisgenoot." },
       { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge." },
     ],
-    related: ["sinterklaascadeau-tiener", "cadeau-thuiswerker-50-100-euro", "sinterklaascadeau-kinderen-8-12", "cadeau-voor-partner"],
+    related: ["sinterklaascadeau-tiener", "cadeau-thuiswerker-50-100-euro", "sinterklaascadeau-kinderen-8-12", "cadeau-voor-partner", "techcadeau"],
   },
   {
     slug: "cadeau-voor-fijnproevers",
@@ -472,7 +472,7 @@ export const guides: Guide[] = [
       { q: "Is LEGO Technic geschikt voor kinderen van 8 tot 12 jaar?", a: "Veel Technic-sets zijn bedoeld voor kinderen vanaf een bepaalde leeftijd, die per set verschilt. Kijk op de verpakking of de winkelpagina naar de aanbevolen leeftijd." },
       { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, inclusief een dag marge voor de drukte. Pakjesavond is zaterdag 5 december, dus het cadeau moet uiterlijk vrijdag 4 december in huis zijn." },
     ],
-    related: ["sinterklaascadeau-kinderen-8-12", "gamecadeau-tiener-13-17", "sinterklaascadeau-tiener", "cadeau-onder-15-euro", "creatief-cadeau"],
+    related: ["sinterklaascadeau-kinderen-8-12", "gamecadeau-tiener-13-17", "sinterklaascadeau-tiener", "cadeau-onder-15-euro", "creatief-cadeau", "sinterklaascadeau-meisjes-8-12"],
   },
   {
     slug: "creatief-cadeau",
@@ -498,7 +498,7 @@ export const guides: Guide[] = [
       { q: "Zijn creatieve cadeaus geschikt voor een surprise?", a: "Ja, zeker als je er iets persoonlijks bij doet, zoals een gedichtje of een kleine verwijzing naar de hobby. Kijk ook bij onze surprise-ideeën." },
       { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge." },
     ],
-    related: ["sinterklaascadeau-kinderen-8-12", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-tiener", "cadeau-voor-partner"],
+    related: ["sinterklaascadeau-kinderen-8-12", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-tiener", "cadeau-voor-partner", "sinterklaascadeau-meisjes-8-12"],
   },
   {
     slug: "cadeau-voor-lezers",
@@ -547,7 +547,7 @@ export const guides: Guide[] = [
       { q: "Zijn verzorgingssets geschikt voor een gevoelige huid?", a: "Dat verschilt per product. Lees de ingrediënten op de winkelpagina en kies bij twijfel een product zonder parfum." },
       { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge voor de drukte." },
     ],
-    related: ["cadeau-voor-moeder", "cadeau-voor-partner", "cadeau-voor-fijnproevers", "cadeau-onder-25-euro-collega"],
+    related: ["cadeau-voor-moeder", "cadeau-voor-partner", "cadeau-voor-fijnproevers", "cadeau-onder-25-euro-collega", "kerstcadeau-voor-moeder-onder-50"],
   },
   {
     slug: "kerstcadeau-onder-50-euro",
@@ -571,7 +571,7 @@ export const guides: Guide[] = [
       { q: "Waarom staan er geen cadeaus onder €25 in deze gids?", a: "Deze gids toont het bereik van €25 tot €50. Voor kleinere bedragen heb je de gidsen voor cadeaus onder €25 voor een collega en cadeaus onder €15." },
       { q: "Tot wanneer kan ik bestellen voor kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge. Zo hoef je niet te gokken of het pakje voor 24 december binnen is." },
     ],
-    related: ["kerstpakket-thuiswerker", "kerstcadeau-voor-vader", "cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "cadeau-voor-wie-alles-heeft"],
+    related: ["kerstpakket-thuiswerker", "kerstcadeau-voor-vader", "cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "cadeau-voor-wie-alles-heeft", "kerstcadeau-voor-moeder-onder-50"],
   },
   {
     slug: "cadeau-voor-een-vriend",
@@ -621,6 +621,79 @@ export const guides: Guide[] = [
       { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge." },
     ],
     related: ["cadeau-voor-opa-en-oma", "cadeau-voor-fijnproevers", "verwencadeau-voor-haar", "kerstcadeau-voor-vader", "cadeau-voor-partner"],
+  },
+  {
+    slug: "sinterklaascadeau-meisjes-8-12",
+    title: "Sinterklaascadeau voor meisjes van 8 tot 12 jaar",
+    metaTitle: "Sinterklaascadeau voor meisjes 8–12 jaar | OpTijdCadeau",
+    metaDescription:
+      "Sinterklaascadeaus voor meisjes van 8 tot 12 jaar die graag tekenen, knutselen en bouwen. Met levertijd en uiterste besteldatum voor 5 december.",
+    intro: [
+      "Wat een meisje van 8 tot 12 leuk vindt, hangt veel minder af van haar leeftijd of van of ze een meisje is dan van wat ze zelf graag doet. De ene tekent de hele middag, de andere bouwt, bakt of verzint een toneelstukje. Kijk daarom naar haar hobby's en niet naar wat 'bij meisjes past'.",
+      "Deze selectie is gericht op creatief bezig zijn: knutselen, tekenen, schilderen en bouwen, dingen die een rustige middag opleveren en iets om te laten zien. De selectie is niet speciaal voor meisjes gemaakt: de meeste cadeaus zijn net zo leuk voor een jongen. Bij elk product zie je de levertijd en de uiterste besteldatum voor pakjesavond op zaterdag 5 december. Het cadeau moet uiterlijk vrijdag 4 december in huis zijn. Je bestelt bij de winkel zelf; wij sturen je door en verkopen niets. Prijzen kunnen wijzigen, dus bekijk de actuele prijs bij de winkel.",
+    ],
+    filters: { voor: "kind", leeftijd: "8-12", interesse: "creatief", optijd: "sinterklaas" },
+    tips: [
+      "Vraag haar zelf of een vriendin waar ze de laatste tijd mee bezig is. Een cadeau bij een nieuwe hobby wordt meestal vaker gebruikt dan iets dat bij een oude interesse past.",
+      "Kies bij een knutsel- of bouwset iets waar alles in zit. Dan kan ze direct beginnen en hoef je niets bij te kopen.",
+      "Kijk naar de leeftijdsaanduiding en naar hoe moeilijk de set is. Een te ingewikkelde set geeft frustratie, een te eenvoudige is snel klaar.",
+      "Voor de surprise kun je het cadeau verstoppen in een zelfgemaakt knutselwerkje of een gedicht dat aansluit bij haar hobby.",
+    ],
+    faq: [
+      { q: "Wat geef je een meisje van 10 voor Sinterklaas?", a: "Iets dat past bij wat ze zelf graag doet, bijvoorbeeld een tekenset, een knutselset of een bouwset. Vraag stiekem aan ouders of vriendinnen waar ze nu mee bezig is." },
+      { q: "Zijn deze cadeaus alleen voor meisjes?", a: "Nee. We selecteren op leeftijd en interesse, niet op geslacht. Dezelfde cadeaus zijn net zo leuk voor een jongen die graag creatief bezig is." },
+      { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, inclusief een dag marge. Pakjesavond is zaterdag 5 december, dus het cadeau moet uiterlijk vrijdag 4 december in huis zijn." },
+    ],
+    related: ["sinterklaascadeau-kinderen-8-12", "sinterklaascadeau-jongens-8-12", "creatief-cadeau", "sinterklaascadeau-tiener", "cadeau-onder-15-euro"],
+  },
+  {
+    slug: "techcadeau",
+    title: "Techcadeau voor tech-liefhebbers",
+    metaTitle: "Techcadeau voor tech-liefhebbers | OpTijdCadeau",
+    metaDescription:
+      "Techcadeaus voor alle leeftijden: speakers, koptelefoons, ledverlichting en gadgets. Met levertijd en uiterste besteldatum voor Sinterklaas en kerst.",
+    intro: [
+      "Wie van techniek houdt, heeft vaak al een eigen mening over wat goed is. Dat maakt een techcadeau kiezen lastig, maar niet onmogelijk: kies iets dat past bij wat iemand al heeft en gebruikt. Een extra controller, een betere muis of een speaker voor in de keuken wordt eerder gebruikt dan een gadget dat nog niet bij de rest aansluit.",
+      "In deze selectie staan onder meer speakers, koptelefoons en oordopjes, gaming-accessoires, muizen en slimme verlichting. Het is bedoeld voor alle leeftijden, van een tiener met een console tot een ouder die zijn werkplek wil verbeteren. Let op de aansluiting en op welke telefoon, computer of console iemand gebruikt. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. Je bestelt bij de winkel zelf; wij sturen je door en verkopen niets. Prijzen kunnen wijzigen, dus bekijk de actuele prijs bij de winkel.",
+    ],
+    filters: { interesse: "tech" },
+    tips: [
+      "Check wat iemand al heeft: merk, aansluiting (USB-C, Bluetooth, jack) en systeem. Dat voorkomt dat het cadeau niet past.",
+      "Een accessoire past bijna altijd, ook bij iemand die al veel heeft. Denk aan een muismat, een kabel of een oplaadstation.",
+      "Vraag stiekem aan een huisgenoot of vriend wat er nog op de verlanglijst staat of wat kapot is gegaan.",
+      "Bewaar de bon. Bij elektronica wil je kunnen ruilen als iets toch niet blijkt te passen.",
+    ],
+    faq: [
+      { q: "Wat geef je iemand die van techniek houdt?", a: "Iets dat aansluit op wat diegene al gebruikt, zoals een betere koptelefoon, een extra controller, een speaker of slimme verlichting. Een accessoire is vaak veiliger dan een nieuw apparaat." },
+      { q: "Hoe voorkom ik dat ik iets koop dat niet past?", a: "Kijk op de winkelpagina naar de aansluiting en de compatibiliteit. Vraag zo nodig aan een huisgenoot welk merk of systeem er in gebruik is." },
+      { q: "Zijn techcadeaus ook geschikt voor kinderen?", a: "Een aantal wel, maar kijk altijd naar de leeftijdsaanduiding op de verpakking. Een kinderkoptelefoon of een eenvoudige speaker is geschikter dan een apparaat voor volwassenen." },
+      { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend. Voor pakjesavond (zaterdag 5 december) moet het cadeau uiterlijk vrijdag 4 december in huis zijn." },
+    ],
+    related: ["gamecadeau-tiener-13-17", "cadeau-thuiswerker-50-100-euro", "muziekcadeau", "kerstcadeau-voor-vader", "sinterklaascadeau-tiener"],
+  },
+  {
+    slug: "kerstcadeau-voor-moeder-onder-50",
+    title: "Kerstcadeau voor je moeder onder €50",
+    metaTitle: "Kerstcadeau voor moeder onder €50 | OpTijdCadeau",
+    metaDescription:
+      "Kerstcadeaus voor je moeder tussen €25 en €50: thee, warmte, een goed boek of een verwenmoment. Met levertijd en uiterste besteldatum voor kerst.",
+    intro: [
+      "Met een budget tot €50 kun je je moeder met kerst echt verrassen, zonder dat het een grote uitgave wordt. Denk aan iets om bij op te warmen, iets lekkers bij de thee of een boek voor de rustige dagen tussen kerst en oud en nieuw. Het gaat erom dat ze merkt dat je hebt nagedacht, niet om het bedrag.",
+      "In deze gids staan cadeaus voor moeders tussen €25 en €50 die voor kerst nog op tijd bezorgd kunnen worden. Zoek je iets goedkopers, kijk dan bij de gidsen voor cadeaus onder €25 of onder €15. Kijk vooral naar wat zij zelf nooit voor zichzelf zou kopen. Bij elk product zie je de levertijd en de uiterste besteldatum voor kerst, berekend per product. Je bestelt bij de winkel zelf; wij sturen je door en verkopen niets. Prijzen kunnen wijzigen, dus bekijk de actuele prijs bij de winkel.",
+    ],
+    filters: { voor: "moeder", budget: "25-50", optijd: "kerst" },
+    tips: [
+      "Kies iets dat ze zelf niet snel zou kopen, zoals een mooie theeset of een kussen dat warm blijft, en geen dingen die ze al heeft.",
+      "Een persoonlijk kaartje of een gedichtje erbij maakt een cadeau van €30 minstens zo waardevol als een duurder cadeau.",
+      "Tel verzendkosten mee. Sommige winkels rekenen ze onder een minimumbedrag, en dan kan een cadeau net boven je budget uitkomen.",
+      "Wil je met broers of zussen samenleggen? Dan kom je makkelijker uit op één groter cadeau in plaats van twee kleine.",
+    ],
+    faq: [
+      { q: "Wat geef je je moeder voor kerst als het budget €50 is?", a: "Iets voor warmte, ontspanning of gezelligheid: een theeset, een verzorgingsset, een boek of iets voor op de bank. Kies iets dat bij haar gewoontes past." },
+      { q: "Waarom staan er geen cadeaus onder €25 in deze gids?", a: "Deze gids toont het bereik van €25 tot €50. Voor kleinere bedragen heb je de gidsen voor cadeaus onder €25 en onder €15." },
+      { q: "Tot wanneer kan ik bestellen voor kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge. Zo hoef je niet te gokken of het pakje voor 24 december binnen is." },
+    ],
+    related: ["cadeau-voor-moeder", "verwencadeau-voor-haar", "kerstcadeau-onder-50-euro", "cadeau-voor-fijnproevers", "cadeau-voor-wie-graag-kookt"],
   },
 ];
 
