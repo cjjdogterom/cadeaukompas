@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-20T00:20:00+01:00",
+  "updatedAt": "2026-11-20T01:35:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "bezig",
-      "currentTask": "Agent-ronde 00:20: 2 scouts, seo-content en compliance",
-      "lastRunAt": "2026-11-19T22:35:00+01:00",
-      "lastResult": "Ronde 19:35: prijzen van 903 cadeaus ververst (159 gewijzigd, 4 gepauzeerd), +40 cadeaus actief (999); onder de norm van 50",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T01:35:00+01:00",
+      "lastResult": "Ronde 00:20: +61 cadeaus (1060 actief), 2 gidsen, compliance-toets met 3 blokkerende punten direct opgelost",
       "nextRun": "Elk uur 08–22",
       "blockedBy": null
     },
     "product-scout": {
-      "status": "bezig",
-      "currentTask": "2 scouts: ~35 bol-cadeaus vaders (gereedschap, koken/BBQ, tot €25) en ~35 moeder/oma (koken, muziek) + jongens (gamen, 0–3 jaar)",
-      "lastRunAt": "2026-11-19T22:35:00+01:00",
-      "lastResult": "2 scouts: 45 bol-cadeaus (34 jongens/tieners: LEGO Technic/Icons, UGEARS, ukeleles, sport; 11 moeder/oma/vader: boeken, Kobo, Hue, De’Longhi). Bol-pagina’s tonen prijs vaak pas na teken 100.000; trage verificatie",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T01:35:00+01:00",
+      "lastResult": "2 scouts: 68 bol-cadeaus gecontroleerd op de productpagina (33 vaders: gereedschap, koken/BBQ, veel tot €25; 35 moeder/oma koken en muziek, jongens gamen en 0–3 jaar). Vaders €100+ blijft dun",
       "nextRun": "Elke agent-ronde (elk uur)",
       "blockedBy": null
     },
@@ -26,10 +26,10 @@
       "blockedBy": "Alleen affiliate (keuze eigenaar 17-11): geen leveranciers nodig"
     },
     "catalogus": {
-      "status": "bezig",
-      "currentTask": "Nieuwe cadeaus van de scouts importeren, activeren en verrijken via bol",
-      "lastRunAt": "2026-11-19T22:35:00+01:00",
-      "lastResult": "Alle 903 prijzen ververst via bol-API (159 gewijzigd, 4 gepauzeerd); 40 nieuwe cadeaus actief met foto, EAN en prijs; 3 niet geïmporteerd (score 58), 2 op concept (land verkoper onbekend). 999 actief; bezorgdatums ververst; bol-enrich nu met timeout en retries",
+      "status": "gepland",
+      "currentTask": "Open adviezen compliance A3–A14 (reviewzinnen in korte tekst, PEGI/18+ bij tieners, 2 BRIO-sets leeftijd controleren)",
+      "lastRunAt": "2026-11-20T01:35:00+01:00",
+      "lastResult": "61 nieuwe cadeaus actief met foto, EAN en prijs uit de bol-API (0 gepauzeerd); 4 niet geïmporteerd (score 58), Cole & Mason-molen op concept (verkoper niet bevestigd), digitale Minecraft-download weggelaten. Korting- en voorraadzinnen uit 15 teksten gehaald, 12× speelgoed 3+ uit groep 0–3. 1060 actief; bezorgdatums ververst",
       "nextRun": "Elke agent-ronde",
       "blockedBy": null
     },
@@ -50,10 +50,10 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "bezig",
-      "currentTask": "2 nieuwe cadeaugidsen voor dunne zoekthema’s",
-      "lastRunAt": "2026-11-18T22:50:00+01:00",
-      "lastResult": "Gidsen ‘kerstcadeau onder €50’ (toont €25–50), ‘cadeau voor een vriend’ en ‘cadeau voor wie alles al heeft’ gepubliceerd en gekoppeld in 7 gidsen",
+      "status": "gepland",
+      "currentTask": "Open adviezen compliance: 4 gidsen beloven ‘alleen cadeaus die op tijd komen’ (A1), vóór 2 december aanpassen",
+      "lastRunAt": "2026-11-20T01:35:00+01:00",
+      "lastResult": "Gidsen ‘Sinterklaascadeau voor je moeder’ en ‘Kerstcadeau voor kinderen van 8 tot 12 jaar’ gepubliceerd en gekoppeld in 4 gidsen",
       "nextRun": "Volgende ronde",
       "blockedBy": null
     },
@@ -98,11 +98,11 @@
       "blockedBy": "Supabase en affiliate-accounts (owner-todo #3, #4, #8)"
     },
     "compliance": {
-      "status": "bezig",
-      "currentTask": "Gidsen en nieuwe productteksten van 19-11 toetsen aan de checklist",
-      "lastRunAt": "2026-11-18T16:10:00+01:00",
-      "lastResult": "Hertoets: GO met voorwaarden; 13 OK, 6 NIET OK (niet blokkerend), 8 N.V.T.",
-      "nextRun": "Hertoets vóór eerste advertentie",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T01:35:00+01:00",
+      "lastResult": "26 gidsen en 999 productteksten getoetst: 3 blokkerende punten (opgelost door catalogus), 15 adviezen open; rapport in ops/reports/compliance-2026-11-20.md",
+      "nextRun": "Volgende ronde",
       "blockedBy": "Akkoord eigenaar op tekstwijzigingen (ops/approvals/2026-11-18-compliance-teksten-hertoets.md)"
     }
   }
