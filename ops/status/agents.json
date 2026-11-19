@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-19T22:45:00+01:00",
+  "updatedAt": "2026-11-19T22:35:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "bezig",
-      "currentTask": "Agent-ronde 19:35: dagelijkse prijsverversing (nog niet gelukt vandaag), 2 scouts, seo-content",
-      "lastRunAt": "2026-11-18T22:50:00+01:00",
-      "lastResult": "Ronde 22:15: +48 cadeaus actief (903), 3 gidsen; 2 onder de norm van 50",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-19T22:35:00+01:00",
+      "lastResult": "Ronde 19:35: prijzen van 903 cadeaus ververst (159 gewijzigd, 4 gepauzeerd), +40 cadeaus actief (999); onder de norm van 50",
       "nextRun": "Elk uur 08–22",
       "blockedBy": null
     },
     "product-scout": {
-      "status": "bezig",
-      "currentTask": "2 scouts: vrouwen/moeder/oma (sport, creatief, wellness, €50+); jongens 0–7 en vaders (0–3 jaar, gereedschap, tuin, buiten, sport)",
-      "lastRunAt": "2026-11-19T22:45:00+01:00",
-      "lastResult": "Ronde 10:55 (liep door tot 22:15 door slaap/overlap): 62 bol-cadeaus, alle op productpagina gecontroleerd (32 vrouwen sport/creatief/muziek €50+; 30 jongens 0–7 en vaders: BRIO/Hape, loopfietsen, trimmers)",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-19T22:35:00+01:00",
+      "lastResult": "2 scouts: 45 bol-cadeaus (34 jongens/tieners: LEGO Technic/Icons, UGEARS, ukeleles, sport; 11 moeder/oma/vader: boeken, Kobo, Hue, De’Longhi). Bol-pagina’s tonen prijs vaak pas na teken 100.000; trage verificatie",
       "nextRun": "Elke agent-ronde (elk uur)",
       "blockedBy": null
     },
@@ -26,10 +26,10 @@
       "blockedBy": "Alleen affiliate (keuze eigenaar 17-11): geen leveranciers nodig"
     },
     "catalogus": {
-      "status": "bezig",
-      "currentTask": "Alle prijzen verversen via de bol-API (dagelijks) en nieuwe scout-producten activeren",
-      "lastRunAt": "2026-11-19T22:45:00+01:00",
-      "lastResult": "60 nieuwe cadeaus actief met foto, EAN en prijs uit bol-API; 2 yogamatten op concept (verkoper niet als NL/EU bevestigd). 959 actief; bezorgdatums ververst (19 van 959 mislukt)",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-19T22:35:00+01:00",
+      "lastResult": "Alle 903 prijzen ververst via bol-API (159 gewijzigd, 4 gepauzeerd); 40 nieuwe cadeaus actief met foto, EAN en prijs; 3 niet geïmporteerd (score 58), 2 op concept (land verkoper onbekend). 999 actief; bezorgdatums ververst; bol-enrich nu met timeout en retries",
       "nextRun": "Elke agent-ronde",
       "blockedBy": null
     },
@@ -50,8 +50,8 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "bezig",
-      "currentTask": "Drie nieuwe gidsen: cadeau voor oma, sinterklaascadeau jongens 4–7, cadeau voor sportieve vrouw",
+      "status": "gepland",
+      "currentTask": null,
       "lastRunAt": "2026-11-18T22:50:00+01:00",
       "lastResult": "Gidsen ‘kerstcadeau onder €50’ (toont €25–50), ‘cadeau voor een vriend’ en ‘cadeau voor wie alles al heeft’ gepubliceerd en gekoppeld in 7 gidsen",
       "nextRun": "Volgende ronde",
