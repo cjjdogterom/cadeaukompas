@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T19:35:00+01:00",
+  "updatedAt": "2026-11-19T22:45:00+01:00",
   "agents": {
     "orchestrator": {
       "status": "bezig",
@@ -12,8 +12,8 @@
     "product-scout": {
       "status": "bezig",
       "currentTask": "2 scouts: vrouwen/moeder/oma (sport, creatief, wellness, €50+); jongens 0–7 en vaders (0–3 jaar, gereedschap, tuin, buiten, sport)",
-      "lastRunAt": "2026-11-18T22:50:00+01:00",
-      "lastResult": "2 scouts: 50 bol-cadeaus (34 moeder/oma koken, muziek, thuis; 16 jongens/vaders gamen, spellen, Stanley). Gamen/gereedschap/bbq al grotendeels uitgekamd",
+      "lastRunAt": "2026-11-19T22:45:00+01:00",
+      "lastResult": "Ronde 10:55 (liep door tot 22:15 door slaap/overlap): 62 bol-cadeaus, alle op productpagina gecontroleerd (32 vrouwen sport/creatief/muziek €50+; 30 jongens 0–7 en vaders: BRIO/Hape, loopfietsen, trimmers)",
       "nextRun": "Elke agent-ronde (elk uur)",
       "blockedBy": null
     },
@@ -28,8 +28,8 @@
     "catalogus": {
       "status": "bezig",
       "currentTask": "Alle prijzen verversen via de bol-API (dagelijks) en nieuwe scout-producten activeren",
-      "lastRunAt": "2026-11-18T22:50:00+01:00",
-      "lastResult": "48 nieuwe cadeaus actief met foto, EAN en prijs uit de bol-API (0 gepauzeerd); Weber-hoes niet geïmporteerd (score 58), KitchenAid Artisan op concept (modelnummer wijkt af). 903 actief; bezorgdatums ververst",
+      "lastRunAt": "2026-11-19T22:45:00+01:00",
+      "lastResult": "60 nieuwe cadeaus actief met foto, EAN en prijs uit bol-API; 2 yogamatten op concept (verkoper niet als NL/EU bevestigd). 959 actief; bezorgdatums ververst (19 van 959 mislukt)",
       "nextRun": "Elke agent-ronde",
       "blockedBy": null
     },
