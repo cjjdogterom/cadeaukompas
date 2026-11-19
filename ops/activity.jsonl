@@ -159,3 +159,8 @@
 {"ts":"2026-11-19T22:35:00+01:00","agent":"catalogus","type":"klaar","summary":"40 nieuwe cadeaus actief met foto, EAN en prijs uit de bol-API; 3 niet geïmporteerd (score 58), Smeg-waterkoker en Audio-Technica-platenspeler op concept (land verkoper niet vastgesteld). 999 actief; bezorgdatums ververst"}
 {"ts":"2026-11-19T22:35:00+01:00","agent":"product-scout","type":"probleem","summary":"Ronde 19:35 haalde 40 i.p.v. 50: de moeder/oma/vader-scout vond maar 11 verifieerbare producten (prijs/verkoper vaak niet leesbaar op bol-pagina’s); seo-content niet opnieuw gestart omdat ronde 14:55 nog gidsen schreef"}
 {"ts":"2026-11-19T22:35:00+01:00","agent":"orchestrator","type":"klaar","summary":"Agent-ronde 19:35 klaar: 999 actief (+40 deze ronde, +60 uit ronde 10:55), alle prijzen van vandaag"}
+{"ts":"2026-11-20T00:20:00+01:00","agent":"orchestrator","type":"gestart","summary":"Agent-ronde 00:20: 2 scouts, seo-content en compliance"}
+{"ts":"2026-11-20T00:20:00+01:00","agent":"product-scout","type":"gestart","summary":"2 scouts: ~35 bol-cadeaus vaders (gereedschap, koken/BBQ, tot €25) en ~35 moeder/oma (koken, muziek) + jongens (gamen, 0–3 jaar)"}
+{"ts":"2026-11-20T00:20:00+01:00","agent":"catalogus","type":"gestart","summary":"Nieuwe cadeaus van de scouts importeren, activeren en verrijken via bol"}
+{"ts":"2026-11-20T00:20:00+01:00","agent":"seo-content","type":"gestart","summary":"2 nieuwe cadeaugidsen voor dunne zoekthema’s"}
+{"ts":"2026-11-20T00:20:00+01:00","agent":"compliance","type":"gestart","summary":"Gidsen en nieuwe productteksten van 19-11 toetsen aan de checklist"}

@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-19T22:35:00+01:00",
+  "updatedAt": "2026-11-20T00:20:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "Agent-ronde 00:20: 2 scouts, seo-content en compliance",
       "lastRunAt": "2026-11-19T22:35:00+01:00",
       "lastResult": "Ronde 19:35: prijzen van 903 cadeaus ververst (159 gewijzigd, 4 gepauzeerd), +40 cadeaus actief (999); onder de norm van 50",
       "nextRun": "Elk uur 08–22",
       "blockedBy": null
     },
     "product-scout": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "2 scouts: ~35 bol-cadeaus vaders (gereedschap, koken/BBQ, tot €25) en ~35 moeder/oma (koken, muziek) + jongens (gamen, 0–3 jaar)",
       "lastRunAt": "2026-11-19T22:35:00+01:00",
       "lastResult": "2 scouts: 45 bol-cadeaus (34 jongens/tieners: LEGO Technic/Icons, UGEARS, ukeleles, sport; 11 moeder/oma/vader: boeken, Kobo, Hue, De’Longhi). Bol-pagina’s tonen prijs vaak pas na teken 100.000; trage verificatie",
       "nextRun": "Elke agent-ronde (elk uur)",
@@ -26,8 +26,8 @@
       "blockedBy": "Alleen affiliate (keuze eigenaar 17-11): geen leveranciers nodig"
     },
     "catalogus": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "Nieuwe cadeaus van de scouts importeren, activeren en verrijken via bol",
       "lastRunAt": "2026-11-19T22:35:00+01:00",
       "lastResult": "Alle 903 prijzen ververst via bol-API (159 gewijzigd, 4 gepauzeerd); 40 nieuwe cadeaus actief met foto, EAN en prijs; 3 niet geïmporteerd (score 58), 2 op concept (land verkoper onbekend). 999 actief; bezorgdatums ververst; bol-enrich nu met timeout en retries",
       "nextRun": "Elke agent-ronde",
@@ -50,8 +50,8 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "2 nieuwe cadeaugidsen voor dunne zoekthema’s",
       "lastRunAt": "2026-11-18T22:50:00+01:00",
       "lastResult": "Gidsen ‘kerstcadeau onder €50’ (toont €25–50), ‘cadeau voor een vriend’ en ‘cadeau voor wie alles al heeft’ gepubliceerd en gekoppeld in 7 gidsen",
       "nextRun": "Volgende ronde",
@@ -98,8 +98,8 @@
       "blockedBy": "Supabase en affiliate-accounts (owner-todo #3, #4, #8)"
     },
     "compliance": {
-      "status": "wacht",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "Gidsen en nieuwe productteksten van 19-11 toetsen aan de checklist",
       "lastRunAt": "2026-11-18T16:10:00+01:00",
       "lastResult": "Hertoets: GO met voorwaarden; 13 OK, 6 NIET OK (niet blokkerend), 8 N.V.T.",
       "nextRun": "Hertoets vóór eerste advertentie",
