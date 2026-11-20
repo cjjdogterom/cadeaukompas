@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-20T01:35:00+01:00",
+  "updatedAt": "2026-11-20T08:15:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "Agent-ronde 08:15: 2 scouts, catalogus, seo-content; dagrapport 20-11",
       "lastRunAt": "2026-11-20T01:35:00+01:00",
       "lastResult": "Ronde 00:20: +61 cadeaus (1060 actief), 2 gidsen, compliance-toets met 3 blokkerende punten direct opgelost",
       "nextRun": "Elk uur 08–22",
       "blockedBy": null
     },
     "product-scout": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "2 scouts: ~35 bol-cadeaus moeder/oma (sport, muziek, spellen, tech, €100+) en ~35 jongens 0–12 (lezen, creatief, sport, 0–3 vanaf €25) + vaders (€100+, verzorging, creatief)",
       "lastRunAt": "2026-11-20T01:35:00+01:00",
       "lastResult": "2 scouts: 68 bol-cadeaus gecontroleerd op de productpagina (33 vaders: gereedschap, koken/BBQ, veel tot €25; 35 moeder/oma koken en muziek, jongens gamen en 0–3 jaar). Vaders €100+ blijft dun",
       "nextRun": "Elke agent-ronde (elk uur)",
@@ -26,8 +26,8 @@
       "blockedBy": "Alleen affiliate (keuze eigenaar 17-11): geen leveranciers nodig"
     },
     "catalogus": {
-      "status": "gepland",
-      "currentTask": "Open adviezen compliance A3–A14 (reviewzinnen in korte tekst, PEGI/18+ bij tieners, 2 BRIO-sets leeftijd controleren)",
+      "status": "bezig",
+      "currentTask": "Dagelijkse prijsverversing van alle actieve cadeaus; compliance-adviezen A3–A14 verwerken; daarna nieuwe cadeaus importeren en verrijken",
       "lastRunAt": "2026-11-20T01:35:00+01:00",
       "lastResult": "61 nieuwe cadeaus actief met foto, EAN en prijs uit de bol-API (0 gepauzeerd); 4 niet geïmporteerd (score 58), Cole & Mason-molen op concept (verkoper niet bevestigd), digitale Minecraft-download weggelaten. Korting- en voorraadzinnen uit 15 teksten gehaald, 12× speelgoed 3+ uit groep 0–3. 1060 actief; bezorgdatums ververst",
       "nextRun": "Elke agent-ronde",
@@ -50,8 +50,8 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "gepland",
-      "currentTask": "Open adviezen compliance: 4 gidsen beloven ‘alleen cadeaus die op tijd komen’ (A1), vóór 2 december aanpassen",
+      "status": "bezig",
+      "currentTask": "Compliance-advies A1: belofte ‘alleen cadeaus die op tijd komen’ in 4 gidsen aanpassen; 1 nieuwe gids",
       "lastRunAt": "2026-11-20T01:35:00+01:00",
       "lastResult": "Gidsen ‘Sinterklaascadeau voor je moeder’ en ‘Kerstcadeau voor kinderen van 8 tot 12 jaar’ gepubliceerd en gekoppeld in 4 gidsen",
       "nextRun": "Volgende ronde",
