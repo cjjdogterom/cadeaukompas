@@ -661,3 +661,96 @@ Voorstel (SEO-content): kijk op de preview of het filter (`voor` + `budget`) die
 Nee. Alleen productteksten, één rating en één gidszin zijn aangepast. Er zijn geen juridische pagina's, checkout, prijzen of statussen geraakt.
 
 **COMPLIANCE: GO** voor de 65 actieve producten en de 2 gidsen van ronde 16:15. Er zijn geen blokkerende punten. V1 (Rubik's-sleutelhanger) en V3 (Gardena-inhoud) bij voorkeur vóór de herlancering.
+
+## Hertoets 17:15
+
+Agent: Compliance · Werkkopie `main` (na commit 0c71f9d, ongecommitte wijzigingen in `data/products.json` en `lib/guides.ts`). Dit is geen formeel juridisch advies.
+
+### Wat is getoetst
+- **Producten (64, alle actief):** de slugs uit `data/research/shortlist-2026-11-20-moeder-oma-lezen-creatief-17.json`, `…-jongens-vaders-sport-tech-17.json` en `…-kind-tiener-vader-aanvulling-17.json`, zoals ze in `data/products.json` staan (r. 83483–86770). Velden: title, short, description en rating, plus ageGroups bij kind-, tiener- en gereedschapsproducten.
+  - **Moeder/oma/lezen/creatief: 25 actief.** Niet geïmporteerd: `kikkerland-leeslampje-oplaadbaar-usb-zwart`, `imoshion-ereader-hoes-kindle-paperwhite-2024-donkergroen`.
+  - **Jongens/vaders: 18 actief.** Op concept (door Catalogus, niet getoetst): `kapitein-onderbroek-1-…`, `het-leven-van-een-loser-18-inkoppertje`. Niet geïmporteerd: `wera-kraftform-big-pack-100-…`, `wera-kraftform-plus-lasertip-…-7-delig`.
+  - **Kind/tiener/vader-aanvulling: 21 actief.** Op concept (niet getoetst): `magformers-wow-plus-set-18-delig`, `baord-baard-essentials-baardverzorging-set-6-delig`. Niet geïmporteerd: `ses-creative-ik-leer-knippen-mega-set`, `magformers-single-set-line-wielset-6-onderdelen`, `govee-slimme-lamp-e27-matter-rgbww-2-pack`.
+- **Gidsen (2):** `cadeau-moeder-onder-15-euro` (`lib/guides.ts` r. 1302) en `cadeau-opa-oma-50-100-euro` (r. 1326). Filters `moeder`/`tot-15` en `opa-oma`/`50-100` bestaan; alle `related`-slugs bestaan.
+
+### Wat goed is
+- **Dremel 3000:** de actieprijs en adviesprijs (€ 73,95) staan alleen in `scout.notes`; de publieke tekst bevat geen kortings- of actietaal. Hetzelfde geldt voor de Hori-controller ("verlaagd, adviesprijs € 50").
+- **Geen** "voorraad bijna op", "morgen in huis", "op=op", Black Friday, populariteits- of reviewclaims in short/description van de 64 actieve producten (trefwoordscan + handmatige lezing). "Voorraad bijna op" (Stitch, Cobra ES, GraviTrax) staat alleen in de notities.
+- **Gezondheid:** stappentellers noemen alleen functies (stappen, afstand, calorieën) en geen gezondheidseffect. Loepen en loeplamp claimen niets over het zicht. De nekleeslamp claimt niets over ogen of slaap. Wandelstokken: geen "gezond"/"ontlast de gewrichten". De baardset (met "Baardgroei" in de winkeltitel) staat op concept.
+- **Compatibiliteit:** Hori noemt alleen Switch en Switch Lite. Philips Hue Go noemt dat een Bridge of Bluetooth nodig is. De Pora-fotolijst noemt wifi en de Frameo-app.
+- **Leeftijden:** geen product in 0–3. Schleich (5+), SES-gietset (5+, onder toezicht), Clementoni (8+), puzzels (8+), Spookslot (6+) en Lekker Lava (5+) staan in passende groepen en noemen de leeftijd. Gereedschap (Knipex, Wera, Stanley) staat in "volwassen"; alleen Wera Micro en de Dremel staan ook in 13–17.
+- **Messen/wapens:** geen. De tangen en schroevendraaiers zijn gereedschap zonder mes; de Knipex-zijsnijtang staat alleen in "volwassen".
+- **Gidsen:** geen superlatieven, schaarste of reviewclaims. Ze bevatten "wij sturen je door en verkopen zelf niets", "controleer de levertijd bij de winkel", "prijzen kunnen wijzigen; we tonen de controledatum" en (moedergids) de verzendkostentip bij kleine bedragen. De moedergids noemt geurkaarsen, die staan in de catalogus.
+
+### Blokkerende punten
+**Geen.** Er is geen product op concept gezet.
+
+### Direct doorgevoerde correcties (33 slugs plus 2 gidszinnen)
+| Slug | Was | Nu | Waarom |
+|---|---|---|---|
+| `adroitgoods-stappenteller-usb-oplaadbaar` (short) | "Een betaalbare, oplaadbare stappenteller" | "Een oplaadbare stappenteller" | Prijsoordeel (A13) |
+| `abbey-camp-wandelstokken-telescopisch-blauw` | "Een betaalbaar cadeau" | "Een cadeau" | A13 |
+| `engelhart-jeu-de-boules-set-3-metalen-ballen` | "met een houten but" | "met een but" | Materiaal staat niet op de pagina (A11) |
+| `lenco-scd-24-draagbare-radio-cd-speler-blauw` | "met FM-radio en aux-ingang"; "er zit geen toeters en bellen aan" | "met FM-radio"; "er zitten geen overbodige functies op" | De bol-URL noemt "aux-uitgang", de tekst "aux-ingang": tegenstrijdig, dus niet noemen (A11). Taal. |
+| `pora-digitale-fotolijst-frameo-10-inch-wit-zilver` | "Opa of oma hoeft zelf niets te doen" | "Na het eenmalig instellen van de wifi verschijnen nieuwe foto's vanzelf, zonder dat opa of oma iets hoeft te doen." | Absolute claim; de lijst moet eerst met wifi verbonden worden |
+| `safe-age-vergrootglas-met-led-verlichting` | "drie vergrotingen (2x, 4x en 25x)" | "volgens de verkoper drie vergrotingen (…)" | 25x op een handloep is een opvallende claim; toegeschreven aan de bron |
+| `bp-nekleeslamp-oplaadbaar-3-kleuren` | "licht precies waar je kijkt, zonder een partner wakker te houden" | "licht waar je kijkt, zodat een partner minder last heeft van het licht" | Absolute claim |
+| `budu-boekenstandaard-bamboe-5-standen` | "en de pagina's blijven open" | geschrapt | Paginahouders staan niet in de winkeltitel of notitie (A11) |
+| `denver-btv150-bluetooth-speaker-zwart` | "Een betaalbaar cadeau" | "Een cadeau" | A13 |
+| `super-mario-kinderkoptelefoon-volumebegrenzing` | "zodat de oren van een jonge gamer … ontzien worden"; "werkt op tablet, telefoon en veel consoles" | "begrensd op ongeveer 85 dB; let er wel op hoe lang en hoe vaak je kind luistert"; "werkt op apparaten met zo'n aansluiting, zoals veel tablets en telefoons" | Gehoorbeschermingsclaim bij een kinderproduct (A3/A8). Vage compatibiliteit. |
+| `knipex-electronic-super-knips-zijsnijtang-125-mm` | short "van een gereedschapsmerk waar klussers op vertrouwen"; "andere precisiewerk"; "waar een vader of hobbyist jarenlang plezier van heeft" | "Fijne zijsnijtang van 125 mm …"; "ander precisiewerk"; "Een klein cadeau voor een vader of hobbyist." | Reputatieclaim (A4). Taal. Duurzaamheidsclaim zonder bron. |
+| `knipex-afstriptang-160-mm` | short "met instelbare draaddikte en VDE-keurmerk"; "zonder de koperdraad te beschadigen"; "lampen, stopcontacten of elektronica" | "met instelbare stripdiepte"; "zodat je de draad zelf zo min mogelijk raakt"; "lampen of elektronica aansluit; werk altijd spanningsloos" | VDE (isolatie tot 1000 V) is een veiligheidsclaim die niet in de winkeltitel of notitie staat; Knipex heeft deze tang in een VDE- en niet-VDE-uitvoering. Absolute claim. Veiligheid bij elektra. |
+| `wera-kraftform-micro-schroevendraaierset-6-delig` | "Ideaal voor"; "Wera is een bekend Duits merk, dus dit is een degelijk cadeau"; rating 4,5 (2) | "Handig voor"; "Een cadeau voor …"; rating `null` | A4. 2 reviews: zelfde regel als eerdere rondes (rating leeg bij 1–3 reviews). |
+| `stanley-fatmax-i-beam-waterpas-120-cm` | "van een bekend merk" | geschrapt | A4 |
+| `stanley-fatmax-waterpas-60-cm-aluminium` | "nauwkeurigheid is 0,5 mm per meter en er zit twee jaar fabrieksgarantie op" | "Volgens Stanley is de nauwkeurigheid 0,5 mm per meter." | Garantieclaim zonder bron en zonder de wettelijke garantie (zoals U-14, art. 7:6a BW). Specificatie toegeschreven. |
+| `stanley-fatmax-waterpas-120-cm-aluminium` | "Het aluminium frame is stevig en blijft recht. Een degelijk cadeau" | "Het frame is van aluminium. Een cadeau" | Duurzaamheidsclaim zonder bron (0 reviews) |
+| `bresser-junior-kinderverrekijker-6x21` | "kan tegen een stootje" | "heeft een rubberen buitenkant"; toegevoegd: "Volgens de pagina vanaf 4 jaar; laat een kind nooit door de kijker naar de zon kijken." | Robuustheidsclaim. Leeftijd en standaard veiligheidswaarschuwing bij optiek voor kinderen (A8/A9). |
+| `national-geographic-kinderverrekijker-6x21-junior` | (geen) | "Laat een kind nooit door de kijker naar de zon kijken." | A8 |
+| `dremel-3000-multitool-15-accessoires-etui` | (geen) | "Draag een veiligheidsbril, lees eerst de handleiding en laat een tiener er onder begeleiding van een volwassene mee werken." | Elektrisch slijp-/freesgereedschap staat ook in 13–17 met recipient `tiener` (A8) |
+| `hori-draadloze-pro-controller-nintendo-switch-grijs` | (geen) | "; of hij ook op de Switch 2 werkt, staat niet op de winkelpagina." | Essentieel kenmerk (zoals Hori bij 13:15 en HyperX bij 16:15). Er staat geen Switch 2-claim. |
+| `knipex-cobra-waterpomptang-87-51-250-extra-slank` | "De Cobra is de bekendste waterpomptang van Knipex"; "de kop blijft stevig vastzitten"; "in elke klusbak thuishoort en daarom een veilig cadeau is" | "Een Cobra-waterpomptang van Knipex …"; "de tang blijft in de ingestelde stand staan"; "in de klusbak goed van pas komt" | Superlatief zonder onderbouwing; absolute claims |
+| `dog-man-8-dog-man-ziet-ze-zwemmen` | "ook geschikt voor kinderen die moeite hebben met lezen" | "ook prettig voor kinderen die niet graag lange teksten lezen" | Impliciete claim over leesproblemen zonder bron |
+| `ravensburger-puzzel-pokemon-500-stukjes` | short "voor tieners en oudere kinderen"; "Een betaalbaar cadeau" | "volgens Ravensburger vanaf 12 jaar"; "Een cadeau" | Leeftijd van de fabrikant (12+) noemen, want het product staat ook in 8–12 (A9). A13. |
+| `999-games-lekker-lava-bordspel` | "Een Nederlands kinderspel"; "Het is een nieuwer spel op bol, dus er staan nog geen reviews." | "Een kinderspel van 999 Games"; zin geschrapt | Reviewverwijzing in productcopy veroudert (H5); herkomst niet onderbouwd |
+| `clementoni-science-museum-voltaic-pile` | (geen) | "Doe de proefjes samen met of onder toezicht van een volwassene en lees eerst de handleiding." | Proefjesset (elektrochemie) voor 8+ (A8) |
+| `geomag-super-color-recycled-35-delig` | short "voor kinderen vanaf 5 jaar"; "van gerecycled materiaal en is bedoeld voor kinderen vanaf 5 jaar"; rating 4,7 (32) | short zonder leeftijd; "volgens Geomag van gerecycled materiaal"; magneetwaarschuwing; rating `null` | De 5+ heeft geen bron (de 60-delige pagina zegt 3+). Duurzaamheidsclaim toegeschreven (H3). Magneten bij kinderen (A8). De score geldt volgens de notitie voor de hele productlijn en staat identiek bij de 60-delige set (zoals Rubik's/Esschert, geen nepreviews). |
+| `geomag-super-color-recycled-60-delig` | "van gerecycled materiaal"; "Een goede keuze als je iets wilt geven dat langer meegaat dan een snel cadeautje."; rating 4,7 (32) | "volgens de fabrikant van gerecycled materiaal"; "Volgens de pagina vanaf 3 jaar; de onderdelen bevatten magneten, dus houd ze uit de buurt van jongere kinderen."; rating `null` | Idem |
+| `schleich-horse-club-paardenbox-merrie-veulen` | "Schleich-figuren zijn bekend bij kinderen die dol zijn op paarden." | "Een cadeau voor kinderen die dol zijn op paarden." | A4 |
+| `schleich-horse-club-mangalarga-marchador-hengst-13978` (short) | "een betaalbaar cadeau" | "een klein cadeau" | A13 |
+| `gravitrax-junior-starter-set-s-my-start-and-run` | short zonder leeftijd; "Een betaalbare instap" | "…, vanaf 3 jaar."; "Een instap …; houd de knikkers uit de buurt van kinderen onder 3 jaar." | Leeftijd (notitie: 3+) en verstikkingsrisico knikkers (A8/A9). A13. |
+| `tomado-tpp1400b-elektrische-poffertjesmaker` | short "perfect voor"; "Het bakoppervlak is PFAS-vrij." | "gezellig voor"; "volgens Tomado PFAS-vrij" | Superlatief. Stof-/milieuclaim toegeschreven aan de bron (H3). |
+| `tefal-crepparty-py558813-pannenkoekenplaat` | "Tefal is een bekend merk voor keukenapparaten." | geschrapt | A4 |
+| `mostessential-premium-draadloze-vleesthermometer` | short "…, waterdicht."; "draadloos en waterdicht" | "volgens de verkoper waterdicht" (2×) | Absolute claim toegeschreven (zoals Basil/Voltano) |
+| Gids `cadeau-opa-oma-50-100-euro`, intro | "iets geven dat jaren meegaat"; "daar bij" | "iets geven dat ze lang gebruiken"; "daarbij" | Duurzaamheidsbelofte voor een hele selectie is niet te onderbouwen. Taal. |
+| Gids `cadeau-moeder-onder-15-euro`, intro | "kleine dingen die ze echt gebruikt" | "kleine dingen die ze kan gebruiken" | Absolute claim |
+
+Alleen de velden short, description en rating (3×) zijn gewijzigd, plus twee zinnen in gidsintro's. Er zijn geen prijzen, statussen, ageGroups, titels, links of slugs gewijzigd. De JSON-opbouw en de inspringing zijn ongewijzigd.
+
+### Adviezen (open)
+**W1. Titel met materiaalclaim (Catalogus).** `leafu-bamboe-boekenstandaard-5-standen`: de titel zegt "van bamboe", terwijl de pagina bamboe én MDF noemt. De description meldt dat netjes. Voorstel: titel "LeafU boekenstandaard met paginahouders" (ik wijzig geen titels).
+
+**W2. Leeftijdsindeling (Catalogus).**
+- `ravensburger-puzzel-pokemon-500-stukjes` staat in 8–12 met recipient `kind`, terwijl Ravensburger 12+ noemt. Geen veiligheidsgrens (puzzel), dus niet blokkerend. De short noemt nu 12+. Voorstel: haal "8-12" weg.
+- `national-geographic-kinderverrekijker-6x21-junior` staat in 4–7 zonder leeftijd op de pagina; voor de Bresser Junior noemt de notitie 4+ op bol en 7+ elders. Controleer de leeftijd op de verpakking.
+- `wera-kraftform-micro-…` en `dremel-3000-…` staan in 13–17. Bij de Dremel is een veiligheidszin toegevoegd; overweeg om "13-17" te schrappen als de handleiding een minimumleeftijd van 16 of 18 noemt.
+- `schleich-farm-world-tinker-merrie-13773`: de pagina wisselt tussen 5–12 en 3–8. De tekst noemt geen leeftijd en het product staat niet in 0–3, dus in orde.
+
+**W3. Productgegevens verifiëren (Catalogus, A11).**
+- `knipex-afstriptang-160-mm`: controleer met de EAN of het de VDE-uitvoering (11 06 160) is. Is dat zo, dan mag "VDE-geïsoleerd" terug in de short.
+- `lenco-scd-24-…`: aux-in of aux-out? En `lenco-scd-37-…`: werkt hij op batterijen (en zijn die meegeleverd)? Dat staat niet in de notitie.
+- `ravensburger-puzzel-dieren-van-de-savanne-200-stukjes`: de description zegt "200 XXL-stukjes", de winkeltitel alleen "200 stukjes". Controleer dit en pas het aan als het geen XXL is.
+- `wera-kraftform-micro-…`: zit de wandhouder er echt bij? De notitie noemt hem niet.
+- `mostessential-…`: is het een draadloze sonde (voor in de oven) of een draadloze insteekthermometer? Klopt "in de oven" niet, dan moet dat eruit.
+
+**W4. Ratings met gedeelde reviews (zoals V2).** Bij Geomag is de rating nu `null`. Voor de rest staan er bij geen van de 64 notities aanwijzingen voor gedeelde reviews. `buffalo-…` 4,9 (7), `hendriqs-…` 4,3 (9) en `knipex-afstriptang` 4,8 (6) zijn kleine aantallen maar boven de drempel. Die laat ik staan.
+
+**W5. Dubbele productkeuze (SEO/Catalogus).** De Bresser Junior en de National Geographic 6x21 zijn bijna hetzelfde product (de notitie zegt "niet allebei prominent plaatsen"), en er staan vier vergelijkbare stappentellers en drie Stanley-waterpassen in de catalogus. Dat is geen juridisch punt. Wel geldt: zet ze niet naast elkaar met verschillende kwaliteitsclaims.
+
+**W6. Gidsen: belooft de intro wat het filter toont (zoals V5)?**
+- `cadeau-moeder-onder-15-euro` noemt "iets bij de thee of koffie, een geurkaars, een puzzel of een klein spel". Er zijn geurkaarsen en puzzels in de catalogus; controleer op de preview of ze onder €15 met recipient `moeder` verschijnen.
+- `cadeau-opa-oma-50-100-euro` noemt "de tuin, de muziek". Deze ronde levert vooral LEGO Icons/Botanicals en de Pora-fotolijst; controleer of er tuin- en muziekcadeaus in deze prijsklasse met `opa-oma` staan.
+
+### Akkoord nodig?
+Nee. Alleen productteksten, drie ratings en twee gidszinnen zijn aangepast. Er zijn geen juridische pagina's, checkout, prijzen of statussen geraakt.
+
+**COMPLIANCE: GO** voor de 64 actieve producten en de 2 gidsen van ronde 17:15. Er zijn geen blokkerende punten. W3 (VDE-uitvoering afstriptang, Lenco-specificaties) bij voorkeur vóór de herlancering.
