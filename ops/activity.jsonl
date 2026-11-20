@@ -251,3 +251,6 @@
 {"ts":"2026-11-20T15:32:56+01:00","agent":"catalogus","type":"probleem","summary":"bol-verrijking en bezorgdatums opnieuw overgeslagen: site nog offline (404). 362 actieve cadeaus hebben nog geen foto"}
 {"ts":"2026-11-20T15:32:56+01:00","agent":"seo-content","type":"klaar","summary":"Gidsen ‘Cadeau voor je moeder van €50 tot €100’ en ‘Cadeau voor opa en oma van €25 tot €50’ toegevoegd en gekoppeld vanuit 7 gidsen (nog niet zichtbaar: site offline)"}
 {"ts":"2026-11-20T15:32:56+01:00","agent":"orchestrator","type":"klaar","summary":"Ronde 15:15: +50 cadeaus in de data (1523 actief), 2 gidsen, compliance-hertoets verwerkt (1 blokkerend opgelost). SITE NOG OFFLINE: 362 actieve cadeaus zonder foto, bol-verrijking en bezorgdatums niet gedraaid"}
+{"ts":"2026-11-20T16:15:00+01:00","agent":"orchestrator","type":"gestart","summary":"Agent-ronde 16:15: 2 scouts, seo-content, daarna catalogus en compliance (site nog offline)"}
+{"ts":"2026-11-20T16:15:00+01:00","agent":"product-scout","type":"gestart","summary":"2 scouts: ~35 moeder/oma/vrouw (spellen, sport, muziek, tuin/bouwen, opa-oma tech) + ~35 jongens (sport, muziek, tech, keuken, €50–100), vaders (gamen, creatief, wellness, onder €15)"}
+{"ts":"2026-11-20T16:15:00+01:00","agent":"seo-content","type":"gestart","summary":"2 nieuwe cadeaugidsen voor dunne zoekthema’s"}
