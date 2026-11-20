@@ -198,3 +198,7 @@
 {"ts":"2026-11-20T10:34:41+01:00","agent":"catalogus","type":"probleem","summary":"bol-verrijking en bezorgdatums overgeslagen: de live API is onbereikbaar zolang de site offline is. 70 nieuwe cadeaus hebben nog geen foto/EAN"}
 {"ts":"2026-11-20T10:34:41+01:00","agent":"seo-content","type":"klaar","summary":"Gidsen ‘Cadeau voor een collega onder €15’ en ‘Cadeau voor een thuiswerker van €25 tot €50’ toegevoegd en gekoppeld in 4 gidsen (nog niet zichtbaar: site offline)"}
 {"ts":"2026-11-20T10:34:41+01:00","agent":"orchestrator","type":"klaar","summary":"Ronde 10:15: +70 cadeaus in de data (1231 actief), 2 gidsen, 25 varianten gecontroleerd. SITE OFFLINE: Vercel-project ontbreekt, bol-verrijking en bezorgdatums niet gedraaid"}
+{"ts":"2026-11-20T11:15:00+01:00","agent":"orchestrator","type":"gestart","summary":"Agent-ronde 11:15: 2 scouts, seo-content, compliance (site nog offline)"}
+{"ts":"2026-11-20T11:15:00+01:00","agent":"product-scout","type":"gestart","summary":"2 scouts: ~35 bol-cadeaus tieners onder €15 + gamen/muziek + 0–3 jaar; ~35 vaders onder €15 (klein gereedschap), sport, koken, moeder/oma"}
+{"ts":"2026-11-20T11:15:00+01:00","agent":"seo-content","type":"gestart","summary":"2 nieuwe cadeaugidsen voor dunne zoekthema’s"}
+{"ts":"2026-11-20T11:15:00+01:00","agent":"compliance","type":"gestart","summary":"Toetsing van de gidsen en productteksten die vandaag zijn toegevoegd"}

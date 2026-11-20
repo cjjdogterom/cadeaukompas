@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-20T10:34:41+01:00",
+  "updatedAt": "2026-11-20T11:15:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "Agent-ronde 11:15: 2 scouts, seo-content, compliance",
       "lastRunAt": "2026-11-20T10:34:41+01:00",
       "lastResult": "Ronde 10:15: +70 cadeaus in de data (1231 actief), 2 gidsen, 25 varianten gecontroleerd. SITE OFFLINE: Vercel-project ontbreekt, bol-verrijking en bezorgdatums niet gedraaid",
       "nextRun": "Elk uur 08–22",
       "blockedBy": "Site offline: Vercel-project ‘cadeaukompas’ bestaat niet meer (owner-todo 0)"
     },
     "product-scout": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "2 scouts: ~35 bol-cadeaus tieners onder €15 + gamen/muziek + 0–3 jaar; ~35 vaders onder €15 (klein gereedschap), sport, koken, moeder/oma",
       "lastRunAt": "2026-11-20T10:34:41+01:00",
       "lastResult": "3 scouts: 87 bol-cadeaus gecontroleerd op de productpagina (30 kinderen: 0–3 jaar, games PEGI 3/7, controllers, step, skateboard; 26 moeder/oma/vader: Bosch, Ledlenser, Smeg, Beurer, Le Creuset, Kenwood; 31 thuiswerker/collega/vrouwen: Logitech, Moleskine, Pilot, thee, Sony, JBL). Dun gebleven: gaming-headsets, Nerf, 0–3 van Chicco/Janod, Rituals/Weleda-sets, Wiha/Bahco (niet leverbaar bij bol)",
       "nextRun": "Elke agent-ronde (elk uur)",
@@ -50,8 +50,8 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "2 nieuwe cadeaugidsen voor dunne zoekthema’s",
       "lastRunAt": "2026-11-20T10:34:41+01:00",
       "lastResult": "Gidsen ‘Cadeau voor een collega onder €15’ en ‘Cadeau voor een thuiswerker van €25 tot €50’ toegevoegd en gekoppeld in 4 gidsen (nog niet zichtbaar: site offline)",
       "nextRun": "Volgende ronde",
@@ -98,8 +98,8 @@
       "blockedBy": "Supabase en affiliate-accounts (owner-todo #3, #4, #8)"
     },
     "compliance": {
-      "status": "gepland",
-      "currentTask": "Hertoets na verwerking A1 en A3–A14; A2 (bedenktijd/garantie) staat nog open",
+      "status": "bezig",
+      "currentTask": "Toetsing van de gidsen en productteksten die vandaag zijn toegevoegd",
       "lastRunAt": "2026-11-20T01:35:00+01:00",
       "lastResult": "26 gidsen en 999 productteksten getoetst: 3 blokkerende punten (opgelost door catalogus), 15 adviezen open; rapport in ops/reports/compliance-2026-11-20.md",
       "nextRun": "Volgende ronde",
