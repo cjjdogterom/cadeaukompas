@@ -188,3 +188,7 @@
 {"ts":"2026-11-20T09:32:00+01:00","agent":"seo-content","type":"klaar","summary":"Gidsen ‘Bouwcadeau voor volwassenen’ en ‘Cadeau voor een tiener van €15 tot €25’ gepubliceerd en gekoppeld in 6 gidsen"}
 {"ts":"2026-11-20T09:32:00+01:00","agent":"product-scout","type":"probleem","summary":"Twee van de drie scouts bleven onder hun doel (20 en 16 i.p.v. ~35 en ~30): de bekende bol-artikelen staan al in de catalogus en veel kandidaten zijn niet leverbaar of leveren pas na 3 werkdagen; derde scout ingezet om boven de 50 te komen"}
 {"ts":"2026-11-20T09:32:00+01:00","agent":"orchestrator","type":"klaar","summary":"Ronde 09:15: +68 cadeaus (1165 actief), 2 gidsen, 6 twijfelteksten opgelost, LEGO-leeftijden gecorrigeerd"}
+{"ts":"2026-11-20T10:15:00+01:00","agent":"orchestrator","type":"gestart","summary":"Agent-ronde 10:15: 3 scouts, catalogus, seo-content"}
+{"ts":"2026-11-20T10:15:00+01:00","agent":"product-scout","type":"gestart","summary":"3 scouts: ~30 bol-cadeaus jongens 0–7 + gamen/sport, ~30 moeder/oma (koken, wellness) + vaders (gereedschap, sport), ~30 thuiswerker/collega/vrouwen"}
+{"ts":"2026-11-20T10:15:00+01:00","agent":"catalogus","type":"gestart","summary":"Interne notities ‘controleer variant’ bij actieve producten nalopen; daarna nieuwe cadeaus importeren en verrijken"}
+{"ts":"2026-11-20T10:15:00+01:00","agent":"seo-content","type":"gestart","summary":"2 nieuwe cadeaugidsen voor dunne zoekthema’s"}
