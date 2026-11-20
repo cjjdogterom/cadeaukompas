@@ -1154,7 +1154,7 @@
     "title": "Dobble Boerderij",
     "brand": "Asmodee",
     "short": "Een snel zoek-en-spot-kaartspel met boerderijdieren, ook voor wie nog niet goed leest.",
-    "description": "Elke twee kaarten hebben precies één gelijk plaatje en wie dat het snelst ziet, wint. De spelletjes duren een paar minuten en zijn prima voor kleuters en jonge schoolkinderen samen met ouders.",
+    "description": "Elke twee kaarten hebben precies één gelijk plaatje en wie dat het snelst ziet, wint. Een potje duurt ongeveer 10 minuten, voor 2 tot 5 spelers vanaf 4 jaar. Prima voor kleuters en jonge schoolkinderen samen met ouders.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/dobble-boerderij-kaartspel/9300000052443567/",
@@ -1184,7 +1184,7 @@
     "scout": {
       "score": 72,
       "commissionPct": 4,
-      "notes": "Prijs 12,89 (adv. 13,99), verkoop door bol, morgen in huis, gezien 17-11. Leeftijdsindicatie niet op pagina gezien; Dobble Kids-varianten zijn doorgaans vanaf 4 jaar, controleren. | 17-11: geactiveerd (prijs gecontroleerd 17-11, link 200). Prijs opnieuw controleren vóór 19-11."
+      "notes": "Prijs 12,89 (adv. 13,99), verkoop door bol, morgen in huis, gezien 17-11. Variant gecontroleerd op productpagina 2026-11-20: vanaf 4 jaar, 2 tot 5 spelers, ca. 10 minuten, 30 kaarten in blik. | 17-11: geactiveerd (prijs gecontroleerd 17-11, link 200). Prijs opnieuw controleren vóór 19-11."
     },
     "merchantTitle": "Dobble Boerderij - Kaartspel",
     "ean": "3558380085751",
@@ -1382,7 +1382,7 @@
     "title": "Mattel UNO Toon Geen Genade (UNO No Mercy) Kaartspel",
     "brand": "Mattel",
     "short": "Een hardere variant van UNO met extra straffen en nieuwe regels.",
-    "description": "Dezelfde vertrouwde basis als UNO maar met meer chaos, zodat het spel ook voor oudere kinderen en tieners spannend blijft. Voor weinig geld een leuk cadeau om met het gezin te spelen.",
+    "description": "Dezelfde vertrouwde basis als UNO maar met veel hardere straffen en meer chaos, voor 2 tot 6 spelers. Zo blijft het spel ook voor oudere kinderen en tieners spannend. Voor weinig geld een leuk cadeau om met het gezin te spelen.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/uno-toon-geen-genade-uno-no-mercy-kaartspel-gezelligheidspel/9300000160661526/",
@@ -1416,7 +1416,7 @@
     "scout": {
       "score": 77,
       "commissionPct": 4,
-      "notes": "Prijs 11,99 (adv. 14,99, 2+1 gratis), verkoop door bol, morgen in huis, gezien 17-11. Leeftijd 6+ volgens zoekresultaat. Reviewscore 4,6 (963) stond bij meerdere UNO-varianten, daarom rating null. | 17-11: geactiveerd (prijs gecontroleerd 17-11, link 200). Prijs opnieuw controleren vóór 19-11."
+      "notes": "Prijs 11,99 (adv. 14,99, 2+1 gratis), verkoop door bol, morgen in huis, gezien 17-11. Variant gecontroleerd op productpagina 2026-11-20: UNO No Mercy, 2 tot 6 spelers; leeftijd op de pagina tegenstrijdig (3+ in kop, 7+ in omschrijving), daarom niet genoemd. Reviewscore 4,6 (963) stond bij meerdere UNO-varianten, daarom rating null. | 17-11: geactiveerd (prijs gecontroleerd 17-11, link 200). Prijs opnieuw controleren vóór 19-11."
     },
     "ean": "5051500395023",
     "imageLicense": "bol Marketing Catalog API (affiliate)"
@@ -1553,11 +1553,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/jbl-junior-320bt-draadloze-on-ear-koptelefoon-voor-kinderen-blauw/9300000183890164/"
     ],
-    "status": "actief",
+    "status": "concept",
     "scout": {
       "score": 70,
       "commissionPct": 3,
-      "notes": "Prijs 34,95 (adv. 49,99), verkoop door bol, morgen in huis, gezien 17-11. Productnaam afgeleid uit titel in zoekresultaat; 39 reviews. | 17-11: geactiveerd (prijs gecontroleerd 17-11, link 200). Prijs opnieuw controleren vóór 19-11."
+      "notes": "Concept 2026-11-20: kleur in paginatitel (Roze Paars) spreekt kop/specificaties (Blauw) tegen; ook microfoon en app-bediening zijn tegenstrijdig vermeld. Eerst redactiecheck. | Prijs 34,95 (adv. 49,99), verkoop door bol, morgen in huis, gezien 17-11. Productnaam afgeleid uit titel in zoekresultaat; 39 reviews. | 17-11: geactiveerd (prijs gecontroleerd 17-11, link 200). Prijs opnieuw controleren vóór 19-11."
     },
     "ean": "1200130015793",
     "imageLicense": "bol Marketing Catalog API (affiliate)"
@@ -11643,7 +11643,7 @@
     "brand": "Sony PlayStation",
     "ean": "0711719399506",
     "short": "De originele PS5-controller met haptische feedback.",
-    "description": "De DualSense laat je acties in het spel voelen via trillingen en weerstand in de triggers. Hij is oplaadbaar en heeft een ingebouwde microfoon. Een logische tweede controller voor spelletjes met zijn tweeen.",
+    "description": "De DualSense laat je acties in het spel voelen via trillingen en weerstand in de triggers. Hij is oplaadbaar en heeft een ingebouwde microfoon. Een logische tweede controller voor spelletjes met zijn tweeën. Let op: voor de PS5 (niet de PS4) en de USB-C-kabel zit er niet bij.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/sony-official-playstation-5-dualsense-controller/9300000007897748/",
@@ -11682,7 +11682,7 @@
     "scout": {
       "score": 74,
       "commissionPct": null,
-      "notes": "Prijs € 59,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. In de verpakkingsinhoud staat vermeld 'DualSense Edge'; titel/EAN staan op wit model, controleer variant.",
+      "notes": "Prijs € 59,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Variant gecontroleerd op productpagina 2026-11-20: standaard DualSense wit (EAN 0711719399506), verkoop door bol; de vermelding 'DualSense Edge' in de verpakkingsinhoud is een paginafout (de Edge staat als apart product op de pagina).",
       "verified": true
     }
   },
@@ -15757,7 +15757,7 @@
     "brand": "Bodum",
     "ean": "0727015150475",
     "short": "Een kleine Bodum-cafetière voor drie kopjes verse koffie.",
-    "description": "Een kleine French press met glazen kan en plastic deksel, ideaal voor één of twee personen. Eenvoudig te gebruiken en schoon te maken. Een cadeau voor een koffieliefhebber.",
+    "description": "Een kleine French press voor ongeveer drie kopjes, met glazen kan, chroomkleurig frame en plastic deksel, ideaal voor één of twee personen. Eenvoudig te gebruiken en schoon te maken. Een cadeau voor een koffieliefhebber.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/bodum-caffettiera-french-press-cafetiere-met-plastic-deksel-0-35-l-3-kops/9200000130267656/",
@@ -15796,7 +15796,7 @@
     "scout": {
       "score": 66,
       "commissionPct": null,
-      "notes": "Prijs € 20,50, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Enkele reviews slaan op de variant van 1 liter; capaciteit op de pagina inconsistent.",
+      "notes": "Prijs € 20,50, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Variant gecontroleerd op productpagina 2026-11-20: 0,35 l (3 kops), glas met chroomkleurig frame en plastic deksel; kopjesaantal in specificaties foutief (34) en enkele reviews slaan op de 1 liter-variant. Op de pagina stond verkoper Etrias met € 23,85 (data: 20,50), prijs via script controleren.",
       "verified": true
     }
   },
@@ -19185,11 +19185,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/ronde-bakvormen-6-delige-set-taartvormen-springvorm-set-non-stick-coating-o12-t-m-28-cm-losse-bodem-stapelbaar-voor-cake-taart-quiche-zwart/9300000230858662/"
     ],
-    "status": "actief",
+    "status": "concept",
     "scout": {
       "score": 64,
       "commissionPct": null,
-      "notes": "Prijs € 24,95, verkoper JVS Trading NL, levertekst 'Voor 18:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. De specificaties op de pagina noemen 'vierkant' en 32 cm, terwijl titel en beschrijving over ronde vormen van 12 tot 28 cm gaan: afwijking, controleer.",
+      "notes": "Concept 2026-11-20: bol-pagina spreekt zichzelf tegen: titel/omschrijving zeggen rond Ø12-28 cm, specificaties en verpakkingsinhoud zeggen vierkant en 32 cm (ook materiaal RVS of koolstofstaal). Vorm niet te bevestigen. | Prijs € 24,95, verkoper JVS Trading NL, levertekst 'Voor 18:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. De specificaties op de pagina noemen 'vierkant' en 32 cm, terwijl titel en beschrijving over ronde vormen van 12 tot 28 cm gaan: afwijking, controleer.",
       "verified": true
     }
   },
@@ -21866,7 +21866,7 @@
     "scout": {
       "score": 78,
       "commissionPct": null,
-      "notes": "Prijs € 14,55 (adviesprijs € 16,99), verkoper DeOnlineDrogist.nl (Nederlandse marktplaatsverkoper), levertekst 'Voor 21:30 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Eén kleurvariant op de pagina is niet leverbaar; de zwarte wel.",
+      "notes": "Prijs € 14,55 (adviesprijs € 16,99), verkoper DeOnlineDrogist.nl (Nederlandse marktplaatsverkoper), levertekst 'Voor 21:30 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Variant gecontroleerd op productpagina 2026-11-20: Panther Black (zwart), op voorraad bij DeOnlineDrogist.nl; de pagina toont ook een roze keuze.",
       "verified": true
     }
   },
@@ -24768,7 +24768,7 @@
     "brand": "Brixy",
     "ean": "8721022431086",
     "short": "Een fleece warmtedeken voor één persoon met timer.",
-    "description": "Een elektrische bovendeken van fleece in antraciet, voor één persoon en met timer. Handig voor op de bank of bij het naar bed gaan. Een warm cadeau voor wie het snel koud heeft.",
+    "description": "Een elektrische bovendeken van fleece in antraciet (160 x 130 cm), voor één persoon en met een timer van 1 tot 12 uur. Handig voor op de bank of bij het naar bed gaan. Een warm cadeau voor wie het snel koud heeft.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/infinity-goods-elektrische-deken-warmtedeken-1-persoons-160-x-130-cm-met-timer-bovendeken-fleece-antraciet/9300000195043965/",
@@ -24806,7 +24806,7 @@
     "scout": {
       "score": 72,
       "commissionPct": null,
-      "notes": "Prijs € 47,95, verkoper Infinity Goods, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Pagina toont ook de keuze 'Tweepersoons': controleer de variant.",
+      "notes": "Prijs € 47,95, verkoper Infinity Goods, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Variant gecontroleerd op productpagina 2026-11-20: 1-persoons, 160 x 130 cm, antraciet, timer 1 tot 12 uur; tweepersoons is een apart aanbod.",
       "verified": true
     }
   },
@@ -25848,8 +25848,8 @@
     "merchantTitle": "GraviTrax PRO Starter Set Vertical - Knikkerbaan - Starterset - 10 onderdelen - Vanaf 8 jaar",
     "brand": "GraviTrax",
     "ean": "4005556224265",
-    "short": "Een hoge knikkerbaan met pilaren en balkons, voor de ervaren bouwer.",
-    "description": "De Vertical-set richt zich op bouwen in de hoogte, met extra elementen voor torens en balkons. Voor kinderen die het basisprincipe van GraviTrax al kennen of liever meteen ambitieus beginnen. Een flinke bouwsessie voor een regenachtige zondag.",
+    "short": "Een GraviTrax PRO-knikkerbaan om in de hoogte te bouwen, vanaf 8 jaar.",
+    "description": "De Vertical-set richt zich op bouwen in de hoogte. Voor kinderen vanaf 8 jaar die het basisprincipe van GraviTrax al kennen of liever meteen ambitieus beginnen. Een flinke bouwsessie voor een regenachtige zondag.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/ravensbuger-gravitrax-starterset-vertical/9300000153048489/",
@@ -25885,7 +25885,7 @@
     "scout": {
       "score": 74,
       "commissionPct": null,
-      "notes": "Prijs € 41,49, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Titel op bol noemt '10 onderdelen' (lijkt een fout van de verkoper); inhoud niet bevestigd. De URL bevat de spelfout 'ravensbuger' zoals op bol.",
+      "notes": "Prijs € 41,49, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Variant gecontroleerd op productpagina 2026-11-20: GraviTrax PRO Starter Set Vertical, vanaf 8 jaar; aantal onderdelen tegenstrijdig (10 in titel, 153 baandelen in specificaties), daarom niet genoemd. De URL bevat de spelfout 'ravensbuger' zoals op bol.",
       "verified": true
     }
   },
@@ -26270,7 +26270,7 @@
     "brand": "LEGO",
     "ean": "5702017161914",
     "short": "Een LEGO City-politiebureau met helikopter om boeven te vangen.",
-    "description": "Een groot LEGO City-politiebureau met helikopter. Kinderen bouwen het bureau en spelen daarna hun eigen politieverhalen na. Geschikt voor wie al wat grotere sets aankan.",
+    "description": "Een groot LEGO City-politiebureau met helikopter, 668 onderdelen, vanaf 6 jaar. Kinderen bouwen het bureau en spelen daarna hun eigen politieverhalen na. Geschikt voor wie al wat grotere sets aankan.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/lego-city-politiestation-60316/9300000055631629/",
@@ -26305,7 +26305,7 @@
     "scout": {
       "score": 84,
       "commissionPct": null,
-      "notes": "Prijs € 42,99 (adviesprijs € 64,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Pagina toont banner 'LEGO laatste kans'. Helikopter en cel zijn uit de titel/algemene kennis van de set, niet uit de omschrijving gecontroleerd.",
+      "notes": "Prijs € 42,99 (adviesprijs € 64,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Pagina toont banner 'LEGO laatste kans'. Variant gecontroleerd op productpagina 2026-11-20: set 60316, 668 onderdelen, vanaf 6 jaar, helikopter bevestigd; minifiguren en maximumleeftijd op de pagina tegenstrijdig, niet genoemd.",
       "verified": true
     }
   },
@@ -28741,12 +28741,12 @@
   },
   {
     "slug": "leki-nordic-walkingstokken-130-cm",
-    "title": "Leki wandelstokken, 130 cm",
+    "title": "Leki Flash Carbon nordic walkingstokken, 130 cm",
     "merchantTitle": "LEKI - 65325602130 - Nordic walkingstokken - Unisex - Lengte 130 cm",
     "brand": "LEKI",
     "ean": "4028173318070",
-    "short": "Een set merk-wandelstokken van Leki voor stevig doorwandelen of nordic walking.",
-    "description": "Leki is een bekend merk voor wandel- en nordic-walkingstokken. Deze set heeft een lengte van 130 cm en wordt als paar verkocht. Een goed cadeau voor wie graag lange wandelingen maakt.",
+    "short": "Een paar Leki Flash Carbon-stokken met vaste lengte van 130 cm voor nordic walking.",
+    "description": "De Leki Flash Carbon wordt als paar verkocht, heeft een vaste lengte van 130 cm en een kurken handgreep. Leki is een bekend merk voor wandel- en nordic-walkingstokken. Een goed cadeau voor wie graag lange wandelingen maakt; let op dat de lengte niet instelbaar is.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/leki-flash-carbon-polen-green-black-130-cm/9300000149781412/",
@@ -28781,7 +28781,7 @@
     "scout": {
       "score": 62,
       "commissionPct": null,
-      "notes": "Prijs € 72,57, verkoper Fitshop B.V. (NL), levertekst 'Voor 20:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Titel op de pagina verschilt van de URL-naam (Flash Carbon); controleer model voor publicatie. 4 reviews (4,8), daarom rating null.",
+      "notes": "Prijs € 72,57, verkoper Fitshop B.V. (NL), levertekst 'Voor 20:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Variant gecontroleerd op productpagina 2026-11-20: Leki Flash Carbon, vaste lengte 130 cm, groen/zwart, per paar, verkoop via Fitshop; materiaal in specificaties tegenstrijdig (polyester/70% koolstof), daarom niet genoemd; reviews slaan deels op een andere variant. 4 reviews (4,8), daarom rating null.",
       "verified": true
     }
   },
@@ -30396,7 +30396,7 @@
     "scout": {
       "score": 60,
       "commissionPct": null,
-      "notes": "Prijs € 78,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 2 reviews; dock-vermelding komt uit de bol-zoekresultaten, controleer voor publicatie.",
+      "notes": "Prijs € 78,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 2 reviews; Variant gecontroleerd op productpagina 2026-11-20: Xbox RARE Edition, oplaadstation, 2.4 GHz-adapter en twee achterpaddles bevestigd; enkele specificatievelden (o.a. 'draadloos: nee', batterijcapaciteit) tegenstrijdig, niet genoemd.",
       "verified": true
     }
   },
@@ -31111,7 +31111,7 @@
     "brand": "Hario",
     "ean": "4977642020290",
     "short": "Een set om koffie met de hand te zetten: dripper, glazen kan en filters.",
-    "description": "Bij deze methode giet je zelf heet water over de koffie, waardoor je smaak en tempo bepaalt. In de set zit een keramische dripper, een glazen kan en filters. Een rustig koffieritueel voor een thuiswerkplek.",
+    "description": "Bij deze methode giet je zelf heet water over de koffie, waardoor je smaak en tempo bepaalt. In de set zit een keramische dripper, een glazen kan van 600 ml, 100 filters en een maatschepje. Een rustig koffieritueel voor een thuiswerkplek.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/hario-v60-set/9200000126719015/",
@@ -31152,7 +31152,7 @@
     "scout": {
       "score": 66,
       "commissionPct": null,
-      "notes": "Prijs € 36,67, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 1 review; setinhoud uit bol-zoekresultaat, controleer voor publicatie.",
+      "notes": "Prijs € 36,67, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 1 review; Variant gecontroleerd op productpagina 2026-11-20: V60-02 keramische dripper, glazen server 600 ml, 100 filters maat 02 en maatschepje.",
       "verified": true
     }
   },
@@ -31388,11 +31388,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/makita-makpac-opbergkoffer-8215518-exclusief-gereedschap-blauw/9200000074292942/"
     ],
-    "status": "actief",
+    "status": "concept",
     "scout": {
       "score": 66,
       "commissionPct": null,
-      "notes": "Prijs € 31,35, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Kleur en MPN op de pagina zijn inconsistent (blauw/turquoise, 821551-8 of 821552-6).",
+      "notes": "Concept 2026-11-20: bol-pagina spreekt zichzelf tegen: kleur (blauw/turquoise), MPN (821551-8/821552-6), naam (Makpac/Systainer/M-Box) en specificatie zegt stapelbaar: nee terwijl onze tekst stapelbaar noemt. Variant niet te bevestigen. | Prijs € 31,35, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Kleur en MPN op de pagina zijn inconsistent (blauw/turquoise, 821551-8 of 821552-6).",
       "verified": true
     }
   },
@@ -32415,7 +32415,7 @@
     "brand": "Beurer",
     "ean": "4211125275013",
     "short": "Een elektrisch warmtekussen met fleecehoes en drie warmtestanden.",
-    "description": "Een warmtekussen van 40 bij 30 centimeter met een zachte fleecehoes en automatische uitschakeling. De hoes is machinewasbaar. Een fijn cadeau voor een koude winteravond.",
+    "description": "Een warmtekussen van 40 bij 30 centimeter met een zachte fleecehoes, drie warmtestanden en automatische uitschakeling na ongeveer 90 minuten. De hoes is op 30 graden wasbaar, het verwarmde kussen zelf niet. Een fijn cadeau voor een koude winteravond.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/beurer-beurer-hk-48-heating-pillow-gray-3-years-warranty/9200000120404669/",
@@ -32454,7 +32454,7 @@
     "scout": {
       "score": 76,
       "commissionPct": null,
-      "notes": "Prijs € 38,80, verkoper bol, levertekst 'Bij bestelling voor 23:59 uur vrijdag in huis' gezien op productpagina 2026-11-18. Adviesprijs € 54,99. Kleurvariant op de pagina niet eenduidig (grijs geselecteerd, URL verwijst naar oranje): controleer de variant voor publicatie.",
+      "notes": "Prijs € 38,80, verkoper bol, levertekst 'Bij bestelling voor 23:59 uur vrijdag in huis' gezien op productpagina 2026-11-18. Adviesprijs € 54,99. Variant gecontroleerd op productpagina 2026-11-20: grijs geselecteerd, 40 x 30 cm, 3 warmtestanden, uitschakeling na ca. 90 minuten, hoes wasbaar op 30 graden; omschrijving noemt ook 44 x 33 cm en verpakking een andere kleur, daarom alleen titelmaat en geen kleur genoemd.",
       "verified": true
     }
   },
@@ -32556,8 +32556,8 @@
     "merchantTitle": "Tefal Trattoria Braadpan - Ø24 cm - Gietijzer - Geschikt voor Inductie",
     "brand": "Tefal",
     "ean": "3168430291645",
-    "short": "Braadpan van 24 cm voor stoofschotels, geschikt voor alle kookplaten inclusief inductie.",
-    "description": "Een brede braadpan van Tefal voor stoofpotten, chili en winterse gerechten. Geschikt voor inductie. Een praktisch kookcadeau voor de dagelijkse keuken.",
+    "short": "Braadpan van 24 cm voor stoofschotels, geschikt voor inductie.",
+    "description": "Een brede braadpan van Tefal met deksel voor stoofpotten, chili en winterse gerechten. Geschikt voor inductie. Een praktisch kookcadeau voor de dagelijkse keuken.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/tefal-trattoria-braadpan-o24-cm/9200000107468737/",
@@ -32590,7 +32590,7 @@
     "scout": {
       "score": 64,
       "commissionPct": null,
-      "notes": "Prijs € 50,95, verkoper Homeplace.eu, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18; paginascore 4,6 uit 73 reviews maar die gaan deels over de 28 cm-variant, daarom rating null; pagina is tegenstrijdig over materiaal (gietijzer/aluminium), controleer voor publicatie",
+      "notes": "Prijs € 50,95, verkoper Homeplace.eu, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18; paginascore 4,6 uit 73 reviews maar die gaan deels over de 28 cm-variant, daarom rating null; Variant gecontroleerd op productpagina 2026-11-20: Ø 24 cm, inductie, deksel inbegrepen; materiaal (gietijzer of aluminium) is op de pagina tegenstrijdig, daarom niet genoemd",
       "verified": true
     }
   },
@@ -33642,7 +33642,7 @@
     "brand": "Renpho",
     "ean": "4897122200083",
     "short": "Shiatsu-massager voor om de nek met warmtefunctie.",
-    "description": "Een massager die om de nek en schouders past, met shiatsu-massage en warmte. De intensiteit is instelbaar. Een ontspannend cadeau voor wie veel achter een bureau zit. Geen medisch hulpmiddel.",
+    "description": "Een massager die om de nek en schouders past, met shiatsu-massage en warmte. De intensiteit is instelbaar in drie standen. Een ontspannend cadeau voor wie veel achter een bureau zit. Geen medisch hulpmiddel.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/masazer-do-karku-renpho-rf-snm060-bk/9300000188963402/",
@@ -33680,7 +33680,7 @@
     "scout": {
       "score": 66,
       "commissionPct": null,
-      "notes": "Prijs € 49,99 (Black Friday-deal, adviesprijs € 59,99), verkoper bol (volgens paginagedeelte onder het prijsblok), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18; paginatitel en URL-naam wijken af (Poolse slug), controleer titel voor publicatie",
+      "notes": "Prijs € 49,99 (Black Friday-deal, adviesprijs € 59,99), verkoper bol (volgens paginagedeelte onder het prijsblok), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18; Variant gecontroleerd op productpagina 2026-11-20: Renpho U-Neck 1 (RF-SNM060), Nederlandse paginatitel, shiatsu, warmtefunctie, 3 intensiteitsstanden; alleen de URL-slug is Pools",
       "verified": true
     }
   },
@@ -33983,7 +33983,7 @@
     "brand": "Rain Design",
     "ean": "0891607000995",
     "short": "Laptopstandaard van aluminium met draaivoet, handig om je scherm te delen of te draaien.",
-    "description": "Dezelfde stevige aluminium standaard als de mStand, maar dan met een draaivoet. Zo draai je je scherm snel naar een collega of naar het licht. Een nette upgrade voor een thuiswerkplek.",
+    "description": "Dezelfde stevige aluminium standaard als de mStand, maar dan met een draaivoet. Zo draai je je scherm snel naar een collega of naar het licht. Volgens de pagina geschikt tot 17 inch; de hoogte is vast. Een nette upgrade voor een thuiswerkplek.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/rain-design-mstand360-macbook-met-draaibare-voet-middernacht/9300000142079141/",
@@ -34021,7 +34021,7 @@
     "scout": {
       "score": 70,
       "commissionPct": null,
-      "notes": "Prijs € 64,90, verkoper Appelhoes.nl (score 8,8), levertekst 'Voor 18:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 11 reviews. Maximale schermmaat verschilt tussen bol-pagina's (15 of 17 inch), controleren.",
+      "notes": "Prijs € 64,90, verkoper Appelhoes.nl (score 8,8), levertekst 'Voor 18:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Slechts 11 reviews. Variant gecontroleerd op productpagina 2026-11-20: mStand 360 met draaivoet, aluminium, kleur Midnight (blauw), vaste hoogte, volgens specificaties geschikt tot 17 inch; kleur- en categoriegegevens op de pagina deels tegenstrijdig, niet genoemd.",
       "verified": true
     }
   },
@@ -34479,7 +34479,7 @@
     "brand": "Bialetti",
     "ean": "8006363018418",
     "short": "De bekende Italiaanse mokapot voor espresso-achtige koffie op het fornuis.",
-    "description": "De klassieke achthoekige mokapot van aluminium maakt tot zes kopjes sterke koffie op gas, elektrisch of keramisch fornuis. Een tijdloos cadeau voor wie van koffie en een stukje Italië houdt.",
+    "description": "De klassieke achthoekige mokapot van aluminium maakt tot zes kopjes sterke koffie op gas, elektrisch of keramisch fornuis. Niet geschikt voor inductie. Een tijdloos cadeau voor wie van koffie en een stukje Italië houdt.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/bialetti-espressomaker-moka-express-6-kops-zwart/9200000077170120/",
@@ -34519,7 +34519,7 @@
     "scout": {
       "score": 66,
       "commissionPct": null,
-      "notes": "Prijs € 38,95, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Zilveren variant is goedkoper maar niet apart op de pagina gecontroleerd.",
+      "notes": "Prijs € 38,95, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Variant gecontroleerd op productpagina 2026-11-20: zwarte Moka Express 6 kops, aluminium, ca. 270 ml, niet geschikt voor inductie; geen aparte zilveren keuze op de pagina.",
       "verified": true
     }
   },
@@ -37000,7 +37000,7 @@
     "scout": {
       "score": 74,
       "commissionPct": null,
-      "notes": "Prijs € 68,54, verkoper V-Nix.nl, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18 (na teken 100.000). De titel noemt wifi, de specificaties niet; wifi-gebruik controleren. Reviews (213) gelden mogelijk voor meerdere Inkbird-varianten.",
+      "notes": "Prijs € 68,54, verkoper V-Nix.nl, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18 (na teken 100.000). Variant gecontroleerd op productpagina 2026-11-20: INT-12-BW, 2 sondes (IP67), 28 voorinstellingen, tot 25 uur batterij; wifi staat in de titel maar is in specificaties niet vereist, daarom alleen Bluetooth genoemd; verpakkingsinhoud noemt '4x sensors', niet overgenomen. Reviews (213) gelden mogelijk voor meerdere Inkbird-varianten.",
       "verified": true
     }
   },
@@ -43551,7 +43551,7 @@
     "scout": {
       "score": 78,
       "commissionPct": null,
-      "notes": "Prijs € 66,19 (adviesprijs € 89,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Op de pagina verwijzen reviews en koopknop naar twee productnummers (kleurvarianten), dus kleur van de prijs niet 100% zeker.",
+      "notes": "Prijs € 66,19 (adviesprijs € 89,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Variant gecontroleerd op productpagina 2026-11-20: Liberty 4 NC, galerij en specificaties zwart (verpakkingsinhoud noemt ook wit), adaptieve ruisonderdrukking, tot 50 uur incl. case; kleur niet in de tekst genoemd.",
       "verified": true
     }
   },
@@ -43562,7 +43562,7 @@
     "brand": "Samsung",
     "ean": "8806097621256",
     "short": "Draadloze oordopjes met noise cancelling van Samsung, ook bruikbaar met andere telefoons.",
-    "description": "In-ear oordopjes met actieve ruisonderdrukking, bluetooth 5.4 en tot 24 uur batterij met case. Ze werken het best met een Samsung-telefoon maar koppelen ook met andere toestellen. Een compact tech- en muziekcadeau.",
+    "description": "In-ear oordopjes met actieve ruisonderdrukking, bluetooth 5.4 en tot 24 uur batterijduur volgens de pagina. Ze werken het best met een Samsung-telefoon maar koppelen ook met andere toestellen. Een compact tech- en muziekcadeau.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/samsung-galaxy-buds3-fe-grijs/9300000237365115/",
@@ -43602,7 +43602,7 @@
     "scout": {
       "score": 72,
       "commissionPct": null,
-      "notes": "Prijs € 79,00 (Black Friday-deal, adviesprijs € 149,00), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Pagina toont zwart terwijl URL de grijze variant is; kleur van de prijs niet zeker.",
+      "notes": "Prijs € 79,00 (Black Friday-deal, adviesprijs € 149,00), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Variant gecontroleerd op productpagina 2026-11-20: Galaxy Buds3 FE, paginatitel Grijs, bluetooth 5.4, actieve ruisonderdrukking; 24 uur batterij zonder duidelijkheid of dit met case is, tekst aangepast.",
       "verified": true
     }
   },
@@ -43938,7 +43938,7 @@
     "scout": {
       "score": 72,
       "commissionPct": null,
-      "notes": "Prijs € 179,00 (Black Friday-deal, adviesprijs € 229,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Welke kleurvariant de prijs betreft is op de pagina niet eenduidig; EAN daarom leeg gelaten.",
+      "notes": "Prijs € 179,00 (Black Friday-deal, adviesprijs € 229,99), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Variant gecontroleerd op productpagina 2026-11-20: Mist Grey-Whitestone (grijze kast, witte band), MPN 010-02863-21, geen EAN op de pagina, daarom leeg; specificatie 'batterijduur 11 uur' botst met omschrijving 'tot 11 dagen' (smartwatchmodus), bol-omschrijving aangehouden.",
       "verified": true
     }
   },
@@ -50298,11 +50298,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/gym-masters-zachte-kettlebell-set-4-kg-6-kg-8-kg-voor-veilig-krachttrainen-thuis/9300000230555237/"
     ],
-    "status": "actief",
+    "status": "concept",
     "scout": {
       "score": 62,
       "commissionPct": null,
-      "notes": "Prijs € 59,99, verkoper De Keurmeesters, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-19. Paginatekst noemt in de specificaties 4-6-10 kg tegenover 4-6-8 in de titel; controleer voor gebruik.",
+      "notes": "Concept 2026-11-20: bol-pagina spreekt zichzelf tegen: gewichten 4-6-8 kg (titel) versus 4-6-10 kg (verpakkingsinhoud), 8 stuks versus 3 kettlebells, en een reviewer kreeg andere gewichten dan besteld. | Prijs € 59,99, verkoper De Keurmeesters, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-19. Paginatekst noemt in de specificaties 4-6-10 kg tegenover 4-6-8 in de titel; controleer voor gebruik.",
       "verified": true
     }
   },
@@ -52085,7 +52085,7 @@
     "brand": "adidas",
     "ean": "4068811391447",
     "short": "De Trionda Pro, de wedstrijdbal-uitvoering van het WK 2026.",
-    "description": "Een hoogwaardige voetbal in het ontwerp van het WK van 2026. Bedoeld voor serieuze spelers en verzamelaars. Een cadeau met een hogere prijs, vooral voor een echte voetbalfan.",
+    "description": "Een hoogwaardige voetbal in maat 5 in het ontwerp van het WK van 2026, door bol omschreven als officiële wedstrijdbal. Bedoeld voor serieuze spelers en verzamelaars. Een cadeau met een hogere prijs, vooral voor een echte voetbalfan.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/adidas-fifa-world-cup-26-trionda-pro-voetbal/9300000242605864/",
@@ -52119,7 +52119,7 @@
     "scout": {
       "score": 60,
       "commissionPct": null,
-      "notes": "Prijs € 92,57, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-19. Slechts 1 review (5,0), daarom geen rating. Maat niet op pagina gecontroleerd.",
+      "notes": "Prijs € 92,57, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-19. Slechts 1 review (5,0), daarom geen rating. Variant gecontroleerd op productpagina 2026-11-20: maat 5, door bol omschreven als officiële WK 2026-wedstrijdbal; productafmetingen op de pagina kloppen niet voor een bal en worden niet genoemd.",
       "verified": true
     }
   },
@@ -54179,8 +54179,8 @@
     "merchantTitle": "WMF Ceramill - Elektrische Peper- en Zoutmolen - RVS - Instelbare Maalgraad - Modern Design",
     "brand": "WMF",
     "ean": "4000530582690",
-    "short": "Een rvs molen met keramisch maalwerk en instelbare maalgraad, op batterijen.",
-    "description": "Je bedient de molen met één hand en stelt de grofte zelf in. Het keramische maalwerk is geschikt voor peper en zout. Een verzorgd keukencadeau voor wie er thuis veel kookt.",
+    "short": "Eén elektrische rvs-molen voor peper en zout, met keramisch maalwerk en instelbare maalgraad.",
+    "description": "Het is één molen (geen set) die je met één hand bedient en geschikt is voor peper en zout. Je stelt de grofte zelf in en de 6 batterijen zitten erbij. Een verzorgd keukencadeau voor wie er thuis veel kookt.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/wmf-ceramill-electrische-peper-zoutmolen-rvs/9200000002873588/",
@@ -54219,7 +54219,7 @@
     "scout": {
       "score": 66,
       "commissionPct": null,
-      "notes": "Prijs € 52,95, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Of het één molen of een set is, staat in de titel niet eenduidig ('Peper- en Zoutmolen'): controleer bij redactie.",
+      "notes": "Prijs € 52,95, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Variant gecontroleerd op productpagina 2026-11-20: één elektrische molen voor peper en zout (1 stuk in verpakking), keramisch maalwerk, instelbaar, 6 batterijen inbegrepen, 21 cm hoog; deksel, kleur en garantie op de pagina deels tegenstrijdig, niet genoemd.",
       "verified": true
     }
   },
@@ -54319,7 +54319,7 @@
     "scout": {
       "score": 66,
       "commissionPct": null,
-      "notes": "Prijs € 68,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20 (prijsblok in tweede deel van de pagina). EAN leeg gelaten: titel/tab wijzen op Smokey Joe (Original/Premium) en de specificaties tonen een andere variant; controleer bij redactie.",
+      "notes": "Prijs € 68,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20 (prijsblok in tweede deel van de pagina). Variant gecontroleerd op productpagina 2026-11-20: zwarte Smokey Joe Ø 37 cm met deksel; de pagina noemt zowel Original als Premium en wijkt in maten af (45 vs 43 cm hoog), daarom geen modelnaam of andere maten genoemd; EAN blijft leeg.",
       "verified": true
     }
   },
@@ -55184,7 +55184,7 @@
     "brand": "Joseph Joseph",
     "ean": "5028420400946",
     "short": "Twee stapelbare vergieten van Joseph Joseph die weinig ruimte innemen.",
-    "description": "Twee vergieten in verschillende maten die in elkaar passen, handig in een kleine keuken. Ze zijn driehoekig van vorm en gieten makkelijk uit. Een nuttig cadeau voor een thuiskok.",
+    "description": "Twee driehoekige vergieten met verticale handgreep die in elkaar passen (samen ca. 22 x 23,5 x 13 cm), handig in een kleine keuken. Een nuttig cadeau voor een thuiskok.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/joseph-joseph-vergiet-driehoek-22-1x23-5x13-3-cm-set-van-2-stuks-grijs/9200000080285080/",
@@ -55223,7 +55223,7 @@
     "scout": {
       "score": 66,
       "commissionPct": null,
-      "notes": "Prijs € 16,95, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Exacte titel stond alleen in de URL; controleer de maten voor publicatie.",
+      "notes": "Prijs € 16,95, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Variant gecontroleerd op productpagina 2026-11-20: Nest vergietenset 2-delig grijs, driehoekig, stapelbaar, set ca. 22,1 x 23,5 x 13,3 cm; aantal delen en kleurgegevens op de pagina deels tegenstrijdig.",
       "verified": true
     }
   },
@@ -56816,7 +56816,7 @@
     "scout": {
       "score": 78,
       "commissionPct": null,
-      "notes": "Prijs € 109,25, verkoper Denver Benelux B.V., levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Kleur in titel Hout (DW); in de paginatekst werd ook een zwarte variantcode genoemd.",
+      "notes": "Prijs € 109,25, verkoper Denver Benelux B.V., levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Variant gecontroleerd op productpagina 2026-11-20: Hout-uitvoering (kop en specificaties), internetradio, DAB+, FM, cd, Bluetooth en aux bevestigd; modelcode op de pagina wisselend (MIR270DW, MIR-DW210, MIR-270) en omschrijving noemt ook zwart, daarom alleen 'MIR270' en geen kleur in de tekst.",
       "verified": true
     }
   },
@@ -61722,6 +61722,3527 @@
       "score": 72,
       "commissionPct": null,
       "notes": "Prijs € 35,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. PEGI 18, alleen voor volwassenen aanbieden.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "vtech-baby-speelpret-olifantje-activity-center",
+    "title": "VTech Baby Speelpret Olifantje activity-center",
+    "merchantTitle": "VTech Baby Speelpret Olifantje - Activity Center - 6 tot 36 Maanden",
+    "brand": "VTech",
+    "ean": "3417765136238",
+    "short": "Een olifantje met licht en geluid dat baby's laat draaien, drukken en ontdekken.",
+    "description": "Dit activity-center nodigt een baby of peuter uit om te pakken, te draaien en op knoppen te drukken. Het is bedoeld voor kinderen vanaf 6 maanden. Een klein en betaalbaar cadeau voor het eerste Sinterklaas of kerst.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/vtech-baby-speelpret-olifantje-educatief-babyspeelgoed-6-tot-36-maanden/9200000128173320/",
+    "priceCents": 1205,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "0-3"
+    ],
+    "interests": [
+      "spellen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/vtech-baby-speelpret-olifantje-educatief-babyspeelgoed-6-tot-36-maanden/9200000128173320/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 12,05, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Pagina toont 4,6/621 reviews maar hetzelfde aantal staat op andere VTech-pagina's (waarschijnlijk gebundeld), daarom rating null. Minimumleeftijd 6 maanden volgens specificaties.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "hudora-flitzkids-2-0-kinderstep-blauw",
+    "title": "HUDORA Flitzkids 2.0 kinderstep blauw",
+    "merchantTitle": "HUDORA Flitzkids 2.0 Scooter Step - Blauw",
+    "brand": "Hudora",
+    "ean": "4005998834541",
+    "short": "Een driewielige step voor peuters en kleuters die net leren steppen.",
+    "description": "De Flitzkids heeft drie wielen, zodat jonge kinderen stabiel kunnen staan en zelf leren sturen. De fabrikant noemt een leeftijd vanaf 2 jaar. Een flink cadeau voor een kind dat graag buiten speelt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/stoere-hudora-flitzkids-2-0-kinderstep/9200000074649242/",
+    "priceCents": 6983,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "0-3",
+      "4-7"
+    ],
+    "interests": [
+      "sport"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/stoere-hudora-flitzkids-2-0-kinderstep/9200000074649242/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 69,83, verkoper Lobbes.nl (NL, verkocht via bol), levertekst 'Uiterlijk 24 november in huis' gezien op productpagina 2026-11-20. Nog geen reviews. Minimumleeftijd 2 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "smoby-little-smoby-garage",
+    "title": "Little Smoby garage",
+    "merchantTitle": "Smoby - Little Smoby - Garage - Eerste Speelgoedgarage",
+    "brand": "Smoby",
+    "ean": "3032161402031",
+    "short": "Een speelgarage met meerdere verdiepingen, wasstraat en benzinepomp voor kleine autoliefhebbers.",
+    "description": "In deze garage rijden autootjes omhoog en omlaag, en er is een wasstraat en een pomp om mee te spelen. Het is gemaakt voor de kleinste bestuurders. Een mooi cadeau voor een peuter die gek is op auto's.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/smoby-little-smoby-garage-speelgoedgarage/9300000090110389/",
+    "priceCents": 4699,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "0-3"
+    ],
+    "interests": [
+      "spellen",
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 15,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/smoby-little-smoby-garage-speelgoedgarage/9300000090110389/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 46,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Beschrijving noemt vanaf 18 maanden, specificaties 2 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "vtech-baby-dierenvriendjes-liedjesboek-blauw",
+    "title": "VTech Baby Dierenvriendjes liedjesboek blauw",
+    "merchantTitle": "VTech Baby Dierenvriendjes Liedjesboek - Interactief Speelgoed - Babyboekje - Kinderboeken - Blauw - Cadeau - 3 tot 36 Maanden",
+    "brand": "VTech",
+    "ean": "3417761667729",
+    "short": "Een muzikaal babyboekje met dierenfiguurtjes en zes bekende liedjes.",
+    "description": "Bij elk figuurtje hoort een liedje, zodat een baby of peuter zelf muziek kan maken door te drukken. Volgens de specificaties is het geschikt vanaf 3 maanden. Handig als klein cadeau dat veel gebruikt wordt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/vtech-baby-dierenvriendjes-liedjesboek-interactief-speelgoed-6-bekende-kinderliedjes-blauw-3-tot-36-maanden/9300000070660452/",
+    "priceCents": 1799,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "0-3"
+    ],
+    "interests": [
+      "muziek",
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 76,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/vtech-baby-dierenvriendjes-liedjesboek-interactief-speelgoed-6-bekende-kinderliedjes-blauw-3-tot-36-maanden/9300000070660452/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 78,
+      "commissionPct": null,
+      "notes": "Prijs € 17,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd: specificaties 3 maanden, beschrijving 6 maanden.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "powera-bedrade-controller-nintendo-switch-zwart",
+    "title": "PowerA bedrade controller voor Nintendo Switch",
+    "merchantTitle": "PowerA Bedrade Controller - Nintendo Switch - Zwart - 3m USB-kabel",
+    "brand": "PowerA",
+    "ean": "0617885020254",
+    "short": "Een bedrade extra controller met lange kabel, handig voor samen gamen.",
+    "description": "Deze controller heeft een kabel van 3 meter, dus geen batterijen of opladen nodig. Prettig als tweede controller voor gezamenlijke spellen op de Switch. Voor wie een betaalbare reserve of extra speler wil.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/powera-bedrade-controller-nintendo-switch-zwart/9200000120763977/",
+    "priceCents": 2499,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "tiener"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17"
+    ],
+    "interests": [
+      "gamen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/powera-bedrade-controller-nintendo-switch-zwart/9200000120763977/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 64,
+      "commissionPct": null,
+      "notes": "Prijs € 24,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Nog geen reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "brio-luxe-treinset-33727",
+    "title": "BRIO Luxe treinset 33727",
+    "merchantTitle": "BRIO Luxe Treinset - Voor de allerkleinsten - Magnetische treinverbindingen - 33727",
+    "brand": "BRIO",
+    "ean": "7312350337273",
+    "short": "Een houten treinset met magnetische koppelingen die ook voor kleine handen makkelijk werkt.",
+    "description": "De wagons zitten magnetisch aan elkaar, dus de trein is snel gekoppeld. De set past bij de rest van het BRIO-systeem. Volgens de pagina is hij niet geschikt voor kinderen onder 3 jaar.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/brio-luxe-treinset-33727/9200000041052475/",
+    "priceCents": 4285,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "bouwen",
+      "spellen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 23,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/brio-luxe-treinset-33727/9200000041052475/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 79,
+      "commissionPct": null,
+      "notes": "Prijs € 42,85, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Minimumleeftijd 3 jaar (niet onder 36 maanden).",
+      "verified": true
+    }
+  },
+  {
+    "slug": "minecraft-ps5",
+    "title": "Minecraft voor PS5",
+    "merchantTitle": "Minecraft - PlayStation 5",
+    "brand": "Mojang",
+    "ean": "5056635611758",
+    "short": "De bouw- en overlevingsgame voor PS5, met PEGI 7.",
+    "description": "Bouwen, ontdekken en overleven in een wereld van blokken, alleen of samen. De game heeft PEGI 7 vanwege fantasiegeweld. Een goede keuze voor kinderen die creatief willen gamen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/minecraft-playstation-5/9300000190511374/",
+    "priceCents": 3199,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "tiener"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17"
+    ],
+    "interests": [
+      "gamen",
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 490,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/minecraft-playstation-5/9300000190511374/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 86,
+      "commissionPct": null,
+      "notes": "Prijs € 31,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. PEGI 7. Fysieke schijf.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "sackboy-a-big-adventure-ps5",
+    "title": "Sackboy: A Big Adventure voor PS5",
+    "merchantTitle": "Sackboy: A Big Adventure - PS5",
+    "brand": "Sony PlayStation",
+    "ean": "0711719823728",
+    "short": "Een vrolijk springspel voor PS5 dat alleen of met vrienden en familie te spelen is.",
+    "description": "Sackboy rent, springt en lost puzzels op door kleurrijke werelden. Het spel is geschikt voor spelers vanaf 7 jaar en werkt ook met meerdere spelers op de bank. Een veilige keuze voor een kind dat net aan gamen begint.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/sackboy-a-big-adventure-ps5/9300000004211657/",
+    "priceCents": 2899,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7",
+      "8-12"
+    ],
+    "interests": [
+      "gamen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 51,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/sackboy-a-big-adventure-ps5/9300000004211657/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 80,
+      "commissionPct": null,
+      "notes": "Prijs € 28,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. PEGI 7.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "donkey-kong-country-returns-hd-switch",
+    "title": "Donkey Kong Country Returns HD voor Switch",
+    "merchantTitle": "Donkey Kong: Country Returns HD - Nintendo Switch",
+    "brand": "Nintendo",
+    "ean": "0045496512729",
+    "short": "Een klassiek platformspel met Donkey Kong, PEGI 3.",
+    "description": "Springen, rollen en bananen verzamelen in een uitdagend platformspel. PEGI 3, dus geschikt voor jonge gamers.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/donkey-kong-country-returns-hd-nintendo-switch/9300000182274278/",
+    "priceCents": 4799,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "tiener"
+    ],
+    "ageGroups": [
+      "4-7",
+      "8-12"
+    ],
+    "interests": [
+      "gamen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 49,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/donkey-kong-country-returns-hd-nintendo-switch/9300000182274278/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 78,
+      "commissionPct": null,
+      "notes": "Prijs € 47,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. PEGI 3.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "yoshis-crafted-world-switch",
+    "title": "Yoshi's Crafted World voor Switch",
+    "merchantTitle": "Yoshi's Crafted World - Nintendo Switch",
+    "brand": "Nintendo",
+    "ean": "0045496422622",
+    "short": "Een knutselachtig platformspel met Yoshi, PEGI 3.",
+    "description": "Een platformspel met Yoshi in een kleurrijke, handgemaakt ogende wereld. Het spel heeft PEGI 3 en is dus geschikt voor jonge kinderen. Een cadeau voor wie een gezellig spel zoekt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/yoshi-s-crafted-world-switch/9200000104507603/",
+    "priceCents": 5499,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7",
+      "8-12"
+    ],
+    "interests": [
+      "gamen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 112,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/yoshi-s-crafted-world-switch/9200000104507603/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 54,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. PEGI 3.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "minecraft-dungeons-ii-deluxe-edition-ps5",
+    "title": "Minecraft Dungeons II Deluxe Edition voor PS5",
+    "merchantTitle": "Minecraft Dungeons II Deluxe Edition - PS5",
+    "brand": "Mojang",
+    "ean": "5056635624512",
+    "short": "Een actie-avontuur in de Minecraft-wereld voor PS5, PEGI 7.",
+    "description": "Een actie-avontuur in Minecraft-stijl voor PS5. De deluxe-editie staat op PEGI 7. Een leuk spel voor kinderen die Minecraft al kennen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/minecraft-dungeons-ii-deluxe-edition-ps5/9300000306012826/",
+    "priceCents": 4999,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "tiener"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17"
+    ],
+    "interests": [
+      "gamen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/minecraft-dungeons-ii-deluxe-edition-ps5/9300000306012826/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 49,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. PEGI 7. Slechts 2 reviews, daarom rating null.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "rollercoaster-tycoon-classic-switch",
+    "title": "RollerCoaster Tycoon Classic voor Switch",
+    "merchantTitle": "RollerCoaster Tycoon Classic - Nintendo Switch",
+    "brand": "Mindscape",
+    "ean": "5056635613523",
+    "short": "Bouw en beheer je eigen pretpark in deze klassieke managementgame, PEGI 3.",
+    "description": "Je ontwerpt achtbanen, legt paden aan en houdt de bezoekers tevreden. Het spel past bij kinderen die graag bouwen en plannen. PEGI 3.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/rollercoaster-tycoon-classic-nintendo-switch/9300000221570646/",
+    "priceCents": 2699,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "tiener"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17"
+    ],
+    "interests": [
+      "gamen",
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 18,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/rollercoaster-tycoon-classic-nintendo-switch/9300000221570646/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 26,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. PEGI 3.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "bluey-quest-for-the-gold-pen-switch",
+    "title": "Bluey's Quest for the Gold Pen voor Switch",
+    "merchantTitle": "Bluey's Quest for The Gold Pen - Nintendo Switch",
+    "brand": "Mindscape",
+    "ean": "5056635621771",
+    "short": "Een avonturenspel met Bluey voor de allerjongste gamers, PEGI 3.",
+    "description": "Kinderen die de tekenfilm Bluey kennen, kunnen hier zelf een spel mee spelen. Het spel heeft PEGI 3 en past daarmee bij jonge kinderen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/bluey-s-quest-for-the-gold-pen-nintendo-switch/9300000245069912/",
+    "priceCents": 1999,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "gamen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/bluey-s-quest-for-the-gold-pen-nintendo-switch/9300000245069912/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 19,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. PEGI 3. Nog geen reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "hori-horipad-turbo-wired-switch-2-gengar-mimikyu",
+    "title": "HORI HORIPAD Turbo bedraad Gengar en Mimikyu (Switch 2)",
+    "merchantTitle": "HORI - HORIPAD Turbo Wired Controller voor Nintendo Switch 2 - Gengar en Mimiqui",
+    "brand": "Hori",
+    "ean": "4961818041721",
+    "short": "Een bedrade Switch 2-controller met Pokémon-design, officieel gelicentieerd.",
+    "description": "Deze controller met Gengar en Mimikyu is bedraad en dus altijd klaar voor gebruik. Hij is officieel gelicentieerd door Nintendo en The Pokémon Company International. Voor kinderen die van Pokémon houden.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/hori-horipad-turbo-wired-controller-voor-nintendo-switch-2-gengar-and-mimikyu-officieel-gelicentieerd-door-nintendo-en-the-pokemon-company-international/9300000244481205/",
+    "priceCents": 3699,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "tiener"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17"
+    ],
+    "interests": [
+      "gamen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 8,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/hori-horipad-turbo-wired-controller-voor-nintendo-switch-2-gengar-and-mimikyu-officieel-gelicentieerd-door-nintendo-en-the-pokemon-company-international/9300000244481205/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 36,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, maandag in huis' gezien op productpagina 2026-11-20. Alleen voor Switch 2.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "hori-horipad-turbo-draadloos-switch-2-mario-galaxy",
+    "title": "HORI HORIPAD Turbo draadloos Mario Galaxy (Switch 2)",
+    "merchantTitle": "HORI - HORIPAD Turbo draadloze controller voor Nintendo Switch 2 - Mario Galaxy - Officieel gelicentieerd door Nintendo",
+    "brand": "Hori",
+    "ean": "4961818043183",
+    "short": "Een draadloze Switch 2-controller in Mario Galaxy-uitvoering, officieel gelicentieerd door Nintendo.",
+    "description": "Een extra controller met een Mario-design voor spelers van de Switch 2. Hij is draadloos en dus lekker vrij te gebruiken. Een cadeau voor een Mario-fan met een Switch 2.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/hori-horipad-turbo-draadloze-controller-voor-nintendo-switch-2-mario-galaxy-officieel-gelicentieerd-door-nintendo/9300000266297325/",
+    "priceCents": 5221,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "tiener"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17"
+    ],
+    "interests": [
+      "gamen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/hori-horipad-turbo-draadloze-controller-voor-nintendo-switch-2-mario-galaxy-officieel-gelicentieerd-door-nintendo/9300000266297325/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 52,21, verkoper bol, levertekst 'Voor 23:59 uur besteld, maandag in huis' gezien op productpagina 2026-11-20. De enige review op de pagina hoort bij een andere uitvoering, daarom rating null. Alleen voor Switch 2.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "tiny-love-take-along-muziekmobiel-magical-tales",
+    "title": "Tiny Love Take Along muziekmobiel Magical Tales",
+    "merchantTitle": "Tiny Love Take Along Muziekmobiel - Magical Tales - Zwart/Wit",
+    "brand": "Tiny Love",
+    "ean": "7290108862966",
+    "short": "Een zwart-wit muziekmobiel die mee kan naar bed, wagen of box.",
+    "description": "Een muziekmobiel in zwart-wit, bedoeld voor jonge baby's. Hij is een draagbare uitvoering en dus op meerdere plekken te gebruiken. Een praktisch cadeau voor een nieuwe baby.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/tiny-love-take-along-muziekmobiel-magical-tales-zwart-wit/9300000140568492/",
+    "priceCents": 2099,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "0-3"
+    ],
+    "interests": [
+      "muziek"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 38,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/tiny-love-take-along-muziekmobiel-magical-tales-zwart-wit/9300000140568492/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 20,99, verkoper Maxi-Cosi (fabrikant Dorel Europe BV), levertekst 'Uiterlijk 25 november in huis' gezien op productpagina 2026-11-20. Geen minimumleeftijd genoemd, 'vanaf zeer jonge leeftijd'.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "tiny-love-babygym-gymini-treasure-the-ocean",
+    "title": "Tiny Love Babygym Gymini Treasure the Ocean",
+    "merchantTitle": "Tiny Love Babygym Gymini - Treasure the Ocean",
+    "brand": "Tiny Love",
+    "ean": "7290108862713",
+    "short": "Een babygym met oceaanthema voor baby's vanaf de geboorte.",
+    "description": "Een babygym voor baby's vanaf de geboorte, met een oceaanthema. Het is een speelplek waar een baby naar kan kijken en naar kan grijpen. Een praktisch cadeau voor de eerste maanden.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/tiny-love-babygym-gymini-treasure-the-ocean/9300000069237047/",
+    "priceCents": 4070,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "0-3"
+    ],
+    "interests": [
+      "spellen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 33,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/tiny-love-babygym-gymini-treasure-the-ocean/9300000069237047/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 40,70, verkoper Maxi-Cosi, levertekst 'Uiterlijk 25 november in huis' gezien op productpagina 2026-11-20. Minimumleeftijd 0 maanden.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "tiny-love-babygym-gymini-meadow-days",
+    "title": "Tiny Love Babygym Gymini Sunny Days Meadow Days",
+    "merchantTitle": "Tiny Love - Babygym Gymini Sunny Days - Meadow Days - Vanaf de geboorte tot 1 jaar oud",
+    "brand": "Tiny Love",
+    "ean": "7290108862324",
+    "short": "Een vrolijke babygym met weidethema voor baby's vanaf de geboorte.",
+    "description": "Een babygym voor baby's van de geboorte tot ongeveer een jaar. Onder toezicht van volwassenen te gebruiken. Een nuttig kraamcadeau of cadeau voor de jongste in de familie.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/tiny-love-babygym-gymini-sunny-days-meadow-days-vanaf-de-geboorte-tot-1-jaar-oud/9300000101922790/",
+    "priceCents": 3499,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "0-3"
+    ],
+    "interests": [
+      "spellen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 7,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/tiny-love-babygym-gymini-sunny-days-meadow-days-vanaf-de-geboorte-tot-1-jaar-oud/9300000101922790/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 60,
+      "commissionPct": null,
+      "notes": "Prijs € 34,99, verkoper Maxi-Cosi, levertekst 'Uiterlijk 25 november in huis' gezien op productpagina 2026-11-20. Slechts 7 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "tiny-love-babygym-gymini-magical-tales-zwart-wit",
+    "title": "Tiny Love Babygym Gymini Black and White Magical Tales",
+    "merchantTitle": "Tiny Love Babygym Gymini - Black and White - Magical Tales - Vanaf de geboorte tot 1 jaar",
+    "brand": "Tiny Love",
+    "ean": "7290108862300",
+    "short": "Een zwart-wit babygym voor pasgeborenen.",
+    "description": "Een babygym in zwart-wit, bedoeld voor kinderen vanaf de geboorte tot ongeveer 1 jaar. Zwart-witte vormen zijn goed te zien voor een heel jonge baby. Een stevig cadeau voor een nieuwe baby.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/tiny-love-babygym-gymini-black-and-white-magical-tales/9300000101922783/",
+    "priceCents": 5499,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "0-3"
+    ],
+    "interests": [
+      "spellen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 7,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/tiny-love-babygym-gymini-black-and-white-magical-tales/9300000101922783/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 60,
+      "commissionPct": null,
+      "notes": "Prijs € 54,99, verkoper Maxi-Cosi, levertekst 'Uiterlijk 25 november in huis' gezien op productpagina 2026-11-20. Slechts 7 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "janod-activiteitentafel-baby-forest",
+    "title": "Janod activiteitentafel Baby Forest",
+    "merchantTitle": "Janod - Activiteitentafel - Baby Forest",
+    "brand": "Janod",
+    "ean": "3700217380182",
+    "short": "Een houten activiteitentafel met vier speelgebieden voor peuters.",
+    "description": "De houten tafel heeft vier verschillende speelgebieden om te ontdekken. De fabrikant noemt een leeftijd vanaf 1 jaar. Een groter cadeau voor een peuter die graag bezig is.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/janod-activiteitentafel-baby-forest/9200000076821675/",
+    "priceCents": 7650,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "0-3"
+    ],
+    "interests": [
+      "spellen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 13,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/janod-activiteitentafel-baby-forest/9200000076821675/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 76,50, verkoper Grasonderjevoeten.nl (Nederlands), levertekst 'Voor 16:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Minimumleeftijd 1 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "smoby-claas-farmer-xl-traptractor-aanhanger",
+    "title": "Smoby Claas Farmer XL traptractor met aanhanger",
+    "merchantTitle": "Smoby - Traptractor - Claas Farmer Xl Traktor + Aanhangwagen -",
+    "brand": "Smoby",
+    "ean": "3032167101143",
+    "short": "Een traptractor met aanhanger voor buiten, vanaf 3 jaar.",
+    "description": "Op deze tractor kan een kind zelf trappen en de aanhanger meenemen. De fabrikant noemt een leeftijd vanaf 3 jaar. Een groot cadeau voor een kind dat graag buiten speelt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/smoby-claas-farmer-xl-traktor-aanhangwagen-traptractor/9200000060629604/",
+    "priceCents": 7999,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "sport"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.2,
+      "count": 14,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/smoby-claas-farmer-xl-traktor-aanhangwagen-traptractor/9200000060629604/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 79,99, verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Minimumleeftijd 3 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "vtech-switch-go-dinos-fire-blaze-t-rex",
+    "title": "VTech Switch & Go Dino's Fire Blaze T-Rex",
+    "merchantTitle": "VTech Switch & Go Dino's - Fire Blaze T-Rex - Kinder Speelgoed Dinosaurus - Interactief Robot Speelfiguur - Vanaf 4 Jaar en ouder",
+    "brand": "VTech",
+    "ean": "3417765379239",
+    "short": "Een T-rex die verandert in een voertuig, vanaf 4 jaar.",
+    "description": "Dit figuur kan van dinosaurus naar voertuig worden omgebouwd. Het is bedoeld voor kinderen van 4 tot 8 jaar. Een goede keuze voor een dino-fan.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/vtech-switch-go-dinos-fire-blaze-t-rex-speelgoed-dinosaurus-4-tot-8-jaar/9300000020539818/",
+    "priceCents": 1599,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "spellen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/vtech-switch-go-dinos-fire-blaze-t-rex-speelgoed-dinosaurus-4-tot-8-jaar/9300000020539818/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 15,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Pagina toont 4,6/621 reviews, hetzelfde aantal staat op andere VTech-pagina's (gebundeld), daarom rating null.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "vtech-switch-go-dinos-fire-tracks-triceratops",
+    "title": "VTech Switch & Go Dino's Fire Tracks Triceratops",
+    "merchantTitle": "VTech Switch & Go Dino's - Fire Tracks de Triceratops - Kinder Speelgoed Dinosaurus - Interactief Robot Speelfiguur - Vanaf 4 Jaar en ouder",
+    "brand": "VTech",
+    "ean": "3417765429231",
+    "short": "Een triceratops die verandert in een voertuig, vanaf 4 jaar.",
+    "description": "Een omvormbare dinosaurus voor kinderen van 4 tot 8 jaar. Handig als kleiner cadeau of aanvulling op andere dino's.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/vtech-switch-go-dinos-fire-tracks-de-triceratops-speelgoed-dinosaurus-4-tot-8-jaar/9300000020539817/",
+    "priceCents": 1299,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "spellen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/vtech-switch-go-dinos-fire-tracks-de-triceratops-speelgoed-dinosaurus-4-tot-8-jaar/9300000020539817/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 64,
+      "commissionPct": null,
+      "notes": "Prijs € 12,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Pagina toont 4,6/621 reviews (gebundeld met andere VTech-pagina's), daarom rating null.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "nijdam-flipgrip-skateboard-high-season-wit-roze",
+    "title": "Nijdam FlipGrip skateboard High Season",
+    "merchantTitle": "Nijdam FlipGrip Skateboard - High Season - Wit/Roze",
+    "brand": "Nijdam",
+    "ean": "8716404331160",
+    "short": "Een beginnersskateboard voor kinderen vanaf 8 jaar.",
+    "description": "Een skateboard in wit en roze voor kinderen die willen leren skaten. De fabrikant noemt een aanbevolen leeftijd vanaf 8 jaar. Combineer met beschermers voor een compleet cadeau.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/nijdam-flipgrip-skateboard-high-season-wit-roze/9300000034727770/",
+    "priceCents": 2399,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "tiener"
+    ],
+    "ageGroups": [
+      "8-12"
+    ],
+    "interests": [
+      "sport"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 136,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/nijdam-flipgrip-skateboard-high-season-wit-roze/9300000034727770/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 23,99, verkoper bol, levertekst 'maandag in huis' (bestelling voor 23:59) gezien op productpagina 2026-11-20. Wit/roze uitvoering, kleurkeuze is voor jongens minder gebruikelijk.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-harry-potter-collection-jaren-1-7-ps5",
+    "title": "LEGO Harry Potter Collection Jaren 1-7 voor PS5",
+    "merchantTitle": "LEGO Harry Potter Collection: Jaren 1-7 - PS5",
+    "brand": "Warner Bros. Games",
+    "ean": "5051888272312",
+    "short": "Alle zeven Harry Potter-jaren in LEGO-vorm voor PS5, PEGI 7.",
+    "description": "De verhalen uit de Harry Potter-films worden in LEGO-stijl gespeeld. De game heeft PEGI 7. Een gezellig spel voor kinderen die van Harry Potter houden.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-harry-potter-collection-1-7-2-playstation-5/9300000187395264/",
+    "priceCents": 2935,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "tiener"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17"
+    ],
+    "interests": [
+      "gamen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 213,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-harry-potter-collection-1-7-2-playstation-5/9300000187395264/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 29,35, verkoper GameResource (Nederlandse gamewinkel, verkocht via bol), levertekst 'Voor 22:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. PEGI 7. Pagina noemt in de kenmerken ook Switch; titel en EAN zijn PS5.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-star-wars-the-skywalker-saga-ps5",
+    "title": "LEGO Star Wars: The Skywalker Saga voor PS5",
+    "merchantTitle": "LEGO Star Wars: The Skywalker Saga - PS5",
+    "brand": "Warner Bros. Games",
+    "ean": "5051888252246",
+    "short": "De Star Wars-films in LEGO-vorm voor PS5, PEGI 7.",
+    "description": "Een LEGO-actiegame met Star Wars-personages voor PS5. De game heeft PEGI 7. Een goed cadeau voor jonge Star Wars-fans.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-star-wars-the-skywalker-saga-ps5/9300000016263401/",
+    "priceCents": 2374,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "tiener"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17"
+    ],
+    "interests": [
+      "gamen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 66,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-star-wars-the-skywalker-saga-ps5/9300000016263401/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 23,74, verkoper Game Paradijs (Nederlandse gamewinkel, verkocht via bol), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. PEGI 7.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "nijdam-skate-beschermset-kinderen-white-out-s",
+    "title": "Nijdam skate beschermset kinderen White Out maat S",
+    "merchantTitle": "Nijdam Skate Beschermset Kinderen - White Out - Wit/Fuchsia - S",
+    "brand": "Nijdam",
+    "ean": "8716404328573",
+    "short": "Een beschermset voor kinderen die skaten of steppen, in maat S.",
+    "description": "Een beschermset voor kinderen die skaten of steppen. Er zijn maten S, M en L; deze versie is maat S. Een nuttig extra bij een skateboard of step.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/nijdam-skate-beschermset-kinderen-white-out-wit-fuchsia-s/9300000003691852/",
+    "priceCents": 1341,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7",
+      "8-12"
+    ],
+    "interests": [
+      "sport"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.1,
+      "count": 106,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/nijdam-skate-beschermset-kinderen-white-out-wit-fuchsia-s/9300000003691852/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 60,
+      "commissionPct": null,
+      "notes": "Prijs € 13,41, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20 (maandag in huis). Pagina noemt geen leeftijd, alleen maat S; wit/fuchsia kleur.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "stabila-17775-pocket-electric-digitale-waterpas",
+    "title": "Stabila Pocket Electric digitale waterpas (70 mm)",
+    "merchantTitle": "Stabila 17775 Pocket Electric Waterpas - 70mm",
+    "brand": "Stabila",
+    "ean": "4005069177751",
+    "short": "Een klein digitaal waterpasje voor in de gereedschapskist of jaszak.",
+    "description": "Dit compacte waterpas van Stabila geeft de hoek digitaal weer en past overal in. Handig voor wie regelmatig iets ophangt of in elkaar zet. Een nuttig klein cadeau voor een vader die graag klust.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/stabila-17775-pocket-electric-waterpas-70mm/9200000071887502/",
+    "priceCents": 1274,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader",
+      "collega"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 9,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/stabila-17775-pocket-electric-waterpas-70mm/9200000071887502/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 12,74, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Titel afgeleid uit URL en zoekresultaat, paginakop niet zichtbaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "bosch-professional-103-delige-accessoireset",
+    "title": "Bosch Professional boren- en bitset (103-delig)",
+    "merchantTitle": "Bosch Professional 103-delige accessoireset",
+    "brand": "Bosch Professional",
+    "ean": "3165140849081",
+    "short": "Een grote set boren en schroefbits voor hout, metaal en steen.",
+    "description": "Deze set bevat ruim honderd onderdelen om te boren en te schroeven in verschillende materialen. Het is een slimme aanvulling voor wie al een accuschroefmachine heeft. Een nuttig cadeau voor een vader die graag klust.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/bosch-professional-103-delige-accessoireset/9200000109688256/",
+    "priceCents": 2310,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader",
+      "collega"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 14,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/bosch-professional-103-delige-accessoireset/9200000109688256/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 23,10, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Titel afgeleid uit URL, paginakop niet zichtbaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "ledlenser-mh5-hoofdlamp-400-lumen",
+    "title": "Ledlenser MH5 hoofdlamp (oplaadbaar, rood licht)",
+    "merchantTitle": "Ledlenser MH5 - Hoofdlamp - Oplaadbaar - 400 Lumen - focus - rood licht",
+    "brand": "Ledlenser",
+    "ean": "4058205019873",
+    "short": "Lichte, oplaadbare hoofdlamp met extra rode LED.",
+    "description": "Een compacte hoofdlamp van ongeveer 90 gram die via een magnetische kabel oplaadt. Er zit ook een rode LED op voor als je anderen niet wilt verblinden. Handig bij klussen, hardlopen of in het donker met de hond.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/ledlenser-mh5-hoofdlamp-oplaadbaar-400-lumen-focus-rood-licht/9200000131867740/",
+    "priceCents": 4499,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader",
+      "partner",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "sport",
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4,
+      "count": 4,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/ledlenser-mh5-hoofdlamp-oplaadbaar-400-lumen-focus-rood-licht/9200000131867740/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 70,
+      "commissionPct": null,
+      "notes": "Prijs € 44,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Slechts 4 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "bosch-easydistance-20-laserafstandsmeter",
+    "title": "Bosch EasyDistance 20 laserafstandsmeter",
+    "merchantTitle": "Bosch Home and Garden EasyDistance 20 laserafstandsmeter meetbereik 20 m",
+    "brand": "Bosch",
+    "ean": "4059952569611",
+    "short": "Handige laserafstandsmeter voor het snel opmeten van kamers en muren.",
+    "description": "Met een druk op de knop meet je afstanden tot 20 meter, veel sneller dan met een rolmaat. Prettig bij het verven, inrichten of klussen in huis. Een praktisch cadeau voor vader of een klusser in de familie.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/bosch-home-and-garden-easydistance-20-laserafstandsmeter-meetbereik-20-m/9300000183052223/",
+    "priceCents": 4099,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 2,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/bosch-home-and-garden-easydistance-20-laserafstandsmeter-meetbereik-20-m/9300000183052223/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 40,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Slechts 2 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "abus-ivera-chain-7210-kettingslot-85-cm",
+    "title": "ABUS IVERA Chain 7210 kettingslot (85 cm)",
+    "merchantTitle": "Fietsslot ABUS Kettingslot - IVERA Chain 7210 - Security level 8 - zwart - 85 cm - Geschikt voor elektrische fietsen en stadsfietsen",
+    "brand": "ABUS",
+    "ean": "4003318551413",
+    "short": "Stevig kettingslot voor stads- en elektrische fietsen.",
+    "description": "Een zwart kettingslot van 85 centimeter met security level 8, geschikt voor stadsfietsen en e-bikes. Een verstandig cadeau voor iedereen die dagelijks fietst en de fiets goed vastgezet wil hebben.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/abus-ivera-7210-kettingslot-85cm/9200000017124414/",
+    "priceCents": 3964,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader",
+      "partner",
+      "moeder",
+      "collega"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "sport"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4,
+      "count": 3,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/abus-ivera-7210-kettingslot-85cm/9200000017124414/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 39,64, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Slechts 3 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "emile-henry-taartvorm-argile-26-cm",
+    "title": "Emile Henry taartvorm Argile (26 cm)",
+    "merchantTitle": "Emile Henry Taartvorm Argile - ø 26 cm / 1.2 Liter",
+    "brand": "Emile Henry",
+    "ean": "3289310261319",
+    "short": "Franse keramische taartvorm van 26 cm voor appeltaart en quiche.",
+    "description": "Een handgemaakte vorm van Franse keramiek die de warmte gelijkmatig verdeelt. Geschikt voor de oven en de vaatwasser. Een mooi cadeau voor moeder of oma die graag bakt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/emile-henry-taartvorm-o260mm-argile/9200000040704954/",
+    "priceCents": 4700,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "moeder",
+      "opa-oma",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "koken",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 4,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/emile-henry-taartvorm-o260mm-argile/9200000040704954/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 47,00, verkoper Pogo Designshop (Nederlandse partner), levertekst 'Uiterlijk 24 november in huis' gezien op productpagina 2026-11-20. Alleen kleur Argile en 26 cm leverbaar. Slechts 4 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "ledlenser-h7r-core-hoofdlamp-1000-lumen",
+    "title": "Ledlenser H7R CORE hoofdlamp (1000 lumen)",
+    "merchantTitle": "Ledlenser H7R CORE - hoofdlamp - oplaadbaar - 1000 lumen - IP67 - focus",
+    "brand": "Ledlenser",
+    "ean": "4058205020909",
+    "short": "Krachtige oplaadbare hoofdlamp met instelbare lichtbundel.",
+    "description": "Een stevige hoofdlamp met een grote accu, stofdicht en waterdicht (IP67). Je schakelt tussen een brede en een gerichte bundel en dimt traploos. Geschikt voor klussen in schuur of kelder, en voor fietsers en wandelaars.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/ledlenser-h7r-core-hoofdlamp-oplaadbaar-1000-lumen-ip67/9300000013743396/",
+    "priceCents": 7900,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader",
+      "partner",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "sport",
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 5,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/ledlenser-h7r-core-hoofdlamp-oplaadbaar-1000-lumen-ip67/9300000013743396/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 79,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Slechts 5 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "beurer-mg-139-accu-massagekussen-warmte",
+    "title": "Beurer MG 139 draadloos massagekussen met warmte",
+    "merchantTitle": "Beurer MG 139 Warmtekussen & Massagekussen - Draadloos tot 2 uur gebruik - Infrarood Warmte - Shiatsu Massagekussen met 4 Koppen - Mag in Wasmachine & Automatische Uitschakeling",
+    "brand": "Beurer",
+    "ean": "4211125102746",
+    "short": "Draadloos shiatsu-massagekussen met warmtefunctie en wasbare hoes.",
+    "description": "Een kussen met vier roterende massagekoppen en een warmtestand, dat op een accu werkt en dus overal te gebruiken is. De hoes is afneembaar en wasbaar. Prettig voor een ontspannen moment op de bank, voor moeder of oma.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/beurer-mg-139-accu-massagekussen-met-warmtefunctie-draadloos-inschakelbare-warmte-gemaakt-van-gerecycled-materiaal-machinewasbaar-automatische-uitschakeling-40-x-40-cm/9300000177413388/",
+    "priceCents": 7499,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "moeder",
+      "opa-oma",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "wellness",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/beurer-mg-139-accu-massagekussen-met-warmtefunctie-draadloos-inschakelbare-warmte-gemaakt-van-gerecycled-materiaal-machinewasbaar-automatische-uitschakeling-40-x-40-cm/9300000177413388/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 74,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Rating bewust leeg: zichtbare reviews op de pagina horen bij andere modellen (MG 145/147). Specificatietabel op de pagina is tegenstrijdig over snoer/accu.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "dremel-3000-multitool-25-accessoires-koffer",
+    "title": "Dremel 3000 multitool met 25 accessoires en koffer",
+    "merchantTitle": "Dremel 3000 Multitool - Roterend - op snoer - 130 W - Met 25 accessoires en koffer",
+    "brand": "Dremel",
+    "ean": "8710364074686",
+    "short": "Veelzijdig roterend gereedschap voor slijpen, boren en polijsten, met koffer.",
+    "description": "Een multitool met variabele snelheid en een snelwisselsysteem waarmee je opzetstukken zonder sleutel verwisselt. De set komt met 25 accessoires in een koffer. Fijn voor de hobbyist die graag knutselt, restaureert of graveert.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/dremel-3000-multitool-roterend-130-watt-met-25-accessoires-en-koffer/9200000047688564/",
+    "priceCents": 6645,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "vader",
+      "partner",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 78,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/dremel-3000-multitool-roterend-130-watt-met-25-accessoires-en-koffer/9200000047688564/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 76,
+      "commissionPct": null,
+      "notes": "Prijs € 66,45, verkoper bol, levertekst 'Voor 23:59 uur besteld, maandag in huis' gezien op productpagina 2026-11-20.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "oer-digitale-fotolijst-10-inch-frameo-walnoot",
+    "title": "OER digitale fotolijst 10,1 inch met wifi (Frameo)",
+    "merchantTitle": "OER Digitale Fotolijst 10.1 Inch - Foto's delen op afstand via Frame App - Wifi - IPS Touchscreen - Fotokader - Zwart",
+    "brand": "OER",
+    "ean": null,
+    "short": "Digitale fotolijst waar de familie via een app foto's naartoe stuurt.",
+    "description": "Een fotolijst met 10,1 inch touchscreen die via wifi verbonden is met de gratis Frameo-app. Kinderen en kleinkinderen sturen zelf nieuwe foto's en filmpjes, oma hoeft er niets voor te doen. Controleer wel of er wifi in huis is.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/oer-digitale-fotolijst-fotolijst-met-wifi-extra-groot-scherm-hoge-helderheid-touchscreen-stuur-foto-s-video-s-via-gratis-frameo-app-gebruiksvriendelijk-zwart/9300000111012663/",
+    "priceCents": 5900,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "opa-oma",
+      "moeder"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/oer-digitale-fotolijst-fotolijst-met-wifi-extra-groot-scherm-hoge-helderheid-touchscreen-stuur-foto-s-video-s-via-gratis-frameo-app-gebruiksvriendelijk-zwart/9300000111012663/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 59,00, verkoper www.oer-audio.nl (Nederlandse partner, OER Holland B.V.), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. EAN en rating leeg: de pagina mengt varianten (zwart 8 GB / walnoot 16 GB) en reviews van meerdere varianten. Controleer variant voor publicatie. Op concept gehouden 2026-11-20: variant/specificaties op de bol-pagina niet eenduidig.",
+      "verified": false
+    }
+  },
+  {
+    "slug": "karcher-wv-6-plus-ruitenreiniger",
+    "title": "Kärcher WV 6 Plus ruitenreiniger",
+    "merchantTitle": "Kärcher WV 6 Plus Ruitenreiniger - Siliconen zuigstrip - LED display - Looptijd 100 min. - Werkbreedte 280 mm - Incl. sproeiflacon, microvezeldoek, reinigingsmiddelconcentraat",
+    "brand": "Kärcher",
+    "ean": "4054278976471",
+    "short": "Accu-raamreiniger die het water direct opzuigt voor streeploze ramen.",
+    "description": "De Window Vac neemt sop en vuil meteen op, zodat je geen druipend water hebt. De accu gaat ongeveer anderhalf uur mee en een sproeiflacon met doek zit erbij. Een cadeau waar vooral thuiswonende moeders en vaders blij mee zijn.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/karcher-window-vac-wv-6-premium-white-ruitenreiniger/9200000104988389/",
+    "priceCents": 8610,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "moeder",
+      "vader",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.2,
+      "count": 97,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/karcher-window-vac-wv-6-premium-white-ruitenreiniger/9200000104988389/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 86,10, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. De URL-slug noemt 'WV 6 Premium White', de paginatitel 'WV 6 Plus'; kleurkeuze op de pagina is onduidelijk, controleer variant. Op concept gehouden 2026-11-20: variant/specificaties op de bol-pagina niet eenduidig.",
+      "verified": false
+    }
+  },
+  {
+    "slug": "beurer-fm-60-shiatsu-voetmassage",
+    "title": "Beurer FM 60 shiatsu voetmassageapparaat",
+    "merchantTitle": "Beurer FM 60 Shiatsu voetmassageapparaat - 18 Massagekoppen - Warmtefunctie - 2 Snelheden - Instelbare hoek - Tot schoenmaat 44 - 3 Jaar garantie",
+    "brand": "Beurer",
+    "ean": "4211125649319",
+    "short": "Voetmassage met 18 roterende koppen en warmtefunctie.",
+    "description": "Je zet je voeten erin en het apparaat kneedt ze met roterende massagekoppen, op wens met warmte. De hoek is instelbaar en de maten gaan tot 44. Een verwenmoment voor moeder, oma of partner na een lange dag.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/beurer-fm60-voetmassage-shiatsu/9200000014289650/",
+    "priceCents": 9049,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "moeder",
+      "opa-oma",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "wellness"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.3,
+      "count": 83,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/beurer-fm60-voetmassage-shiatsu/9200000014289650/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 76,
+      "commissionPct": null,
+      "notes": "Prijs € 90,49, verkoper SHOPVOORGEZONDHEID (Nederlandse partner), levertekst 'Voor 16:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "zwilling-passion-pannenset-5-delig",
+    "title": "Zwilling Passion pannenset (5-delig)",
+    "merchantTitle": "Zwilling Passion - Pannenset - 5-Delig",
+    "brand": "Zwilling",
+    "ean": "4009839329326",
+    "short": "Roestvrijstalen pannenset die op alle warmtebronnen werkt, ook inductie.",
+    "description": "Vijf pannen met een meerlaagse bodem voor gelijkmatige warmte. De set is vaatwasserbestendig en past op elk fornuis. Een stevig cadeau voor wie een nieuwe keukenbasis wil of een oude set wil vervangen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/zwilling-passion-pannenset-5-delig/9200000067175944/",
+    "priceCents": 16682,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "moeder",
+      "partner",
+      "opa-oma"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "koken",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 62,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/zwilling-passion-pannenset-5-delig/9200000067175944/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 166,82, verkoper MyStore (Nederlandse partner), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Pagina is tegenstrijdig over meegeleverde deksels; controleer de inhoud.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "smeg-klf03-waterkoker-zwart",
+    "title": "Smeg KLF03 waterkoker zwart (1,7 liter)",
+    "merchantTitle": "SMEG KLF03BLEU - Waterkoker - Zwart - 1,7L",
+    "brand": "Smeg",
+    "ean": "8017709227791",
+    "short": "Retro waterkoker uit de jaren-50-lijn van Smeg in zwart.",
+    "description": "Een waterkoker van 1,7 liter met 2400 watt, een kalkfilter en een draaivoet. Het retro-ontwerp past in elke moderne keuken. Een cadeau dat opvalt op het aanrecht.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/smeg-klf03bleu-waterkoker-zwart-1-7l/9200000080511860/",
+    "priceCents": 12825,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "moeder",
+      "partner",
+      "opa-oma"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "koken",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 323,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/smeg-klf03bleu-waterkoker-zwart-1-7l/9200000080511860/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 78,
+      "commissionPct": null,
+      "notes": "Prijs € 128,25, verkoper MyStore (Nederlandse partner), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Reviews gelden mogelijk voor alle kleurvarianten.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "smeg-klf03-waterkoker-roze",
+    "title": "Smeg KLF03 waterkoker roze (1,7 liter)",
+    "merchantTitle": "SMEG KLF03PKEU - Waterkoker - Roze - 1,7L",
+    "brand": "Smeg",
+    "ean": "8017709228033",
+    "short": "Retro waterkoker van Smeg in roze, een opvallend keukenaccessoire.",
+    "description": "Dezelfde jaren-50-waterkoker van 1,7 liter, nu in roze. Met kalkfilter, draaivoet en automatische uitschakeling. Een vrolijk cadeau voor wie van mooie keukenspullen houdt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/smeg-klf03pkeu-waterkoker-roze/9200000080511858/",
+    "priceCents": 11500,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "moeder",
+      "partner",
+      "opa-oma"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "koken",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 323,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/smeg-klf03pkeu-waterkoker-roze/9200000080511858/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 78,
+      "commissionPct": null,
+      "notes": "Prijs € 115,00, verkoper MyStore (Nederlandse partner), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Reviews gelden mogelijk voor alle kleurvarianten; kleur is een variant van het zwarte model in dit bestand.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "smeg-klf03-waterkoker-creme",
+    "title": "Smeg KLF03 waterkoker crème (1,7 liter)",
+    "merchantTitle": "SMEG KLF03CREU Waterkoker Crème - 1,7 L",
+    "brand": "Smeg",
+    "ean": "8017709227852",
+    "short": "Retro waterkoker van Smeg in rustige crèmekleur.",
+    "description": "De bekende 1,7-liter waterkoker uit de jaren-50-lijn in een zachte crèmetint. Hij heeft een kalkfilter en schakelt automatisch uit. Mooi bij een lichte of landelijke keuken.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/smeg-waterkoker-klf03creu-creme-1-7-l/9200000080511882/",
+    "priceCents": 14100,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "moeder",
+      "partner",
+      "opa-oma"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "koken",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 323,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/smeg-waterkoker-klf03creu-creme-1-7-l/9200000080511882/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 141,00, verkoper MyStore (Nederlandse partner), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Kleurvariant van de zwarte en roze Smeg in dit bestand; titel afgeleid uit URL en zoekresultaat.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "le-creuset-signature-marmite-nectar-26-cm",
+    "title": "Le Creuset Signature Marmite Nectar (26 cm)",
+    "merchantTitle": "Le Creuset Signature Marmite Nectar Ø 26cm 4,1l",
+    "brand": "Le Creuset",
+    "ean": "0024147331056",
+    "short": "Gietijzeren braadpan van 4,1 liter, de klassieker voor stoofgerechten.",
+    "description": "Een zware gietijzeren pan met deksel voor stoofpot, soep en braadstukken, in de warme kleur Nectar. Hij houdt de warmte lang vast en gaat jaren mee. Een cadeau om samen te leggen voor wie graag kookt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/le-creuset-braadpan-signature-marmite-nectar-o-26-cm-4-1-liter/9300000196158393/",
+    "priceCents": 26099,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "moeder",
+      "partner",
+      "opa-oma"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "koken"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/le-creuset-braadpan-signature-marmite-nectar-o-26-cm-4-1-liter/9300000196158393/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 260,99, verkoper Profilec Electro & Cooking (Nederlandse partner), levertekst 'Voor 23:59 uur besteld, maandag in huis' gezien op productpagina 2026-11-20. Nog geen reviews op de pagina.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "garmin-forerunner-165-black-slate-grey",
+    "title": "Garmin Forerunner 165 hardloophorloge (zwart/grijs)",
+    "merchantTitle": "Garmin Forerunner 165 - Hardloophorloge - Black-Slate Grey",
+    "brand": "Garmin",
+    "ean": "0753759326593",
+    "short": "Lichte gps-hardloopwatch met AMOLED-scherm.",
+    "description": "Een hardloophorloge met gps, hartslagmeting en een helder AMOLED-scherm. Het houdt tempo en afstand bij en stelt trainingsschema's samen. Een flinke investering voor een vader of partner die graag hardloopt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/garmin-forerunner-165-lichtgewicht-gps-hardloophorloge-amoled-beeldscherm-nauwkeurig-tempo-afstand-en-hartslag-aanpasbare-trainingsschema-s-tot-11-dagen-batterij-black-slate-grey/9300000167888717/",
+    "priceCents": 17900,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader",
+      "partner",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "sport",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 41,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/garmin-forerunner-165-lichtgewicht-gps-hardloophorloge-amoled-beeldscherm-nauwkeurig-tempo-afstand-en-hartslag-aanpasbare-trainingsschema-s-tot-11-dagen-batterij-black-slate-grey/9300000167888717/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 76,
+      "commissionPct": null,
+      "notes": "Prijs € 179,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Kleurvariant van de Mist Grey-Whitestone die al in de catalogus staat (ander bol-ID).",
+      "verified": true
+    }
+  },
+  {
+    "slug": "kenwood-kmix-kmx750wh-keukenmachine",
+    "title": "Kenwood kMix KMX750 keukenmachine (wit)",
+    "merchantTitle": "Kenwood kMix Keukenmachines KMX750WH",
+    "brand": "Kenwood",
+    "ean": "5011423190181",
+    "short": "Stevige keukenmachine met 5 liter kom voor deeg, beslag en slagroom.",
+    "description": "Een keukenmachine van 1000 watt met zes standen en een roestvrijstalen kom van 5 liter. Handig voor wie veel bakt, van kerstbrood tot taartbeslag. Een cadeau voor de enthousiaste bakker in de familie.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/kenwood-kmix-kmx750-keukenmachine-wit-zilver/9200000075677182/",
+    "priceCents": 24995,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "moeder",
+      "partner",
+      "opa-oma"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "koken",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 101,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/kenwood-kmix-kmx750-keukenmachine-wit-zilver/9200000075677182/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 249,95, verkoper DeSchennink.nl (Nederlandse partner), levertekst 'Voor 15:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "bosch-professional-gsr-12v-15-set-2-accus-koffer",
+    "title": "Bosch Professional GSR 12V-15 schroefmachine set (2 accu's, koffer)",
+    "merchantTitle": "Bosch Professional GSR 12V-15 Schroefmachine - Met 2x 12V accu's en lader - Incl. koffer en bitset",
+    "brand": "Bosch Professional",
+    "ean": "4059952563862",
+    "short": "Compacte accuschroefmachine met twee accu's, lader, koffer en bitset.",
+    "description": "Een handzame 12V-schroefmachine uit de professionele lijn van Bosch, compleet met twee accu's en een koffer. Genoeg voor meubels, planken en dagelijkse klusjes. Een degelijke basis voor wie nog geen goede accumachine heeft.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/bosch-professional-gsr-12v-15-schroefmachine-met-2x-12v-accu-s-en-lader-incl-koffer-en-bitset/9300000044011125/",
+    "priceCents": 13600,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 1,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/bosch-professional-gsr-12v-15-schroefmachine-met-2x-12v-accu-s-en-lader-incl-koffer-en-bitset/9300000044011125/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 136,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Slechts 1 review.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "bosch-gsr-12v-30-accuschroefboormachine-brushless",
+    "title": "Bosch GSR 12V-30 accuschroefboormachine (brushless)",
+    "merchantTitle": "Bosch GSR 12V-30 - Accuschroefboormachine - 12V - Brushless - 17Nm",
+    "brand": "Bosch Professional",
+    "ean": "3165140955324",
+    "short": "Borstelloze 12V-accuboormachine in koffer.",
+    "description": "Een compacte accuschroefboormachine met een borstelloze motor, geleverd met accu's en lader in een koffer. Licht genoeg voor werk boven het hoofd en krachtig genoeg voor de meeste klussen in huis. Een cadeau voor een serieuze klusser.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/gsr-12v-30-professional-accu-schroef-boormachine-12v-2-0ah-in-koffer/9300000019277935/",
+    "priceCents": 12361,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 1,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/gsr-12v-30-professional-accu-schroef-boormachine-12v-2-0ah-in-koffer/9300000019277935/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 70,
+      "commissionPct": null,
+      "notes": "Prijs € 123,61, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Titel noemt 17 Nm, specificaties noemen andere koppels; accu-inhoud (URL noemt 2x 2,0 Ah) niet op de pagina bevestigd. Slechts 1 review. Op concept gehouden 2026-11-20: variant/specificaties op de bol-pagina niet eenduidig.",
+      "verified": false
+    }
+  },
+  {
+    "slug": "bosch-professional-gkf-12v-8-kantenfrees-set",
+    "title": "Bosch Professional GKF 12V-8 accu kantenfrees (2 accu's)",
+    "merchantTitle": "Bosch Professional - Accu kantenfreesmachine GKF 12V-8 2x 3,0 Ah + lader GAL 1230 CV",
+    "brand": "Bosch Professional",
+    "ean": "3165140909778",
+    "short": "Compacte accu-kantenfrees met twee accu's en lader.",
+    "description": "Een kleine freesmachine op 12 volt voor het afwerken van randen en kanten in hout. Twee accu's van 3,0 Ah en een lader worden meegeleverd. Een cadeau voor een doorgewinterde klusser of houtbewerker.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/bosch-professional-gkf-12v-8-freesmachine-met-2x-12v-accu-en-lader-incl-koffer/9200000081103225/",
+    "priceCents": 33017,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 1,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/bosch-professional-gkf-12v-8-freesmachine-met-2x-12v-accu-en-lader-incl-koffer/9200000081103225/"
+    ],
+    "status": "concept",
+    "scout": {
+      "score": 60,
+      "commissionPct": null,
+      "notes": "Prijs € 330,17, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Nichegereedschap en hoge prijs; slechts 1 review. Specificaties op de pagina staan deels op 0. Op concept gehouden 2026-11-20: variant/specificaties op de bol-pagina niet eenduidig.",
+      "verified": false
+    }
+  },
+  {
+    "slug": "bosch-professional-glm-50-22-laserafstandsmeter",
+    "title": "Bosch Professional GLM 50-22 laserafstandsmeter (50 m)",
+    "merchantTitle": "Bosch Professional GLM 50-22 Laserafstandsmeter - Meetbereik 50 m",
+    "brand": "Bosch Professional",
+    "ean": "4059952518800",
+    "short": "Robuuste laserafstandsmeter met kleurendisplay en bereik tot 50 meter.",
+    "description": "Een afstandsmeter uit de professionele lijn met een kleurenscherm en een stootvaste, stofdichte behuizing (IP65). Meet snel lengtes, oppervlakten en inhoud. Een flink cadeau voor een vader die vaak verbouwt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/bosch-professional-glm-50-22-laserafstandsmeter-meetbereik-50-m/9300000089038941/",
+    "priceCents": 13989,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "vader"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 1,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/bosch-professional-glm-50-22-laserafstandsmeter-meetbereik-50-m/9300000089038941/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 139,89, verkoper ToolMax.nl (Nederlandse partner), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Slechts 1 review.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "fellowes-crystal-gel-polssteun-toetsenbord-paars",
+    "title": "Fellowes Crystal Gel polssteun voor toetsenbord (paars)",
+    "merchantTitle": "Fellowes Crystal Gel Polssteun voor Toetsenbord | Ergonomische Polsondersteuning | Transparante Gel | Paars",
+    "brand": "Fellowes",
+    "ean": "0077511914379",
+    "short": "Een zachte gelsteun die de polsen ontlast tijdens het typen, in een vrolijk paars.",
+    "description": "Een polssteun van doorzichtige gel die voor het toetsenbord ligt en de pols op een prettige hoogte houdt. Handig voor wie veel typt, thuis of op kantoor. Een klein, praktisch cadeau voor de collega of thuiswerker die de hele dag achter het scherm zit.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/fellowes-polssteun-toetsenbord-crystal-gel-paars/9200000008877387/",
+    "priceCents": 1128,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "thuiswerker",
+      "collega"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/fellowes-polssteun-toetsenbord-crystal-gel-paars/9200000008877387/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 11,28, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Nog geen reviews op de pagina.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "fellowes-premium-gel-polssteun-verstelbaar-grijs",
+    "title": "Fellowes Premium Gel polssteun, in hoogte verstelbaar",
+    "merchantTitle": "Fellowes polssteun toetsenbord Premium gel, in hoogte verstelbaar, grijs",
+    "brand": "Fellowes",
+    "ean": "0043859589326",
+    "short": "Gelsteun voor het toetsenbord waarvan je de hoogte zelf instelt.",
+    "description": "Een polssteun met gelvulling die je op hoogte kunt zetten, zodat de pols recht blijft tijdens het typen. Past bij een thuiswerkplek of een bureau op kantoor. Een nuttig cadeau voor iemand met klachten door lang typen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/fellowes-polssteun-premium-gel-muismat-toetsenbord-verstelbaar-grijs-ergo/1003004011356518/",
+    "priceCents": 2295,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "thuiswerker",
+      "collega"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 5,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/fellowes-polssteun-premium-gel-muismat-toetsenbord-verstelbaar-grijs-ergo/1003004011356518/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 60,
+      "commissionPct": null,
+      "notes": "Prijs € 22,95, verkoper bol, levertekst 'Voor 23:59 uur besteld, maandag in huis' gezien op productpagina 2026-11-20. Slechts 5 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "xiaomi-mi-led-desk-lamp-1s-slimme-bureaulamp",
+    "title": "Xiaomi Mi LED Desk Lamp 1S slimme bureaulamp",
+    "merchantTitle": "Xiaomi Mi LED Desk Lamp 1S | Slimme bureaulamp | 520 lumen | 2700-6500K | 4 lichtmodi | Draaiknop | App- en spraakbediening | Apple Home",
+    "brand": "Xiaomi",
+    "ean": "6934177763113",
+    "short": "Bureaulamp met instelbare lichtkleur die je via draaiknop of app bedient.",
+    "description": "Een LED-bureaulamp waarvan je kleurtemperatuur en helderheid aanpast voor werk of ontspanning. Bediening kan met de draaiknop, de app of je stem. Een nette upgrade voor de thuiswerkplek.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/xiaomi-mi-smart-led-desk-lamp-1s-eu/9300000101390648/",
+    "priceCents": 5099,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "thuiswerker",
+      "partner",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 3,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/xiaomi-mi-smart-led-desk-lamp-1s-eu/9300000101390648/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 63,
+      "commissionPct": null,
+      "notes": "Prijs € 50,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Maar 3 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "contigo-west-loop-autoseal-thermosbeker-470-ml",
+    "title": "Contigo West Loop thermosbeker 470 ml",
+    "merchantTitle": "Contigo West Loop Autoseal Thermosbeker, Isoleerbeker, 470 ml - Stainless Steel",
+    "brand": "Contigo",
+    "ean": "0840276159930",
+    "short": "Lekvrije roestvrijstalen beker voor koffie of thee onderweg en op het bureau.",
+    "description": "Een isoleerbeker met een deksel dat je met één hand opent en dat dichtgaat als je loslaat. De beker houdt warme drank langer warm en past in de meeste bekerhouders. Handig voor de thuiswerker of forens.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/contigo-west-loop-470-ml-stainless-steel/9300000130428940/",
+    "priceCents": 2524,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "thuiswerker",
+      "collega",
+      "vader",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 167,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/contigo-west-loop-470-ml-stainless-steel/9300000130428940/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 78,
+      "commissionPct": null,
+      "notes": "Prijs € 25,24, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "moleskine-classic-notitieboek-large-softcover-gelinieerd-zwart",
+    "title": "Moleskine Classic notitieboek Large, softcover, gelinieerd",
+    "merchantTitle": "Moleskine Classic Notitieboek - Large - Softcover - Gelinieerd - Zwart",
+    "brand": "Moleskine",
+    "ean": "6122015035250",
+    "short": "Het bekende notitieboek in groot formaat met een buigzame kaft en gelinieerd papier.",
+    "description": "Een notitieboek van circa 13 x 21 cm met zachte kaft en elastiek. Het gelinieerde papier is geschikt voor aantekeningen, to-do-lijsten en ideeën. Een tijdloos cadeau voor collega's en thuiswerkers.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/moleskine-classic-notitieboek-large-softcover-gelinieerd-zwart/1001004011340849/",
+    "priceCents": 1664,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "tiener",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "creatief",
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 45,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/moleskine-classic-notitieboek-large-softcover-gelinieerd-zwart/1001004011340849/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 16,64, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "moleskine-classic-notitieboek-large-hardcover-gelinieerd-zwart",
+    "title": "Moleskine Classic notitieboek Large, hardcover, gelinieerd",
+    "merchantTitle": "Moleskine Classic Notitieboek - Large - Hardcover - Gelinieerd - Zwart",
+    "brand": "Moleskine",
+    "ean": "9788883701122",
+    "short": "Stevig notitieboek met harde kaft, ideaal om mee te schrijven zonder tafel.",
+    "description": "De klassieker met harde kaft, elastiek en een opbergvakje achterin. Het formaat is ongeveer A5 en het papier is gelinieerd. Een degelijk cadeau voor wie veel aantekeningen maakt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/moleskine-classic-notitieboek-a5-hardcover-gelinieerd-zwart/1001004006406215/",
+    "priceCents": 1650,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "vader",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "creatief",
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 138,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/moleskine-classic-notitieboek-a5-hardcover-gelinieerd-zwart/1001004006406215/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 77,
+      "commissionPct": null,
+      "notes": "Prijs € 16,50, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "moleskine-classic-notitieboek-large-softcover-hortensia-blauw",
+    "title": "Moleskine Classic notitieboek Large, softcover, hortensia blauw",
+    "merchantTitle": "Moleskine Classic Notitieboek - Large - Softcover - Gelinieerd - Hortensia Blauw",
+    "brand": "Moleskine",
+    "ean": "8056420850932",
+    "short": "Moleskine-notitieboek in een zachte blauwe kleur, gelinieerd.",
+    "description": "Hetzelfde vertrouwde notitieboek, nu met een blauwe softcover. Gelinieerd papier, elastiek en ruim 200 pagina's. Een kleurrijker alternatief voor het zwarte boek.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/moleskine-classic-notitieboek-large-softcover-gelinieerd-hortensia-blauw/9200000122808496/",
+    "priceCents": 1652,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "partner",
+      "thuiswerker",
+      "tiener"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "creatief",
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 45,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/moleskine-classic-notitieboek-large-softcover-gelinieerd-hortensia-blauw/9200000122808496/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 16,52, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Paginagrootte/aantal pagina's niet apart gecontroleerd.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "pilot-frixion-rollerball-pennenset-12-kleuren",
+    "title": "Pilot FriXion uitwisbare pennenset, 12 kleuren",
+    "merchantTitle": "Pilot FriXion Rollerball pennenset - uitwisbaar - 12 kleuren - in luxe blister",
+    "brand": "Pilot",
+    "ean": "3131910551607",
+    "short": "Twaalf uitwisbare rollerballpennen in verschillende kleuren voor planners en notities.",
+    "description": "Met deze pennen schrijf je in kleur en gum je een fout gewoon weg met de achterkant van de pen. Handig voor agenda's, bullet journals en kleurcodes in een planner. Een leuk cadeau voor wie graag overzichtelijk plant.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/pilot-frixion-rollerball-pennenset-uitwisbaar-12-kleuren-in-luxe-blister/9200000130367682/",
+    "priceCents": 2652,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "tiener",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 61,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/pilot-frixion-rollerball-pennenset-uitwisbaar-12-kleuren-in-luxe-blister/9200000130367682/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 26,52, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "pilot-frixion-clicker-pennenset-4-kleuren",
+    "title": "Pilot FriXion Clicker pennenset, 4 kleuren",
+    "merchantTitle": "Pilot FriXion - Clicker pennenset 0.7mm - Zwart, Blauw, Groen, Rood - per 4 verpakt",
+    "brand": "Pilot",
+    "ean": "3131910547938",
+    "short": "Vier uitwisbare klik-pennen in zwart, blauw, groen en rood.",
+    "description": "Uitwisbare pennen met een klikmechanisme, dus geen dopje om kwijt te raken. De set bevat vier basiskleuren met een puntdikte van 0,7 mm. Een klein en nuttig cadeau voor een collega.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/pilot-frixion-clicker-pennenset-0-7mm-zwart-blauw-groen-rood-per-4-verpakt/9200000130367618/",
+    "priceCents": 1349,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "tiener"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 15,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/pilot-frixion-clicker-pennenset-0-7mm-zwart-blauw-groen-rood-per-4-verpakt/9200000130367618/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 64,
+      "commissionPct": null,
+      "notes": "Prijs € 13,49, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "logitech-c270-hd-webcam-720p",
+    "title": "Logitech C270 HD webcam 720p",
+    "merchantTitle": "Logitech C270 - 720p HD Webcam - 3MP - Grijs",
+    "brand": "Logitech",
+    "ean": "0062015024853",
+    "short": "Eenvoudige HD-webcam voor videobellen vanaf de thuiswerkplek.",
+    "description": "Een compacte webcam met 720p-beeld en ingebouwde microfoon, aan te sluiten via USB. Werkt met de gangbare vergaderprogramma's. Een betaalbare oplossing voor een scherper beeld dan de laptopcamera.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/logitech-c270-720p-hd-webcam-3mp-grijs/1003004010486898/",
+    "priceCents": 1999,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "thuiswerker",
+      "vader",
+      "opa-oma"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.4,
+      "count": 573,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/logitech-c270-720p-hd-webcam-3mp-grijs/1003004010486898/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 19,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "dutchone-laptopstandaard-aluminium-zwart",
+    "title": "DutchOne verstelbare laptopstandaard, aluminium",
+    "merchantTitle": "DutchOne Laptop Standaard Verstelbaar Universeel Zwart - Laptop houder - Laptopsteun - Laptophouder - Ergonomisch - Aluminium - t/m 17 inch",
+    "brand": "DutchOne",
+    "ean": "8720618773869",
+    "short": "Verstelbare aluminium standaard die je laptop op ooghoogte brengt.",
+    "description": "Een universele standaard voor laptops tot 17 inch waarvan je de hoek instelt. Zo zit je schermpositie hoger en je nek ontspannener. Een praktisch cadeau voor wie thuiswerkt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/laptop-standaard-verstelbaar-universeel-zwart-laptop-houder-laptopsteun-laptophouder-ergonomisch-aluminium-t-m-17-inch/9300000148973798/",
+    "priceCents": 1490,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "thuiswerker",
+      "collega",
+      "tiener"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "tech",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 197,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/laptop-standaard-verstelbaar-universeel-zwart-laptop-houder-laptopsteun-laptophouder-ergonomisch-aluminium-t-m-17-inch/9300000148973798/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 73,
+      "commissionPct": null,
+      "notes": "Prijs € 14,90, verkoper Telefoonplaats.nl (Nederlandse webwinkel), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "tonys-chocolonely-groot-proeverijtje-385-gram",
+    "title": "Tony's Chocolonely Groot Proeverijtje, 385 gram",
+    "merchantTitle": "Tony's Chocolonely Groot Proeverijtje - Chocoladecadeau - Verjaardag - Moederdag - Bedankt - 385 gram",
+    "brand": "Tony's Chocolonely",
+    "ean": "8720701149786",
+    "short": "Cadeaudoos met meerdere Tony's-reepjes in verschillende smaken.",
+    "description": "Een proeverij met kleine reepjes van het Nederlandse chocolademerk, in een doos van 385 gram. Zo kan de ontvanger meerdere smaken uitproberen. Een lekkere bedankt of kleine attentie voor een collega.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/tony-s-chocolonely-grote-proeverij-rainbow-tasting-pack-8x-chocolade-relatiegeschenken-chocoladecadeau-repen/9300000230281951/",
+    "priceCents": 1279,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "collega",
+      "partner",
+      "moeder",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "eten-drinken"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.2,
+      "count": 19,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/tony-s-chocolonely-grote-proeverij-rainbow-tasting-pack-8x-chocolade-relatiegeschenken-chocoladecadeau-repen/9300000230281951/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 70,
+      "commissionPct": null,
+      "notes": "Prijs € 12,79, verkoper bol, levertekst 'Voor 23:59 uur besteld, maandag in huis' gezien op productpagina 2026-11-20.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "pukka-herbal-favourites-collection-30-theezakjes",
+    "title": "Pukka Favorites Collection theedoos, 30 zakjes",
+    "merchantTitle": "Pukka Tea Favorites Collection - 30 Theezakjes - Biologische Groene Thee & Kruidenthee - 5 x 6 Zakjes - Theedoos - Thee Geschenkdoos",
+    "brand": "Pukka",
+    "ean": "5060519148629",
+    "short": "Geschenkdoos met biologische thee in vijf smaken, 30 zakjes.",
+    "description": "Een doos met vijf soorten biologische thee van Pukka, zes zakjes per smaak. Handig om te proeven of cadeau te doen zonder te hoeven kiezen. Een warm gebaar voor een collega. De paginatitel en omschrijving verschillen licht over de exacte theesoorten.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/pukka-kruidenthee-thee-favorieten-collectie-30-theezakjes-5-smaken-geschenkverpakking/9300000161091665/",
+    "priceCents": 1299,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "collega",
+      "moeder",
+      "partner",
+      "opa-oma"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken",
+      "wellness"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 19,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/pukka-kruidenthee-thee-favorieten-collectie-30-theezakjes-5-smaken-geschenkverpakking/9300000161091665/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 71,
+      "commissionPct": null,
+      "notes": "Prijs € 12,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, maandag in huis' gezien op productpagina 2026-11-20. Titel en omschrijving op de pagina spreken elkaar deels tegen (groene thee/kruidenthee).",
+      "verified": true
+    }
+  },
+  {
+    "slug": "talens-ecoline-brush-pen-set-pastel-10-kleuren",
+    "title": "Ecoline brush pen set pastel, 10 kleuren",
+    "merchantTitle": "Ecoline Brush Pen set Pastel | 10 kleuren",
+    "brand": "Ecoline",
+    "ean": "8712079442736",
+    "short": "Tien penseelstiften in pastelkleuren voor handlettering en bullet journals.",
+    "description": "Brush pens met een flexibele penseelpunt waarmee je dunne en dikke lijnen maakt. De pastelkleuren passen bij handlettering, kaarten en dagboeken. Een creatief cadeau voor wie graag tekent of letters.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/talens-ecoline-brush-pen-10-stuks-pastel/9200000129869037/",
+    "priceCents": 1299,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "collega",
+      "tiener",
+      "moeder"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 24,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/talens-ecoline-brush-pen-10-stuks-pastel/9200000129869037/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 69,
+      "commissionPct": null,
+      "notes": "Prijs € 12,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "under-armour-undeniable-5-0-duffel-small-sporttas",
+    "title": "Under Armour Undeniable 5.0 Duffel Small sporttas",
+    "merchantTitle": "Under Armour - Undeniable 5.0 Duffel Small - Sporttas-One Size",
+    "brand": "Under Armour",
+    "ean": "0195252745066",
+    "short": "Sporttas van Under Armour in compact formaat voor sportschool of training.",
+    "description": "Een duffeltas van circa 40 liter met ruimte voor kleding en schoenen. De tas is waterafstotend en heeft een brede opening. Een praktisch cadeau voor wie naar de sportschool of yogales gaat.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/under-armour-sporttasvolwassenen/9300000042183812/",
+    "priceCents": 2925,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "vriend",
+      "tiener",
+      "vader"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "sport"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 59,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/under-armour-sporttasvolwassenen/9300000042183812/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 29,25, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Inhoud 40 l en waterafstotend gebaseerd op zoekresultaat, niet apart op de productpagina gecontroleerd.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "thea-gouverneur-borduurpakket-574a-ijsvogel",
+    "title": "Thea Gouverneur borduurpakket IJsvogel (574A)",
+    "merchantTitle": "Thea Gouverneur - Borduurpakket met telpatroon - 574A - Voorgesorteerde DMC Garens - Ijsvogel - Aida 13 cm x 16 cm - DIY Kit",
+    "brand": "Thea Gouverneur",
+    "ean": "8717056420035",
+    "short": "Klein borduurpakket met telpatroon van een Nederlands merk, met voorgesorteerde DMC-garens.",
+    "description": "Een borduurpakket met telpatroon van een ijsvogel op Aida-stof, formaat circa 13 x 16 cm. De garens zijn al voorgesorteerd, dus je kunt direct beginnen. Een rustige hobby voor een creatieve partner of vriendin.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/thea-gouverneur-borduurpakket-met-telpatroon-574a-voorgesorteerde-dmc-garens-ijsvogel-aida-13-cm-x-16-cm-diy-kit/9300000017166749/",
+    "priceCents": 2599,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "moeder",
+      "opa-oma",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 6,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/thea-gouverneur-borduurpakket-met-telpatroon-574a-voorgesorteerde-dmc-garens-ijsvogel-aida-13-cm-x-16-cm-diy-kit/9300000017166749/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 25,99, verkoper Thea Gouverneur BV (Nederlandse fabrikant), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Slechts 6 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "tombow-abt-dual-brush-pen-set-pastel-6-stuks",
+    "title": "Tombow ABT Dual Brush pennen pastel, set van 6",
+    "merchantTitle": "Tombow ABT Dual Brush Tekenpennen - Brushpennen - Pastel kleuren - Set van 6 stuks",
+    "brand": "Tombow",
+    "ean": "4901991567458",
+    "short": "Zes dubbelpunts brushpennen in zachte pastelkleuren van Tombow.",
+    "description": "Elke pen heeft een penseelpunt en een fijne punt, handig voor handlettering, kaarten en tekeningen. De pastelkleuren laten zich mengen. Een mooi cadeau voor creatieve mensen die graag letteren.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/tombow-dual-brush-pen-abt-6-colours-set-pastels-colours/9200000050766620/",
+    "priceCents": 2300,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "collega",
+      "tiener",
+      "moeder"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 7,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/tombow-dual-brush-pen-abt-6-colours-set-pastels-colours/9200000050766620/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 64,
+      "commissionPct": null,
+      "notes": "Prijs € 23,00, verkoper OfficeLeiden.nl (Nederlandse webwinkel), levertekst 'Voor 15:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Slechts 7 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "logitech-c920s-hd-pro-webcam",
+    "title": "Logitech C920s HD Pro webcam",
+    "merchantTitle": "Logitech C920s - HD Pro Webcam",
+    "brand": "Logitech",
+    "ean": "5099206082199",
+    "short": "Full HD-webcam met privacyklepje voor videobellen vanuit huis.",
+    "description": "Een veelgebruikte webcam met 1080p-beeld, stereogeluid en een klepje dat de lens afdekt. Je klemt hem op het scherm of zet hem op een standaard. Een verbetering voor wie dagelijks online vergadert.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/logitech-c920s-hd-pro-webcam/9200000105385434/",
+    "priceCents": 6900,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "thuiswerker",
+      "vader",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4,
+      "count": 47,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/logitech-c920s-hd-pro-webcam/9200000105385434/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 61,
+      "commissionPct": null,
+      "notes": "Prijs € 69,00, verkoper NoRRoD.nl powered by Paradigit (Nederlands), levertekst 'Voor 17:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "logitech-c925e-pro-full-hd-webcam-privacy-shutter",
+    "title": "Logitech C925e Pro Full HD webcam met privacy shutter",
+    "merchantTitle": "Logitech - C925e Pro Full HD Webcam - 1080P - Privacy Shutter",
+    "brand": "Logitech",
+    "ean": "5099206064027",
+    "short": "Zakelijke 1080p-webcam met ingebouwd klepje voor de lens.",
+    "description": "Een Full HD-webcam gericht op videovergaderen, met een ingebouwd klepje dat je dichtschuift als je de camera niet gebruikt. Handig voor wie veel belt vanuit huis. Een solide keuze voor een serieuze thuiswerkplek.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/logitech-c925e-pro-full-hd-webcam-1080p-privacy-shutter/9200000060102286/",
+    "priceCents": 6595,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "thuiswerker",
+      "vader"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 23,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/logitech-c925e-pro-full-hd-webcam-1080p-privacy-shutter/9200000060102286/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 65,95, verkoper NoRRoD.nl powered by Paradigit (Nederlands), levertekst 'Voor 17:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "virtufit-mini-weerstandsbanden-set-katoen-3-stuks",
+    "title": "VirtuFit mini weerstandsbanden, katoen, set van 3",
+    "merchantTitle": "VirtuFit Resistance Bands - Mini Weerstandsbanden set - Katoen - 3 Stuks - Met Opbergtas",
+    "brand": "VirtuFit",
+    "ean": "8719325459968",
+    "short": "Drie stoffen weerstandsbanden met opbergtas voor thuistraining.",
+    "description": "Katoenen mini bands in drie sterktes, geschikt voor beenspieren, billen en schouders. Ze glijden minder snel op dan rubber bandjes en passen in de meegeleverde tas. Een compact cadeau voor wie thuis of onderweg traint.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/resistance-bands-virtufit-mini-weerstandsbanden-set-katoen-3-stuks-met-opbergtas/9200000130640039/",
+    "priceCents": 1790,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "partner",
+      "vriend",
+      "tiener"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "sport"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 13,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/resistance-bands-virtufit-mini-weerstandsbanden-set-katoen-3-stuks-met-opbergtas/9200000130640039/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 17,90, verkoper Fitwinkel.nl (Nederlandse webwinkel), levertekst 'Uiterlijk 24 november in huis' gezien op productpagina 2026-11-20. Sterkteniveaus niet apart gecontroleerd.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "sony-wh-ch735n-noise-cancelling-koptelefoon",
+    "title": "Sony WH-CH735N draadloze koptelefoon met noise cancelling",
+    "merchantTitle": "Sony WH-CH735N – Draadloze Noise Cancelling koptelefoon - Bluetooth - Over-ear - 75 uur batterij - Zwart",
+    "brand": "Sony",
+    "ean": "4548736180970",
+    "short": "Draadloze over-ear koptelefoon met ruisonderdrukking en lange batterijduur.",
+    "description": "Een Bluetooth-koptelefoon met noise cancelling en een batterij die tot ongeveer 75 uur meegaat. Handig om in te focussen op de thuiswerkplek of onderweg naar muziek te luisteren. Een cadeau voor de muziekliefhebber of kantoorkrijger.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/sony-wh-ch735n-draadloze-noise-cancelling-koptelefoon-zwart/9300000342029969/",
+    "priceCents": 9900,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "thuiswerker",
+      "vriend",
+      "vader",
+      "tiener"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "muziek",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 10,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/sony-wh-ch735n-draadloze-noise-cancelling-koptelefoon-zwart/9300000342029969/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 99,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. 10 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "jbl-go-5-bluetooth-speaker-blauw",
+    "title": "JBL Go 5 draagbare Bluetooth-speaker, blauw",
+    "merchantTitle": "JBL Go 5 - Draadloze Bluetooth Mini Speaker – Voor Onderweg en Thuis – Sfeerverlichting - Draadloos Muziek Box – Boxje - 10 uur - IP68 - Waterdicht - Blauw",
+    "brand": "JBL",
+    "ean": "1200130034299",
+    "short": "Kleine waterdichte speaker met circa 10 uur speeltijd.",
+    "description": "Een compacte Bluetooth-speaker die stof- en waterdicht is volgens IP68. Past in een jaszak of tas en speelt ongeveer 10 uur. Handig voor muziek op de werkplek, in de keuken of onderweg.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/jbl-go-5-draadloze-bluetooth-mini-speaker-voor-onderweg-en-thuis-sfeerverlichting-draadloos-muziek-box-boxje-10-uur-ip68-waterdicht-blauw/9300000252617210/",
+    "priceCents": 4595,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "partner",
+      "tiener",
+      "vriend",
+      "thuiswerker"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "muziek",
+      "tech"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/jbl-go-5-draadloze-bluetooth-mini-speaker-voor-onderweg-en-thuis-sfeerverlichting-draadloos-muziek-box-boxje-10-uur-ip68-waterdicht-blauw/9300000252617210/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 45,95, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Reviews op de pagina horen bij de oudere Go 4, daarom rating leeg.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "klean-kanteen-classic-800-ml-flip-sport-cap-sea-spray",
+    "title": "Klean Kanteen Classic drinkfles 800 ml, Sea Spray",
+    "merchantTitle": "Klean Kanteen Classic Single Wall 800ml - Flip Sport Cap Sea Spray",
+    "brand": "Klean Kanteen",
+    "ean": "0763332080569",
+    "short": "Roestvrijstalen drinkfles van 800 ml met sportdop.",
+    "description": "Een stevige herbruikbare fles van roestvrij staal met een flip-sportdop. De inhoud van 800 ml is genoeg voor een training of werkdag. Een duurzaam cadeau voor wie veel water drinkt of sport.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/klean-kanteen-classic-flip-sportdop-800-ml-sea-spray/9300000229341988/",
+    "priceCents": 2789,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "thuiswerker",
+      "partner",
+      "collega",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "sport",
+      "wellness"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 9,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/klean-kanteen-classic-flip-sportdop-800-ml-sea-spray/9300000229341988/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 27,89, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. 9 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "pickwick-kruidenthee-ginger-goodness-orange-4x15",
+    "title": "Pickwick Kruidenthee Ginger Goodness Orange, 4 x 15 zakjes",
+    "merchantTitle": "Pickwick Kruidenthee Ginger Goodness Orange - 4 x 15 theezakjes",
+    "brand": "Pickwick",
+    "ean": "8711000497685",
+    "short": "Kruidenthee met gember en sinaasappel, goed als klein cadeau.",
+    "description": "Vier pakjes Pickwick-kruidenthee met een frisse gember-sinaasappelsmaak, samen 60 zakjes. Een lekkere en betaalbare attentie. Past bij een collega of in een cadeaupakket met een mok.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/pickwick-kruidenthee-ginger-goodness-orange-4-x-15-theezakjes/9300000107056548/",
+    "priceCents": 717,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "collega",
+      "thuiswerker",
+      "moeder"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "eten-drinken",
+      "wellness"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 44,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/pickwick-kruidenthee-ginger-goodness-orange-4-x-15-theezakjes/9300000107056548/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 64,
+      "commissionPct": null,
+      "notes": "Prijs € 7,17, verkoper bol, levertekst 'Voor 23:59 uur besteld, maandag in huis' gezien op productpagina 2026-11-20.",
       "verified": true
     }
   }

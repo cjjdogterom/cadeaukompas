@@ -34,7 +34,7 @@ export const guides: Guide[] = [
       { q: "Wat geef je een collega die je niet goed kent?", a: "Iets praktisch of lekkers: een mok, een spel voor in de pauze of luxe thee. Vermijd persoonlijke verzorging of kleding." },
       { q: "Komt mijn cadeau op tijd voor de borrel?", a: "Bij elk product staat de uiterste besteldatum. Die rekent met werkdagen en een dag extra marge voor de drukte rond de feestdagen." },
     ],
-    related: ["sinterklaascadeau-tiener", "kerstpakket-thuiswerker", "cadeau-onder-15-euro", "cadeau-voor-partner", "cadeau-thuiswerker-50-100-euro", "kerstcadeau-onder-50-euro", "cadeau-voor-een-vriend"],
+    related: ["sinterklaascadeau-tiener", "kerstpakket-thuiswerker", "cadeau-onder-15-euro", "cadeau-voor-partner", "cadeau-thuiswerker-50-100-euro", "kerstcadeau-onder-50-euro", "cadeau-voor-een-vriend", "cadeau-collega-onder-15-euro", "cadeau-thuiswerker-25-50-euro"],
   },
   {
     slug: "sinterklaascadeau-tiener",
@@ -77,7 +77,7 @@ export const guides: Guide[] = [
       { q: "Wat stop je in een kerstpakket voor thuiswerkers?", a: "Denk aan goede koffie of thee, een mok die warm blijft, een bureaulamp of iets voor ontspanning na het werk." },
       { q: "Wanneer moet ik bestellen voor kerst?", a: "Dat verschilt per product. De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, zodat het voor de kerstdagen in huis is." },
     ],
-    related: ["cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "sinterklaascadeau-tiener", "kerstcadeau-voor-vader", "cadeau-thuiswerker-50-100-euro", "sportcadeau-voor-volwassenen", "kerstcadeau-onder-50-euro"],
+    related: ["cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "sinterklaascadeau-tiener", "kerstcadeau-voor-vader", "cadeau-thuiswerker-50-100-euro", "sportcadeau-voor-volwassenen", "kerstcadeau-onder-50-euro", "cadeau-thuiswerker-25-50-euro"],
   },
   {
     slug: "cadeau-onder-15-euro",
@@ -97,7 +97,7 @@ export const guides: Guide[] = [
     faq: [
       { q: "Wat is een leuk cadeau onder €15?", a: "Kleine spellen, iets lekkers, een goed boek of een handig gadget. Filter op voor wie om sneller iets te vinden." },
     ],
-    related: ["cadeau-onder-25-euro-collega", "sinterklaascadeau-tiener", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-baby-peuter"],
+    related: ["cadeau-onder-25-euro-collega", "sinterklaascadeau-tiener", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-baby-peuter", "cadeau-collega-onder-15-euro"],
   },
   {
     slug: "sinterklaascadeau-kinderen-8-12",
@@ -422,7 +422,7 @@ export const guides: Guide[] = [
       { q: "Is een koptelefoon met noise cancelling een goed cadeau voor thuiswerkers?", a: "Vaak wel, vooral als iemand veel belt of in een huis met meer mensen werkt. Kijk of iemand de voorkeur heeft voor over-ear of oordopjes." },
       { q: "Wat is het verschil met de kerstgids voor thuiswerkers?", a: "Deze gids is gericht op een budget van €50 tot €100 en geldt voor elk moment van het jaar. De kerstgids toont cadeaus in alle prijsklassen voor kerst, met per cadeau de uiterste besteldatum." },
     ],
-    related: ["kerstpakket-thuiswerker", "cadeau-onder-25-euro-collega", "cadeau-voor-partner", "muziekcadeau", "cadeau-voor-lezers", "techcadeau"],
+    related: ["kerstpakket-thuiswerker", "cadeau-onder-25-euro-collega", "cadeau-voor-partner", "muziekcadeau", "cadeau-voor-lezers", "techcadeau", "cadeau-thuiswerker-25-50-euro"],
   },
   {
     slug: "muziekcadeau",
@@ -967,6 +967,52 @@ export const guides: Guide[] = [
       { q: "Wat is het verschil met de gids voor Sinterklaascadeaus voor tieners?", a: "Die gids toont cadeaus in alle prijsklassen. Deze gids laat alleen cadeaus tussen €15 en €25 zien." },
     ],
     related: ["sinterklaascadeau-tiener", "kerstcadeau-voor-tiener", "gamecadeau-tiener-13-17", "cadeau-onder-15-euro"],
+  },
+  {
+    slug: "cadeau-collega-onder-15-euro",
+    title: "Cadeau voor een collega onder €15",
+    metaTitle: "Cadeau voor een collega onder €15 | OpTijdCadeau",
+    metaDescription:
+      "Kleine cadeaus tot €15 voor collega's: voor lootjes, een bedankje of de kantoorborrel. Met levertijd en uiterste besteldatum per cadeau.",
+    intro: [
+      "Bij sommige teams ligt het lootjesbudget op €10 of €15, en dan wil je toch iets geven dat niet als een noodgreep voelt. Dat lukt het best met een cadeau dat iedereen kan gebruiken en dat niets zegt over smaak, gezin of kledingmaat: iets lekkers, een klein spel voor in de pauze of een handig ding voor op het bureau.",
+      "In deze selectie staan cadeaus voor collega's die minder dan €15 kosten bij de winkel waar je bestelt. Denk aan kleine spellen en kaartspellen, iets voor bij de koffie of thee en praktische gadgets voor op de werkplek. Kijk vooral naar wat de ontvanger op kantoor of thuis al doet. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. De bezorging zelf ligt bij de winkel, dus controleer de levertijd op de winkelpagina nog even voor je bestelt. Wij sturen je door en verkopen zelf niets. Prijzen kunnen wijzigen; we tonen de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { voor: "collega", budget: "tot-15" },
+    tips: [
+      "Tel eventuele verzendkosten mee. Sommige winkels rekenen die onder een minimumbedrag, en dan zit je snel boven het afgesproken budget.",
+      "Kies iets neutraals als je de collega niet goed kent: lekkers, een spel of iets voor op het bureau gaat zelden mis.",
+      "Maak een klein cadeau groter met een handgeschreven kaartje of een kort gedicht. Dat kost niets en maakt het persoonlijk.",
+    ],
+    faq: [
+      { q: "Wat geef je een collega voor minder dan €15?", a: "Iets dat bijna iedereen kan gebruiken: een klein spel voor in de pauze, iets lekkers bij de koffie of een handig gadget voor op het bureau. Houd het neutraal als je de ontvanger niet goed kent." },
+      { q: "Wat is een normaal budget voor lootjes op het werk?", a: "Dat verschilt per team. Veel teams spreken een bedrag tussen €10 en €25 af. Houd je aan wat is afgesproken, zodat het voor iedereen eerlijk blijft." },
+      { q: "Tot wanneer kan ik bestellen voor de kantoorborrel of pakjesavond?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge voor de drukte. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
+    ],
+    related: ["cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "cadeau-thuiswerker-25-50-euro", "kerstcadeau-onder-50-euro"],
+  },
+  {
+    slug: "cadeau-thuiswerker-25-50-euro",
+    title: "Cadeau voor een thuiswerker van €25 tot €50",
+    metaTitle: "Cadeau voor een thuiswerker van €25 tot €50 | OpTijdCadeau",
+    metaDescription:
+      "Cadeaus voor thuiswerkers tussen €25 en €50: iets voor de werkplek, koffie of een pauze. Met levertijd en uiterste besteldatum per cadeau.",
+    intro: [
+      "Wie thuiswerkt, heeft zijn bureau en keuken vaak al ingericht, maar kleine verbeteringen merk je elke dag. Met een budget tussen €25 en €50 kun je iets geven dat de werkdag net wat prettiger maakt: beter licht, een nette plek voor kabels, iets warms voor in de koude maanden of iets om de pauze mee in te vullen.",
+      "In deze selectie staan cadeaus voor de werkplek en voor de momenten daartussen. Kijk eerst wat er al op het bureau staat, bijvoorbeeld welke aansluiting en welk merk iemand gebruikt, zodat een gadget ook past. Wil je meer uitgeven, kijk dan bij de gids voor thuiswerkers van €50 tot €100. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. De bezorging zelf ligt bij de winkel, dus controleer de levertijd op de winkelpagina nog even voor je bestelt. Wij sturen je door en verkopen zelf niets. Prijzen kunnen wijzigen; we tonen de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { voor: "thuiswerker", budget: "25-50" },
+    tips: [
+      "Kijk wat er al op het bureau staat. Een accessoire moet passen bij de aansluiting en het besturingssysteem van de ontvanger.",
+      "Kies iets dat dagelijks gebruikt wordt, zoals licht, een mok die warm blijft of een handig hulpmiddel voor het bureau, in plaats van iets dat in een la verdwijnt.",
+      "Combineer twee kleinere cadeaus bij dezelfde winkel tot een klein pakket. Let dan op de levertijd van het product dat het laatst binnenkomt.",
+    ],
+    faq: [
+      { q: "Wat geef je een thuiswerker voor €25 tot €50?", a: "Iets voor de werkplek dat dagelijks gebruikt wordt, zoals verlichting of een handig bureau-accessoire, of iets voor de pauze. Filter op interesse als je de smaak van de ontvanger kent." },
+      { q: "Wat is het verschil met de andere gidsen voor thuiswerkers?", a: "Deze gids toont alleen cadeaus tussen €25 en €50. De kerstgids toont alle prijsklassen met uiterste besteldatums voor kerst, en een andere gids richt zich op €50 tot €100." },
+      { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, inclusief een dag marge. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
+    ],
+    related: ["kerstpakket-thuiswerker", "cadeau-thuiswerker-50-100-euro", "cadeau-collega-onder-15-euro", "cadeau-onder-25-euro-collega"],
   },
 ];
 
