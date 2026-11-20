@@ -569,3 +569,95 @@ Nee. Alleen productteksten en één gidszin zijn aangepast. Er zijn geen juridis
 **COMPLIANCE: GO** voor de 52 actieve producten en de 2 gidsen van ronde 15:15. Het enige blokkerende punt (B-15.1, aanbiedingsclaim) is met een tekstcorrectie opgelost. U-15.1 en U-15.2 (Carrera en seniorentelefoon) bij voorkeur vóór de herlancering.
 
 Bron PEGI FC 27: [PC Gamer — EA Sports FC 27 gets a PEGI 16 rating in Europe because of loot boxes](https://www.pcgamer.com/gaming-industry/ea-sports-fc-27-gets-a-pegi-16-rating-in-europe-because-of-loot-boxes/)
+
+## Hertoets 16:15
+
+Agent: Compliance · Werkkopie `main` (na commit 46160b3, ongecommitte wijzigingen in `data/products.json` en `lib/guides.ts`). Dit is geen formeel juridisch advies.
+
+### Wat is getoetst
+- **Producten (65, alle actief):** de slugs uit `data/research/shortlist-2026-11-20-vrouw-tuin-muziek-opa-16.json` (34) en `data/research/shortlist-2026-11-20-jongen-vader-gamen-16.json` (36), zoals ze in `data/products.json` staan (r. 80131–83488). Velden: title, short, description en rating, plus ageGroups bij kind-, tiener- en hobbyproducten.
+  - **Vrouw/tuin/muziek/opa: 33 actief.** `999-games-clever-dobbelspel` staat op concept en `storvik-molde-kniestukken-knielappen` is niet opgenomen; beide niet getoetst.
+  - **Jongen/vader/gamen: 32 actief.** Op concept en niet getoetst: `squago-walkie-talkie-set-3-stuks`, `wilson-nba-team-tribute-basketbal-maat-7`, `8bitdo-ultimate-2c-draadloze-controller-roze` (tekst noemt nog "controleer dat op de pagina") en `fitage-massage-gun-mini-zwart` (tekst noemt nog "controleer dat vóór publicatie"). Die zinnen moeten eruit vóór activeren.
+- **Gidsen (2):** `cadeau-kind-50-100-euro` (`lib/guides.ts` r. 1254) en `cadeau-vader-onder-15-euro` (r. 1278). De budgetsleutels `50-100` en `tot-15` bestaan (`lib/types.ts` r. 40 en 43) en alle `related`-slugs bestaan.
+
+### Wat goed is
+- **Geen** korting, deal, adviesprijs, Black Friday, "actieprijs", "voorraad bijna op", "morgen in huis" of "op=op" in de publieke tekst. "(dealprijs)" en "(actieprijs)" staan alleen in `scout.notes` (imoshion, BP-drumstel, Soundcore 2 en Boom 3i).
+- **Medisana MG 150:** "Spierherstel" uit de winkeltitel is niet overgenomen. De tekst beschrijft alleen functies. Er staan geen gezondheidsclaims bij de scheerapparaten, zwembrillen of knielkussens (op één zin na, zie tabel).
+- **Leeftijden:** er zit geen product in 0–3. Bluey-karaoke en Bluey-walkietalkies (3+) staan in 4–7 en noemen de leeftijd. Kruzzel (3+, onder toezicht) staat in 4–7. Het BP-drumstel (6+) staat in 8–12 en 13–17. Robotime, Rubik's Coach en Phantom (8+) staan in passende groepen. Modelbouwlijm en -verf (Revell, Tamiya) staan alleen in "volwassen" met recipients vader/vriend; de Revell-verf noemt 16+.
+- **Ratings:** waar de reviews bij een ander model of een andere editie horen, is de rating al leeggelaten (Esschert Eikel, Keer op Keer ×2, Rubik's ×3, Robotime ×2). Hetzelfde geldt bij 1–3 reviews (Gardena Comfort, Speedo Hydrosity, Soundcore 2, Bresser, Lexibook, 8BitDo).
+- **Walkietalkies en elektronica** noemen het bereik als "ongeveer" of "volgens de pagina". Er staat ook bij dat batterijen niet zijn meegeleverd en dat de toestellen niet waterdicht zijn.
+- **Gidsen:** er staan geen superlatieven, schaarste of reviewclaims in. Wel: "wij sturen je door en verkopen zelf niets", "controleer de levertijd bij de winkel" en "prijzen kunnen wijzigen; we tonen de controledatum". In de kindergids staat ook "let op de leeftijdsaanduiding … en of er batterijen nodig zijn", en de vadergids wijst op verzendkosten bij kleine bedragen.
+
+### Blokkerende punten
+**Geen.** Er is geen product op concept gezet.
+
+### Direct doorgevoerde correcties (32 slugs plus 1 gids)
+| Slug | Was | Nu | Waarom |
+|---|---|---|---|
+| `ravensburger-puzzel-weihnachtszeit-kerst-1000-stukjes` | "Een winterse kersttafereel"; "Een klein, betaalbaar cadeau" | "Een winters kersttafereel"; "Een klein cadeau" | Taal (het tafereel). Prijsoordeel (A13). |
+| `esschert-design-vogelhuisje-winterkoning-nestkast-bruin` | "Het past in elke tuin"; "Een betaalbaar cadeau"; rating 4,3 (54) | "Het kan in de tuin of … aan de gevel hangen"; "Een klein cadeau"; rating `null` | Absolute claim. A13. Dezelfde score 4,3 (54) staat bij de Eikel, en volgens de notitie daar hoort die deels bij een ander Esschert-model (geen nepreviews, U-14.1). |
+| `esschert-design-nestkast-eikel-winterkoning` | "Een leuk en tuinvriendelijk cadeau" | "Een leuk cadeau" | Vage milieuclaim (H3) |
+| `gardena-comfort-gereedschap-set-3-stuks` | short "voor planten, wieden en snoeien"; "Een compleet beginnetje"; "Gardena staat bekend om degelijk handgereedschap met een prettige grip." | short "voor in de tuin of op het balkon"; "Een setje handgereedschap …; welke drie onderdelen erin zitten, zie je op de winkelpagina." | Volgens de notitie is niet gecontroleerd welke 3 stuks erin zitten. Dan geen functies of "compleet" claimen (essentiële kenmerken, art. 6:193c BW). Reputatieclaim (A4). |
+| `speedo-biofuse-2-0-zwembril-zwart-smoke` (short) | "Een bekende zwembril" | "Een zwembril" | Reputatieclaim (A4) |
+| `speedo-biofuse-2-0-zwembril-dames-blauw` | "De glazen zijn anti-condens en beschermen tegen UV-straling." | "De glazen zijn volgens Speedo …" | Beschermingsclaim (ogen) toegeschreven aan de bron |
+| `jbl-clip-5-bluetooth-speaker-paars` | "op wandel" | "tijdens een wandeling" | Taal |
+| `ace-padel-nexo-lite-padelracket-beginners` | "Een goede eerste racket" | "Een racket" | Oordeel zonder onderbouwing; ook taal (het racket) |
+| `virtufit-control-padelracket-wit-zwart-beginners` | short "Een betaalbaar padelracket"; "Een voordelig cadeau" | "Een padelracket"; "Een cadeau" | A13 |
+| `jaxplore-nordic-walking-stokken-opvouwbaar-110-135` | "Een gezond cadeau voor wie graag wandelt." | "Een cadeau voor wie graag wandelt." | Gezondheidsclaim (A3, zoals Abbey Camp bij 14:15) |
+| `knielkussen-tuin-groen-set-van-2` | "Ze beschermen de knieën"; "Een handig en betaalbaar cadeau" | "Ze liggen zacht onder de knieën"; "Een handig cadeau" | Beschermingsclaim bij een merkloze schuimmat (A3). A13. |
+| `elho-essential-bee-hotel-18cm-fibrous-grey` | short "van gerecycled plastic"; "gemaakt van gerecycled materiaal"; "Een duurzaam cadeau" | "volgens Elho van gerecycled plastic"; "volgens de fabrikant gemaakt van gerecycled plastic"; "Een cadeau" | Duurzaamheidsclaim toegeschreven aan de bron en vage claim geschrapt (ACM Leidraad Duurzaamheidsclaims, H3) |
+| `qubis-bonsai-starters-kit-kweekset` | (geen) | "Let op: volgens de winkelpagina kan dit artikel niet retour." | Volgens de notitie geldt er geen retour. Onze gidsen spreken over terugsturen binnen de bedenktijd, dus dit is essentiële informatie (art. 6:193d BW). |
+| `soundcore-2-bluetooth-speaker-zwart` | "Een betaalbaar muziekcadeau" | "Een muziekcadeau" | A13. Volgens de notitie is het een actieprijs die na Black Friday kan stijgen. |
+| `voltano-dubbele-fietstas-rolltop-48-liter-zwart` (short) | "Een waterdichte dubbele fietstas" | "…, volgens de verkoper waterdicht." | Absolute claim toegeschreven aan de bron (zoals Basil bij 13:15). De description deed dat al. |
+| `999-games-keer-op-keer-dobbelspel` (short) | "Een populair Nederlands dobbelspel …, leuk met elk gezelschap" | "Een Nederlands dobbelspel …, goed te spelen met een gemengd gezelschap" | Populariteitsclaim (H1); absolute claim |
+| `hyperx-chargeplay-quad-switch-oplaadstation` | (geen) | "Gemaakt voor de Joy-Cons van de eerste Nintendo Switch; controleer bij de winkel of het past als iemand een Switch 2 heeft." | Essentieel kenmerk; Joy-Con 2 heeft een andere aansluiting (zoals Hori bij 13:15). Staat ook in 8–12. |
+| `medisana-mg-150-massage-gun-mini` | short "Een draadloze massagepistool"; (geen kanttekening) | "Een draadloos massagepistool"; "Geen medisch hulpmiddel; lees voor gebruik de veiligheidsaanwijzingen." | Taal. Gelijk aan Beurer MG 99 (A3/A8). De winkeltitel noemt "Spierherstel". |
+| `spalding-silver-series-basketbal-outdoor-maat-7` | "een slijtvaste rubberen buitenlaag en is geschikt" | "een rubberen buitenlaag en is bedoeld" | Volgens de notitie melden reviews snelle slijtage; de claim "slijtvast" is dan niet te onderbouwen |
+| `robotime-rolife-zappelin-houten-bouwpakket` (short) | (geen leeftijd) | "…, vanaf 10 jaar." | 10+ in 8–12 (A9) |
+| `coole-kids-koken-jenny-chandler` | (geen) | "; laat een volwassene helpen bij messen, oven en fornuis." | Veiligheid in 4–7 en 8–12 (zoals het kookboek bij 13:15) |
+| `bellatio-skate-beschermset-maat-m-6-8-jaar` | (geen) | "Een helm zit er niet bij; combineer de set met een goed passende helm." | De short noemt een "complete set". Veiligheid bij een kinderproduct (A8). |
+| `thrustmaster-y-300cpx-gaming-headset-wit` | "De pagina is op sommige punten tegenstrijdig over kabellengte en driverformaat." | geschrapt | A11. We noemen kabellengte en driver niet, dus de zin voegt alleen twijfel toe. |
+| `philips-s1151-00-scheerapparaat-series-1000` | "Een degelijke basismodel voor wie lichte baardgroei of een gevoelige huid heeft." | "Een eenvoudig basismodel voor wie lichte baardgroei heeft." | Taal. Huidclaim zonder bron. |
+| `revell-contacta-professional-modelbouwlijm-25g` | "voor wie een bouwpakket cadeau krijgt" | "voor een volwassene die …"; toegevoegd: "De lijm bevat oplosmiddelen: gebruik hem in een geventileerde ruimte en bewaar hem buiten bereik van kinderen." | Oplosmiddelen niet bij kinderen aanprijzen. De notitie noemt chemische stoffen. |
+| `revell-contacta-liquid-lijm-met-kwast-18g` | "past bij een bouwpakket." | "… voor een volwassene." en dezelfde waarschuwing | Idem |
+| `tamiya-87038-extra-thin-cement-met-kwast` | "kan tijdens gebruik ontvlambaar worden, lees dus eerst het etiket" | "De lijm is ontvlambaar en bevat oplosmiddelen: lees eerst het etiket, gebruik hem in een geventileerde ruimte en bewaar hem buiten bereik van kinderen." | Veiligheid. De oude zin onderschatte het risico. |
+| `revell-hobbyverf-enamel-basic-colours-6x14ml` | "buiten bereik van kinderen bewaren" | "gebruik de verf in een geventileerde ruimte en bewaar hem buiten bereik van kinderen" | Enamelverf bevat oplosmiddelen |
+| `bresser-junior-microscoop-40-640x-experimenteerset` | (geen) | "Controleer bij de winkel of er batterijen bij zitten." | Volgens de notitie zitten de 2x AA mogelijk niet bij (essentiële info) |
+| `toobs-kinderbakset-26-delig-schort-recepten` | "Een leeftijd wordt niet vermeld." | "…; bakken met oven en spuitzak doe je samen met een volwassene." | Echt bakken in 4–7 en 8–12 (A8) |
+| `jenga-vernieuwde-editie-digitale-dobbelsteen` (short) | "…, nu met een digitale dobbelsteen." | "…, in een versie met digitale dobbelsteen, vanaf 6 jaar." | "Nu" is tijdgebonden (H5). 6+ in 4–7 (A9). |
+| `rubiks-cube-3x3-sleutelhanger` | "Een klein cadeau voor onder de €10" | "Volgens de pagina niet geschikt voor kinderen onder 8 jaar (kleine onderdelen); de aanbevolen leeftijd op de pagina is 14 jaar. Een klein cadeau" | Statische prijsclaim (A13). Leeftijd staat in de notitie maar niet in de tekst, terwijl het product in 8–12 staat. |
+| Gids `cadeau-vader-onder-15-euro`, intro | "of iets lekkers voor bij de borrel" | "of iets lekkers" | "Borrel" verwijst naar alcohol, en de catalogus heeft geen alcohol. Zo belooft de gids niets dat er niet is. |
+
+Alleen de velden short, description en rating (1×) zijn gewijzigd, plus één zin in een gidsintro. Er zijn geen prijzen, statussen, ageGroups, links of slugs gewijzigd. De JSON-opbouw en de inspringing zijn ongewijzigd.
+
+### Adviezen (open)
+**V1. Leeftijdsindeling (Catalogus).**
+- `rubiks-cube-3x3-sleutelhanger` staat in 8–12 met recipient `kind`, maar de pagina noemt 14+ als aanbevolen leeftijd. De veiligheidsgrens is 8 jaar, dus dit is niet blokkerend. Voorstel: haal "8-12" en `kind` weg, of controleer bij Spin Master welke leeftijd geldt.
+- `toobs-kinderbakset-26-delig-schort-recepten` en `coole-kids-koken-jenny-chandler` staan in 4–7 zonder leeftijdsadvies van de fabrikant of uitgever (zoals U2). Voorstel: controleer de leeftijd op de verpakking of de uitgeverssite.
+- `imoshion-sing-shine-karaokeset-discolamp` (8–12) en `bresser-junior-microscoop-…` (8–12) hebben geen minimumleeftijd op de pagina. Dat is een licht punt.
+
+**V2. Ratings met mogelijk gedeelde reviews (Catalogus, zoals U-14.1).** `craved-padelracket-elite-pro-roze-zwart` 4,7 (57), `no-peak-padelracket-…` 4,5 (35), `ace-padel-nexo-lite-…` 4,9 (14) en `virtufit-control-…` 5,0 (6). Volgens de notities horen de reviews deels bij andere kleurvarianten van hetzelfde model. Dat is gebruikelijk bij bol en daarom niet aangepast. Controleer of het echt hetzelfde model is; is dat niet zo, zet dan `rating` op `null`.
+
+**V3. Productinhoud verifiëren (Catalogus, zoals A11):**
+- `gardena-comfort-gereedschap-set-3-stuks` en `gardena-city-gardening-balkonset`: de inhoud van de set is niet gecontroleerd. Controleer de inhoud en noem die in de short.
+- `esschert-design-vogelhuisje-winterkoning-nestkast-bruin`: de afmetingen zijn niet consistent. Die noemen we niet, dus dit is in orde.
+- `soundcore-boom-3i-outdoor-speaker`: in de titel staat "waterdicht", de pagina noemt IP68 of IPX7. Beide zijn waterdicht, dus dit is in orde.
+- `qubis-bonsai-starters-kit-kweekset`: controleer de geen-retourzin bij bol. Klopt die niet, schrap hem dan.
+
+**V4. Concepten vóór activeren.** Uit `8bitdo-ultimate-2c-…` en `fitage-massage-gun-mini-zwart` moeten de interne zinnen ("controleer dat op de pagina", "controleer dat vóór publicatie") weg. De FITAGE-tekst is verder neutraal; voeg bij activeren dezelfde zin "Geen medisch hulpmiddel; lees voor gebruik de veiligheidsaanwijzingen" toe. De winkeltitel zegt "Professioneel Massage Apparaat"; neem dat niet over.
+
+**V5. Gidsen: belooft de intro wat het filter toont (zoals U4/U-15.3)?**
+- `cadeau-kind-50-100-euro` noemt "racen" en "buiten spelen". De Carrera-baan staat sinds 15:15 op concept.
+- `cadeau-vader-onder-15-euro` noemt "iets bij de koffie, een handig hulpmiddel voor in de schuur of de auto". In deze ronde zitten onder €15 vooral modelbouwlijm, Rubik's en Jenga.
+
+Voorstel (SEO-content): kijk op de preview of het filter (`voor` + `budget`) die soorten producten toont, en pas anders de opsomming aan.
+
+**V6. Licht, niet aangepast.**
+- `garden-spirit-…` "FSC-gecertificeerd hout" is een keurmerkclaim die op de winkelpagina staat. Dat is in orde, mits het logo op het product of de verpakking staat.
+- `garden-spirit-insectenhotel-…` "voor wie iets voor de natuur wil doen" is een algemene omschrijving en geen milieuclaim over het product zelf.
+- `coole-kids-koken-…` "Reviewers noemen kinderen van 6 en 7 jaar" is een kwalitatieve reviewsamenvatting. Die mag weg zodra er een leeftijd van de uitgever bekend is.
+
+### Akkoord nodig?
+Nee. Alleen productteksten, één rating en één gidszin zijn aangepast. Er zijn geen juridische pagina's, checkout, prijzen of statussen geraakt.
+
+**COMPLIANCE: GO** voor de 65 actieve producten en de 2 gidsen van ronde 16:15. Er zijn geen blokkerende punten. V1 (Rubik's-sleutelhanger) en V3 (Gardena-inhoud) bij voorkeur vóór de herlancering.

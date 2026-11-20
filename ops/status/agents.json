@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-20T16:15:00+01:00",
+  "updatedAt": "2026-11-20T16:31:28+01:00",
   "agents": {
     "orchestrator": {
-      "status": "bezig",
-      "currentTask": "Agent-ronde 16:15",
-      "lastRunAt": "2026-11-20T15:32:56+01:00",
-      "lastResult": "Ronde 15:15: +50 cadeaus in de data (1523 actief), 2 gidsen, compliance-hertoets verwerkt (1 blokkerend opgelost). SITE NOG OFFLINE: 362 actieve cadeaus zonder foto, bol-verrijking en bezorgdatums niet gedraaid",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T16:31:28+01:00",
+      "lastResult": "Ronde 16:15: +65 cadeaus in de data (1588 actief), 2 gidsen, compliance-hertoets verwerkt (GO). SITE NOG OFFLINE: 427 actieve cadeaus zonder foto, bol-verrijking en bezorgdatums niet gedraaid",
       "nextRun": "Elk uur 08–22",
       "blockedBy": "Site offline: Vercel-project ‘cadeaukompas’ bestaat niet meer (owner-todo 0)"
     },
     "product-scout": {
-      "status": "bezig",
-      "currentTask": "2 scouts: ~35 moeder/oma/vrouw (spellen, sport, muziek, tuin/bouwen, opa-oma tech) + ~35 jongens (sport, muziek, tech, keuken, €50–100), vaders (gamen, creatief, wellness, onder €15)",
-      "lastRunAt": "2026-11-20T15:32:56+01:00",
-      "lastResult": "2 scouts: 58 bol-cadeaus gecontroleerd op de productpagina (27 moeder/oma/vrouw: Instax-camera’s en fotoprinters, Canon, Polaroid, JBL-radio’s, Lenco/Denver-platenspelers, Soundcore, sport; 31 kinderen €50–100/vaders/opa-oma: LEGO, Playmobil, Carrera, games, Airfix/Revell, Philips OneBlade, Wera, Stanley, Einhell, Denver Frameo). Dun gebleven: fietsaccessoires, padel/tennis, haak/breipakketten, vaders onder €15",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T16:31:28+01:00",
+      "lastResult": "2 scouts: 71 bol-cadeaus gecontroleerd op de productpagina (35 moeder/oma/vrouw: tuin (nestkasten, insectenhotels, Gardena, Elho, kweeksets), puzzels/spellen, padel, zwembrillen, Nordic walking, fietstassen, JBL/Soundcore, Doro; 36 jongens/vaders: 8BitDo/HyperX/Thrustmaster, Revell/Tamiya modelbouw, Robotime, kinderkoken/bakken, karaoke, walkietalkies, basketbal, Bresser, Philips/Gillette/Medisana). Dun gebleven: kind:sport, tiener onder €15, opa-oma tech/muziek",
       "nextRun": "Elke agent-ronde (elk uur)",
       "blockedBy": null
     },
@@ -26,10 +26,10 @@
       "blockedBy": "Alleen affiliate (keuze eigenaar 17-11): geen leveranciers nodig"
     },
     "catalogus": {
-      "status": "bezig",
-      "currentTask": "70 nieuwe cadeaus geïmporteerd; compliance-toets afwachten",
-      "lastRunAt": "2026-11-20T15:32:56+01:00",
-      "lastResult": "52 geactiveerd, 2 daarvan terug op concept na compliance (Carrera Mario Kart, Denver seniorentelefoon: productgegevens nakijken); 4 niet geïmporteerd (score onder 60); 2 concept (prijs/pagina niet zelf gezien); 7 ratings op null (1–2 reviews). 1523 actief",
+      "status": "geblokkeerd",
+      "currentTask": "427 actieve cadeaus verrijken met foto, EAN en prijs via bol zodra de site weer online is, daarna bezorgdatums opwarmen",
+      "lastRunAt": "2026-11-20T16:31:28+01:00",
+      "lastResult": "70 geïmporteerd (1 niet: score onder 60) en geactiveerd; 5 terug op concept wegens tegenstrijdige of onvolledige paginagegevens (8BitDo Ultimate 2C, Wilson-basketbal, FITAGE, Squago, Clever); Rubik’s-sleutelhanger naar 13+ (pagina adviseert 14+). 1588 actief",
       "nextRun": "Elke agent-ronde",
       "blockedBy": "Site offline: Vercel-project ‘cadeaukompas’ bestaat niet meer (owner-todo 0)"
     },
@@ -50,10 +50,10 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "bezig",
-      "currentTask": "2 nieuwe cadeaugidsen voor dunne zoekthema’s",
-      "lastRunAt": "2026-11-20T15:32:56+01:00",
-      "lastResult": "Gidsen ‘Cadeau voor je moeder van €50 tot €100’ en ‘Cadeau voor opa en oma van €25 tot €50’ toegevoegd en gekoppeld vanuit 7 gidsen (nog niet zichtbaar: site offline)",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T16:31:28+01:00",
+      "lastResult": "Gidsen ‘Cadeau voor een kind van €50 tot €100’ en ‘Cadeau voor je vader onder €15’ toegevoegd en gekoppeld vanuit 7 gidsen (nog niet zichtbaar: site offline)",
       "nextRun": "Volgende ronde",
       "blockedBy": null
     },
@@ -98,10 +98,10 @@
       "blockedBy": "Supabase en affiliate-accounts (owner-todo #3, #4, #8)"
     },
     "compliance": {
-      "status": "bezig",
-      "currentTask": "Toetsing van de 65 nieuwe productteksten en 2 gidsen van ronde 16:15",
-      "lastRunAt": "2026-11-20T16:05:00+01:00",
-      "lastResult": "Hertoets 15:15: 52 actieve producten en 2 gidsen getoetst; 1 blokkerend punt (aanbiedingsclaim) opgelost, 4 adviezen (U-15.1–U-15.4); 22 productteksten en 1 gidszin aangepast; GO",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T16:31:28+01:00",
+      "lastResult": "Hertoets 16:15: 65 actieve producten en 2 gidsen getoetst; 0 blokkerend, 6 adviezen (V1–V6); 32 productteksten, 1 rating en 1 gidszin aangepast (gezondheid, oplosmiddelen, kinderveiligheid, prijsoordelen); GO",
       "nextRun": "Volgende ronde",
       "blockedBy": "Akkoord eigenaar op tekstwijzigingen (ops/approvals/2026-11-18-compliance-teksten-hertoets.md)"
     }

@@ -120,7 +120,7 @@ export const guides: Guide[] = [
       { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "Dat verschilt per product. De uiterste besteldatum staat bij elk cadeau en wordt door de site per product berekend, inclusief een dag marge voor de drukte." },
       { q: "Hoeveel geef je uit aan een sinterklaascadeau voor een kind?", a: "Daar bestaat geen vaste regel. Veel gezinnen spreken een bedrag af met familie, zodat de cadeaus ongeveer even groot zijn. In deze selectie vind je zowel kleinere als grotere cadeaus." },
     ],
-    related: ["sinterklaascadeau-tiener", "gamecadeau-tiener-13-17", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-baby-peuter", "sinterklaascadeau-jongens-8-12", "muziekcadeau", "creatief-cadeau", "sinterklaascadeau-meisjes-8-12", "kerstcadeau-kinderen-8-12"],
+    related: ["sinterklaascadeau-tiener", "gamecadeau-tiener-13-17", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-baby-peuter", "sinterklaascadeau-jongens-8-12", "muziekcadeau", "creatief-cadeau", "sinterklaascadeau-meisjes-8-12", "kerstcadeau-kinderen-8-12", "cadeau-kind-50-100-euro"],
   },
   {
     slug: "cadeau-voor-partner",
@@ -189,7 +189,7 @@ export const guides: Guide[] = [
       { q: "Wanneer moet ik bestellen voor kerst?", a: "Dat verschilt per product. De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, inclusief een dag extra marge." },
       { q: "Is dit ook een goed cadeau voor Sinterklaas?", a: "Veel cadeaus passen ook bij Sinterklaas, maar de besteldeadline ligt dan eerder. Kijk bij het product naar de uiterste besteldatum per gelegenheid." },
     ],
-    related: ["cadeau-vader-klussen-gereedschap", "cadeau-voor-partner", "cadeau-voor-moeder", "cadeau-voor-opa-en-oma", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "sinterklaascadeau-voor-vader", "cadeau-vader-25-50-euro", "cadeau-vader-15-25-euro"],
+    related: ["cadeau-vader-klussen-gereedschap", "cadeau-voor-partner", "cadeau-voor-moeder", "cadeau-voor-opa-en-oma", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "sinterklaascadeau-voor-vader", "cadeau-vader-25-50-euro", "cadeau-vader-15-25-euro", "cadeau-vader-onder-15-euro"],
   },
   {
     slug: "cadeau-voor-moeder",
@@ -258,7 +258,7 @@ export const guides: Guide[] = [
       { q: "Zijn deze cadeaus ook geschikt voor Sinterklaas en kerst?", a: "Veel cadeaus passen bij beide momenten. De uiterste besteldatum verschilt per gelegenheid en staat bij elk product." },
       { q: "Hoe voorkom ik dat ik hetzelfde cadeau koop als iemand anders?", a: "Vraag de ouders of spreek met de familie af wie wat koopt. Een spel of bouwset dat al in huis is, kan wel een uitbreiding krijgen, maar vraag dat even na." },
     ],
-    related: ["sinterklaascadeau-baby-peuter", "sinterklaascadeau-kinderen-8-12", "cadeau-onder-15-euro", "cadeau-voor-opa-en-oma", "creatief-cadeau", "spelcadeau-bord-en-kaartspellen"],
+    related: ["sinterklaascadeau-baby-peuter", "sinterklaascadeau-kinderen-8-12", "cadeau-onder-15-euro", "cadeau-voor-opa-en-oma", "creatief-cadeau", "spelcadeau-bord-en-kaartspellen", "cadeau-kind-50-100-euro"],
   },
   {
     slug: "cadeau-vader-klussen-gereedschap",
@@ -868,7 +868,7 @@ export const guides: Guide[] = [
       { q: "Wat is het verschil met de kerstgids voor je vader?", a: "Deze gids rekent met pakjesavond op 5 december. Bij elk cadeau zie je tot wanneer je kunt bestellen; staat er geen datum meer, dan komt het niet meer op tijd voor Sinterklaas. De kerstgids rekent met 24 december." },
       { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag marge. Het cadeau moet uiterlijk vrijdag 4 december in huis zijn." },
     ],
-    related: ["kerstcadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "techcadeau", "sportcadeau-voor-volwassenen", "sinterklaascadeau-voor-moeder", "sportcadeau-voor-vader", "cadeau-vader-25-50-euro", "cadeau-vader-15-25-euro"],
+    related: ["kerstcadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "techcadeau", "sportcadeau-voor-volwassenen", "sinterklaascadeau-voor-moeder", "sportcadeau-voor-vader", "cadeau-vader-25-50-euro", "cadeau-vader-15-25-euro", "cadeau-vader-onder-15-euro"],
   },
   {
     slug: "sinterklaascadeau-voor-moeder",
@@ -916,7 +916,7 @@ export const guides: Guide[] = [
       { q: "Wat is het verschil met het sinterklaascadeau voor kinderen van 8 tot 12?", a: "De selectie en de besteldeadline verschillen. Voor kerst is de uiterste bezorgdatum 24 december, dus je hebt meer tijd dan voor pakjesavond op 5 december." },
       { q: "Tot wanneer kan ik bestellen voor kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge voor de drukte." },
     ],
-    related: ["sinterklaascadeau-kinderen-8-12", "sinterklaascadeau-jongens-8-12", "sinterklaascadeau-meisjes-8-12", "kerstcadeau-voor-tiener", "spelcadeau-bord-en-kaartspellen"],
+    related: ["sinterklaascadeau-kinderen-8-12", "sinterklaascadeau-jongens-8-12", "sinterklaascadeau-meisjes-8-12", "kerstcadeau-voor-tiener", "spelcadeau-bord-en-kaartspellen", "cadeau-kind-50-100-euro"],
   },
   {
     slug: "bouwcadeau-voor-volwassenen",
@@ -1108,7 +1108,7 @@ export const guides: Guide[] = [
       { q: "Is dit ook een goed bedrag voor kerst en Sinterklaas?", a: "Dat bepaal je zelf of samen met de familie. Op de pagina van elk cadeau zie je de uiterste besteldatum voor Sinterklaas en voor kerst." },
       { q: "Wat is het verschil met de andere gidsen voor vaders?", a: "Deze gids toont alleen cadeaus tussen €25 en €50. De gidsen voor kerst, Sinterklaas en klussers tonen alle prijsklassen." },
     ],
-    related: ["kerstcadeau-voor-vader", "sinterklaascadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "sportcadeau-voor-vader", "cadeau-vader-15-25-euro"],
+    related: ["kerstcadeau-voor-vader", "sinterklaascadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "sportcadeau-voor-vader", "cadeau-vader-15-25-euro", "cadeau-vader-onder-15-euro"],
   },
   {
     slug: "cadeau-opa-oma-onder-15-euro",
@@ -1155,7 +1155,7 @@ export const guides: Guide[] = [
       { q: "Wat is het verschil met de gids voor €25 tot €50?", a: "Deze gids toont alleen cadeaus tussen €15 en €25. Wil je meer uitgeven, kijk dan bij de gids voor vaders van €25 tot €50." },
       { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
     ],
-    related: ["cadeau-vader-25-50-euro", "kerstcadeau-voor-vader", "sinterklaascadeau-voor-vader", "cadeau-vader-klussen-gereedschap"],
+    related: ["cadeau-vader-25-50-euro", "kerstcadeau-voor-vader", "sinterklaascadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "cadeau-vader-onder-15-euro"],
   },
   {
     slug: "wellnesscadeau-voor-je-moeder",
@@ -1249,6 +1249,54 @@ export const guides: Guide[] = [
       { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
     ],
     related: ["cadeau-voor-opa-en-oma", "puzzel-en-spelcadeau-oma-opa", "verwencadeau-voor-opa-en-oma", "cadeau-opa-oma-onder-15-euro"],
+  },
+  {
+    slug: "cadeau-kind-50-100-euro",
+    title: "Cadeau voor een kind van €50 tot €100",
+    metaTitle: "Cadeau voor een kind van €50 tot €100 | OpTijdCadeau",
+    metaDescription:
+      "Cadeaus voor kinderen tussen €50 en €100: bouwen, spelen en creatief bezig zijn. Met levertijd en uiterste besteldatum voor Sinterklaas en kerst.",
+    intro: [
+      "Met €50 tot €100 kun je een kind iets geven waar het weken of maanden mee speelt, zoals een grotere bouwset, een speelset met veel onderdelen of iets om samen met een ouder of vriendje te doen. Kijk niet alleen naar de doos, maar naar wat het kind zelf het liefst doet: bouwen, verzinnen, racen, knutselen of buiten spelen.",
+      "In deze selectie staan cadeaus voor kinderen in deze prijsklasse. Let op de leeftijdsaanduiding op de productpagina en op het aantal losse onderdelen: een grote set is pas leuk als het kind er zelf mee uit de voeten kan, of als er iemand is om te helpen. Gaat het cadeau van meerdere familieleden komen, dan kun je het budget delen en één groter cadeau kiezen. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. De bezorging zelf ligt bij de winkel, dus controleer de levertijd en de bezorgdatum op de winkelpagina nog even voor je bestelt. Wij sturen je door en verkopen zelf niets. Prijzen kunnen wijzigen; we tonen de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { voor: "kind", budget: "50-100" },
+    tips: [
+      "Kies iets bij een bezigheid die het kind al heeft, dan weet je dat het niet na een dag in de kast verdwijnt.",
+      "Lees de leeftijdsaanduiding en kijk of er batterijen of een ander apparaat nodig zijn om het cadeau te gebruiken.",
+      "Leg met familie samen in voor één groter cadeau in plaats van meerdere kleine dingen.",
+    ],
+    faq: [
+      { q: "Wat geef je een kind voor €50 tot €100?", a: "Iets waar het kind lang mee bezig kan zijn, zoals een grotere bouwset of een speelset. Kijk eerst naar wat het kind graag doet en wat het al heeft." },
+      { q: "Hoe weet ik of een cadeau bij de leeftijd past?", a: "Op de productpagina bij de winkel staat meestal een leeftijdsaanduiding. Kies bij twijfel iets dat een kind zelfstandig kan gebruiken, of dat je samen kunt doen." },
+      { q: "Wat is het verschil met de gidsen per leeftijd?", a: "Deze gids toont alleen cadeaus tussen €50 en €100, voor kinderen van alle leeftijden. De gidsen per leeftijd bevatten alle prijsklassen." },
+      { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
+    ],
+    related: ["cadeau-kinderen-4-7-jaar", "sinterklaascadeau-kinderen-8-12", "kerstcadeau-kinderen-8-12", "sinterklaascadeau-baby-peuter"],
+  },
+  {
+    slug: "cadeau-vader-onder-15-euro",
+    title: "Cadeau voor je vader onder €15",
+    metaTitle: "Cadeau voor je vader onder €15 | OpTijdCadeau",
+    metaDescription:
+      "Cadeaus voor je vader tot €15: iets kleins voor koffie, klussen of onderweg. Met levertijd en uiterste besteldatum voor Sinterklaas en kerst.",
+    intro: [
+      "Een klein budget betekent niet dat je vader een cadeau krijgt dat nergens bij past. Tot €15 vind je dingen die hij gewoon gebruikt: iets bij de koffie, een handig hulpmiddel voor in de schuur of de auto, een klein spel of iets lekkers.",
+      "Kijk eerst naar wat hij doet op een gewone dag en kies daar iets bij. Een klein cadeau dat hij meteen kan gebruiken, valt meer op dan een groter cadeau dat hij niet nodig heeft. In deze selectie staan cadeaus voor vaders in deze prijsklasse. Wil je er iets groters van maken, combineer het dan met een kaartje in je eigen woorden of een afspraak om samen iets te doen. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. De bezorging zelf ligt bij de winkel, dus controleer de levertijd op de winkelpagina nog even voor je bestelt. Wij sturen je door en verkopen zelf niets. Prijzen kunnen wijzigen; we tonen de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { voor: "vader", budget: "tot-15" },
+    tips: [
+      "Kies iets voor een gewoonte die hij al heeft, zoals koffie, klussen of de auto.",
+      "Bij kleine bedragen kun je twee cadeaus uit dezelfde winkel combineren; kijk dan wel naar de verzendkosten.",
+      "Een persoonlijk kaartje of gedicht maakt een klein cadeau meer waard dan het kost.",
+    ],
+    faq: [
+      { q: "Wat geef je je vader voor minder dan €15?", a: "Iets kleins dat past bij wat hij graag doet: een hulpmiddel voor het klussen, iets bij de koffie of een boek of spel. Kijk eerst wat hij al heeft." },
+      { q: "Is een cadeau onder €15 genoeg voor Sinterklaas of kerst?", a: "Dat bepaal je zelf of met de familie. Een cadeau waar over is nagedacht, valt vaak meer op dan een duur cadeau dat niet past." },
+      { q: "Wat is het verschil met de gids voor €15 tot €25?", a: "Deze gids toont alleen cadeaus tot €15. Wil je meer uitgeven, kijk dan bij de gids voor vaders van €15 tot €25." },
+      { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
+    ],
+    related: ["cadeau-vader-15-25-euro", "cadeau-vader-25-50-euro", "kerstcadeau-voor-vader", "sinterklaascadeau-voor-vader"],
   },
 ];
 
