@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-20T09:15:00+01:00",
+  "updatedAt": "2026-11-20T09:32:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "bezig",
-      "currentTask": "Agent-ronde 09:15: 2 scouts, catalogus, seo-content",
-      "lastRunAt": "2026-11-20T08:30:00+01:00",
-      "lastResult": "Ronde 08:15: +53 cadeaus (1100 actief), alle prijzen ververst, compliance-adviezen A1 en A3–A14 verwerkt, 1 gids, dagrapport 20-11",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T09:32:00+01:00",
+      "lastResult": "Ronde 09:15: +68 cadeaus (1165 actief), 2 gidsen, 6 twijfelteksten opgelost, LEGO-leeftijden gecorrigeerd",
       "nextRun": "Elk uur 08–22",
       "blockedBy": null
     },
     "product-scout": {
-      "status": "bezig",
-      "currentTask": "2 scouts: ~35 bol-cadeaus kinderen 4–12 (creatief, lezen, sport/buiten, muziek) + tieners (lezen, sport) en ~35 moeder/oma (creatief, spellen, lezen, sport) + vaders (gereedschap €50+, sport, gamen)",
-      "lastRunAt": "2026-11-20T08:30:00+01:00",
-      "lastResult": "2 scouts: 60 bol-cadeaus gecontroleerd op de productpagina (30 moeder/oma: radio’s en speakers, weerstation, e-reader, stoelfiets, puzzels; 30 jongens/vaders: kinderboeken, 0–3 jaar, gereedschap, scheerapparaten, modelbouw). Dun gebleven: sport/buiten voor kinderen, 0–3 jaar boven €25, creatief voor moeder (veel niet leverbaar)",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T09:32:00+01:00",
+      "lastResult": "3 scouts: 72 bol-cadeaus gecontroleerd op de productpagina (36 kinderen/tieners: vooral kinder- en YA-boeken, PlayMais, Fimo; 20 moeder/oma/vader: Wera, Knipex, Makita, Stanley, puzzels, boeken; 16 vrouwen/vaders: Philips, Brabantia, Remington, Anker, Soundcore). Dun gebleven: muziek/tech/sport 4–7, sport 8–12, kinderen €50–100, tieners €100+, tech voor oma, moeder €50–100 (veel niet leverbaar bij bol)",
       "nextRun": "Elke agent-ronde (elk uur)",
       "blockedBy": null
     },
@@ -26,10 +26,10 @@
       "blockedBy": "Alleen affiliate (keuze eigenaar 17-11): geen leveranciers nodig"
     },
     "catalogus": {
-      "status": "bezig",
-      "currentTask": "9 productteksten met ‘controleer vóór aankoop’ herverifiëren op de bol-pagina; LEGO-leeftijd van 5 grote sets controleren; daarna nieuwe cadeaus importeren en verrijken",
-      "lastRunAt": "2026-11-20T08:30:00+01:00",
-      "lastResult": "Dagelijkse prijsverversing: 1060 gecontroleerd, 82 prijzen gewijzigd, 9 gepauzeerd (geen aanbod bij bol). Compliance A3–A14 verwerkt in ruim 100 teksten/indelingen; 3 op concept (onduidelijk wat de klant krijgt), Playgro-badset gepauzeerd. 53 nieuwe cadeaus actief met foto, EAN en prijs; 5 niet geïmporteerd (score onder 60), 1 op concept (variant onduidelijk). 1100 actief",
+      "status": "gepland",
+      "currentTask": "Interne notities ‘controleer variant’ bij ~50 actieve producten nalopen (o.a. DualSense Edge, Beurer HK 48, Weber Smokey Joe)",
+      "lastRunAt": "2026-11-20T09:32:00+01:00",
+      "lastResult": "68 nieuwe cadeaus actief met foto, EAN en prijs uit de bol-API (0 gepauzeerd); 4 niet geïmporteerd (score onder 60). 3 teksten met ‘controleer vóór aankoop’ herschreven na controle op de bol-pagina, 3 op concept (JBL Junior 320, Le Creuset bakvorm, Faber-Castell Pitt pastel: pagina spreekt zichzelf tegen). 3 LEGO-sets 18+ uit de tienergroep, Ninjago 30699 naar 8–12. 1165 actief",
       "nextRun": "Elke agent-ronde",
       "blockedBy": null
     },
@@ -50,10 +50,10 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "bezig",
-      "currentTask": "2 nieuwe cadeaugidsen voor dunne zoekthema’s",
-      "lastRunAt": "2026-11-20T08:30:00+01:00",
-      "lastResult": "Belofte ‘komt op tijd’ in 12 gidsteksten vervangen door de uiterste besteldatum per cadeau (compliance A1/A15); nieuwe gids ‘Verwencadeau voor opa en oma’ (49 cadeaus), gekoppeld in 3 gidsen",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T09:32:00+01:00",
+      "lastResult": "Gidsen ‘Bouwcadeau voor volwassenen’ en ‘Cadeau voor een tiener van €15 tot €25’ gepubliceerd en gekoppeld in 6 gidsen",
       "nextRun": "Volgende ronde",
       "blockedBy": null
     },
