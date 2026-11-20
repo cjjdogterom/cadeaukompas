@@ -34,7 +34,7 @@ export const guides: Guide[] = [
       { q: "Wat geef je een collega die je niet goed kent?", a: "Iets praktisch of lekkers: een mok, een spel voor in de pauze of luxe thee. Vermijd persoonlijke verzorging of kleding." },
       { q: "Komt mijn cadeau op tijd voor de borrel?", a: "Bij elk product staat de uiterste besteldatum. Die rekent met werkdagen en een dag extra marge voor de drukte rond de feestdagen." },
     ],
-    related: ["sinterklaascadeau-tiener", "kerstpakket-thuiswerker", "cadeau-onder-15-euro", "cadeau-voor-partner", "cadeau-thuiswerker-50-100-euro", "kerstcadeau-onder-50-euro", "cadeau-voor-een-vriend", "cadeau-collega-onder-15-euro", "cadeau-thuiswerker-25-50-euro"],
+    related: ["sinterklaascadeau-tiener", "kerstpakket-thuiswerker", "cadeau-onder-15-euro", "cadeau-voor-partner", "cadeau-thuiswerker-50-100-euro", "kerstcadeau-onder-50-euro", "cadeau-voor-een-vriend", "cadeau-collega-onder-15-euro", "cadeau-thuiswerker-25-50-euro", "cadeau-collega-25-50-euro"],
   },
   {
     slug: "sinterklaascadeau-tiener",
@@ -189,7 +189,7 @@ export const guides: Guide[] = [
       { q: "Wanneer moet ik bestellen voor kerst?", a: "Dat verschilt per product. De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, inclusief een dag extra marge." },
       { q: "Is dit ook een goed cadeau voor Sinterklaas?", a: "Veel cadeaus passen ook bij Sinterklaas, maar de besteldeadline ligt dan eerder. Kijk bij het product naar de uiterste besteldatum per gelegenheid." },
     ],
-    related: ["cadeau-vader-klussen-gereedschap", "cadeau-voor-partner", "cadeau-voor-moeder", "cadeau-voor-opa-en-oma", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "sinterklaascadeau-voor-vader"],
+    related: ["cadeau-vader-klussen-gereedschap", "cadeau-voor-partner", "cadeau-voor-moeder", "cadeau-voor-opa-en-oma", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "sinterklaascadeau-voor-vader", "cadeau-vader-25-50-euro"],
   },
   {
     slug: "cadeau-voor-moeder",
@@ -868,7 +868,7 @@ export const guides: Guide[] = [
       { q: "Wat is het verschil met de kerstgids voor je vader?", a: "Deze gids rekent met pakjesavond op 5 december. Bij elk cadeau zie je tot wanneer je kunt bestellen; staat er geen datum meer, dan komt het niet meer op tijd voor Sinterklaas. De kerstgids rekent met 24 december." },
       { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag marge. Het cadeau moet uiterlijk vrijdag 4 december in huis zijn." },
     ],
-    related: ["kerstcadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "techcadeau", "sportcadeau-voor-volwassenen", "sinterklaascadeau-voor-moeder", "sportcadeau-voor-vader"],
+    related: ["kerstcadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "techcadeau", "sportcadeau-voor-volwassenen", "sinterklaascadeau-voor-moeder", "sportcadeau-voor-vader", "cadeau-vader-25-50-euro"],
   },
   {
     slug: "sinterklaascadeau-voor-moeder",
@@ -989,7 +989,7 @@ export const guides: Guide[] = [
       { q: "Wat is een normaal budget voor lootjes op het werk?", a: "Dat verschilt per team. Veel teams spreken een bedrag tussen €10 en €25 af. Houd je aan wat is afgesproken, zodat het voor iedereen eerlijk blijft." },
       { q: "Tot wanneer kan ik bestellen voor de kantoorborrel of pakjesavond?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge voor de drukte. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
     ],
-    related: ["cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "cadeau-thuiswerker-25-50-euro", "kerstcadeau-onder-50-euro"],
+    related: ["cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "cadeau-thuiswerker-25-50-euro", "kerstcadeau-onder-50-euro", "cadeau-collega-25-50-euro"],
   },
   {
     slug: "cadeau-thuiswerker-25-50-euro",
@@ -1062,7 +1062,53 @@ export const guides: Guide[] = [
       { q: "Wat is het verschil met de gids voor sportieve volwassenen?", a: "Deze gids toont cadeaus die gemarkeerd zijn voor vaders. De algemene sportgids is breder en niet op een ontvanger gericht." },
       { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
     ],
-    related: ["sportcadeau-voor-volwassenen", "sinterklaascadeau-voor-vader", "kerstcadeau-voor-vader", "cadeau-vader-klussen-gereedschap"],
+    related: ["sportcadeau-voor-volwassenen", "sinterklaascadeau-voor-vader", "kerstcadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "cadeau-vader-25-50-euro"],
+  },
+  {
+    slug: "cadeau-collega-25-50-euro",
+    title: "Cadeau voor een collega van €25 tot €50",
+    metaTitle: "Cadeau voor een collega van €25 tot €50 | OpTijdCadeau",
+    metaDescription:
+      "Cadeaus voor collega's tussen €25 en €50: voor een bedankje, afscheid of grotere lootjes. Met levertijd en uiterste besteldatum per cadeau.",
+    intro: [
+      "Soms past een cadeau van €10 niet: een collega die vertrekt, een teamlid dat je echt wilt bedanken of lootjes met een hoger afgesproken bedrag. Met een budget tussen €25 en €50 kun je iets geven dat een beetje meer aandacht verdient, zonder dat het te persoonlijk of ongemakkelijk wordt.",
+      "In deze selectie staan cadeaus voor op het bureau, voor bij de koffie of thee en voor een pauze met het team. Kies iets dat bijna iedereen kan gebruiken en dat past bij wat je van de ontvanger weet. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. De bezorging zelf ligt bij de winkel, dus controleer de levertijd op de winkelpagina nog even voor je bestelt. Wij sturen je door en verkopen zelf niets. Prijzen kunnen wijzigen; we tonen de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { voor: "collega", budget: "25-50" },
+    tips: [
+      "Kijk wat het team heeft afgesproken. Bij een collecte voor een afscheid mag het bedrag hoger liggen dan bij lootjes, maar houd het voor iedereen haalbaar.",
+      "Twijfel je over smaak? Kies iets voor het bureau of iets voor bij de koffie, dat past bij bijna iedereen.",
+      "Schrijf een kort, persoonlijk kaartje erbij. Dat maakt een neutraal cadeau meteen passender.",
+    ],
+    faq: [
+      { q: "Wat geef je een collega voor €25 tot €50?", a: "Iets praktisch of gezelligs dat bijna iedereen gebruikt: iets voor op het bureau, iets voor koffie of thee of een spel voor het team. Houd het neutraal als je de ontvanger niet goed kent." },
+      { q: "Wat is het verschil met de gids voor collega's onder €25?", a: "Deze gids toont alleen cadeaus tussen €25 en €50. Zoek je iets voor een kleiner lootjesbudget, kijk dan bij de gids voor cadeaus onder €25 of onder €15." },
+      { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge voor de drukte. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
+    ],
+    related: ["cadeau-onder-25-euro-collega", "cadeau-collega-onder-15-euro", "cadeau-thuiswerker-25-50-euro", "kerstcadeau-onder-50-euro"],
+  },
+  {
+    slug: "cadeau-vader-25-50-euro",
+    title: "Cadeau voor je vader van €25 tot €50",
+    metaTitle: "Cadeau voor je vader van €25 tot €50 | OpTijdCadeau",
+    metaDescription:
+      "Cadeaus voor je vader tussen €25 en €50: koffie, spel, sport of iets voor in huis. Met levertijd en uiterste besteldatum voor Sinterklaas en kerst.",
+    intro: [
+      "Een vader die zegt dat hij niets nodig heeft, is moeilijk te verrassen. Met een budget tussen €25 en €50 kun je iets kiezen dat hij echt gebruikt, zonder dat het een groot of ingewikkeld apparaat hoeft te zijn. Kijk naar wat hij doet als hij tijd heeft: koffie zetten, sporten, spelletjes spelen of iets maken.",
+      "In deze selectie staan cadeaus voor vaders in die prijsklasse. Kies liever één ding dat past bij zijn gewoonten dan iets dat je zelf leuk vindt. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. De bezorging zelf ligt bij de winkel, dus controleer de levertijd op de winkelpagina nog even voor je bestelt. Wij sturen je door en verkopen zelf niets. Prijzen kunnen wijzigen; we tonen de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { voor: "vader", budget: "25-50" },
+    tips: [
+      "Kijk wat hij elke dag gebruikt en kies iets dat daar bij past of het fijner maakt.",
+      "Een spel voor de feestdagen is een cadeau voor het hele gezin, ook als het op zijn naam staat.",
+      "Heb je een stekker of maat in je cadeau, controleer dan vooraf of het past bij wat hij al heeft.",
+    ],
+    faq: [
+      { q: "Wat geef je je vader voor €25 tot €50?", a: "Iets dat past bij zijn dagelijkse gewoonten, zoals iets voor koffie of eten, een spel, iets voor het sporten of voor in huis. Kijk eerst wat hij al heeft." },
+      { q: "Is dit ook een goed bedrag voor kerst en Sinterklaas?", a: "Dat bepaal je zelf of samen met de familie. Op de pagina van elk cadeau zie je de uiterste besteldatum voor Sinterklaas en voor kerst." },
+      { q: "Wat is het verschil met de andere gidsen voor vaders?", a: "Deze gids toont alleen cadeaus tussen €25 en €50. De gidsen voor kerst, Sinterklaas en klussers tonen alle prijsklassen." },
+    ],
+    related: ["kerstcadeau-voor-vader", "sinterklaascadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "sportcadeau-voor-vader"],
   },
 ];
 

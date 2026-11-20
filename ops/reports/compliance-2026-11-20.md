@@ -255,3 +255,79 @@ Agent: Compliance · Werkkopie `main` (commit b5dff84). Ik heb alleen gelezen. E
 Nee. Alle adviezen gaan over productdata (Catalogus), gidsteksten (SEO-content) of het gidsfilter (Developer). Er worden geen juridische pagina's of voorwaarden geraakt.
 
 **COMPLIANCE: GO** voor de 262 nieuwe actieve productteksten en de 7 gidsen van 20-11. Er zijn geen blokkerende punten. De adviezen H1–H13 kunnen in de volgende rondes worden opgepakt. H6 (Smoby-garage) en H9 (bouwgids) bij voorkeur vóór de herlancering.
+
+---
+
+## Hertoets 12:15
+
+Agent: Compliance · Werkkopie `main` (na commit 9234107, ongecommitte wijzigingen in `data/products.json` en `lib/guides.ts`). Dit is geen formeel juridisch advies.
+
+### Wat is getoetst
+- **Producten:** alle slugs uit `data/research/shortlist-2026-11-20-moeder-oma-collega-thuiswerker-12.json` (35) en `data/research/shortlist-2026-11-20-jongens-vader-gereedschap-peuter-12.json` (41), zoals ze in `data/products.json` staan. Velden: title, short, description, ageGroups en recipients.
+  - **67 nieuw toegevoegd** (r. 68896–72079): 65 actief, 2 concept (`kneipp-shower-moments-geschenkset-3-mini-douches`, `dahle-507-rolsnijmachine-creative-4-in-1`).
+  - **2 stonden er al** en zijn niet overschreven: `playmobil-sky-trails-starter-kit-xxl-72269` (r. 26589, alleen 8-12, short "vanaf 7 jaar") en `ticket-to-ride-mijn-eerste-reis-europe` (r. 47449). Beide in orde.
+  - **7 niet opgenomen**, dus niet getoetst: `kneipp-body-mind-balance-moments-iris-vetiver`, `kneipp-relaxing-favourites-douchegel-douchescrub-set`, `leitz-nexxt-nietmachine-25-vel-zwart`, `bosch-gereedschapskoffer-41-delig`, `bosch-bitset-7-delig-handschroevendraaier`, `janod-houten-mandje-fruit-groenten` en `avento-voetbaltrainer-met-elastiek-kinderen`. Goed dat de Bosch-koffer niet is opgenomen: EAN-prefix 694, verkoper De StuntShop en 41 tegenover 47 onderdelen. Niet activeren zonder eerst te controleren of het echt een Bosch-product is.
+- **Gidsen (2):** `cadeau-collega-25-50-euro` (`lib/guides.ts` r. 1068) en `cadeau-vader-25-50-euro` (r. 1091). De claim "een dag extra marge" klopt met `PEAK_BUFFER_DAYS = 1` in `lib/deadlines.ts` r. 18. Alle `related`-slugs bestaan.
+
+### Wat goed is
+- Er staan geen superlatieven, prijs- of voorraadclaims ("op=op", "bijna uitverkocht", "morgen in huis", "korting") in de publieke teksten. Zulke informatie staat alleen in `scout.notes`. Er zijn ook geen review- of populariteitsclaims, geen "nieuwste" en geen beloftes dat iets op tijd komt.
+- **Voetenbaden** (Beurer FB 20/FB 30, Brixy, Tristar) en **Kneipp**-sets beschrijven functies en geur, geen gezondheidseffect. "Voetreflex" uit de winkeltitel is niet overgenomen.
+- **Leeftijden kloppen met de fabrikant.**
+  - PLAYMOBIL 4+ staat in 4-7.
+  - LEGO City 5+/6+ en de bordspellen 6+/7+ noemen hun leeftijd in de short.
+  - De DUPLO-set (2+), de loopfietsen (vanaf 2 jaar, Veloretti 2-4) en de Micro-step (18 maanden) staan in 0-3.
+  - De Playgro-producten (12 en 9 maanden) en de puzzels (vanaf 1 jaar) staan ook in 0-3.
+  - 3+-producten in 0-3 noemen allemaal "vanaf 3 jaar" in de short, zoals volgens de B3-uitzondering moet: `janod-brico-kids-ton-100-stuks`, `janod-spel-crazy-sticks` en `klein-bosch-mini-speelgoed-gereedschapskist-met-boormachine`.
+- **PEGI:** `nintendo-super-mario-odyssey-switch` noemt PEGI 7 in title en short en staat in 8-12 en 13-17.
+- **Veiligheid:** de loopfiets en de step vermelden "onder toezicht", de nijntje-puzzel ook. Bij de Klein-speelgoedboor staat dat er batterijen nodig zijn.
+- **Gidsen:** er staan geen superlatieven of schaarste in. Er staat "wij sturen je door en verkopen zelf niets", "controleer de levertijd bij de winkel" en "prijzen kunnen wijzigen; we tonen de controledatum".
+
+### Blokkerende punten
+**Geen.**
+
+### Direct doorgevoerde tekstcorrecties (12 slugs plus 1 gids)
+| Slug | Was | Nu | Waarom |
+|---|---|---|---|
+| `kneipp-embrace-life-favourites-geschenkset` (short) | "Een klein set" | "Een kleine set" | Spelling (de set) |
+| `kneipp-shower-moments-geschenkset-3-mini-douches` (concept) | "Een eenvoudig cadeau onder de 15 euro." | "Een eenvoudig klein cadeau." | Statische prijsclaim (A13) |
+| `kneipp-goodbye-stress-geschenkset` | "Een cadeau voor wie een drukke periode heeft." | geschrapt | Samen met de productnaam suggereert dit een werking tegen stress (cosmeticaclaim, Reclamecode) |
+| `kneipp-luxe-geschenkset-relaxing-lavendel-3-delig` | "Een vertrouwde keuze…" | "Een verzorgingscadeau…" | Reputatieclaim zonder bron (A4) |
+| `kozie-springvorm-26-cm-pfas-vrij` | title ", PFAS-vrij"; "De antiaanbaklaag is PFAS-vrij" | uit de title gehaald; "volgens de verkoper PFAS-vrij" | Milieu- en gezondheidsclaim die wij niet kunnen onderbouwen (ACM Leidraad Duurzaamheidsclaims) |
+| `kozie-muffinvorm-12-stuks-pfas-vrij` | idem, plus "Een goedkoop cadeau" | idem, plus "Een klein cadeau" | Idem, plus prijsoordeel (A13) |
+| `beurer-fb20-elektrisch-voetenbad` | "leg de voeten even omhoog" | "laat de voeten even weken" | Klopte niet met het gebruik |
+| `leitz-vilten-bureau-onderlegger-70x36-donkergrijs` | "die bij elk thuiswerkbureau past" | "voor op het thuiswerkbureau" | Absolute claim |
+| `bosch-schroevendraaierset-8-delig` | "Daarmee kan een vader…"; "Geleverd door bol zelf." | "Daarmee kun je de meeste schroeven in huis aan."; verkoperszin geschrapt | Verkoper kan wisselen (statische claim); genderneutraal |
+| `playgro-floating-fun-friends-badspeelgoed` | "Ze zijn van BPA-vrij kunststof en voldoen aan EN 71." | "Volgens de fabrikant zijn ze…" | Claim toeschrijven aan de bron |
+| `klein-bosch-mini-speelgoed-gereedschapskist-met-boormachine` | "naast papa meehelpen" | "naast een volwassene meehelpen" | Genderformulering (A14) |
+| `lego-city-donuttruck-60452` (short) | "afneembaar kiosk" | "afneembare kiosk" | Spelling (de kiosk) |
+| Gids `cadeau-vader-25-50-euro`, FAQ 2 | "Veel gezinnen spreken een bedrag af. Bij elk cadeau staat de uiterste besteldatum voor beide gelegenheden." | "Op de pagina van elk cadeau zie je de uiterste besteldatum voor Sinterklaas en voor kerst." | Feitelijke claim zonder bron (H10). De kaart toont maar één datum (`CardDeadline.tsx`). |
+
+Er zijn geen andere velden, prijzen of statussen gewijzigd. Er is geen product op concept gezet. JSON-opbouw en inspringing zijn ongewijzigd gebleven: alleen stringwaarden zijn vervangen.
+
+### Adviezen
+**T1. Is het wel het juiste product? (A11/H8)** Catalogus moet dit controleren vóór (her)activeren:
+- `kneipp-shower-moments-geschenkset-3-mini-douches` (concept): de URL-slug zegt "favourites-4-stuks", de title "3 mini douches". Laten staan op concept tot vaststaat welke set de klant krijgt.
+- `kozie-muffinvorm-12-stuks-pfas-vrij`: de URL zegt "mini-muffinvorm", de tekst "muffinvorm voor 12 muffins". Controleer of het om mini-muffins gaat.
+- `janod-i-wood-vorm-en-geluid-puzzel`: de title noemt "geluid", de specificaties zeggen dat er geen geluid is (scout-notitie). Controleer dit en pas zo nodig de title aan.
+- `dahle-507-rolsnijmachine-creative-4-in-1` (concept): er zijn twee snijlengtes en twee prijzen (€ 57,50 en € 33,95). Prijs en variant controleren vóór activeren.
+
+**T2. Twijfel over het product in de publieke tekst (A11).** "Een reviewer meldde dat de platbektang ontbrak" (`stanley-dynagrip-tangenset-3-delig-150mm`), "het exacte aantal per type verschilt" (`stanley-schroevendraaierset-42-delig-softbag`) en "het aantal pionnen verschilt op de pagina (5 of 6)" (`clementoni-ganzenbord-disney`). Dat is eerlijk, maar laat zien dat de inhoud niet vaststaat. Voorstel: opnieuw controleren en de zin schrappen.
+
+**T3. Veiligheidsgegeven onduidelijk.** Bij `hudora-scooter-start-200-step-oranje` staat het maximale kindgewicht als 30 of 100 kg op de pagina. In onze tekst staat "tegenstrijdig vermeld". Voorstel (Catalogus): bij Hudora of in de handleiding controleren en het juiste getal noemen. Lukt dat niet vóór de herlancering, dan pauzeren. Overweeg bij de steps en loopfietsen "draag een helm" toe te voegen.
+
+**T4. Seizoensproduct.** `playmobil-christmas-adventskalender-noordpool-72226`: na de laatste besteldatum voor 1 december op gepauzeerd zetten. De tekst zelf belooft niets ("let op de besteldatum").
+
+**T5. 3+-speelgoed met kleine onderdelen in 0-3.** Dit is toegestaan volgens de B3-uitzondering omdat de short "vanaf 3 jaar" zegt. Toch verschijnen bouten, schroefjes en stokjes zo in peutergidsen (`janod-brico-kids-ton-100-stuks`, `janod-spel-crazy-sticks`, `klein-bosch-mini-…`). Voorstel voor de eigenaar: 3+ voortaan alleen in 4-7 indelen. Dat is strenger dan nu en voorkomt verwarring met "niet geschikt voor kinderen onder 36 maanden".
+
+**T6. Gidsen: belooft de intro wat het filter toont (zoals H9)?**
+- `cadeau-collega-25-50-euro` noemt "voor bij de koffie of thee", "een pauze met het team" en in de FAQ "een spel voor het team".
+- `cadeau-vader-25-50-euro` (metaDescription) noemt "koffie, spel, sport of iets voor in huis".
+
+Voorstel (SEO-content): op de preview nakijken of het filter (`voor` + `budget: "25-50"`) die soorten producten echt toont. Is dat niet zo, pas dan de opsomming aan.
+
+**T7. Buiten de opdracht gezien.** `sportcadeau-voor-vader` (r. 1047, 1055 en 1060) spreekt van "herstel" en "een hulpmiddel voor het herstel". Dat is dezelfde soort claim als A3. Voorstel: "om na het sporten te ontspannen".
+
+### Akkoord nodig?
+Nee. Alleen productteksten en één gids-FAQ zijn aangepast. Er zijn geen juridische pagina's, checkout of prijzen geraakt.
+
+**COMPLIANCE: GO** voor de 67 nieuwe producten en de 2 gidsen van ronde 12:15. Er zijn geen blokkerende punten. T1 (Kneipp Shower Moments en Dahle blijven concept) en T3 (Hudora) bij voorkeur vóór de herlancering.
