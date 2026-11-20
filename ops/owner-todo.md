@@ -4,7 +4,7 @@ OpTijdCadeau is een **affiliate-cadeaugids** (keuze eigenaar 17-11): we verkopen
 
 Gesorteerd op volgorde. Vink af met `[x]`. Sleutels zet je in Vercel (Settings → Environment Variables) en in `.env.local`; nooit in de chat plakken, nooit committen. Sjabloon: `.env.example`.
 
-## 0. SPOED: site is offline (gezien 20-11, 10:34; om 12:45 nog steeds offline)
+## 0. SPOED: site is offline (gezien 20-11, 10:34; om 13:36 nog steeds offline)
 
 - [ ] **Vercel-project terugzetten** — optijdcadeau.nl geeft 404 (DEPLOYMENT_NOT_FOUND). Het project `cadeaukompas` staat niet meer in team "chris' projects" (verwijderd of naar een ander team verplaatst); om 09:32 werkte de site nog. Het domein optijdcadeau.nl staat nog wel in je account. Kijk op vercel.com of het project in een ander team staat. Zo niet: Add New → Project → importeer GitHub-repo `cjjdogterom/cadeaukompas`, zet de environment variables opnieuw (zie `.env.example`; sleutels zelf invullen) en koppel optijdcadeau.nl + www onder Settings → Domains. De agents hebben niets aangemaakt of gewijzigd in Vercel. Sinds 12:15 kunnen de agents ook niet meer in Vercel meekijken (de koppeling krijgt ‘403, geen toegang tot team’): geef na het terugzetten de Vercel-connector in de Claude-app opnieuw toegang tot het team. Tot dit is opgelost: geen bezoekers, geen commissie, geen bol-verrijking of bezorgdatums.
 

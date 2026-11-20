@@ -166,7 +166,7 @@ export const guides: Guide[] = [
       { q: "Kan ik een cadeau rechtstreeks naar opa en oma laten bezorgen?", a: "Vaak kan dat met een ander bezorgadres, maar dat verschilt per winkel. Je bestelt wel bij de winkel zelf; we sturen je door via onze links. Controleer bij het bestellen het afleveradres en de levertijd." },
       { q: "Wanneer moet ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau. We rekenen met werkdagen en een dag extra marge voor de drukte." },
     ],
-    related: ["puzzel-en-spelcadeau-oma-opa", "verwencadeau-voor-opa-en-oma", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "sinterklaascadeau-baby-peuter", "cadeau-voor-wie-graag-kookt", "cadeau-voor-wie-alles-heeft"],
+    related: ["puzzel-en-spelcadeau-oma-opa", "verwencadeau-voor-opa-en-oma", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "sinterklaascadeau-baby-peuter", "cadeau-voor-wie-graag-kookt", "cadeau-voor-wie-alles-heeft", "cadeau-opa-oma-onder-15-euro"],
   },
   {
     slug: "kerstcadeau-voor-vader",
@@ -189,7 +189,7 @@ export const guides: Guide[] = [
       { q: "Wanneer moet ik bestellen voor kerst?", a: "Dat verschilt per product. De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, inclusief een dag extra marge." },
       { q: "Is dit ook een goed cadeau voor Sinterklaas?", a: "Veel cadeaus passen ook bij Sinterklaas, maar de besteldeadline ligt dan eerder. Kijk bij het product naar de uiterste besteldatum per gelegenheid." },
     ],
-    related: ["cadeau-vader-klussen-gereedschap", "cadeau-voor-partner", "cadeau-voor-moeder", "cadeau-voor-opa-en-oma", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "sinterklaascadeau-voor-vader", "cadeau-vader-25-50-euro"],
+    related: ["cadeau-vader-klussen-gereedschap", "cadeau-voor-partner", "cadeau-voor-moeder", "cadeau-voor-opa-en-oma", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "sinterklaascadeau-voor-vader", "cadeau-vader-25-50-euro", "cadeau-vader-15-25-euro"],
   },
   {
     slug: "cadeau-voor-moeder",
@@ -327,7 +327,7 @@ export const guides: Guide[] = [
       { q: "Welk spel is geschikt voor opa en oma?", a: "Een spel dat je in een paar minuten uitlegt en dat met twee of meer mensen werkt, zoals een kaartspel. Kijk op de verpakking naar het aantal spelers en de speelduur." },
       { q: "Wanneer moet ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau. We rekenen met werkdagen en een dag extra marge voor de drukte." },
     ],
-    related: ["cadeau-voor-opa-en-oma", "verwencadeau-voor-opa-en-oma", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "cadeau-onder-15-euro", "cadeau-voor-lezers", "spelcadeau-bord-en-kaartspellen"],
+    related: ["cadeau-voor-opa-en-oma", "verwencadeau-voor-opa-en-oma", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "cadeau-onder-15-euro", "cadeau-voor-lezers", "spelcadeau-bord-en-kaartspellen", "cadeau-opa-oma-onder-15-euro"],
   },
   {
     slug: "verwencadeau-voor-opa-en-oma",
@@ -352,7 +352,7 @@ export const guides: Guide[] = [
       { q: "Waar let ik op bij een cadeau met een stekker?", a: "Kies iets met een duidelijke aan- en uitknop en lees de gebruiksaanwijzing en veiligheidsinformatie op de verpakking. Dat geldt voor elk elektrisch cadeau, voor jong en oud." },
       { q: "Wat is het verschil met de algemene gids voor opa en oma?", a: "Die gids bevat alle soorten cadeaus voor opa en oma. Deze gids toont alleen cadeaus om te verwennen en te ontspannen." },
     ],
-    related: ["cadeau-voor-opa-en-oma", "puzzel-en-spelcadeau-oma-opa", "verwencadeau-voor-haar", "cadeau-voor-moeder", "cadeau-voor-fijnproevers"],
+    related: ["cadeau-voor-opa-en-oma", "puzzel-en-spelcadeau-oma-opa", "verwencadeau-voor-haar", "cadeau-voor-moeder", "cadeau-voor-fijnproevers", "cadeau-opa-oma-onder-15-euro"],
   },
   {
     slug: "sportcadeau-voor-volwassenen",
@@ -868,7 +868,7 @@ export const guides: Guide[] = [
       { q: "Wat is het verschil met de kerstgids voor je vader?", a: "Deze gids rekent met pakjesavond op 5 december. Bij elk cadeau zie je tot wanneer je kunt bestellen; staat er geen datum meer, dan komt het niet meer op tijd voor Sinterklaas. De kerstgids rekent met 24 december." },
       { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag marge. Het cadeau moet uiterlijk vrijdag 4 december in huis zijn." },
     ],
-    related: ["kerstcadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "techcadeau", "sportcadeau-voor-volwassenen", "sinterklaascadeau-voor-moeder", "sportcadeau-voor-vader", "cadeau-vader-25-50-euro"],
+    related: ["kerstcadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "techcadeau", "sportcadeau-voor-volwassenen", "sinterklaascadeau-voor-moeder", "sportcadeau-voor-vader", "cadeau-vader-25-50-euro", "cadeau-vader-15-25-euro"],
   },
   {
     slug: "sinterklaascadeau-voor-moeder",
@@ -1062,7 +1062,7 @@ export const guides: Guide[] = [
       { q: "Wat is het verschil met de gids voor sportieve volwassenen?", a: "Deze gids toont cadeaus die gemarkeerd zijn voor vaders. De algemene sportgids is breder en niet op een ontvanger gericht." },
       { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
     ],
-    related: ["sportcadeau-voor-volwassenen", "sinterklaascadeau-voor-vader", "kerstcadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "cadeau-vader-25-50-euro"],
+    related: ["sportcadeau-voor-volwassenen", "sinterklaascadeau-voor-vader", "kerstcadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "cadeau-vader-25-50-euro", "cadeau-vader-15-25-euro"],
   },
   {
     slug: "cadeau-collega-25-50-euro",
@@ -1108,7 +1108,54 @@ export const guides: Guide[] = [
       { q: "Is dit ook een goed bedrag voor kerst en Sinterklaas?", a: "Dat bepaal je zelf of samen met de familie. Op de pagina van elk cadeau zie je de uiterste besteldatum voor Sinterklaas en voor kerst." },
       { q: "Wat is het verschil met de andere gidsen voor vaders?", a: "Deze gids toont alleen cadeaus tussen €25 en €50. De gidsen voor kerst, Sinterklaas en klussers tonen alle prijsklassen." },
     ],
-    related: ["kerstcadeau-voor-vader", "sinterklaascadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "sportcadeau-voor-vader"],
+    related: ["kerstcadeau-voor-vader", "sinterklaascadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "sportcadeau-voor-vader", "cadeau-vader-15-25-euro"],
+  },
+  {
+    slug: "cadeau-opa-oma-onder-15-euro",
+    title: "Cadeau voor oma en opa onder €15",
+    metaTitle: "Cadeau voor oma en opa onder €15 | OpTijdCadeau",
+    metaDescription:
+      "Kleine cadeaus tot €15 voor oma en opa: thee, een boek, iets lekkers of een puzzelboekje. Met levertijd en uiterste besteldatum per cadeau.",
+    intro: [
+      "Een cadeau voor oma of opa hoeft niet groot te zijn om goed te vallen. Zeker als het budget beperkt is, werkt een klein cadeau dat ze snel gebruiken beter dan iets dat op een plank belandt. Denk aan een doosje thee, een kort boek, een puzzelboekje voor bij de koffie of iets voor de vogels in de tuin.",
+      "In deze selectie staan cadeaus tot €15 die zijn gemarkeerd voor opa en oma. Let op gebruiksgemak: kies iets dat je uit de verpakking haalt en direct kunt gebruiken, zonder installatie of handleiding. Wil je het cadeau wat groter maken, combineer dan twee kleine dingen, bijvoorbeeld thee met een boek. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. De bezorging zelf ligt bij de winkel, dus controleer de levertijd op de winkelpagina nog even voor je bestelt. Wij sturen je door en verkopen zelf niets. Prijzen kunnen wijzigen; we tonen de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { voor: "opa-oma", budget: "tot-15" },
+    tips: [
+      "Kies iets dat opraakt, zoals thee of een traktatie. Dan hoeft er geen plek voor te komen.",
+      "Combineer twee kleine cadeaus tot één pakketje, bijvoorbeeld thee met een boekje, als je het groter wilt laten lijken.",
+      "Een kaartje in je eigen handschrift telt vaak zwaarder dan het cadeau zelf.",
+    ],
+    faq: [
+      { q: "Wat geef je oma of opa voor een klein bedrag?", a: "Iets kleins dat ze gebruiken: thee, een kort boek, een puzzelboekje, een kaars of handcrème. Kijk wat ze al thuis hebben en wat ze graag doen." },
+      { q: "Wat is het verschil met de algemene gids voor opa en oma?", a: "Deze gids toont alleen cadeaus tot €15. De algemene gids voor opa en oma bevat alle prijsklassen." },
+      { q: "Kan ik het cadeau naar een ander adres laten sturen?", a: "Dat kan vaak, maar het verschilt per winkel. Je bestelt bij de winkel zelf; controleer daar het afleveradres en de levertijd." },
+      { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
+    ],
+    related: ["cadeau-voor-opa-en-oma", "puzzel-en-spelcadeau-oma-opa", "verwencadeau-voor-opa-en-oma", "cadeau-onder-15-euro"],
+  },
+  {
+    slug: "cadeau-vader-15-25-euro",
+    title: "Cadeau voor je vader van €15 tot €25",
+    metaTitle: "Cadeau voor je vader van €15 tot €25 | OpTijdCadeau",
+    metaDescription:
+      "Cadeaus voor je vader tussen €15 en €25: koffie, verzorging, boeken of iets voor het sporten. Met levertijd en uiterste besteldatum per cadeau.",
+    intro: [
+      "Heb je een kleiner budget voor je vader, dan hoef je daarom niet voor een standaardcadeau te kiezen. Tussen €15 en €25 vind je dingen die hij echt gebruikt: iets voor de koffie, iets voor verzorging, een boek over iets waar hij van houdt of een hulpmiddel bij het sporten.",
+      "Kijk eerst naar wat hij elke week doet en kies daar iets bij. Dat is vaak persoonlijker dan iets groters dat nergens bij past. In deze selectie staan cadeaus voor vaders in die prijsklasse. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. De bezorging zelf ligt bij de winkel, dus controleer de levertijd op de winkelpagina nog even voor je bestelt. Wij sturen je door en verkopen zelf niets. Prijzen kunnen wijzigen; we tonen de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { voor: "vader", budget: "15-25" },
+    tips: [
+      "Kies bij een klein budget voor één ding dat past bij zijn gewoonten, in plaats van meerdere dingen die nergens bij horen.",
+      "Een boek werkt het best als je weet welke schrijver of welk onderwerp hij graag leest. Weet je dat niet, kies dan iets anders.",
+      "Combineer eventueel iets kleins met een kaartje of iets zelfgemaakts.",
+    ],
+    faq: [
+      { q: "Wat geef je je vader voor €15 tot €25?", a: "Iets dat past bij wat hij graag doet: koffie zetten, sporten, lezen of klussen. Kijk eerst wat hij al heeft, zodat je niet iets dubbel koopt." },
+      { q: "Wat is het verschil met de gids voor €25 tot €50?", a: "Deze gids toont alleen cadeaus tussen €15 en €25. Wil je meer uitgeven, kijk dan bij de gids voor vaders van €25 tot €50." },
+      { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
+    ],
+    related: ["cadeau-vader-25-50-euro", "kerstcadeau-voor-vader", "sinterklaascadeau-voor-vader", "cadeau-vader-klussen-gereedschap"],
   },
 ];
 

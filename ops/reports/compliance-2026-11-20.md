@@ -331,3 +331,87 @@ Voorstel (SEO-content): op de preview nakijken of het filter (`voor` + `budget: 
 Nee. Alleen productteksten en één gids-FAQ zijn aangepast. Er zijn geen juridische pagina's, checkout of prijzen geraakt.
 
 **COMPLIANCE: GO** voor de 67 nieuwe producten en de 2 gidsen van ronde 12:15. Er zijn geen blokkerende punten. T1 (Kneipp Shower Moments en Dahle blijven concept) en T3 (Hudora) bij voorkeur vóór de herlancering.
+
+---
+
+## Hertoets 13:15
+
+Agent: Compliance · Werkkopie `main` (na commit 4ae1839, ongecommitte wijzigingen in `data/products.json` en `lib/guides.ts`). Dit is geen formeel juridisch advies.
+
+### Wat is getoetst
+- **Producten:** de slugs uit `data/research/shortlist-2026-11-20-moeder-oma-spellen-sport-tech-13.json` (35) en `data/research/shortlist-2026-11-20-jongens-vader-muziek-sport-tech-gereedschap-13.json` (35), zoals ze in `data/products.json` staan (r. 72088–75003). Velden: title, short en description, plus ageGroups en recipients bij kind- en tienerproducten.
+  - **60 opgenomen:** 56 actief en 4 concept (`soundcore-life-q30-anc-koptelefoon`, `soundcore-p30i-draadloze-oordopjes-anc`, `powerlocus-p2-draadloze-kinderkoptelefoon` en `tinyplay-kindercamera-met-fotoprinter-48mp`).
+  - **10 niet opgenomen**, dus niet getoetst: `stelton-emma-theekan-met-filter-1-liter-zwart`, `ravensburger-puzzel-sweet-street-1000-stukjes`, `alecto-fr-115bw-walkietalkie-set-van-2`, `bresser-junior-telescoop-32x-kinderen`, `dunlop-opvouwbaar-voetbaldoel-90x59`, `dunlop-opvouwbaar-voetbaldoel-mini-55x44`, `varta-day-light-key-chain-sleutelhangerlamp`, `varta-aluminium-light-f20-pro-zaklamp`, `robotime-3d-puzzel-tower-bridge-led-tg412` en `robotime-modelbouwpakket-sailing-ship-118-delig`.
+- **Gidsen (2):** `cadeau-opa-oma-onder-15-euro` (`lib/guides.ts` r. 1114) en `cadeau-vader-15-25-euro` (r. 1138): intro, tips, FAQ en meta. De budgetsleutels `tot-15` en `15-25` bestaan (`lib/types.ts` r. 40–41) en alle `related`-slugs bestaan.
+
+### Wat goed is
+- **Fitbit:** de tekst beschrijft functies ("telt stappen, volgt slaap, laat de hartslag zien") en geen gezondheidseffect. Er staan geen medische claims in.
+- **Kinderkoptelefoons:** het woord "veilig" uit de winkeltitels ("Veilig luisteren tot 85 dB", "Veilig - Duurzaam") is niet overgenomen. Er staan alleen de dB-grenzen in.
+- **Leeftijden:** in deze ronde zit geen product in 0–3. TinyPlay (fabrikant 4+) staat in 4–7 en 8–12. Bresser staat alleen in 8–12. De Robotime-bouwpakketten (12+) staan in 13–17 en volwassen en noemen hun leeftijd in de description. Weerwolven staat in 13–17 en volwassen.
+- **Geen** "nieuwste", superlatieven, "op=op", "morgen in huis", korting of adviesprijs in de publieke tekst. Adviesprijzen en "(deal)" staan alleen in `scout.notes`.
+- **Gidsen:** er staan geen superlatieven, schaarste of verzonnen reviews in. Wel staat erin: "wij sturen je door en verkopen zelf niets", "controleer de levertijd bij de winkel" en "prijzen kunnen wijzigen; we tonen de controledatum". De claim "een dag extra marge" klopt met `PEAK_BUFFER_DAYS`.
+
+### Blokkerende punten
+**B-13.1 (opgelost door tekstcorrectie): voorraadclaim in een actief product.** Dit valt onder de regel "Geen 'nog maar X op voorraad' … of valse urgentie" (zoals B2 van 01:35). `bresser-junior-telescoop-microscoop-set-smartphone` (actief) had in de description: "De voorraad bij bol was bijna op toen de pagina werd bekeken." Ik heb die zin geschrapt. Daarvoor was geen keuze van de eigenaar nodig: de standaardfix van B2 is "zin schrappen". Er zijn verder geen blokkerende punten.
+
+### Direct doorgevoerde tekstcorrecties (25 slugs plus 2 gidsen)
+| Slug | Was | Nu | Waarom |
+|---|---|---|---|
+| `fitbit-inspire-3-activity-tracker-geel` | (geen kanttekening) | toegevoegd: "De metingen zijn een indicatie; het is geen medisch hulpmiddel." | Hartslag- en slaapmeting mogen niet als medische meting overkomen (Reclamecode, A3) |
+| `philips-eco-conscious-hd5120-00-filterkoffiezetter` | short "deels gemaakt van gerecycled plastic"; description "met een behuizing van gerecycled plastic" | beide "volgens Philips deels …" | Duurzaamheidsclaim toegeschreven aan de bron en consistent gemaakt (ACM Leidraad Duurzaamheidsclaims) |
+| `moccamaster-cup-one-off-white` | short "…, met 5 jaar garantie"; "staat bekend om het gelijkmatige brouwen"; "een of twee" | garantie uit de short; "volgens de fabrikant geldt 5 jaar fabrieksgarantie"; reputatiezin geschrapt; "één of twee" | A10 (garantie), A4 (reputatie), spelling |
+| `moccamaster-kbg-select-black` | short "…, met 5 jaar garantie"; "op de juiste temperatuur"; "Een duurzaam cadeau" | garantie uit de short; "Volgens Moccamaster … vaste temperatuur; de fabrikant geeft 5 jaar fabrieksgarantie"; "Een cadeau dat lang meegaat" | A10, claim aan de bron toegeschreven, H3 |
+| `vatten-premium-rvs-theepot-1-2-liter-dubbelwandig` | "wordt aan de buitenkant niet heet" | "minder heet" | Absolute claim, met kans op verbranding |
+| `dopper-travel-mug-thermosbeker-400-ml-blazing-black` | "Past in de meeste bekerhouders" | "Past in veel bekerhouders" | Niet te onderbouwen |
+| `basil-tour-waterproof-dubbele-fietstas-28-liter-zwart` (short) | "die volledig waterdicht is" | "die volgens Basil volledig waterdicht is" | Claim aan de bron toegeschreven |
+| `clementoni-puzzel-500-het-oude-schoenhuis` | "Een goedkoop cadeautje" | "Een klein cadeautje" | Prijsoordeel (A13) |
+| `jan-van-haasteren-puzzel-blik-op-oneindig-500-stukjes` | "Zoals bij alle puzzels van deze tekenaar … in elke hoek" | "Zoals bij de puzzels van Jan van Haasteren … overal" | Absolute claim |
+| `philips-tak4200ct-draadloze-kinderkoptelefoon` | "als veilige inschatting" | "als voorzichtige inschatting" | "Veilig" bij een kinderkoptelefoon kan als veiligheidsclaim worden gelezen |
+| `bresser-junior-microscoop-40x-640x-koffer` | (geen) | toegevoegd: "Laat het zelf maken van preparaten samen met een volwassene doen." | Veiligheid bij een kindproduct (A8) |
+| `bresser-junior-telescoop-microscoop-set-smartphone` | voorraadzin | geschrapt; toegevoegd: "Kijk met de telescoop nooit naar de zon." | B-13.1 en A8 |
+| `sterk-in-de-keuken-kids-kinderkookboek` | "bedoeld om samen of zelfstandig te koken" | toegevoegd: "laat een volwassene helpen bij messen, oven en fornuis" | Veiligheid bij 8–12 |
+| `tycano-pop-up-voetbaldoelen-120x90-set-van-2` | "Op de pagina stond ook een kleurvariant als niet leverbaar; de zwarte uitvoering was bestelbaar." | geschrapt; toegevoegd: "Laat een volwassene de doelen opzetten, inklappen en vastzetten." | Statische voorraadinformatie. Pop-updoelen met een veerkrachtig glasvezelframe en grondpennen staan in 4–7. |
+| `virtufit-pop-up-voetbaldoelen-120x90-set-van-2` | "De beoordeling is gemiddeld (3,7 uit 30 reviews)." | geschrapt; dezelfde zin over opzetten door een volwassene | Reviewcijfer in de description (A4); de rating staat al met bron. Veiligheid. |
+| `hori-nintendo-switch-joy-con-oplaadstation` | (geen) | toegevoegd: "gemaakt voor de Joy-Cons van de eerste Nintendo Switch; controleer bij de winkel of het past als iemand een Switch 2 heeft" | Essentieel kenmerk. De Joy-Con 2 heeft een andere aansluiting (art. 6:193d BW). |
+| `varta-aluminium-light-f30-pro-zaklamp` | "de fabrikant geeft 1 jaar garantie" | "Volgens de fabrikant geldt 1 jaar fabrieksgarantie, naast je wettelijke rechten." | "1 jaar garantie" kan suggereren dat de wettelijke garantie korter is (A10, conformiteit) |
+| `wera-kraftform-100-vde-torx-schroevendraaierset-6-delig` | "geschikt voor werk onder spanning tot 1000 volt" | "De isolatie is volgens VDE getest tot 1000 volt; werk thuis altijd spanningsloos." | Veiligheid: niet aanzetten tot werken aan een spanningvoerende installatie |
+| `stanley-mobile-work-center-gereedschapswagen-1-70-326` (short) | "Moduleerbare" | "Modulaire" | Spelling |
+| `wera-kraftform-xxl-2-schroevendraaierset-12-delig` | (geen) | toegevoegd: "een spanningszoeker geeft alleen een indicatie en vervangt geen spanningstester" | Veiligheid |
+| `knipex-00-20-72-v01-werkplaats-tangenset-2-delig` | "Bekend merk met een goede naam onder klussers." | geschrapt | Reputatieclaim zonder bron (A4) |
+| `knipex-00-20-12-elektro-tangenset-3-delig-vde` | "Geen reviews op de pagina." | "; werk thuis altijd spanningsloos." | De reviewstatus is statisch en veroudert (A4). Veiligheid. |
+| `bosch-professional-gsb-18v-65-klopboormachine-solo` | "past bij iemand die al Bosch 18V-accu's heeft" | "… al blauwe Bosch Professional 18V-accu's heeft; de groene Bosch-accu's voor thuisgebruik passen er niet op." | Misleiding over een essentieel kenmerk. In dezelfde ronde staat de groene EasyDrill 18V-40, en die accu's passen niet op deze machine. |
+| `robotime-3d-puzzel-luchtschip-airship-176-delig` | "Fabrikant adviseert minimaal 12 jaar." | "Volgens de specificaties vanaf 12 jaar; de productbeschrijving noemt 14+." | De leeftijd op de pagina is tegenstrijdig; het product staat ook in 13–17 |
+| `robotime-modelbouwpakket-army-jeep-369-delig` | "voor een zoon of vader" | "voor een tiener of volwassene" | Genderformulering (A14) |
+| Gids `cadeau-opa-oma-onder-15-euro`, tip 1 | "iets dat op raakt" | "iets dat opraakt" | Spelling |
+| Gids `cadeau-vader-15-25-euro`, tip 3 | "iets kleins uit de gids voor onder €15" | "iets kleins" | Er bestaat geen vadergids onder €15 en de gids linkt er ook niet naar |
+
+Er zijn geen prijzen, statussen, links, slugs of andere velden gewijzigd. Alleen stringwaarden zijn vervangen. De JSON-opbouw en de inspringing van 2 spaties zijn ongewijzigd.
+
+### Adviezen (open)
+**U1. Twijfel over het product in de publieke tekst (A11/T2).** Catalogus moet dit opnieuw controleren en daarna de zin schrappen of het product pauzeren:
+- `jbl-junior-470nc-kinderkoptelefoon-noise-cancelling`: "de specificaties en de beschrijving spreken elkaar tegen over de microfoon".
+- `philips-tak4200ct-draadloze-kinderkoptelefoon`: "De pagina noemt wisselende cijfers voor de accuduur". Het gaat om 45 of 20 uur.
+- `stanley-mobile-work-center-gereedschapswagen-1-70-326`: "de wielinformatie [is] tegenstrijdig".
+- `bosch-easydrill-1200-accuboormachine-2x-12v`: de tekst noemt een "12-delige boor- en bitset", de winkeltitel alleen een "dubbele schroefbit". Controleer wat er in de doos zit.
+- `weerwolven-van-wakkerdam-het-pact-kaartspel`: de short zegt "uitgebreidere Het Pact-doos", de winkeltitel zegt "basisspel". Controleer de inhoud.
+
+**U2. Leeftijd is een inschatting.** Bij de kinderkoptelefoons (behalve TinyPlay), de Bresser-sets (8+), het kinderkookboek en de pop-updoelen (4–7) staat geen leeftijdsadvies van de fabrikant op de pagina. Dat is niet blokkerend: er zit geen 3+ in 0–3 en er is geen tegenspraak. Voorstel (Catalogus): controleer de verpakking of de fabrikantensite. Vind je een hogere minimumleeftijd, pas dan `ageGroups` aan. Kijk daarbij vooral naar de pop-updoelen in 4–7.
+
+**U3. Fietslamp van 550 lumen** (`axa-niteline-550-fietsverlichting-set`). Een fel voorlicht mag tegenliggers niet verblinden. Voorstel: "Richt het voorlicht iets naar beneden, zodat je tegenliggers niet verblindt."
+
+**U4. Gidsen: belooft de intro wat het filter toont (T6/H9)?**
+- `cadeau-opa-oma-onder-15-euro` noemt "een doosje thee, een kort boek, een puzzelboekje … of iets voor de vogels in de tuin" en in de FAQ "een kaars of handcrème".
+- `cadeau-vader-15-25-euro` noemt "iets voor de koffie, iets voor verzorging, een boek …".
+
+Voorstel (SEO-content): kijk op de preview of het filter (`voor` + `budget`) die soorten producten echt toont. Is dat niet zo, pas dan de opsomming aan.
+
+**U5. Hori en Bosch Professional laten verifiëren.** Ik heb de tekst al aangepast, maar Catalogus moet bij de fabrikant nagaan (a) dat het Hori-station niet geschikt is voor de Joy-Con 2 en (b) dat de GSB 18V-65 alleen werkt met blauwe Bosch Professional 18V-accu's. Klopt (a) niet, dan kan de zin over de Switch 2 weg.
+
+**U6. Concepten.** De teksten van de 4 conceptproducten zijn in orde en hoeven niet aangepast te worden vóór activeren. Volgens de eigen notities blijft wel open: de herkomst van de verkoper (Soundcore ×2 en PowerLocus).
+
+**U7. Licht punt, niet aangepast.** `stelton-em77-thermoskan-1-liter-zwart`: "De bekende Deense design-thermoskan". Dat is feitelijk te verdedigen (designklassieker uit 1977), maar als het consequent moet: "De Deense design-thermoskan EM77".
+
+### Akkoord nodig?
+Nee. Alleen productteksten en twee gidstips zijn aangepast. Er zijn geen juridische pagina's, checkout of prijzen geraakt. De eigenaar hoeft niets te kiezen.
+
+**COMPLIANCE: GO** voor de 60 producten (56 actief, 4 concept) en de 2 gidsen van ronde 13:15. Het enige blokkerende punt (B-13.1, voorraadclaim) is met een tekstcorrectie opgelost. U1 en U5 bij voorkeur vóór de herlancering.
