@@ -415,3 +415,80 @@ Voorstel (SEO-content): kijk op de preview of het filter (`voor` + `budget`) die
 Nee. Alleen productteksten en twee gidstips zijn aangepast. Er zijn geen juridische pagina's, checkout of prijzen geraakt. De eigenaar hoeft niets te kiezen.
 
 **COMPLIANCE: GO** voor de 60 producten (56 actief, 4 concept) en de 2 gidsen van ronde 13:15. Het enige blokkerende punt (B-13.1, voorraadclaim) is met een tekstcorrectie opgelost. U1 en U5 bij voorkeur vóór de herlancering.
+
+## Hertoets 14:15
+
+Agent: Compliance · Werkkopie `main` (na commit f76a2b3, ongecommitte wijzigingen in `data/products.json` en `lib/guides.ts`). Dit is geen formeel juridisch advies.
+
+### Wat is getoetst
+- **Producten (45, alle actief):** de slugs uit `data/research/shortlist-2026-11-20-moeder-oma-wellness-sport-14.json` (25) en `data/research/shortlist-2026-11-20-jongens-vaders-peuter-14.json` (33), zoals ze in `data/products.json` staan (r. 75005–77112). Velden: short en description, plus ageGroups bij kindproducten.
+  - **Moeder/oma (12 opgenomen):** `rockerz-yogamat-extra-dik-petrol`, `aj-sports-foamroller-set-4-delig`, `tunturi-yoga-massage-roller-90-cm`, `abbey-camp-nordic-walking-stokken-zwart-grijs`, `abbey-camp-wandelstokken-anti-shock-zwart`, `northwall-zijden-slaapmasker-oordopjes-zwart`, `beurer-fb35-voetenbad`, `medisana-mc200-shiatsu-massagekussen`, `beurer-mg135-shiatsu-massagekussen`, `dopper-insulated-thermosfles-1-liter-zwart`, `tonys-chocolonely-proeverijtje-taart-288-gram`, `gardena-snoeischaar-classic-18mm`.
+  - **13 niet opgenomen** (dus niet getoetst): `tunturi-yogablok-kurk`, `avento-yogamat-basic-173-grijs`, `breaking-limits-pilates-bar-weerstandsbanden-set`, `tunturi-springtouw-verstelbaar`, `beauty-pillow-zijden-slaapmasker-silver`, `ella-verzwaard-slaapmasker-200-gram`, `medisana-mcn-shiatsu-massagekussen-nek-rug`, `wmf-kitchenminis-thee-en-waterkoker-1-liter`, `tefal-glass-ki6058-waterkoker`, `tonys-chocolonely-kerstcadeau-melk-karamel-zeezout-2x180`, `yankee-candle-geschenkset-9-geuren-met-houder`, `gardena-plantenspuit-1-liter`, `pro-garden-kweekset-68-delig`.
+  - **Jongens/vaders/peuter:** alle 33 opgenomen en actief. Daarvan 12 in 0–3 (inclusief de Hape Miniband, die ook in 4–7 staat).
+- **Gidsen (2):** `wellnesscadeau-voor-je-moeder` (`lib/guides.ts` r. 1161) en `cadeau-moeder-15-25-euro` (r. 1184): meta, intro, tips en FAQ. De filtersleutels `interesse: "wellness"` en `budget: "15-25"` bestaan (`lib/types.ts` r. 29 en 41) en alle `related`-slugs bestaan.
+
+### Wat goed is
+- **Massage en wellness:** in geen enkele tekst staan woorden als "pijn", "herstel", "blessure", "therapie" of "doorbloeding". Dat de Medisana MC200 niet geschikt is bij zwangerschap of een pacemaker stond alleen in `scout.notes`. Het staat nu ook in de publieke tekst (zie tabel).
+- **Leeftijd 0–3 is correct:** alle 12 producten in 0–3 hebben een minimumleeftijd van de fabrikant onder 3 jaar. Babygym 0+, stuurtje 1–3, speelkasteel 10–36 mnd, sensorische bal en Nijntje-mat 6–36 mnd, Nijntje-knuffel 6 mnd+, Hape-kubus 10 mnd+, otter 0+, drumstel 1,5–4, looptrainer en Hape-stapelblokken 18 mnd+. De Hape Miniband (2+) staat in 0–3 en 4–7. Alle 3+-producten staan niet in 0–3 (regel B3): BRIO-trein, Hape-werkbank en de drie BRIO Builder-sets. NERF (8+), de LEGO-sets (7+ en 8+) en de puzzels (6+) staan in passende groepen.
+- **Geen** "voorraad bijna op", "op=op", "morgen in huis", deal-, advies- of kortingsprijs in de publieke tekst. Die informatie staat alleen in `scout.notes`. Waar het reviewaantal te klein of twijfelachtig is, is de rating leeggelaten: NERF ×3, LEGO Speed Champions ×2, Clementoni ×4 en Medisana MC200.
+- **Gidsen:** er staan geen superlatieven, schaarste of medische claims in. Wel staat erin: "wij sturen je door en verkopen zelf niets", "controleer de levertijd bij de winkel" en "prijzen kunnen wijzigen". De data in de FAQ kloppen: za 5 december en do 24 december 2026.
+
+### Blokkerende punten
+Geen. Er is geen product op concept gezet.
+
+### Direct doorgevoerde tekstcorrecties (21 slugs plus 1 gids)
+| Slug | Was | Nu | Waarom |
+|---|---|---|---|
+| `rockerz-yogamat-extra-dik-petrol` | short "voor thuis yoga"; "die de knieën en rug ondersteunt" | "voor yoga, pilates en rekoefeningen thuis"; "die zacht ligt onder knieën en rug" | Spelling. "Ondersteunt" klinkt als een lichamelijk effect (A3). |
+| `aj-sports-foamroller-set-4-delig` | short "voor losse spieren"; "stijve spieren wil losmaken"; "Er zit een weerstandsband en …" | "om zelf te masseren"; "na afloop zelf wil masseren"; "Er zitten …" | Effect op de spieren is een gezondheidsclaim (A3). Ook een grammaticafout. |
+| `abbey-camp-nordic-walking-stokken-zwart-grijs` | "Nordic walking ontlast de knieën" | "Met nordic walking gebruik je tijdens het lopen ook je armen en schouders." | Gezondheidsclaim over gewrichten (A3) |
+| `abbey-camp-wandelstokken-anti-shock-zwart` | "… of bij gevoelige gewrichten" | geschrapt | Impliciete gezondheidsclaim (A3) |
+| `northwall-zijden-slaapmasker-oordopjes-zwart` | short "een voordelig slaapcadeautje"; "voor een rustigere nacht" | "een klein slaapcadeautje"; "die geluid dempen" | Prijsoordeel (A13). Slaapeffect als claim (A3). |
+| `medisana-mc200-shiatsu-massagekussen` | "Handig bij een stijve nek of rug …"; "Een merk dat vaker in de gezondheidszorgwinkel te vinden is." | "Fijn om even te ontspannen na een lange dag. Volgens de fabrikant niet gebruiken tijdens de zwangerschap of met een pacemaker; lees vooraf de gebruiksaanwijzing." | Klacht en oplossing samen lezen als een medische claim. De zin over de zorgwinkel suggereert medische betrouwbaarheid zonder bron (A3/A4). De contra-indicatie is essentiële info (A8). |
+| `beurer-mg135-shiatsu-massagekussen` | short "met drie jaar garantie"; "Een duurzamer cadeau van een bekend Duits merk." | short zonder garantie; "Volgens de fabrikant geldt 3 jaar fabrieksgarantie, naast je wettelijke rechten. Lees voor gebruik de veiligheidsaanwijzingen in de handleiding." | Garantie (A10). Vage vergelijkende duurzaamheidsclaim (H3). Reputatie (A4). Veiligheid (A8). |
+| `dopper-insulated-thermosfles-1-liter-zwart` | short "lekvrije"; "Lekvrij in de tas"; "dat bekend staat om …" | short "van 1 liter"; "Volgens Dopper lekvrij …"; "Dopper is een Nederlands merk van herbruikbare flessen." | Absolute claim nu toegeschreven aan de bron (zoals Basil bij 13:15). Reputatie (A4). |
+| `gardena-snoeischaar-classic-18mm` | "met een bekend merk achter de kwaliteit" | geschrapt | Kwaliteits- en reputatieclaim zonder bron (A4) |
+| `vtech-baby-mijn-eerste-stuurtje` | "die niet bij de verpakking zitten" | "die niet zijn meegeleverd" | Taal |
+| `bosch-easyimpact-18v-40-klopboorschroevendraaier-set` | "Bosch geeft 3 jaar garantie bij registratie." | "Volgens Bosch geldt na registratie 3 jaar fabrieksgarantie, naast je wettelijke rechten." | A10 (conformiteit) |
+| `clementoni-baby-speelkasteel-rollende-bal` | "deels van gerecycled kunststof" | "volgens Clementoni deels …" | Duurzaamheidsclaim toegeschreven aan de bron (ACM Leidraad Duurzaamheidsclaims) |
+| `hape-meester-werkbank-35-gereedschappen` | "Alle gereedschap heeft …" | "Al het gereedschap heeft …" | Taal |
+| `brio-builder-constructie-set-34587` | "met Bob de Bouwer als personage" | geschrapt | Een gelicentieerd personage bij BRIO Builder is niet aannemelijk en niet onderbouwd. Dat raakt een essentieel kenmerk (art. 6:193c BW). Zie U-14.2. |
+| `brio-builder-starter-gereedschapskist-34586` | short "echt speelgoedgereedschap"; "Een betaalbare kennismaking" | "speelgoedgereedschap"; "Een kleine kennismaking" | Tegenstrijdig ("echt"). Prijsoordeel (A13). |
+| `nerf-elite-2-0-volt-sd-1-blaster` | (geen) | "; richt nooit op ogen of gezichten" | Veiligheid, gelijk aan de Flip 8 (A8) |
+| `nerf-elite-2-0-shockwave-rd-15-blaster` | (geen) | "; richt nooit op ogen of gezichten" | Veiligheid (A8) |
+| `fisher-price-bedtijd-otter-knuffel` | short "… bij het slapen" | "… voor het slapengaan"; toegevoegd: "Gebruik de otter onder toezicht van een volwassene en leg hem niet in bed bij een slapende baby." | Product 0+. Advies voor veilig slapen: geen los speelgoed in bed bij een slapende baby (A8). Zie U-14.3. |
+| `bosch-impact-control-35-delige-metaalboren-schroefbitset` | "Bosch geeft 1 jaar fabrieksgarantie." | "Volgens Bosch geldt 1 jaar fabrieksgarantie, naast je wettelijke rechten." | A10 (conformiteit) |
+| `lego-speed-champions-toyota-gr-supra-76901` | "een breder chassis" | "een chassis" | Vergelijking zonder referentiepunt |
+| `ravensburger-puzzel-bij-de-dinosaurussen-xxl-100` | "Een betaalbaar cadeau" | "Een klein cadeau" | Prijsoordeel (A13) |
+| Gids `wellnesscadeau-voor-je-moeder`, intro | "wordt vaak vaker gebruikt" | "wordt vaak meer gebruikt" | Taal |
+
+Er zijn geen prijzen, statussen, ratings, links, slugs of andere velden gewijzigd. Alleen stringwaarden in short en description zijn vervangen, plus één zin in de intro van de gids.
+
+### Adviezen (open)
+**U-14.1. Ratings met twijfel over herkomst (Catalogus).** Bij de NERF- en LEGO-sets is de rating om dezelfde reden leeggelaten, maar bij deze twee niet:
+- `northwall-zijden-slaapmasker-oordopjes-zwart` toont 4,7 (218). Volgens de eigen notitie horen die reviews "deels bij een andere Northwall-listing".
+- `beurer-mg135-shiatsu-massagekussen` toont 4,4 (92). Volgens de notitie "kan [dit] ook reviews van verwante modellen bevatten".
+
+Voorstel: zet `rating` op `null` tot vaststaat dat de reviews bij dit product horen ("geen nepreviews"). Het is niet blokkerend, omdat bol de score op deze productpagina zo toont en de bron erbij staat. Ook kleine aantallen zijn inconsistent: `bosch-easyimpact-18v-40-klopboorschroevendraaier-set` toont 5,0 (2) en `brio-builder-pull-back-motor-set-34595` toont 4,5 (2). Elders wordt de rating bij 1–2 reviews leeggelaten.
+
+**U-14.2. Productinhoud verifiëren (Catalogus):**
+- `brio-builder-constructie-set-34587`: zit er een (gelicentieerd) figuur bij? Ik heb "Bob de Bouwer" voorzorgshalve geschrapt.
+- `hape-multifunctionele-miniband-houten-muziekset`: "Er zit een AA-batterij bij" bij een houten instrumentenset zonder elektronica die wordt genoemd. Volgens de eigen notitie bevat het veld verpakkingsinhoud een fout. Controleer dit en schrap de zin als hij niet klopt.
+- `adidas-tango-rosario-voetbal-wit`: "handgestikt". Controleer bij adidas of de bal hand- of machinegestikt is.
+- `brio-trein-op-batterijen-33319`: de titel zegt "kiepwagon", de description "kolenwagon". Maak dit gelijk.
+- `bosch-pro-impact-40-delige-mixed-boor-bitset`: de EAN (6949…) en de URL ("accesorios") wijken af van wat Bosch gewoonlijk gebruikt. Controleer of verkoper ToolMax.nl een origineel Bosch-product levert. Is dat twijfelachtig, pauzeer dan het product.
+- `beurer-fb35-voetenbad`: de pagina toont meerdere uitvoeringen. Controleer dat de koopknop naar de uitvoering met aromafilter gaat die de tekst noemt.
+- `fisher-price-loop-met-mij-zebra-looptrainer`: er bestaan varianten in andere talen. Controleer dat de link naar de Nederlandstalige uitvoering gaat, of zet in de tekst dat de taal per variant verschilt.
+
+**U-14.3. Bedtijd Otter (Catalogus).** Vergelijk de toegevoegde zin over veilig slapen met de veiligheidsaanwijzingen van Fisher-Price. Is de fabrikant strenger of anders, neem dan die tekst over.
+
+**U-14.4. Massage- en warmteapparaten breder (Catalogus, later).** De gids `wellnesscadeau-voor-je-moeder` toont via het filter ook oudere massagekussens, massagebanden en warmtekussens. Bijvoorbeeld de Beurer MG 149, MG 151, MG 139 en HK-warmtekussens. Voorstel: geef ook die teksten in een volgende ronde een korte zin "lees voor gebruik de veiligheidsaanwijzingen", en controleer dat er geen klachtclaims ("bij rugpijn") in staan.
+
+**U-14.5. Gidsen: belooft de intro wat het filter toont (zoals U4)?** In `wellnesscadeau-voor-je-moeder` noemen de intro en de FAQ een handcrème, een warm kussen, een kaars en een deken. In `cadeau-moeder-15-25-euro` gaat het om lezen, thee/koffie, puzzelen en ontspannen. Die soorten producten bestaan in de catalogus. Voorstel (SEO-content): kijk op de preview of het filter ze ook echt binnen `voor: moeder` (en het budget) toont.
+
+**U-14.6. Licht, niet aangepast.** De tekst van `tonys-chocolonely-proeverijtje-taart-288-gram` vermeldt "Fairtrade chocolade". Dat is een keurmerkclaim die op de bol-pagina staat. Prima, mits het Fairtrade-logo op de verpakking staat. Catalogus kan dat bij de volgende controle meenemen.
+
+### Akkoord nodig?
+Nee. Alleen productteksten en één zin in een gids zijn aangepast. Er zijn geen juridische pagina's, checkout, prijzen of statussen geraakt.
+
+**COMPLIANCE: GO** voor de 45 actieve producten en de 2 gidsen van ronde 14:15. Er zijn geen blokkerende punten. U-14.1 en U-14.2 (vooral Bosch PRO en Miniband) bij voorkeur vóór de herlancering.

@@ -212,7 +212,7 @@ export const guides: Guide[] = [
       { q: "Wat geef je een moeder die zegt dat ze niets nodig heeft?", a: "Kies iets dat op raakt of een gezellig moment oplevert, zoals chocolade, handcrème of een boek. Dat voelt niet als extra spullen en toch weet ze dat je aan haar gedacht hebt." },
       { q: "Komt het cadeau op tijd voor pakjesavond of kerst?", a: "Bij elk product staat de uiterste besteldatum voor beide momenten. Die wordt per product berekend op basis van de verwachte levertijd van de winkel, met een dag extra marge." },
     ],
-    related: ["cadeau-voor-partner", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma", "cadeau-onder-25-euro-collega", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "cadeau-voor-fijnproevers", "verwencadeau-voor-haar", "cadeau-voor-lezers", "kerstcadeau-voor-moeder-onder-50", "sinterklaascadeau-voor-moeder"],
+    related: ["cadeau-voor-partner", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma", "cadeau-onder-25-euro-collega", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "cadeau-voor-fijnproevers", "verwencadeau-voor-haar", "cadeau-voor-lezers", "kerstcadeau-voor-moeder-onder-50", "sinterklaascadeau-voor-moeder", "wellnesscadeau-voor-je-moeder", "cadeau-moeder-15-25-euro"],
   },
   {
     slug: "sinterklaascadeau-baby-peuter",
@@ -352,7 +352,7 @@ export const guides: Guide[] = [
       { q: "Waar let ik op bij een cadeau met een stekker?", a: "Kies iets met een duidelijke aan- en uitknop en lees de gebruiksaanwijzing en veiligheidsinformatie op de verpakking. Dat geldt voor elk elektrisch cadeau, voor jong en oud." },
       { q: "Wat is het verschil met de algemene gids voor opa en oma?", a: "Die gids bevat alle soorten cadeaus voor opa en oma. Deze gids toont alleen cadeaus om te verwennen en te ontspannen." },
     ],
-    related: ["cadeau-voor-opa-en-oma", "puzzel-en-spelcadeau-oma-opa", "verwencadeau-voor-haar", "cadeau-voor-moeder", "cadeau-voor-fijnproevers", "cadeau-opa-oma-onder-15-euro"],
+    related: ["cadeau-voor-opa-en-oma", "puzzel-en-spelcadeau-oma-opa", "verwencadeau-voor-haar", "cadeau-voor-moeder", "cadeau-voor-fijnproevers", "cadeau-opa-oma-onder-15-euro", "wellnesscadeau-voor-je-moeder"],
   },
   {
     slug: "sportcadeau-voor-volwassenen",
@@ -399,7 +399,7 @@ export const guides: Guide[] = [
       { q: "Wat is een goed cadeau voor iemand die graag bakt?", a: "Een bakvorm of ovenschaal in een maat die vaak nodig is, een bakboek of een handmixer. Kijk eerst welke vormen iemand al heeft." },
       { q: "Zijn kookcadeaus ook geschikt voor Sinterklaas en kerst?", a: "Ja, veel keukencadeaus passen bij beide momenten. De uiterste besteldatum verschilt per gelegenheid en staat bij elk product." },
     ],
-    related: ["cadeau-voor-partner", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma", "cadeau-voor-fijnproevers"],
+    related: ["cadeau-voor-partner", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma", "cadeau-voor-fijnproevers", "cadeau-moeder-15-25-euro"],
   },
   {
     slug: "cadeau-thuiswerker-50-100-euro",
@@ -572,7 +572,7 @@ export const guides: Guide[] = [
       { q: "Zijn verzorgingssets geschikt voor een gevoelige huid?", a: "Dat verschilt per product. Lees de ingrediënten op de winkelpagina en kies bij twijfel een product zonder parfum." },
       { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge voor de drukte." },
     ],
-    related: ["cadeau-voor-moeder", "cadeau-voor-partner", "verwencadeau-voor-opa-en-oma", "cadeau-voor-fijnproevers", "cadeau-onder-25-euro-collega", "kerstcadeau-voor-moeder-onder-50"],
+    related: ["cadeau-voor-moeder", "cadeau-voor-partner", "verwencadeau-voor-opa-en-oma", "cadeau-voor-fijnproevers", "cadeau-onder-25-euro-collega", "kerstcadeau-voor-moeder-onder-50", "wellnesscadeau-voor-je-moeder"],
   },
   {
     slug: "kerstcadeau-onder-50-euro",
@@ -718,7 +718,7 @@ export const guides: Guide[] = [
       { q: "Waarom staan er geen cadeaus onder €25 in deze gids?", a: "Deze gids toont het bereik van €25 tot €50. Voor kleinere bedragen heb je de gidsen voor cadeaus onder €25 en onder €15." },
       { q: "Tot wanneer kan ik bestellen voor kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge. Controleer de levertijd voor het bestellen nog even bij de winkel." },
     ],
-    related: ["cadeau-voor-moeder", "verwencadeau-voor-haar", "kerstcadeau-onder-50-euro", "cadeau-voor-fijnproevers", "cadeau-voor-wie-graag-kookt"],
+    related: ["cadeau-voor-moeder", "verwencadeau-voor-haar", "kerstcadeau-onder-50-euro", "cadeau-voor-fijnproevers", "cadeau-voor-wie-graag-kookt", "cadeau-moeder-15-25-euro", "wellnesscadeau-voor-je-moeder"],
   },
   {
     slug: "kerstcadeau-vanaf-100-euro",
@@ -892,7 +892,7 @@ export const guides: Guide[] = [
       { q: "Wat is het verschil met de gids voor kerst?", a: "Deze gids rekent met pakjesavond op 5 december. Bij elk cadeau zie je tot wanneer je kunt bestellen; staat er geen datum meer, dan komt het niet meer op tijd voor Sinterklaas. De algemene gids voor je moeder toont de selectie voor Sinterklaas en kerst samen." },
       { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge. Het cadeau moet uiterlijk vrijdag 4 december in huis zijn." },
     ],
-    related: ["cadeau-voor-moeder", "kerstcadeau-voor-moeder-onder-50", "verwencadeau-voor-haar", "cadeau-voor-lezers", "sinterklaascadeau-voor-vader"],
+    related: ["cadeau-voor-moeder", "kerstcadeau-voor-moeder-onder-50", "verwencadeau-voor-haar", "cadeau-voor-lezers", "sinterklaascadeau-voor-vader", "wellnesscadeau-voor-je-moeder", "cadeau-moeder-15-25-euro"],
   },
   {
     slug: "kerstcadeau-kinderen-8-12",
@@ -1156,6 +1156,52 @@ export const guides: Guide[] = [
       { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
     ],
     related: ["cadeau-vader-25-50-euro", "kerstcadeau-voor-vader", "sinterklaascadeau-voor-vader", "cadeau-vader-klussen-gereedschap"],
+  },
+  {
+    slug: "wellnesscadeau-voor-je-moeder",
+    title: "Wellnesscadeau voor je moeder",
+    metaTitle: "Wellnesscadeau voor je moeder | OpTijdCadeau",
+    metaDescription:
+      "Wellnesscadeaus voor je moeder: warmte, verzorging en iets om bij te ontspannen. Met levertijd en uiterste besteldatum voor Sinterklaas en kerst.",
+    intro: [
+      "Veel moeders nemen zelden de tijd om iets voor zichzelf te doen. Een wellnesscadeau geeft haar daar een duwtje in: een moment waarop ze niets hoeft, met iets dat warm, zacht of lekker ruikt. Het hoeft geen dure set te zijn. Een goede handcrème of een warm kussen voor op de bank wordt vaak meer gebruikt dan een groot cadeau.",
+      "In deze selectie staan cadeaus om te ontspannen en te verzorgen, voor in huis en zonder ingewikkelde bediening. Kies op basis van wat jouw moeder doet als ze eindelijk even zit. Twijfel je over geur of huid? Kies dan iets zonder parfum of iets om aan te zetten of om te dragen. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. De bezorging zelf ligt bij de winkel, dus controleer de levertijd op de winkelpagina nog even voor je bestelt. Wij sturen je door en verkopen zelf niets. Prijzen kunnen wijzigen; we tonen de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { voor: "moeder", interesse: "wellness" },
+    tips: [
+      "Let bij geuren op gevoeligheid: een neutrale of lichte geur is veiliger dan een sterke parfum.",
+      "Heeft het cadeau een stekker, lees dan voor het inpakken de gebruiksaanwijzing en kijk of de bediening duidelijk is.",
+      "Maak er een moment van: pak het cadeau samen uit en geef haar de tijd om het meteen te proberen.",
+    ],
+    faq: [
+      { q: "Wat is een goed wellnesscadeau voor je moeder?", a: "Iets dat ze direct kan gebruiken en dat een rustmoment oplevert, zoals iets warms voor de bank, verzorging voor de handen of een kaars. Kijk naar wat ze zelf nooit voor zichzelf zou kopen." },
+      { q: "Wat als mijn moeder gevoelig is voor geuren?", a: "Kies dan iets zonder geur, zoals een warmtekussen of een deken, of controleer de ingrediënten en geurinformatie op de productpagina." },
+      { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Pakjesavond is zaterdag 5 december, dus het cadeau moet uiterlijk vrijdag 4 december in huis zijn. Voor kerst is dat donderdag 24 december." },
+    ],
+    related: ["cadeau-voor-moeder", "verwencadeau-voor-haar", "sinterklaascadeau-voor-moeder", "kerstcadeau-voor-moeder-onder-50", "cadeau-moeder-15-25-euro"],
+  },
+  {
+    slug: "cadeau-moeder-15-25-euro",
+    title: "Cadeau voor je moeder van €15 tot €25",
+    metaTitle: "Cadeau voor je moeder van €15 tot €25 | OpTijdCadeau",
+    metaDescription:
+      "Cadeaus voor je moeder tussen €15 en €25: iets lekkers, verzorgends of voor in huis. Met levertijd en uiterste besteldatum per cadeau.",
+    intro: [
+      "Met een budget tussen €15 en €25 kun je je moeder echt iets geven dat ze gebruikt. Kijk niet naar wat er in de winkel opvalt, maar naar wat zij doet als ze zit: lezen, thee of koffie drinken, puzzelen of even de voeten omhoog. Daar past meestal iets kleins bij dat het moment wat prettiger maakt.",
+      "In deze selectie staan cadeaus voor moeders in die prijsklasse. Kies liever één ding dat bij haar past dan een pakketje van dingen die ze niet nodig heeft. Wil je het cadeau groter laten voelen, voeg dan een persoonlijk kaartje of gedicht toe. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. De bezorging zelf ligt bij de winkel, dus controleer de levertijd op de winkelpagina nog even voor je bestelt. Wij sturen je door en verkopen zelf niets. Prijzen kunnen wijzigen; we tonen de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { voor: "moeder", budget: "15-25" },
+    tips: [
+      "Kies iets dat past bij een gewoonte die ze al heeft, zoals een boek, thee of iets voor de bank.",
+      "Bundel twee kleine cadeaus bij dezelfde winkel als je ze samen wilt geven; dan betaal je mogelijk minder verzendkosten.",
+      "Een kaartje in je eigen woorden maakt een klein cadeau persoonlijker.",
+    ],
+    faq: [
+      { q: "Wat geef je je moeder voor €15 tot €25?", a: "Iets dat past bij wat ze graag doet: lezen, koffie of thee, puzzelen of ontspannen. Kijk eerst wat ze al heeft, zodat je niets dubbel koopt." },
+      { q: "Is dit bedrag genoeg voor Sinterklaas of kerst?", a: "Dat bepaal je zelf of samen met de familie. Een goed gekozen cadeau voor een beperkt bedrag valt vaak beter dan een duur cadeau waar weinig over is nagedacht." },
+      { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
+    ],
+    related: ["cadeau-voor-moeder", "kerstcadeau-voor-moeder-onder-50", "sinterklaascadeau-voor-moeder", "wellnesscadeau-voor-je-moeder", "cadeau-onder-15-euro"],
   },
 ];
 

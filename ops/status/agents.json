@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-20T14:15:00+01:00",
+  "updatedAt": "2026-11-20T14:32:15+01:00",
   "agents": {
     "orchestrator": {
-      "status": "bezig",
-      "currentTask": "Agent-ronde 14:15",
-      "lastRunAt": "2026-11-20T13:36:31+01:00",
-      "lastResult": "Ronde 13:15: +51 cadeaus in de data (1421 actief), 2 gidsen, compliance-hertoets verwerkt. SITE NOG OFFLINE: 260 actieve cadeaus zonder foto/EAN, bol-verrijking en bezorgdatums niet gedraaid",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T14:32:15+01:00",
+      "lastResult": "Ronde 14:15: +52 cadeaus in de data (1473 actief), 2 gidsen, compliance-hertoets verwerkt. SITE NOG OFFLINE: 312 actieve cadeaus zonder foto, bol-verrijking en bezorgdatums niet gedraaid",
       "nextRun": "Elk uur 08–22",
       "blockedBy": "Site offline: Vercel-project ‘cadeaukompas’ bestaat niet meer (owner-todo 0)"
     },
     "product-scout": {
-      "status": "bezig",
-      "currentTask": "2 scouts: moeder/oma/vrouw (wellness, sport/wandelen, eten-drinken, €50–100) + jongens 4–12 (gamen, muziek, sport), vaders (gereedschap €50–100, sport) en 0–3 jaar",
-      "lastRunAt": "2026-11-20T13:36:31+01:00",
-      "lastResult": "2 scouts: 70 bol-cadeaus gecontroleerd op de productpagina (35 moeder/oma/vrouw: puzzels, Philips-koffiezetters en melkopschuimers, Moccamaster, fotolijsten, Basil-fietstassen, Kobo, JBL; 35 jongens/vaders: kinderkoptelefoons, voetbaldoelen, Bresser, Knipex, Wera, Bosch, Stanley, Robotime). Dun gebleven: yoga/wandelen/fitness, €50–100 voor moeder/oma, kinderinstrumenten, vaders onder €15 (veel al in de catalogus of ‘niet leverbaar’)",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T14:32:15+01:00",
+      "lastResult": "3 scouts: 66 bol-cadeaus gecontroleerd op de productpagina (25 moeder/oma/vrouw: yoga/foamrollers, wandelstokken, Beurer, Medisana, Dopper, Tony’s; 33 jongens/vaders/0–3: Fisher-Price, VTech, Hape, BRIO, Nerf, LEGO, Bosch; 8 aanvulling: Ticket to Ride, Wingspan, Kwakzalvers, Tefal, Senseo). Dun gebleven: €50–100 voor moeder/oma, kinderinstrumenten, gereedschap €50–100 van bol zelf",
       "nextRun": "Elke agent-ronde (elk uur)",
       "blockedBy": null
     },
@@ -27,9 +27,9 @@
     },
     "catalogus": {
       "status": "geblokkeerd",
-      "currentTask": "260 nieuwe cadeaus verrijken met foto, EAN en prijs via bol zodra de site weer online is (node scripts/bol-enrich.mjs --only-missing), daarna bezorgdatums opwarmen; 9 concepten van 13:15 opnieuw controleren",
-      "lastRunAt": "2026-11-20T13:36:31+01:00",
-      "lastResult": "51 nieuwe cadeaus actief in de data (10 niet geïmporteerd: score onder 60; 9 op concept: bij 4 herkomst verkoper niet vastgesteld (Soundcore 2x, PowerLocus, TinyPlay), bij 5 tegenstrijdige info op de bol-pagina (JBL Junior 470NC, Philips TAK4200CT, Stanley Mobile Work Center, Bosch EasyDrill 1200, Weerwolven Het Pact)). 25 productteksten aangepast op advies van compliance. 1421 actief",
+      "currentTask": "312 actieve cadeaus verrijken met foto, EAN en prijs via bol zodra de site weer online is, daarna bezorgdatums opwarmen",
+      "lastRunAt": "2026-11-20T14:32:15+01:00",
+      "lastResult": "53 nieuwe cadeaus actief (13 niet geïmporteerd: score onder 60); Bosch PRO 40-delige bitset op concept (EAN/URL wijkt af); 4 twijfelachtige ratings op null; 21 productteksten aangepast door compliance. 1473 actief",
       "nextRun": "Elke agent-ronde",
       "blockedBy": "Site offline: Vercel-project ‘cadeaukompas’ bestaat niet meer (owner-todo 0)"
     },
@@ -50,10 +50,10 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "bezig",
-      "currentTask": "2 nieuwe cadeaugidsen voor dunne zoekthema’s",
-      "lastRunAt": "2026-11-20T13:36:31+01:00",
-      "lastResult": "Gidsen ‘Cadeau voor oma en opa onder €15’ en ‘Cadeau voor je vader van €15 tot €25’ toegevoegd en gekoppeld vanuit 7 gidsen (nog niet zichtbaar: site offline)",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T14:32:15+01:00",
+      "lastResult": "Gidsen ‘Wellnesscadeau voor je moeder’ en ‘Cadeau voor je moeder van €15 tot €25’ toegevoegd en gekoppeld vanuit 6 gidsen (nog niet zichtbaar: site offline)",
       "nextRun": "Volgende ronde",
       "blockedBy": null
     },
@@ -98,10 +98,10 @@
       "blockedBy": "Supabase en affiliate-accounts (owner-todo #3, #4, #8)"
     },
     "compliance": {
-      "status": "bezig",
-      "currentTask": "Toetsing van de productteksten en gidsen van deze ronde",
-      "lastRunAt": "2026-11-20T13:36:31+01:00",
-      "lastResult": "Hertoets 13:15: 60 producten en 2 gidsen getoetst; 1 blokkerend (voorraadclaim Bresser-set) direct geschrapt, 7 adviezen (U1–U7); 25 productteksten en 2 gidstips aangepast; rapport in ops/reports/compliance-2026-11-20.md",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T14:32:15+01:00",
+      "lastResult": "Hertoets 14:15: 45 actieve producten en 2 gidsen getoetst; 0 blokkerend, 6 adviezen (U-14.1–U-14.6); 21 productteksten en 1 gidszin aangepast; rapport in ops/reports/compliance-2026-11-20.md",
       "nextRun": "Volgende ronde",
       "blockedBy": "Akkoord eigenaar op tekstwijzigingen (ops/approvals/2026-11-18-compliance-teksten-hertoets.md)"
     }
