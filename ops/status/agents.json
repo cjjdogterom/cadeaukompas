@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-20T10:15:00+01:00",
+  "updatedAt": "2026-11-20T10:34:41+01:00",
   "agents": {
     "orchestrator": {
-      "status": "bezig",
-      "currentTask": "Agent-ronde 10:15: 3 scouts, catalogus, seo-content",
-      "lastRunAt": "2026-11-20T09:32:00+01:00",
-      "lastResult": "Ronde 09:15: +68 cadeaus (1165 actief), 2 gidsen, 6 twijfelteksten opgelost, LEGO-leeftijden gecorrigeerd",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T10:34:41+01:00",
+      "lastResult": "Ronde 10:15: +70 cadeaus in de data (1231 actief), 2 gidsen, 25 varianten gecontroleerd. SITE OFFLINE: Vercel-project ontbreekt, bol-verrijking en bezorgdatums niet gedraaid",
       "nextRun": "Elk uur 08–22",
-      "blockedBy": null
+      "blockedBy": "Site offline: Vercel-project ‘cadeaukompas’ bestaat niet meer (owner-todo 0)"
     },
     "product-scout": {
-      "status": "bezig",
-      "currentTask": "3 scouts: ~30 bol-cadeaus jongens 0–7 + gamen/sport, ~30 moeder/oma (koken, wellness) + vaders (gereedschap, sport), ~30 thuiswerker/collega/vrouwen",
-      "lastRunAt": "2026-11-20T09:32:00+01:00",
-      "lastResult": "3 scouts: 72 bol-cadeaus gecontroleerd op de productpagina (36 kinderen/tieners: vooral kinder- en YA-boeken, PlayMais, Fimo; 20 moeder/oma/vader: Wera, Knipex, Makita, Stanley, puzzels, boeken; 16 vrouwen/vaders: Philips, Brabantia, Remington, Anker, Soundcore). Dun gebleven: muziek/tech/sport 4–7, sport 8–12, kinderen €50–100, tieners €100+, tech voor oma, moeder €50–100 (veel niet leverbaar bij bol)",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T10:34:41+01:00",
+      "lastResult": "3 scouts: 87 bol-cadeaus gecontroleerd op de productpagina (30 kinderen: 0–3 jaar, games PEGI 3/7, controllers, step, skateboard; 26 moeder/oma/vader: Bosch, Ledlenser, Smeg, Beurer, Le Creuset, Kenwood; 31 thuiswerker/collega/vrouwen: Logitech, Moleskine, Pilot, thee, Sony, JBL). Dun gebleven: gaming-headsets, Nerf, 0–3 van Chicco/Janod, Rituals/Weleda-sets, Wiha/Bahco (niet leverbaar bij bol)",
       "nextRun": "Elke agent-ronde (elk uur)",
       "blockedBy": null
     },
@@ -26,12 +26,12 @@
       "blockedBy": "Alleen affiliate (keuze eigenaar 17-11): geen leveranciers nodig"
     },
     "catalogus": {
-      "status": "bezig",
-      "currentTask": "Interne notities ‘controleer variant’ bij actieve producten nalopen; daarna nieuwe cadeaus importeren en verrijken",
-      "lastRunAt": "2026-11-20T09:32:00+01:00",
-      "lastResult": "68 nieuwe cadeaus actief met foto, EAN en prijs uit de bol-API (0 gepauzeerd); 4 niet geïmporteerd (score onder 60). 3 teksten met ‘controleer vóór aankoop’ herschreven na controle op de bol-pagina, 3 op concept (JBL Junior 320, Le Creuset bakvorm, Faber-Castell Pitt pastel: pagina spreekt zichzelf tegen). 3 LEGO-sets 18+ uit de tienergroep, Ninjago 30699 naar 8–12. 1165 actief",
+      "status": "geblokkeerd",
+      "currentTask": "70 nieuwe cadeaus verrijken met foto, EAN en prijs via bol zodra de site weer online is (node scripts/bol-enrich.mjs --only-missing), daarna bezorgdatums opwarmen",
+      "lastRunAt": "2026-11-20T10:34:41+01:00",
+      "lastResult": "70 nieuwe cadeaus actief in de data (13 niet geïmporteerd: score onder 60; 4 op concept: variant onduidelijk), nog zonder foto/EAN uit de bol-API. 29 variant-notities nagelopen: 25 bijgewerkt, 4 op concept (JBL Junior 320BT, JVS bakvormen, Makita Makpac, Gym Masters kettlebells). 1231 actief",
       "nextRun": "Elke agent-ronde",
-      "blockedBy": null
+      "blockedBy": "Site offline: Vercel-project ‘cadeaukompas’ bestaat niet meer (owner-todo 0)"
     },
     "developer": {
       "status": "gepland",
@@ -50,10 +50,10 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "bezig",
-      "currentTask": "2 nieuwe cadeaugidsen voor dunne zoekthema’s",
-      "lastRunAt": "2026-11-20T09:32:00+01:00",
-      "lastResult": "Gidsen ‘Bouwcadeau voor volwassenen’ en ‘Cadeau voor een tiener van €15 tot €25’ gepubliceerd en gekoppeld in 6 gidsen",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T10:34:41+01:00",
+      "lastResult": "Gidsen ‘Cadeau voor een collega onder €15’ en ‘Cadeau voor een thuiswerker van €25 tot €50’ toegevoegd en gekoppeld in 4 gidsen (nog niet zichtbaar: site offline)",
       "nextRun": "Volgende ronde",
       "blockedBy": null
     },
