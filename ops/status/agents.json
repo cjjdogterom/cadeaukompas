@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-20T16:31:28+01:00",
+  "updatedAt": "2026-11-20T17:15:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "Agent-ronde 17:15",
       "lastRunAt": "2026-11-20T16:31:28+01:00",
       "lastResult": "Ronde 16:15: +65 cadeaus in de data (1588 actief), 2 gidsen, compliance-hertoets verwerkt (GO). SITE NOG OFFLINE: 427 actieve cadeaus zonder foto, bol-verrijking en bezorgdatums niet gedraaid",
       "nextRun": "Elk uur 08–22",
       "blockedBy": "Site offline: Vercel-project ‘cadeaukompas’ bestaat niet meer (owner-todo 0)"
     },
     "product-scout": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "2 scouts: ~35 moeder/oma/vrouw (opa-oma sport/muziek/tech, lezen, creatief, wellness) + ~35 jongens/vaders (kind sport/muziek/tech, tiener sport/lezen, vader gamen/creatief/gereedschap)",
       "lastRunAt": "2026-11-20T16:31:28+01:00",
       "lastResult": "2 scouts: 71 bol-cadeaus gecontroleerd op de productpagina (35 moeder/oma/vrouw: tuin (nestkasten, insectenhotels, Gardena, Elho, kweeksets), puzzels/spellen, padel, zwembrillen, Nordic walking, fietstassen, JBL/Soundcore, Doro; 36 jongens/vaders: 8BitDo/HyperX/Thrustmaster, Revell/Tamiya modelbouw, Robotime, kinderkoken/bakken, karaoke, walkietalkies, basketbal, Bresser, Philips/Gillette/Medisana). Dun gebleven: kind:sport, tiener onder €15, opa-oma tech/muziek",
       "nextRun": "Elke agent-ronde (elk uur)",
@@ -50,8 +50,8 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "2 nieuwe cadeaugidsen voor dunne zoekthema’s",
       "lastRunAt": "2026-11-20T16:31:28+01:00",
       "lastResult": "Gidsen ‘Cadeau voor een kind van €50 tot €100’ en ‘Cadeau voor je vader onder €15’ toegevoegd en gekoppeld vanuit 7 gidsen (nog niet zichtbaar: site offline)",
       "nextRun": "Volgende ronde",
