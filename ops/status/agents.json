@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-20T08:15:00+01:00",
+  "updatedAt": "2026-11-20T08:30:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "bezig",
-      "currentTask": "Agent-ronde 08:15: 2 scouts, catalogus, seo-content; dagrapport 20-11",
-      "lastRunAt": "2026-11-20T01:35:00+01:00",
-      "lastResult": "Ronde 00:20: +61 cadeaus (1060 actief), 2 gidsen, compliance-toets met 3 blokkerende punten direct opgelost",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T08:30:00+01:00",
+      "lastResult": "Ronde 08:15: +53 cadeaus (1100 actief), alle prijzen ververst, compliance-adviezen A1 en A3–A14 verwerkt, 1 gids, dagrapport 20-11",
       "nextRun": "Elk uur 08–22",
       "blockedBy": null
     },
     "product-scout": {
-      "status": "bezig",
-      "currentTask": "2 scouts: ~35 bol-cadeaus moeder/oma (sport, muziek, spellen, tech, €100+) en ~35 jongens 0–12 (lezen, creatief, sport, 0–3 vanaf €25) + vaders (€100+, verzorging, creatief)",
-      "lastRunAt": "2026-11-20T01:35:00+01:00",
-      "lastResult": "2 scouts: 68 bol-cadeaus gecontroleerd op de productpagina (33 vaders: gereedschap, koken/BBQ, veel tot €25; 35 moeder/oma koken en muziek, jongens gamen en 0–3 jaar). Vaders €100+ blijft dun",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T08:30:00+01:00",
+      "lastResult": "2 scouts: 60 bol-cadeaus gecontroleerd op de productpagina (30 moeder/oma: radio’s en speakers, weerstation, e-reader, stoelfiets, puzzels; 30 jongens/vaders: kinderboeken, 0–3 jaar, gereedschap, scheerapparaten, modelbouw). Dun gebleven: sport/buiten voor kinderen, 0–3 jaar boven €25, creatief voor moeder (veel niet leverbaar)",
       "nextRun": "Elke agent-ronde (elk uur)",
       "blockedBy": null
     },
@@ -26,16 +26,16 @@
       "blockedBy": "Alleen affiliate (keuze eigenaar 17-11): geen leveranciers nodig"
     },
     "catalogus": {
-      "status": "bezig",
-      "currentTask": "Dagelijkse prijsverversing van alle actieve cadeaus; compliance-adviezen A3–A14 verwerken; daarna nieuwe cadeaus importeren en verrijken",
-      "lastRunAt": "2026-11-20T01:35:00+01:00",
-      "lastResult": "61 nieuwe cadeaus actief met foto, EAN en prijs uit de bol-API (0 gepauzeerd); 4 niet geïmporteerd (score 58), Cole & Mason-molen op concept (verkoper niet bevestigd), digitale Minecraft-download weggelaten. Korting- en voorraadzinnen uit 15 teksten gehaald, 12× speelgoed 3+ uit groep 0–3. 1060 actief; bezorgdatums ververst",
+      "status": "gepland",
+      "currentTask": "9 productteksten met ‘controleer vóór aankoop’ herverifiëren op de bol-pagina; LEGO-leeftijd van 5 grote sets controleren",
+      "lastRunAt": "2026-11-20T08:30:00+01:00",
+      "lastResult": "Dagelijkse prijsverversing: 1060 gecontroleerd, 82 prijzen gewijzigd, 9 gepauzeerd (geen aanbod bij bol). Compliance A3–A14 verwerkt in ruim 100 teksten/indelingen; 3 op concept (onduidelijk wat de klant krijgt), Playgro-badset gepauzeerd. 53 nieuwe cadeaus actief met foto, EAN en prijs; 5 niet geïmporteerd (score onder 60), 1 op concept (variant onduidelijk). 1100 actief",
       "nextRun": "Elke agent-ronde",
       "blockedBy": null
     },
     "developer": {
       "status": "gepland",
-      "currentTask": "Optioneel: bol-bezorgdata op gidskaarten; dagelijkse prijsverversing zodra Vercel Pro er is",
+      "currentTask": "Teksten op home, /cadeaus en /cadeauzoeker over ‘op tijd’ nalopen (compliance A1); optioneel bol-bezorgdata op gidskaarten",
       "lastRunAt": "2026-11-18T18:24:00+01:00",
       "lastResult": "Productpagina toont bol-bezorgdatum of duidelijke indicatie; 48-uurregel ook op productpagina en in JSON-LD; uitleg bij budgetfilters; bezoekteller met dag-salt en 12 maanden bewaartermijn (migratie 0003). 46 tests groen",
       "nextRun": "Volgende ronde",
@@ -50,10 +50,10 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "bezig",
-      "currentTask": "Compliance-advies A1: belofte ‘alleen cadeaus die op tijd komen’ in 4 gidsen aanpassen; 1 nieuwe gids",
-      "lastRunAt": "2026-11-20T01:35:00+01:00",
-      "lastResult": "Gidsen ‘Sinterklaascadeau voor je moeder’ en ‘Kerstcadeau voor kinderen van 8 tot 12 jaar’ gepubliceerd en gekoppeld in 4 gidsen",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T08:30:00+01:00",
+      "lastResult": "Belofte ‘komt op tijd’ in 12 gidsteksten vervangen door de uiterste besteldatum per cadeau (compliance A1/A15); nieuwe gids ‘Verwencadeau voor opa en oma’ (49 cadeaus), gekoppeld in 3 gidsen",
       "nextRun": "Volgende ronde",
       "blockedBy": null
     },
@@ -99,7 +99,7 @@
     },
     "compliance": {
       "status": "gepland",
-      "currentTask": null,
+      "currentTask": "Hertoets na verwerking A1 en A3–A14; A2 (bedenktijd/garantie) staat nog open",
       "lastRunAt": "2026-11-20T01:35:00+01:00",
       "lastResult": "26 gidsen en 999 productteksten getoetst: 3 blokkerende punten (opgelost door catalogus), 15 adviezen open; rapport in ops/reports/compliance-2026-11-20.md",
       "nextRun": "Volgende ronde",
