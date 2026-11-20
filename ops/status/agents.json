@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-20T13:36:31+01:00",
+  "updatedAt": "2026-11-20T14:15:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "Agent-ronde 14:15",
       "lastRunAt": "2026-11-20T13:36:31+01:00",
       "lastResult": "Ronde 13:15: +51 cadeaus in de data (1421 actief), 2 gidsen, compliance-hertoets verwerkt. SITE NOG OFFLINE: 260 actieve cadeaus zonder foto/EAN, bol-verrijking en bezorgdatums niet gedraaid",
       "nextRun": "Elk uur 08–22",
       "blockedBy": "Site offline: Vercel-project ‘cadeaukompas’ bestaat niet meer (owner-todo 0)"
     },
     "product-scout": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "2 scouts: moeder/oma/vrouw (wellness, sport/wandelen, eten-drinken, €50–100) + jongens 4–12 (gamen, muziek, sport), vaders (gereedschap €50–100, sport) en 0–3 jaar",
       "lastRunAt": "2026-11-20T13:36:31+01:00",
       "lastResult": "2 scouts: 70 bol-cadeaus gecontroleerd op de productpagina (35 moeder/oma/vrouw: puzzels, Philips-koffiezetters en melkopschuimers, Moccamaster, fotolijsten, Basil-fietstassen, Kobo, JBL; 35 jongens/vaders: kinderkoptelefoons, voetbaldoelen, Bresser, Knipex, Wera, Bosch, Stanley, Robotime). Dun gebleven: yoga/wandelen/fitness, €50–100 voor moeder/oma, kinderinstrumenten, vaders onder €15 (veel al in de catalogus of ‘niet leverbaar’)",
       "nextRun": "Elke agent-ronde (elk uur)",
@@ -50,8 +50,8 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "2 nieuwe cadeaugidsen voor dunne zoekthema’s",
       "lastRunAt": "2026-11-20T13:36:31+01:00",
       "lastResult": "Gidsen ‘Cadeau voor oma en opa onder €15’ en ‘Cadeau voor je vader van €15 tot €25’ toegevoegd en gekoppeld vanuit 7 gidsen (nog niet zichtbaar: site offline)",
       "nextRun": "Volgende ronde",
@@ -98,8 +98,8 @@
       "blockedBy": "Supabase en affiliate-accounts (owner-todo #3, #4, #8)"
     },
     "compliance": {
-      "status": "gepland",
-      "currentTask": "Hertoets na verwerking A1 en A3–A14; A2 (bedenktijd/garantie) staat nog open",
+      "status": "bezig",
+      "currentTask": "Toetsing van de productteksten en gidsen van deze ronde",
       "lastRunAt": "2026-11-20T13:36:31+01:00",
       "lastResult": "Hertoets 13:15: 60 producten en 2 gidsen getoetst; 1 blokkerend (voorraadclaim Bresser-set) direct geschrapt, 7 adviezen (U1–U7); 25 productteksten en 2 gidstips aangepast; rapport in ops/reports/compliance-2026-11-20.md",
       "nextRun": "Volgende ronde",

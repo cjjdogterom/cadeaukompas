@@ -230,3 +230,7 @@
 {"ts":"2026-11-20T13:36:31+01:00","agent":"seo-content","type":"klaar","summary":"Gidsen ‘Cadeau voor oma en opa onder €15’ en ‘Cadeau voor je vader van €15 tot €25’ toegevoegd en gekoppeld vanuit 7 gidsen (nog niet zichtbaar: site offline)"}
 {"ts":"2026-11-20T13:36:31+01:00","agent":"compliance","type":"klaar","summary":"Hertoets 13:15: 60 producten en 2 gidsen getoetst; 1 blokkerend (voorraadclaim Bresser-set) direct geschrapt, 7 adviezen (U1–U7); 25 productteksten en 2 gidstips aangepast; rapport in ops/reports/compliance-2026-11-20.md"}
 {"ts":"2026-11-20T13:36:31+01:00","agent":"orchestrator","type":"klaar","summary":"Ronde 13:15: +51 cadeaus in de data (1421 actief), 2 gidsen, compliance-hertoets verwerkt. SITE NOG OFFLINE: 260 actieve cadeaus zonder foto/EAN, bol-verrijking en bezorgdatums niet gedraaid"}
+{"ts":"2026-11-20T14:15:00+01:00","agent":"orchestrator","type":"gestart","summary":"Agent-ronde 14:15: 2 scouts, seo-content, compliance (site nog offline)"}
+{"ts":"2026-11-20T14:15:00+01:00","agent":"product-scout","type":"gestart","summary":"2 scouts: ~35 bol-cadeaus moeder/oma/vrouw (wellness, sport/wandelen, eten-drinken, €50–100) + ~35 jongens 4–12 (gamen, muziek, sport), vaders (gereedschap €50–100, sport) en 0–3 jaar"}
+{"ts":"2026-11-20T14:15:00+01:00","agent":"seo-content","type":"gestart","summary":"2 nieuwe cadeaugidsen voor dunne zoekthema’s"}
+{"ts":"2026-11-20T14:15:00+01:00","agent":"compliance","type":"gestart","summary":"Toetsing van de productteksten en gidsen van deze ronde"}
