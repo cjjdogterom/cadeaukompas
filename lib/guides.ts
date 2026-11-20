@@ -166,7 +166,7 @@ export const guides: Guide[] = [
       { q: "Kan ik een cadeau rechtstreeks naar opa en oma laten bezorgen?", a: "Vaak kan dat met een ander bezorgadres, maar dat verschilt per winkel. Je bestelt wel bij de winkel zelf; we sturen je door via onze links. Controleer bij het bestellen het afleveradres en de levertijd." },
       { q: "Wanneer moet ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau. We rekenen met werkdagen en een dag extra marge voor de drukte." },
     ],
-    related: ["puzzel-en-spelcadeau-oma-opa", "verwencadeau-voor-opa-en-oma", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "sinterklaascadeau-baby-peuter", "cadeau-voor-wie-graag-kookt", "cadeau-voor-wie-alles-heeft", "cadeau-opa-oma-onder-15-euro"],
+    related: ["puzzel-en-spelcadeau-oma-opa", "verwencadeau-voor-opa-en-oma", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "sinterklaascadeau-baby-peuter", "cadeau-voor-wie-graag-kookt", "cadeau-voor-wie-alles-heeft", "cadeau-opa-oma-onder-15-euro", "cadeau-opa-oma-25-50-euro"],
   },
   {
     slug: "kerstcadeau-voor-vader",
@@ -212,7 +212,7 @@ export const guides: Guide[] = [
       { q: "Wat geef je een moeder die zegt dat ze niets nodig heeft?", a: "Kies iets dat op raakt of een gezellig moment oplevert, zoals chocolade, handcrème of een boek. Dat voelt niet als extra spullen en toch weet ze dat je aan haar gedacht hebt." },
       { q: "Komt het cadeau op tijd voor pakjesavond of kerst?", a: "Bij elk product staat de uiterste besteldatum voor beide momenten. Die wordt per product berekend op basis van de verwachte levertijd van de winkel, met een dag extra marge." },
     ],
-    related: ["cadeau-voor-partner", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma", "cadeau-onder-25-euro-collega", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "cadeau-voor-fijnproevers", "verwencadeau-voor-haar", "cadeau-voor-lezers", "kerstcadeau-voor-moeder-onder-50", "sinterklaascadeau-voor-moeder", "wellnesscadeau-voor-je-moeder", "cadeau-moeder-15-25-euro"],
+    related: ["cadeau-voor-partner", "kerstcadeau-voor-vader", "cadeau-voor-opa-en-oma", "cadeau-onder-25-euro-collega", "sportcadeau-voor-volwassenen", "cadeau-voor-wie-graag-kookt", "cadeau-voor-fijnproevers", "verwencadeau-voor-haar", "cadeau-voor-lezers", "kerstcadeau-voor-moeder-onder-50", "sinterklaascadeau-voor-moeder", "wellnesscadeau-voor-je-moeder", "cadeau-moeder-15-25-euro", "cadeau-moeder-50-100-euro"],
   },
   {
     slug: "sinterklaascadeau-baby-peuter",
@@ -327,7 +327,7 @@ export const guides: Guide[] = [
       { q: "Welk spel is geschikt voor opa en oma?", a: "Een spel dat je in een paar minuten uitlegt en dat met twee of meer mensen werkt, zoals een kaartspel. Kijk op de verpakking naar het aantal spelers en de speelduur." },
       { q: "Wanneer moet ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau. We rekenen met werkdagen en een dag extra marge voor de drukte." },
     ],
-    related: ["cadeau-voor-opa-en-oma", "verwencadeau-voor-opa-en-oma", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "cadeau-onder-15-euro", "cadeau-voor-lezers", "spelcadeau-bord-en-kaartspellen", "cadeau-opa-oma-onder-15-euro"],
+    related: ["cadeau-voor-opa-en-oma", "verwencadeau-voor-opa-en-oma", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "cadeau-onder-15-euro", "cadeau-voor-lezers", "spelcadeau-bord-en-kaartspellen", "cadeau-opa-oma-onder-15-euro", "cadeau-opa-oma-25-50-euro"],
   },
   {
     slug: "verwencadeau-voor-opa-en-oma",
@@ -352,7 +352,7 @@ export const guides: Guide[] = [
       { q: "Waar let ik op bij een cadeau met een stekker?", a: "Kies iets met een duidelijke aan- en uitknop en lees de gebruiksaanwijzing en veiligheidsinformatie op de verpakking. Dat geldt voor elk elektrisch cadeau, voor jong en oud." },
       { q: "Wat is het verschil met de algemene gids voor opa en oma?", a: "Die gids bevat alle soorten cadeaus voor opa en oma. Deze gids toont alleen cadeaus om te verwennen en te ontspannen." },
     ],
-    related: ["cadeau-voor-opa-en-oma", "puzzel-en-spelcadeau-oma-opa", "verwencadeau-voor-haar", "cadeau-voor-moeder", "cadeau-voor-fijnproevers", "cadeau-opa-oma-onder-15-euro", "wellnesscadeau-voor-je-moeder"],
+    related: ["cadeau-voor-opa-en-oma", "puzzel-en-spelcadeau-oma-opa", "verwencadeau-voor-haar", "cadeau-voor-moeder", "cadeau-voor-fijnproevers", "cadeau-opa-oma-onder-15-euro", "wellnesscadeau-voor-je-moeder", "cadeau-opa-oma-25-50-euro"],
   },
   {
     slug: "sportcadeau-voor-volwassenen",
@@ -718,7 +718,7 @@ export const guides: Guide[] = [
       { q: "Waarom staan er geen cadeaus onder €25 in deze gids?", a: "Deze gids toont het bereik van €25 tot €50. Voor kleinere bedragen heb je de gidsen voor cadeaus onder €25 en onder €15." },
       { q: "Tot wanneer kan ik bestellen voor kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge. Controleer de levertijd voor het bestellen nog even bij de winkel." },
     ],
-    related: ["cadeau-voor-moeder", "verwencadeau-voor-haar", "kerstcadeau-onder-50-euro", "cadeau-voor-fijnproevers", "cadeau-voor-wie-graag-kookt", "cadeau-moeder-15-25-euro", "wellnesscadeau-voor-je-moeder"],
+    related: ["cadeau-voor-moeder", "verwencadeau-voor-haar", "kerstcadeau-onder-50-euro", "cadeau-voor-fijnproevers", "cadeau-voor-wie-graag-kookt", "cadeau-moeder-15-25-euro", "wellnesscadeau-voor-je-moeder", "cadeau-moeder-50-100-euro"],
   },
   {
     slug: "kerstcadeau-vanaf-100-euro",
@@ -1132,7 +1132,7 @@ export const guides: Guide[] = [
       { q: "Kan ik het cadeau naar een ander adres laten sturen?", a: "Dat kan vaak, maar het verschilt per winkel. Je bestelt bij de winkel zelf; controleer daar het afleveradres en de levertijd." },
       { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
     ],
-    related: ["cadeau-voor-opa-en-oma", "puzzel-en-spelcadeau-oma-opa", "verwencadeau-voor-opa-en-oma", "cadeau-onder-15-euro"],
+    related: ["cadeau-voor-opa-en-oma", "puzzel-en-spelcadeau-oma-opa", "verwencadeau-voor-opa-en-oma", "cadeau-onder-15-euro", "cadeau-opa-oma-25-50-euro"],
   },
   {
     slug: "cadeau-vader-15-25-euro",
@@ -1201,7 +1201,54 @@ export const guides: Guide[] = [
       { q: "Is dit bedrag genoeg voor Sinterklaas of kerst?", a: "Dat bepaal je zelf of samen met de familie. Een goed gekozen cadeau voor een beperkt bedrag valt vaak beter dan een duur cadeau waar weinig over is nagedacht." },
       { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
     ],
-    related: ["cadeau-voor-moeder", "kerstcadeau-voor-moeder-onder-50", "sinterklaascadeau-voor-moeder", "wellnesscadeau-voor-je-moeder", "cadeau-onder-15-euro"],
+    related: ["cadeau-voor-moeder", "kerstcadeau-voor-moeder-onder-50", "sinterklaascadeau-voor-moeder", "wellnesscadeau-voor-je-moeder", "cadeau-onder-15-euro", "cadeau-moeder-50-100-euro"],
+  },
+  {
+    slug: "cadeau-moeder-50-100-euro",
+    title: "Cadeau voor je moeder van €50 tot €100",
+    metaTitle: "Cadeau voor je moeder van €50 tot €100 | OpTijdCadeau",
+    metaDescription:
+      "Cadeaus voor je moeder tussen €50 en €100: iets voor thuis, voor ontspanning of om samen te gebruiken. Met levertijd en uiterste besteldatum per cadeau.",
+    intro: [
+      "Heb je tussen €50 en €100 te besteden voor je moeder, dan kun je iets kiezen dat ze langere tijd gebruikt. Denk aan iets voor in de keuken, een apparaat voor thuis of iets om bij te ontspannen. Kijk daarbij niet naar het prijskaartje, maar naar wat zij dagelijks doet en waar ze zich soms aan ergert of iets voor mist.",
+      "In deze selectie staan cadeaus voor moeders in deze prijsklasse. Een duurder cadeau is niet automatisch een beter cadeau: een goed passend ding voor €55 valt meer op dan iets dat je kiest omdat het binnen het budget past. Controleer bij apparaten of er een stekker, afmeting of onderhoud bij komt kijken, en lees de productpagina even door. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. De bezorging zelf ligt bij de winkel, dus controleer de levertijd en de bezorgdatum op de winkelpagina nog even voor je bestelt. Wij sturen je door en verkopen zelf niets. Prijzen kunnen wijzigen; we tonen de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { voor: "moeder", budget: "50-100" },
+    tips: [
+      "Kies iets voor een gewoonte die ze al heeft, zoals koffie, koken of lezen. Dan weet je dat het gebruikt wordt.",
+      "Delen met broers of zussen kan: leg samen in voor één cadeau uit deze prijsklasse in plaats van drie kleine cadeaus.",
+      "Bewaar de bon en kijk bij de winkel naar de retourvoorwaarden, voor het geval het niet past of ze het al heeft.",
+    ],
+    faq: [
+      { q: "Wat geef je je moeder voor €50 tot €100?", a: "Iets dat ze regelmatig gebruikt en niet zelf zou kopen, bijvoorbeeld voor in de keuken, voor de bank of voor een hobby. Kijk eerst wat ze al heeft, zodat je niets dubbel koopt." },
+      { q: "Wat is het verschil met de gids voor €15 tot €25?", a: "Deze gids toont alleen cadeaus tussen €50 en €100. Wil je minder uitgeven, kijk dan bij de gids voor moeders van €15 tot €25." },
+      { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Controleer de bezorgdatum bij de winkel ook nog even voor je bestelt." },
+    ],
+    related: ["cadeau-voor-moeder", "kerstcadeau-voor-moeder-onder-50", "sinterklaascadeau-voor-moeder", "wellnesscadeau-voor-je-moeder", "cadeau-moeder-15-25-euro"],
+  },
+  {
+    slug: "cadeau-opa-oma-25-50-euro",
+    title: "Cadeau voor opa en oma van €25 tot €50",
+    metaTitle: "Cadeau voor opa en oma van €25 tot €50 | OpTijdCadeau",
+    metaDescription:
+      "Cadeaus voor opa en oma tussen €25 en €50: spellen, thee en koffie, iets voor thuis of voor samen. Met levertijd en uiterste besteldatum per cadeau.",
+    intro: [
+      "Met een budget van €25 tot €50 kun je opa en oma iets geven dat ze elke week gebruiken. Kijk naar hun vaste momenten: de koffie na het eten, de puzzel op tafel, de krant, de tuin of een spelletje als de kleinkinderen op bezoek zijn. Een cadeau dat daarbij past, krijgt sneller een vaste plek dan iets dat vooral mooi oogt.",
+      "In deze selectie staan cadeaus voor opa en oma in deze prijsklasse. Houd het gebruiksgemak in de gaten: kies iets dat je uit de doos haalt en meteen kunt gebruiken, zonder ingewikkelde installatie. Is het cadeau van meerdere mensen, dan kun je het budget delen. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. De bezorging zelf ligt bij de winkel, dus controleer de levertijd en de bezorgdatum op de winkelpagina nog even voor je bestelt. Wij sturen je door en verkopen zelf niets. Prijzen kunnen wijzigen; we tonen de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { voor: "opa-oma", budget: "25-50" },
+    tips: [
+      "Kies iets voor een vast moment in hun dag, zoals koffie, een puzzel of een spel voor als er bezoek is.",
+      "Let op lettergrootte, gewicht en bediening: iets dat licht en duidelijk is, wordt eerder gebruikt.",
+      "Kunnen ze het cadeau samen gebruiken, dan hoef je niet twee verschillende dingen te kopen.",
+    ],
+    faq: [
+      { q: "Wat geef je opa en oma voor €25 tot €50?", a: "Iets dat ze regelmatig gebruiken of samen kunnen doen, zoals een spel, een puzzel, goede koffie of thee of iets voor in huis. Kijk eerst wat ze al hebben." },
+      { q: "Wat is het verschil met de gids voor onder €15?", a: "Deze gids toont alleen cadeaus tussen €25 en €50. Zoek je iets kleiners, kijk dan bij de gids voor opa en oma onder €15." },
+      { q: "Kan ik het cadeau direct naar opa en oma laten sturen?", a: "Dat kan vaak, maar het verschilt per winkel. Je bestelt bij de winkel zelf; controleer daar het afleveradres en de bezorgdatum." },
+      { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
+    ],
+    related: ["cadeau-voor-opa-en-oma", "puzzel-en-spelcadeau-oma-opa", "verwencadeau-voor-opa-en-oma", "cadeau-opa-oma-onder-15-euro"],
   },
 ];
 

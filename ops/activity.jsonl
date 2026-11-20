@@ -244,3 +244,4 @@
 {"ts":"2026-11-20T15:15:00+01:00","agent":"orchestrator","type":"gestart","summary":"Agent-ronde 15:15: 2 scouts, seo-content, daarna catalogus en compliance (site nog offline)"}
 {"ts":"2026-11-20T15:15:00+01:00","agent":"product-scout","type":"gestart","summary":"2 scouts: ~35 bol-cadeaus moeder/oma/vrouw (sport, tech, muziek, creatief, €50–100) + ~35 kinderen €50–100, vaders (gamen, creatief, wellness, onder €15) en opa/oma (tech, sport)"}
 {"ts":"2026-11-20T15:15:00+01:00","agent":"seo-content","type":"gestart","summary":"2 nieuwe cadeaugidsen voor dunne zoekthema’s"}
+{"ts":"2026-11-20T15:45:00+01:00","agent":"compliance","type":"gestart","summary":"Toetsing van de 52 nieuwe productteksten en 2 gidsen van ronde 15:15"}

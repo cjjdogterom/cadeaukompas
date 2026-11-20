@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T15:15:00+01:00",
+  "updatedAt": "2026-11-20T15:45:00+01:00",
   "agents": {
     "orchestrator": {
       "status": "bezig",
@@ -98,8 +98,8 @@
       "blockedBy": "Supabase en affiliate-accounts (owner-todo #3, #4, #8)"
     },
     "compliance": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "Toetsing van de 52 nieuwe productteksten en 2 gidsen van ronde 15:15",
       "lastRunAt": "2026-11-20T14:32:15+01:00",
       "lastResult": "Hertoets 14:15: 45 actieve producten en 2 gidsen getoetst; 0 blokkerend, 6 adviezen (U-14.1–U-14.6); 21 productteksten en 1 gidszin aangepast; rapport in ops/reports/compliance-2026-11-20.md",
       "nextRun": "Volgende ronde",
