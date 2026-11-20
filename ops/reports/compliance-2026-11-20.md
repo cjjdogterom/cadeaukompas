@@ -492,3 +492,80 @@ Voorstel: zet `rating` op `null` tot vaststaat dat de reviews bij dit product ho
 Nee. Alleen productteksten en één zin in een gids zijn aangepast. Er zijn geen juridische pagina's, checkout, prijzen of statussen geraakt.
 
 **COMPLIANCE: GO** voor de 45 actieve producten en de 2 gidsen van ronde 14:15. Er zijn geen blokkerende punten. U-14.1 en U-14.2 (vooral Bosch PRO en Miniband) bij voorkeur vóór de herlancering.
+
+## Hertoets 15:15
+
+Agent: Compliance · Werkkopie `main` (na commit ef1d6a0, ongecommitte wijzigingen in `data/products.json` en `lib/guides.ts`). Dit is geen formeel juridisch advies.
+
+### Wat is getoetst
+- **Producten (52, alle actief):** de slugs uit `data/research/shortlist-2026-11-20-moeder-oma-sport-tech-muziek-15.json` (27) en `data/research/shortlist-2026-11-20-kind-vader-opa-15.json` (31), zoals ze in `data/products.json` staan (r. 77502–80150). Velden: short en description, plus ageGroups bij kind-, tiener- en gameproducten.
+  - Niet getoetst: `instax-mini-film-wit-2x10-stuks` en `lego-city-vintage-stoomtrein-60511` (concept); `canon-selphy-qx20-mobiele-fotoprinter-terracotta`, `soundcore-sleep-a20-slaapoordopjes-beige`, `tunturi-yoga-grid-foam-roller-33-cm-petrol` en `einhell-accu-universele-blazer-ge-ub-18-250` (niet opgenomen). Goed dat de Sleep A20 niet is opgenomen: de tekst ("voor wie echt moeite heeft met slapen", slaapmonitoring) lag dicht tegen een gezondheidsclaim aan.
+- **Gidsen (2):** `cadeau-moeder-50-100-euro` (`lib/guides.ts` r. 1207) en `cadeau-opa-oma-25-50-euro` (r. 1230). De budgetsleutels `50-100` en `25-50` bestaan (`lib/types.ts` r. 42–43) en alle `related`-slugs bestaan.
+
+### Wat goed is
+- **Games alleen voor volwassenen:** `grand-theft-auto-vi-ps5-code-in-a-box` (PEGI 18), `marvels-wolverine-ps5` (PEGI 18) en `ea-sports-fc-27-ps5` (PEGI 16) staan alle drie alleen in `ageGroups: ["volwassen"]` met recipients vader/partner/vriend. PEGI 16 voor FC 27 klopt (nieuwe PEGI-regel voor betaalde willekeurige items, zie bron).
+- **Geen** "voorraad bijna op", "laatste kans", "morgen in huis", adviesprijs of Black Friday in de publieke tekst; dat staat alleen in `scout.notes` (op één punt na, zie B-15.1).
+- **Leeftijden:** geen product in 0–3. PLAYMOBIL-reddingsvoertuig (5+) noemt de leeftijd in de short; Speed Champions (9+), Wicket en Avengers (12+) staan in passende groepen. Modelbouw met verf en lijm (Airfix, Revell) staat alleen in volwassen.
+- **Weerstandsbanden en sportproducten** beschrijven functies, geen gezondheidseffect. De Tunturi-foamroller (tekst "stijfheid verminderen") en de Sleep A20 zijn niet opgenomen; activeer ze niet zonder eerst de tekst aan te passen (A3). De walkietalkies noemen het bereik als "opgegeven" en zeggen dat het in de praktijk kleiner is. De Einhell-accu's en de Kobo Remote waarschuwen voor compatibiliteit.
+- **Gidsen:** geen superlatieven, schaarste of reviewclaims. Wel: "wij sturen je door en verkopen zelf niets", "controleer de levertijd bij de winkel", "prijzen kunnen wijzigen; we tonen de controledatum", en een retourtip. "Een duurder cadeau is niet automatisch een beter cadeau" is eerlijk advies.
+
+### Blokkerende punten
+**B-15.1 (opgelost door tekstcorrectie): aanbiedingsclaim in een actief product.** `soundcore-liberty-5-draadloze-oordopjes` had in de short "…van Anker, in de aanbieding." Dat valt onder B1 (korting/deal in statische tekst, Omnibus). Zin geschrapt. Verder geen blokkerende punten.
+
+### Direct doorgevoerde tekstcorrecties (22 slugs plus 1 gids)
+| Slug | Was | Nu | Waarom |
+|---|---|---|---|
+| `soundcore-liberty-5-draadloze-oordopjes` (short) | "…van Anker, in de aanbieding." | "…van Anker." | B-15.1 |
+| `beurer-mg-99-massage-gun` | short "Een draadloze massagepistool … voor stijve spieren"; "De fabrikant geeft drie jaar garantie."; "na een lange dag stijve schouders heeft" | "Een draadloos massagepistool … voor na het sporten"; "Volgens de fabrikant geldt 3 jaar fabrieksgarantie, naast je wettelijke rechten."; "na een lange dag wil ontspannen. Geen medisch hulpmiddel; lees voor gebruik de veiligheidsaanwijzingen." | A3 (klacht + oplossing), A10, A8, spelling (het pistool) |
+| `grand-theft-auto-vi-ps5-code-in-a-box` | short "De nieuwe GTA …"; "Het nieuwste deel van de GTA-reeks" | "GTA VI voor PlayStation 5 (PEGI 18) …"; "Het zesde hoofddeel van de GTA-reeks" | H5 (tijdgebonden), PEGI in de short |
+| `ea-sports-fc-27-ps5` | short "De nieuwste voetbalgame …"; "Het nieuwe deel …"; "PEGI 16." | "Voetbalgame van EA voor PS5 (PEGI 16) …"; "Het deel van 2026 …"; "PEGI 16, vanwege betaalde willekeurige items in de game." | H5, PEGI in de short; de reden voorkomt verwarring met eerdere delen (PEGI 3) |
+| `lego-marvel-avengers-doomsday-nieuwe-avengers-toren-76352` | "Een groot en nieuw cadeau" | "Een groot cadeau" | H5 |
+| `polaroid-go-gen-3-white` | short "De kleinste Polaroid-camera … in klassiek lijstje"; "Er zijn nog geen reviews op de pagina, dus dit is een nieuwer model." | "Een kleine Polaroid-instantcamera in wit, voor afdrukken met het bekende Polaroid-lijstje."; zin geschrapt | Superlatief zonder bron; statische reviewstatus (A4) en H5 |
+| `denver-pocket-printer-mcp6010-wit` | short "Een betaalbare mini fotoprinter"; "Een goedkoper alternatief voor de merkprinters" | "Een mini fotoprinter"; "Een alternatief voor de fotoprinters" | A13 (prijsoordeel, prijsvergelijking) |
+| `denver-vpl-120-platenspeler-zwart` (short) | "Een betaalbare retro-platenspeler …" | "Een retro-platenspeler met ingebouwde speakers en auto-stop." | A13 |
+| `lego-star-wars-bb-8-astromech-droid-75452` | "Een betaalbare Star Wars-set" | "Een kleinere Star Wars-set" | A13 |
+| `jbl-tuner-xl-dab-radio-bluetooth-zwart` | "geeft ruimer geluid dan een kleine speaker" | "geeft een ruimer geluid" | H4 (vergelijking) |
+| `instax-mini-link-pocket-printer-ash-white` | "in ongeveer een kwartminuut" | "na ongeveer vijftien seconden" | Taal |
+| `soundcore-sport-x20-anc-oordopjes-wit` | "zodat je verkeer nog hoort" | "zodat je meer van je omgeving hoort; let in het verkeer altijd goed op" | Veiligheidsbelofte (A8) |
+| `denver-digitale-fotolijst-pff1070b-oplaadstation` (short) | "Een draadloze fotolijst … zonder snoer in de woonkamer" | "Een fotolijst met eigen accu en oplaadstandaard, zodat hij ook een tijd zonder snoer kan staan." | Het oplaadstation heeft een snoer; absolute claim over een essentieel kenmerk |
+| `denver-senioren-mobiele-telefoon-4g-bas24800l` | "Er hoort een oplaadstation bij. … die gewoon wil bellen en appen." | "…; een simkaart zit er niet bij. … die vooral wil bellen en sms'en." | Een telefoon "zonder ingewikkelde apps" belooft geen WhatsApp; simkaart apart is essentiële info (art. 6:193d BW) |
+| `wera-kraftform-xxl-schroevendraaierset-12-delig` | "geïsoleerd tot 1000 volt"; "Een cadeau waar een vader jaren plezier van heeft." | "De isolatie is volgens VDE getest tot 1000 volt; werk thuis altijd spanningsloos."; "…, bijvoorbeeld een vader met een eigen werkplek." | Veiligheid (zoals 13:15); levensduurbelofte |
+| `playmobil-pirates-groot-piratenschip-71530` | "kan ook mee in bad of het zwembad" | "kan onder toezicht ook mee in bad of het zwembad" | Veiligheid bij waterspel (A8) |
+| `lego-city-passagiersvliegtuig-60367` (short) | (geen leeftijd) | "…, vanaf 7 jaar." | 7+ in 4–7 (A9) |
+| `lego-city-centraal-station-60469` (short) | "bij uitstek een set voor een treinfan" | "voor een treinfan vanaf 7 jaar" | A9; superlatief |
+| `lego-jurassic-world-mosasaurus-bootaanval-77983` (short) | "ruim 700 onderdelen" | "met zo'n 700 onderdelen, vanaf 7 jaar" | A9; aantal onderdelen onzeker volgens de notitie |
+| `carrera-go-mario-kart-p-wing-mario-vs-yoshi-4-9m` (short) | "voor twee spelers" | "voor twee spelers vanaf 6 jaar" | 6+ in 4–7 (A9); zie U-15.2 |
+| `lego-star-wars-mandalorian-grogu-zweefkinderwagen-75403` (short) | (geen leeftijd) | "…, vanaf 10 jaar." | 10+ in 8–12 (A9) |
+| `vtech-kidizoom-printcam-graffiti-roze` (short) | (geen leeftijd) | "…, vanaf 5 jaar." | 5+ in 4–7 (A9) |
+| Gids `cadeau-moeder-50-100-euro`, intro | "waar ze zich soms aan ergert of iets voor mist" | "waar ze zich soms aan ergert of wat ze mist" | Taal |
+
+Er zijn geen prijzen, statussen, ratings, ageGroups, links, slugs of andere velden gewijzigd. Alleen stringwaarden in short en description zijn vervangen, plus één zin in de intro van een gids.
+
+### Adviezen (open)
+**U-15.1. Ratings op 1–2 reviews of van andere producten (Catalogus, zoals U-14.1).** Elders wordt de rating bij 1–2 reviews leeggelaten, hier niet: `airfix-d-day-fighters-geschenkset-50192` 5,0 (1), `lego-jurassic-world-mosasaurus-bootaanval-77983` 5,0 (1), `lego-marvel-avengers-doomsday-nieuwe-avengers-toren-76352` 5,0 (1), `wera-kraftform-xxl-schroevendraaierset-12-delig` 4,5 (2) en `instax-mini-41-instant-camera-zwart` 4,0 (2). Bij `rubye-diamond-painting-japanse-tuin-30x40` toont de rating 4,5 (2053), maar de bron zegt zelf "score geldt voor alle Rubye-pakketten". Voorstel: in alle zes gevallen `rating` op `null` ("geen nepreviews").
+
+**U-15.2. Productgegevens verifiëren (Catalogus, zoals A11/U1):**
+- `carrera-go-mario-kart-p-wing-mario-vs-yoshi-4-9m`: de description zegt nog "De beschrijving noemt vanaf 6 jaar, de specificaties noemen 14 jaar." Controleer bij Carrera. Is het 6+, schrap dan die zin. Is het hoger, haal "4-7" weg en pas de short aan. Er staat ook nog geen rating (nieuw product).
+- `onemelon-drops-draadloze-oordopjes-slapen`: "De pagina is niet eenduidig over de bluetooth-versie". Opnieuw controleren en de zin schrappen.
+- `denver-senioren-mobiele-telefoon-4g-bas24800l`: het modelnummer wisselt op de pagina (BAS24800L/BAS18800L). Controleer welk model de klant krijgt, en of het toestel WhatsApp ondersteunt; zo ja, dan mag "appen" terug.
+- `beurer-mg-99-massage-gun`: accuduur 4 of 5 uur op de pagina (noemen we niet, prima zo laten).
+- `lego-city-passagiersvliegtuig-60367` (913 of 930 onderdelen) en de mosasaurus: aantallen staan nu als "zo'n/ruim", dat is in orde.
+
+**U-15.3. Gidsen: belooft de intro wat het filter toont (zoals U4/U-14.5)?**
+- `cadeau-moeder-50-100-euro` noemt "iets voor in de keuken, een apparaat voor thuis of iets om bij te ontspannen" en in de tips "koffie, koken of lezen". In deze ronde zijn vooral fotoprinters, radio's, platenspelers en oordopjes toegevoegd. Keukenspullen tussen €50 en €100 voor moeder moeten er ook zijn.
+- `cadeau-opa-oma-25-50-euro` noemt "de krant, de tuin" en in de FAQ "goede koffie of thee".
+
+Voorstel (SEO-content): op de preview nakijken en anders de opsomming aanpassen.
+
+**U-15.4. Licht, niet aangepast.**
+- `soundcore-sport-x20-anc-oordopjes-wit` ("Reviewers noemen de pasvorm prettig, ook met een bril") en `soundcore-liberty-5-…` ("Een reviewer vindt de microfoon voor bellen niet sterk"): kwalitatieve reviewsamenvattingen zonder aantal. De tweede is juist eerlijk; de eerste kan neutraler ("De oorhaakjes passen ook met een bril, volgens reviewers").
+- `onemelon-drops-…`: "ook geschikt om mee te slapen" is een gebruiksclaim, geen gezondheidsclaim. In orde zolang er geen effect op de slaap wordt beloofd.
+- `einhell-twinpack-…`: "voor alle Einhell Power X-Change-gereedschap" is de claim van Einhell zelf; eventueel "volgens Einhell".
+- `denver-digitale-fotolijst-10-1-inch-pff1012b`: "wifi-fotolijst" staat in de short. Prima; de notitie "werkt alleen met wifi en de Frameo-app" is daarmee gedekt.
+
+### Akkoord nodig?
+Nee. Alleen productteksten en één gidszin zijn aangepast. Er zijn geen juridische pagina's, checkout, prijzen of statussen geraakt.
+
+**COMPLIANCE: GO** voor de 52 actieve producten en de 2 gidsen van ronde 15:15. Het enige blokkerende punt (B-15.1, aanbiedingsclaim) is met een tekstcorrectie opgelost. U-15.1 en U-15.2 (Carrera en seniorentelefoon) bij voorkeur vóór de herlancering.
+
+Bron PEGI FC 27: [PC Gamer — EA Sports FC 27 gets a PEGI 16 rating in Europe because of loot boxes](https://www.pcgamer.com/gaming-industry/ea-sports-fc-27-gets-a-pegi-16-rating-in-europe-because-of-loot-boxes/)

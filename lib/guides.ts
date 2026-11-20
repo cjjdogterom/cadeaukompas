@@ -1210,7 +1210,7 @@ export const guides: Guide[] = [
     metaDescription:
       "Cadeaus voor je moeder tussen €50 en €100: iets voor thuis, voor ontspanning of om samen te gebruiken. Met levertijd en uiterste besteldatum per cadeau.",
     intro: [
-      "Heb je tussen €50 en €100 te besteden voor je moeder, dan kun je iets kiezen dat ze langere tijd gebruikt. Denk aan iets voor in de keuken, een apparaat voor thuis of iets om bij te ontspannen. Kijk daarbij niet naar het prijskaartje, maar naar wat zij dagelijks doet en waar ze zich soms aan ergert of iets voor mist.",
+      "Heb je tussen €50 en €100 te besteden voor je moeder, dan kun je iets kiezen dat ze langere tijd gebruikt. Denk aan iets voor in de keuken, een apparaat voor thuis of iets om bij te ontspannen. Kijk daarbij niet naar het prijskaartje, maar naar wat zij dagelijks doet en waar ze zich soms aan ergert of wat ze mist.",
       "In deze selectie staan cadeaus voor moeders in deze prijsklasse. Een duurder cadeau is niet automatisch een beter cadeau: een goed passend ding voor €55 valt meer op dan iets dat je kiest omdat het binnen het budget past. Controleer bij apparaten of er een stekker, afmeting of onderhoud bij komt kijken, en lees de productpagina even door. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. De bezorging zelf ligt bij de winkel, dus controleer de levertijd en de bezorgdatum op de winkelpagina nog even voor je bestelt. Wij sturen je door en verkopen zelf niets. Prijzen kunnen wijzigen; we tonen de datum waarop we de prijs hebben gecontroleerd.",
     ],
     filters: { voor: "moeder", budget: "50-100" },
