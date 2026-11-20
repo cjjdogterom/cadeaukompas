@@ -241,3 +241,6 @@
 {"ts":"2026-11-20T14:32:15+01:00","agent":"catalogus","type":"probleem","summary":"bol-verrijking en bezorgdatums opnieuw overgeslagen: site nog offline (404). 312 actieve cadeaus hebben nog geen foto"}
 {"ts":"2026-11-20T14:32:15+01:00","agent":"seo-content","type":"klaar","summary":"Gidsen ‘Wellnesscadeau voor je moeder’ en ‘Cadeau voor je moeder van €15 tot €25’ toegevoegd en gekoppeld vanuit 6 gidsen (nog niet zichtbaar: site offline)"}
 {"ts":"2026-11-20T14:32:15+01:00","agent":"orchestrator","type":"klaar","summary":"Ronde 14:15: +52 cadeaus in de data (1473 actief), 2 gidsen, compliance-hertoets verwerkt. SITE NOG OFFLINE: 312 actieve cadeaus zonder foto, bol-verrijking en bezorgdatums niet gedraaid"}
+{"ts":"2026-11-20T15:15:00+01:00","agent":"orchestrator","type":"gestart","summary":"Agent-ronde 15:15: 2 scouts, seo-content, daarna catalogus en compliance (site nog offline)"}
+{"ts":"2026-11-20T15:15:00+01:00","agent":"product-scout","type":"gestart","summary":"2 scouts: ~35 bol-cadeaus moeder/oma/vrouw (sport, tech, muziek, creatief, €50–100) + ~35 kinderen €50–100, vaders (gamen, creatief, wellness, onder €15) en opa/oma (tech, sport)"}
+{"ts":"2026-11-20T15:15:00+01:00","agent":"seo-content","type":"gestart","summary":"2 nieuwe cadeaugidsen voor dunne zoekthema’s"}

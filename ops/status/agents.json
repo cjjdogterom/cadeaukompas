@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-20T14:32:15+01:00",
+  "updatedAt": "2026-11-20T15:15:00+01:00",
   "agents": {
     "orchestrator": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "Agent-ronde 15:15",
       "lastRunAt": "2026-11-20T14:32:15+01:00",
       "lastResult": "Ronde 14:15: +52 cadeaus in de data (1473 actief), 2 gidsen, compliance-hertoets verwerkt. SITE NOG OFFLINE: 312 actieve cadeaus zonder foto, bol-verrijking en bezorgdatums niet gedraaid",
       "nextRun": "Elk uur 08–22",
       "blockedBy": "Site offline: Vercel-project ‘cadeaukompas’ bestaat niet meer (owner-todo 0)"
     },
     "product-scout": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "2 scouts: ~35 bol-cadeaus moeder/oma/vrouw (sport, tech, muziek, creatief, €50–100) + ~35 kinderen €50–100, vaders (gamen, creatief, wellness, onder €15) en opa/oma (tech, sport)",
       "lastRunAt": "2026-11-20T14:32:15+01:00",
       "lastResult": "3 scouts: 66 bol-cadeaus gecontroleerd op de productpagina (25 moeder/oma/vrouw: yoga/foamrollers, wandelstokken, Beurer, Medisana, Dopper, Tony’s; 33 jongens/vaders/0–3: Fisher-Price, VTech, Hape, BRIO, Nerf, LEGO, Bosch; 8 aanvulling: Ticket to Ride, Wingspan, Kwakzalvers, Tefal, Senseo). Dun gebleven: €50–100 voor moeder/oma, kinderinstrumenten, gereedschap €50–100 van bol zelf",
       "nextRun": "Elke agent-ronde (elk uur)",
@@ -50,8 +50,8 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "2 nieuwe cadeaugidsen voor dunne zoekthema’s",
       "lastRunAt": "2026-11-20T14:32:15+01:00",
       "lastResult": "Gidsen ‘Wellnesscadeau voor je moeder’ en ‘Cadeau voor je moeder van €15 tot €25’ toegevoegd en gekoppeld vanuit 6 gidsen (nog niet zichtbaar: site offline)",
       "nextRun": "Volgende ronde",
