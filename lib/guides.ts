@@ -56,7 +56,7 @@ export const guides: Guide[] = [
       { q: "Wat is een goed sinterklaascadeau voor een tiener van 15?", a: "Iets dat aansluit bij een hobby: een koptelefoon voor muziek, een bordspel voor met vrienden of een creatieve set. Gebruik de filters om op interesse te zoeken." },
       { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "Dat verschilt per product; de uiterste besteldatum staat bij elk cadeau en wordt per product berekend. Pakjesavond is op zaterdag 5 december, dus het cadeau moet uiterlijk vrijdag 4 december in huis zijn." },
     ],
-    related: ["gamecadeau-tiener-13-17", "sinterklaascadeau-kinderen-8-12", "cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "kerstcadeau-voor-tiener"],
+    related: ["gamecadeau-tiener-13-17", "sinterklaascadeau-kinderen-8-12", "cadeau-onder-25-euro-collega", "cadeau-onder-15-euro", "kerstcadeau-voor-tiener", "cadeau-tiener-15-25-euro"],
   },
   {
     slug: "kerstpakket-thuiswerker",
@@ -281,7 +281,7 @@ export const guides: Guide[] = [
       { q: "Is een boormachine een goed cadeau?", a: "Dat kan, maar kijk eerst of hij al een accusysteem heeft. Past de accu bij zijn andere gereedschap, dan is het een handige aanvulling. Heeft hij er nog geen, dan is een eenvoudige accuboormachine een prima begin." },
       { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge." },
     ],
-    related: ["kerstcadeau-voor-vader", "cadeau-voor-partner", "cadeau-voor-opa-en-oma", "cadeau-onder-25-euro-collega", "sinterklaascadeau-voor-vader"],
+    related: ["kerstcadeau-voor-vader", "cadeau-voor-partner", "cadeau-voor-opa-en-oma", "cadeau-onder-25-euro-collega", "sinterklaascadeau-voor-vader", "bouwcadeau-voor-volwassenen"],
   },
   {
     slug: "gamecadeau-tiener-13-17",
@@ -304,7 +304,7 @@ export const guides: Guide[] = [
       { q: "Hoe weet ik of een game geschikt is voor mijn kind?", a: "Kijk naar de PEGI-leeftijdsaanduiding op de verpakking of de productpagina. Die geeft aan vanaf welke leeftijd een spel is bedoeld." },
       { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, inclusief een dag marge voor de drukte. Pakjesavond is zaterdag 5 december, dus het cadeau moet uiterlijk vrijdag 4 december in huis zijn." },
     ],
-    related: ["sinterklaascadeau-tiener", "sinterklaascadeau-kinderen-8-12", "cadeau-onder-25-euro-collega", "kerstpakket-thuiswerker", "sinterklaascadeau-jongens-8-12", "muziekcadeau", "creatief-cadeau", "cadeau-voor-een-vriend", "techcadeau", "kerstcadeau-voor-tiener"],
+    related: ["sinterklaascadeau-tiener", "sinterklaascadeau-kinderen-8-12", "cadeau-onder-25-euro-collega", "kerstpakket-thuiswerker", "sinterklaascadeau-jongens-8-12", "muziekcadeau", "creatief-cadeau", "cadeau-voor-een-vriend", "techcadeau", "kerstcadeau-voor-tiener", "cadeau-tiener-15-25-euro"],
   },
   {
     slug: "puzzel-en-spelcadeau-oma-opa",
@@ -523,7 +523,7 @@ export const guides: Guide[] = [
       { q: "Zijn creatieve cadeaus geschikt voor een surprise?", a: "Ja, zeker als je er iets persoonlijks bij doet, zoals een gedichtje of een kleine verwijzing naar de hobby. Kijk ook bij onze surprise-ideeën." },
       { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge." },
     ],
-    related: ["sinterklaascadeau-kinderen-8-12", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-tiener", "cadeau-voor-partner", "sinterklaascadeau-meisjes-8-12"],
+    related: ["sinterklaascadeau-kinderen-8-12", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-tiener", "cadeau-voor-partner", "sinterklaascadeau-meisjes-8-12", "bouwcadeau-voor-volwassenen"],
   },
   {
     slug: "cadeau-voor-lezers",
@@ -645,7 +645,7 @@ export const guides: Guide[] = [
       { q: "Is een cadeaubon een goed alternatief?", a: "Soms wel, zeker als je de smaak echt niet kent. Een klein cadeau dat je zelf hebt uitgekozen laat meestal beter zien dat je hebt nagedacht." },
       { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge." },
     ],
-    related: ["cadeau-voor-opa-en-oma", "cadeau-voor-fijnproevers", "verwencadeau-voor-haar", "kerstcadeau-voor-vader", "cadeau-voor-partner", "kerstcadeau-vanaf-100-euro"],
+    related: ["cadeau-voor-opa-en-oma", "cadeau-voor-fijnproevers", "verwencadeau-voor-haar", "kerstcadeau-voor-vader", "cadeau-voor-partner", "kerstcadeau-vanaf-100-euro", "bouwcadeau-voor-volwassenen"],
   },
   {
     slug: "sinterklaascadeau-meisjes-8-12",
@@ -843,7 +843,7 @@ export const guides: Guide[] = [
       { q: "Is een cadeaubon een goed alternatief?", a: "Voor veel tieners wel, zeker als je smaak niet kent. Een klein cadeau uit deze selectie erbij laat zien dat je hebt nagedacht." },
       { q: "Tot wanneer kan ik bestellen voor kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge voor de drukte." },
     ],
-    related: ["sinterklaascadeau-tiener", "gamecadeau-tiener-13-17", "techcadeau", "muziekcadeau", "kerstcadeau-kinderen-8-12"],
+    related: ["sinterklaascadeau-tiener", "gamecadeau-tiener-13-17", "techcadeau", "muziekcadeau", "kerstcadeau-kinderen-8-12", "cadeau-tiener-15-25-euro"],
   },
   {
     slug: "sinterklaascadeau-voor-vader",
@@ -917,6 +917,56 @@ export const guides: Guide[] = [
       { q: "Tot wanneer kan ik bestellen voor kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge voor de drukte." },
     ],
     related: ["sinterklaascadeau-kinderen-8-12", "sinterklaascadeau-jongens-8-12", "sinterklaascadeau-meisjes-8-12", "kerstcadeau-voor-tiener", "spelcadeau-bord-en-kaartspellen"],
+  },
+  {
+    slug: "bouwcadeau-voor-volwassenen",
+    title: "Bouwcadeau voor volwassenen",
+    metaTitle: "Bouwcadeau voor volwassenen | OpTijdCadeau",
+    metaDescription:
+      "Bouwcadeaus voor volwassenen: LEGO-sets, bloemen om te bouwen en modelbouw. Met levertijd en uiterste besteldatum per cadeau, bestellen bij de winkel.",
+    intro: [
+      "Een bouwset is een cadeau dat je niet alleen uitpakt, maar ook echt gaat doen. Dat maakt het bijzonder voor volwassenen die de hele week druk zijn en zelden een uur voor zichzelf hebben. Een avond puzzelen met stukjes, zonder scherm en zonder to-do-lijst, kan verrassend ontspannend zijn. En aan het eind staat er iets op de plank.",
+      "In deze selectie staan bouwsets voor volwassenen: van LEGO-boeketten en bonsaibomen die nooit verwelken tot modelbouw voor wie het precies wil doen. Kijk naar de tijd die iemand heeft. Een grote set is een project voor de feestdagen, een kleinere set is op een avond klaar. Check ook waar het eindresultaat komt te staan: een bloemenwand of boeket is vooral decoratie, een model past bij een hobbyist. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst. De bezorging zelf ligt bij de winkel, dus controleer de levertijd op de winkelpagina nog even voor je bestelt. Wij sturen je door en verkopen zelf niets. Prijzen kunnen wijzigen, dus bekijk de actuele prijs bij de winkel.",
+    ],
+    filters: { leeftijd: "volwassen", interesse: "bouwen" },
+    tips: [
+      "Kijk wat er al in huis staat. Heeft iemand al een stel sets in de kast, dan is een vervolg of een set uit dezelfde serie een veilige keuze.",
+      "Wil je een cadeau voor wie niet bouwt, kies dan iets met een mooi eindresultaat, zoals een boeket of plant. Dat staat ook los van het bouwen leuk in huis.",
+      "Plan er samen een moment voor: een bouwset is extra gezellig als je er tijdens de kerstdagen samen aan begint.",
+      "Lees de leeftijdsaanduiding en het aantal onderdelen op de verpakking, zodat je weet hoeveel tijd het kost.",
+    ],
+    faq: [
+      { q: "Is een LEGO-set een geschikt cadeau voor een volwassene?", a: "Ja, er zijn veel sets die speciaal voor volwassenen bedoeld zijn, met meer onderdelen en een rustiger, mooier eindresultaat. Het hangt af van de smaak van de ontvanger; bouwt iemand graag, dan is het een goede gok." },
+      { q: "Hoe lang duurt het om zo'n set te bouwen?", a: "Dat verschilt per set. Kijk naar het aantal onderdelen op de productpagina: bij een paar honderd stukjes ben je al snel een avond bezig, bij grotere sets verspreid je het over meerdere dagen." },
+      { q: "Wat geef je iemand die al veel sets heeft?", a: "Kies een thema dat nog niet in de kast staat, of ga voor iets met een duidelijk eindresultaat, zoals een boeket of een bonsai. Vraag eventueel aan een huisgenoot welke sets al zijn gebouwd." },
+      { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend. Controleer voor het bestellen ook de levertijd bij de winkel." },
+    ],
+    related: ["cadeau-voor-partner", "cadeau-vader-klussen-gereedschap", "creatief-cadeau", "cadeau-voor-wie-alles-heeft"],
+  },
+  {
+    slug: "cadeau-tiener-15-25-euro",
+    title: "Cadeau voor een tiener van €15 tot €25",
+    metaTitle: "Cadeau voor een tiener van €15 tot €25 | OpTijdCadeau",
+    metaDescription:
+      "Tienercadeaus tussen €15 en €25 voor Sinterklaas of kerst: gadgets, spellen en creatieve cadeaus. Met levertijd en uiterste besteldatum per cadeau.",
+    intro: [
+      "Een tiener cadeau doen is een kunst. Het moet niet kinderachtig zijn, niet te braaf en ook niet meer kosten dan het lootjesbudget toelaat. Met een bedrag tussen €15 en €25 kun je meer dan je denkt, zolang je kijkt naar wat een tiener echt doet: gamen, muziek luisteren, sporten, tekenen of gewoon op de bank hangen met vrienden.",
+      "In deze selectie vind je cadeaus tussen €15 en €25 die passen bij die interesses. Een spel dat je met vrienden speelt, een gadget voor op de kamer of iets creatiefs scoort vaak beter dan kleding, want daar is de smaak zo persoonlijk. Twijfel je? Vraag een broer, zus of vriend naar wat er nu speelt. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst. De bezorging zelf ligt bij de winkel, dus controleer de levertijd op de winkelpagina nog even voor je bestelt. Wij sturen je door en verkopen zelf niets. Prijzen kunnen wijzigen, dus bekijk de actuele prijs bij de winkel.",
+    ],
+    filters: { voor: "tiener", budget: "15-25" },
+    tips: [
+      "Kies iets dat bij een interesse past in plaats van iets dat bij een leeftijd past. Een tiener herkent meteen wat er lukraak gekozen is.",
+      "Vermijd kleding en geuren, tenzij je de smaak zeker weet. Een spel, gadget of creatieve set is veiliger.",
+      "Heb je een hoger budget, combineer dan twee kleinere cadeaus. Meer uitpakken is op pakjesavond ook gezelliger.",
+      "Laat de bon bij het cadeau, zodat het ruilen kan als het toch niet helemaal raak is.",
+    ],
+    faq: [
+      { q: "Wat geef je een tiener voor €20?", a: "Denk aan iets bij een interesse: een spel voor met vrienden, een gadget voor op de kamer of een creatieve set. Kijk naar wat de tiener nu veel doet." },
+      { q: "Wat is een normaal budget voor een tiener bij lootjes?", a: "Dat spreek je af met de groep. Veel gezinnen kiezen een bedrag tussen €15 en €25; houd je daaraan, zodat het eerlijk blijft." },
+      { q: "Is dit cadeau ook geschikt voor Sinterklaas én kerst?", a: "Ja. Bij elk product zie je de uiterste besteldatum voor beide feestdagen. Controleer de levertijd bij de winkel voor het bestellen." },
+      { q: "Wat is het verschil met de gids voor Sinterklaascadeaus voor tieners?", a: "Die gids toont cadeaus in alle prijsklassen. Deze gids laat alleen cadeaus tussen €15 en €25 zien." },
+    ],
+    related: ["sinterklaascadeau-tiener", "kerstcadeau-voor-tiener", "gamecadeau-tiener-13-17", "cadeau-onder-15-euro"],
   },
 ];
 

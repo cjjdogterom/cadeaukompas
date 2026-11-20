@@ -6685,8 +6685,8 @@
     "title": "Ravensburger Mycelia bordspel",
     "merchantTitle": "Ravensburger Mycelia - Bordspel",
     "brand": "Ravensburger",
-    "short": "Een bordspel waarin je een netwerk van schimmels laat groeien, voor wie van strategie houdt.",
-    "description": "Bij Mycelia breid je een eigen schimmelnetwerk uit en probeer je slim te zijn met je zetten. Het is een spel met wat denkwerk, geschikt voor ouder kinderen en tieners. De speelleeftijd is op de pagina niet gecontroleerd.",
+    "short": "Een coöperatief deckbuilding-spel waarin je samen een schimmelnetwerk laat groeien, vanaf 9 jaar.",
+    "description": "In Mycelia werk je samen met 1 tot 4 spelers (solo kan ook) om alle dauwdruppels op de juiste plek op het bord te krijgen en ze daarna naar de tempel te brengen. Onderweg versterk je je kaartendeck met speciale kaarten. Volgens bol is het spel geschikt vanaf 9 jaar, een coöperatief strategiespel voor gezinnen en spelliefhebbers.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/ravensburger-mycelia-bordspel/9300000152168607/",
@@ -6695,10 +6695,12 @@
     "deliveryDaysMin": 1,
     "deliveryDaysMax": 1,
     "recipients": [
+      "kind",
       "tiener",
       "vriend"
     ],
     "ageGroups": [
+      "8-12",
       "13-17",
       "volwassen"
     ],
@@ -6723,7 +6725,7 @@
     "scout": {
       "score": 66,
       "commissionPct": null,
-      "notes": "Prijs € 24,49 en levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-17. Verkoop door bol. Rating 4,6/58 gezien op bol-lijst 'bordspellen voor 13 jaar en ouder'; speelleeftijd en EAN niet op productpagina gezien; omschrijving gebaseerd op de titel en algemene kennis, spelinhoud niet op pagina gecontroleerd.",
+      "notes": "Prijs € 24,49 en levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-17. Verkoop door bol. Rating 4,6/58 gezien op bol-lijst 'bordspellen voor 13 jaar en ouder'; speelleeftijd en EAN niet op productpagina gezien; omschrijving gebaseerd op de titel en algemene kennis, spelinhoud niet op pagina gecontroleerd. | 20-11: bol-pagina gelezen: vanaf 9 jaar, 1-4 spelers, EAN 4005556275380; speeltijd op pagina tegenstrijdig, daarom niet genoemd.",
       "verified": true
     },
     "ean": "4005556275380"
@@ -6809,11 +6811,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/jbl-junior-320-bedrade-on-ear-koptelefoon-voor-kinderen-blauw/9300000183890161/"
     ],
-    "status": "actief",
+    "status": "concept",
     "scout": {
       "score": 62,
       "commissionPct": null,
-      "notes": "Prijs € 24,95 en levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-17. Verkoop door bol. Pagina tegenstrijdig over draadloos/microfoon; score niet eenduidig, daarom rating null. Volume-begrenzing is gebaseerd op de productlijn, niet op de pagina gelezen.",
+      "notes": "Prijs € 24,95 en levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-17. Verkoop door bol. Pagina tegenstrijdig over draadloos/microfoon; score niet eenduidig, daarom rating null. Volume-begrenzing is gebaseerd op de productlijn, niet op de pagina gelezen. | 20-11: concept: bol-pagina is tegenstrijdig over microfoon (titel/beschrijving \"met microfoon\", specificatie \"Geen microfoon\"); niet vast te stellen.",
       "verified": true
     },
     "ean": "1200130015847"
@@ -9023,11 +9025,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/le-creuset-bakvorm-23-cm/9200000027967663/"
     ],
-    "status": "actief",
+    "status": "concept",
     "scout": {
       "score": 74,
       "commissionPct": null,
-      "notes": "Prijs € 33,00 en levertekst 'Voor 23:59 uur besteld, donderdag in huis' gezien op productpagina 2026-11-17. Verkoper mijnkookwinkel (marktplaats, naam wijst op NL, land niet op pagina). Reviews 4,9 uit 56. Afmetingen op pagina inconsistent (23 cm in titel, 29 cm lengte in specs).",
+      "notes": "Prijs € 33,00 en levertekst 'Voor 23:59 uur besteld, donderdag in huis' gezien op productpagina 2026-11-17. Verkoper mijnkookwinkel (marktplaats, naam wijst op NL, land niet op pagina). Reviews 4,9 uit 56. Afmetingen op pagina inconsistent (23 cm in titel, 29 cm lengte in specs). | 20-11: concept: bol-pagina tegenstrijdig over maten en model (titel 23 cm, lengte 29 cm, verpakkingsinhoud \"Cakevorm Patiliss 23,5 x 13,5 cm\"); product niet eenduidig vast te stellen.",
       "verified": true
     }
   },
@@ -18179,11 +18181,11 @@
     "sources": [
       "https://www.bol.com/nl/nl/p/tekenstift-faber-castell-pitt-artist-pen-brush-set-12-stuks-pastel/9200000047736877/"
     ],
-    "status": "actief",
+    "status": "concept",
     "scout": {
       "score": 66,
       "commissionPct": null,
-      "notes": "Prijs € 36,91, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Voorraad 'bijna op'; omschrijving spreekt zichzelf tegen over pastel of grijstinten.",
+      "notes": "Prijs € 36,91, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Voorraad 'bijna op'; omschrijving spreekt zichzelf tegen over pastel of grijstinten. | 20-11: concept: titel zegt \"Pastel\", beschrijving noemt 12 grijstinten incl. zwart en donker indigo; inhoud niet eenduidig vast te stellen.",
       "verified": true
     }
   },
@@ -19296,7 +19298,7 @@
     "brand": "Ravensburger",
     "ean": "4005555008033",
     "short": "Een grote puzzel met de kleurrijke dorpjes van Cinque Terre, voor een lange puzzelmiddag.",
-    "description": "Een puzzel van 2000 stukjes met een kleurrijk Italiaans kustdorp. Een flinke uitdaging voor ervaren puzzelaars die de feestdagen met een groot project willen vullen. Let op: de pagina geeft tegenstrijdige maten, dus controleer die vóór aankoop.",
+    "description": "Een puzzel van 2000 stukjes met een kleurrijk Italiaans kustdorp. De afgebouwde puzzel is 98 x 75 cm, dus er is flink wat tafelruimte voor nodig. Een flinke uitdaging voor ervaren puzzelaars die de feestdagen met een groot project willen vullen.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/legpuzzel-farbenfrohe-cinque-terre-2000st/9300000174512032/",
@@ -19330,7 +19332,7 @@
     "scout": {
       "score": 60,
       "commissionPct": null,
-      "notes": "Prijs € 29,99 (adviesprijs € 36,71), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Nog geen reviews. Maatvermelding op bol-pagina's voor dit motief niet consistent.",
+      "notes": "Prijs € 29,99 (adviesprijs € 36,71), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-18. Nog geen reviews. Maatvermelding op bol-pagina's voor dit motief niet consistent. | 20-11: bol-pagina gelezen: puzzel 98 x 75 cm, doos 43,8 x 30,6 x 5,4 cm, 2000 stukjes; controleer-zin verwijderd.",
       "verified": true
     }
   },
@@ -28216,7 +28218,7 @@
     "brand": "Nijdam",
     "ean": "8716404328535",
     "short": "Pols-, elleboog- en kniebescherming voor kinderen die skateboarden, steppen of skaten.",
-    "description": "Een complete set beschermers voor pols, elleboog en knie in zwart en grijs, maat L. Een slim cadeau voor kinderen die een skateboard, step of skates krijgen. Controleer de maat voor aankoop.",
+    "description": "Een set beschermers in zwart en grijs, maat L, met een paar polsbeschermers, een paar elleboogbeschermers en een paar kniebeschermers. De set is bedoeld voor kinderen. Een slim cadeau voor wie een skateboard, step of skates krijgt.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/nijdam-skate-beschermset-kinderen-neo-nero-zwart-grijs-l/9300000003691800/",
@@ -28253,7 +28255,7 @@
     "scout": {
       "score": 66,
       "commissionPct": null,
-      "notes": "Prijs € 14,13, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Maat L; leeftijd niet vermeld op de pagina.",
+      "notes": "Prijs € 14,13, verkoper bol, levertekst 'Voor 23:59 uur besteld, vrijdag in huis' gezien op productpagina 2026-11-18. Maat L; leeftijd niet vermeld op de pagina. | 20-11: bol-pagina gelezen: maat L, doelgroep kinderen, 3 paar beschermers; maattabel staat alleen als afbeelding, controleer-zin verwijderd.",
       "verified": true
     }
   },
@@ -51280,7 +51282,7 @@
     "brand": "LEGO",
     "ean": "5702017584119",
     "short": "Groot Technic-model van de Mercedes G-klasse voor ervaren bouwers.",
-    "description": "Een omvangrijke bouwset met veel mechaniek en opengaande onderdelen. Het is een groot project voor een tiener of volwassene die van terreinwagens houdt.",
+    "description": "Een omvangrijke bouwset met veel mechaniek en opengaande onderdelen. LEGO geeft deze set aan voor bouwers vanaf 18 jaar. Een groot project voor wie van terreinwagens houdt.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/lego-technic-mercedes-benz-g-500-professional-line-42177/9300000175725335/",
@@ -51294,7 +51296,6 @@
       "vriend"
     ],
     "ageGroups": [
-      "13-17",
       "volwassen"
     ],
     "interests": [
@@ -51319,7 +51320,7 @@
     "scout": {
       "score": 66,
       "commissionPct": null,
-      "notes": "Prijs € 169,98, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-19. Duur voor een tienercadeau.",
+      "notes": "Prijs € 169,98, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-19. Duur voor een tienercadeau. | 20-11: bol-pagina: aanbevolen minimumleeftijd 18 jaar; 13-17 verwijderd (compliance A6).",
       "verified": true
     }
   },
@@ -51330,7 +51331,7 @@
     "brand": "LEGO",
     "ean": "5702018067697",
     "short": "Technic-model van een Formule 1-auto voor racefans.",
-    "description": "Een grote bouwset van een actuele F1-wagen met veel mechanische details. Voor tieners en volwassenen die Formule 1 volgen en graag bouwen. Een cadeau voor onder de kerstboom met wow-factor.",
+    "description": "Een grote bouwset van een actuele F1-wagen met veel mechanische details. LEGO geeft de set aan voor volwassenen (18+). Voor Formule 1-fans die graag bouwen, een cadeau met wow-factor onder de kerstboom.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/lego-technic-mclaren-mcl39-f1-car-42228/9300000257637905/",
@@ -51344,7 +51345,6 @@
       "vriend"
     ],
     "ageGroups": [
-      "13-17",
       "volwassen"
     ],
     "interests": [
@@ -51370,7 +51370,7 @@
     "scout": {
       "score": 68,
       "commissionPct": null,
-      "notes": "Prijs € 149,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-19. Slechts 9 reviews.",
+      "notes": "Prijs € 149,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-19. Slechts 9 reviews. | 20-11: bol-pagina: aanbevolen minimumleeftijd 18 jaar; 13-17 verwijderd (compliance A6).",
       "verified": true
     }
   },
@@ -51479,7 +51479,7 @@
     "brand": "LEGO",
     "ean": "5702018063620",
     "short": "Een klassieke Britse sportwagen om te bouwen en neer te zetten.",
-    "description": "Een elegant model van een autoklassieker met veel details. Een rustig bouwproject voor oudere tieners en volwassenen die van oldtimers houden. Wel een investering van ruim honderd euro.",
+    "description": "Een elegant model van een autoklassieker met veel details. LEGO geeft de set aan voor bouwers vanaf 18 jaar. Een rustig bouwproject voor wie van oldtimers houdt.",
     "type": "affiliate",
     "merchant": "bol",
     "merchantUrl": "https://www.bol.com/nl/nl/p/lego-icons-jaguar-e-type-klassieke-sportwagen-auto-11381/9300000265639999/",
@@ -51493,7 +51493,6 @@
       "vriend"
     ],
     "ageGroups": [
-      "13-17",
       "volwassen"
     ],
     "interests": [
@@ -51517,7 +51516,7 @@
     "scout": {
       "score": 62,
       "commissionPct": null,
-      "notes": "Prijs € 109,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-19. Slechts 8 reviews; vooral voor volwassenen.",
+      "notes": "Prijs € 109,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-19. Slechts 8 reviews; vooral voor volwassenen. | 20-11: bol-pagina: aanbevolen minimumleeftijd 18 jaar; 13-17 verwijderd (compliance A6).",
       "verified": true
     }
   },
@@ -58465,6 +58464,2511 @@
       "score": 80,
       "commissionPct": null,
       "notes": "Prijs € 16,99, verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Hardcover, vanaf 8 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "mirjam-mous-boy-7",
+    "title": "Boy 7 van Mirjam Mous",
+    "merchantTitle": "Boy 7 Toen Ik Mijn Ogen Opendeed, Wist Ik Niets Meer... Zelfs Mijn Eigen Naam Niet.",
+    "brand": "Mirjam Mous",
+    "ean": "9789000301355",
+    "short": "Een Nederlandse spannende jeugdthriller over een jongen die zich niets meer herinnert.",
+    "description": "Een jongen komt zonder herinneringen bij in een verlaten omgeving en moet uitzoeken wie hij is. Het boek telt 288 pagina's en leest snel door de korte, spannende hoofdstukken. Een goed cadeau voor wie van thrillers houdt en graag Nederlands leest.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/boy-7/1001004011248973/",
+    "priceCents": 1399,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "tiener",
+      "vriend"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 134,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/boy-7/1001004011248973/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 78,
+      "commissionPct": null,
+      "notes": "Prijs € 13,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina: vanaf 12 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "pamela-sharon-thrillseekers-het-meisje-in-het-meer",
+    "title": "Thrillseekers",
+    "merchantTitle": "Thrillseekers - Het meisje in het meer van Pamela Sharon",
+    "brand": "Pamela Sharon",
+    "ean": "9789025889494",
+    "short": "Een korte, spannende Nederlandse thriller voor tieners in hardcover.",
+    "description": "Een compact verhaal van ongeveer 128 pagina's waarin een mysterie rond een meisje in een meer centraal staat. Door de korte lengte is het ook een prima keuze voor tieners die niet snel naar een boek grijpen. Een betaalbaar boekencadeau voor de feestdagen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/thrillseekers-het-meisje-in-het-meer/9300000248996740/",
+    "priceCents": 1299,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "kind",
+      "vriend"
+    ],
+    "ageGroups": [
+      "13-17"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 2,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/thrillseekers-het-meisje-in-het-meer/9300000248996740/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 64,
+      "commissionPct": null,
+      "notes": "Prijs € 12,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina tegenstrijdig (categorie vanaf 14, samenvatting vanaf 13); slechts 2 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "suzanne-collins-sunrise-on-the-reaping-engels",
+    "title": "Sunrise on the Reaping van Suzanne Collins (Engels)",
+    "merchantTitle": "Sunrise on the Reaping PB",
+    "brand": "Suzanne Collins",
+    "ean": "9780702349072",
+    "short": "De Engelstalige voorgeschiedenis van The Hunger Games in paperback.",
+    "description": "Een prequel bij de bekende Hunger Games-reeks, in het Engels en met zo'n 416 pagina's. Geschikt voor tieners die de reeks al kennen en graag in het Engels lezen. Een gewild boek voor onder de boom.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/sunrise-on-the-reaping-pb/9300000259641380/",
+    "priceCents": 1139,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "tiener",
+      "vriend"
+    ],
+    "ageGroups": [
+      "13-17"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 6,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/sunrise-on-the-reaping-pb/9300000259641380/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 11,39, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Engelstalig; leeftijd op pagina vanaf 12 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "donald-duck-pocket-306-kleine-eenden-grote-daden",
+    "title": "Donald Duck Pocket 306",
+    "merchantTitle": "Donald Duck Pocket 306 - Kleine eenden, grote daden",
+    "brand": "Disney",
+    "ean": "9789463054638",
+    "short": "Een dik pocketboek vol korte Donald Duck-verhalen, handig als klein cadeau.",
+    "description": "Een Nederlandse pocket met ruim 250 pagina's strips rond Donald Duck en zijn familie. Gemakkelijk mee te nemen en geschikt om te lezen of weg te lezen op een regenachtige dag. Een leuke aanvulling bij een groter cadeau.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/donald-duck-pocket-306-kleine-eenden-grote-daden/9300000016192978/",
+    "priceCents": 476,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 3,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "kind",
+      "tiener",
+      "vader"
+    ],
+    "ageGroups": [
+      "8-12",
+      "volwassen"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4,
+      "count": 1,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/donald-duck-pocket-306-kleine-eenden-grote-daden/9300000016192978/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 4,76, verkoper Kiosk.nl (Nederlandse verkoper), levertekst 'Uiterlijk 25 november in huis' gezien op productpagina 2026-11-20. Doelgroep op pagina 'alle leeftijden'.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "donald-duck-pocket-293-het-geheim-van-goudglans",
+    "title": "Donald Duck Pocket 293",
+    "merchantTitle": "Donald Duck Pocket 293 - Het geheim van Goudglans",
+    "brand": "Disney",
+    "ean": "9789463053792",
+    "short": "Een Donald Duck-pocket met 256 pagina's strips, een kleine en vertrouwde kadotip.",
+    "description": "Dit deel bevat een bundel stripverhalen met Donald, Katrien en de neefjes. Het boekje past in elke schoen of kerstsok. Ook handig als extraatje bij een ander cadeau.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/donald-duck-pocket-293-het-geheim-van-goudglans/9200000115268539/",
+    "priceCents": 476,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 3,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "kind",
+      "tiener",
+      "vader"
+    ],
+    "ageGroups": [
+      "8-12",
+      "volwassen"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/donald-duck-pocket-293-het-geheim-van-goudglans/9200000115268539/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 4,76, verkoper Kiosk.nl (Nederlandse verkoper), levertekst 'Uiterlijk 25 november in huis' gezien op productpagina 2026-11-20. Nog geen reviews; doelgroep 'alle leeftijden'.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "donald-duck-pocket-292-invasie-uit-de-ruimte",
+    "title": "Donald Duck Pocket 292",
+    "merchantTitle": "Donald Duck Pocket 292 - Invasie uit de ruimte",
+    "brand": "Disney",
+    "ean": "9789463053747",
+    "short": "Een stripboekje met ruimteavonturen van Donald en zijn familie.",
+    "description": "Een pocket van 256 pagina's met korte stripverhalen in het bekende Donald Duck-universum. Door de losse verhalen kan er steeds een stukje gelezen worden. Een betaalbaar boekje voor de schoen of sok.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/donald-duck-pocket-292-invasie-uit-de-ruimte/9200000114308421/",
+    "priceCents": 476,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 3,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "kind",
+      "tiener",
+      "vader"
+    ],
+    "ageGroups": [
+      "8-12",
+      "volwassen"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 1,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/donald-duck-pocket-292-invasie-uit-de-ruimte/9200000114308421/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 4,76, verkoper Kiosk.nl (Nederlandse verkoper), levertekst 'Uiterlijk 25 november in huis' gezien op productpagina 2026-11-20. Slechts 1 review; doelgroep 'alle leeftijden'.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "sports-active-magnetisch-dartbord-met-pijlen",
+    "title": "Magnetisch dartbord met magneetpijlen",
+    "merchantTitle": "Magnetisch Dartbord - Inclusief Dartpijlen - Voor Jong en Oud",
+    "brand": "Sports Active",
+    "ean": "8711866202508",
+    "short": "Een magnetisch dartbord met pijlen zonder scherpe punt, voor binnenspel.",
+    "description": "Dit bord werkt met magnetische pijlen, dus er zijn geen scherpe punten. Het is bedoeld voor kinderen en volwassenen en past op een deur of muur. Leuk voor een potje tussen broers, zussen of vrienden. De pijlen blijven bij hard gooien niet altijd zitten.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/magnetisch-dartbord-inclusief-dartpijlen-voor-jong-en-oud/9200000056889724/",
+    "priceCents": 1895,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 3,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "kind",
+      "tiener",
+      "vriend"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17"
+    ],
+    "interests": [
+      "spellen",
+      "sport"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 3.9,
+      "count": 7,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/magnetisch-dartbord-inclusief-dartpijlen-voor-jong-en-oud/9200000056889724/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 60,
+      "commissionPct": null,
+      "notes": "Prijs € 18,95, verkoper Uniek-Shop (Nederlandse verkoper, 9,2/10), levertekst 'Uiterlijk 25 november in huis' gezien op productpagina 2026-11-20. Geen minimumleeftijd op pagina (doelgroep 'kinderen en volwassenen'); reviewscore 3,9 bij 7 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "guinness-world-records-2027-nl",
+    "title": "Guinness World Records 2027 (Nederlands)",
+    "merchantTitle": "Guinness World Records 2027",
+    "brand": "Guinness World Records Ltd",
+    "ean": "9789043945578",
+    "short": "Het jaarlijkse recordboek in Nederlandse hardcover, vol bizarre feiten.",
+    "description": "Een groot boek met nieuwe wereldrecords, foto's en weetjes, ook voor jonge lezers. Je kunt het van voor naar achter lezen, maar ook gewoon ergens opslaan. Een geliefd cadeau voor kinderen die graag kijken en snuffelen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/guinness-world-records-2027/9300000267987084/",
+    "priceCents": 2500,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "tiener",
+      "vriend",
+      "vader"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 3,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/guinness-world-records-2027/9300000267987084/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 25,00, verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Geen leeftijdsaanduiding op pagina; categorie kinderboeken.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "rutger-thomas-paco-6-het-waterpark",
+    "title": "De avonturen van Rutger, Thomas en Paco 6",
+    "merchantTitle": "De avonturen van Rutger, Thomas en Paco 6 - Het Waterpark",
+    "brand": "Rutger Vink",
+    "ean": "9789030511731",
+    "short": "Een grappig avonturenboek van de bekende youtubers, deel 6 in hardcover.",
+    "description": "Rutger, Thomas en Paco beleven weer een avontuur, dit keer rond een waterpark. Het boek telt 176 pagina's en past bij kinderen die graag zelf lezen. Een logisch cadeau voor wie de eerdere delen al heeft.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/rutger-thomas-paco-6-de-avonturen-van-rutger-thomas-en-paco/9300000277051203/",
+    "priceCents": 1999,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "vriend"
+    ],
+    "ageGroups": [
+      "8-12"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 30,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/rutger-thomas-paco-6-de-avonturen-van-rutger-thomas-en-paco/9300000277051203/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 80,
+      "commissionPct": null,
+      "notes": "Prijs € 19,99, verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina vanaf 8 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "rutger-thomas-paco-1-de-magische-halsband",
+    "title": "De avonturen van Rutger, Thomas en Paco 1",
+    "merchantTitle": "De avonturen van Rutger, Thomas en Paco 1 - De magische halsband",
+    "brand": "Thomas van Grinsven",
+    "ean": "9789043936415",
+    "short": "Het eerste deel van de populaire serie, nu als paperback.",
+    "description": "Een grappig en spannend verhaal over drie vrienden en een mysterieuze halsband. Het boek heeft 176 pagina's en is geschikt voor kinderen die zelf lezen. Een goede start voor wie de serie nog niet kent.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/de-avonturen-van-rutger-thomas-en-paco-1-de-magische-halsband/9300000181967952/",
+    "priceCents": 1299,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "vriend"
+    ],
+    "ageGroups": [
+      "8-12"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 268,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/de-avonturen-van-rutger-thomas-en-paco-1-de-magische-halsband/9300000181967952/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 85,
+      "commissionPct": null,
+      "notes": "Prijs € 12,99 (paperback), verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina vanaf 8 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "glowmovies-4-frikandelbroodjescrisis",
+    "title": "Glowmovies 4",
+    "merchantTitle": "Glowmovies 4 - Rik en Jesper en de frikandelbroodjescrisis",
+    "brand": "Rik Kleeven",
+    "ean": "9789043944427",
+    "short": "Een humoristisch kinderboek van Rik Kleeven en Jesper Weijs in hardcover.",
+    "description": "Het vierde deel in de Glowmovies-reeks heeft ruim 300 pagina's en is bedoeld voor kinderen vanaf 8 jaar. Veel humor en korte hoofdstukken maken het toegankelijk voor wie zelf wil lezen. Een leuk cadeau voor fans van de makers.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/glowmovies-4-rik-en-jesper-en-de-frikandelbroodjescrisis/9300000267987060/",
+    "priceCents": 1899,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "vriend"
+    ],
+    "ageGroups": [
+      "8-12"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 9,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/glowmovies-4-rik-en-jesper-en-de-frikandelbroodjescrisis/9300000267987060/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 18,99, verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina vanaf 8 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "het-leven-van-een-loser-20-partypooper",
+    "title": "Het leven van een Loser 20",
+    "merchantTitle": "Het leven van een Loser 20 - Partypooper",
+    "brand": "Jeff Kinney",
+    "ean": "9789026177422",
+    "short": "Het nieuwste deel van de populaire dagboekreeks vol cartoons, in hardcover.",
+    "description": "Greg beleeft weer een reeks ongelukkige situaties, dit keer rond feestjes. Het boek heeft 224 pagina's met veel tekeningen en leest snel. Een zekere keuze voor wie de reeks al volgt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/het-leven-van-een-loser-20-partypooper/9300000247157520/",
+    "priceCents": 1850,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "vriend"
+    ],
+    "ageGroups": [
+      "8-12"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 12,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/het-leven-van-een-loser-20-partypooper/9300000247157520/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 82,
+      "commissionPct": null,
+      "notes": "Prijs € 18,50, verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina vanaf 8 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "sanne-groenen-what-the-knutsel",
+    "title": "What The Knutsel van Sanne Groenen",
+    "merchantTitle": "What The Knutsel 30 verrassende ideeën voor knutsels en surprises",
+    "brand": "Sanne Groenen",
+    "ean": "9789062229017",
+    "short": "Een knutselboek met 30 ideeën voor knutsels en surprises, voor kinderen vanaf 8.",
+    "description": "Dertig uitgewerkte ideeën voor zelfgemaakte cadeautjes, versieringen en surprises. Het boek telt 144 pagina's. Handig voor kinderen die graag creatief bezig zijn en het eerste knutselwerk meteen voor Sinterklaas kunnen gebruiken.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/what-the-knutsel/9300000307252398/",
+    "priceCents": 1750,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "8-12"
+    ],
+    "interests": [
+      "creatief",
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 1,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/what-the-knutsel/9300000307252398/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 17,50, verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina vanaf 8 jaar; 1 review.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "ollie-en-moos-2-opgeruimd-staat-netjes",
+    "title": "Ollie & Moos 2",
+    "merchantTitle": "Ollie & Moos 2 - Opgeruimd staat netjes",
+    "brand": "Mick Schellens",
+    "ean": "9789062228386",
+    "short": "Een grappig, kort kinderboek over Ollie en zijn hond Moos.",
+    "description": "Een humoristisch boek van 128 pagina's met veel illustraties, bedoeld voor kinderen die net zelfstandig lezen. De hoofdstukken zijn kort en leesbaar. Een prettige keuze voor een lezer vanaf zo'n 7 jaar.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/ollie-moos-2-ollie-moos-opgeruimd-staat-netjes/9300000316885595/",
+    "priceCents": 1699,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7",
+      "8-12"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 3,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/ollie-moos-2-ollie-moos-opgeruimd-staat-netjes/9300000316885595/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 16,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina vanaf 7 jaar; 3 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "roald-dahl-de-griezels-kinderboekenweekeditie-2026",
+    "title": "De Griezels van Roald Dahl (Kinderboekenweekeditie 2026)",
+    "merchantTitle": "De Griezels - Kinderboekenweekeditie 2026",
+    "brand": "Roald Dahl",
+    "ean": "9789026186004",
+    "short": "Een klassieker van Roald Dahl in een dun, betaalbaar hardcover.",
+    "description": "Het verhaal van de nare Griezels en de apen die zich niet laten kisten. Het boek telt 96 pagina's en leest ook goed hardop voor. Een klein cadeau voor kinderen vanaf ongeveer 7 jaar.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/de-griezels/9300000267977994/",
+    "priceCents": 750,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7",
+      "8-12"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 3,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/de-griezels/9300000267977994/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 7,50, verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina vanaf 7 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "rachel-bright-beloofd-is-beloofd-kleine-pandas",
+    "title": "Beloofd is beloofd, kleine panda's van Rachel Bright",
+    "merchantTitle": "Beloofd is beloofd, kleine panda's",
+    "brand": "Rachel Bright",
+    "ean": "9789025778750",
+    "short": "Een rijmend prentenboek over twee pandabeertjes en een belofte.",
+    "description": "Een vrolijk verhaal in rijm met grote illustraties van Jim Field, bedoeld om voor te lezen. Het boek heeft 32 pagina's. Geschikt voor kinderen vanaf 4 jaar.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/beloofd-is-beloofd-kleine-panda-s/9300000166622805/",
+    "priceCents": 1275,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 20,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/beloofd-is-beloofd-kleine-panda-s/9300000166622805/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 12,75, verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd: categorie vanaf 3 jaar, samenvatting 4 jaar en ouder; hier als 4-7 opgenomen.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "ted-van-lieshout-boer-boris-dans-met-mij",
+    "title": "Boer Boris, dans met mij! van Ted van Lieshout",
+    "merchantTitle": "Boer Boris, dans met mij!",
+    "brand": "Ted van Lieshout",
+    "ean": "9789025781057",
+    "short": "Een grappig prentenboek over Boer Boris en zijn dieren.",
+    "description": "Boer Boris is terug met een nieuw verhaal vol dieren en humor. Het boek van 32 pagina's is geschikt om voor te lezen aan kleuters. Een vrolijk cadeau voor kinderen vanaf 3 jaar.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/boer-boris-boer-boris-dans-met-mij/9300000196400638/",
+    "priceCents": 1499,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 5,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/boer-boris-boer-boris-dans-met-mij/9300000196400638/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 14,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina vanaf 3 jaar; hier als 4-7 opgenomen.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "tjibbe-veldkamp-agent-en-boef-abc-boek",
+    "title": "Agent en Boef",
+    "merchantTitle": "Agent en Boef - A is van Agent, B is van Boef",
+    "brand": "Tjibbe Veldkamp",
+    "ean": "9789401485012",
+    "short": "Een grappig ABC-boek met Agent en Boef voor beginnende lezers.",
+    "description": "Agent en Boef nemen de letters van het alfabet door met rijm en humor. Het boek heeft 60 pagina's en past bij kinderen vanaf 4 jaar. Fijn om samen te lezen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/het-abc-boek-van-agent-en-boef/9300000148166343/",
+    "priceCents": 1699,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4,
+      "count": 1,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/het-abc-boek-van-agent-en-boef/9300000148166343/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 64,
+      "commissionPct": null,
+      "notes": "Prijs € 16,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina vanaf 4 jaar; 1 review.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "marc-uwe-kling-de-neehoorn-1",
+    "title": "De Neehoorn 1 van Marc-Uwe Kling (Special Edition)",
+    "merchantTitle": "De Neehoorn 1 - De Neehoorn",
+    "brand": "Marc-Uwe Kling",
+    "ean": "9789038818818",
+    "short": "Een humoristisch prentenboek over een eenhoorn die geen zin heeft in gedoe.",
+    "description": "De Neehoorn is een stoere variant op de gewone eenhoorn, met droge humor die ook ouders waarderen. Het boek heeft 48 pagina's en is bedoeld voor kinderen vanaf 4 jaar. Fijn om voor te lezen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/de-neehoorn-1-de-neehoorn/9300000316885403/",
+    "priceCents": 999,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 186,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/de-neehoorn-1-de-neehoorn/9300000316885403/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 82,
+      "commissionPct": null,
+      "notes": "Prijs € 9,99 (Special Edition), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina vanaf 4 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "de-ridder-zonder-billen-5-de-koning-zonder-kroon",
+    "title": "De Ridder Zonder Billen 5",
+    "merchantTitle": "De Ridder Zonder Billen 5 - De Koning Zonder Kroon",
+    "brand": "Levina van Teunenbroek",
+    "ean": "9789000395606",
+    "short": "Een grappig prentenboek uit de reeks over de ridder zonder billen.",
+    "description": "Een humoristisch verhaal vol grappige tekeningen, geschikt om samen te lezen. Het boek telt 44 pagina's. Een vrolijk cadeau voor kleuters en kinderen in de onderbouw.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/de-ridder-zonder-billen-5-de-koning-zonder-kroon/9300000181895627/",
+    "priceCents": 1250,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 10,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/de-ridder-zonder-billen-5-de-koning-zonder-kroon/9300000181895627/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 12,50, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina tegenstrijdig (categorie vanaf 5, samenvatting vanaf 3); hier als 4-7 opgenomen.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "pieter-koolwijk-een-rugzak-vol",
+    "title": "Een Rugzak Vol van Pieter Koolwijk",
+    "merchantTitle": "Een Rugzak Vol",
+    "brand": "Pieter Koolwijk",
+    "ean": "9789047716365",
+    "short": "Een Nederlands kinderboek met illustraties van Linde Faas, in hardcover.",
+    "description": "Een verhaal van ruim 200 pagina's voor kinderen vanaf 8 jaar, met tekeningen door het hele boek. Geschikt voor zelf lezen en voor voorlezen. Een goed gewaardeerd boek voor onder de boom.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/een-rugzak-vol/9300000194555474/",
+    "priceCents": 1699,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "8-12"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 22,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/een-rugzak-vol/9300000194555474/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 76,
+      "commissionPct": null,
+      "notes": "Prijs € 16,99 (hardcover), verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina (categorie) vanaf 8 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "alex-klein-alex-en-de-gemene-tweelingbroer",
+    "title": "Alex en de gemene tweelingbroer van Alex Klein",
+    "merchantTitle": "Alex En De Gemene Tweelingbroer",
+    "brand": "Alex Klein",
+    "ean": "9789062229802",
+    "short": "Een humoristisch kinderboek van Alex Klein met 160 pagina's.",
+    "description": "Alex Klein neemt zijn lezers mee in een verhaal over een gemene tweelingbroer. Het boek is bedoeld voor kinderen die zelf lezen en houden van humor. Een cadeautip voor fans van de maker.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/alex-en-de-gemene-tweelingbroer/9300000269049397/",
+    "priceCents": 1699,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7",
+      "8-12"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 11,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/alex-en-de-gemene-tweelingbroer/9300000269049397/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 70,
+      "commissionPct": null,
+      "notes": "Prijs € 16,99, verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina (categorie) vanaf 7 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "paul-van-loon-dolfje-weerwolfje-de-geheime-weerwolf",
+    "title": "Dolfje Weerwolfje",
+    "merchantTitle": "Dolfje Weerwolfje - De geheime weerwolf van Paul van Loon",
+    "brand": "Paul van Loon",
+    "ean": "9789025890476",
+    "short": "Een nieuw avontuur van Dolfje Weerwolfje in hardcover.",
+    "description": "Een nieuw verhaal met de weerwolf uit de bekende kinderboekenreeks. Het boek heeft 160 pagina's en is bedoeld voor kinderen vanaf 8 jaar. Een logisch cadeau voor wie de eerdere delen al las.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/dolfje-weerwolfje-de-geheime-weerwolf/9300000268499441/",
+    "priceCents": 1998,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "8-12"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/dolfje-weerwolfje-de-geheime-weerwolf/9300000268499441/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 19,98, verkoper Paagman.nl (Nederlandse boekhandel, 8,6/10), levertekst 'Uiterlijk 24 november in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina vanaf 8 jaar; nog geen reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "karl-olsberg-het-dorp-verdwaald-in-de-jungle",
+    "title": "Het Dorp",
+    "merchantTitle": "Het Dorp - Verdwaald in de jungle van Karl Olsberg",
+    "brand": "Karl Olsberg",
+    "ean": "9789493474086",
+    "short": "Een avonturenboek met illustraties, geschikt om zelf te lezen of voor te lezen.",
+    "description": "Een verhaal van 160 pagina's met tekeningen van Philipp Ach, over een groep die verdwaalt in de jungle. Op de pagina staat het onder zelf lezen en voorlezen. Een avontuurlijk boek voor kinderen in de basisschoolleeftijd.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/het-dorp-het-dorp-verdwaald-in-de-jungle/9300000248996722/",
+    "priceCents": 1599,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "8-12"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 1,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/het-dorp-het-dorp-verdwaald-in-de-jungle/9300000248996722/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 60,
+      "commissionPct": null,
+      "notes": "Prijs € 15,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Geen leeftijd op pagina (categorie zelf lezen en voorlezen); leeftijdsgroep is een inschatting. 1 review.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "britt-dekker-meer-paardenpraat-6-een-paard-met-een-missie",
+    "title": "Meer paardenpraat 6",
+    "merchantTitle": "Meer paardenpraat 6 - Een paard met een missie van Britt Dekker",
+    "brand": "Britt Dekker",
+    "ean": "9789043942768",
+    "short": "Een kort paardenverhaal van 96 pagina's voor jonge lezers.",
+    "description": "Een deel uit de paardenreeks van Britt Dekker met een verhaal over paarden en manege. Het boek is kort en makkelijk te lezen. Een leuk cadeau voor kinderen vanaf ongeveer 7 jaar die van dieren houden.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/meer-paardenpraat-6-een-paard-met-een-missie/9300000246153050/",
+    "priceCents": 1250,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7",
+      "8-12"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 4,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/meer-paardenpraat-6-een-paard-met-een-missie/9300000246153050/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 12,50, verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina vanaf 7 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "julia-donaldson-pimmetje-pinguin",
+    "title": "Pimmetje Pinguïn van Julia Donaldson",
+    "merchantTitle": "Pimmetje Pinguïn",
+    "brand": "Julia Donaldson",
+    "ean": "9789025779955",
+    "short": "Een rijmend prentenboek van de makers van De Gruffalo.",
+    "description": "Julia Donaldson schreef het verhaal over Pimmetje Pinguïn, met tekeningen van Axel Scheffler. Het boek heeft 40 pagina's en is bedoeld voor kinderen vanaf 4 jaar. Fijn voorleesboek voor de avond.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/pimmetje-pinguin/9300000181485166/",
+    "priceCents": 1499,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 2,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/pimmetje-pinguin/9300000181485166/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 14,99, verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina vanaf 4 jaar; 2 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "jochem-myjer-de-gorgels-en-het-geheim-van-de-gletsjer",
+    "title": "De Gorgels en het geheim van de gletsjer van Jochem Myjer",
+    "merchantTitle": "De Gorgels en het geheim van de gletsjer",
+    "brand": "Jochem Myjer",
+    "ean": "9789025875350",
+    "short": "Een grappig avonturenboek van Jochem Myjer over De Gorgels.",
+    "description": "De Gorgels beleven een nieuw avontuur rond een gletsjer. Het boek heeft 200 pagina's met veel humor en tekeningen. Een populair cadeau voor kinderen vanaf 8 jaar die graag lachen tijdens het lezen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/gorgels-de-gorgels-en-het-geheim-van-de-gletsjer/9200000095274172/",
+    "priceCents": 1899,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "8-12"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 268,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/gorgels-de-gorgels-en-het-geheim-van-de-gletsjer/9200000095274172/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 82,
+      "commissionPct": null,
+      "notes": "Prijs € 18,99 (nieuw), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina (categorie) vanaf 8 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "sfe-r-monster-minecraft-de-strip",
+    "title": "Minecraft",
+    "merchantTitle": "Minecraft - De strip van Sfé R. Monster",
+    "brand": "Sfé R. Monster",
+    "ean": "9789493189010",
+    "short": "Een officiële Minecraft-graphic novel over vriendschap en avontuur.",
+    "description": "Een nieuwe leerling raakt via Minecraft bevriend en neemt het met zijn groep op tegen de Enderdraak. Het stripboek heeft 88 pagina's en leest vlot. Een leuk cadeau voor fans van het spel die ook van lezen houden.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/minecraft-de-strip/9200000132139772/",
+    "priceCents": 1199,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "vriend"
+    ],
+    "ageGroups": [
+      "8-12"
+    ],
+    "interests": [
+      "lezen",
+      "gamen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 20,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/minecraft-de-strip/9200000132139772/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 11,99 (hardcover), verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Geen leeftijd op pagina (categorie zelf lezen); leeftijdsgroep 8-12 is een inschatting.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "jette-schroder-paco-de-pup-feest-met-paco",
+    "title": "Paco de Pup",
+    "merchantTitle": "Paco de Pup - Feest met Paco (AVI E3)",
+    "brand": "Jette Schröder",
+    "ean": "9789030511113",
+    "short": "Een eerste leesboek op AVI-niveau E3 over Paco de pup.",
+    "description": "Een kort leesboek van 48 pagina's voor kinderen die net leren lezen, met Paco de Pup in de hoofdrol. De tekst is op AVI E3-niveau geschreven. Geschikt voor kinderen vanaf 5 jaar.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/paco-de-pup-paco-viert-feest/9300000251734966/",
+    "priceCents": 1250,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 3,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/paco-de-pup-paco-viert-feest/9300000251734966/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 12,50, verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina vanaf 5 jaar; 3 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "maxime-en-sophie-de-grootste-challenge-ooit",
+    "title": "Maxime & Sophie",
+    "merchantTitle": "Maxime & Sophie - De grootste challenge ooit",
+    "brand": "Maxime & Sophie",
+    "ean": "9789493356054",
+    "short": "Een grappig boek van het tiktok- en youtubeduo, met tekeningen van Jan Vriends.",
+    "description": "Een komisch verhaal over een waterglijbaan-challenge die het huis overneemt terwijl de ouders weg zijn. Het hardcover telt 224 pagina's en leest als een lang vlogverhaal. Een goed cadeau voor tieners en kinderen die het duo volgen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/maxime-sophie-de-grootste-challenge-ooit/9300000175279068/",
+    "priceCents": 1699,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "tiener",
+      "vriend"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 29,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/maxime-sophie-de-grootste-challenge-ooit/9300000175279068/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 76,
+      "commissionPct": null,
+      "notes": "Prijs € 16,99 (hardcover), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina vanaf 12 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "maxime-en-sophie-de-verboden-game",
+    "title": "Maxime & Sophie",
+    "merchantTitle": "Maxime & Sophie - De verboden game",
+    "brand": "Maxime & Sophie",
+    "ean": "9789493356658",
+    "short": "Het tweede boek van Maxime & Sophie, nu rond een gamewereld.",
+    "description": "In dit vervolg belanden de twee in een spannende gamewereld. Het hardcover heeft 288 pagina's met illustraties van Jan Vriends. Geschikt voor tieners die het eerste deel al lazen of de makers volgen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/maxime-sophie-de-verboden-game/9300000227606242/",
+    "priceCents": 1699,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "tiener",
+      "vriend"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17"
+    ],
+    "interests": [
+      "lezen",
+      "gamen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 9,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/maxime-sophie-de-verboden-game/9300000227606242/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 74,
+      "commissionPct": null,
+      "notes": "Prijs € 16,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina vanaf 12 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "escape-boek-de-geheime-code-van-de-grote-kluis",
+    "title": "Escape Boek",
+    "merchantTitle": "Escape Boek - De geheime code van de Grote Kluis",
+    "brand": "Ivan Tapia",
+    "ean": "9789493236004",
+    "short": "Een puzzelboek waarin je zelf raadsels oplost om een kluis te openen.",
+    "description": "Een interactief boek van 160 pagina's met raadsels en puzzels die je stap voor stap oplost. Geschikt voor kinderen en tieners die van breinbrekers houden. Leuk om alleen of samen te doen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/escape-boek-de-geheime-code-van-de-grote-kluis/9300000031570262/",
+    "priceCents": 1250,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind",
+      "tiener",
+      "vriend"
+    ],
+    "ageGroups": [
+      "8-12",
+      "13-17"
+    ],
+    "interests": [
+      "lezen",
+      "spellen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 15,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/escape-boek-de-geheime-code-van-de-grote-kluis/9300000031570262/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 76,
+      "commissionPct": null,
+      "notes": "Prijs € 12,50 (paperback), verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina vanaf 12 jaar (ook groep 8 genoemd).",
+      "verified": true
+    }
+  },
+  {
+    "slug": "playmais-classic-basic-400-stukjes",
+    "title": "PlayMais Classic Basic, 400 stukjes",
+    "merchantTitle": "Playmais Classic Basic - 400 Stukjes",
+    "brand": "PlayMais",
+    "ean": "4041077012417",
+    "short": "Een basisset met 400 maïsstukjes om mee te plakken en te bouwen.",
+    "description": "PlayMais bestaat uit kleine gekleurde stukjes die je met water vastplakt tot figuren, dieren of mozaïeken. De set heeft 400 stukjes en kan zonder lijm. Een veelzijdig creatief cadeau voor kinderen vanaf 3 jaar.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/playmais-classic-basic-400-stukjes/9300000239736349/",
+    "priceCents": 999,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7",
+      "8-12"
+    ],
+    "interests": [
+      "creatief",
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 1,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/playmais-classic-basic-400-stukjes/9300000239736349/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 9,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Aanbevolen leeftijd op pagina 3 tot 13 jaar; 1 review.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "playmais-classic-basic-emmer-1200-stukjes",
+    "title": "PlayMais Classic Basic emmer, 1200+ stukjes",
+    "merchantTitle": "Playmais Classic Basic Emmer (> 1200 Stukjes)",
+    "brand": "PlayMais",
+    "ean": "4041077012493",
+    "short": "Een emmer met meer dan 1200 maïsstukjes voor langer knutselplezier.",
+    "description": "De grotere PlayMais-emmer bevat meer dan 1200 gekleurde stukjes die met water aan elkaar plakken. Genoeg materiaal om meerdere werkstukken te maken, alleen of met vriendjes. Geschikt voor kinderen vanaf 3 jaar.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/playmais-classic-basic-1200-stukjes/9300000239736368/",
+    "priceCents": 1800,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7",
+      "8-12"
+    ],
+    "interests": [
+      "creatief",
+      "bouwen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 2,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/playmais-classic-basic-1200-stukjes/9300000239736368/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 18,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Aanbevolen leeftijd op pagina vanaf 3 jaar, maximaal 13 jaar; 2 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "playmais-kleuren-en-vormen",
+    "title": "PlayMais Kleuren & Vormen",
+    "merchantTitle": "PlayMais Kleuren & Vormen",
+    "brand": "PlayMais",
+    "ean": "4041077002029",
+    "short": "Een kleine PlayMais-set om kleuren en vormen te leren kennen en te plakken.",
+    "description": "Met deze set maak je met maïsstukjes en patronen eenvoudige figuren en vormen. Bedoeld voor kinderen van 3 tot 5 jaar en geschikt om samen met een volwassene te doen. Een klein, creatief cadeau.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/playmais-kleuren-vormen/1004004012192366/",
+    "priceCents": 999,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "4-7"
+    ],
+    "interests": [
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 5,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/playmais-kleuren-vormen/1004004012192366/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 64,
+      "commissionPct": null,
+      "notes": "Prijs € 9,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Aanbevolen leeftijd op pagina 3 tot 5 jaar.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "fimo-kids-form-and-play-huisdieren",
+    "title": "FIMO kids Form&Play set Huisdieren",
+    "merchantTitle": "FIMO kids 8034 - ovenhardende boetseerklei - Form&Play set \"Huisdieren\"",
+    "brand": "Fimo",
+    "ean": "4007817806029",
+    "short": "Een set ovenhardende klei om huisdieren van te boetseren.",
+    "description": "Met deze Form&Play-set boetseer je huisdieren van ovenhardende klei en laat je ze daarna hard worden in de oven. De fabrikant adviseert gebruik onder toezicht van een volwassene. Een creatief cadeau voor kinderen vanaf 8 jaar.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/fimo-kids-form-play-huisdieren/9200000031659606/",
+    "priceCents": 900,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 1,
+    "recipients": [
+      "kind"
+    ],
+    "ageGroups": [
+      "8-12"
+    ],
+    "interests": [
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 24,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/fimo-kids-form-play-huisdieren/9200000031659606/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 9,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Leeftijd op pagina vanaf 8 jaar; voorraad op pagina als beperkt aangeduid.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "wera-kraftform-kompakt-900-set-1-bitschroevendraaier",
+    "title": "Wera Kraftform Kompakt 900 Set 1 bitschroevendraaier",
+    "merchantTitle": "Wera Kraftform Kompakt 900 Set 1 Bitschroevendraaier 1/4",
+    "brand": "Wera",
+    "ean": "4013288222176",
+    "short": "Een compacte bitset van Wera in een handig opbergtasje voor wie graag zelf klust.",
+    "description": "Een set met bitschroevendraaier en bits van een merk dat bekendstaat om handgereedschap. Het gereedschap past in een kleine tas en is handig voor klusjes in huis, in de auto of op de fiets. Een degelijk cadeau voor een vader die zijn gereedschap graag op orde heeft.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/wera-kraftform-kompakt-900-set-1-bitschroevendraaier-1-4/9300000126729960/",
+    "priceCents": 10000,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "vader",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/wera-kraftform-kompakt-900-set-1-bitschroevendraaier-1-4/9300000126729960/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 100,00, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Nog geen reviews; pagina meldt dat voorraad bijna op is.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "knipex-tangenset-3-delig-00-20-09-v01",
+    "title": "Knipex tangenset 3-delig met comfortgreep",
+    "merchantTitle": "Knipex 3-delig Tangenset - comfortgreep - 00 20 09 V01",
+    "brand": "Knipex",
+    "ean": "4003773073994",
+    "short": "Drie veelgebruikte tangen van Knipex in één set.",
+    "description": "De set bevat de tangen die in de gereedschapskist het vaakst nodig zijn, zoals een combinatietang en een zijsnijtang. Knipex is een Duits merk dat veel klussers en vakmensen kennen. Een praktisch cadeau voor wie al een eigen werkbank of kluskast heeft.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/knipex-tangenset-bestseller-3-delig-20-09-v01/9200000055095729/",
+    "priceCents": 6941,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "vader",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.5,
+      "count": 2,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/knipex-tangenset-bestseller-3-delig-20-09-v01/9200000055095729/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 68,
+      "commissionPct": null,
+      "notes": "Prijs € 69,41, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Slechts 2 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "stanley-fatmax-gereedschapskoffer-23-inch",
+    "title": "Stanley FatMax gereedschapskoffer 23 inch",
+    "merchantTitle": "STANLEY FatMax Gereedschapskoffer 23\"",
+    "brand": "Stanley",
+    "ean": "3253561956164",
+    "short": "Een stevige koffer met uitneembare bak voor gereedschap en kleine onderdelen.",
+    "description": "Een lege gereedschapskoffer van 23 inch met een uitneembare bak voor kleine spullen. Handig om gereedschap netjes bij elkaar te houden en mee te nemen naar de klus. Past bij een vader die zijn schroevendraaiers en boren nu nog los in een la heeft liggen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/stanley-fatmax-gereedschapskoffer-23/9200000010956043/",
+    "priceCents": 4590,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "vader",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.2,
+      "count": 5,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/stanley-fatmax-gereedschapskoffer-23/9200000010956043/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 45,90, verkoper bol, levertekst 'Voor 23:59 uur besteld, maandag in huis' gezien op productpagina 2026-11-20. Voorraadstatus niet expliciet vermeld; wel 'In winkelwagen'-knop. Koffer wordt leeg geleverd.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "gedore-red-r49003016-dopsleutelset-16-delig",
+    "title": "Gedore RED dopsleutelset 16-delig (1/4 inch)",
+    "merchantTitle": "Gedore RED R49003016 16-delige Dopsleutelset - 1/4''",
+    "brand": "Gedore",
+    "ean": "4060833000505",
+    "short": "Een compacte dopsleutelset van Gedore in een kunststof koffertje.",
+    "description": "Een kleine set met dopsleutels voor 1/4 inch aandrijving, geschikt voor werk aan fiets, auto of apparaten. Gedore is een Duits gereedschapsmerk. Een nuttig cadeau voor iemand die vaker zelf sleutelt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/gedore-red-r49003016-3300050-dopsleutelset-16-delig/9300000021001096/",
+    "priceCents": 4694,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "vader",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 2,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/gedore-red-r49003016-3300050-dopsleutelset-16-delig/9300000021001096/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 60,
+      "commissionPct": null,
+      "notes": "Prijs € 46,94, verkoper Conrad.nl (via bol), levertekst 'Uiterlijk 25 november in huis' gezien op productpagina 2026-11-20; een andere aanbieding op dezelfde pagina meldt morgen in huis. Slechts 2 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "een-jaar-in-de-moestuin-lucy-chamberlain",
+    "title": "Een jaar in de moestuin van Lucy Chamberlain",
+    "merchantTitle": "Een jaar in de moestuin groente en fruit uit eigen tuin",
+    "brand": "Lucy Chamberlain",
+    "ean": "9789461432285",
+    "short": "Een gebonden moestuinboek dat de maanden van het tuinjaar doorloopt.",
+    "description": "Dit boek helpt stap voor stap bij het kweken van groente en fruit door het jaar heen. Het is praktisch opgezet en geschikt voor beginners. Een fijn cadeau voor een moeder of oma die graag in de tuin of op het balkon bezig is.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/een-jaar-in-de-moestuin/9200000123445712/",
+    "priceCents": 2595,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "moeder",
+      "opa-oma",
+      "vader"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "lezen",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 24,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/een-jaar-in-de-moestuin/9200000123445712/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 72,
+      "commissionPct": null,
+      "notes": "Prijs € 25,95, verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "lego-icons-miniplantjes-10329",
+    "title": "LEGO Icons Miniplantjes 10329",
+    "merchantTitle": "LEGO Icons Miniplantjes - Botanical Collection - 10329",
+    "brand": "LEGO",
+    "ean": "5702017567570",
+    "short": "Een bouwset met kleine plantjes om te bouwen en neer te zetten, zonder gieten.",
+    "description": "Met deze set bouw je een groepje miniplantjes uit de Botanical Collection van LEGO. Het is een rustige bouwklus voor volwassenen en het resultaat past op een vensterbank of plank. Een leuk creatief cadeau voor moeder of oma die van planten houdt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/lego-icons-miniplantjes-10329/9300000157956097/",
+    "priceCents": 3399,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "moeder",
+      "partner",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "creatief",
+      "bouwen",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 153,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/lego-icons-miniplantjes-10329/9300000157956097/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 80,
+      "commissionPct": null,
+      "notes": "Prijs € 33,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20 (tweede deel van de pagina).",
+      "verified": true
+    }
+  },
+  {
+    "slug": "de-kolonisten-van-catan-bordspel-999-games",
+    "title": "De Kolonisten van Catan bordspel",
+    "merchantTitle": "De Kolonisten van Catan Bordspel",
+    "brand": "999 Games",
+    "ean": "4002051684617",
+    "short": "Het bekende strategiespel waarin je handelt en bouwt, voor 3 tot 4 spelers.",
+    "description": "Een Nederlandstalig bordspel waarin spelers grondstoffen verzamelen, ruilen en nederzettingen bouwen. Een potje duurt ongeveer 75 minuten en het spel is vanaf 10 jaar. Een gezellig cadeau voor een spelletjesavond met ouders of familie.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/de-kolonisten-van-catan-bordspel/1004004005879956/",
+    "priceCents": 4800,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "moeder",
+      "vader",
+      "vriend",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen",
+      "13-17"
+    ],
+    "interests": [
+      "spellen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 32,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/de-kolonisten-van-catan-bordspel/1004004005879956/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 64,
+      "commissionPct": null,
+      "notes": "Prijs € 48,00, verkoper Top in Speelgoed, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Prijs ligt hoger dan andere Catan-aanbiedingen op bol; vóór publicatie prijs vergelijken.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "stanley-fatmax-schroevendraaierset-7-delig-0-65-425",
+    "title": "Stanley FatMax schroevendraaierset 7-delig",
+    "merchantTitle": "STANLEY 7-Delige FatMax Schroevendraaierset",
+    "brand": "Stanley",
+    "ean": "3253560654252",
+    "short": "Zeven schroevendraaiers met kleurcode voor het dagelijkse klus- en reparatiewerk.",
+    "description": "Een set platte en kruiskopschroevendraaiers van Stanley uit de FatMax-reeks. De kleurcode maakt het makkelijk om de juiste maat te vinden. Een nuttig basiscadeau voor een vader die zijn gereedschap wil aanvullen.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/stanley-fatmax-schroevendraaierset-7-delig/9200000010402427/",
+    "priceCents": 2799,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "vader",
+      "vriend",
+      "collega"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.7,
+      "count": 6,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/stanley-fatmax-schroevendraaierset-7-delig/9200000010402427/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 70,
+      "commissionPct": null,
+      "notes": "Prijs € 27,99, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Pagina meldt dat voorraad bijna op is.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "richard-osman-moordclub-het-onmogelijke-fortuin",
+    "title": "Moordclub (op donderdag)",
+    "merchantTitle": "Moordclub (op donderdag) - Het onmogelijke fortuin van Richard Osman",
+    "brand": "Richard Osman",
+    "ean": "9789403129297",
+    "short": "Het nieuwste Nederlandstalige deel uit de Moordclub-reeks, met veel humor.",
+    "description": "Vier gepensioneerden lossen in deze reeks moordzaken op, met een flinke dosis droge humor. Dit is een Nederlandse uitgave van een recent deel. Een gezellig leescadeau voor moeder of oma die de eerdere delen al kent.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/moordclub-het-onmogelijke-fortuin/9300000234302195/",
+    "priceCents": 2399,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "moeder",
+      "opa-oma",
+      "vader",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 5,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/moordclub-het-onmogelijke-fortuin/9300000234302195/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 70,
+      "commissionPct": null,
+      "notes": "Prijs € 23,99 (paperback, nieuw), verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. 5 reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "corina-bomann-een-wonderlijke-winterreis",
+    "title": "Een wonderlijke winterreis van Corina Bomann",
+    "merchantTitle": "Een wonderlijke winterreis",
+    "brand": "Corina Bomann",
+    "ean": "9789022597699",
+    "short": "Een korte, warme roman over familie en verzoening, geschikt voor de wintermaanden.",
+    "description": "Een Nederlandstalige paperback van ruim 200 pagina's over familie en verzoening. Het verhaal speelt zich af in een winters decor en leest rustig weg. Een betaalbaar cadeau voor moeder of oma die graag een warme roman leest.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/een-wonderlijke-winterreis/9300000111058888/",
+    "priceCents": 1299,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "moeder",
+      "opa-oma"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.2,
+      "count": 9,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/een-wonderlijke-winterreis/9300000111058888/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 12,99 (paperback, nieuw), verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "yvette-van-boven-home-made-basics",
+    "title": "Home Made Basics van Yvette van Boven",
+    "merchantTitle": "Home Made Basics: makkelijke recepten die iedereen kan maken",
+    "brand": "Yvette van Boven",
+    "ean": "9789038808437",
+    "short": "Een gebonden kookboek met eenvoudige basisrecepten voor elke dag.",
+    "description": "Een Nederlands kookboek met recepten die ook zonder veel ervaring lukken. De gerechten zijn herkenbaar en praktisch. Een mooi cadeau voor moeder of oma die graag kookt of juist wat nieuwe ideeën zoekt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/home-made-basics/9200000125491422/",
+    "priceCents": 3899,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "moeder",
+      "opa-oma",
+      "partner"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "koken",
+      "lezen"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.6,
+      "count": 36,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/home-made-basics/9200000125491422/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 70,
+      "commissionPct": null,
+      "notes": "Prijs € 38,99 (hardcover, nieuw), verkoper bol, levertekst 'Voor 23:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "knipex-cobra-quickset-87-21-300-waterpomptang",
+    "title": "Knipex Cobra QuickSet waterpomptang 300 mm",
+    "merchantTitle": "Knipex Cobra® QuickSet 87 21 300 Waterpomptang Sleutelbreedte (metrisch) 60 mm 300 mm",
+    "brand": "Knipex",
+    "ean": "4003773078524",
+    "short": "Een waterpomptang van Knipex die met één druk op een knop van maat verandert.",
+    "description": "De Cobra is een bekende tang voor werk aan leidingen, moeren en bouten. Met de QuickSet-variant stel je de opening snel in met één hand. Een gerichte keuze voor een vader die zelf aan huis en auto klust.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/knipex-cobra-quick-set/9200000105127104/",
+    "priceCents": 3433,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "vader",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/knipex-cobra-quick-set/9200000105127104/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 34,33, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Slechts 1 review (5,0), daarom rating leeg gelaten; pagina meldt dat voorraad bijna op is.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "knipex-cobra-set-00-19-55-s9-waterpomptangenset",
+    "title": "Knipex Cobra waterpomptangenset 3-delig met rolbag",
+    "merchantTitle": "Knipex KNIPEX Cobra®-Set 00 19 55 S9 Waterpomptangenset 330 mm",
+    "brand": "Knipex",
+    "ean": "4003773086536",
+    "short": "Drie Cobra-waterpomptangen in verschillende maten, samen in een rolbag.",
+    "description": "Een set met drie waterpomptangen van Knipex voor uiteenlopende klussen aan leidingen, moeren en bouten. De tangen worden in een handige rolbag bewaard. Een royaal cadeau voor een vader die graag zelf aan de slag gaat.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/knipex-knipex-cobra-set-00-19-55-s9-waterpomptangenset-330-mm/9300000045247116/",
+    "priceCents": 11729,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "vader"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": null,
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/knipex-knipex-cobra-set-00-19-55-s9-waterpomptangenset-330-mm/9300000045247116/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 117,29, verkoper ToolMax.nl, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Nog geen reviews.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "revell-spitfire-mk-ixc-1-32-modelbouwpakket-03927",
+    "title": "Revell Spitfire Mk.IXc modelbouwpakket 1:32",
+    "merchantTitle": "Revell Modelbouwpakket Vliegtuigen - 03927 Spitfire Mk.IXC Plastic - 1:32 - Modelbouw",
+    "brand": "Revell",
+    "ean": "4009803039275",
+    "short": "Een plastic bouwpakket van de beroemde Spitfire op schaal 1:32.",
+    "description": "Een modelbouwpakket van een bekend jachtvliegtuig uit de Tweede Wereldoorlog, op schaal 1:32. Verf en lijm zijn niet inbegrepen, die moet je zelf aanschaffen. Een mooi project voor een vader die graag modellen bouwt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/supermarine-spitfire-mk-ixc-revell-schaal-1-32-bouwpakket-revell-luchtvaart/9200000079482746/",
+    "priceCents": 3082,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "vader",
+      "vriend"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "creatief"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 5,
+      "count": 6,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/supermarine-spitfire-mk-ixc-revell-schaal-1-32-bouwpakket-revell-luchtvaart/9200000079482746/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 66,
+      "commissionPct": null,
+      "notes": "Prijs € 30,82, verkoper Most-Models.com, levertekst 'Voor 19:00 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Verf en lijm niet inbegrepen (zelf aan te schaffen).",
+      "verified": true
+    }
+  },
+  {
+    "slug": "ravensburger-puzzel-christmas-is-coming-1000-stukjes",
+    "title": "Ravensburger puzzel Christmas is Coming! 1000 stukjes",
+    "merchantTitle": "Ravensburger puzzel Christmas is Coming! - Legpuzzel - 1000 stukjes",
+    "brand": "Ravensburger",
+    "ean": "4005556165117",
+    "short": "Een kerstpuzzel van 1000 stukjes voor de donkere dagen.",
+    "description": "Een Ravensburger-legpuzzel met een kerstthema en 1000 stukjes. Puzzelen is een rustige bezigheid voor tussen kerst en nieuwjaar. Een gezellig cadeau voor moeder of oma die graag puzzelt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/ravensburger-puzzel-christmas-is-coming-legpuzzel-1000-stukjes/9300000004863296/",
+    "priceCents": 2900,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 2,
+    "deliveryDaysMax": 3,
+    "recipients": [
+      "moeder",
+      "opa-oma"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "spellen",
+      "creatief"
+    ],
+    "occasions": [
+      "kerst",
+      "sinterklaas"
+    ],
+    "rating": {
+      "score": 4.9,
+      "count": 32,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/ravensburger-puzzel-christmas-is-coming-legpuzzel-1000-stukjes/9300000004863296/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 70,
+      "commissionPct": null,
+      "notes": "Prijs € 29,00, verkoper speelgoedbreda.nl, levertekst 'Voor 15:00 uur besteld, dinsdag in huis' gezien op productpagina 2026-11-20. Prijs ligt hoger dan andere aanbiedingen van deze puzzel op bol; vóór publicatie prijs vergelijken.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "makita-dtm50z-accu-multitool-18v-body",
+    "title": "Makita DTM50Z accu-multitool 18V (losse body)",
+    "merchantTitle": "Makita 18V li-Ion Multitool DTM50z body - Losse Body (geleverd zonder accu en lader)",
+    "brand": "Makita",
+    "ean": "0088381666022",
+    "short": "Een accu-multitool voor zagen, schuren en snijden, geleverd zonder accu en lader.",
+    "description": "Een veelzijdig gereedschap voor wie nauwkeurig werk doet, zoals zagen of schuren in lastige hoeken. Let op: het apparaat wordt zonder accu en lader geleverd en past op de 18V-accu's van Makita. Een goed cadeau voor een vader die al Makita-accu's heeft.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/makita-18v-li-ion-multitool-dtm50z-body-losse-body/9200000055578768/",
+    "priceCents": 13219,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "vader"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.8,
+      "count": 5,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/makita-18v-li-ion-multitool-dtm50z-body-losse-body/9200000055578768/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 60,
+      "commissionPct": null,
+      "notes": "Prijs € 132,19, verkoper bol, levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Losse body: accu en lader niet inbegrepen.",
+      "verified": true
+    }
+  },
+  {
+    "slug": "makita-djv184z-accu-decoupeerzaag-18v-body",
+    "title": "Makita DJV184Z accu-decoupeerzaag 18V (losse body)",
+    "merchantTitle": "Makita DJV184Z Accu Decoupeerzaag 18V LXT - D-greep - Koolborstelloos",
+    "brand": "Makita",
+    "ean": "0088381762533",
+    "short": "Een accu-decoupeerzaag met D-greep, geleverd zonder accu en lader.",
+    "description": "Een decoupeerzaag voor hout, metaal en kunststof met een D-greep voor goede controle. Het apparaat wordt zonder accu en lader geleverd en past op Makita 18V-accu's. Geschikt voor een vader die graag hobbymatig in hout werkt.",
+    "type": "affiliate",
+    "merchant": "bol",
+    "merchantUrl": "https://www.bol.com/nl/nl/p/makita-djv184z-accu-decoupeerzaag-d-greep-18-v-basic-body/9300000103416232/",
+    "priceCents": 14663,
+    "priceCheckedAt": "2026-11-20",
+    "deliveryDaysMin": 1,
+    "deliveryDaysMax": 2,
+    "recipients": [
+      "vader"
+    ],
+    "ageGroups": [
+      "volwassen"
+    ],
+    "interests": [
+      "bouwen",
+      "thuis"
+    ],
+    "occasions": [
+      "sinterklaas",
+      "kerst"
+    ],
+    "rating": {
+      "score": 4.3,
+      "count": 18,
+      "source": "bol.com productpagina (gezien 2026-11-20)"
+    },
+    "imageUrl": null,
+    "imageLicense": null,
+    "sources": [
+      "https://www.bol.com/nl/nl/p/makita-djv184z-accu-decoupeerzaag-d-greep-18-v-basic-body/9300000103416232/"
+    ],
+    "status": "actief",
+    "scout": {
+      "score": 62,
+      "commissionPct": null,
+      "notes": "Prijs € 146,63, verkoper Cotebrico (via bol), levertekst 'Voor 23:59 uur besteld, morgen in huis' gezien op productpagina 2026-11-20. Losse body: accu en lader niet inbegrepen.",
       "verified": true
     }
   }
