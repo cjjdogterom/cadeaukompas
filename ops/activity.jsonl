@@ -220,3 +220,7 @@
 {"ts":"2026-11-20T12:29:28+01:00","agent":"compliance","type":"klaar","summary":"Hertoets 12:15: 69 productteksten en 2 gidsen getoetst, 0 blokkerend, 7 adviezen (T1–T7); 12 productteksten en 1 gids-FAQ direct aangepast; rapport in ops/reports/compliance-2026-11-20.md"}
 {"ts":"2026-11-20T12:29:28+01:00","agent":"orchestrator","type":"probleem","summary":"Vercel-status niet meer te controleren: de Vercel-koppeling van de agents heeft geen toegang meer tot het team (403). Eigenaar moet het project terugzetten en de toegang opnieuw geven"}
 {"ts":"2026-11-20T12:29:28+01:00","agent":"orchestrator","type":"klaar","summary":"Ronde 12:15: +65 cadeaus in de data (1370 actief), 2 gidsen, compliance-hertoets zonder blokkerende punten. SITE NOG OFFLINE: 209 actieve cadeaus zonder foto/EAN, bol-verrijking en bezorgdatums niet gedraaid"}
+{"ts":"2026-11-20T13:15:00+01:00","agent":"orchestrator","type":"gestart","summary":"Agent-ronde 13:15: 2 scouts, seo-content, compliance (site nog offline)"}
+{"ts":"2026-11-20T13:15:00+01:00","agent":"product-scout","type":"gestart","summary":"2 scouts: ~35 bol-cadeaus moeder/oma/vrouw (spellen, sport, muziek, tech, €50–100) + ~35 jongens (muziek, sport, tech, koken) en vaders (onder €15, creatief, spellen, gereedschap)"}
+{"ts":"2026-11-20T13:15:00+01:00","agent":"seo-content","type":"gestart","summary":"2 nieuwe cadeaugidsen voor dunne zoekthema’s"}
+{"ts":"2026-11-20T13:15:00+01:00","agent":"compliance","type":"gestart","summary":"Toetsing van de productteksten en gidsen van deze ronde"}
