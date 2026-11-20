@@ -254,3 +254,4 @@
 {"ts":"2026-11-20T16:15:00+01:00","agent":"orchestrator","type":"gestart","summary":"Agent-ronde 16:15: 2 scouts, seo-content, daarna catalogus en compliance (site nog offline)"}
 {"ts":"2026-11-20T16:15:00+01:00","agent":"product-scout","type":"gestart","summary":"2 scouts: ~35 moeder/oma/vrouw (spellen, sport, muziek, tuin/bouwen, opa-oma tech) + ~35 jongens (sport, muziek, tech, keuken, €50–100), vaders (gamen, creatief, wellness, onder €15)"}
 {"ts":"2026-11-20T16:15:00+01:00","agent":"seo-content","type":"gestart","summary":"2 nieuwe cadeaugidsen voor dunne zoekthema’s"}
+{"ts":"2026-11-20T16:40:00+01:00","agent":"compliance","type":"gestart","summary":"Toetsing van de 65 nieuwe productteksten en 2 gidsen van ronde 16:15"}

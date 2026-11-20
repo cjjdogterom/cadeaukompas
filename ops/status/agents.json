@@ -26,8 +26,8 @@
       "blockedBy": "Alleen affiliate (keuze eigenaar 17-11): geen leveranciers nodig"
     },
     "catalogus": {
-      "status": "geblokkeerd",
-      "currentTask": "362 actieve cadeaus verrijken met foto, EAN en prijs via bol zodra de site weer online is, daarna bezorgdatums opwarmen",
+      "status": "bezig",
+      "currentTask": "70 nieuwe cadeaus geïmporteerd; compliance-toets afwachten",
       "lastRunAt": "2026-11-20T15:32:56+01:00",
       "lastResult": "52 geactiveerd, 2 daarvan terug op concept na compliance (Carrera Mario Kart, Denver seniorentelefoon: productgegevens nakijken); 4 niet geïmporteerd (score onder 60); 2 concept (prijs/pagina niet zelf gezien); 7 ratings op null (1–2 reviews). 1523 actief",
       "nextRun": "Elke agent-ronde",
@@ -98,8 +98,8 @@
       "blockedBy": "Supabase en affiliate-accounts (owner-todo #3, #4, #8)"
     },
     "compliance": {
-      "status": "gepland",
-      "currentTask": null,
+      "status": "bezig",
+      "currentTask": "Toetsing van de 65 nieuwe productteksten en 2 gidsen van ronde 16:15",
       "lastRunAt": "2026-11-20T16:05:00+01:00",
       "lastResult": "Hertoets 15:15: 52 actieve producten en 2 gidsen getoetst; 1 blokkerend punt (aanbiedingsclaim) opgelost, 4 adviezen (U-15.1–U-15.4); 22 productteksten en 1 gidszin aangepast; GO",
       "nextRun": "Volgende ronde",
