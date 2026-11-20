@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-20T11:15:00+01:00",
+  "updatedAt": "2026-11-20T11:32:54+01:00",
   "agents": {
     "orchestrator": {
-      "status": "bezig",
-      "currentTask": "Agent-ronde 11:15: 2 scouts, seo-content, compliance",
-      "lastRunAt": "2026-11-20T10:34:41+01:00",
-      "lastResult": "Ronde 10:15: +70 cadeaus in de data (1231 actief), 2 gidsen, 25 varianten gecontroleerd. SITE OFFLINE: Vercel-project ontbreekt, bol-verrijking en bezorgdatums niet gedraaid",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T11:32:54+01:00",
+      "lastResult": "Ronde 11:15: +75 cadeaus in de data (1306 actief), 2 gidsen, compliance-hertoets zonder blokkerende punten, 17 teksten aangepast. SITE NOG OFFLINE: 145 actieve cadeaus zonder foto/EAN, bol-verrijking en bezorgdatums niet gedraaid",
       "nextRun": "Elk uur 08–22",
       "blockedBy": "Site offline: Vercel-project ‘cadeaukompas’ bestaat niet meer (owner-todo 0)"
     },
     "product-scout": {
-      "status": "bezig",
-      "currentTask": "2 scouts: ~35 bol-cadeaus tieners onder €15 + gamen/muziek + 0–3 jaar; ~35 vaders onder €15 (klein gereedschap), sport, koken, moeder/oma",
-      "lastRunAt": "2026-11-20T10:34:41+01:00",
-      "lastResult": "3 scouts: 87 bol-cadeaus gecontroleerd op de productpagina (30 kinderen: 0–3 jaar, games PEGI 3/7, controllers, step, skateboard; 26 moeder/oma/vader: Bosch, Ledlenser, Smeg, Beurer, Le Creuset, Kenwood; 31 thuiswerker/collega/vrouwen: Logitech, Moleskine, Pilot, thee, Sony, JBL). Dun gebleven: gaming-headsets, Nerf, 0–3 van Chicco/Janod, Rituals/Weleda-sets, Wiha/Bahco (niet leverbaar bij bol)",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T11:32:54+01:00",
+      "lastResult": "3 scouts: 81 bol-cadeaus gecontroleerd op de productpagina (14 tiener/gamen/muziek/0–3 jaar; 35 vader/sport/koken/moeder/oma: Stanley, Bosch, Weber, Beurer, Sonicare, Kobo; 32 tiener/thuiswerker/creatief: boeken, UNO, Stabilo, Posca, Hori, Anker, Logitech). Dun gebleven: tieners onder €25, 0–3 jaar, vaders onder €15 (veel ‘niet leverbaar’ bij bol)",
       "nextRun": "Elke agent-ronde (elk uur)",
       "blockedBy": null
     },
@@ -27,9 +27,9 @@
     },
     "catalogus": {
       "status": "geblokkeerd",
-      "currentTask": "70 nieuwe cadeaus verrijken met foto, EAN en prijs via bol zodra de site weer online is (node scripts/bol-enrich.mjs --only-missing), daarna bezorgdatums opwarmen",
-      "lastRunAt": "2026-11-20T10:34:41+01:00",
-      "lastResult": "70 nieuwe cadeaus actief in de data (13 niet geïmporteerd: score onder 60; 4 op concept: variant onduidelijk), nog zonder foto/EAN uit de bol-API. 29 variant-notities nagelopen: 25 bijgewerkt, 4 op concept (JBL Junior 320BT, JVS bakvormen, Makita Makpac, Gym Masters kettlebells). 1231 actief",
+      "currentTask": "145 nieuwe cadeaus verrijken met foto, EAN en prijs via bol zodra de site weer online is (node scripts/bol-enrich.mjs --only-missing), daarna bezorgdatums opwarmen",
+      "lastRunAt": "2026-11-20T11:32:54+01:00",
+      "lastResult": "75 nieuwe cadeaus actief in de data (5 niet geïmporteerd: score onder 60), nog zonder foto/EAN uit de bol-API. 17 productteksten aangepast op advies van compliance (gezondheids-, vergelijkende en ‘nieuwste’-claims, gender, spelling). 1306 actief",
       "nextRun": "Elke agent-ronde",
       "blockedBy": "Site offline: Vercel-project ‘cadeaukompas’ bestaat niet meer (owner-todo 0)"
     },
@@ -50,10 +50,10 @@
       "blockedBy": "Mollie-testsleutel en Supabase (owner-todo #8, #9)"
     },
     "seo-content": {
-      "status": "bezig",
-      "currentTask": "2 nieuwe cadeaugidsen voor dunne zoekthema’s",
-      "lastRunAt": "2026-11-20T10:34:41+01:00",
-      "lastResult": "Gidsen ‘Cadeau voor een collega onder €15’ en ‘Cadeau voor een thuiswerker van €25 tot €50’ toegevoegd en gekoppeld in 4 gidsen (nog niet zichtbaar: site offline)",
+      "status": "gepland",
+      "currentTask": null,
+      "lastRunAt": "2026-11-20T11:32:54+01:00",
+      "lastResult": "Gidsen ‘Cadeau voor een tiener onder €15’ en ‘Sportcadeau voor een sportieve vader’ toegevoegd en gekoppeld in 4 gidsen (nog niet zichtbaar: site offline)",
       "nextRun": "Volgende ronde",
       "blockedBy": null
     },
@@ -98,10 +98,10 @@
       "blockedBy": "Supabase en affiliate-accounts (owner-todo #3, #4, #8)"
     },
     "compliance": {
-      "status": "bezig",
-      "currentTask": "Toetsing van de gidsen en productteksten die vandaag zijn toegevoegd",
-      "lastRunAt": "2026-11-20T01:35:00+01:00",
-      "lastResult": "26 gidsen en 999 productteksten getoetst: 3 blokkerende punten (opgelost door catalogus), 15 adviezen open; rapport in ops/reports/compliance-2026-11-20.md",
+      "status": "gepland",
+      "currentTask": "Hertoets na verwerking A1 en A3–A14; A2 (bedenktijd/garantie) staat nog open",
+      "lastRunAt": "2026-11-20T11:32:54+01:00",
+      "lastResult": "Hertoets 11:15: 262 nieuwe productteksten en 7 gidsen getoetst, 0 blokkerend, 13 adviezen (tekstadviezen grotendeels verwerkt; open: leeftijd Smoby-garage, intro bouwgids, 10 populariteitsclaims); rapport in ops/reports/compliance-2026-11-20.md",
       "nextRun": "Volgende ronde",
       "blockedBy": "Akkoord eigenaar op tekstwijzigingen (ops/approvals/2026-11-18-compliance-teksten-hertoets.md)"
     }

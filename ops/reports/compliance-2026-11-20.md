@@ -161,3 +161,97 @@ Nee. Alle fixes betreffen productdata (Catalogus), gidsteksten (SEO-content) of 
 ---
 
 **COMPLIANCE: BLOCK.** Dit geldt alleen voor de productteksten en indeling in B1–B3: 25 actieve producten, met een kleine datafix voor Catalogus. De 26 gidsen zelf hebben geen blokkerend punt. De adviezen A1 (vóór 2 december) en A2–A15 kunnen in de volgende rondes.
+
+---
+
+## Hertoets 20-11, ronde 11:15
+
+Agent: Compliance · Werkkopie `main` (commit b5dff84). Ik heb alleen gelezen. Er zijn geen productteksten, gidsen, code, juridische pagina's of statusbestanden gewijzigd. Dit is geen formeel juridisch advies.
+
+### Wat is getoetst
+- **Producten: 262 actieve producten** in `data/products.json`, r. 52175–65241. Dat is alles na het laatste product uit de toets van 01:35 (`buki-scheikunde-150-experimenten`, r. 52127). Per product heb ik title, short en description volledig gelezen. Bij speelgoed, games en babyproducten heb ik ook `ageGroups` gecontroleerd. Concept- en gepauzeerde producten in dit blok heb ik meegelezen, maar niet meegeteld.
+- **Trefwoordscan over alle 1231 actieve producten** op korting, deal, adviesprijs, Black Friday, voorraad bijna op, prijsoordelen, superlatieven, populariteit en reviews, gezondheid, duurzaamheid, garantie en levertijd.
+- **Gidsen (7)**, alle toegevoegd op 20-11 in `lib/guides.ts`: `verwencadeau-voor-opa-en-oma` (r. 333), `sinterklaascadeau-voor-moeder` (r. 874), `kerstcadeau-kinderen-8-12` (r. 898), `bouwcadeau-voor-volwassenen` (r. 922), `cadeau-tiener-15-25-euro` (r. 947), `cadeau-collega-onder-15-euro` (r. 972) en `cadeau-thuiswerker-25-50-euro` (r. 995). De 2 gidsen waar SEO-content nu (11:15) aan werkt, zaten nog niet in het bestand en zijn dus niet getoetst.
+- Ook gekeken naar de weergave: `app/(shop)/gids/[slug]/page.tsx` (filter op budget via `priceCents` en `BudgetNote`) en `components/CardDeadline.tsx`.
+
+### Wat goed is
+- **B1 en B2 van 01:35 zijn opgelost.** In title, short en description van actieve producten staat geen "korting", "adviesprijs", "dagdeal", "Black Friday", "nu gunstig" of "voorraad bijna op" meer. Zulke informatie staat alleen nog in `scout.notes`, en die zijn niet publiek.
+- **Nieuwe teksten bevatten geen prijs-, schaarste- of levertijdclaims.** Er staat nergens "morgen in huis", "op tijd", "gratis verzending", "op=op" of "laatste kans".
+- **Alleen bol.** Alle nieuwe actieve producten hebben `merchant: "bol"`.
+- **Leeftijd 0–3 is in orde.** Er zitten 18 nieuwe actieve producten in de groep 0–3 (VTech Baby, Fisher-Price, Tiny Love, Janod, DUPLO, Nijntje-boek, Hudora-step, Smoby-garage). Die noemen allemaal 0–36 maanden, vanaf de geboorte, vanaf 3, 6 of 9 maanden, of vanaf 1 of 2 jaar. Er staat geen 3+-speelgoed in 0–3. `brio-luxe-treinset-33727` ("niet geschikt voor kinderen onder 3 jaar") en de PlayMais-sets (3+) staan correct alleen in 4–7.
+- **Games noemen de PEGI-leeftijd**, meestal al in de short. `god-of-war-ragnarok-ps5` (PEGI 18) staat alleen in "volwassen". `saros-ps5` (PEGI 16) noemt in de short "vanaf 16 jaar".
+- **Veiligheid bij kinderproducten wordt goed vermeld:** krimpfolie en FIMO onder toezicht, magnetisch dartbord "zonder scherpe punt", skateboard "combineer met beschermers", walkie-talkiebereik "onder ideale omstandigheden".
+- **Massageproducten** (`beurer-mg-139-…`, `beurer-fm-60-…`) beschrijven ontspanning en geen behandeling. Daarmee volgen ze A3.
+- **Gidsen:** geen superlatieven, geen nepschaarste en geen verzonnen reviews. Overal staat "wij sturen je door en verkopen zelf niets" en "controleer de levertijd bij de winkel". De datum van pakjesavond klopt: 5 december 2026 is een zaterdag. De collegagids waarschuwt terecht voor verzendkosten onder een minimumbedrag. Dat helpt bij de prijsaanduiding. Bij de kerstgids voor kinderen van 8 tot 12 staat "check de leeftijdsaanduiding op de verpakking".
+
+### Blokkerende punten
+**Geen.** Geen van de nieuwe teksten of gidsen valt onder een [blokkerend] checklistpunt of onder de blokkerende categorieën van 01:35 (B1 korting, B2 voorraad, B3 3+ in 0–3).
+
+### Adviezen
+
+**H1. Review- en populariteitsclaims zonder bron (zoals A4).** Regel: "Geen nepreviews; reviewscores alleen met bron en aantal". De rating staat al met bron en aantal in het `rating`-veld.
+
+| Slug (r.) | Citaat | Voorstel |
+|---|---|---|
+| `tomodachi-life-nintendo-switch` (55386) | "Het wordt door kopers hoog gewaardeerd." | Schrappen. |
+| `suzanne-collins-sunrise-on-the-reaping-engels` (58574) | "Een gewild boek voor onder de boom." | "Een boek voor onder de boom voor fans van de reeks." |
+| `guinness-world-records-2027-nl` (58814) | "Een geliefd cadeau voor kinderen die…" | "Een cadeau voor kinderen die…" |
+| `rutger-thomas-paco-1-de-magische-halsband` (58910) | short: "Het eerste deel van de populaire serie…" | "Het eerste deel van de serie van Rutger, Thomas en Paco, als paperback." |
+| `het-leven-van-een-loser-20-partypooper` (59004–59005) | short: "Het nieuwste deel van de populaire dagboekreeks…"; "Een zekere keuze voor wie…" | short: "Deel 20 van de dagboekreeks vol cartoons, in hardcover."; "Een logische keuze voor wie…" |
+| `pieter-koolwijk-een-rugzak-vol` (59423) | "Een goed gewaardeerd boek voor onder de boom." | "Een boek voor onder de boom." |
+| `jochem-myjer-de-gorgels-en-het-geheim-van-de-gletsjer` (59697) | "Een populair cadeau voor kinderen vanaf 8 jaar…" | "Een cadeau voor kinderen vanaf 8 jaar…" |
+| `god-of-war-ragnarok-ps5` (61687) | "Een vaste favoriet voor wie…" | "Een keuze voor volwassen spelers die…" |
+| `bialetti-moka-express-4-kops` (53886) | "Een bewezen keuze voor wie…" | "Een klassieke keuze voor wie…" |
+| `logitech-c920s-hd-pro-webcam` (64913) | "Een veelgebruikte webcam…" | "Een webcam…" |
+
+**H2. Gezondheids- en ergonomieclaims bij producten die geen medisch hulpmiddel zijn (zoals A3).** Kader: Reclamecode, geen medische werking suggereren.
+- `fellowes-premium-gel-polssteun-verstelbaar-grijs` (r. 64118): "Een nuttig cadeau voor iemand met klachten door lang typen." Dit suggereert dat het product helpt tegen klachten (RSI). Voorstel: "Een nuttig cadeau voor iemand die veel typt."
+- `fellowes-crystal-gel-polssteun-toetsenbord-paars` (r. 64073), short: "…die de polsen ontlast tijdens het typen…". Voorstel: "Een zachte gelsteun om je polsen op te laten rusten tijdens het typen, in een vrolijk paars."
+- `dutchone-laptopstandaard-aluminium-zwart` (r. 64564): "…en je nek ontspannener." Voorstel: "Zo staat je scherm hoger, dichter bij ooghoogte."
+
+**H3. Vage duurzaamheidsclaims.** Kader: ACM Leidraad Duurzaamheidsclaims. Zeg wat je bedoelt, of laat het weg.
+- `wera-kraftform-schroevendraaierset-6-delig` (r. 53445): "Een duurzaam cadeau…". Voorstel: "Een cadeau dat lang meegaat, voor een vader of opa…".
+- `klean-kanteen-classic-800-ml-flip-sport-cap-sea-spray` (r. 65156): "Een duurzaam cadeau voor wie veel water drinkt of sport." Voorstel: "Een herbruikbare fles voor wie veel water drinkt of sport." ("herbruikbaar" klopt en is concreet.)
+
+**H4. Vergelijkende en absolute claims zonder onderbouwing.**
+- `bose-soundlink-flex-gen-2` (r. 54681): "klinkt voller dan de meeste kleine boxen". Voorstel: "Hij is stevig gebouwd en heeft een volle klank voor zijn formaat."
+- `brabantia-tasty-keukenweegschaal-digitaal-dynamo` (r. 54433), short: "…dus nooit meer lege batterijen." Voorstel: "…dus je hebt geen batterijen nodig."
+
+**H5. Tijdgebonden woorden in statische tekst.** "Nieuwste" en "nieuw" worden vanzelf onwaar.
+- `richard-osman-moordclub-het-onmogelijke-fortuin` (r. 60559): "Het nieuwste Nederlandstalige deel…". Voorstel: "Een Nederlandstalig deel uit de Moordclub-reeks, met veel humor."
+- `saros-ps5` (r. 55433): "Nieuwe PlayStation 5-game van Sony…". Voorstel: "PlayStation 5-game van Sony (PEGI 16), voor spelers vanaf 16 jaar."
+- `het-leven-van-een-loser-20-partypooper`: zie H1.
+
+**H6. Leeftijdsindeling (geen 3+ in 0–3, wel kleine punten).**
+- `smoby-little-smoby-garage` (r. 61819–61832) staat in 0–3, maar de tekst noemt geen leeftijd ("gemaakt voor de kleinste bestuurders"). In de eigen notitie staat: beschrijving vanaf 18 maanden, specificaties 2 jaar. Voorstel short: "Een speelgarage met verdiepingen, wasstraat en pomp, vanaf 18 maanden volgens de fabrikant." En in de description "de kleinste bestuurders" vervangen door "peuters vanaf 18 maanden". Bij twijfel over 18 maanden of 2 jaar: "vanaf 2 jaar" aanhouden.
+- `sackboy-a-big-adventure-ps5` (r. 62053–62066), PEGI 7, staat in 4–7. De description noemt "vanaf 7 jaar", maar de short niet. Voorstel short: "Een vrolijk springspel voor PS5 (PEGI 7) dat alleen of met vrienden en familie te spelen is." Of "4-7" weghalen. Dit is hetzelfde type punt als A9.
+- `brio-luxe-treinset-33727` (r. 61957), short: "…die ook voor kleine handen makkelijk werkt." Het product is 3+, dus "kleine handen" kan doen denken aan een peuter. Voorstel: "…die ook voor kinderen vanaf 3 jaar makkelijk werkt."
+- `lego-ninjago-geheimen-van-de-ninja-boek` (r. 58107, 7+ met minifiguur) en `geronimo-stilton-fantasia-xix` (r. 58060, 7+) staan in 4–7. De leeftijd staat in de description, dus dit is een licht punt. Overweeg "4-7" weg te halen.
+
+**H7. Genderformulering (zoals A14).**
+- `hyperx-cloud-jet-draadloze-gaming-headset` (r. 55287): "Een praktisch cadeau voor een jongen die online speelt." Voorstel: "…voor een tiener die online speelt."
+- `kapitein-onderbroek-2-aanval-van-de-pratende-plees` (r. 58155): "Een geschikt boek voor jongens die liever lachen dan lang lezen." Voorstel: "…voor kinderen die liever lachen dan lang lezen."
+
+**H8. Twijfel over het product in de publieke tekst (zoals A11).**
+- `pukka-herbal-favourites-collection-30-theezakjes` (r. 64664): "De paginatitel en omschrijving verschillen licht over de exacte theesoorten." Voorstel (Catalogus): opnieuw controleren en de zin schrappen. Lukt dat niet, dan "vijf soorten" laten staan zonder smaken te noemen, of het product pauzeren.
+
+**H9. Gids `bouwcadeau-voor-volwassenen`: de intro past niet bij het filter.** De intro (r. 929) zegt "In deze selectie staan bouwsets voor volwassenen: van LEGO-boeketten … tot modelbouw". Het filter `{ leeftijd: "volwassen", interesse: "bouwen" }` (r. 931) haalt ook gereedschap binnen dat Catalogus als "bouwen" labelt, zoals `stanley-fatmax-griptang-gebogen-bek-250mm` (interests `bouwen`, `thuis`). Een gids die iets anders toont dan hij belooft, kan als misleidend worden gezien. Het risico is klein, maar het is ook slecht voor de bezoeker. Voorstel: (a) Developer of SEO-content gebruikt een eigen interesse of tag voor bouwsets (bijvoorbeeld `bouwsets`), of (b) Catalogus haalt `bouwen` weg bij gereedschap en zet daar `klussen` of `thuis`, of (c) de intro wordt "bouwsets, modelbouw en gereedschap voor wie graag zelf iets maakt".
+
+**H10. Kleine gidstekstpunten.**
+- `cadeau-tiener-15-25-euro`, FAQ r. 966: "Bij elk product zie je de uiterste besteldatum voor beide feestdagen." De kaart toont er maar één, eerst Sint en daarna kerst (`CardDeadline.tsx` r. 8–16). Alleen de productpagina toont beide. Voorstel: "Op de pagina van elk cadeau zie je de uiterste besteldatum voor Sinterklaas en voor kerst."
+- `cadeau-tiener-15-25-euro`, FAQ r. 965 ("Veel gezinnen kiezen een bedrag tussen €15 en €25") en `cadeau-collega-onder-15-euro`, FAQ r. 989 ("Veel teams spreken een bedrag tussen €10 en €25 af"): dit zijn feitelijke claims zonder bron. Het risico is laag. Voorstel: "Een bedrag tussen €15 en €25 komt vaak voor" / "Bedragen tussen €10 en €25 komen vaak voor", of de zin weglaten.
+
+**H11. Spelling.**
+- `sony-wh-ch735n-noise-cancelling-koptelefoon` (r. 65057): "kantoorkrijger" moet "kantoorwerker" of "thuiswerker" zijn.
+- `stanley-fatmax-blade-armor-rolbandmaat-5m` (r. 53198): "Een stevige meetlint" moet "Een stevig meetlint" zijn.
+
+**H12. Concept en gepauzeerd: aanpassen vóór activeren.**
+- `fresh-n-rebel-bold-m2-bluetooth-speaker-blauw` (gepauzeerd, r. 54831): "voor een zacht prijsje" is een prijsoordeel (zoals A13). Voorstel: "…van een Nederlands merk."
+- `karcher-wv-6-plus-ruitenreiniger` (concept, r. 63452): "Een cadeau waar vooral thuiswonende moeders en vaders blij mee zijn." Dit is een rollenpatroon en de zin loopt niet. Voorstel: "Een praktisch cadeau voor wie zelf de ramen lapt."
+
+**H13. Levertijden van ronde 10:15 controleren vóór de site weer live gaat.** Volgens `ops/activity.jsonl` (r. 200) zijn de bol-verrijking en de bezorgdatums in ronde 10:15 niet gedraaid. De kaarten rekenen de besteldatum uit `deliveryDaysMax` (regel: "Levertijd en 'bestel uiterlijk'-datum kloppen met `lib/deadlines.ts`"). Voorstel (Catalogus/Developer): ververs vóór de herlancering de levertijd en prijs van de 70 producten uit die ronde. Een `priceCheckedAt` ouder dan 48 uur verbergt de prijs al automatisch.
+
+### Akkoord nodig?
+Nee. Alle adviezen gaan over productdata (Catalogus), gidsteksten (SEO-content) of het gidsfilter (Developer). Er worden geen juridische pagina's of voorwaarden geraakt.
+
+**COMPLIANCE: GO** voor de 262 nieuwe actieve productteksten en de 7 gidsen van 20-11. Er zijn geen blokkerende punten. De adviezen H1–H13 kunnen in de volgende rondes worden opgepakt. H6 (Smoby-garage) en H9 (bouwgids) bij voorkeur vóór de herlancering.

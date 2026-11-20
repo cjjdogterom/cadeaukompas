@@ -97,7 +97,7 @@ export const guides: Guide[] = [
     faq: [
       { q: "Wat is een leuk cadeau onder €15?", a: "Kleine spellen, iets lekkers, een goed boek of een handig gadget. Filter op voor wie om sneller iets te vinden." },
     ],
-    related: ["cadeau-onder-25-euro-collega", "sinterklaascadeau-tiener", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-baby-peuter", "cadeau-collega-onder-15-euro"],
+    related: ["cadeau-onder-25-euro-collega", "sinterklaascadeau-tiener", "cadeau-kinderen-4-7-jaar", "sinterklaascadeau-baby-peuter", "cadeau-collega-onder-15-euro", "cadeau-tiener-onder-15-euro"],
   },
   {
     slug: "sinterklaascadeau-kinderen-8-12",
@@ -376,7 +376,7 @@ export const guides: Guide[] = [
       { q: "Wat geef je als ik niet weet welke sport iemand doet?", a: "Kies iets dat bij bijna elke sport van pas komt, zoals een drinkfles of een foam roller. Die zijn nuttig voor wie hardloopt, fit blijft of yogaat." },
       { q: "Komt het cadeau op tijd voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend op basis van de verwachte levertijd, met een dag extra marge." },
     ],
-    related: ["cadeau-voor-partner", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "kerstpakket-thuiswerker", "muziekcadeau"],
+    related: ["cadeau-voor-partner", "cadeau-voor-moeder", "kerstcadeau-voor-vader", "kerstpakket-thuiswerker", "muziekcadeau", "sportcadeau-voor-vader"],
   },
   {
     slug: "cadeau-voor-wie-graag-kookt",
@@ -868,7 +868,7 @@ export const guides: Guide[] = [
       { q: "Wat is het verschil met de kerstgids voor je vader?", a: "Deze gids rekent met pakjesavond op 5 december. Bij elk cadeau zie je tot wanneer je kunt bestellen; staat er geen datum meer, dan komt het niet meer op tijd voor Sinterklaas. De kerstgids rekent met 24 december." },
       { q: "Tot wanneer kan ik bestellen voor pakjesavond?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag marge. Het cadeau moet uiterlijk vrijdag 4 december in huis zijn." },
     ],
-    related: ["kerstcadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "techcadeau", "sportcadeau-voor-volwassenen", "sinterklaascadeau-voor-moeder"],
+    related: ["kerstcadeau-voor-vader", "cadeau-vader-klussen-gereedschap", "techcadeau", "sportcadeau-voor-volwassenen", "sinterklaascadeau-voor-moeder", "sportcadeau-voor-vader"],
   },
   {
     slug: "sinterklaascadeau-voor-moeder",
@@ -966,7 +966,7 @@ export const guides: Guide[] = [
       { q: "Is dit cadeau ook geschikt voor Sinterklaas én kerst?", a: "Ja. Bij elk product zie je de uiterste besteldatum voor beide feestdagen. Controleer de levertijd bij de winkel voor het bestellen." },
       { q: "Wat is het verschil met de gids voor Sinterklaascadeaus voor tieners?", a: "Die gids toont cadeaus in alle prijsklassen. Deze gids laat alleen cadeaus tussen €15 en €25 zien." },
     ],
-    related: ["sinterklaascadeau-tiener", "kerstcadeau-voor-tiener", "gamecadeau-tiener-13-17", "cadeau-onder-15-euro"],
+    related: ["sinterklaascadeau-tiener", "kerstcadeau-voor-tiener", "gamecadeau-tiener-13-17", "cadeau-onder-15-euro", "cadeau-tiener-onder-15-euro"],
   },
   {
     slug: "cadeau-collega-onder-15-euro",
@@ -1013,6 +1013,56 @@ export const guides: Guide[] = [
       { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, inclusief een dag marge. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
     ],
     related: ["kerstpakket-thuiswerker", "cadeau-thuiswerker-50-100-euro", "cadeau-collega-onder-15-euro", "cadeau-onder-25-euro-collega"],
+  },
+  {
+    slug: "cadeau-tiener-onder-15-euro",
+    title: "Cadeau voor een tiener onder €15",
+    metaTitle: "Cadeau voor een tiener onder €15 | OpTijdCadeau",
+    metaDescription:
+      "Kleine cadeaus voor tieners tot €15: voor lootjes, schoencadeautjes of als extraatje. Met levertijd en uiterste besteldatum per cadeau.",
+    intro: [
+      "Bij lootjes of een schoencadeautje ligt het budget voor een tiener vaak laag, en juist dan moet het cadeau niet als een noodoplossing voelen. Tieners hebben een eigen smaak en merken snel wanneer iets lukraak is gekozen. Een klein cadeau werkt het best als het aansluit bij iets wat ze nu doen: gamen, tekenen, muziek luisteren of met vrienden een spel spelen.",
+      "In deze selectie staan cadeaus voor tieners die minder dan €15 kosten bij de winkel waar je bestelt. Denk aan een klein spel, iets voor op de kamer of een handig gadget voor telefoon en rugzak. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. De bezorging zelf ligt bij de winkel, dus controleer de levertijd op de winkelpagina nog even voor je bestelt. Wij sturen je door en verkopen zelf niets. Prijzen kunnen wijzigen; we tonen de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { voor: "tiener", budget: "tot-15" },
+    tips: [
+      "Tel eventuele verzendkosten mee. Onder een bepaald bedrag rekenen sommige winkels die apart, en dan zit je snel boven het budget.",
+      "Kies voor iets bij een interesse in plaats van kleding of geuren. Daar is de smaak te persoonlijk voor een klein budget.",
+      "Combineer twee kleine cadeaus tot één pakje, bijvoorbeeld iets te spelen en iets lekkers. Dat geeft meer uitpakplezier dan één duur ding.",
+      "Voeg een kort, grappig gedicht toe. Bij een laag budget maakt dat het cadeau persoonlijker.",
+    ],
+    faq: [
+      { q: "Wat geef je een tiener voor minder dan €15?", a: "Iets dat past bij wat de tiener nu doet: een klein spel, iets creatiefs, een gadget voor op de kamer of iets lekkers. Kijk naar de interesse in plaats van naar de leeftijd." },
+      { q: "Wat is een normaal budget voor een tiener bij lootjes?", a: "Dat spreek je af met de groep. Veel gezinnen kiezen een bedrag tussen €10 en €25. Houd je aan wat is afgesproken, zodat het eerlijk blijft." },
+      { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
+      { q: "Wat is het verschil met de gids voor €15 tot €25?", a: "Deze gids toont alleen tienercadeaus tot €15. In de gids voor €15 tot €25 staan duurdere cadeaus als je wat meer wilt uitgeven." },
+    ],
+    related: ["cadeau-tiener-15-25-euro", "sinterklaascadeau-tiener", "kerstcadeau-voor-tiener", "cadeau-onder-15-euro"],
+  },
+  {
+    slug: "sportcadeau-voor-vader",
+    title: "Sportcadeau voor een sportieve vader",
+    metaTitle: "Sportcadeau voor een sportieve vader | OpTijdCadeau",
+    metaDescription:
+      "Cadeaus voor vaders die graag sporten: hardlopen, fitness, fietsen en herstel. Met levertijd en uiterste besteldatum voor Sinterklaas en kerst.",
+    intro: [
+      "Een vader die veel sport, heeft meestal al een tas vol spullen, en toch is er vaak iets dat nog ontbreekt of aan vervanging toe is. Kijk eerst welke sport het is en hoe vaak hij gaat. Wie wekelijks hardloopt heeft andere wensen dan wie thuis traint of op zaterdag een stuk gaat fietsen.",
+      "In deze selectie staan cadeaus voor vaders die sporten, van spullen voor onderweg tot hulpmiddelen voor het herstel na een training. Let bij elektronica op de telefoon of het horloge dat hij al gebruikt, want niet elk apparaat werkt met elke app. Bij elk product zie je de levertijd en de uiterste besteldatum voor Sinterklaas of kerst, berekend per product. De bezorging zelf ligt bij de winkel, dus controleer de levertijd op de winkelpagina nog even voor je bestelt. Wij sturen je door en verkopen zelf niets. Prijzen kunnen wijzigen; we tonen de datum waarop we de prijs hebben gecontroleerd.",
+    ],
+    filters: { voor: "vader", interesse: "sport" },
+    tips: [
+      "Vraag stiekem aan een sportmaatje of een gezinslid wat er al in de tas zit, zodat je geen dubbel cadeau koopt.",
+      "Kies iets voor het herstel of voor onderweg, zoals een foam roller of een goede drinkfles. Dat gebruikt bijna iedere sporter.",
+      "Let bij elektronica op de aansluiting en de telefoon die hij gebruikt. Controleer dat op de productpagina bij de winkel.",
+      "Past maat of pasvorm een rol, bewaar dan de bon zodat hij kan ruilen.",
+    ],
+    faq: [
+      { q: "Wat geef je een vader die veel sport?", a: "Iets dat past bij zijn sport en het sporten prettiger maakt, zoals een drinkfles, sportoordopjes of een hulpmiddel voor het herstel. Kijk eerst wat hij al gebruikt." },
+      { q: "Wat geef ik als ik niet weet welke sport hij doet?", a: "Kies iets dat bij bijna elke sport van pas komt, zoals een foam roller of een goede fles. Die zijn nuttig voor wie hardloopt, fit blijft of fietst." },
+      { q: "Wat is het verschil met de gids voor sportieve volwassenen?", a: "Deze gids toont cadeaus die gemarkeerd zijn voor vaders. De algemene sportgids is breder en niet op een ontvanger gericht." },
+      { q: "Tot wanneer kan ik bestellen voor Sinterklaas of kerst?", a: "De uiterste besteldatum staat bij elk cadeau en wordt per product berekend, met een dag extra marge. Controleer de levertijd voor het bestellen ook nog even bij de winkel." },
+    ],
+    related: ["sportcadeau-voor-volwassenen", "sinterklaascadeau-voor-vader", "kerstcadeau-voor-vader", "cadeau-vader-klussen-gereedschap"],
   },
 ];
 
